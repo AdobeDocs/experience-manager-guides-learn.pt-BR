@@ -1,0 +1,79 @@
+---
+title: Controle de versão do conteúdo em [!DNL AEM Guides]
+description: Controle de versão do conteúdo em [!DNL Adobe Experience Manager Guides]
+exl-id: 766af002-d17b-4d27-b4d1-baaacc4579ca
+source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 1%
+
+---
+
+# Conteúdo de versão
+
+O controle de versão de um documento cria um instantâneo de seu estado atual. Criar várias versões de um tópico ou mapa permite que você acompanhe suas alterações e recupere o trabalho mais antigo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/336724?quality=12&learn=on)
+
+## Criação de uma nova versão
+
+1. Selecione o ícone Salvar como nova versão .
+
+   ![Ícone Salvar como nova versão](images/common/save-as-new-version.png)
+
+   A caixa de diálogo Salvar como nova versão é exibida.
+
+1. No campo Comentários para nova versão , insira um resumo breve, mas claro, das alterações.
+1. No campo Rótulos de versão , insira quaisquer rótulos relevantes.
+
+   Rótulos permitem especificar a versão que deseja incluir ao publicar.
+
+   >[!NOTE]
+   > 
+   > Se o seu programa estiver configurado com rótulos predefinidos, você poderá selecioná-los para garantir uma rotulagem consistente.
+1. Selecione **Salvar**.
+
+   Você criou uma nova versão do tópico e o número da versão é atualizado. A primeira versão de um documento será a versão 1.0.
+
+## Exibindo o Histórico da Versão
+
+Depois de ter várias versões do conteúdo, você pode explorar as diferenças entre elas.
+
+1. Selecione o ícone Histórico de versão na barra de ferramentas.
+
+   ![Ícone Histórico da versão](images/lesson-7/version-history.png)
+
+   A caixa de diálogo Histórico da versão é exibida.
+
+1. Selecione uma versão na lista suspensa para comparar a versão atual.
+
+   As alterações de versão para versão são indicadas.
+
+## Reverter para uma versão selecionada
+
+Se necessário, você pode selecionar uma versão e reverter para ela. Isso permite que você descarte a versão atual e volte a trabalhar com a anterior.
+
+1. Na caixa de diálogo Histórico de versão , selecione a versão para a qual deseja reverter na lista suspensa.
+1. Selecionar **Reverter para a versão selecionada**.
+
+A caixa de diálogo Reverter versão é exibida.
+
+1. Adicione um comentário descritivo sobre por que você está revertendo para uma versão anterior.
+1. Selecionar **Confirmar**.
+
+   Seu tópico foi revertido para a versão específica.
+
+## Uso de filtros para comparar versões
+
+Você também pode exibir as diferenças de versão na Visualização usando os filtros Rastreamento e Mostrar comparação no painel direito.
+
+1. Selecionar **Visualizar** na barra do menu superior.
+
+   ![Botão Visualizar](images/common/select-preview.png)
+
+   Seu tópico é aberto em Visualização.
+
+1. Na lista suspensa Rastreamento no painel direito, selecione **Mostrar Marcação**.
+1. Na lista suspensa Mostrar comparação , selecione a versão com a qual deseja comparar.
+
+   Suas alterações são exibidas como conteúdo formatado.

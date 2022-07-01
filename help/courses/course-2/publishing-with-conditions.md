@@ -1,0 +1,110 @@
+---
+title: Publicação com condições
+description: Publicar com condições com guias do Adobe Experience Manager
+exl-id: ea94824a-884b-447f-9562-e6c629b8133b
+source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 3%
+
+---
+
+# Publicação com condições
+
+A publicação condicional permite que uma fonte de conteúdo seja gravada para um ou mais públicos-alvo, produtos ou plataformas. Essas informações podem ser publicadas dinamicamente e apenas o conteúdo especificamente necessário pode ser incluído na saída.
+
+>[!VIDEO](https://video.tv.adobe.com/v/339041)
+
+## Preparação para o exercício
+
+Você pode baixar arquivos de amostra para o exercício aqui.
+
+[Exercício-Download](assets/exercises/publishing-with-conditions.zip)
+
+## Marcação de conteúdo com atributos condicionais
+
+1. Abra o tópico para modificar.
+
+2. Insira o texto que deve se tornar condicional. Por exemplo, um ou mais parágrafos, uma tabela inteira, uma figura ou outro conteúdo.
+
+   ![Apresentação de informações](images/presenting-info.png)
+
+3. Selecione o conteúdo específico ao qual atribuir um atributo condicional. Por exemplo, um único parágrafo na origem.
+
+   ![Opção de modelo](images/template-choice.png)
+
+4. No painel direito, verifique se as Propriedades são exibidas.
+
+5. Adicione um atributo para público-alvo, produto ou plataforma.
+
+6. Atribua um valor ao atributo. As atualizações de exibição de conteúdo para mostrar marcação condicional foram aplicadas.
+
+   ![Especificar modelo](images/specify-template.png)
+
+## Visualização de conteúdo condicional
+
+1. Clique em **Visualizar**.
+
+2. Em **Filtros**, selecione ou desmarque as condições para mostrar ou ocultar.
+
+3. Selecionar ou desmarcar **Texto de condições de realce**.
+
+   ![Conteúdo condicional de visualização](images/preview-conditional-content.png)
+
+## Criar uma predefinição de condição
+
+Uma predefinição de condição é uma coleção de propriedades que definem o que deve ser incluído ou excluído, ou de outra forma marcado, durante a geração da saída.
+
+1. No painel Mapa, selecione a opção **Predefinições de condição** guia .
+
+2. Clique em **Criar**.
+
+3. Selecionar **Adicionar** ou **Adicionar tudo**).
+
+4. Nomeie a condição.
+
+5. Selecione uma combinação de atributo, rótulo e ação.
+
+   ![Criar-condição-predefinição](images/create-condition-preset.png)
+
+6. Repita conforme necessário.
+
+7. Clique em **Salvar**.
+
+## Geração de saída condicional
+
+Depois que as condições tiverem sido aplicadas ao conteúdo, ele poderá ser gerado como saída. Isso pode usar uma Predefinição de condição ou um arquivo DITAval.
+
+## Geração de saída condicional usando uma predefinição de condição
+
+1. Selecione o **Predefinições de saída** guia .
+
+2. Selecione uma predefinição de saída.
+
+3. Clique em **Editar**.
+
+4. Em **Aplicar condição usando** selecione uma Predefinição de condição.
+
+   ![Gerar-Condicional-Saída](images/generate-conditional-output.png)
+
+5. Clique em **Concluído**.
+
+6. Gere a predefinição de saída e revise o conteúdo.
+
+## Geração de saída condicional usando um arquivo DITAval
+
+O arquivo DITAval pode ser usado para publicar conteúdo condicional. Isso requer que um arquivo seja criado ou carregado e, em seguida, referenciado na publicação.
+
+1. Selecione o **Predefinições de saída** guia .
+
+2. Selecione uma predefinição de saída.
+
+3. Clique em **Editar**.
+
+4. Em Aplicar condição usando , selecione um arquivo DITAval.
+
+   ![Generate-Using-DITAval](images/generate-using-ditaval.png)
+
+5. Clique em **Concluído**.
+
+6. Gere a predefinição de saída e revise o conteúdo.

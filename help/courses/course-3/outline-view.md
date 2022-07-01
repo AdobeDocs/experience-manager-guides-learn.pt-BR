@@ -1,0 +1,102 @@
+---
+title: Exibição da Estrutura de Tópicos
+description: Uso da Exibição de Estrutura de Tópicos em Guias AEM
+exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
+source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+workflow-type: tm+mt
+source-wordcount: '399'
+ht-degree: 0%
+
+---
+
+# Exibição da Estrutura de Tópicos
+
+A Exibição de Estrutura de Tópicos oferece uma ampla variedade de suporte ao trabalhar com um documento estruturado. Expanda e recolha a exibição, navegue pela estrutura, trabalhe com Atributos (por exemplo, para criar uma nova ID) e reorganize, desvincule e reestruture elementos ao clicar em um botão.
+
+>[!VIDEO](https://video.tv.adobe.com/v/342767)
+
+## Expandir e recolher a Vista de Estrutura de Tópicos
+
+Os elementos podem ser expandidos para mostrar elementos filho ou recolhidos conforme necessário.
+
+1. Clique no ícone apropriado para expandir ou recolher a Exibição da Estrutura de Tópicos.
+
+   ![Estrutura de Referência](images/lesson-6/outline-collapsed-before.png)
+
+   ![Subguias de Estrutura de Tópicos de Referência](images/lesson-6/outline-expanded-after.png)
+
+A exibição de estrutura alterna de expandida para recolhida.
+
+## Navegar usando a Exibição de Estrutura de Tópicos
+
+1. Clique em qualquer elemento para ir para esse local.
+
+2. Clique no botão [!UICONTROL **Elipse**] ao lado de um elemento para acessar as opções de atalho.
+
+   ![Menu de contexto](images/lesson-6/shortcut-options.png)
+
+## Atribuir uma ID usando a Exibição de Estrutura de Tópicos
+
+Uma nova ID pode ser gerada automaticamente com base na configuração do sistema. Usando as Propriedades de conteúdo, a ID e seu valor também podem ser atualizados, se necessário.
+
+1. Clique no botão [!UICONTROL **Elipse**] ao lado de qualquer elemento.
+
+2. Choose **Gerar IDs**.
+
+   ![Menu de contexto de reticências](images/lesson-6/ellipsis-popup.png)
+
+A ID é atribuída. As Propriedades de conteúdo são atualizadas e as informações do elemento e do atributo são exibidas.
+
+## Reorganizar elementos usando arrastar e soltar
+
+Os elementos podem ser reordenados na Exibição da Estrutura de Tópicos.
+
+1. Clique e arraste um elemento para outro local na Exibição da estrutura de tópicos.
+
+2. Solte o elemento sobre outro elemento para substituí-lo. Essa ação é indicada por uma caixa quadrada ao redor do elemento a ser substituído.
+
+   Ou
+
+   Solte o elemento entre dois outros elementos para alterar sua localização. Essa ação é indicada por uma linha entre elementos em que o novo elemento será descartado.
+
+## Renomear um elemento
+
+1. Selecione o elemento .
+
+2. Clique no botão [!UICONTROL **Elipse**].
+
+3. Selecionar **Renomear elemento**.
+
+   ![Menu de Contexto Renomear Elemento](images/lesson-6/rename-before.png)
+
+4. Clique duas vezes em um novo nome de elemento.
+
+O elemento foi renomeado.
+
+## Desvincular um elemento
+
+1. Selecione o elemento que deseja desvincular.
+
+2. Clique no botão [!UICONTROL **Elipse**].
+
+3. Selecionar [!UICONTROL **Desvincular elemento**].
+
+O conteúdo permanece, mas a estrutura foi removida.
+
+## Filtrar conteúdo usando a Exibição de Estrutura de Tópicos
+
+1. Clique no botão [!UICONTROL **Filtro**] ícone ao lado da barra de pesquisa na Exibição da Estrutura de Tópicos.
+
+   ![Filtros](images/lesson-6/filter-icon.png)
+
+2. Escolha um **Todos** para mostrar todos os elementos ou **Links quebrados** para localizar e corrigir referências quebradas.
+
+## Pesquisar com Exibição de Estrutura de Tópicos
+
+Uma pesquisa pode ser restrita e retornar resultados com base em um elemento, atributo ou valor.
+
+1. Digite o nome do elemento que deseja localizar na barra de pesquisa.
+
+   ![Barra de pesquisa](images/lesson-6/search-bar.png)
+
+2. Escolha o resultado mais relevante para suas necessidades.
