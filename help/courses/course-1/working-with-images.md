@@ -2,7 +2,7 @@
 title: Trabalhar com imagens em guias de AEM
 description: Trabalhar com imagens nos Guias do Adobe Experience Manager
 exl-id: 8b920a9a-bedb-434c-b6fb-3569ce4b7a81
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1f8fe099be2b4123eec6f7c973668b415097ac45
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -27,10 +27,10 @@ Você pode baixar o arquivo de imagem de exemplo de [aqui.](assets/working-with-
 
    ![Carregar ativos](images/lesson-4/upload-assets.png)
 
-
 1. Selecione a imagem que deseja carregar do sistema local e selecione **Abrir**.
 
    O [!UICONTROL Fazer upload de ativos] será exibida.
+
 1. Selecionar **Upload**.
 
 ## Inserção de uma imagem em um tópico
@@ -52,7 +52,6 @@ Para o seguinte, verifique se o tópico está aberto no editor de documentos.
 1. Selecione o **Inserir imagem** ícone .
 
    ![Ícone Inserir imagem](images/lesson-4/insert-image.png)
-
 
    A caixa de diálogo Inserir imagem é exibida.
 
@@ -88,9 +87,11 @@ Como você fez uma alteração significativa no seu tópico, agora pode ser úti
 1. No campo Rótulos de versão , insira quaisquer rótulos relevantes.
 
    Rótulos permitem especificar a versão que deseja incluir ao publicar.
+
    >[!NOTE]
    > 
    > Se o seu programa estiver configurado com rótulos predefinidos, você poderá selecioná-los para garantir uma rotulagem consistente.
+
 1. Selecione **Salvar**.
 
    Você criou uma nova versão do tópico e o número da versão é atualizado.

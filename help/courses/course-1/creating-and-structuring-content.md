@@ -2,7 +2,7 @@
 title: Criação de conteúdo em [!DNL AEM Guides]
 description: Criação de conteúdo em [!DNL Adobe Experience Manager Guides]
 exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6959927315c7afc62a7423e835a36895c76fdc6d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -24,6 +24,7 @@ Depois de se familiarizar com a interface do usuário, você pode começar a cri
 1. Selecione o **+** ícone e **Pasta**.
 
    ![+ ícone](images/lesson-3/+-icon.png)
+
 1. Dê um título à pasta.
 1. Selecione **Criar**.
 Você criou uma nova pasta, que agora é exibida no Repositório. Essa pasta será a sua página inicial para todo o conteúdo do curso.
@@ -37,6 +38,7 @@ Agora podemos criar uma pasta dentro da nova pasta para conter imagens ou outro 
    ![Ícone Elipsis](images/lesson-3/ellipses-icon.png)
 
    O menu Opções é exibido.
+
 1. Selecionar **Criar pasta \>**.
    ![Criação de uma subpasta](images/lesson-3/create-subfolder-with-markings.png)
 
@@ -49,6 +51,7 @@ Agora podemos criar uma pasta dentro da nova pasta para conter imagens ou outro 
    ![Ícone Elipsis](images/lesson-3/ellipses-icon.png)
 
    O Menu de opções é exibido.
+
 1. Selecionar **Criar \> Tópico**.
 
    ![Criação de um novo tópico](images/lesson-3/create-topic-with-markings.png)
@@ -93,6 +96,7 @@ Você pode salvar seu trabalho a qualquer momento com Salvar ou Salvar como nova
    >[!NOTE]
    > 
    > Se o seu programa estiver configurado com rótulos predefinidos, você poderá selecioná-los para garantir uma rotulagem consistente.
+
 1. Selecione **Salvar**.
 
    Você criou uma nova versão do tópico e o número da versão é atualizado.

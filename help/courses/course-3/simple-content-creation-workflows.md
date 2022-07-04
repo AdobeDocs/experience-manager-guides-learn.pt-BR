@@ -2,7 +2,7 @@
 title: Fluxos de trabalho de criação de conteúdo simples
 description: Criação de conteúdo nos guias de AEM
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 92c269c4a5f73317345bbd0ab247951656426ff4
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 2%
@@ -37,13 +37,13 @@ As imagens podem ser adicionadas diretamente de uma unidade local.
 
 3. Use **Propriedades de conteúdo** no painel lateral direito para modificar um
 
-   ・ escala
+   - scale
 
-   • position
+   - position
 
-   ・ alinhamento, ou
+   - alinhamento, ou
 
-   ・ outros atributos.
+   - outros atributos.
 
    ![Propriedades de conteúdo](images/lesson-15/content-properties.png)
 
@@ -98,7 +98,6 @@ Os usuários podem querer fazer o download de uma PDF do tópico atual para marc
 3. Selecionar **Localizar em**.
 
 4. Escolha um **Repositório** ou **Mapa** para ir para o local do tópico desejado.
-
 
 ## Versão de um tópico
 
@@ -183,7 +182,6 @@ O número da versão é atualizado.
    - O histórico de versões com rótulos é exibido à esquerda.
 
    ![Histórico da versão](images/lesson-15/version-history.png)
-
 
 4. Clique em uma versão para acessar opções como **Reverter para esta versão** e **Versão de visualização**.
 

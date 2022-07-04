@@ -2,7 +2,7 @@
 title: Rastrear alterações
 description: Rastreamento de alterações nos guias de AEM
 exl-id: 57779920-b3b4-44be-a1fb-89ea7c89eef7
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 7bc636b4aceee327d86cfa74a9f8e61e0ad0a1cf
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -92,9 +92,9 @@ Quando você trabalha em um ambiente de vários autores, pode ser difícil rastr
 
 4. Nas Opções, escolha:
 
-   ・ ・ **Rastrear Alterações Da Versão Selecionada**: Essa opção mostra todas as atualizações de conteúdo na forma de alterações rastreadas. Em seguida, você pode optar por aceitar ou rejeitar alterações no documento, uma de cada vez ou todas de uma vez.
+   - **Rastrear Alterações Da Versão Selecionada**: Essa opção mostra todas as atualizações de conteúdo na forma de alterações rastreadas. Em seguida, você pode optar por aceitar ou rejeitar alterações no documento, uma de cada vez ou todas de uma vez.
 
-   ・ ・ **Reverter para a versão selecionada**: Essa opção reverte a versão atual do documento para a versão selecionada. Ele não oferece controle sobre qual conteúdo é aceito ou rejeitado.
+   - **Reverter para a versão selecionada**: Essa opção reverte a versão atual do documento para a versão selecionada. Ele não oferece controle sobre qual conteúdo é aceito ou rejeitado.
 
 5. Clique em [!UICONTROL **Concluído**].
 

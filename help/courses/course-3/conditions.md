@@ -2,7 +2,7 @@
 title: Condições
 description: Trabalhar com condições nas guias de AEM
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 01083e771baced42146044bf319d3897a2c5f51b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -31,11 +31,11 @@ Os arquivos de amostra que você pode optar por usar para esta lição são forn
 
 5. Preencha os campos obrigatórios.
 
-   ・ O Nome deve corresponder a um atributo usado para criação de perfis.
+   - O Nome deve corresponder a um atributo usado para criação de perfis.
 
-   ・ O valor é a entrada exata que será usada na fonte de código DITA.
+   - O valor é a entrada exata que será usada na fonte de código DITA.
 
-   ・ Rótulo é a palavra que será vista pelo usuário que está inserindo atributos.
+   - O Rótulo é a palavra que será vista pelo usuário que está inserindo atributos.
 
 6. Clique em [!UICONTROL **Salvar**].
 
@@ -104,7 +104,6 @@ Os mapas do Esquema de Assunto são uma forma especializada de mapa de espaço e
    >[!IMPORTANT]
    >
    >Importante: o Root Map selecionado deve ser o mapa que contém o Subject Scheme.
-
 
    ![Preferências de usuário](images/lesson-13/user-preferences-2.png)
 

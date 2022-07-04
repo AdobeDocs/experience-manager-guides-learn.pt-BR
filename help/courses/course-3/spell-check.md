@@ -2,7 +2,7 @@
 title: Verificar ortografia e localizar/substituir
 description: Uso da verificação ortográfica e localizar/substituir em Guias AEM
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 0b4326b02ef52f5de77c3f26c18feec84567cebb
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 1%
@@ -37,9 +37,9 @@ Você pode usar uma ferramenta de verificação ortográfica diferente do dicion
 
 3. Existem duas opções disponíveis:
 
-   ・ ・ **Verificação ortográfica do navegador** — a configuração padrão em que a verificação ortográfica usa o dicionário interno do navegador.
+   - **Verificação ortográfica do navegador** — a configuração padrão em que a verificação ortográfica usa o dicionário interno do navegador.
 
-   ・ ・ **Verificação Ortográfica AEM** — use essa opção para criar uma lista de palavras personalizada usando o dicionário personalizado do AEM.
+   - **Verificação Ortográfica AEM** — use essa opção para criar uma lista de palavras personalizada usando o dicionário personalizado do AEM.
 
 4. Choose **Verificação Ortográfica AEM**.
 
@@ -59,19 +59,17 @@ O Administrador pode alterar as configurações para que o dicionário de AEM re
 
    ![Nó de configuração CRXDE Lite](images/lesson-11/config-node.png)
 
-
 4. Crie um novo arquivo.
 
    a. Clique com o botão direito do mouse na pasta de configuração.
-b. Choose **Criar > Criar arquivo**.
+
+   b. Choose **Criar > Criar arquivo**.
 
    ![Nova criação de arquivo de dicionário](images/lesson-11/new-dictionary-file.png)
-
 
    c. Nomeie o arquivo _**user_dictionary.txt**_.
 
    ![Texto do dicionário do usuário](images/lesson-11/user-dictionary.png)
-
 
    d. Clique em [!UICONTROL **OK**].
 
@@ -109,12 +107,11 @@ Os autores podem precisar reiniciar a sessão do Editor da Web para obter a list
 
 4. Escolha um
 
-   ・ ・ **Arquivo de check-out antes de substituir** — se ativado por um Administrador, o check-out do arquivo será feito automaticamente antes da substituição dos termos de pesquisa.
+   - **Arquivo de check-out antes de substituir** — se ativado por um Administrador, o check-out do arquivo será feito automaticamente antes da substituição dos termos de pesquisa.
 
-   ・ ・ **Somente palavra inteira** — restringe a pesquisa a retornar somente a palavra exata ou frase inserida.
+   - **Somente palavra inteira** — restringe a pesquisa a retornar somente a palavra exata ou frase inserida.
 
    ![Localizar Substituir no Repositório](images/lesson-11/repository-find-replace.png)
-
 
 5. Clique no botão [!UICONTROL **Aplicar filtro**] ícone para selecionar o caminho no Repositório onde deseja executar a pesquisa.
 

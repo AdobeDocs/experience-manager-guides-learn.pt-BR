@@ -2,7 +2,7 @@
 title: Preferências do usuário, configurações do editor e barras de ferramentas do editor
 description: Alteração das preferências do usuário e das configurações do editor nos Guias AEM
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 3d81727cdf4a58921724b0f1aa93b0700f821f60
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 2%
@@ -25,13 +25,13 @@ Tags são dicas visuais que indicam os limites de um elemento. Um limite de elem
 
    As tags são exibidas dentro do tópico. Com a exibição Tags, é possível:
 
-   ・ Selecione o conteúdo de um elemento clicando na tag de abertura ou fechamento .
+   - Selecione o conteúdo de um elemento clicando na tag de abertura ou fechamento .
 
-   ・ Expanda ou recolha tags clicando no sinal + ou - na tag .
+   - Expanda ou recolha tags clicando no sinal + ou - na tag .
 
-   ・ Use o menu de contexto para recortar, copiar ou passar o elemento selecionado.
+   - Use o menu de contexto para recortar, copiar ou passar o elemento selecionado.
 
-   ・ Arraste e solte elementos selecionando a tag e soltando o elemento em um local válido.
+   - Arraste e solte elementos selecionando a tag e soltando o elemento em um local válido.
 
 2. Clique no botão [!UICONTROL **Alternar exibição de tags**] novamente para ocultar tags.
 
@@ -75,11 +75,11 @@ A barra de ferramentas na parte superior direita da tela permite alternar entre 
 
 ![Modos](images/lesson-2/modes.png)
 
-・ Selecionar **Autor** para visualizar a estrutura e o conteúdo à medida que você trabalha com um tópico.
+- Selecionar **Autor** para visualizar a estrutura e o conteúdo à medida que você trabalha com um tópico.
 
-・ Selecionar **Origem** para exibir o XML subjacente que compõe o tópico.
+- Selecionar **Origem** para exibir o XML subjacente que compõe o tópico.
 
-・ Selecionar **Visualizar** para mostrar como um tópico será exibido quando visualizado por um usuário em seu navegador.
+- Selecionar **Visualizar** para mostrar como um tópico será exibido quando visualizado por um usuário em seu navegador.
 
 ## Alterar o tema com preferências de usuário
 
