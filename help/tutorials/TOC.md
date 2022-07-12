@@ -2,10 +2,10 @@
 user-guide-title: Tutoriais do AEM Guides
 user-guide-description: Leia nossa coleção de tutoriais do Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriais do AEM Guides
-source-git-commit: 66e04e9e7a7514be2629c59cbb5332ea77c264a4
+source-git-commit: 4bc5cc1097a2ce2a96ec51b8e50a444f4e5fb613
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 25%
+source-wordcount: '103'
+ht-degree: 28%
 
 ---
 
@@ -38,6 +38,3 @@ ht-degree: 25%
    + [Publicar uma saída do PDF](./web-editor/native-pdf-web-editor.md)
    + [Configurar caracteres especiais adicionais](./web-editor/configure-additional-special-characters.md)
 + Versões {#versioning}
-+ Artigos ocultos {#hidden}
-   + [Modelo PDF oculto](./native-pdf/pdf-template.md)
-   + [Componentes ocultos de um modelo de PDF](./native-pdf/components-pdf-template.md)
