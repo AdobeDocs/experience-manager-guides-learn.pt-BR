@@ -4,7 +4,7 @@ description: Saiba como criar o layout da página para apresentar informações 
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 2607a02867765b8f78134ab4e37012e8b08e222c
+source-git-commit: 651409beb88468bfb5ab35e45028b01fccd91cd5
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
@@ -137,7 +137,7 @@ No exemplo a seguir, inserimos um número de página e um título de tópico na 
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -173,8 +173,9 @@ No exemplo a seguir, inserimos um número de página e um título de tópico na 
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| Canto do desenvolvedor: | <img src="./assets/developer-corner-icon.svg" width="25"> |
-|--- |--- |
+| _Canto do desenvolvedor_: <img src="./assets/developer-corner-icon.svg" width="25"> |
+|---|
+
 Se você quiser trabalhar diretamente com o CSS e o HTML code, também poderá fazer isso acessando a Exibição da fonte do layout da página e fazendo alterações no código. O trecho de código a seguir mostra a mesma configuração de rodapé feita pelo código:
 
 ```md
@@ -206,7 +207,7 @@ No exemplo a seguir, vamos inserir um sumário de capítulo no layout da Primeir
    O índice padrão do capítulo é inserido na área de conteúdo.
 
    <img src="./assets/chapter-toc-default.png" width="400">
-    <img src="./assets/transparent-background.png" width="30">
+    <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -222,7 +223,7 @@ No exemplo a seguir, vamos inserir um sumário de capítulo no layout da Primeir
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -266,7 +267,7 @@ Para criar um layout de página com várias colunas, execute as seguintes etapas
 
    <img src="./assets/element-span-across-columns.png" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!IMPORTANT]
    Você pode aplicar a propriedade Coluna de expansão a qualquer elemento DITA.
