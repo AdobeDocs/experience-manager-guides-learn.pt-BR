@@ -1,14 +1,16 @@
 ---
 title: Recurso de publicação do PDF nativo | Criar um layout de página
-description: 'Saiba como criar o layout da página para apresentar informações em diferentes seções da saída do PDF. '
+description: Saiba como criar o layout da página para apresentar informações em diferentes seções da saída do PDF.
 hide: true
 hidefromtoc: true
-source-git-commit: 97c7337684e4afb8352912e53d6a59939f7d182f
+exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
+source-git-commit: 64e8ab1288674437f6182010ce4963b3780e98a9
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
 
 ---
+
 
 # Criar um layout de página
 
@@ -85,7 +87,7 @@ Por exemplo, se você quiser inserir uma imagem na área de cabeçalho da Primei
 
 1. Clique em Editar cabeçalho (<img src="./assets/header-icon.svg" width="25">) para trazer o cursor para a área do cabeçalho.
 
-1. Clique na Imagem de inserção (<img src="./assets/insert-image-icon.svg" width="25"> ) ícone.
+1. Clique na Imagem de inserção (<img src="./assets/insert-image-icon.svg" width="25">) ícone.
 
    A janela pop-up Selecionar caminho é exibida.
 
@@ -135,6 +137,8 @@ No exemplo a seguir, inserimos um número de página e um título de tópico na 
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
+   <br>
+
    >[!NOTE]
    >
    >Também é possível editar o formato de todos os campos, exceto o formato padrão. Para fazer isso, clique no ícone Edit ao lado do formato que deseja editar, faça alterações e clique em OK.
@@ -169,9 +173,9 @@ No exemplo a seguir, inserimos um número de página e um título de tópico na 
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| Canto do desenvolvedor: | <img src="./assets/developer-corner-icon.svg" width="40"> |
+| Canto do desenvolvedor: | <img src="./assets/developer-corner-icon.svg" width="25"> |
 |--- |--- |
-Se você quiser trabalhar diretamente com o CSS e o HTML code, também poderá fazer isso acessando a Exibição da fonte do layout da página e fazendo alterações no código. O trecho de código a seguir mostra a mesma configuração de rodapé feita pelo código:
+| Se você quiser trabalhar diretamente com o CSS e o HTML code, também poderá fazer isso acessando a Exibição da fonte do layout da página e fazendo alterações no código. O trecho de código a seguir mostra a mesma configuração de rodapé feita pelo código: |
 
 ```md
 …
@@ -217,6 +221,8 @@ No exemplo a seguir, vamos inserir um sumário de capítulo no layout da Primeir
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
+   <br>
+
    >[!NOTE]
    >
    >O PDF publicado final mostrará apenas as entradas do TOC com base no conteúdo dos capítulos. Se você não tiver cabeçalhos de nível 5 em um capítulo, eles não serão mostrados na saída final.
@@ -258,6 +264,8 @@ Para criar um layout de página com várias colunas, execute as seguintes etapas
    Como mostrado no exemplo a seguir, a propriedade Coluna de expansão para o texto de cabeçalho é definida como tudo. Isso garante que, mesmo que o documento tenha várias colunas, o cabeçalho se expanda entre as colunas.
 
    <img src="./assets/element-span-across-columns.png" width="400">
+
+   <br>
 
    >[!IMPORTANT]
    Você pode aplicar a propriedade Coluna de expansão a qualquer elemento DITA.
@@ -385,4 +393,3 @@ Para obter mais detalhes sobre o uso dessas propriedades, consulte a documentaç
 * **Histórico**: Contém propriedades para incluir uma imagem de fundo ou sombra de cores. É possível definir o Tamanho da imagem (definindo Altura ou Largura), a Repetição do Plano de Fundo (como repetição, não repetição, arredondar ou mais) e a Posição do Plano de Fundo (como parte superior esquerda, centro direito, parte inferior central ou mais).
 
 * **Várias colunas**: Contém propriedades para configurar propriedades de várias colunas para a página ou qualquer elemento específico, como o Índice do capítulo. Para obter mais detalhes sobre as propriedades e como usá-las, consulte _Trabalhar com layout de página de várias colunas_.
-
