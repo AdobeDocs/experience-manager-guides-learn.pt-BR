@@ -3,9 +3,9 @@ title: Recurso de publicação do PDF nativo | Criar um layout de página
 description: 'Saiba como criar o layout da página para apresentar informações em diferentes seções da saída do PDF. '
 hide: true
 hidefromtoc: true
-source-git-commit: 77256556d9222ffd096a599e5875c94108ebb8ed
+source-git-commit: 97c7337684e4afb8352912e53d6a59939f7d182f
 workflow-type: tm+mt
-source-wordcount: '3300'
+source-wordcount: '3289'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,10 @@ As configurações de Layouts de página na seção **Modelo > Configurações**
 
 Diferentes layouts de página no modelo de PDF podem ser personalizados com diferentes layouts de página inicial, direita ou esquerda. Você pode criar essas páginas de forma diferente usando o designer de layout de página.
 
-> **Observação**: Se quiser ter um layout de página único para uma seção do seu livro, não será necessário criar os layouts de página Primeiro, Direito ou Esquerdo.
+>[!NOTE]
+>
+>Se quiser ter um layout de página único para uma seção do seu livro, não será necessário criar os layouts de página Primeiro, Direito ou Esquerdo.
+
 
 Considere os seguintes pontos ao criar layouts de página:
 
@@ -56,7 +59,7 @@ O exemplo a seguir guiará você pelo processo de criação de variantes de um l
 
    Por padrão, ao criar um layout de página, ele também é aberto para edição. A captura de tela a seguir exibe um layout de página em branco (padrão):
 
-   <img src="./assets/default-blank-page-layout.png" height="400">
+   <img src="./assets/default-blank-page-layout.png" width="300">
 
    A área de cabeçalho, rodapé e conteúdo em um modelo é criada por padrão. Você pode personalizar facilmente essas áreas usando as ferramentas, as propriedades da página e as propriedades do conteúdo fornecidas na interface do usuário. Para configuração avançada, você pode usar a Visualização de origem e adicionar o HTML personalizado e o código CSS.
 
@@ -76,7 +79,9 @@ Por exemplo, se você quiser inserir uma imagem na área de cabeçalho da Primei
 
 1. Abra o layout de página necessário para edição.
 
-   > **Observação**: Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
+   >[!NOTE]
+   >
+   >Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
 
 1. Clique em Editar cabeçalho (<img src="./assets/header-icon.svg" width="25">) para trazer o cursor para a área do cabeçalho.
 
@@ -114,7 +119,9 @@ No exemplo a seguir, inserimos um número de página e um título de tópico na 
 
 1. Abra o layout de página necessário para edição.
 
-   Observação: Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
+   >[!NOTE]
+   >
+   >Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
 
 1. Clique no rodapé Editar (![](./assets/footer-icon.svg)) para trazer o cursor para a área do rodapé.
 
@@ -128,7 +135,9 @@ No exemplo a seguir, inserimos um número de página e um título de tópico na 
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
-   > **Observação**: Também é possível editar o formato de todos os campos, exceto o formato padrão. Para fazer isso, clique no ícone Edit ao lado do formato que deseja editar, faça alterações e clique em OK.
+   >[!NOTE]
+   >
+   >Também é possível editar o formato de todos os campos, exceto o formato padrão. Para fazer isso, clique no ícone Edit ao lado do formato que deseja editar, faça alterações e clique em OK.
 
    O campo de número de página padrão é inserido na área de rodapé do layout da página.
 
@@ -160,8 +169,8 @@ No exemplo a seguir, inserimos um número de página e um título de tópico na 
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-> **Canto do desenvolvedor:**  ![](./assets/developer-corner-icon.svg)
-
+| Canto do desenvolvedor: | <img src="./assets/developer-corner-icon.svg" width="40"> |
+|--- |--- |
 Se você quiser trabalhar diretamente com o CSS e o HTML code, também poderá fazer isso acessando a Exibição da fonte do layout da página e fazendo alterações no código. O trecho de código a seguir mostra a mesma configuração de rodapé feita pelo código:
 
 ```md
@@ -183,7 +192,9 @@ No exemplo a seguir, vamos inserir um sumário de capítulo no layout da Primeir
 
 1. Abra o layout de página necessário para edição.
 
-   Observação: Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
+   >[!NOTE]
+   >
+   >Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
 
 1. Coloque o cursor na área de conteúdo do layout da página.
 1. Clique no sumário do capítulo (<img src="./assets/chapter-toc-icon.svg">) ícone.
@@ -192,7 +203,9 @@ No exemplo a seguir, vamos inserir um sumário de capítulo no layout da Primeir
 
    <img src="./assets/chapter-toc-default.png" width="400">
 
-   > **Observação**: O índice padrão contém os cabeçalhos 1 a 4. Aqui, o Título 1 é o próprio Título do Capítulo. Portanto, talvez você não queira ter o título do capítulo novamente no TOC ou talvez queira aumentar o nível de cabeçalhos que deseja no TOC. Você pode personalizar o sumário alterando as propriedades.
+   >[!NOTE]
+   >
+   >O índice padrão contém os cabeçalhos 1 a 4. Aqui, o Título 1 é o próprio Título do Capítulo. Portanto, talvez você não queira ter o título do capítulo novamente no TOC ou talvez queira aumentar o nível de cabeçalhos que deseja no TOC. Você pode personalizar o sumário alterando as propriedades.
 
 1. Abra o painel Propriedades de conteúdo do HTML para personalizar os níveis de cabeçalho do sumário.
 
@@ -204,7 +217,9 @@ No exemplo a seguir, vamos inserir um sumário de capítulo no layout da Primeir
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
-   > **Observação**: O PDF publicado final mostrará apenas as entradas do TOC com base no conteúdo dos capítulos. Se você não tiver cabeçalhos de nível 5 em um capítulo, eles não serão mostrados na saída final.
+   >[!NOTE]
+   >
+   >O PDF publicado final mostrará apenas as entradas do TOC com base no conteúdo dos capítulos. Se você não tiver cabeçalhos de nível 5 em um capítulo, eles não serão mostrados na saída final.
 
 ## Trabalhar com layout de página de várias colunas
 
@@ -214,7 +229,9 @@ Para criar um layout de página com várias colunas, execute as seguintes etapas
 
 1. Abra o layout de página necessário para edição.
 
-   > **Observação**: Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
+   >[!NOTE]
+   >
+   >Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
 
 1. Como o layout de várias colunas é aplicado ao conteúdo, excluindo a área de cabeçalho e rodapé, é necessário selecionar o elemento de conteúdo na navegação estrutural.
 
@@ -228,7 +245,9 @@ Para criar um layout de página com várias colunas, execute as seguintes etapas
 
    * **Largura da coluna:** Especifique a largura de uma coluna em um layout de várias colunas. Por padrão, o tamanho é definido em pixels (px), você também pode especificá-lo em pt, rem, em, % ou em unidades.
 
-      >**Observação:** Se você não especificar um tamanho, as colunas serão dimensionadas automaticamente para se ajustarem às margens de determinada página.
+      >[!NOTE]
+      >
+      >Se você não especificar um tamanho, as colunas serão dimensionadas automaticamente para se ajustarem às margens de determinada página.
 
    * **Intervalo de colunas** : Especifique o espaço entre colunas individuais.
 
@@ -240,7 +259,7 @@ Para criar um layout de página com várias colunas, execute as seguintes etapas
 
    <img src="./assets/element-span-across-columns.png" width="400">
 
-   >[**IMPORTANTE**]
+   >[!IMPORTANT]
    Você pode aplicar a propriedade Coluna de expansão a qualquer elemento DITA.
 
    * **Preenchimento da coluna** : Especifique como o conteúdo preenche colunas. Por padrão, é definido como Saldo, que preenche cada coluna com a mesma quantidade de conteúdo.
@@ -248,7 +267,7 @@ Para criar um layout de página com várias colunas, execute as seguintes etapas
    * **Regra de coluna** : Se você quiser ter uma linha entre colunas, use essa propriedade para definir os estilos de linha ou de regra. Especifique os valores para Estilo, Cor e Largura da regra para adicionar uma linha entre colunas.
 
 
-## Usar as Propriedades da página para orientação de página diferente**
+## Usar as Propriedades da página para uma orientação de página diferente
 
 Ao projetar um layout de página, é essencial ter controle sobre várias propriedades da página. O recurso PDF nativo encapsula todas as principais propriedades da página sob o painel Propriedades da página. O painel Propriedades da página fornece acesso a várias propriedades nas seguintes seções:
 
@@ -268,7 +287,7 @@ Ao projetar um layout de página, é essencial ter controle sobre várias propri
 
 Vamos ver um exemplo em que uma combinação de orientação de página retrato e paisagem e propriedades de rotação da exibição é usada. Neste exemplo, criaremos um PDF com a orientação de retrato padrão, mas uma tabela será renderizada na orientação de paisagem com conteúdo na exibição de 90 graus no sentido horário. A saída final será semelhante a:
 
-<img src="./assets/portrait-landscape-page-layouts.png" height="800">
+<img src="./assets/portrait-landscape-page-layouts.png" width="400">
 
 Na saída acima, as informações da Lista de contatos são apresentadas no modo paisagem com o conteúdo também girado em 90 graus. O conteúdo restante é exibido no modo de retrato normal.
 
@@ -338,7 +357,7 @@ Execute as seguintes etapas para realizar as tarefas acima:
 
    1. No **Propriedades de conteúdo** , adicionar um novo `outputclass` propriedade com `landscape-style` como valor da propriedade.
 
-      <img src="./assets/new-style-table-outputclass.png" height="400">
+      <img src="./assets/new-style-table-outputclass.png" width="300">
 
    1. Clique em **Salvar tudo** para salvar o arquivo atualizado.
 
@@ -350,7 +369,8 @@ O PDF final terá o conteúdo da tabela renderizado no modo paisagem, como mostr
 
 O painel Propriedades de conteúdo permite atualizar facilmente a aparência dos elementos no layout da página. As propriedades no painel Propriedades de conteúdo são divididas nas seguintes seções:
 
->**Observação**: Para obter mais detalhes sobre o uso dessas propriedades, consulte a documentação Padrões de mídia da página W3C CSS .
+>[!NOTE]
+Para obter mais detalhes sobre o uso dessas propriedades, consulte a documentação Padrões de mídia da página W3C CSS .
 
 * **Atributos**: Contém propriedades de ID, classe e tradução. Se você definir a propriedade Translate como não, o conteúdo nesse elemento específico não será traduzido.
 
