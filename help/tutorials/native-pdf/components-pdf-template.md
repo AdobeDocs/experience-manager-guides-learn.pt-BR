@@ -3,9 +3,10 @@ title: Recurso de publicação do PDF nativo | Componentes de um modelo de PDF
 description: Saiba mais sobre os vários componentes de um modelo de PDF e como personalizá-los e configurá-los.
 hide: true
 hidefromtoc: true
-source-git-commit: 698469293e41558753ff6aada92f050f45be867a
+exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
+source-git-commit: e0602e325fec014fe5a9ebe231b0c62611a4e52d
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2295'
 ht-degree: 0%
 
 ---
@@ -39,6 +40,19 @@ As configurações no componente Layouts de página permitem que você crie a es
 1. Clique em **Concluído**.
 
    O novo layout é criado e adicionado em Layouts de página.
+
+### Duplicação de um layout de página
+
+1. No **Modelos** seção do template que deseja duplicar, clique duas vezes em **Layouts de página** ou clique no botão **>** ícone antes **Layouts de página**.
+
+   Isso exibe a lista de layouts de página no modelo.
+
+1. Passe o mouse sobre o layout da página que deseja duplicar e clique no link (*Opções* ícone ) **...** e selecione **Duplicar** no menu de contexto.
+
+1. No _Duplicar layout_ digite um nome para o layout da página.
+
+1. Clique em **Concluído**.
+Uma cópia do layout de página selecionado é criada e adicionada em Layouts de página.
 
 ### Personalizar um layout de página
 
