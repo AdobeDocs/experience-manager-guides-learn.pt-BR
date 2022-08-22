@@ -2,9 +2,9 @@
 user-guide-title: Tutoriais do AEM Guides
 user-guide-description: Leia nossa coleção de tutoriais do Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriais do AEM Guides
-source-git-commit: cb066f0e09aec000f216c11c774c8da111b2a7f7
+source-git-commit: 0f5c1cabdbda9fa2606f67faedbf9a38ca1ec0aa
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '124'
 ht-degree: 23%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 23%
    + Notas de versão {#release-notes}
       + Cloud Services {#cloud-release-notes}
          + [Instruções de implantação](./release-info/deploy-xml-on-aemaacs.md)
-         + [Notas de versão atuais](./release-info/release-notes-2022.5.0.md)
+         + [Notas de versão atuais](./release-info/release-notes-2022.8.0.md)
+         + [Notas de versão de maio](./release-info/release-notes-2022.5.0.md)
          + [Notas de versão de abril](./release-info/release-notes-2022.4.0.md)
          + [Notas de versão de março](./release-info/release-notes-2022.3.0.md)
          + [Notas de versão de fevereiro](./release-info/release-notes-2022.2.0.md)
