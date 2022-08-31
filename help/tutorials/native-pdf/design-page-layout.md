@@ -4,9 +4,9 @@ description: Saiba como criar o layout da página para apresentar informações 
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: 7b96fe9e8fad0e017626be04f5c41c1e42e7469d
 workflow-type: tm+mt
-source-wordcount: '4686'
+source-wordcount: '4649'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Ao projetar um layout de página, é essencial ter controle sobre várias propri
 >
 >O painel Propriedades da página encapsula as propriedades e segue as regras definidas no [Padrões de mídia de página](https://www.w3.org/TR/css-page-3/).
 
-* **Tamanho da página** : Especifique o tamanho de página que deseja usar para o layout de página. A lista suspensa Tamanho da página permite escolher entre mais de 15 tamanhos de página. Você também pode criar um layout de página usando um tamanho de página personalizado, consulte [Definir o tamanho da página](design-page-layout.md#set-the-page-size) para obter mais detalhes.
+* **Tamanho da página** : Especifique o tamanho de página que deseja usar para o layout de página. A lista suspensa Tamanho da página permite escolher entre mais de 15 tamanhos de página. Você também pode criar um layout de página usando um tamanho de página personalizado, consulte [Definir o tamanho da página](#set-page-size) para obter mais detalhes.
 
 * **Orientação** : Especifique a orientação de página a ser usada para o layout de página. É possível escolher entre as orientações da página Retrato ou Paisagem. Observe que é possível optar por ter diferentes orientações aplicadas a diferentes variantes de página em um layout de página. Por exemplo, se o conteúdo contiver uma tabela larga ou uma imagem grande, você poderá criar um layout de página paisagem e aplicar esse layout à tabela ou imagem mais ampla.
 
@@ -341,7 +341,7 @@ A captura de tela a seguir mostra uma imagem de amostra adicionada na área do c
 
 <img src="./assets/image-in-header-area.png" width="500">
 
-Depois que uma imagem é inserida, você pode modificar seus atributos para dar a ela a aparência desejada. A maneira mais fácil de alterar a aparência de uma imagem ou de qualquer outro elemento no layout da página, use o painel Propriedades do conteúdo . Consulte [Trabalhar com o painel Propriedades de conteúdo](design-page-layout.md#work-with-content-properties-panel) para as várias propriedades disponíveis por meio da interface do usuário personalizada.
+Depois que uma imagem é inserida, você pode modificar seus atributos para dar a ela a aparência desejada. A maneira mais fácil de alterar a aparência de uma imagem ou de qualquer outro elemento no layout da página, use o painel Propriedades do conteúdo . Consulte [Trabalhar com o painel Propriedades de conteúdo](#work-with-content-props) para as várias propriedades disponíveis por meio da interface do usuário personalizada.
 
 ### Adicionar campos e metadados {#add-fields-metadata}
 
@@ -361,7 +361,7 @@ Existem as seguintes categorias para campos que podem ser inseridas no layout da
 
 Cada uma dessas categorias de campo contém diferentes variações nas quais as informações de campo podem ser inseridas. Por exemplo, um campo Data pode ter variações diferentes, como `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` e assim por diante. Da mesma forma, o Número de página pode ter variações na forma de formatos romanos, decimais ou até mesmo específicos à localidade, como _Árabe_, _Devanágari_, _Hebraico_ e muito mais.
 
-Além dos campos predefinidos, também é possível adicionar informações de metadados como variáveis ou campos no layout da página. Esses metadados são armazenados no conteúdo do mapa DITA de origem e podem ser facilmente inseridos no layout da página. Para obter mais informações, consulte [Adicionar campos e metadados](design-page-layout.md#add-fields-and-metadata).
+Além dos campos predefinidos, também é possível adicionar informações de metadados como variáveis ou campos no layout da página. Esses metadados são armazenados no conteúdo do mapa DITA de origem e podem ser facilmente inseridos no layout da página. <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
 
 No exemplo a seguir, inserimos um número de página e um título de capítulo na área de rodapé de um layout de página.
 
@@ -387,7 +387,7 @@ No exemplo a seguir, inserimos um número de página e um título de capítulo n
 
    >[!NOTE]
    >
-   >Também é possível editar o formato de todos os campos, exceto o formato padrão. Para fazer isso, clique no ícone Edit ao lado do formato que deseja editar, faça alterações e clique em OK. Para obter mais informações, consulte [Adicionar campos e metadados](design-page-layout.md#add-fields-and-metadata).
+   >Também é possível editar o formato de todos os campos, exceto o formato padrão. Para fazer isso, clique no ícone Edit ao lado do formato que deseja editar, faça alterações e clique em OK. Para obter mais informações, consulte [Adicionar campos e metadados](#add-fields-metadata).
 
    O campo de número de página padrão é inserido na área de rodapé do layout da página.
 
@@ -449,7 +449,7 @@ No exemplo a seguir, vamos inserir um sumário de capítulo no primeiro layout d
 
 >[!NOTE]
 >
->Para esse procedimento, presume-se que você tenha criado a variante First page para um layout de página de capítulo. Para obter instruções sobre como criar uma variante de página, consulte _Criar as variantes de layout da página inicial, direita ou esquerda_.
+>Para esse procedimento, presume-se que você tenha criado a variante First page para um layout de página de capítulo. Para obter instruções sobre como criar uma variante de página, consulte [Criar as variantes de layout da página inicial, direita ou esquerda](#page-layout-variants).
 
 1. Abra o layout de página necessário para edição.
 
@@ -483,7 +483,7 @@ No exemplo a seguir, vamos inserir um sumário de capítulo no primeiro layout d
    >
    >O PDF publicado final mostrará apenas as entradas do TOC com base no conteúdo dos capítulos. Se você não tiver cabeçalhos de nível 5 em um capítulo, eles não serão mostrados na saída final.
 
-A aparência do TOC padrão pode ser personalizada usando as folhas de estilos. O estilo que começa com `chaptoc-level-#` (como `chaptoc-level-1`, `chaptoc-level-2`e assim por diante) são usados para personalizar os estilos do sumário do capítulo. Para obter mais detalhes sobre os elementos da folha de estilos usados no TOC e como personalizá-los, consulte _Personalizar o sumário de capítulo padrão_.
+A aparência do TOC padrão pode ser personalizada usando as folhas de estilos. O estilo que começa com `chaptoc-level-#` (como `chaptoc-level-1`, `chaptoc-level-2`e assim por diante) são usados para personalizar os estilos do sumário do capítulo. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 
 >[!IMPORTANT]
 >
@@ -519,7 +519,7 @@ Para criar um layout de página com várias colunas, execute as seguintes etapas
 
    * **Intervalo de colunas** : Especifique o espaço entre colunas individuais.
 
-   * **Gasto da coluna** : Se você quiser que qualquer elemento no layout da página se estenda entre colunas, será necessário usar essa propriedade. Isso é feito modificando o estilo do elemento desejado usando as Folhas de estilos. Para obter mais informações, consulte _Seção que explica a personalização de estilos_.
+   * **Gasto da coluna** : Se você quiser que qualquer elemento no layout da página se estenda entre colunas, será necessário usar essa propriedade. Isso é feito modificando o estilo do elemento desejado usando as Folhas de estilos. <!--for more information see _Section explaining style customization_-->.
 
    No layout da página, se você quiser que um determinado texto apareça na primeira página de todos os layouts de página de capítulo, poderá adicioná-lo à variante Primeira página do layout de página do Capítulo.
 
@@ -549,4 +549,4 @@ O painel Propriedades de conteúdo permite atualizar facilmente a aparência dos
 * **Layout** : Contém propriedades para configurar o layout de um elemento no layout da página. É possível definir Altura, Largura, Margens e Preenchimento (para cima, inferior, esquerda ou direita), Horizontal ou Vertical alignment, Float (à esquerda, direita ou nenhum), Clear (à esquerda, à direita ou nenhum), Clear (à direita ou nenhum), Elemento (como absoluto, fixo, relativo ou mais), Display (como bloco, conteúdo, correção ou mais), Z Index, Transparency, Transform (por rotação ou escala) e Transformar origem (por X e Y-offset).
 
 * **Histórico** : Contém propriedades para incluir uma imagem de fundo ou sombra de cores. É possível definir o Tamanho da imagem (definindo Altura ou Largura), a Repetição do Plano de Fundo (como repetição, não repetição, arredondar ou mais) e a Posição do Plano de Fundo (como parte superior esquerda, centro direito, parte inferior central ou mais).
-* **Várias colunas** : Contém propriedades para configurar propriedades de várias colunas para a página ou qualquer elemento específico, como o Índice do capítulo. Para obter mais detalhes sobre as propriedades e como usá-las, consulte _Trabalhar com layout de página de várias colunas_.
+* **Várias colunas** : Contém propriedades para configurar propriedades de várias colunas para a página ou qualquer elemento específico, como o Índice do capítulo. Para obter mais detalhes sobre as propriedades e como usá-las, consulte [Trabalhar com layout de página de várias colunas](#multi-column-layout).
