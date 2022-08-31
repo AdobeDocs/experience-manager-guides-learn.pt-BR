@@ -3,9 +3,9 @@ title: Recurso de publicação do PDF nativo | Trabalhar com os estilos de conte
 description: Saiba como criar folhas de estilos e criar estilos para o seu conteúdo.
 hide: true
 hidefromtoc: true
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: cbd5f4b0763bf4087d016f3d3c8d723518f0b8e7
 workflow-type: tm+mt
-source-wordcount: '3500'
+source-wordcount: '3496'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ O editor de estilos é um editor WYSIWYG que oculta todas as complexidades de um
 * Estilos de página
 * Outros estilos
 
-Ao trabalhar com conteúdo DITA estruturado, o mapeamento de estilo para a maioria dos elementos DITA está em vigor na folha de estilos padrão. Se você estiver trabalhando com elementos DITA padrão, é possível alterar a aparência deles diretamente, fazendo alterações na definição do estilo. Essas definições de estilo estão disponíveis na categoria Outro estilo . Para obter mais detalhes, consulte *Trabalhar com outros estilos* mais tarde neste tópico.
+Ao trabalhar com conteúdo DITA estruturado, o mapeamento de estilo para a maioria dos elementos DITA está em vigor na folha de estilos padrão. Se você estiver trabalhando com elementos DITA padrão, é possível alterar a aparência deles diretamente, fazendo alterações na definição do estilo. Essas definições de estilo estão disponíveis na categoria Outro estilo . Para obter mais detalhes, consulte [Trabalhar com outros estilos](#other-styles) mais tarde neste tópico.
 
 As seções a seguir abordam as configurações de estilo mais usadas na forma de exemplos.
 
@@ -38,11 +38,11 @@ As seções a seguir abordam as configurações de estilo mais usadas na forma d
 
 ## Trabalhar com estilos de cabeçalho {#heading-styles}
 
-Os estilos de cabeçalho encapsulam todos os estilos base dos cabeçalhos usados no seu conteúdo. OOTB você terá 6 estilos de cabeçalho básicos e um estilo de cabeçalho para o tópico/capítulo e o cabeçalho do título do apêndice. Em um documento estruturado, o H1 representa o título do tópico ou do capítulo e H2 a H6 são usados para subtópicos ou seções em um tópico/capítulo. Essa hierarquia de cabeçalhos é aplicada automaticamente ao seu conteúdo sempre que o cabeçalho correspondente for encontrado.
+Os estilos de cabeçalho encapsulam todos os estilos base dos cabeçalhos usados no seu conteúdo. OOTB você terá 6 estilos de cabeçalho básicos e um estilo de cabeçalho para o tópico/capítulo e o cabeçalho do título do apêndice. Em um documento estruturado, o H1 representa o título do tópico ou do capítulo e H2 a H6 são usados para subtópicos ou seções dentro de um tópico/capítulo. Essa hierarquia de cabeçalhos é aplicada automaticamente ao seu conteúdo sempre que o cabeçalho correspondente for encontrado.
 
 >[!NOTE]
 >
->Você pode criar seus próprios estilos de cabeçalho personalizados e eles podem ser usados no seu conteúdo usando a classe de saída. Para obter mais detalhes, consulte a Etapa 4 em *Usar a orientação de página e a rotação de visualização* exemplo.
+>Você pode criar seus próprios estilos de cabeçalho personalizados e eles podem ser usados no seu conteúdo usando a classe de saída. Para obter mais detalhes, consulte a Etapa 4 em [Usar a orientação de página e a rotação de visualização](design-page-layout.md#page-orientation-rotation) exemplo.
 
 ### Criar cabeçalhos personalizados no nível do capítulo {#create-chapter-level-heading}
 
@@ -55,7 +55,7 @@ Neste exemplo, criaremos um estilo de cabeçalho de capítulo de segundo nível:
 1. Abra a folha de estilos necessária para edição.
    >[!NOTE]
    >
-   >Consulte *Personalizar um estilo predefinido ou novo* seção para abrir uma folha de estilos para personalização ou edição.
+   >Consulte [Personalizar um estilo predefinido ou novo](components-pdf-template.md#customize-style) seção para abrir uma folha de estilos para personalização ou edição.
 
 1. No **Estilos** , expanda a **Estilos de cabeçalho**.
 1. Clique com o botão direito do mouse em **Estilos de cabeçalho** estilo e escolha **Novo estilo**.
@@ -76,7 +76,7 @@ Neste exemplo, vamos personalizar os cabeçalhos do nível 1 para o nível 3 par
 
    >[!NOTE]
    >
-   >Consulte *Personalizar um estilo predefinido ou novo* seção para abrir uma folha de estilos para personalização ou edição.
+   >Consulte [Personalizar um estilo predefinido ou novo](components-pdf-template.md#customize-style) seção para abrir uma folha de estilos para personalização ou edição.
 
 1. No **Estilos** , expanda a **Estilos de cabeçalho**.
 
@@ -142,7 +142,7 @@ No exemplo a seguir, criaremos um estilo de capitulação:
 1. Abra a folha de estilos necessária para edição.
 
    >[!NOTE]
-   Consulte *Personalizar um estilo predefinido ou novo* seção para abrir uma folha de estilos para personalização ou edição.
+   Consulte [Personalizar um estilo predefinido ou novo](components-pdf-template.md#customize-style) seção para abrir uma folha de estilos para personalização ou edição.
 
 1. No **Estilos** , expanda a **Estilos de parágrafo**.
 
@@ -177,7 +177,7 @@ No exemplo a seguir, criaremos um estilo de caractere em linha:
 1. Abra a folha de estilos necessária para edição.
 
    >[!NOTE]
-   Consulte *Personalizar um estilo predefinido ou novo* seção para abrir uma folha de estilos para personalização ou edição.
+   Consulte [Personalizar um estilo predefinido ou novo](components-pdf-template.md#customize-style) seção para abrir uma folha de estilos para personalização ou edição.
 
 1. No **Estilos** , expanda a **Estilos de caracteres**.
 
@@ -196,7 +196,7 @@ No exemplo a seguir, criaremos um estilo de caractere em linha:
    * **Fonte**: Todas as propriedades relacionadas a fontes podem ser personalizadas nessa seção. Por padrão, há algumas fontes agrupadas com o produto. Você pode escolher a fonte desejada para o estilo de caractere. Para nosso exemplo, defina a Família de fontes como *Serif,* e selecione *Negrito* e *Itálico* na propriedade Estilo da fonte. Você também pode personalizar outras propriedades de fonte, como Peso da fonte (como negrito, mais claro), Decoração do texto (como sublinhado, linha sobreposta), Tamanho da fonte, Cor da fonte, Alinhamento do texto e muito mais.
 
       >[!NOTE]
-      Você também pode adicionar fontes ao seu modelo, que são armazenadas na seção Resources do seu modelo. Para obter mais detalhes sobre como adicionar fontes e trabalhar com Recursos, consulte **Adicionar um link à seção Recursos**.
+      Você também pode adicionar fontes ao seu modelo, que são armazenadas na seção Resources do seu modelo. Para obter mais detalhes sobre como adicionar fontes e trabalhar com Recursos, consulte [Trabalhar com recursos](components-pdf-template.md#work-with-resources).
 
    * **Layout**: É possível definir as propriedades relacionadas ao layout, como Altura e Largura, Margem, Preenchimento, Alinhamento e muito mais.
 
@@ -219,7 +219,7 @@ No exemplo a seguir, vamos personalizar o estilo de lista numerado ou ordenado:
 1. Abra a folha de estilos necessária para edição.
 
    >[!NOTE]
-   Consulte *Personalizar um estilo predefinido ou novo* seção para abrir uma folha de estilos para personalização ou edição.
+   Consulte [Personalizar um estilo predefinido ou novo](components-pdf-template.md#customize-style) seção para abrir uma folha de estilos para personalização ou edição.
 
 1. No **Estilos** , expanda a **Estilos de Lista**.
 
@@ -278,7 +278,7 @@ No exemplo a seguir, vemos como criar um estilo de tabela e as várias opções 
 1. Abra a folha de estilos necessária para edição.
 
    >[!NOTE]
-   Consulte *Personalizar um estilo predefinido ou novo* seção para abrir uma folha de estilos para personalização ou edição.
+   Consulte [Personalizar um estilo predefinido ou novo](components-pdf-template.md#customize-style) seção para abrir uma folha de estilos para personalização ou edição.
 
 1. No **Estilos** , clique com o botão direito do mouse na **Estilo de tabela** e escolha **Novo estilo**.
 
@@ -331,7 +331,7 @@ No exemplo a seguir, criaremos um título de nova janela (`wintitle`) estilo:
 1. Abra a folha de estilos necessária para edição.
 
    >[!NOTE]
-   Consulte *Personalizar um estilo predefinido ou novo* seção para abrir uma folha de estilos para personalização ou edição.
+   Consulte [Personalizar um estilo predefinido ou novo](components-pdf-template.md#customize-style) seção para abrir uma folha de estilos para personalização ou edição.
 
 1. No **Estilos** listar, expandir **Outros estilos**.
 
