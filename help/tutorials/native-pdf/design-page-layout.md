@@ -4,23 +4,23 @@ description: Saiba como criar o layout da página para apresentar informações 
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: f8af7d7180b3d70d17e1410885017212dec721ef
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
-source-wordcount: '4688'
+source-wordcount: '4686'
 ht-degree: 0%
 
 ---
 
 
-# Criar um layout de página
+# Criar um layout de página {#design-page-layout}
 
 Ao criar um documento do PDF, você teria seções diferentes para apresentar diferentes tipos de informações. Por exemplo, um documento de PDF começaria de uma página inicial ou de capa, que teria o logotipo, o título do livro ou as informações da versão da sua empresa. Em seguida, haveria capítulos, apêndices ou páginas de glossário. Cada seção em um documento do PDF parece diferente e isso é obtido pela criação e personalização do layout da página.
 
 Ao projetar o layout da página, você pode definir os vários elementos que compõem uma página. Por exemplo, você pode definir o tamanho da página, as margens, o cabeçalho e o rodapé, a orientação e outras especificações da página em uma página. O recurso Publicação nativa de PDF permite que você crie sua página de acordo com a [Padrões de mídia de página](https://www.w3.org/TR/css-page-3/). A maioria das configurações abrangidas pelos padrões de Mídia paga pode ser facilmente personalizada usando a interface do usuário do recurso de Publicação nativa PDF. Para alguma outra formatação de nível avançado, você pode usar a Visualização de origem para gravar seu próprio código CSS.
 
-Depois de criar os layouts de página, é necessário associar esses layouts às respectivas seções nas configurações de Layout de página do PDF. Consulte a _Criar e personalizar layouts de página_ para obter detalhes sobre como criar e abrir um layout de página para personalização.
+Depois de criar os layouts de página, é necessário associar esses layouts às respectivas seções nas configurações de Layout de página do PDF. Consulte a [Criar e personalizar layouts de página](components-pdf-template.md#create-customize-page-layout) para obter detalhes sobre como criar e abrir um layout de página para personalização.
 
-## Tipos de layouts de página
+## Tipos de layouts de página {#types-of-page-layout}
 
 Um documento PDF normalmente contém as seguintes seções:
 
@@ -33,11 +33,11 @@ Um documento PDF normalmente contém as seguintes seções:
 * Índice
 * Página de trás
 
-Essas seções precisariam de um layout de página correspondente para apresentar as informações em um formato específico. Além disso, também é possível ter uma página em branco usada como usuário para iniciar um novo capítulo de uma página ímpar ou par. Nesse caso, é possível usar o layout padrão da página ou criar um layout de página para uma página em branco. Consulte _Criar um novo layout de página_ para obter mais detalhes.
+Essas seções precisariam de um layout de página correspondente para apresentar as informações em um formato específico. Além disso, também é possível ter uma página em branco usada como usuário para iniciar um novo capítulo de uma página ímpar ou par. Nesse caso, é possível usar o layout padrão da página ou criar um layout de página para uma página em branco. Consulte [Criar um novo layout de página](components-pdf-template.md#create-page-layout) para obter mais detalhes.
 
 As configurações de Layouts de página na seção **Modelo>Configurações** permitem definir qual layout de página deve ser usado para diferentes seções do PDF. Cada layout de página pode ter diferentes variantes de página inicial, direita ou esquerda.
 
-### Criar as variantes de layout da página inicial, direita ou esquerda
+### Criar as variantes de layout da página inicial, direita ou esquerda {#page-layout-variants}
 
 Diferentes layouts de página no modelo de PDF podem ser personalizados com diferentes variantes de layout de página inicial, direita ou esquerda. Você pode criar essas páginas de forma diferente usando o designer de layout de página.
 
@@ -61,7 +61,7 @@ Considere os seguintes pontos ao criar layouts de página:
 
    >[!NOTE]
    >
-   >Se você não criar um layout de página em branco separado, o layout padrão da página será usado. Para criar um layout de página, consulte _Criar um novo layout de página_.
+   >Se você não criar um layout de página em branco separado, o layout padrão da página será usado. Para criar um layout de página, consulte [Criar um novo layout de página](components-pdf-template.md#create-page-layout).
 
 O exemplo a seguir guiará você pelo processo de criação de variantes de um layout de página:
 
@@ -85,7 +85,7 @@ O exemplo a seguir guiará você pelo processo de criação de variantes de um l
 
 O layout de página selecionado é criado usando uma cópia do layout básico do Capítulo. Isso significa que, se você tiver alterado o layout padrão da página do Capítulo, as mesmas alterações serão replicadas no layout da página variante no momento da criação do layout da página.
 
-## Trabalhar com as Propriedades da página de um layout de página
+## Trabalhar com as Propriedades da página de um layout de página {#page-props-page-layout}
 
 Ao projetar um layout de página, é essencial ter controle sobre várias propriedades da página. O recurso Publicação nativa PDF encapsula todas as principais propriedades da página no painel Propriedades da página. O painel Propriedades da página fornece acesso a várias propriedades nas seguintes seções:
 
@@ -93,7 +93,7 @@ Ao projetar um layout de página, é essencial ter controle sobre várias propri
 >
 >O painel Propriedades da página encapsula as propriedades e segue as regras definidas no [Padrões de mídia de página](https://www.w3.org/TR/css-page-3/).
 
-* **Tamanho da página** : Especifique o tamanho de página que deseja usar para o layout de página. A lista suspensa Tamanho da página permite escolher entre mais de 15 tamanhos de página. Você também pode criar um layout de página usando um tamanho de página personalizado, consulte **Definir o tamanho da página** para obter mais detalhes.
+* **Tamanho da página** : Especifique o tamanho de página que deseja usar para o layout de página. A lista suspensa Tamanho da página permite escolher entre mais de 15 tamanhos de página. Você também pode criar um layout de página usando um tamanho de página personalizado, consulte [Definir o tamanho da página](design-page-layout.md#set-the-page-size) para obter mais detalhes.
 
 * **Orientação** : Especifique a orientação de página a ser usada para o layout de página. É possível escolher entre as orientações da página Retrato ou Paisagem. Observe que é possível optar por ter diferentes orientações aplicadas a diferentes variantes de página em um layout de página. Por exemplo, se o conteúdo contiver uma tabela larga ou uma imagem grande, você poderá criar um layout de página paisagem e aplicar esse layout à tabela ou imagem mais ampla.
 
@@ -109,7 +109,7 @@ Ao projetar um layout de página, é essencial ter controle sobre várias propri
 
 * **Nota** : Especifique as propriedades para exibir notas de rodapé em sua saída. Você pode optar por especificar as margens e as propriedades de preenchimento, juntamente com um estilo de borda.
 
-### Definir o tamanho da página
+### Definir o tamanho da página {#set-page-size}
 
 A primeira coisa que você precisa definir em um layout de página é o tamanho da página. Nas Propriedades da página, há mais de 15 tamanhos de página que você pode escolher para um layout de página. Você também pode criar um tamanho de página personalizado executando as seguintes etapas:
 
@@ -117,7 +117,7 @@ A primeira coisa que você precisa definir em um layout de página é o tamanho 
 
    >[!NOTE]
    >
-   >Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
+   >Consulte [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) seção para abrir um layout de página para personalização ou edição.
 
 1. No painel direito, clique em **Propriedades da página**.
 1. No **Tamanho da página** , selecione **Personalizado**.
@@ -130,7 +130,7 @@ A primeira coisa que você precisa definir em um layout de página é o tamanho 
    >
    >Algumas das unidades mais usadas são px (pixels), pt (pontos), rem, em, % (porcentagem) e em (polegadas).
 
-### Usar a orientação de página e a rotação de visualização
+### Usar a orientação de página e a rotação de visualização {#page-orientation-rotation}
 
 Vamos ver um exemplo em que uma combinação de orientação de página retrato e paisagem e propriedades de rotação de visualização é usada. Neste exemplo, criaremos um PDF com a orientação de retrato padrão, mas uma tabela será renderizada na orientação de paisagem com conteúdo na exibição de 90 graus no sentido horário. A saída final será semelhante a:
 
@@ -215,7 +215,7 @@ Execute as seguintes etapas para realizar as tarefas acima:
 
 O PDF final terá o conteúdo da tabela renderizado no modo paisagem, como mostrado no início do exemplo.
 
-### Adicionar uma imagem de plano de fundo
+### Adicionar uma imagem de plano de fundo {#add-bg-image}
 
 Com base em seus requisitos, você pode adicionar uma imagem de fundo que aparecerá em cada primeira página de uma saída do Capítulo (PDF). As propriedades de Plano de fundo em Propriedades da página permitem adicionar facilmente uma imagem de plano de fundo. Você pode optar por replicar essa imagem em uma página e posicioná-la em qualquer lugar na parte superior, inferior ou central da página.
 
@@ -225,7 +225,7 @@ Por exemplo, para inserir uma imagem de plano de fundo na parte central da área
 
    >[!NOTE]
    >
-   >Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
+   >Consulte [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) seção para abrir um layout de página para personalização ou edição.
 
 1. Clique em qualquer lugar na área de conteúdo.
 
@@ -255,13 +255,13 @@ A captura de tela a seguir exibe a imagem de plano de fundo com a propriedade Re
 
 <img src="./assets/background-image.png" width="500">
 
-## Trabalhar com o cabeçalho e o rodapé da página
+## Trabalhar com o cabeçalho e o rodapé da página {#work-header-footer}
 
 Ao incluir informações em um cabeçalho ou rodapé em um layout de página, essas informações são repetidas em todas as páginas que usam esse layout de página. Normalmente, a área do cabeçalho é usada para o título do capítulo ou do tópico e a área do rodapé é usada para mostrar números de página.
 
 Ao criar um novo layout de página, a área de cabeçalho e rodapé é criada por padrão. É possível fazer muitas personalizações na área de cabeçalho e rodapé de um layout de página. Por exemplo, é possível inserir uma imagem (como um logotipo), variáveis (contendo informações dinâmicas) ou conteúdo estático.
 
-### Alterar as margens e linhas do cabeçalho e do rodapé
+### Alterar as margens e linhas do cabeçalho e do rodapé {#header-footer-margins}
 
 Por padrão, as margens do cabeçalho e do rodapé são definidas como 1 polegada. Você pode alterar esse valor padrão alterando a configuração Margem no painel Propriedades da página . Execute as seguintes etapas para alterar o tamanho do cabeçalho e do rodapé:
 
@@ -269,7 +269,7 @@ Por padrão, as margens do cabeçalho e do rodapé são definidas como 1 polegad
 
    >[!NOTE]
    >
-   >Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
+   >Consulte [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) seção para abrir um layout de página para personalização ou edição.
 
 1. No painel direito, clique em **Propriedades da página**.
 1. Expanda o **Layout** seção.
@@ -301,7 +301,7 @@ Se você quiser trabalhar diretamente com o CSS e o HTML code, poderá alterar o
 >
 >No exemplo acima, unidades diferentes são usadas para especificar os valores de margem.
 
-### Remova o cabeçalho e o rodapé
+### Remova o cabeçalho e o rodapé {#remove-header-footer}
 
 A sobreposição de cabeçalho e rodapé nas margens superior e inferior. Tecnicamente, isso significa que, se você quiser ter um cabeçalho e um rodapé no layout da página, deverá reservar o espaço necessário nas margens superior e inferior.
 
@@ -310,7 +310,7 @@ Se você não quiser que um layout de página tenha um cabeçalho e um rodapé, 
 * Se desejar manter as margens superior e inferior, deixe a área do cabeçalho e do rodapé em branco.
 * Se você não quiser reter as margens superior e inferior (como projetar a tampa frontal e traseira de uma revista), poderá remover as margens definindo as propriedades de margem superior e inferior como 0. Isso não deixa espaço para o cabeçalho e o rodapé.
 
-### Adicionar uma imagem ou um logotipo no cabeçalho
+### Adicionar uma imagem ou um logotipo no cabeçalho {#add-image-header}
 
 Com base em suas necessidades, talvez você queira adicionar uma imagem que apareça na área de cabeçalho (ou em qualquer outra parte) do layout da página. Há duas maneiras de adicionar uma imagem ao layout da página:
 
@@ -327,7 +327,7 @@ Para inserir uma imagem como o logotipo da sua empresa na área de cabeçalho, e
 
 >[!NOTE]
 >
->Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
+>Consulte [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) seção para abrir um layout de página para personalização ou edição.
 
 1. Clique em Editar cabeçalho (<img src="./assets/header-icon.svg" width="25">) para trazer o cursor para a área do cabeçalho.
 
@@ -341,9 +341,9 @@ A captura de tela a seguir mostra uma imagem de amostra adicionada na área do c
 
 <img src="./assets/image-in-header-area.png" width="500">
 
-Depois que uma imagem é inserida, você pode modificar seus atributos para dar a ela a aparência desejada. A maneira mais fácil de alterar a aparência de uma imagem ou de qualquer outro elemento no layout da página, use o painel Propriedades do conteúdo . Consulte _Trabalhar com o painel Propriedades de conteúdo_ para as várias propriedades disponíveis por meio da interface do usuário personalizada.
+Depois que uma imagem é inserida, você pode modificar seus atributos para dar a ela a aparência desejada. A maneira mais fácil de alterar a aparência de uma imagem ou de qualquer outro elemento no layout da página, use o painel Propriedades do conteúdo . Consulte [Trabalhar com o painel Propriedades de conteúdo](design-page-layout.md#work-with-content-properties-panel) para as várias propriedades disponíveis por meio da interface do usuário personalizada.
 
-### Adicionar campos e metadados
+### Adicionar campos e metadados {#add-fields-metadata}
 
 Os campos são muito úteis quando você deseja inserir uma parte das informações predefinidas. Por exemplo, você pode incluir um campo Título de capítulo na área de cabeçalho do capítulo que é substituído pelo título do capítulo real quando publicado.
 
@@ -361,7 +361,7 @@ Existem as seguintes categorias para campos que podem ser inseridas no layout da
 
 Cada uma dessas categorias de campo contém diferentes variações nas quais as informações de campo podem ser inseridas. Por exemplo, um campo Data pode ter variações diferentes, como `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` e assim por diante. Da mesma forma, o Número de página pode ter variações na forma de formatos romanos, decimais ou até mesmo específicos à localidade, como _Árabe_, _Devanágari_, _Hebraico_ e muito mais.
 
-Além dos campos predefinidos, também é possível adicionar informações de metadados como variáveis ou campos no layout da página. Esses metadados são armazenados no conteúdo do mapa DITA de origem e podem ser facilmente inseridos no layout da página. Para obter mais informações, consulte _Trabalhar com campos e metadados_.
+Além dos campos predefinidos, também é possível adicionar informações de metadados como variáveis ou campos no layout da página. Esses metadados são armazenados no conteúdo do mapa DITA de origem e podem ser facilmente inseridos no layout da página. Para obter mais informações, consulte [Adicionar campos e metadados](design-page-layout.md#add-fields-and-metadata).
 
 No exemplo a seguir, inserimos um número de página e um título de capítulo na área de rodapé de um layout de página.
 
@@ -369,7 +369,7 @@ No exemplo a seguir, inserimos um número de página e um título de capítulo n
 
    >[!NOTE]
    >
-   >Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
+   >Consulte [Personalizar um layout de página](components-pdf-template.md#customize-page-layout) seção para abrir um layout de página para personalização ou edição.
 
 1. Clique no botão **Editar rodapé** (![](./assets/footer-icon.svg)) para trazer o cursor para a área do rodapé.
 
@@ -387,7 +387,7 @@ No exemplo a seguir, inserimos um número de página e um título de capítulo n
 
    >[!NOTE]
    >
-   >Também é possível editar o formato de todos os campos, exceto o formato padrão. Para fazer isso, clique no ícone Edit ao lado do formato que deseja editar, faça alterações e clique em OK. Para obter mais informações, consulte _Trabalhar com campos e metadados_.
+   >Também é possível editar o formato de todos os campos, exceto o formato padrão. Para fazer isso, clique no ícone Edit ao lado do formato que deseja editar, faça alterações e clique em OK. Para obter mais informações, consulte [Adicionar campos e metadados](design-page-layout.md#add-fields-and-metadata).
 
    O campo de número de página padrão é inserido na área de rodapé do layout da página.
 
@@ -433,7 +433,7 @@ Se você quiser trabalhar diretamente com o CSS e o HTML code, também poderá f
 …
 ```
 
-## Trabalhar com área de conteúdo
+## Trabalhar com área de conteúdo {#content-area}
 
 A área de conteúdo é a maior área em termos de espaço de conteúdo. A área de conteúdo é preenchida com o conteúdo de seu tópico. Em alguns casos especiais, é possível adicionar conteúdo estereotipado à área de conteúdo. Esse conteúdo é publicado no local especificado no layout da página. Por exemplo, o cabeçalho no índice, no glossário e no índice pode ser adicionado como conteúdo estereotipado, que é publicado &quot;no estado em que se encontra&quot; na saída final. Outro exemplo é o índice de capítulo, que normalmente é adicionado na primeira página de cada capítulo.
 
@@ -441,7 +441,7 @@ Uma das personalizações mais usadas na área de conteúdo é o layout de vári
 
 Nas seções a seguir, abordaremos vários cenários para personalizar a área de conteúdo.
 
-### Adicionar um sumário de capítulo
+### Adicionar um sumário de capítulo {#add-chapter-toc}
 
 Um índice de capítulo serve como uma referência rápida para os leitores saberem o que está no capítulo. Normalmente, um sumário de capítulo é adicionado no início de um capítulo. Portanto, se quiser usar um sumário de capítulo, é possível adicioná-lo à área de conteúdo do layout da página de capítulo principal ou à variante de layout da primeira página de um capítulo.
 
@@ -455,7 +455,7 @@ No exemplo a seguir, vamos inserir um sumário de capítulo no primeiro layout d
 
    >[!NOTE]
    >
-   >Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
+   >Consulte [Personalizar um layout de página](components-pdf-template.md#customize-a-page-layout) seção para abrir um layout de página para personalização ou edição.
 
 1. Coloque o cursor na área de conteúdo do layout da página.
 
@@ -489,7 +489,7 @@ A aparência do TOC padrão pode ser personalizada usando as folhas de estilos. 
 >
 >No momento, se você fizer atualizações de estilo em uma folha de estilos, elas poderão não ser refletidas na visualização de conteúdo. No entanto, a saída é renderizada com os estilos atualizados.
 
-### Trabalhar com layout de página de várias colunas
+### Trabalhar com layout de página de várias colunas {#multi-column-layout}
 
 Layouts de página com várias colunas são muito comuns em publicações de revistas ou índices em um livro. O recurso Publicação nativa PDF permite que você divida facilmente seu documento em várias colunas. Usando diferentes layouts de página, você pode optar por manter apenas uma seção específica dividida em várias colunas, mantendo as outras seções em um único layout de coluna (ou normal).
 
@@ -499,7 +499,7 @@ Para criar um layout de página com várias colunas, execute as seguintes etapas
 
    >[!NOTE]
    >
-   >Consulte _Personalizar um layout de página_ seção para abrir um layout de página para personalização ou edição.
+   >Consulte [Personalizar um layout de página](components-pdf-template.md#customize-a-page-layout) seção para abrir um layout de página para personalização ou edição.
 
 1. Como o layout de várias colunas é aplicado ao conteúdo, excluindo a área de cabeçalho e rodapé, é necessário selecionar o elemento de conteúdo na navegação estrutural.
 
@@ -536,7 +536,7 @@ Para criar um layout de página com várias colunas, execute as seguintes etapas
    * **Regra de coluna** : Se você quiser ter uma linha entre colunas, use essa propriedade para definir os estilos de linha ou de regra. Especifique os valores para Estilo, Cor e Largura da regra para adicionar uma linha entre colunas.
 
 
-## Trabalhar com o painel Propriedades de conteúdo
+## Trabalhar com o painel Propriedades de conteúdo {#work-with-content-props}
 
 O painel Propriedades de conteúdo permite atualizar facilmente a aparência dos elementos no layout da página. As propriedades no painel Propriedades de conteúdo são divididas nas seguintes seções:
 

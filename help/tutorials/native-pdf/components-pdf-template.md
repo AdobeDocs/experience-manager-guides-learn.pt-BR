@@ -4,30 +4,34 @@ description: Saiba mais sobre os vários componentes de um modelo de PDF e como 
 hide: true
 hidefromtoc: true
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: e0602e325fec014fe5a9ebe231b0c62611a4e52d
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
 
-# Componentes de um template PDF
+# Componentes de um template PDF {#components-pdf-template}
 
 Um modelo de PDF tem quatro componentes: Layouts de página, folhas de estilos, recursos e configurações. Você pode criar um modelo personalizando esses componentes individuais e associando o modelo a uma predefinição de saída enquanto gera uma saída PDF. As seções a seguir abordam esses componentes e seu processo de personalização detalhadamente.
 
 
-## Criar e personalizar layouts de página
+## Criar e personalizar layouts de página {#create-customize-page-layout}
 
 As configurações no componente Layouts de página permitem que você crie a estrutura de uma página definindo o cabeçalho, o rodapé e a área de conteúdo em uma página. Usando o editor de layout de página WYSIWYG, você pode criar um layout de página para diferentes seções em um PDF, como as páginas de capa frontal e posterior, o capítulo, o Índice (TOC), o índice, a página em branco, a Lista de figuras (LOF), a Lista de tabelas (LOT), o glossário ou criar um layout para uma página personalizada. Nas Configurações do modelo de PDF, é possível atribuir um layout de página com seções diferentes em um PDF, que são usadas para gerar a saída do PDF.
 
-### Criar um novo layout de página
+### Criar um novo layout de página {#create-page-layout}
 
-> **Observação**: Existem layouts de página de exemplo que são enviados para uso imediato. Você pode personalizar ou criar novos layouts de página.
+>[!NOTE]
+>
+>Existem layouts de página de exemplo que são enviados para uso imediato. Você pode personalizar ou criar novos layouts de página.
 
 1. No Editor da Web, vá para o **Saída** guia .
 1. Expanda a barra lateral esquerda e clique em **Modelos**.
 1. Abra o template que deseja trabalhar.
-   > **Observação**: Você pode abrir um template clicando duas vezes em seu nome ou clicando no ícone > ao lado de seu nome.
+   >[!NOTE]
+   >
+   >Você pode abrir um template clicando duas vezes em seu nome ou clicando no ícone > ao lado de seu nome.
 1. Para criar um novo layout de página, siga um destes procedimentos:
    * Passar o mouse **Layouts de página** e clique em (*Opções* ícone ) **...** e escolha **Novo layout de página**.
    * No **Modelos** clique no painel **+** ícone ao lado de **Modelos** e escolha **Layout da página** no menu de contexto.
@@ -36,12 +40,14 @@ As configurações no componente Layouts de página permitem que você crie a es
 
       <img src="assets/add-layout-2.png" alt="Caixa de diálogo Adicionar layout" width="250">
 1. Especifique um nome para o novo layout de página.
-   > **Observação:** Evite usar caracteres especiais ao nomear um layout de página. Um espaço no nome é substituído por um sublinhado &quot;_&quot;.
+   >[!NOTE]
+   >
+   >Evite usar caracteres especiais ao nomear um layout de página. Um espaço no nome é substituído por um sublinhado &quot;_&quot;.
 1. Clique em **Concluído**.
 
    O novo layout é criado e adicionado em Layouts de página.
 
-### Duplicação de um layout de página
+### Duplicação de um layout de página {#duplicate-page-layout}
 
 1. No **Modelos** seção do template que deseja duplicar, clique duas vezes em **Layouts de página** ou clique no botão **>** ícone antes **Layouts de página**.
 
@@ -54,7 +60,7 @@ As configurações no componente Layouts de página permitem que você crie a es
 1. Clique em **Concluído**.
 Uma cópia do layout de página selecionado é criada e adicionada em Layouts de página.
 
-### Personalizar um layout de página
+### Personalizar um layout de página {#customize-page-layout}
 
 1. No **Modelos** seção do modelo que deseja editar, clique duas vezes em **Layouts de página** ou clique no botão **>** ícone antes **Layouts de página**.
 
@@ -66,13 +72,13 @@ Uma cópia do layout de página selecionado é criada e adicionada em Layouts de
    Isso abre o editor de layout de página para personalização.
 1. Depois de fazer as alterações desejadas, clique em *Salvar tudo* ou `Crl+S`).
 
-   Para obter mais informações sobre como definir elementos de layout individuais, como cabeçalho, rodapé, número de página, título e muito mais, consulte *Trabalhar com elementos de layout de página*.
+   Para obter mais informações sobre como definir elementos de layout individuais, como cabeçalho, rodapé, número de página, título e muito mais, consulte [Criar um layout de página](design-page-layout.md).
 
-## Usar folhas de estilos para personalizar o PDF
+## Usar folhas de estilos para personalizar o PDF {#stylesheet-customization}
 
 As configurações no componente Folhas de estilos permitem estilizar os componentes do layout da página e o conteúdo DITA usando o editor WYSIWYG ou trabalhar diretamente com o arquivo CSS. Você pode criar seus próprios estilos ou personalizar as propriedades de estilo padrão. O editor WYSIWYG oferece acesso à maioria das propriedades necessárias para criar um estilo no layout da página ou no conteúdo DITA. Para personalizações avançadas, você pode trabalhar diretamente na exibição Origem.
 
-### Criar uma nova folha de estilos
+### Criar uma nova folha de estilos {#create-stylesheet}
 
 Embora os arquivos CSS sejam fornecidos para conteúdo e layout, é possível criar uma nova folha de estilos para aplicar várias personalizações a um tipo de estilo específico que pode ser aplicado a um componente de destino. Por padrão, arquivos CSS de amostra são agrupados no produto. Esses arquivos CSS são destinados a ajudar você a organizar suas informações de estilo em conteúdos e layouts. Você pode optar por mesclar esses estilos em um único arquivo CSS ou em vários arquivos.
 
@@ -92,7 +98,7 @@ Para criar uma folha de estilos, siga as etapas abaixo:
 
    Uma nova folha de estilos é criada e adicionada na seção Folhas de estilos .
 
-### Criar um novo estilo
+### Criar um novo estilo {#create-style}
 
 Por padrão, os arquivos CSS contêm estilos para cabeçalho, parágrafo, caractere, hiperlink, imagem, tabela, div, página e outros estilos. Você pode substituir o formato de estilo padrão ou criar um novo estilo.
 
@@ -114,7 +120,7 @@ Para criar um novo estilo, siga as etapas abaixo:
 
    Um novo estilo é criado e adicionado sob o estilo base.
 
-### Personalizar um estilo predefinido ou novo
+### Personalizar um estilo predefinido ou novo {#customize-style}
 
 Depois de criar um novo arquivo CSS com estilos padrão ou personalizar estilos em um arquivo CSS existente, você pode usar o editor de estilos para fazer isso.
 
@@ -134,7 +140,9 @@ Para personalizar um estilo, siga as etapas abaixo:
 
 1. Para personalizar um estilo, clique duas vezes em um estilo ou clique no ícone > antes de um estilo para exibi-lo e personalizá-lo usando o editor Estilos .
 
-## Trabalhar com recursos
+para obter detalhes sobre como trabalhar com os estilos mais comuns, consulte [Trabalhar com os estilos de conteúdo comuns](stylesheet.md)
+
+## Trabalhar com recursos {#work-with-resources}
 
 Este é um contêiner para todos os ativos usados para criar um modelo. Pense nela como uma pasta, que contém ativos como imagens de fundo, fontes personalizadas, logotipos e muito mais. Sempre que você adiciona um ativo em seu modelo, ele é carregado ou conectado à pasta de ativos. Em seguida, você pode usar esses ativos para personalizar ou projetar seus modelos de PDF.
 
@@ -146,13 +154,16 @@ Para adicionar um arquivo de ativo à pasta Resources , siga as etapas abaixo:
    <img src="assets/resources-import-assets.png" alt="Fazer upload de ativos" width="300">
 
    O caminho onde o arquivo de ativo será carregado é mostrado na variável **Selecionar pasta de ativos** campo.
-   > **Observação:** Não é possível alterar o caminho para fazer upload de ativos. Por padrão, todos os ativos são armazenados no `/content/dam/dita-templates/pdf/<PDF-template-name>` pasta.
+   >[!NOTE]
+   >
+   >Não é possível alterar o caminho para fazer upload de ativos. Por padrão, todos os ativos são armazenados no `/content/dam/dita-templates/pdf/<PDF-template-name>` pasta.
 
 1. Clique em **Escolher arquivos** para navegar pelo arquivo de ativos do computador local
+
 1. Clique em **Fazer upload**.
 O arquivo selecionado é importado e listado na pasta Resources .
 
-## Configurações avançadas de PDF
+## Configurações avançadas de PDF {#advanced-pdf-settings}
 
 Use a seção Configurações para definir as configurações avançadas para o layout de página do PDF, iniciando o PDF a partir de página ímpar ou par, formatos para as referências cruzadas e habilitando marcas de impressão no PDF final gerado usando o modelo.
 
@@ -181,10 +192,12 @@ Defina as configurações básicas para iniciar um capítulo a partir de uma pá
    Aqui, você pode observar que as configurações do primeiro capítulo do PDF Avançado não recebem nenhum número de página, pois tem tópicos aninhados ou secundários. Ao passo que um número de página é atribuído ao Apêndice e Legal porque são tópicos independentes sem nenhum tópico filho.
 
 * **Formato Leader**: Use o menu suspenso para selecionar linhas pontilhadas, sólidas ou de pontilhado de espaço para conectar os níveis de cabeçalho aos números de página correspondentes.
-Para aplicar a estrutura do sumário e os níveis de cabeçalho de estilo, consulte *Definir índice*.
+Para aplicar a estrutura do sumário e os níveis de cabeçalho de estilo, consulte [Adicionar um sumário de capítulo](design-page-layout.md#add-chapter-toc).
 
-   > **Observação**: Se você for um desenvolvedor de CSS, também poderá definir o formato de pontilhado diretamente no arquivo CSS.
-* **Usar marcador de continuação de tabela**: Selecione essa opção para definir marcadores para tabelas longas que se espalham por várias páginas. Para obter mais informações sobre o uso de marcadores de continuação de tabela, consulte Usar marcadores de continuação de tabela.
+   >[!NOTE]
+   >
+   >Se você for um desenvolvedor de CSS, também poderá definir o formato de pontilhado diretamente no arquivo CSS.
+* **Usar marcador de continuação de tabela**: Selecione essa opção para definir marcadores para tabelas longas que se espalham por várias páginas. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 **Layouts de página**
 
@@ -195,7 +208,7 @@ Se você não tiver criado um layout para uma seção específica do documento, 
 Da mesma forma, se você quiser uma capa e uma página de trás, deverá ter um layout de página criado e aplicado nas configurações. Caso contrário, o PDF não conterá a tampa e as páginas de trás.
 
 
-Para obter mais informações sobre layouts de página, consulte *Configuração do layout da página*.
+Para obter mais informações sobre layouts de página, consulte [Criar um layout de página](design-page-layout.md).
 
 **Imprimir**
 
@@ -212,10 +225,12 @@ Configure as configurações de produção de impressão para atribuir marcas de
 * **Tamanho da caixa de mídia**: Esse é o tamanho geral da página, incluindo a área estendida ocupada pelas marcas da impressora. Use a opção suspensa para selecionar o tamanho da página para a saída do PDF ou criar seu próprio tamanho personalizado.
 
 * **Espaço da cor**: Você tem a opção de escolher espaços de cores RGB ou CMYK para imprimir seu documento PDF. Escolha RGB para exibir o PDF gerado digitalmente e CMYK para impressão física. As cores definidas no documento são convertidas no espaço de cores escolhido.
-   > **Observação**: Um perfil de cor ICC é necessário para a criação de PDF/A se estiver usando o espaço de cores CMYK.
+   >[!NOTE]
+   >
+   >Um perfil de cor ICC é necessário para a criação de PDF/A se estiver usando o espaço de cores CMYK.
 
-   Para obter mais informações sobre como aplicar essas configurações de impressão, consulte *Preferências de impressão*.
+   <!--For more information on applying these print settings, see *Printing preferences*.-->
 
 **Referências cruzadas**
 
-Use a guia Cross-reference para definir como as referências cruzadas são publicadas no PDF. É possível formatar as referências cruzadas para título de tópico, tabelas, figuras e muito mais. Para obter mais informações, consulte *Formatar referências cruzadas*.
+Use a guia Cross-reference para definir como as referências cruzadas são publicadas no PDF. É possível formatar as referências cruzadas para título de tópico, tabelas, figuras e muito mais. <!--For more information, see *Format cross-references*.-->
