@@ -1,10 +1,8 @@
 ---
 title: Recurso de publicação do PDF nativo | Componentes de um modelo de PDF
 description: Saiba mais sobre os vários componentes de um modelo de PDF e como personalizá-los e configurá-los.
-hide: true
-hidefromtoc: true
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 0%
@@ -82,7 +80,7 @@ As configurações no componente Folhas de estilos permitem estilizar os compone
 
 Embora os arquivos CSS sejam fornecidos para conteúdo e layout, é possível criar uma nova folha de estilos para aplicar várias personalizações a um tipo de estilo específico que pode ser aplicado a um componente de destino. Por padrão, arquivos CSS de amostra são agrupados no produto. Esses arquivos CSS são destinados a ajudar você a organizar suas informações de estilo em conteúdos e layouts. Você pode optar por mesclar esses estilos em um único arquivo CSS ou em vários arquivos.
 
-Por padrão, sempre que você cria um novo layout de página, a variável `layout.css` está incluído no novo layout de página. Se quiser que o layout da página contenha estilos de um arquivo CSS diferente, basta arrastar e soltar o arquivo CSS desejado na área de edição de conteúdo do novo layout da página. Para validar se o arquivo CSS foi incorporado no layout da página, alterne para a exibição Origem e você encontrará um link para o arquivo CSS na `<head>` elemento.
+Por padrão, sempre que você cria um novo layout de página, a variável `layout.css` está incluído no novo layout de página. Se quiser que o layout da página contenha estilos de um arquivo CSS diferente, basta arrastar e soltar o arquivo CSS desejado na área de edição de conteúdo do novo layout de página. Para validar se o arquivo CSS foi incorporado no layout da página, alterne para a exibição Origem e você encontrará um link para o arquivo CSS na `<head>` elemento.
 
 
 Para criar uma folha de estilos, siga as etapas abaixo:
@@ -165,7 +163,7 @@ O arquivo selecionado é importado e listado na pasta Resources .
 
 ## Configurações avançadas de PDF {#advanced-pdf-settings}
 
-Use a seção Configurações para definir as configurações avançadas para o layout de página do PDF, iniciando o PDF a partir de página ímpar ou par, formatos para as referências cruzadas e habilitando marcas de impressão no PDF final gerado usando o modelo.
+Use a seção Configurações para definir as configurações avançadas para o layout da página, iniciando PDF ou página par, formatos para as referências cruzadas e ativando as marcas de impressão no PDF final gerado com o modelo.
 
 Para configurar, clique em **Configurações** no **Modelos** painel para exibir as seguintes opções:
 

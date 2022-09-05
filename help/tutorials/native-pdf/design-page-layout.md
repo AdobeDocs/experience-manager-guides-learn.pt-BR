@@ -1,10 +1,8 @@
 ---
 title: Recurso de publicação do PDF nativo | Criar um layout de página
 description: Saiba como criar o layout da página para apresentar informações em diferentes seções da saída do PDF.
-hide: true
-hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 7b96fe9e8fad0e017626be04f5c41c1e42e7469d
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
 source-wordcount: '4649'
 ht-degree: 0%
