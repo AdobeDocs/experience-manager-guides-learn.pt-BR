@@ -2,10 +2,10 @@
 user-guide-title: Tutoriais do AEM Guides
 user-guide-description: Leia nossa coleção de tutoriais do Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriais do AEM Guides
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: cf0ccd878ec25cb9eadd2cc5fa6f63eeec8a442c
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 22%
+source-wordcount: '125'
+ht-degree: 23%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 22%
    + [Trabalhar com saída condicional](./content-architecture/create-and-use-conditions.md)
    + [Criar chaves globais](./content-architecture/create-global-keys.md)
 + Configuração {#configuring}
-   + Configurar o recurso de publicação nativo do PDF {#config-native-pdf-publish}
+   + Publicação nativa do PDF {#config-native-pdf-publish}
       + [Modelo PDF](./native-pdf/pdf-template.md)
       + [Componentes de um modelo de PDF](./native-pdf/components-pdf-template.md)
       + [Criar um layout de página](./native-pdf/design-page-layout.md)
