@@ -1,7 +1,7 @@
 ---
 title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de setembro de 2022
 description: Versão mais recente dos Guias do Adobe Experience Manager as a Cloud Service
-source-git-commit: f2ad6e920c47fff61dd85e3aeafb558c7fd6cfea
+source-git-commit: 748a37298849b3fbf6079c19de3cb052dee3a464
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 3%
@@ -58,7 +58,7 @@ AEM Guias as a Cloud Service fornecem muitos aprimoramentos e novos recursos na 
 Agora AEM Guias fornece o recurso para criar linhas de base dinâmicas com base em rótulos. Se você gerar uma linha de base, baixar uma linha de base ou criar um projeto de tradução usando uma linha de base, os arquivos serão selecionados dinamicamente com base nos rótulos atualizados. Esse recurso é útil, pois não é necessário modificar a linha de base ao atualizar os rótulos.
 Também é possível exportar o instantâneo da linha de base como CSV.
 
-![Criar linhas de base](assets/preset-metadata.png)
+![Criar linhas de base](assets/dynamic-baseline.png)
 
 ### Localizar e substituir o texto no nível de mapa
 
