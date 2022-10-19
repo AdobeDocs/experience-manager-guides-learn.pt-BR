@@ -2,10 +2,10 @@
 title: PDF nativo | Produção de PDF
 description: Gerar saída do PDF nos Guias do Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 1b46f5e496e6c974abeba019a9d3174d5bc5315c
+source-git-commit: d832e78b690b533f44dc2205e9fea483d9213c58
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 0%
+source-wordcount: '2299'
+ht-degree: 1%
 
 ---
 
@@ -62,7 +62,7 @@ O painel Predefinição é aberto.
    * Clique no ícone + em **Predefinições** para adicionar uma nova predefinição de saída de **Tipo: PDF**
 3. Para definir as configurações de uma predefinição de PDF existente:
    * Clique no botão  **Opções** ![opções](assets/options.svg) ícone ao lado da Predefinição de saída desejada e selecione **Editar**.
-Você pode usar as seguintes configurações no **Geral**, **Layout**, **Segurança** e **Avançado** guias para configurar uma predefinição de saída do PDF:
+Você pode usar as seguintes configurações no **Geral**, **Metadados**, **Layout**, **Segurança** e **Avançado** guias para configurar uma predefinição de saída do PDF:
 
 **Geral**
 
@@ -74,6 +74,23 @@ Use para especificar configurações básicas de saída, como especificar caminh
 | **Arquivo PDF** | Especifique um nome de arquivo para salvar o PDF. Por padrão, o nome do arquivo PDF adiciona o nome do mapa DITA junto com o nome predefinido. Por exemplo, o ditamap é &quot;TestMap&quot; e o nome da predefinição é &quot;preset1&quot;, então o nome padrão do pdf será &quot;TestMap_preset1.pdf&quot;. |
 | **Aplicar condições usando** | Para conteúdo condicional, escolha entre as opções abaixo para gerar uma saída PDF com base nessas condições: <br>* **Nenhum Aplicado** Selecione essa opção se não quiser aplicar nenhuma condição no mapa e no conteúdo de origem. <br> * **Arquivo Ditaval** Selecione um arquivo DITAVAL para gerar conteúdo condicional. Para selecionar, clique em Predefinição de condição e localize o arquivo. <br> * **Predefinição de condição** Selecione uma predefinição de condição no menu suspenso para aplicar uma condição enquanto publica a saída. Essa opção estará visível se você tiver adicionado uma condição para o arquivo de mapa DITA. As configurações condicionais estão disponíveis na guia Predefinições de condição do console de mapa DITA. Para saber mais sobre a predefinição de condição, consulte [Usar predefinições de condição](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
 | **Usar linha de base** | Se tiver criado uma Linha de base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar. Consulte [Trabalhar com linha de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) para obter mais detalhes. |
+
+**Metadados**
+
+Metadados é a descrição ou definição do seu conteúdo. Os metadados ajudam no gerenciamento de conteúdo e ajudam a pesquisar arquivos na Internet.
+
+Use a guia Metadados para definir o título, o autor, o assunto e as palavras-chave para a saída do PDF. Esses metadados são mapeados para os metadados na guia Description , na PDF Document Properties do seu de saída.
+
+**Observação**: Esses metadados substituem os metadados definidos no nível do livro.
+
+![guia metadados](assets/pdf-metadata.png)
+
+| Configuração | Descrição |
+|---|---|
+| **Título** | Especifique um título curto e claro para definir o documento. |
+| **Autor** | Especifique os nomes dos autores que criaram o documento. |
+| **Assunto** | Defina o assunto ou a coleção com a qual o documento está relacionado. |
+| **Palavras-chave** | Use palavras-chave relevantes para melhorar a otimização do mecanismo de pesquisa (SEO) e ajudar os usuários a encontrar seu conteúdo relacionado. |
 
 **Layout**
 

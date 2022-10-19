@@ -1,21 +1,21 @@
 ---
 title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de setembro de 2022
-description: Versão mais recente dos Guias do Adobe Experience Manager as a Cloud Service
-source-git-commit: 748a37298849b3fbf6079c19de3cb052dee3a464
+description: Versão de setembro dos Guias do Adobe Experience Manager as a Cloud Service
+source-git-commit: 28712c3f2057d7553ed2fe955db0dfe278c8a9b9
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1285'
 ht-degree: 3%
 
 ---
 
-# Versão mais recente dos Guias do Adobe Experience Manager as a Cloud Service
+# Versão de setembro dos Guias do Adobe Experience Manager as a Cloud Service
 
-## Atualizar para a versão mais recente
+## Atualize para a versão de setembro
 
 Atualizar seus Guias atuais do Adobe Experience Manager as a Cloud Service (mais tarde, como *Guias de AEM as a Cloud Service*) configurando executando as seguintes etapas:
-1. Verifique o código GKS do Cloud Services e alterne para a ramificação do Cloud Services configurada no pipeline correspondente ao ambiente que você deseja atualizar.
+1. Verifique o código GKS do Cloud Services e alterne para a ramificação configurada no pipeline correspondente ao ambiente que você deseja atualizar.
 2. Atualizar `<dox.version>` propriedade em `/dox/dox.installer/pom.xml` arquivo do código Git do Cloud Services para 2022.9.178.
-3. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão mais recente dos Guias AEM as a Cloud Service.
+3. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de setembro AEM Guias as a Cloud Service.
 
 ## Etapas para indexar o conteúdo existente
 
@@ -50,7 +50,7 @@ Esta seção lista a matriz de compatibilidade para os aplicativos de software c
 
 ## Novos recursos e melhorias
 
-AEM Guias as a Cloud Service fornecem muitos aprimoramentos e novos recursos na versão mais recente:
+AEM Guias as a Cloud Service oferecem muitos aprimoramentos e novos recursos na versão de setembro:
 
 
 ### Criar uma linha de base dinâmica com base em rótulos
