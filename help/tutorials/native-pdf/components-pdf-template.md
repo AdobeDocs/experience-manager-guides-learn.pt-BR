@@ -2,9 +2,9 @@
 title: Recurso de publicação do PDF nativo | Componentes de um modelo de PDF
 description: Saiba mais sobre os vários componentes de um modelo de PDF e como personalizá-los e configurá-los.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2516'
 ht-degree: 0%
 
 ---
@@ -185,6 +185,7 @@ Defina as configurações básicas para iniciar um capítulo a partir de uma pá
    No exemplo acima, Configurações avançadas de PDF, Apêndice e Legal são os títulos de tópico de primeiro nível ou títulos de capítulo. Um número de página é atribuído a todos esses cabeçalhos.
 
    Agora, se você selecionar essa opção e gerar a saída, você obterá o seguinte TOC:
+
    <img src="assets/page-number-missing-in-toc.png" alt="Fazer upload de ativos" width="250">
 
    Aqui, você pode observar que as configurações do primeiro capítulo do PDF Avançado não recebem nenhum número de página, pois tem tópicos aninhados ou secundários. Ao passo que um número de página é atribuído ao Apêndice e Legal porque são tópicos independentes sem nenhum tópico filho.
@@ -201,10 +202,35 @@ Para aplicar a estrutura do sumário e os níveis de cabeçalho de estilo, consu
 
 As configurações de Layouts de página oferecem controle total sobre como especificar qual layout de página deve ser usado em uma seção específica do documento. Por exemplo, para selecionar um layout para o Índice, clique no menu suspenso no campo TOC e selecione o layout projetado para gerar o TOC.
 
-Se você não tiver criado um layout para uma seção específica do documento, poderá simplesmente escolher um layout que sirva como layout padrão para essas seções ou tópicos. O layout de página padrão é aplicado a todas as seções que não têm um layout de página dedicado.
+As seguintes configurações estão disponíveis na seção Layout de página :
 
-Da mesma forma, se você quiser uma capa e uma página de trás, deverá ter um layout de página criado e aplicado nas configurações. Caso contrário, o PDF não conterá a tampa e as páginas de trás.
+<img src="assets/template-page-layout.png" alt="Layouts de página" width="550">
 
+
+**Layout de página padrão**: Selecione um layout de página que atue como o layout padrão para todas as páginas no PDF. Esse é o layout básico da página que é aplicado nas seções ou tópicos nos quais você não criou um layout de página dedicado.
+
+**Layout de página para diferentes seções**: Você pode optar por mapear um layout de página com as seguintes seções da saída do PDF:
+* TOC
+* Lista de figuras
+* Lista de tabelas
+* Capítulos e tópicos
+* Índice
+* Glossário
+
+Se não quiser mostrar uma seção específica na saída do PDF, você pode desativar isso ao desativar a opção de alternância.
+
+**Capítulo e tópicos** o layout está sempre ativado e **Glossário** O layout é sempre desativado por padrão. Não é possível alterá-los.
+
+Você também pode definir a ordem em que essas diferentes seções são geradas no PDF. Se desejar alterar a ordem padrão dessas páginas, passe o mouse sobre a esquerda de um layout de página e clique no ícone de barras pontilhadas para arrastar e soltar o layout de página no local desejado.
+O seu PDF conterá os layouts de página ativados na ordem em que foram organizados aqui.
+
+**Layout de página para páginas vazias**: Você também pode especificar o layout de página para as páginas vazias. O layout selecionado será aplicado a todas as páginas vazias. Por exemplo, se você criou um layout de página em branco para todas as páginas vazias, selecione **Em branco** na lista suspensa, e todas as páginas vazias no documento terão o layout de página em branco.
+
+**Página de capa e Página de trás**: Se você tiver criado um layout de capa, mapeie-o para **Página de capa** opção. Da mesma forma, se você tiver um layout de página traseira, mapeie-o para a variável **Página de trás** opção. Se nenhum layout de capa ou de página de trás tiver sido criado, o layout padrão da página será aplicado.
+
+>[!NOTE]
+>
+>As configurações de marcador têm prioridade sobre as configurações de layout da página.
 
 Para obter mais informações sobre layouts de página, consulte [Criar um layout de página](design-page-layout.md).
 

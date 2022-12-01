@@ -2,9 +2,9 @@
 title: PDF nativo | Produção de PDF
 description: Gerar saída do PDF nos Guias do Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: e7fe44f6d0c0ce08d5f94140474212c280b41f52
+source-git-commit: e03ef8e99b2d60dc8d34a76d0a02180eab41e35f
 workflow-type: tm+mt
-source-wordcount: '2297'
+source-wordcount: '2663'
 ht-degree: 1%
 
 ---
@@ -56,11 +56,14 @@ Para criar ou configurar uma predefinição de saída do PDF:
 
 1. Na guia Saída , clique em **Predefinições** na barra lateral esquerda.
 O painel Predefinição é aberto.
-   ![painel predefinido](assets/preset-panel.png)
-2. Na saída **Predefinições** , execute um dos seguintes procedimentos:
+
+<img src="assets/preset-panel.png" alt="painel predefinido" width="600">
+
+1. Na saída **Predefinições** , execute um dos seguintes procedimentos:
    * Clique duas vezes em uma predefinição de saída PDF predefinida para exibi-la.
    * Clique no ícone + em **Predefinições** para adicionar uma nova predefinição de saída de **Tipo: PDF**
-3. Para definir as configurações de uma predefinição de PDF existente:
+
+1. Para definir as configurações de uma predefinição de PDF existente:
    * Clique no botão  **Opções** ![opções](assets/options.svg) ícone ao lado da Predefinição de saída desejada e selecione **Editar**.
 Você pode usar as seguintes configurações no **Geral**, **Metadados**, **Layout**, **Segurança** e **Avançado** guias para configurar uma predefinição de saída do PDF:
 
@@ -70,10 +73,12 @@ Use para especificar configurações básicas de saída, como especificar caminh
 
 | Configuração | Descrição |
 | --- | --- |
-| **Caminho de saída** | O caminho no repositório de AEM onde a saída do PDF é armazenada. Verifique se o caminho de saída não está localizado dentro da pasta do projeto. Se deixado em branco, a saída é gerada no local de saída padrão do mapa DITA. |
-| **Arquivo PDF** | Especifique um nome de arquivo para salvar o PDF. Por padrão, o nome do arquivo PDF adiciona o nome do mapa DITA junto com o nome predefinido. Por exemplo, o ditamap é &quot;TestMap&quot; e o nome da predefinição é &quot;preset1&quot;, então o nome padrão do pdf será &quot;TestMap_preset1.pdf&quot;. |
-| **Aplicar condições usando** | Para conteúdo condicional, escolha entre as opções abaixo para gerar uma saída PDF com base nessas condições: <br>* **Nenhum Aplicado** Selecione essa opção se não quiser aplicar nenhuma condição no mapa e no conteúdo de origem. <br> * **Arquivo Ditaval** Selecione um arquivo DITAVAL para gerar conteúdo condicional. Para selecionar, clique em Predefinição de condição e localize o arquivo. <br> * **Predefinição de condição** Selecione uma predefinição de condição no menu suspenso para aplicar uma condição enquanto publica a saída. Essa opção estará visível se você tiver adicionado uma condição para o arquivo de mapa DITA. As configurações condicionais estão disponíveis na guia Predefinições de condição do console de mapa DITA. Para saber mais sobre a predefinição de condição, consulte [Usar predefinições de condição](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
+| **Caminho de saída** | O caminho no repositório de AEM onde a saída do PDF é armazenada. Verifique se o caminho de saída não está localizado dentro da pasta do projeto. Se deixado em branco, a saída é gerada no local de saída padrão do mapa DITA.<br>Também é possível usar as seguintes variáveis prontas para uso para definir o Caminho de saída. Você pode usar uma única ou uma combinação de variáveis para definir essa opção. <br> `${map_filename}`: Usa o nome dos arquivos do mapa DITA para criar o caminho de destino. <br> `${map_title}`: Usa o título do mapa DITA para criar o caminho de destino. <br>`${preset_name}`: Usa o nome predefinido de saída para criar o caminho de destino. <br> `${language_code}`: Usa o código de idioma onde o arquivo de mapa está localizado para criar o caminho de destino. <br> `${map_parentpath}`: Usa o caminho completo do arquivo de mapa para criar o caminho de destino.  <br>`${path_after_langfolder}`: Usa o caminho do arquivo de mapa após a pasta de idioma para criar o caminho de destino. |
+| **Arquivo PDF** | Especifique um nome de arquivo para salvar o PDF. Por padrão, o nome do arquivo PDF adiciona o nome do mapa DITA junto com o nome predefinido. Por exemplo, o ditamap é &quot;TestMap&quot; e o nome da predefinição é &quot;preset1&quot;, então o nome padrão do pdf será &quot;TestMap_preset1.pdf&quot;. <br>Também é possível usar as seguintes variáveis prontas para uso para definir o Arquivo PDF. Você pode usar uma única ou uma combinação de variáveis para definir essa opção. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
+| **Aplicar condições usando** | Para conteúdo condicional, escolha entre as opções abaixo para gerar uma saída PDF com base nessas condições: <br>* **Nenhum Aplicado** Selecione essa opção se não quiser aplicar nenhuma condição no mapa e no conteúdo de origem. <br>* **Arquivo Ditaval** Selecione um arquivo DITAVAL para gerar conteúdo condicional. Para selecionar, clique em Predefinição de condição e localize o arquivo. <br> * **Predefinição de condição** Selecione uma predefinição de condição no menu suspenso para aplicar uma condição enquanto publica a saída. Essa opção estará visível se você tiver adicionado uma condição para o arquivo de mapa DITA. As configurações condicionais estão disponíveis na guia Predefinições de condição do console de mapa DITA. Para saber mais sobre a predefinição de condição, consulte [Usar predefinições de condição](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
 | **Usar linha de base** | Se tiver criado uma Linha de base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar. Consulte [Trabalhar com linha de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) para obter mais detalhes. |
+| **Criar PDF com Barra de Alteração entre Versões Publicadas** | Use as seguintes opções para criar uma PDF mostrando as diferenças no conteúdo entre duas versões usando barras de alteração:   <br>* **Linha de base da versão anterior** Escolha a versão da linha de base que deseja comparar com a versão atual ou outra linha de base. Uma barra de alteração é exibida no PDF para indicar o conteúdo modificado. Uma barra de alteração é uma linha vertical que identifica visualmente o conteúdo novo ou revisado. A barra de alteração é exibida à esquerda do conteúdo que foi inserido, alterado ou excluído. <br> **Observação**: Se você selecionar **Usar linha de base** e escolher uma linha de base para publicar, a comparação será feita entre as duas versões de linha de base selecionadas. Por exemplo, se você escolher a linha de base Versão 1.3 em **Usar linha de base** e versão 1.1 em **Linha de base da versão anterior**, a comparação será feita entre a versão 1.1 da linha de base e a versão 1.3 da linha de base. <br>* **Mostrar texto adicionado** Selecione para mostrar o texto inserido em cor verde e sublinhado. Esta opção está selecionada por padrão. <br> * **Mostrar texto excluído** Selecione para mostrar o texto excluído em cor vermelha e marcado com um tachado. Esta opção está selecionada por padrão. <br>**Observação** Você também pode personalizar o estilo da barra de alteração, inserir conteúdo ou excluir conteúdo usando a folha de estilos.<br> |
+| **Fluxo de trabalho de pós-geração** | Selecione para mostrar uma lista suspensa que contém todos os workflows configurados no AEM. Você pode selecionar o workflow que deseja executar após a conclusão do workflow de geração de PDF. |
 
 **Metadados**
 
@@ -83,7 +88,8 @@ Use a guia Metadados para definir o título, o autor, o assunto e as palavras-ch
 
 **Observação**: Esses metadados substituem os metadados definidos no nível do livro.
 
-![guia metadados](assets/pdf-metadata.png)
+<img src="assets/pdf-metadata.png" alt="guia metadados" width="600">
+
 
 | Configuração | Descrição |
 |---|---|
@@ -147,6 +153,6 @@ Você pode exibir uma barra de progresso ao lado da predefinição de saída sel
 6. Quando a geração de saída estiver concluída, clique em  **Exibir saída** ![exibir saída](assets/view-output.svg) na barra superior para visualizar a saída.\
    A **Sucesso** é visível no canto inferior direito da tela.
 Se uma saída não for bem-sucedida, a mensagem de erro abaixo será exibida.
-   ![log de erros](assets/error-log.png)
+<img src="assets/error-log.png" alt="log de erros" width="250">
 
 Para exibir o log de erros, clique em **Dismiss**, passe o mouse sobre a guia predefinida selecionada e clique em ![opções](assets/options.svg) **Opções** > **Exibir registro**.
