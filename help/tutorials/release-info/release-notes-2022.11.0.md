@@ -1,9 +1,10 @@
 ---
 title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de novembro de 2022
 description: Versão mais recente dos Guias do Adobe Experience Manager as a Cloud Service
-source-git-commit: 549417d6a45508d0afe98574499f1694ae32e708
+exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
+source-git-commit: 84ff7619722fbda2787ce4c27cc69b5f71e25927
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1370'
 ht-degree: 2%
 
 ---
@@ -131,7 +132,6 @@ Agora você também pode gerar o TOC em mapas DITA usando uma configuração de 
 
 Os bugs corrigidos em várias áreas estão listados abaixo:
 
-* PDF nativo | Uma nota de rodapé no cabeçalho da tabela leva a um texto de nota de rodapé em negrito e alinhado no centro no rodapé dentro da saída do PDF. (10610)
 * PDF nativo | `conkeyref` não é resolvido na saída do PDF gerado. (10564)
 * PDF nativo | Problemas ao acessar metadados de um mapa na saída do PDF. (10556)
 * PDF nativo | O estilo em linha é usado para gerar tags em vez do nome da classe.  (10498)
@@ -141,7 +141,6 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Observação dentro de uma tag para , que é conref, não está sendo exibida na visualização. (10559)
 * A ocorrência do backspace no final de um item de lista remove toda a lista. (10540)
 * Ao usar um PDF nativo, exporte o aninhado `<indexterm>` não estão aninhados no índice. (10521)
-* Ao usar a publicação da linha de base errada `cq:tags` são selecionadas (extraídas da cópia de trabalho atual em vez da cópia da versão). (10494)
 * **Recuo automático** na barra de ferramentas está ausente na Visualização de Origem. (10448)
 * O primeiro caractere de um item de lista é perdido enquanto a lista está sendo criada no editor. (10447)
 * Vários pop-ups serão exibidos se qualquer versão do ativo DITA for alterada e salva na janela de edição da linha de base. (10399)
@@ -150,7 +149,6 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * O processamento de postagens é bloqueado para a pasta de idioma inteira cujos ativos estão presentes em um projeto de tradução ativo. (10332)
 * A guia Modelo no Editor XML não está visível para os administradores do perfil da pasta. (10266)
 * Problemas de navegação ocorrem no Editor da Web após a atualização 4.0. (10159)
-* O primeiro caractere é quebrado no idioma coreano durante a criação no Editor da Web. (10049)
 * Os arquivos SVG não estão sendo exibidos no modo de Visualização. (10010)
 * Se a guia Saída do Editor contiver mais predefinições, a seção predefinições não poderá ser rolada e todas as predefinições não serão exibidas. (9787)
 * **Editar** e **Anotar** as opções para uma imagem não estão funcionando corretamente na exibição de coluna. (8758)
