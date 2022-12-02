@@ -2,9 +2,9 @@
 title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de novembro de 2022
 description: Versão mais recente dos Guias do Adobe Experience Manager as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 84ff7619722fbda2787ce4c27cc69b5f71e25927
+source-git-commit: 0663ed4434fdf583a9446891f944d94b85f375c6
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1372'
 ht-degree: 2%
 
 ---
@@ -101,9 +101,7 @@ No painel de tradução, você também pode ver a coluna Rótulo da versão . Is
 <img src="assets/send-translation.png" alt="enviar para tradução" width="600">
 
 
-## Aprimoramentos de publicação de PDF nativo
-
-### PDF com barra de alteração mostrando a diferença entre as versões do documento
+### PDF nativo | PDF com barra de alteração mostrando a diferença entre as versões do documento
 
 Agora é possível criar uma PDF que mostre as diferenças no conteúdo entre duas versões usando a barra de alterações. Você pode optar por comparar a versão atual com uma linha de base da versão anterior ou comparar entre as duas versões de linha de base selecionadas.
 
@@ -113,7 +111,7 @@ Uma barra de alteração é exibida no PDF para indicar o conteúdo modificado, 
 * Mostrar o conteúdo inserido em cor verde e sublinhado
 * Mostrar o conteúdo excluído em cor vermelha e marcado com um tachado
 
-### Suporte a variáveis para Caminho de saída e Nome do arquivo PDF
+### PDF nativo | Suporte a variáveis para Caminho de saída e Nome do arquivo PDF
 
 Agora você também pode usar as seguintes variáveis prontas para uso para definir o Caminho de saída e o Arquivo PDF. Você pode usar uma única ou uma combinação de variáveis para definir estas opções:
 * `${map_filename}`
@@ -124,7 +122,7 @@ Agora você também pode usar as seguintes variáveis prontas para uso para defi
 * `${path_after_langfolder}` (Somente para Caminho de Saída)
 
 
-### Gerar Índice para mapas DITA e reorganizar layouts de página
+### PDF nativo | Gerar Índice para mapas DITA e reorganizar layouts de página
 
 Agora você também pode gerar o TOC em mapas DITA usando uma configuração de PDF avançada do modelo. Você pode optar por ativar ou desativar a exibição dos vários layouts de página e também reorganizar sua posição.
 
