@@ -2,9 +2,9 @@
 title: PDF nativo | Produção de PDF
 description: Gerar saída do PDF nos Guias do Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: e03ef8e99b2d60dc8d34a76d0a02180eab41e35f
+source-git-commit: 618030a32b6cc8d703e71d4eb91a340cb89a413b
 workflow-type: tm+mt
-source-wordcount: '2663'
+source-wordcount: '2666'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ Use as opções a seguir para especificar configurações avançadas para unir P
 | Configuração | Descrição |
 | --- | --- |
 | **Criar PDF acessível (marcado)** | Selecione essa opção para gerar um PDF com tags. Um PDF marcado facilita a leitura e navegação de conteúdo, hiperlinks, marcadores e assim por diante para os leitores de tela. Por exemplo, se uma tabela estiver marcada, o leitor de tela saberá que está lendo a tabela e não apenas linhas e texto. |
-| **Mesclar PDF incluídos no sumário** | Selecione esta opção para unir PDF existentes à saída adicionando-os ao Índice. Os PDF serão inseridos no local representado no sumário e as páginas serão incrementadas de acordo. |
+| **Mesclar PDF incluídos no sumário** | Selecione essa opção para mesclar PDF existentes na saída, adicionando-os ao mapa DITA como um arquivo de recurso. Os PDF serão inseridos no local representado no mapa e as páginas serão incrementadas adequadamente. |
 | **Incorporar fontes usadas** | Selecione esta opção ao usar fontes que podem não ser instaladas na máquina do usuário final. Com essa opção selecionada, as fontes usadas são incorporadas no PDF, garantindo que o usuário possa ver o PDF como pretendido, mesmo que as fontes não estejam instaladas em sua máquina. <br> **Observação**: Uma fonte só pode ser incorporada se contiver uma configuração pelo fornecedor da fonte que permita sua incorporação. Certifique-se de ter a configuração ou licença necessária antes de incorporar uma fonte. |
 | **Usar separação automática de sílabas** | Com a separação automática de sílabas ativada, as palavras no final das linhas são quebradas em lugares gramaticalmente corretos com um hífen. |
 | **Habilitar JavaScript** | Ative essa opção se você tiver um código JavaScript que deseja usar para transformar seu conteúdo dinamicamente antes de gerar um PDF. |
