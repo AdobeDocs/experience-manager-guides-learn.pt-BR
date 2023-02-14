@@ -2,7 +2,7 @@
 title: Perfis de pasta
 description: Criação e uso de perfis de pastas para guias de AEM
 exl-id: 5a0daa68-51ae-42d0-8320-6e8bdb1fe545
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 1%
@@ -15,7 +15,7 @@ O AEM fornece acesso rápido às ferramentas de configuração. Ao personalizar 
 
 Os arquivos de amostra que você pode optar por usar para esta lição são fornecidos no arquivo [folderprofiles.zip](assets/folderprofiles.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342758)
+>[!VIDEO](https://video.tv.adobe.com/v/342758?quality=12&learn=on)
 
 ## Perfis de pasta de acesso
 

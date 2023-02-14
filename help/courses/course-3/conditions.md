@@ -2,7 +2,7 @@
 title: Condições
 description: Trabalhar com condições nas guias de AEM
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: 01083e771baced42146044bf319d3897a2c5f51b
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -15,7 +15,7 @@ No DITA, as condições geralmente são orientadas por atributos como Produto, P
 
 Os arquivos de amostra que você pode optar por usar para esta lição são fornecidos no arquivo [conditions.zip](assets/conditions.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342755)
+>[!VIDEO](https://video.tv.adobe.com/v/342755?quality=12&learn=on)
 
 ## Atribuir condições a um Perfil de pasta
 

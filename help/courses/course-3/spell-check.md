@@ -2,7 +2,7 @@
 title: Verificar ortografia e localizar/substituir
 description: Uso da verificação ortográfica e localizar/substituir em Guias AEM
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: 0b4326b02ef52f5de77c3f26c18feec84567cebb
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 O Editor de guias de AEM tem recursos avançados de verificação ortográfica e localização e substituição.
 
->[!VIDEO](https://video.tv.adobe.com/v/342768)
+>[!VIDEO](https://video.tv.adobe.com/v/342768?quality=12&learn=on)
 
 Corrigir um erro ortográfico
 
@@ -39,7 +39,7 @@ Você pode usar uma ferramenta de verificação ortográfica diferente do dicion
 
    - **Verificação ortográfica do navegador** — a configuração padrão em que a verificação ortográfica usa o dicionário interno do navegador.
 
-   - **Verificação Ortográfica AEM** — use essa opção para criar uma lista de palavras personalizada usando o dicionário personalizado do AEM.
+   - **Verificação Ortográfica AEM** — use essa opção para criar uma lista de palavras personalizada usando AEM dicionário personalizado.
 
 4. Choose **Verificação Ortográfica AEM**.
 

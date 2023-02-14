@@ -2,7 +2,7 @@
 title: Curso 3 do Editor de guias do Adobe Experience Manager
 description: Guia do Usuário Avançado para AEM Guias do Editor da Web
 exl-id: f73a11ae-07e4-42c6-a803-7bdffe08de6d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 3%
@@ -11,7 +11,7 @@ ht-degree: 3%
 
 # Visão geral do curso
 
->[!VIDEO](https://video.tv.adobe.com/v/342759)
+>[!VIDEO](https://video.tv.adobe.com/v/342759?quality=12&learn=on)
 
 Neste curso, você aprenderá a trabalhar com o seguinte:
 

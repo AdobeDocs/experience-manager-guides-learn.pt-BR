@@ -2,7 +2,7 @@
 title: Introdução ao painel Mapa
 description: Introdução ao painel Mapa
 exl-id: c2efa073-15e7-42a0-aaa8-04859b0fdf62
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 A seguir, uma visão geral dos principais recursos do painel de mapa.
 
->[!VIDEO](https://video.tv.adobe.com/v/339040)
+>[!VIDEO](https://video.tv.adobe.com/v/339040?quality=12&learn=on)
 
 ## Abrir um mapa no painel Mapa
 
@@ -49,7 +49,7 @@ A guia Tópicos exibe uma lista de todos os tópicos no mapa.
 
 ![images/topics.png](images/topics.png)
 
-Marcar a caixa de seleção de um tópico permite executar ações adicionais. Você pode editá-la, gerá-la novamente e mostrar, aplicar ou ocultar suas tags.
+Selecionar uma caixa de seleção de tópico permite executar ações adicionais. Você pode editá-la, gerá-la novamente e mostrar, aplicar ou ocultar suas tags.
 
 ### Predefinições de condição
 

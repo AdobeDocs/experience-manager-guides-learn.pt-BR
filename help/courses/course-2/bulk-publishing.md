@@ -2,7 +2,7 @@
 title: Publicação em massa
 description: Publicação em massa em [!DNL Adobe Experience Manager Guides]
 exl-id: b277e846-ef71-47ec-a66c-ac9d392d53e0
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 Ao publicar, geralmente é necessário mais de um tipo de documentação. Usando Mapear coleções você pode controlar o número e os tipos de saída que serão montados e gerados e iniciar a publicação em massa. O painel Publicar permite que você visualize trabalhos de publicação ativos. O Painel de publicação em massa fornece uma maneira de ativar coleções em massa.
 
->[!VIDEO](https://video.tv.adobe.com/v/338985)
+>[!VIDEO](https://video.tv.adobe.com/v/338985?quality=12&learn=on)
 
 ## Trabalhar com coleções de mapa
 

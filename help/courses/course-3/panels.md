@@ -2,7 +2,7 @@
 title: Painéis
 description: Uso de painéis em guias de AEM
 exl-id: 24ecfc93-3540-4efa-ae85-afb346454b7f
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '1446'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 O Editor da Web Guias de AEM é dividido em várias seções, incluindo uma barra de ferramentas principal, uma barra de ferramentas secundária, um painel à esquerda, uma área de edição de conteúdo e um painel à direita.
 
->[!VIDEO](https://video.tv.adobe.com/v/342760)
+>[!VIDEO](https://video.tv.adobe.com/v/342760?quality=12&learn=on)
 
 ## Redimensionar o painel esquerdo
 

@@ -2,7 +2,7 @@
 title: Reutilização de conteúdo
 description: Uso recorrente de recursos nos guias de AEM
 exl-id: 453c5a09-0bcf-4760-87fc-df3ea4a3a30a
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 Um dos principais recursos do DITA é a capacidade de reutilizar conteúdo. Permite a reutilização de conteúdo de frases pequenas até tópicos ou mapas inteiros.  No entanto, para que o conteúdo seja efetivamente reutilizado, ele deve ser bem gerenciado. Certifique-se de ter uma estratégia de conteúdo eficaz ao trabalhar com informações reutilizáveis.
 
->[!VIDEO](https://video.tv.adobe.com/v/342757)
+>[!VIDEO](https://video.tv.adobe.com/v/342757?quality=12&learn=on)
 
 ## Criar um tópico reutilizável
 

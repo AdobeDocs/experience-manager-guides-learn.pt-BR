@@ -2,7 +2,7 @@
 title: Mapas e mapas de livros
 description: Criação e edição de mapas e marcadores em Guias AEM
 exl-id: 9c717e4b-017b-4f2b-b93e-f2c0e7525c55
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 O Editor de mapa dos guias do Adobe Experience Manager permite criar e editar arquivos de mapa. Com o Editor de mapa, você pode editar dois tipos de arquivos: mapa DITA e mapa de livros. Para nós, consideremos que estes são conceitos amplamente intercambiáveis.
 O Editor de mapa vem em dois modos: o Editor de mapa básico e o Editor de mapa avançado.
 
->[!VIDEO](https://video.tv.adobe.com/v/342766)
+>[!VIDEO](https://video.tv.adobe.com/v/342766?quality=12&learn=on)
 
 ## Criar um mapa
 

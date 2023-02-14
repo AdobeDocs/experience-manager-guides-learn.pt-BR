@@ -2,7 +2,7 @@
 title: Preferências do usuário, configurações do editor e barras de ferramentas do editor
 description: Alteração das preferências do usuário e das configurações do editor nos Guias AEM
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: 3d81727cdf4a58921724b0f1aa93b0700f821f60
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 O Editor tem uma interface altamente configurável. A combinação de Preferências de usuário, Configurações do editor e Perfis de pasta significa que você pode personalizar quase todos os aspectos para seu ambiente de trabalho específico.
 
->[!VIDEO](https://video.tv.adobe.com/v/342769)
+>[!VIDEO](https://video.tv.adobe.com/v/342769?quality=12&learn=on)
 
 ## Mostrar ou ocultar tags de elemento
 

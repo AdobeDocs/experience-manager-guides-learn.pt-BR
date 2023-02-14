@@ -2,7 +2,7 @@
 title: Solução de problemas de erros de publicação
 description: Solução de problemas de erros de publicação no [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Publicar um mapa geralmente é simples. Abra o mapa, selecione uma Predefinição de saída e gere a saída! No entanto, se um mapa ou seus tópicos tiverem erros, a geração de saída poderá falhar. Quando isso acontecer, é importante saber como solucionar problemas.
 
->[!VIDEO](https://video.tv.adobe.com/v/338990)
+>[!VIDEO](https://video.tv.adobe.com/v/338990?quality=12&learn=on)
 
 ## Preparação para o exercício
 
