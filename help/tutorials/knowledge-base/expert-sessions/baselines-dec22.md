@@ -2,9 +2,9 @@
 title: Gerenciar conteúdo usando linhas de base
 description: Saiba como usar linhas de base para gerenciar seu conteúdo de maneira eficaz.
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
+source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Nesta sessão, você aprenderá a usar linhas de base para gerenciar o conteúdo
 
 ## Gravação da sessão
 
->[vídeo](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on)
 
 ## Realces
 

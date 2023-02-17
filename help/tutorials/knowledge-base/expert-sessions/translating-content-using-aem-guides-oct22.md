@@ -2,10 +2,10 @@
 title: Traduzir conteúdo
 description: Saiba como traduzir o conteúdo em vários idiomas.
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
+source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 3%
+source-wordcount: '194'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ Nesta sessão, você aprenderá sobre o processo de tradução, o mecanismo de i
 
 ## Gravação da sessão
 
->[vídeo](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## Realces
 
