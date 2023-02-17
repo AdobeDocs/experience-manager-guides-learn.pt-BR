@@ -1,10 +1,11 @@
 ---
 title: Traduzir conteúdo
 description: Saiba como traduzir o conteúdo em vários idiomas.
-source-git-commit: 78d8834a3c5ba038f28289bd5c90755badb38d82
+exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 2%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +19,7 @@ Nesta sessão, você aprenderá sobre o processo de tradução, o mecanismo de i
 
 ## Gravação da sessão
 
->Veja os dados gravados [vídeo](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on) sessão.
+>[vídeo](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## Realces
 
@@ -50,11 +51,11 @@ Nesta sessão, você aprenderá sobre o seguinte:
 > - Cloud Services 2207 ou posterior
 
 
-## Mais sessões de especialistas
+## Próxima sessão de especialistas
 
 - **Tópico** - [Gerenciar conteúdo usando linhas de base](baselines-dec22.md)
 - **Agendado em** - 8 de dezembro de 2022
 
 ## Entre em contato conosco
 
-Para qualquer query, envie um email para techcomm@adobe.com.
+Para qualquer query, envie um email em <techcomm@adobe.com>

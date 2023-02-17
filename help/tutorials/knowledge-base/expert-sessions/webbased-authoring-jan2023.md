@@ -1,13 +1,13 @@
 ---
 title: Criar conteúdo baseado na Web
 description: Saiba como criar conteúdo estruturado usando o editor da Web.
-source-git-commit: 78d8834a3c5ba038f28289bd5c90755badb38d82
+exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
-
 
 # Criar conteúdo baseado na Web
 
@@ -19,7 +19,7 @@ Nesta sessão, você aprenderá a criar, publicar e gerenciar conteúdo usando o
 
 ## Gravação da sessão
 
->Veja os dados gravados [vídeo](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on) sessão.
+>[vídeo](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
 
 ## Realces
 
@@ -51,11 +51,11 @@ Nesta sessão, você aprenderá sobre o seguinte:
 > - Cloud Services 2211 e posterior
 
 
-## Mais sessões de especialistas
+## Próxima sessão de especialistas
 
 - **Tópico** - Publicação nativa do PDF *(com base nos resultados da pesquisa)*
 - **Agendado em** - 23 de fevereiro de 2023
 
 ## Entre em contato conosco
 
-Para qualquer query, envie um email para techcomm@adobe.com.
+Para qualquer query, envie um email em <techcomm@adobe.com>
