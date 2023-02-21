@@ -2,9 +2,9 @@
 user-guide-title: Tutoriais do AEM Guides
 user-guide-description: Leia nossa coleção de tutoriais do Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriais do AEM Guides
-source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
+source-git-commit: 638bc7daa3bccfdb0334927ac277c4052cf2becb
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '149'
 ht-degree: 22%
 
 ---
@@ -49,6 +49,7 @@ ht-degree: 22%
 + Versões {#versioning}
 + Knowledge Base {#knowledge-base}
    + Sessão de especialistas {#expert-session}
+      + [Visão geral da sessão de especialistas](./knowledge-base/expert-sessions/expert-session.md)
+      + [Traduzir conteúdo](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
       + [Gerenciar conteúdo usando linhas de base](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [Criar conteúdo baseado na Web](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
-      + [Traduzir conteúdo](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
