@@ -1,9 +1,10 @@
 ---
 title: Notas de versão | Versão 4.2 dos guias do Adobe Experience Manager
 description: Versão mais recente dos Guias do Adobe Experience Manager
-source-git-commit: 2fb46bdfb7f42fd9b3ef19343700009818c5b4f2
+exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
+source-git-commit: 890d64aed5f4005e3f4d3143bc35804e39036ad3
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3668'
 ht-degree: 2%
 
 ---
@@ -251,12 +252,12 @@ Uma barra de alteração é exibida no PDF para indicar o conteúdo modificado, 
 ### PDF nativo | Suporte a variáveis para Caminho de saída e Nome do arquivo PDF
 
 Agora você também pode usar as seguintes variáveis prontas para uso para definir o Caminho de saída e o Arquivo PDF. Você pode usar uma única ou uma combinação de variáveis para definir estas opções:
-* ${map_filename}
-* ${map_title}
-* ${preset_name}
-* ${language_code}
-* ${map_parentpath} (Somente para Caminho de Saída)
-* ${path_after_langfolder} (Somente para Caminho de Saída)
+* `${map_filename}`
+* `${map_title}`
+* `${preset_name}`
+* `${language_code}`
+* `${map_parentpath}` (Somente para Caminho de Saída)
+* `${path_after_langfolder}` (Somente para Caminho de Saída)
 
 ### PDF nativo | Gerar Índice para mapas DITA e reorganizar layouts de página
 
