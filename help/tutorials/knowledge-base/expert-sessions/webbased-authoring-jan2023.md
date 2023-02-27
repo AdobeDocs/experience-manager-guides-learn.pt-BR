@@ -2,9 +2,9 @@
 title: Criar conteúdo baseado na Web
 description: Saiba como criar conteúdo estruturado usando o editor da Web.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Nesta sessão, você aprenderá sobre o seguinte:
 
 ## Próxima sessão de especialistas
 
-- **Tópico** - Publicação nativa do PDF *(com base nos resultados da pesquisa)*
+- **Tópico** - [Fundamentos da publicação do PDF nativo](native-pdf-publishing-essentials-feb23.md)
 - **Agendado em** - 23 de fevereiro de 2023
 
 ## Entre em contato conosco
