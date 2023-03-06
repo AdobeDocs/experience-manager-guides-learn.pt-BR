@@ -1,21 +1,21 @@
 ---
 title: Traduzir conteúdo
-description: Saiba como traduzir o conteúdo em vários idiomas.
+description: Saiba como traduzir o conteúdo para vários idiomas.
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
 
 # Traduzir conteúdo
 
-Os guias de AEM fornecem a solução mais avançada para a criação de conteúdo multilíngue com recursos robustos de tradução.
+O AEM Guides fornece a solução definitiva para a criação de conteúdo multilíngue com recursos de tradução robustos.
 
 ## Visão geral da sessão
 
-Nesta sessão, você aprenderá sobre o processo de tradução, o mecanismo de integração e a relação custo-eficácia dos fluxos de trabalho de tradução humana e de máquina.
+Nesta sessão, você aprenderá sobre o processo de tradução, o mecanismo de integração e a economia dos fluxos de trabalho de tradução humana e automática.
 
 ## Gravação da sessão
 
@@ -26,15 +26,15 @@ Nesta sessão, você aprenderá sobre o processo de tradução, o mecanismo de i
 - **Data** - 27 de outubro de 2022
 - **Número de participantes** - 94
 - **Duração** - 60 minutos
-- **Público** - Clientes, parceiros e funcionários do Adobe
+- **Público** - Clientes, parceiros e funcionários da Adobe
 
-## Capturas de chave
+## Principais pontos
 
 Nesta sessão, você aprenderá sobre o seguinte:
-- Motivos pelos quais as empresas investem na tradução para melhorar seus negócios
+- Motivos pelos quais as empresas investem em tradução para melhorar seus negócios
 - Mecanismo-quadro disponível e processo de tradução
-- Automação de fluxo de trabalho de tradução, APIs e painel
-- Práticas recomendadas para tradução de conteúdo estruturado
+- Automação do fluxo de trabalho de tradução, das APIs e do painel
+- Práticas recomendadas para a tradução de conteúdo estruturado
 
 ## Recursos relacionados
 
@@ -42,20 +42,15 @@ Nesta sessão, você aprenderá sobre o seguinte:
 
 - **Guia do usuário** - [Traduzir conteúdo](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **Fórum da comunidade** - Para interações da comunidade específicas da sessão no Experience League, visite [Fórum de guias de AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+- **Fórum da comunidade** - Para interações da comunidade específicas por sessão no Experience League, visite [Fórum de guias do AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
-> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias de AEM:
+> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
 > - No local 4.1 ou posterior
 > - Cloud Services 2207 ou posterior
 
 
-## Próxima sessão de especialistas
+## Entre em contato
 
-- **Tópico** - [Gerenciar conteúdo usando linhas de base](baselines-dec22.md)
-- **Agendado em** - 8 de dezembro de 2022
-
-## Entre em contato conosco
-
-Para qualquer query, envie um email em <techcomm@adobe.com>
+Para qualquer consulta, envie-nos um email em <techcomm@adobe.com>
