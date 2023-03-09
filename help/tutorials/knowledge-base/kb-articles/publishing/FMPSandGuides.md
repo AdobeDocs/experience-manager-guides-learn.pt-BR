@@ -1,26 +1,23 @@
 ---
 title: Guias FMPS e AEM
 description: Publicação com o FMPS usando guias do AEM
-source-git-commit: abf6b9502615e5029ce51f860e05cadc8d94edc2
+source-git-commit: e3cef715f635746f7b426cb5de09299715cc354b
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
 
 
-
 # Guias do FrameMaker Publishing Server (FMPS) e do AEM
 
-**A integração do AEM Guides com o FrameMaker Publishing Server pode ajudar você a encontrar uma solução se estiver procurando uma publicação automatizada de alta qualidade.\
+**A integração do AEM Guides com o FrameMaker Publishing Server pode ser a sua solução se você estiver procurando uma publicação automatizada de alta qualidade.\
 O artigo abaixo ajudará você a configurar e executar o FMPS com Guias AEM.**
 
-## Compatibilidade do FMPS com os guias AEM :
+## Compatibilidade do FMPS com o Guia AEM:
 
-- Compatibilidade com o 4.1 Guias do AEM: [Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
-
-- Compatibilidade com o 4.0 Guias do AEM: [Link](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-
+- Compatibilidade com Guias AEM 4.1: [Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+- Compatibilidade com guias de AEM 4.0: [Link](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
 - Versão futura: [Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Instalação:
@@ -35,10 +32,9 @@ Para a instalação do FMPS, você pode consultar [Link de vídeo](https://www.y
 
 ## Configurações necessárias:
 
-Seu conteúdo DITA pode ser emitido usando o FrameMaker Publishing Server (FMPS). Você pode criar saída em qualquer um dos muitos formatos compatíveis com o FMPS.
-No Console da Web, modifique as seguintes propriedades do pacote com.adobe.fmdita.config.ConfigManager para configurar Guias do AEM para usar o FMPS.
+Seu conteúdo DITA pode ser emitido usando o FrameMaker Publishing Server (FMPS). Você pode criar saída em qualquer um dos muitos formatos compatíveis com o FMPS. No Console da Web, modifique as seguintes propriedades do pacote com.adobe.fmdita.config.ConfigManager para configurar Guias do AEM para usar o FMPS.
 
-Para abrir o Console da Web, acesse o URL Access http://\&lt;server name=&quot;&quot;>:\&lt;port>/system/console/configMgr .
+Para abrir o Console da Web, acesse o URL Access http://\&lt;server name=&quot;&quot;>:\&lt;port>/system/console/configMgr
 
 **Propriedades de configuração e sua descrição:** [Link](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
 
@@ -48,47 +44,47 @@ Usando o FMPS, você pode publicar automaticamente **PDF, HTML responsivo5**, e 
 
 No menu &quot;Generate PDF using&quot;, escolha FrameMaker Publishing Server.
 
-O usuário pode fornecer &quot;Arquivo de configurações(.sts)&quot; e &quot;ditaval. A filtragem será feita usando Ditaval com base nas condições fornecidas.
+O usuário pode fornecer &quot;settings File(.sts)&quot; e &quot;ditaval. A filtragem será feita usando ditaval com base nas condições fornecidas.
 
-- **Arquivo de configuração**: Configuração FrameMaker /FMPS Publish que contém todas as configurações que você deseja que o FMPS aceite ao publicar. Por exemplo: ,Geração de saída com modelo personalizado, Geração de marcas e sangramentos(PDF) , Geração de PDF com índice, etc.
-- **FMPS presente:** Combinação predefinida de Ditaval e arquivo de configurações , em vez de fornecer Ditaval e arquivo de configurações separados, o usuário pode pré-criar a predefinição de FMPS que pode ser reutilizada para fins de publicação.
+- **arquivo de configuração**: Configuração FrameMaker /FMPS Publish que contém todas as configurações que você deseja que o FMPS aceite durante a publicação. Por exemplo: Gerando saída com o modelo personalizado, Gerando marcas e sangramentos (PDF), Gerando PDF com índice, índice etc.
+- **FMPS presente:** Combinação predefinida de arquivos ditaval e de configurações, em vez de fornecer arquivos ditaval e de configurações separados, o usuário pode pré-criar a predefinição FMPS que pode ser reutilizada para necessidades de publicação.
 
-**Nota:**  Se você não selecionar qualquer uma das Configurações ou Predefinição FMPS, o FMPS será publicado com a configuração padrão do sistema.
+**Nota:** Se você não selecionar nenhuma das configurações ou predefinição FMPS, o FMPS publicará com a configuração padrão do sistema.
 
-Se você selecionou Predefinição FMPS e também forneceu o arquivo Configurações/Ditaval do AEM, isso entrará em conflito e a Predefinição FMPS terá prioridade sobre o arquivo Configurações/Ditaval personalizado.
+Se você selecionou a predefinição FMPS e também forneceu configurações/arquivo ditaval do AEM, isso entrará em conflito e a predefinição FMPS terá prioridade sobre configurações personalizadas/arquivo ditaval.
 
 ### Publicação de linha de base usando FMPS:
 
 Você pode Publicar suas linhas de base já criadas com o FMPS2020.0.2 ou versão superior.
 
-**Arquivo de configurações FMPS de exemplo (arquivo .sts) para começar:** [Link](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (descompacte este arquivo)
+**Exemplo de arquivo de configurações FMPS (arquivo .sts) para começar:** [Link](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (descompacte este arquivo)
 
 ## Perguntas frequentes e solução de problemas:
 
-- ### Falha na publicação do FMPS com &quot;Exceção de tempo limite&quot;
+- Falha na publicação do FMPS com &quot;Exceção de tempo limite&quot;.
 
 Verifique e aumente o valor de &quot;Tempo limite do FMPS&quot; (Segundos) em /system/console/configMgr/com.adobe.fmdita.config.ConfigManager&quot;
 
-- ### Não é possível obter a Predefinição FMPS na lista suspensa
+- Não é possível obter a predefinição FMPS na lista suspensa.
 
-Verifique se você tem a Predefinição de FMPS predefinida criada no Servidor e se as configurações de conexão estão corretas.
+Verifique se você tem uma predefinição de FMPS predefinida criada no Servidor e se as configurações de conexão estão corretas.
 
-- ### Estou recebendo PDF em branco ao publicar.
+- Estou recebendo PDF em branco ao publicar.
 
-Se estiver usando UUID, verifique se Marcou &quot;Usar referência baseada em UUID&quot; no FrameMaker EditPreferences e vice-versa para guias AEM não UUID
+Se estiver usando UUID, verifique se a opção &quot;Usar referência baseada em UUID&quot; está marcada em Preferências de edição do FrameMaker e vice-versa para guias AEM não UUID.
 
-- ### Minhas configurações/Ditaval não estão sendo aplicadas na saída final publicada
+- Minhas configurações/edição não estão sendo aplicadas na saída final publicada.
 
-Verifique se você não está selecionando o arquivo de Configuração/Digital e a Predefinição FMPS paralelamente.Verifique a saída manualmente usando o FrameMaker
+Verifique se você não está selecionando o arquivo de configuração/edição e a predefinição FMPS simultaneamente. Verifique a saída manualmente usando o FrameMaker.
 
-- ### A linha de base não está sendo publicada do FMPS
+- A linha de base não está sendo publicada do FMPS.
 
 A publicação de linha de base é compatível com o FMPS2020.0.2 ou versão superior.\
-Certifique-se de que a Linha de base foi criada corretamente. Para verificar, vá para Mapa de download de tópico do painel e selecione &quot;Usar linha de base&quot;.
+Verifique se a Linha de base foi criada corretamente. Para verificar, vá para Mapa de download de tópico do painel e selecione &quot;Usar linha de base&quot;.
 
-- ### A Tarefa de Publicação do FMPS leva mais tempo do que outros Mecanismos.
+- Tarefas de Publicação do FMPS levam mais tempo do que outros Mecanismos.
 
-Haverá cabeçalho fixo ideal de aprox. 3 a 4 minutos apenas durante a publicação do FMPS do que outros mecanismos , Se achar que é mais do que isso, verifique com o administrador do FMPS ou entre em contato com o suporte do Adobe.
+Haverá um cabeçalho fixo ideal de aprox. 3-4 min apenas durante a publicação a partir de FMPS do que outros motores, se você acha que é mais do que isso, verifique com o seu administrador de FMPS ou Entre em contato com o Suporte Adobe.
 
 ## Outros recursos:
 
