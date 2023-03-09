@@ -1,7 +1,7 @@
 ---
 title: Guias FMPS e AEM
 description: Publicação com o FMPS usando guias do AEM
-source-git-commit: 75e4d308f5298660a2d9006b43daf82416eb0822
+source-git-commit: abf6b9502615e5029ce51f860e05cadc8d94edc2
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -92,10 +92,10 @@ Haverá cabeçalho fixo ideal de aprox. 3 a 4 minutos apenas durante a publicaç
 
 ## Outros recursos:
 
-### [Aprendizagem e suporte do FMPS](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[Aprendizagem e suporte do FMPS](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
-### [Aprendizagem e suporte do AEM](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
+[Aprendizagem e suporte do AEM](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
-### [FrameMaker e comunidade FMPS](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
+[FrameMaker e comunidade FMPS](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
 
-### [Comunidade de guias do AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+[Comunidade de guias do AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
