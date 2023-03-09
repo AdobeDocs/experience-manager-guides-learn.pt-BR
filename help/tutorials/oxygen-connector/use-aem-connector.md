@@ -1,5 +1,5 @@
 ---
-source-git-commit: f79a387de64a31dc62455992c54fc82dc6235ebc
+source-git-commit: 2e1f1644e5f22fc928ad813f46137a3f284df022
 workflow-type: tm+mt
 source-wordcount: '5800'
 ht-degree: 1%
@@ -633,33 +633,33 @@ Solução: esse problema foi corrigido adicionando um servidor proxy entre o DIT
 
 ### O painel Guias do AEM não navega até o local do arquivo aberto { .section}
 
-Problema : Quando você opta por abrir um arquivo para edição no Oxygen XML Author do servidor AEM, o arquivo é aberto para edição no Oxygen XML Author. No entanto, o painel Guias do AEM não mostra o local do arquivo na árvore de navegação.
+Problema: Quando você opta por abrir um arquivo para edição no Oxygen XML Author do servidor AEM, o arquivo é aberto para edição no Oxygen XML Author. No entanto, o painel Guias do AEM não mostra o local do arquivo na árvore de navegação.
 
-Solução : esse problema foi observado em cenários em que o caminho do arquivo contém /content/dam duas vezes nele. Por padrão, todos os ativos no AEM são armazenados na pasta /content/dam. Se você fizer upload ou criar uma estrutura de pastas que também contenha /content/dam, esse problema será observado. Você pode executar todas as operações normais nesses arquivos, no entanto, o local na árvore de navegação não é mostrado por padrão. Para acessar esse arquivo na árvore de navegação, é necessário navegar manualmente até o local do arquivo. Observe que na árvore de navegação, o caminho /content/dam duplicado é substituído por /content/assets.
+Solução: esse problema foi observado em cenários em que o caminho do arquivo contém /content/dam duas vezes nele. Por padrão, todos os ativos no AEM são armazenados na pasta /content/dam. Se você fizer upload ou criar uma estrutura de pastas que também contenha /content/dam, esse problema será observado. Você pode executar todas as operações normais nesses arquivos, no entanto, o local na árvore de navegação não é mostrado por padrão. Para acessar esse arquivo na árvore de navegação, é necessário navegar manualmente até o local do arquivo. Observe que na árvore de navegação, o caminho /content/dam duplicado é substituído por /content/assets.
 
 ### Configurar registro { .section}
 
-Problema : por padrão, o Plug-in do Oxygen para o AEM Guides não gera registros, o que dificulta a depuração de qualquer cenário de erro.
+Problema: Por padrão, o Plug-in do Oxygen para o AEM Guides não gera nenhum registro, o que dificulta a depuração de qualquer cenário de erro.
 
-Solução : execute as seguintes etapas para habilitar o recurso de geração de logs no Plug-in:
+Solução: execute as seguintes etapas para habilitar o recurso de geração de logs no Plug-in:
 
     1.  Navegue até o local de instalação do autor de XML do Oxygen.
     
-    2.  Abra o arquivo OxyAuthor19.1.vmoptions em um editor de texto.
+    1.  Abra o arquivo OxyAuthor19.1.vmoptions em um editor de texto.
     
     **Nota:**
     
     O número da versão do arquivo pode ser diferente com base no número da versão do aplicativo instalado no sistema.
     
-    3.  Acrescentar a seguinte linha no arquivo:
+    1.  Acrescentar a seguinte linha no arquivo:
     
     &quot;
     -Djava.util.logging.config.file=./log.properties
     &quot;
     
-    4.  Salvar e fechar o arquivo.
+    1.  Salvar e fechar o arquivo.
     
-    5.  No mesmo local, crie um arquivo chamado log.properties com o seguinte conteúdo:
+    1.  No mesmo local, crie um arquivo chamado log.properties com o seguinte conteúdo:
     
     &quot;
     handlers=java.util.logging.FileHandler
@@ -671,9 +671,9 @@ Solução : execute as seguintes etapas para habilitar o recurso de geração de
     java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
     &quot;
     
-    6.  Salvar e fechar o arquivo.
+    1.  Salvar e fechar o arquivo.
     
-    7.  Inicie o Oxygen XML Author.
+    1.  Inicie o Oxygen XML Author.
     
     
     O plug-in agora cria logs no diretório inicial do usuário com o nome de arquivo aem-pluginX.log \(*onde X denota o número de rotação*\).
