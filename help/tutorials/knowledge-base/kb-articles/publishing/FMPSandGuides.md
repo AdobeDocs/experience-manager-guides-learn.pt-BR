@@ -1,10 +1,13 @@
 ---
-source-git-commit: da88662ec770b12a25ba4afd876e6eeac793cfc5
+title: Guias FMPS e AEM
+description: Publicação com o FMPS usando guias do AEM
+source-git-commit: 75e4d308f5298660a2d9006b43daf82416eb0822
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
+
 
 
 # Guias do FrameMaker Publishing Server (FMPS) e do AEM
