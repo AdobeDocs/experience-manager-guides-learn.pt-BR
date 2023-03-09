@@ -1,7 +1,7 @@
 ---
 title: Guias FMPS e AEM
 description: Publicação com o FMPS usando guias do AEM
-source-git-commit: 5c53f89a811571c2193769bb4821657df3212dc0
+source-git-commit: 82f010a97d0ed0e3c6351e6411e5955c79e0b01f
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -47,7 +47,7 @@ No menu &quot;Generate PDF using&quot;, escolha FrameMaker Publishing Server.
 O usuário pode fornecer &quot;settings File(.sts)&quot; e &quot;ditaval. A filtragem será feita usando ditaval com base nas condições fornecidas.
 
 - **arquivo de configuração**: Configuração FrameMaker /FMPS Publish que contém todas as configurações que você deseja que o FMPS aceite durante a publicação. Por exemplo: Gerando saída com o modelo personalizado, Gerando marcas e sangramentos (PDF), Gerando PDF com índice, índice etc.
-- **FMPS presente:** Combinação predefinida de arquivos ditaval e de configurações, em vez de fornecer arquivos ditaval e de configurações separados, o usuário pode pré-criar a predefinição FMPS que pode ser reutilizada para necessidades de publicação.
+- **Predefinição FMPS:** Combinação predefinida de arquivos ditaval e de configurações, em vez de fornecer arquivos ditaval e de configurações separados, o usuário pode pré-criar a predefinição FMPS que pode ser reutilizada para necessidades de publicação.
 
 **Nota:** Se você não selecionar nenhuma das configurações ou predefinição FMPS, o FMPS publicará com a configuração padrão do sistema.
 
