@@ -1,7 +1,7 @@
 ---
 title: Recurso de publicação do PDF nativo | Trabalhar com estilos de barras de alteração personalizadas
 description: Saiba como aplicar estilos em barras de alteração.
-source-git-commit: 79de97e667bffae8d120deee68a0a82011047cf5
+source-git-commit: b6fd82fd09c04a3deefab51b1064a3b6aea73e47
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,8 +12,7 @@ ht-degree: 0%
 
 Uma barra de alteração é uma linha vertical que identifica visualmente o conteúdo novo ou revisado. AEM Guias permite mostrar uma barra de alterações à esquerda do conteúdo alterado dentro dos tópicos e também os tópicos alterados no TOC da saída do PDF.
 
-Para obter mais detalhes sobre como mostrar a barra de alteração, consulte *Criar PDF com Barra de Alteração entre Versões Publicadas* definição em
-[Publicar saída do PDF](../web-editor/native-pdf-web-editor.md).
+Para obter mais detalhes sobre como mostrar a barra de alteração, consulte *Criar PDF com Barra de Alteração entre Versões Publicadas* definição em [Publicar saída do PDF](../web-editor/native-pdf-web-editor.md).
 
 ## Conteúdo alterado dentro dos tópicos
 
