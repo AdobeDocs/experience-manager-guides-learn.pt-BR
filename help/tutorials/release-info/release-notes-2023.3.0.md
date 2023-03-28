@@ -1,7 +1,7 @@
 ---
 title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de março de 2023
 description: Versão mais recente dos Guias do Adobe Experience Manager as a Cloud Service
-source-git-commit: 27c8c0f3ac5c6d9c318ac8fb7ed13299ac9994de
+source-git-commit: 07709048f560a77b923436d990c831a5f8b907e3
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 2%
@@ -19,7 +19,7 @@ Atualizar seus Guias atuais do Adobe Experience Manager as a Cloud Service (mais
 
 ## Etapas para indexar o conteúdo existente (somente se você estiver em uma versão anterior à versão de setembro AEM Guias as a Cloud Service)
 
-Execute as seguintes etapas para indexar o conteúdo existente e use o novo texto localizar e substituir no nível de mapa:
+Execute as seguintes etapas para indexar o conteúdo existente e usar o novo texto localizar e substituir no nível de mapa:
 
 * Execute uma solicitação de POST para o servidor (com autenticação correta) - `http://<server:port>/bin/guides/map-find/indexing`.
 (Opcional: Você pode passar caminhos específicos dos mapas para indexá-los, por padrão, todos os mapas serão indexados || Exemplo : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
