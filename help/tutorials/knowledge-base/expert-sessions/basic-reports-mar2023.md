@@ -1,10 +1,10 @@
 ---
 title: Relatórios nos guias de AEM
 description: Saiba quais relatórios estão disponíveis no AEM para ajudar os usuários a melhorar a qualidade do conteúdo.
-source-git-commit: 91afddedb73a54a3148afe13b456e9a83eeeb0f7
+source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '300'
+ht-degree: 1%
 
 ---
 
@@ -38,10 +38,10 @@ Nesta sessão, compartilharemos os relatórios prontos para uso disponíveis par
 
 ## Capturas de chave
 
-Nesta sessão, você aprenderá sobre o seguinte:
+Nesta sessão, você aprendeu sobre o seguinte:
 - Importância dos relatórios no CCMS
-- Quais relatórios estão disponíveis imediatamente
-- Como você pode estender os recursos de relatórios
+- Quais relatórios estão disponíveis imediatamente?
+- Como você pode estender os recursos de relatórios?
 - Exemplos de relatórios sobre conteúdo
 
 
