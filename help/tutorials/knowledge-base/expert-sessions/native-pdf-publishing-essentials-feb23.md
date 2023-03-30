@@ -1,7 +1,8 @@
 ---
 title: Fundamentos da publicação do PDF nativo
 description: Saiba como publicar o PDF usando o mecanismo pdf nativo nos Guias AEM.
-source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
+exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
+source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -50,11 +51,6 @@ Nesta sessão, você aprenderá sobre o seguinte:
 > - No local 4.2 ou posterior
 > - Cloud Services 2211 e posterior
 
-
-## Próxima sessão de especialistas
-
-- **Tópico** - TBD *(aguardando resultados da pesquisa)*
-- **Agendado em** - 30 de março de 2023
 
 ## Entre em contato conosco
 
