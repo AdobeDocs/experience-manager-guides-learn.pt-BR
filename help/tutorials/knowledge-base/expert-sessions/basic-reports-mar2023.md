@@ -1,26 +1,26 @@
 ---
 title: Relatórios nos guias de AEM
 description: Saiba quais relatórios estão disponíveis no AEM para ajudar os usuários a melhorar a qualidade do conteúdo.
-source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
+source-git-commit: aa5cbe2b8a8be8d7aa8b57d27f71e4a319dd5ccf
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 1%
+source-wordcount: '278'
+ht-degree: 0%
 
 ---
 
-# Criar conteúdo baseado na Web
+# Relatórios nos guias de AEM
 
 Em uma configuração organizacional, você deseja verificar a integridade geral do seu conteúdo antes de enviar os documentos para consumo pelos usuários finais. Essa necessidade se torna ainda mais essencial em ambientes de vários usuários e de grande escala, onde o conteúdo pode ser reutilizado em contextos diferentes, portanto, a validação do seu conteúdo ou documento é uma necessidade. No contexto do conteúdo estruturado, há alguns tipos específicos de relatórios que são normalmente necessários.
 
 
 ## Visão geral da sessão
 
-Nesta sessão, compartilharemos os relatórios prontos para uso disponíveis para os usuários. Abordaremos amplamente os seguintes tipos de Relatórios:
-- Recurso de relatório de ativos AEM
+Nesta sessão, mostramos relatórios prontos para uso disponíveis para os usuários. Em geral, cobrimos o seguinte:
 - Relatórios de documento (mapa) e tópico
 - Relatórios de metadados e opções de gerenciamento de metadados em massa
-- Exibir estatísticas de reutilização de conteúdo
-- Integridade da importação de conteúdo
+- Relatórios de reutilização de conteúdo
+- Correção da importação de conteúdo
+- Aproveitamento do recurso de relatórios do AEM Assets
 
 
 ## Gravação da sessão
@@ -40,14 +40,13 @@ Nesta sessão, compartilharemos os relatórios prontos para uso disponíveis par
 
 Nesta sessão, você aprendeu sobre o seguinte:
 - Importância dos relatórios no CCMS
-- Quais relatórios estão disponíveis imediatamente?
-- Como você pode estender os recursos de relatórios?
-- Exemplos de relatórios sobre conteúdo
+- relatórios disponíveis prontos para uso
+- exemplos de relatórios sobre conteúdo
 
 
 ## Recursos relacionados
 
-- Nesta sessão, apresentámos vários relatórios. Para criar relatórios semelhantes, consulte as etapas fornecidas no documento anexado. [Baixar PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)
+- [Baixar o PDF](./assets/aem-guides-expert-session-reports-documentation.pdf) para criar relatórios semelhantes aos casos de uso demonstrados na sessão.
 
 - **Vídeos em destaque** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
@@ -58,8 +57,8 @@ Nesta sessão, você aprendeu sobre o seguinte:
 >[!NOTE]
 >
 > Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias de AEM:
-> - No local 4.2 ou posterior
-> - Cloud Services 2302 ou posterior
+> - No local: 4.2 ou posterior
+> - Cloud Services: 2302 ou posterior
 
 
 
