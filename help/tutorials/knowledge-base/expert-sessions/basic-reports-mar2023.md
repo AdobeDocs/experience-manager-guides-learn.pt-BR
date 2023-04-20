@@ -1,10 +1,11 @@
 ---
 title: Relatórios nos guias de AEM
 description: Saiba quais relatórios estão disponíveis no AEM para ajudar os usuários a melhorar a qualidade do conteúdo.
-source-git-commit: b909e6848c3f81e3350c1ce07165d5ea00564345
+exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
+source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -36,7 +37,7 @@ Nesta sessão, mostramos relatórios prontos para uso disponíveis para os usuá
 - **Público** - Clientes, parceiros e funcionários do Adobe
 
 
-## Capturas de chave
+## Principais aprendizados
 
 Nesta sessão, você aprendeu sobre o seguinte:
 - Importância dos relatórios no CCMS
@@ -64,7 +65,7 @@ Nesta sessão, você aprendeu sobre o seguinte:
 
 ## Próxima sessão de especialistas
 
-- **Tópico** - TBD *(aguardando resultados da pesquisa)*
+- **Tópico** - Configuração de conteúdo e modelo
 - **Agendado em** - 27 de abril de 2023
 
 
