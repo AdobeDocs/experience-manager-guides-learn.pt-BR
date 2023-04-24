@@ -1,7 +1,8 @@
 ---
 title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de agosto de 2022
 description: Versão de agosto dos Guias do Adobe Experience Manager as a Cloud Service
-source-git-commit: d49ccb3f654dede0c0447849d89ecbab333a1055
+exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 2%
@@ -14,8 +15,8 @@ ht-degree: 2%
 
 Atualizar seus Guias atuais do Adobe Experience Manager as a Cloud Service (mais tarde, como *Guias de AEM as a Cloud Service*) configurando executando as seguintes etapas:
 1. Verifique o código GKS do Cloud Services e alterne para a ramificação do Cloud Services configurada no pipeline correspondente ao ambiente que você deseja atualizar.
-2. Atualizar `<dox.version>` propriedade em `/dox/dox.installer/pom.xml` arquivo do código Git do Cloud Services para 2022.8.167.
-3. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de agosto AEM Guias as a Cloud Service.
+1. Atualizar `<dox.version>` propriedade em `/dox/dox.installer/pom.xml` arquivo do código Git do Cloud Services para 2022.8.167.
+1. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de agosto AEM Guias as a Cloud Service.
 
 ## Matriz de compatibilidade
 
@@ -105,7 +106,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Não é possível criar um novo tópico ou modelo de mapa na subpasta de um mapa ou modelo de tópico. (9888)
 * Nenhuma opção está presente para navegar pelos tópicos ou mapas presentes dentro das subpastas de um mapa ou modelo de tópico. (9889)
 * Quando um arquivo Schematron é atualizado e salvo junto com o arquivo DITA, o painel direito não é exibido (se o arquivo DITA quebrar as validações presentes no arquivo Schematron). (9986)
-* Uma nova predefinição de saída duplicada pode ser criada se seu nome for igual a uma predefinição existente. (997)
+* Uma nova predefinição de saída duplicada pode ser criada se seu nome for igual a uma predefinição existente. (9997)
 * As imagens de SVG são corrompidas e não são publicadas corretamente na geração da saída do HTML. (9949)
 
 

@@ -2,7 +2,7 @@
 title: Notas de versão para [!DNL AEM Guides], versão de fevereiro de 2022
 description: Versão de fevereiro [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 3%
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 Atualize seu [!DNL Adobe Experience Manager Guides] as a Cloud Service (mais tarde conhecido como [!DNL AEM Guides] as a Cloud Service) ao executar as seguintes etapas:
 1. Verifique o código GKS do Cloud Services e alterne para a ramificação do Cloud Services configurada no pipeline correspondente ao ambiente que você deseja atualizar.
-2. Atualizar `<dox.version>` propriedade em `/dox/dox.installer/pom.xml` arquivo do código Git do Cloud Services para 2022.2.114.
-3. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de fevereiro de [!DNL AEM Guides] as a Cloud Service.
+1. Atualizar `<dox.version>` propriedade em `/dox/dox.installer/pom.xml` arquivo do código Git do Cloud Services para 2022.2.114.
+1. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de fevereiro de [!DNL AEM Guides] as a Cloud Service.
 
 ## Matriz de compatibilidade
 

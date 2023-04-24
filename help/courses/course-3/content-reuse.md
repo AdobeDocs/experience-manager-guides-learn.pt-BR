@@ -2,10 +2,10 @@
 title: Reutilização de conteúdo
 description: Uso recorrente de recursos nos guias de AEM
 exl-id: 453c5a09-0bcf-4760-87fc-df3ea4a3a30a
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -21,17 +21,17 @@ Quando uma alteração é feita em um tópico de origem reutilizável, as inform
 
 1. Navegue até o **Repositório**.
 
-2. Clique no botão **menu contextual** ao lado da pasta de reutilização.
+1. Clique no botão **menu contextual** ao lado da pasta de reutilização.
 
-3. Choose **Criar > Tópico dinâmico**.
+1. Choose **Criar > Tópico dinâmico**.
 
-4. Preencha os campos na caixa de diálogo Criar novo tópico . Por exemplo:
+1. Preencha os campos na caixa de diálogo Criar novo tópico . Por exemplo:
 
    ![Confirmação](images/lesson-8/new-topic-dialog.png)
 
-5. Clique em [!UICONTROL **Criar**].
+1. Clique em [!UICONTROL **Criar**].
 
-6. Adicione conteúdo ao tópico, conforme necessário.
+1. Adicione conteúdo ao tópico, conforme necessário.
 
 ## Adicionar um novo elemento reutilizável a um tópico
 
@@ -41,24 +41,24 @@ Há vários métodos para adicionar elementos reutilizáveis. Aqui, o primeiro f
 
 1. Clique no tópico em um local válido.
 
-2. Selecione o **Inserir conteúdo reutilizável** na barra de ferramentas superior.
+1. Selecione o **Inserir conteúdo reutilizável** na barra de ferramentas superior.
 
    ![Confirmação](images/lesson-8/insert-reuse-icon.png)
 
-3. Na caixa de diálogo Reutilizar conteúdo , clique no botão [!UICONTROL **Pasta**] ícone .
+1. Na caixa de diálogo Reutilizar conteúdo , clique no botão [!UICONTROL **Pasta**] ícone .
 
-4. Navegue até a pasta desejada.
+1. Navegue até a pasta desejada.
 
-5. Escolha um tópico com componentes reutilizáveis.
+1. Escolha um tópico com componentes reutilizáveis.
 Por exemplo:
 
    ![Confirmação](images/lesson-8/reusable-topic.png)
 
-6. Clique em [!UICONTROL **Selecionar**].
+1. Clique em [!UICONTROL **Selecionar**].
 
-7. Escolha um componente específico a ser reutilizado.
+1. Escolha um componente específico a ser reutilizado.
 
-8. Clique em [!UICONTROL **Selecionar**].
+1. Clique em [!UICONTROL **Selecionar**].
 
 O elemento reutilizável foi inserido no tópico.
 
@@ -66,19 +66,19 @@ O elemento reutilizável foi inserido no tópico.
 
 1. Navegar para **Conteúdo reutilizável** no painel esquerdo.
 
-2. Clique no botão [!UICONTROL **Adicionar**] no painel Conteúdo reutilizável .
+1. Clique no botão [!UICONTROL **Adicionar**] no painel Conteúdo reutilizável .
 
    ![Confirmação](images/lesson-8/reuse-contents-icon.png)
 
-3. Navegue até uma pasta .
+1. Navegue até uma pasta .
 
-4. Selecione um tópico ou tópicos específicos.
+1. Selecione um tópico ou tópicos específicos.
 
-5. Clique em [!UICONTROL **Adicionar**].
+1. Clique em [!UICONTROL **Adicionar**].
 
-6. No painel Conteúdo reutilizável , expanda **Visão geral do elemento**.
+1. No painel Conteúdo reutilizável , expanda **Visão geral do elemento**.
 
-7. Arraste e solte um elemento no tópico em um local válido.
+1. Arraste e solte um elemento no tópico em um local válido.
 
 O elemento reutilizável foi inserido no tópico.
 
@@ -88,12 +88,12 @@ O dlentry que você acabou de criar é um elemento reutilizável. Portanto, requ
 
 1. Clique dentro do dlentry.
 
-2. No painel Propriedades de conteúdo , clique na lista suspensa em Atributo.
+1. No painel Propriedades de conteúdo , clique na lista suspensa em Atributo.
 
-3. Selecionar **ID**.
+1. Selecionar **ID**.
 
-4. Digite um nome lógico para o Valor.
+1. Digite um nome lógico para o Valor.
 
-5. Salve ou versão do tópico para que a alteração reflita no Repositório.
+1. Salve ou versão do tópico para que a alteração reflita no Repositório.
 
 A ID e o valor foram atribuídos ao elemento.

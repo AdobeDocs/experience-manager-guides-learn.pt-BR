@@ -2,7 +2,7 @@
 title: Exibição da Estrutura de Tópicos
 description: Uso da Exibição de Estrutura de Tópicos em Guias AEM
 exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -31,7 +31,7 @@ A exibição de estrutura alterna de expandida para recolhida.
 
 1. Clique em qualquer elemento para ir para esse local.
 
-2. Clique no botão [!UICONTROL **Elipse**] ao lado de um elemento para acessar as opções de atalho.
+1. Clique no botão [!UICONTROL **Elipse**] ao lado de um elemento para acessar as opções de atalho.
 
    ![Menu de contexto](images/lesson-6/shortcut-options.png)
 
@@ -41,7 +41,7 @@ Uma nova ID pode ser gerada automaticamente com base na configuração do sistem
 
 1. Clique no botão [!UICONTROL **Elipse**] ao lado de qualquer elemento.
 
-2. Choose **Gerar IDs**.
+1. Choose **Gerar IDs**.
 
    ![Menu de contexto de reticências](images/lesson-6/ellipsis-popup.png)
 
@@ -53,7 +53,7 @@ Os elementos podem ser reordenados na Exibição da Estrutura de Tópicos.
 
 1. Clique e arraste um elemento para outro local na Exibição da estrutura de tópicos.
 
-2. Solte o elemento sobre outro elemento para substituí-lo. Essa ação é indicada por uma caixa quadrada ao redor do elemento a ser substituído.
+1. Solte o elemento sobre outro elemento para substituí-lo. Essa ação é indicada por uma caixa quadrada ao redor do elemento a ser substituído.
 
    Ou
 
@@ -63,13 +63,13 @@ Os elementos podem ser reordenados na Exibição da Estrutura de Tópicos.
 
 1. Selecione o elemento .
 
-2. Clique no botão [!UICONTROL **Elipse**].
+1. Clique no botão [!UICONTROL **Elipse**].
 
-3. Selecionar **Renomear elemento**.
+1. Selecionar **Renomear elemento**.
 
    ![Menu de Contexto Renomear Elemento](images/lesson-6/rename-before.png)
 
-4. Clique duas vezes em um novo nome de elemento.
+1. Clique duas vezes em um novo nome de elemento.
 
 O elemento foi renomeado.
 
@@ -77,9 +77,9 @@ O elemento foi renomeado.
 
 1. Selecione o elemento que deseja desvincular.
 
-2. Clique no botão [!UICONTROL **Elipse**].
+1. Clique no botão [!UICONTROL **Elipse**].
 
-3. Selecionar [!UICONTROL **Desvincular elemento**].
+1. Selecionar [!UICONTROL **Desvincular elemento**].
 
 O conteúdo permanece, mas a estrutura foi removida.
 
@@ -89,7 +89,7 @@ O conteúdo permanece, mas a estrutura foi removida.
 
    ![Filtros](images/lesson-6/filter-icon.png)
 
-2. Escolha um **Todos** para mostrar todos os elementos ou **Links quebrados** para localizar e corrigir referências quebradas.
+1. Escolha um **Todos** para mostrar todos os elementos ou **Links quebrados** para localizar e corrigir referências quebradas.
 
 ## Pesquisar com Exibição de Estrutura de Tópicos
 
@@ -99,4 +99,4 @@ Uma pesquisa pode ser restrita e retornar resultados com base em um elemento, at
 
    ![Barra de pesquisa](images/lesson-6/search-bar.png)
 
-2. Escolha o resultado mais relevante para suas necessidades.
+1. Escolha o resultado mais relevante para suas necessidades.

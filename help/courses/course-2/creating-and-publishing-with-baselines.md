@@ -2,7 +2,7 @@
 title: Criação e publicação com linhas de base
 description: Criação e publicação com linhas de base em [!DNL Adobe Experience Manager Guides]
 exl-id: 3c229c30-f2e0-4fb0-b60c-7bae60ef1a5b
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Você pode acessar suas linhas de base no Painel do mapa.
    ![ellipsis-map-dashboard.png](images/ellipsis-map-dashboard.png)
 O painel Mapa é aberto em outra guia.
 
-2. Selecionar **Linhas de base**.
+1. Selecionar **Linhas de base**.
 
    ![baseline-tab.png](images/baseline-tab.png)
 
@@ -38,18 +38,18 @@ A guia Linhas de base é exibida.
 
    As informações da nova linha de base são exibidas. Seu nome padrão é baseado na data de criação.
 
-2. Dê um novo nome à linha de base, se necessário.
+1. Dê um novo nome à linha de base, se necessário.
 
-3. No cabeçalho &quot;Definir a versão com base em&quot;, selecione o círculo para Rótulo.
+1. No cabeçalho &quot;Definir a versão com base em&quot;, selecione o círculo para Rótulo.
    ![set-the-version.png](images/set-the-version.png)
 
    >[!NOTE]
    >
    >OBSERVAÇÃO: O *Use a versão mais recente se o rótulo não estiver presente* A caixa de seleção é selecionada por padrão. Se isso não for selecionado e houver tópicos ou arquivos de mídia sem o rótulo escolhido no mapa, o processo de criação da Linha de base falhará.
 
-4. Insira o rótulo que deseja usar.
+1. Insira o rótulo que deseja usar.
 
-5. Selecione **Salvar**.
+1. Selecione **Salvar**.
 
 Sua linha de base é criada. Uma tabela de todos os tópicos e suas informações associadas é exibida.
 
@@ -67,17 +67,17 @@ Você também pode criar linhas de base que são um instantâneo no tempo.
 
    ![create-baseline.png](images/create-baseline.png)
 
-2. No cabeçalho &quot;Definir a versão com base em&quot;, selecione o círculo para &quot;Versão ativada&quot;.
+1. No cabeçalho &quot;Definir a versão com base em&quot;, selecione o círculo para &quot;Versão ativada&quot;.
 
    ![version-on.png](images/version-on.png)
 
-3. Selecione o ícone do calendário e especifique a data e a hora desejadas.
+1. Selecione o ícone do calendário e especifique a data e a hora desejadas.
 
    ![calendar.png](images/calendar.png)
 
-4. Dê um novo nome à linha de base, se necessário.
+1. Dê um novo nome à linha de base, se necessário.
 
-5. Selecione **Salvar**.
+1. Selecione **Salvar**.
 
 Sua linha de base é criada. Uma tabela de todos os tópicos e suas informações associadas é exibida.
 
@@ -87,13 +87,13 @@ Talvez você queira atribuir um novo rótulo em massa a todo o conteúdo do mapa
 
 1. Selecione a linha de base para a qual deseja adicionar rótulos.
 
-2. Selecionar **Adicionar rótulos**.
+1. Selecionar **Adicionar rótulos**.
 
    ![add-labels.png](images/add-labels.png)
 
    A caixa de diálogo Adicionar rótulo é exibida.
 
-3. Insira o rótulo que deseja atribuir e selecione **Adicionar**.
+1. Insira o rótulo que deseja atribuir e selecione **Adicionar**.
 
 O rótulo foi adicionado a todos os tópicos.
 
@@ -101,25 +101,25 @@ O rótulo foi adicionado a todos os tópicos.
 
 1. Navegue até a guia Predefinições de saída no painel Mapa.
 
-2. Marque a caixa de seleção Site de AEM.
+1. Marque a caixa de seleção Site de AEM.
 
    ![aem-site-checkbox.png](images/aem-site-checkbox.png)
 
-3. Selecione **Editar**.
+1. Selecione **Editar**.
 
    ![edit-aem.png](images/edit-aem.png)
 
    Uma nova página é exibida.
 
-4. Marque a caixa de seleção Usar linha de base e escolha a linha de base que deseja usar na lista suspensa.
+1. Marque a caixa de seleção Usar linha de base e escolha a linha de base que deseja usar na lista suspensa.
 
    ![baseline.png](images/baseline.png)
 
-5. Selecionar **Concluído**.
+1. Selecionar **Concluído**.
 
    ![done.png](images/done.png)
 
-6. Selecionar **Gerar**.
+1. Selecionar **Gerar**.
 
    ![generate.png](images/generate.png)
 
@@ -129,20 +129,20 @@ O rótulo foi adicionado a todos os tópicos.
 
 1. Navegue até a guia Saídas no Painel do Mapa.
 
-2. Selecione o texto na coluna Configuração de Geração para abrir a saída.
+1. Selecione o texto na coluna Configuração de Geração para abrir a saída.
    ![aem-site-link.png](images/aem-site-link.png)
 
 ## Remoção de uma linha de base
 
 1. Na guia Linhas de base , selecione a linha de base que deseja remover.
 
-2. Selecionar **Remover**.
+1. Selecionar **Remover**.
 
    ![remove-baseline.png](images/remove-baseline.png)
 
    A caixa de diálogo Remover linha de base é exibida.
 
-3. Selecionar **Remover**.
+1. Selecionar **Remover**.
 
 A linha de base é removida.
 
@@ -150,11 +150,11 @@ A linha de base é removida.
 
 1. Na guia Linhas de base , selecione a linha de base que deseja duplicar.
 
-2. Selecionar **Duplicar**.
+1. Selecionar **Duplicar**.
 
    ![duplicate.png](images/duplicate.png)
 
-3. Selecione **Salvar**.
+1. Selecione **Salvar**.
 
    ![save.png](images/save.png)
 
@@ -165,21 +165,21 @@ A linha de base duplicada é criada.
 Você pode especificar diretamente a versão de um tópico usado em uma linha de base.
 
 1. Na guia Linhas de base , selecione a linha de base que deseja modificar.
-2. Selecione **Editar**.
+1. Selecione **Editar**.
 
    ![edit-aem.png](images/edit-aem.png)
 
-3. Selecionar **Procurar todos os tópicos**.
+1. Selecionar **Procurar todos os tópicos**.
 
    ![browse-all-topics.png](images/browse-all-topics.png)
 
    Uma tabela de tópicos e suas informações associadas é exibida.
 
-4. Para os tópicos que deseja modificar, selecione a versão desejada na lista suspensa na coluna Versão .
+1. Para os tópicos que deseja modificar, selecione a versão desejada na lista suspensa na coluna Versão .
 
    ![version-dropdown.png](images/version-dropdown.png)
 
-5. Selecione **Salvar**.
+1. Selecione **Salvar**.
 
 Suas alterações foram salvas. Sua linha de base agora usará as versões do tópico que você especificou.
 
@@ -191,17 +191,17 @@ Nesse caso, estamos criando uma predefinição de saída com base em uma linha d
 
 1. Navegue até a guia Predefinições de saída no painel Mapa.
 
-2. Selecione **Criar**.
+1. Selecione **Criar**.
 
    ![create-output-preset.png](images/create-output-preset.png)
 
    Uma nova página predefinida de saída é exibida, chamada Nova saída.
-3. No campo Nome da configuração , insira um nome amigável para o usuário.
+1. No campo Nome da configuração , insira um nome amigável para o usuário.
 
-4. Marque a caixa de seleção Usar linha de base e selecione a linha de base desejada no menu suspenso.
+1. Marque a caixa de seleção Usar linha de base e selecione a linha de base desejada no menu suspenso.
 
    ![baseline.png](images/baseline.png)
 
-5. Selecionar **Concluído**.
+1. Selecionar **Concluído**.
 
 Sua nova predefinição de saída foi criada e é exibida na página de predefinições de saída.

@@ -2,7 +2,7 @@
 title: Como entender a interface do usuário do AEM em [!DNL AEM Guides]
 description: Como entender a interface do usuário do AEM em [!DNL Adobe Experience Manager Guides]
 exl-id: 955a05ed-92d3-480e-9c6b-a0ff362cc464
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -18,7 +18,7 @@ Saiba mais sobre como gerenciar ativos, arquivos e pastas no Editor XML para Exp
 ## Acesso ao Editor XML
 
 1. Na tela de logon, digite seu nome de usuário e senha e selecione **[!UICONTROL Fazer logon]**.
-2. Selecionar **[!UICONTROL Editor XML]** na página Navegação de AEM.
+1. Selecionar **[!UICONTROL Editor XML]** na página Navegação de AEM.
 
 ## Visualizações do Editor XML
 
@@ -71,7 +71,7 @@ Você pode executar ações adicionais com seu conteúdo. Uma dessas opções é
 | --- | --- |
 | Exibição de cartão | Exibe cada ativo como um ícone |
 | Exibição de coluna | Exibe ativos em uma estrutura de pastas condensada e expansível |
-| Exibição de lista   | Exibe ativos em uma lista, juntamente com seus detalhes |
+| Exibição de lista | Exibe ativos em uma lista, juntamente com seus detalhes |
 
 ## Retornar ao Editor XML
 
@@ -81,7 +81,7 @@ Você pode retornar ao Editor XML a partir de qualquer visualização da interfa
 
 1. Selecione o tópico que deseja editar na lista.
 O tópico é exibido na interface do usuário do Assets.
-2. Selecionar **Editar** na barra de ferramentas superior.
+1. Selecionar **Editar** na barra de ferramentas superior.
 Você é retornado ao Editor XML.
 
 ### Retornar da exibição de cartão

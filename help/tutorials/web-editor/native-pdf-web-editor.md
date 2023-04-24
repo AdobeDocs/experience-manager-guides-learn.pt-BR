@@ -2,10 +2,10 @@
 title: PDF nativo | Produção de PDF
 description: Gerar saída do PDF nos Guias do Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: cc7ae2e5445cca11e169667d3af8aa9de93809b9
+source-git-commit: b9cf70ac957bfacbf9a6bf4c3b32d4f73c2b1287
 workflow-type: tm+mt
-source-wordcount: '2666'
-ht-degree: 1%
+source-wordcount: '2755'
+ht-degree: 0%
 
 ---
 
@@ -74,29 +74,46 @@ Use para especificar configurações básicas de saída, como especificar caminh
 | Configuração | Descrição |
 | --- | --- |
 | **Caminho de saída** | O caminho no repositório de AEM onde a saída do PDF é armazenada. Verifique se o caminho de saída não está localizado dentro da pasta do projeto. Se deixado em branco, a saída é gerada no local de saída padrão do mapa DITA.<br>Também é possível usar as seguintes variáveis prontas para uso para definir o Caminho de saída. Você pode usar uma única ou uma combinação de variáveis para definir essa opção. <br> `${map_filename}`: Usa o nome dos arquivos do mapa DITA para criar o caminho de destino. <br> `${map_title}`: Usa o título do mapa DITA para criar o caminho de destino. <br>`${preset_name}`: Usa o nome predefinido de saída para criar o caminho de destino. <br> `${language_code}`: Usa o código de idioma onde o arquivo de mapa está localizado para criar o caminho de destino. <br> `${map_parentpath}`: Usa o caminho completo do arquivo de mapa para criar o caminho de destino.  <br>`${path_after_langfolder}`: Usa o caminho do arquivo de mapa após a pasta de idioma para criar o caminho de destino. |
-| **Arquivo PDF** | Especifique um nome de arquivo para salvar o PDF. Por padrão, o nome do arquivo PDF adiciona o nome do mapa DITA junto com o nome predefinido. Por exemplo, o ditamap é &quot;TestMap&quot; e o nome da predefinição é &quot;preset1&quot;, então o nome padrão do pdf será &quot;TestMap_preset1.pdf&quot;. <br>Também é possível usar as seguintes variáveis prontas para uso para definir o Arquivo PDF. Você pode usar uma única ou uma combinação de variáveis para definir essa opção. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
+| **Arquivo PDF** | Especifique um nome de arquivo para salvar o PDF. Por padrão, o nome do arquivo PDF adiciona o nome do mapa DITA junto com o nome predefinido. Por exemplo, o ditamap é &#39;TestMap&#39; e o nome da predefinição é &#39;preset1&#39;, então o nome padrão do pdf será &#39;TestMap_preset1.pdf&#39;. <br>Também é possível usar as seguintes variáveis prontas para uso para definir o Arquivo PDF. Você pode usar uma única ou uma combinação de variáveis para definir essa opção. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
 | **Aplicar condições usando** | Para conteúdo condicional, escolha entre as opções abaixo para gerar uma saída PDF com base nessas condições: <br><ul> <li> **Nenhum Aplicado** Selecione essa opção se não quiser aplicar nenhuma condição no mapa e no conteúdo de origem. <br><li> **Arquivo Ditaval** Selecione um arquivo DITAVAL para gerar conteúdo condicional. Para selecionar, clique em Predefinição de condição e localize o arquivo. <br> <li> **Predefinição de condição** Selecione uma predefinição de condição no menu suspenso para aplicar uma condição enquanto publica a saída. Essa opção estará visível se você tiver adicionado uma condição para o arquivo de mapa DITA. As configurações condicionais estão disponíveis na guia Predefinições de condição do console de mapa DITA. Para saber mais sobre a predefinição de condição, consulte [Usar predefinições de condição](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
 | **Usar linha de base** | Se tiver criado uma Linha de base para o mapa DITA selecionado, selecione essa opção para especificar a versão que deseja publicar. Consulte [Trabalhar com linha de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) para obter mais detalhes. |
-| **Criar PDF com Barra de Alteração entre Versões Publicadas** | Use as seguintes opções para criar uma PDF mostrando as diferenças no conteúdo entre duas versões usando barras de alteração:   <br><ul><li> **Linha de base da versão anterior** Escolha a versão da linha de base que deseja comparar com a versão atual ou outra linha de base. Uma barra de alteração é exibida no PDF para indicar o conteúdo modificado. Uma barra de alteração é uma linha vertical que identifica visualmente o conteúdo novo ou revisado. A barra de alteração é exibida à esquerda do conteúdo que foi inserido, alterado ou excluído. <br> **Observação**: Se você selecionar **Usar linha de base** e escolher uma linha de base para publicar, a comparação será feita entre as duas versões de linha de base selecionadas. Por exemplo, se você escolher a linha de base Versão 1.3 em **Usar linha de base** e versão 1.1 em **Linha de base da versão anterior**, a comparação será feita entre a versão 1.1 da linha de base e a versão 1.3 da linha de base. <br><li> **Mostrar texto adicionado** Selecione para mostrar o texto inserido em cor verde e sublinhado. Esta opção está selecionada por padrão. <br> <li> **Mostrar texto excluído** Selecione para mostrar o texto excluído em cor vermelha e marcado com um tachado. Esta opção está selecionada por padrão. <br>**Observação** Você também pode personalizar o estilo da barra de alteração, inserir conteúdo ou excluir conteúdo usando a folha de estilos.<br></ul> |
+| **Criar PDF com Barra de Alteração entre Versões Publicadas** | Use as seguintes opções para criar uma PDF mostrando as diferenças no conteúdo entre duas versões usando barras de alteração:   <br><ul><li> **Linha de base da versão anterior** Escolha a versão da linha de base que deseja comparar com a versão atual ou outra linha de base. Uma barra de alteração é exibida no PDF para indicar o conteúdo modificado. Uma barra de alteração é uma linha vertical que identifica visualmente o conteúdo novo ou revisado. A barra de alteração é exibida à esquerda do conteúdo que foi inserido, alterado ou excluído. <br> **Observação**: Se você selecionar **Usar linha de base** e escolher uma linha de base para publicar, a comparação será feita entre as duas versões de linha de base selecionadas. Por exemplo, se você escolher a linha de base Versão 1.3 em **Usar linha de base** e versão 1.1 em **Linha de base da versão anterior**, a comparação será feita entre a versão 1.1 da linha de base e a versão 1.3 da linha de base. <br><li> **Mostrar texto adicionado** Selecione para mostrar o texto inserido em cor verde e sublinhado. Essa opção é selecionada por padrão. <br> <li> **Mostrar texto excluído** Selecione para mostrar o texto excluído em cor vermelha e marcado com um tachado. Essa opção é selecionada por padrão. <br>**Observação** Você também pode personalizar o estilo da barra de alteração, inserir conteúdo ou excluir conteúdo usando a folha de estilos.<br></ul> |
 | **Fluxo de trabalho de pós-geração** | Selecione para mostrar uma lista suspensa que contém todos os workflows configurados no AEM. Você pode selecionar o workflow que deseja executar após a conclusão do workflow de geração de PDF. |
 
 **Metadados**
 
 Metadados é a descrição ou definição do seu conteúdo. Os metadados ajudam no gerenciamento de conteúdo e ajudam a pesquisar arquivos na Internet.
 
-Use a guia Metadados para definir o título, o autor, o assunto e as palavras-chave para a saída do PDF. Esses metadados são mapeados para os metadados na guia Description , na PDF Document Properties do seu de saída.
+Use a guia Metadados para definir os campos de metadados, como o nome do autor, o título do documento, as palavras-chave, as informações de copyright e outros campos de dados para a saída do PDF. Você também pode adicionar metadados personalizados para a saída do PDF.
+
+Esses metadados são mapeados para os metadados na guia Description , na PDF Document Properties do seu de saída.
 
 **Observação**: Esses metadados substituem os metadados definidos no nível do livro.
 
 <img src="assets/pdf-metadata.png" alt="guia metadados" width="600">
 
+Nas predefinições de saída, **selecionar PDF** > **Metadados** para adicionar e personalizar opções de metadados.
+* **Fornecer arquivo XMP**
 
-| Configuração | Descrição |
-|---|---|
-| **Título** | Especifique um título curto e claro para definir o documento. |
-| **Autor** | Especifique os nomes dos autores que criaram o documento. |
-| **Assunto** | Defina o assunto ou a coleção com a qual o documento está relacionado. |
-| **Palavras-chave** | Use palavras-chave relevantes para melhorar a otimização do mecanismo de pesquisa (SEO) e ajudar os usuários a encontrar seu conteúdo relacionado. |
+   Os campos de metadados podem ser preenchidos diretamente pela importação [XMP](https://www.adobe.com/products/xmp.html) Arquivo (Plataforma de metadados extensível). Você pode baixar um arquivo de XMP de exemplo aqui.
+
+[Download](assets/SampleXMP.xmp)
+
+   Como alternativa, você pode gerar um arquivo de XMP usando o Adobe Acrobat.
+   1. Clique em **Arquivo** > **Propriedades** no Acrobat.
+   1. Em **Descrição**, clique em **Metadados adicionais**.
+   1. No painel esquerdo, selecione **Avançado**.
+   1. Clique em **Salvar**.
+
+   XMP arquivo é salvo no dispositivo.
+
+* **Fornecer nomes e valores de metadados**
+
+   1. Adicione um nome selecionando no menu suspenso ou adicione metadados personalizados digitando diretamente no campo de nome.
+   1. Insira o valor dos metadados e clique no ícone &quot;+&quot;.
+Os metadados são adicionados à lista de metadados para o PDF.
+
+
 
 **Layout**
 
@@ -106,7 +123,7 @@ Use para definir layouts de página e especificar opções de exibição de pág
 | --- | --- |
 | **Modelo PDF** | Os templates de PDF fornecem uma estrutura clara para definir layouts de página, estilo de conteúdo e aplicar várias configurações à saída do PDF. Selecione nas opções suspensas do modelo de PDF para escolher o modelo preferencial. |
 | **Exibição de página** | Use a Exibição de página para exibição de página que mostra como o PDF é exibido quando ele é aberto. Selecione nas opções suspensas Exibição de página para escolher uma exibição preferencial. <br><ul><li> **Padrão**  Exibido de acordo com a configuração padrão do visualizador de PDF no computador de um usuário.  <br> <li> **Exibição de página única** Exibe uma página de cada vez.   <br> <li> **Rolagem de página única** Exibe uma única página em uma coluna vertical contínua.  <br> <li> **Exibição de duas páginas** Exibe páginas espelhadas lado a lado de duas páginas de cada vez. .<br> <li> **Rolagem de duas páginas** Exibe páginas espelhadas lado a lado com rolagem contínua. </ul> |
-| **Zoom** | Selecione para redimensionar a visualização de página que mostra como o PDF é exibido quando ele é aberto.  <br><ul><li> **Padrão** É exibido de acordo com a configuração padrão do visualizador de PDF no computador de um usuário    <br> <li> **100%** Faz com que a página apareça em seu tamanho real.     <br> <li> **Ajustar página** Torna a largura e a altura da página ajustadas ao painel do documento. .<br> <li> **Ajustar a largura da página** Faz com que a largura da página preencha a largura do painel do documento.  <br> <li> **Ajustar altura da página** Faz com que a altura da página preencha a altura do painel do documento. </ul> |
+| **Zoom** | Selecione para redimensionar a visualização de página que mostra como o PDF é exibido quando ele é aberto.  <br><ul><li> **Padrão** Exibe conforme a configuração padrão do visualizador de PDF no computador de um usuário    <br> <li> **100%** Faz com que a página apareça em seu tamanho real.     <br> <li> **Ajustar página** Torna a largura e a altura da página ajustadas ao painel do documento. .<br> <li> **Ajustar a largura da página** Faz com que a largura da página preencha a largura do painel do documento.  <br> <li> **Ajustar altura da página** Faz com que a altura da página preencha a altura do painel do documento. </ul> |
 
 **Segurança**
 
@@ -143,14 +160,14 @@ Depois de configurar a predefinição de saída, você pode gerar a saída do pa
 1. Em **Autor** selecione a guia **Repositório** Exibir.\
    Isso abre o painel Repositório.
 
-2. No painel Repositório, abra o arquivo de mapa DITA em **Exibição do mapa**.
+1. No painel Repositório, abra o arquivo de mapa DITA em **Exibição do mapa**.
 
-3. No **Saída** clique em **Predefinições** para exibir o painel Predefinição .
+1. No **Saída** clique em **Predefinições** para exibir o painel Predefinição .
 Para criar ou configurar uma predefinição de saída, consulte [Criar uma predefinição de saída do PDF](#create-output-preset).
-4. Para salvar suas configurações, clique no botão **Salvar tudo** ![salvar tudo](assets/SaveFloppy_icon.svg) ícone no canto superior esquerdo da barra de ferramentas padrão na exibição Saída.
-5. Clique no botão **Gerar predefinição** ![gerar predefinição](assets/generate-output.svg) na barra superior.
+1. Para salvar suas configurações, clique no botão **Salvar tudo** ![salvar tudo](assets/SaveFloppy_icon.svg) ícone no canto superior esquerdo da barra de ferramentas padrão na exibição Saída.
+1. Clique no botão **Gerar predefinição** ![gerar predefinição](assets/generate-output.svg) na barra superior.
 Você pode exibir uma barra de progresso ao lado da predefinição de saída selecionada no painel Predefinições de saída.
-6. Quando a geração de saída estiver concluída, clique em  **Exibir saída** ![exibir saída](assets/view-output.svg) na barra superior para visualizar a saída.\
+1. Quando a geração de saída estiver concluída, clique em  **Exibir saída** ![exibir saída](assets/view-output.svg) na barra superior para visualizar a saída.\
    A **Sucesso** é visível no canto inferior direito da tela.
 Se uma saída não for bem-sucedida, a mensagem de erro abaixo será exibida.
 <img src="assets/error-log.png" alt="log de erros" width="250">

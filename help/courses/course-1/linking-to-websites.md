@@ -2,7 +2,7 @@
 title: Vincular a sites na [!DNL AEM Guides]
 description: Vincular a sites na [!DNL Adobe Experience Manager Guides]
 exl-id: 6b89f52e-ac15-4604-8bac-ab0bb5b5a978
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 1%
@@ -18,18 +18,18 @@ Os links da Web direcionam os leitores para sites para obter mais informações,
 ## Inserção de um link
 
 1. Selecione seu conceito no Repositório e abra-o no editor.
-2. Adicione uma string de texto ao seu conceito e destaque-a ou destaque o texto existente da escolha.
+1. Adicione uma string de texto ao seu conceito e destaque-a ou destaque o texto existente da escolha.
 
    O texto destacado é onde o link será inserido.
-3. Selecione o **Inserir referência cruzada** na barra de ferramentas.
+1. Selecione o **Inserir referência cruzada** na barra de ferramentas.
 
    ![Ícone Inserir referência cruzada](images/lesson-5/insert-crossref-icon.png)
 
    A caixa de diálogo Referência é exibida.
 
 
-4. Selecionar **Link da Web** no menu esquerdo.
-5. Cole o URL desejado e clique em **Selecionar**.
+1. Selecionar **Link da Web** no menu esquerdo.
+1. Cole o URL desejado e clique em **Selecionar**.
 
    O link é funcional e abrirá uma página da Web em uma nova guia do navegador quando clicado.
 

@@ -1,7 +1,8 @@
 ---
 title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de setembro de 2022
 description: Versão de setembro dos Guias do Adobe Experience Manager as a Cloud Service
-source-git-commit: 28712c3f2057d7553ed2fe955db0dfe278c8a9b9
+exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 3%
@@ -14,8 +15,8 @@ ht-degree: 3%
 
 Atualizar seus Guias atuais do Adobe Experience Manager as a Cloud Service (mais tarde, como *Guias de AEM as a Cloud Service*) configurando executando as seguintes etapas:
 1. Verifique o código GKS do Cloud Services e alterne para a ramificação configurada no pipeline correspondente ao ambiente que você deseja atualizar.
-2. Atualizar `<dox.version>` propriedade em `/dox/dox.installer/pom.xml` arquivo do código Git do Cloud Services para 2022.9.178.
-3. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de setembro AEM Guias as a Cloud Service.
+1. Atualizar `<dox.version>` propriedade em `/dox/dox.installer/pom.xml` arquivo do código Git do Cloud Services para 2022.9.178.
+1. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de setembro AEM Guias as a Cloud Service.
 
 ## Etapas para indexar o conteúdo existente
 
@@ -44,7 +45,7 @@ Esta seção lista a matriz de compatibilidade para os aplicativos de software c
 
 | AEM Guias das a Cloud Release | Janelas do conector de oxigênio | Conector de oxigênio Mac | Editar no Windows Oxygen | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2022.9.0 | 2.7.13 | 2.7.13 | 2.3 | 2,3 |
+| 2022.9.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
@@ -122,7 +123,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * PDF nativo | As referências de chave para KeyDefs com imagens ou links externos não são resolvidas. (10063)
 * A exibição Autor de um mapa não exibe o texto de espaço reservado para a lista de tabulações e a lista de figuras. (10330)
 * Quando criamos uma nova linha de base, o filtro de linha de base já selecionado não é aplicado. (9954)
-* O arquivo de vídeo está ausente na linha de base se o nome da pasta pai tiver um caractere de espaço. (10031)
+* O arquivo de vídeo está ausente na linha de base se o nome da pasta pai tiver um caractere de espaço. 10031)
 * A criação da linha de base não escolhe a versão mais recente quando o fuso horário do usuário é diferente do fuso horário do servidor. (10190)
 * O atalho Control + F não abre o modal de pesquisa do navegador no Console de Ativos após instalar AEM Guias 4.1 no AEM 6.5.12. (10189)
 

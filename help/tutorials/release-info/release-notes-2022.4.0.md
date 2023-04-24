@@ -2,7 +2,7 @@
 title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de abril de 2022
 description: Versão de abril dos Guias do Adobe Experience Manager as a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 3%
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 Atualize seu [!DNL Adobe Experience Manager Guides] as a Cloud Service (mais tarde conhecido como *[!DNL AEM Guides]as a Cloud Service*) configurando executando as seguintes etapas:
 1. Verifique o código GKS do Cloud Services e alterne para a ramificação do Cloud Services configurada no pipeline correspondente ao ambiente que você deseja atualizar.
-2. Atualizar `<dox.version>` propriedade em `/dox/dox.installer/pom.xml` arquivo do código Git do Cloud Services para 2022.4.133.
-3. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de abril de [!DNL AEM Guides] as a Cloud Service.
+1. Atualizar `<dox.version>` propriedade em `/dox/dox.installer/pom.xml` arquivo do código Git do Cloud Services para 2022.4.133.
+1. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de abril de [!DNL AEM Guides] as a Cloud Service.
 
 ## Matriz de compatibilidade
 
@@ -51,9 +51,9 @@ Uma referência de chave de conteúdo DITA insere uma parte do conteúdo de um t
 
 Agora, as referências principais são resolvidas com base no mapa raiz definido na seguinte ordem de prioridade:
 
-1. Preferências do usuário
-2. Painel Visualização de mapa
-3. Perfil da pasta
+1. Preferências de usuário
+1. Painel Visualização de mapa
+1. Perfil da pasta
 
 Para obter mais detalhes, consulte *Resolver referências de chave* no Guia do usuário.
 

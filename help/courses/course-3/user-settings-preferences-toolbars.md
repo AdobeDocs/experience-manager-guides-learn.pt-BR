@@ -2,7 +2,7 @@
 title: Preferências do usuário, configurações do editor e barras de ferramentas do editor
 description: Alteração das preferências do usuário e das configurações do editor nos Guias AEM
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Tags são dicas visuais que indicam os limites de um elemento. Um limite de elem
 
    - Arraste e solte elementos selecionando a tag e soltando o elemento em um local válido.
 
-2. Clique no botão [!UICONTROL **Alternar exibição de tags**] novamente para ocultar tags.
+1. Clique no botão [!UICONTROL **Alternar exibição de tags**] novamente para ocultar tags.
 
 As tags desaparecem, permitindo que você se concentre no texto.
 
@@ -47,7 +47,7 @@ Bloquear (ou fazer check-out) um arquivo dá ao usuário acesso exclusivo de gra
 
    Foi feito o check-out do arquivo e um ícone Bloquear é exibido ao lado do nome do arquivo no Repositório.
 
-2. Clique no botão [!UICONTROL **Desbloquear**] ícone .
+1. Clique no botão [!UICONTROL **Desbloquear**] ícone .
 
    ![Check-in](images/lesson-2/check-in-icon.png)
 
@@ -59,13 +59,13 @@ O Repositório é atualizado para mostrar que o arquivo foi marcado.
 
    ![Especial](images/lesson-2/special-icon.png)
 
-2. Na caixa de diálogo Inserir caractere especial, digite o nome do caractere na barra de pesquisa.
+1. Na caixa de diálogo Inserir caractere especial, digite o nome do caractere na barra de pesquisa.
 
    Como alternativa, use a lista suspensa Selecionar categoria para exibir todos os caracteres em uma categoria específica.
 
-3. Selecione o caractere desejado.
+1. Selecione o caractere desejado.
 
-4. Clique em [!UICONTROL **Inserir**].
+1. Clique em [!UICONTROL **Inserir**].
 
 O caractere especial é inserido no texto.
 
@@ -89,13 +89,13 @@ Você pode escolher entre temas claros ou escuros para o editor. Com o tema Luz,
 
    ![Preferências de usuário](images/reuse/user-prefs-icon.png)
 
-2. Na caixa de diálogo Preferências do usuário, clique no botão [!UICONTROL **Tema**] lista suspensa.
+1. Na caixa de diálogo Preferências do usuário, clique no botão [!UICONTROL **Tema**] lista suspensa.
 
-3. Escolha dentre as opções disponíveis.
+1. Escolha dentre as opções disponíveis.
 
    ![Temas](images/lesson-2/themes.png)
 
-4. Clique em [!UICONTROL **Salvar**].
+1. Clique em [!UICONTROL **Salvar**].
 
 O Editor é atualizado para exibir seu tema preferido.
 
@@ -107,13 +107,13 @@ Você pode atualizar o Caminho base para que a Exibição do repositório mostre
 
    ![Preferências de usuário](images/reuse/user-prefs-icon.png)
 
-2. Na caixa de diálogo Preferências do usuário, clique no botão [!UICONTROL **Pasta**] ícone ao lado do Caminho básico.
+1. Na caixa de diálogo Preferências do usuário, clique no botão [!UICONTROL **Pasta**] ícone ao lado do Caminho básico.
 
    ![Caminho da pasta base](images/lesson-2/base-path-folder-icon.png)
 
-3. Na caixa de diálogo Selecionar caminho , clique na caixa de seleção ao lado de uma pasta específica.
+1. Na caixa de diálogo Selecionar caminho , clique na caixa de seleção ao lado de uma pasta específica.
 
-4. Clique em [!UICONTROL **Selecionar**].
+1. Clique em [!UICONTROL **Selecionar**].
 
 Na próxima vez que você iniciar o Editor, o Repositório exibirá os arquivos que foram especificados no Caminho Base.
 
@@ -125,13 +125,13 @@ O Perfil global é um padrão do sistema. Os administradores podem criar perfis 
 
    ![Preferências de usuário](images/reuse/user-prefs-icon.png)
 
-2. Na caixa de diálogo Preferências do usuário, clique no botão [!UICONTROL **Perfis de pasta**] lista suspensa.
+1. Na caixa de diálogo Preferências do usuário, clique no botão [!UICONTROL **Perfis de pasta**] lista suspensa.
 
    ![Lista de perfis](images/lesson-2/folder-profiles-dropdown.png)
 
-3. Escolha um perfil nas opções disponíveis.
+1. Escolha um perfil nas opções disponíveis.
 
-4. Clique em [!UICONTROL **Salvar**].
+1. Clique em [!UICONTROL **Salvar**].
 
 O novo Perfil de pasta agora está atribuído. Ela alterou as opções da barra de ferramentas, os modos de exibição e as Condições e Snippets no painel esquerdo. Também pode alterar a aparência visual do conteúdo no Editor.
 
@@ -143,11 +143,11 @@ As configurações do editor estão disponíveis para usuários administrativos.
 
    ![Configurações do editor](images/lesson-2/editor-settings-icon.png)
 
-2. Na caixa de diálogo Configurações do editor, clique no botão [!UICONTROL **Geral**] guia .
+1. Na caixa de diálogo Configurações do editor, clique no botão [!UICONTROL **Geral**] guia .
 
-3. Selecione o dicionário com o qual deseja trabalhar.
+1. Selecione o dicionário com o qual deseja trabalhar.
 
-4. Clique em [!UICONTROL **Salvar**].
+1. Clique em [!UICONTROL **Salvar**].
 
 O dicionário é atualizado. Observe que alternar para AEM Verificação ortográfica permite usar uma lista de palavras personalizada.
 
@@ -159,13 +159,13 @@ Um dos recursos que você pode personalizar com as Configurações do editor sã
 
    ![Configurações do editor](images/lesson-2/editor-settings-icon.png)
 
-2. Na caixa de diálogo Configurações do editor, clique no botão [!UICONTROL **Painéis**] guia .
+1. Na caixa de diálogo Configurações do editor, clique no botão [!UICONTROL **Painéis**] guia .
 
-3. Alterne os Painéis disponíveis para Mostrar ou Ocultar, conforme necessário.
+1. Alterne os Painéis disponíveis para Mostrar ou Ocultar, conforme necessário.
 
    ![Alternar painel](images/lesson-2/toggle-panels.png)
 
-4. Clique em [!UICONTROL **Salvar**].
+1. Clique em [!UICONTROL **Salvar**].
 
 O painel esquerdo agora está configurado para mostrar apenas os painéis alternados para Exibir.
 
@@ -177,15 +177,15 @@ A Lista de elementos permite nomear um elemento específico e atribuí-lo um ró
 
    ![Configurações do editor](images/lesson-2/editor-settings-icon.png)
 
-2. Na caixa de diálogo Configurações do editor, clique no botão [!UICONTROL **Lista de elementos**] guia .
+1. Na caixa de diálogo Configurações do editor, clique no botão [!UICONTROL **Lista de elementos**] guia .
 
-3. Digite um **Nome do elemento** e **Rótulo** nos respectivos campos.
+1. Digite um **Nome do elemento** e **Rótulo** nos respectivos campos.
 
-4. Clique no botão [!UICONTROL **Plus**] para adicionar mais elementos à lista.
+1. Clique no botão [!UICONTROL **Plus**] para adicionar mais elementos à lista.
 
    ![Lista de elementos](images/lesson-2/elements-list.png)
 
-5. Clique em [!UICONTROL **Salvar**].
+1. Clique em [!UICONTROL **Salvar**].
 
 Você pode ver imediatamente a alteração na Lista de elementos nas tags existentes no Editor. Você também pode vê-las nas opções fornecidas quando adiciona um novo elemento.
 
@@ -197,11 +197,11 @@ A Lista de atributos funciona de forma semelhante à Lista de elementos. Em Conf
 
    ![Configurações do editor](images/lesson-2/editor-settings-icon.png)
 
-2. Na caixa de diálogo Configurações do editor, clique no botão [!UICONTROL **Lista de atributos**] guia .
+1. Na caixa de diálogo Configurações do editor, clique no botão [!UICONTROL **Lista de atributos**] guia .
 
-3. Digite um **Nome do atributo** e **Rótulo** nos respectivos campos.
+1. Digite um **Nome do atributo** e **Rótulo** nos respectivos campos.
 
-4. Clique no botão [!UICONTROL **Plus**] para adicionar mais atributos à lista.
+1. Clique no botão [!UICONTROL **Plus**] para adicionar mais atributos à lista.
 
 ## Configurar condições nas Configurações do editor
 
@@ -211,13 +211,13 @@ A guia Condition permite configurar várias propriedades.
 
    ![Configurações do editor](images/lesson-2/editor-settings-icon.png)
 
-2. Na caixa de diálogo Configurações do editor, clique no botão [!UICONTROL **Condição**] guia .
+1. Na caixa de diálogo Configurações do editor, clique no botão [!UICONTROL **Condição**] guia .
 
-3. Marque as caixas de seleção das condições que deseja aplicar.
+1. Marque as caixas de seleção das condições que deseja aplicar.
 
    ![Guia Condição](images/lesson-2/condition.png)
 
-4. Clique em [!UICONTROL **Salvar**].
+1. Clique em [!UICONTROL **Salvar**].
 
 ## Criar um perfil de publicação nas Configurações do editor
 
@@ -227,12 +227,12 @@ Os perfis de publicação podem ser usados para publicar a base de conhecimento.
 
    ![Configurações do editor](images/lesson-2/editor-settings-icon.png)
 
-2. Na caixa de diálogo Configurações do editor, clique no botão [!UICONTROL **Perfis**] guia .
+1. Na caixa de diálogo Configurações do editor, clique no botão [!UICONTROL **Perfis**] guia .
 
-3. Clique no botão [!UICONTROL **Plus**] ícone ao lado de Perfis.
+1. Clique no botão [!UICONTROL **Plus**] ícone ao lado de Perfis.
 
-4. Preencha os campos conforme necessário.
+1. Preencha os campos conforme necessário.
 
-5. Clique em [!UICONTROL **Salvar**].
+1. Clique em [!UICONTROL **Salvar**].
 
 Um perfil de publicação foi criado.

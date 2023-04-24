@@ -2,7 +2,7 @@
 title: Teclas
 description: As chaves permitem incluir informações de variáveis no ao trabalhar com DITA nos guias de AEM
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Os arquivos de amostra que você pode optar por usar para esta lição são forn
 
    h. Selecionar [!UICONTROL **Extract**] na parte superior direita da tela.
 
-2. Quando a extração estiver concluída, clique em [!UICONTROL **Vá para a pasta de destino**].
+1. Quando a extração estiver concluída, clique em [!UICONTROL **Vá para a pasta de destino**].
 
    ![Confirmação](images/lesson-9/go-to-target.png)
 
@@ -69,9 +69,9 @@ Para usar corretamente as Chaves, as Preferências do usuário devem fazer refer
 
    g. **Salvar** as Preferências do usuário.
 
-2. Navegue até o **Exibição do mapa**.
+1. Navegue até o **Exibição do mapa**.
 
-3. Abra o mapa especificado.
+1. Abra o mapa especificado.
 
 As Chaves são resolvidas.
 
@@ -79,11 +79,11 @@ As Chaves são resolvidas.
 
 1. Abra um mapa com um mapa raiz especificado.
 
-2. Selecione uma Chave.
+1. Selecione uma Chave.
 
    ![Menu suspenso](images/lesson-9/hybrid-key.png)
 
-3. Insira uma nova tecla de def.
+1. Insira uma nova tecla de def.
 
    a. Clique em um local válido no mapa.
 
@@ -95,7 +95,7 @@ As Chaves são resolvidas.
 
    d. Clique em [!UICONTROL **Inserir**].
 
-4. Adicione topicmeta no keydef.
+1. Adicione topicmeta no keydef.
 
    a. Clique no botão [!UICONTROL **Inserir elemento**] na barra de ferramentas superior.
 
@@ -103,7 +103,7 @@ As Chaves são resolvidas.
 
    b. Na caixa de diálogo Inserir elemento, pesquise e selecione &quot;topicmeta&quot;.
 
-5. Adicione palavras-chave dentro da meta de tópicos.
+1. Adicione palavras-chave dentro da meta de tópicos.
 
    a. Clique no botão [!UICONTROL **Inserir elemento**] na barra de ferramentas superior.
 
@@ -111,7 +111,7 @@ As Chaves são resolvidas.
 
    b. Na caixa de diálogo Inserir elemento, pesquise e selecione &quot;palavras-chave&quot;.
 
-6. Adicione uma palavra-chave dentro da meta de tópicos.
+1. Adicione uma palavra-chave dentro da meta de tópicos.
 
    a. Clique no botão [!UICONTROL **Inserir elemento**] na barra de ferramentas superior.
 
@@ -119,7 +119,7 @@ As Chaves são resolvidas.
 
    b. No **Inserir elemento** , pesquise e selecione &quot;palavra-chave&quot;
 
-7. Digite o valor da palavra-chave na palavra-chave.
+1. Digite o valor da palavra-chave na palavra-chave.
 
 No mapa, seu keydef agora deve ser semelhante a:
 
@@ -131,16 +131,16 @@ Os trechos são pequenos fragmentos de conteúdo que podem ser reutilizados em v
 
 1. Selecione um elemento keydef no mapa.
 
-2. No menu contextual, clique em [!UICONTROL **Criar trecho**].
+1. No menu contextual, clique em [!UICONTROL **Criar trecho**].
 
-3. Na caixa de diálogo Novo trecho , adicione um Título e uma Descrição.
+1. Na caixa de diálogo Novo trecho , adicione um Título e uma Descrição.
 Também é possível remover as definições de palavras-chave ou teclas existentes do Conteúdo.
 
-4. Clique em [!UICONTROL **Criar**].
+1. Clique em [!UICONTROL **Criar**].
 
-5. No painel esquerdo, selecione **Trechos**.
+1. No painel esquerdo, selecione **Trechos**.
 
-6. Arraste e solte o trecho que acabou de criar do painel Snippets para o mapa.
+1. Arraste e solte o trecho que acabou de criar do painel Snippets para o mapa.
 
-7. Atualize a keydef conforme necessário usando Propriedades do conteúdo.
+1. Atualize a keydef conforme necessário usando Propriedades do conteúdo.
 Quando salvo e atualizado, esse conjunto de chaves estará disponível para qualquer usuário que tenha definido um mapa que contenha o mesmo mapa raiz.

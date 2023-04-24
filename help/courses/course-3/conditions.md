@@ -2,10 +2,10 @@
 title: Condições
 description: Trabalhar com condições nas guias de AEM
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -21,15 +21,15 @@ Os arquivos de amostra que você pode optar por usar para esta lição são forn
 
 1. Selecione o **Perfis de pasta** mosaico.
 
-2. Clique em [!UICONTROL **Atributos condicionais**].
+1. Clique em [!UICONTROL **Atributos condicionais**].
 
-3. Clique em [!UICONTROL **Editar**] no canto superior esquerdo do perfil.
+1. Clique em [!UICONTROL **Editar**] no canto superior esquerdo do perfil.
 
-4. Clique em [!UICONTROL **Adicionar**].
+1. Clique em [!UICONTROL **Adicionar**].
 
    ![Condições nos perfis da pasta](images/lesson-13/add-name.png)
 
-5. Preencha os campos obrigatórios.
+1. Preencha os campos obrigatórios.
 
    - O Nome deve corresponder a um atributo usado para criação de perfis.
 
@@ -37,7 +37,7 @@ Os arquivos de amostra que você pode optar por usar para esta lição são forn
 
    - O Rótulo é a palavra que será vista pelo usuário que está inserindo atributos.
 
-6. Clique em [!UICONTROL **Salvar**].
+1. Clique em [!UICONTROL **Salvar**].
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Se nenhum Perfil de pasta personalizado tiver sido atribuído a um conceito, con
 
 1. No **Exibição do Repositório**, clique no elemento com o qual deseja trabalhar para selecioná-lo.
 
-2. No **Propriedades de conteúdo** clique no painel [!UICONTROL **Atributo**] lista suspensa.
+1. No **Propriedades de conteúdo** clique no painel [!UICONTROL **Atributo**] lista suspensa.
 
-3. Escolha o atributo que deseja atribuir.
+1. Escolha o atributo que deseja atribuir.
 
-4. Adicione um **Valor**.
+1. Adicione um **Valor**.
 
 O emparelhamento de atributo e valor agora é atribuído ao elemento selecionado.
 
@@ -73,9 +73,9 @@ O painel Condições permite a atribuição controlada de pares de Atributo e Va
 
    c. Clique [!UICONTROL **Salvar**].
 
-2. No painel Condições , expanda as listas suspensas para Público-alvo e Plataforma. Observe que as condições disponíveis são específicas do Perfil da pasta.
+1. No painel Condições , expanda as listas suspensas para Público-alvo e Plataforma. Observe que as condições disponíveis são específicas do Perfil da pasta.
 
-3. Arraste e solte uma condição no elemento desejado para atribuí-la.
+1. Arraste e solte uma condição no elemento desejado para atribuí-la.
 
 ## Atribuir um esquema de assunto
 
@@ -83,11 +83,11 @@ Os mapas do Esquema de Assunto são uma forma especializada de mapa de espaço e
 
 1. Navegue até o **Exibição do Repositório**.
 
-2. Selecione um mapa que faça referência ao mapa digital do Esquema de Assunto. Este exemplo usa o mapa chamado _Design e layout_.
+1. Selecione um mapa que faça referência ao mapa digital do Esquema de Assunto. Este exemplo usa o mapa chamado _Design e layout_.
 
    ![Preferências de usuário](images/lesson-13/subject-scheme-map.png)
 
-3. Configurar preferências de usuário.
+1. Configurar preferências de usuário.
 
    a. Clique no botão [!UICONTROL **Preferências do usuário**] ícone .
 
@@ -119,6 +119,6 @@ O Esquema de Assunto foi atribuído.
 
 1. Navegar para **Configurações do editor**.
 
-2. Selecione o **Condições** guia .
+1. Selecione o **Condições** guia .
 
-3. Marque a caixa **Mostrar esquema de assunto no painel Condições**
+1. Marque a caixa **Mostrar esquema de assunto no painel Condições**

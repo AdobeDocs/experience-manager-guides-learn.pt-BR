@@ -2,7 +2,7 @@
 title: Publicação da saída padrão nos Guias AEM
 description: Publicação da saída padrão em [!DNL Adobe Experience Manager Guides]
 exl-id: 97a259dd-4266-4a7b-8677-3fa261714687
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -25,13 +25,13 @@ Há várias predefinições de saída disponíveis para você escolher. Este gui
 
    O painel Mapa é aberto em outra guia.
 
-2. Na guia Predefinições de saída, selecione AEM Site e PDF.
+1. Na guia Predefinições de saída, selecione AEM Site e PDF.
 
    ![Predefinições de saída](images/lesson-9/pdf-aem.png)
 
-3. Selecionar **Gerar.**
+1. Selecionar **Gerar.**
 
-4. Navegue até a página Saídas para visualizar o status de suas saídas geradas.
+1. Navegue até a página Saídas para visualizar o status de suas saídas geradas.
 
    Um círculo verde indica que a geração foi concluída.
 

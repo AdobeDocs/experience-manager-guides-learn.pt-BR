@@ -2,7 +2,7 @@
 title: Painéis
 description: Uso de painéis em guias de AEM
 exl-id: 24ecfc93-3540-4efa-ae85-afb346454b7f
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1446'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Painéis persistentes, como o painel esquerdo, podem ser ajustados em tamanho.
 
 1. Posicione o cursor na borda do painel.
 
-2. Quando a seta de duas pontas for exibida, clique e arraste para dentro ou para fora, conforme necessário.
+1. Quando a seta de duas pontas for exibida, clique e arraste para dentro ou para fora, conforme necessário.
 
 ## Expandir ou recolher a barra lateral do painel esquerdo
 
@@ -31,7 +31,7 @@ A exibição expandida exibe os nomes e os ícones que aparecem como Dicas de fe
 
    ![Expandir Barra Lateral](images/lesson-5/expand-sidebar.png)
 
-2. Clique no botão [!UICONTROL **Barra lateral**] novamente para recolher o painel.
+1. Clique no botão [!UICONTROL **Barra lateral**] novamente para recolher o painel.
 
    ![Recolher Barra Lateral](images/lesson-5/collapse-sidebar.png)
 
@@ -41,15 +41,15 @@ No painel esquerdo, os Favoritos permitem que você crie uma lista de documentos
 
 1. Selecionar **Favoritos** no painel esquerdo.
 
-2. Clique no botão [!UICONTROL **Plus**] ícone .
+1. Clique no botão [!UICONTROL **Plus**] ícone .
 
    ![Favoritos Plus](images/lesson-5/favorites-plus.png)
 
-3. Na caixa de diálogo Nova coleção , digite um **Título** e **Descrição**.
+1. Na caixa de diálogo Nova coleção , digite um **Título** e **Descrição**.
 
    Observe que selecionar Público significa que outros usuários podem ver este Favorito.
 
-4. Clique em [!UICONTROL **Criar**].
+1. Clique em [!UICONTROL **Criar**].
 
 Agora você criou uma Coleção de favoritos.
 
@@ -59,19 +59,19 @@ Após criar uma Coleção, você pode começar a adicionar Favoritos a ela.
 
 1. Selecionar **Exibição do Repositório** no painel esquerdo.
 
-2. Clique no botão [!UICONTROL **Elipse**] localizado ao lado de um tópico para acessar opções contextuais.
+1. Clique no botão [!UICONTROL **Elipse**] localizado ao lado de um tópico para acessar opções contextuais.
 
-3. Selecionar **Adicionar a** > **Favoritos**.
+1. Selecionar **Adicionar a** > **Favoritos**.
 
-4. Na caixa de diálogo Adicionar aos favoritos, escolha **Nova coleção** ou **Coleção existente**.
+1. Na caixa de diálogo Adicionar aos favoritos, escolha **Nova coleção** ou **Coleção existente**.
 
    Aqui, optamos por adicionar a uma coleção existente.
 
    ![Caixa de diálogo Favoritos](images/lesson-5/add-to-favorites-dialog.png)
 
-5. Se necessário, selecione uma coleção na lista suspensa.
+1. Se necessário, selecione uma coleção na lista suspensa.
 
-6. Clique em [!UICONTROL **Adicionar**].
+1. Clique em [!UICONTROL **Adicionar**].
 
 O tópico é adicionado à Coleção de favoritos escolhida. Você pode visualizá-lo no menu Favoritos.
 
@@ -81,23 +81,23 @@ Outra maneira de adicionar um tópico aos seus Favoritos é a partir de um tópi
 
 1. Navegue até o **Exibição do Repositório**.
 
-2. Clique duas vezes em um tópico para abri-lo.
+1. Clique duas vezes em um tópico para abri-lo.
 
-3. Clique com o botão direito do mouse no **Guia Título** no Editor para acessar opções contextuais.
+1. Clique com o botão direito do mouse no **Guia Título** no Editor para acessar opções contextuais.
 
-4. Choose **Adicionar a** > **Favoritos**.
+1. Choose **Adicionar a** > **Favoritos**.
 
    ![Adicionar aos Favoritos](images/lesson-5/addto-favorites.png)
 
-5. Na caixa de diálogo Adicionar aos favoritos, escolha **Nova coleção** ou **Coleção existente**.
+1. Na caixa de diálogo Adicionar aos favoritos, escolha **Nova coleção** ou **Coleção existente**.
 
    Aqui, optaremos por adicionar a uma Nova coleção.
 
-6. Na caixa de diálogo Nova coleção , digite um **Título** e **Descrição**.
+1. Na caixa de diálogo Nova coleção , digite um **Título** e **Descrição**.
 
    Observe que a seleção **Público** significa que outros usuários podem ver este Favorito.
 
-7. Clique em [!UICONTROL **Criar**].
+1. Clique em [!UICONTROL **Criar**].
 
 O novo favorito foi criado e agrupado. Você pode visualizá-lo no menu Favoritos.
 
@@ -107,11 +107,11 @@ O novo favorito foi criado e agrupado. Você pode visualizá-lo no menu Favorito
 
 1. Selecionar [!UICONTROL **Favoritos**] no painel esquerdo.
 
-2. Em Favoritos, clique no botão [!UICONTROL **Seta**] ícone ao lado de uma coleção para exibir seu conteúdo.
+1. Em Favoritos, clique no botão [!UICONTROL **Seta**] ícone ao lado de uma coleção para exibir seu conteúdo.
 
    ![Exibir Favoritos](images/lesson-5/view-favorites.png)
 
-3. Clique no botão [!UICONTROL **Elipse**] ao lado de um tópico para exibir opções contextuais, incluindo a opção para excluí-lo da lista Favoritos.
+1. Clique no botão [!UICONTROL **Elipse**] ao lado de um tópico para exibir opções contextuais, incluindo a opção para excluí-lo da lista Favoritos.
 
 ## Filtrar uma pesquisa na Exibição do Repositório
 
@@ -119,15 +119,15 @@ O filtro aprimorado no Repositório permite procurar texto com uma grande varied
 
 1. Navegar para **Exibição do Repositório**.
 
-2. Clique no botão [!UICONTROL **Pesquisa de filtro**] ícone .
+1. Clique no botão [!UICONTROL **Pesquisa de filtro**] ícone .
 
    ![Ícone de Filtro de Repositório](images/lesson-5/repository-filter-icon.png)
 
-3. Digite o texto no caminho selecionado ou escolha um novo caminho, se necessário.
+1. Digite o texto no caminho selecionado ou escolha um novo caminho, se necessário.
 
    A lista de arquivos é atualizada à medida que você digita texto no filtro.
 
-4. Clique no ícone Seta ao lado de uma categoria de pesquisa para restringir ainda mais a pesquisa, se necessário.
+1. Clique no ícone Seta ao lado de uma categoria de pesquisa para restringir ainda mais a pesquisa, se necessário.
 
    ![Critérios de filtro](images/lesson-5/filter-criteria.png)
 
@@ -169,21 +169,21 @@ Os trechos são pequenos fragmentos de conteúdo que podem ser reutilizados como
 
 1. Abra um tópico no Editor.
 
-2. Selecione um elemento dentro do tópico.
+1. Selecione um elemento dentro do tópico.
 
-3. Clique no botão secundário do mouse no elemento .
+1. Clique no botão secundário do mouse no elemento .
 
-4. No menu resultante, escolha Criar [!UICONTROL **Snippet**].
+1. No menu resultante, escolha Criar [!UICONTROL **Snippet**].
 
    ![Criar trecho](images/lesson-5/create-snippet.png)
 
-5. Na caixa de diálogo Novo trecho , adicione um **Título** e **Descrição**.
+1. Na caixa de diálogo Novo trecho , adicione um **Título** e **Descrição**.
 
-6. Edite o trecho conforme necessário.
+1. Edite o trecho conforme necessário.
 
    Observe que uma verificação contextual notificará visualmente você se inserir um erro no conteúdo.
 
-7. Clique em [!UICONTROL **Criar**].
+1. Clique em [!UICONTROL **Criar**].
 
 O Snippet é adicionado à lista de Snippets disponíveis. Ele está pronto para ser arrastado e solto em um local válido no tópico.
 
@@ -205,11 +205,11 @@ As Propriedades de conteúdo no painel direito incluem informações específica
 
 1. Abra um tópico em **Editor XML**.
 
-2. Selecione um **elemento**.
+1. Selecione um **elemento**.
 
    As Propriedades de conteúdo exibem os Atributos e o Tipo atuais do elemento.
 
-3. Digite um novo **Valor** para o elemento .
+1. Digite um novo **Valor** para o elemento .
 
    ![Novo valor](images/lesson-5/new-value.png)
 
@@ -221,31 +221,31 @@ Propriedades do arquivo mostra informações adicionais sobre todo o tópico abe
 
 1. Abra um tópico no Editor.
 
-2. Clique no botão [!UICONTROL  **Propriedades do arquivo**] no painel direito.
+1. Clique no botão [!UICONTROL  **Propriedades do arquivo**] no painel direito.
 
    ![Ícone Propriedades do arquivo](images/lesson-5/file-properties-icon.png)
 
-3. Defina as **Estado do documento** para **Editar**. Observe que a lista Referências está em branco no momento.
+1. Defina as **Estado do documento** para **Editar**. Observe que a lista Referências está em branco no momento.
 
    ![Sem referências](images/lesson-5/no-references.png)
 
-4. Feche o tópico.
+1. Feche o tópico.
 
-5. Selecionar [!UICONTROL **Exibição do Repositório**] no painel esquerdo.
+1. Selecionar [!UICONTROL **Exibição do Repositório**] no painel esquerdo.
 
-6. Abra um mapa.
+1. Abra um mapa.
 
    A exibição é alterada para Visualização de mapa.
 
-7. Clique no botão [!UICONTROL **Editar**] ícone .
+1. Clique no botão [!UICONTROL **Editar**] ícone .
 
    ![Ícone Editar mapa](images/lesson-5/edit-map-icon.png)
 
-8. Quando o mapa estiver aberto para edição, volte para **Exibição do Repositório**.
+1. Quando o mapa estiver aberto para edição, volte para **Exibição do Repositório**.
 
-9. Arraste e solte o tópico com o qual você está trabalhando no mapa.
+1. Arraste e solte o tópico com o qual você está trabalhando no mapa.
 
-10. Clique no botão [!UICONTROL **Salvar**] na barra de ferramentas superior.
+1. Clique no botão [!UICONTROL **Salvar**] na barra de ferramentas superior.
 
 O tópico é adicionado ao mapa. Agora, ao abrir o tópico e verificar as Propriedades do arquivo, você pode ver as Referências atualizadas para refletir que o tópico é usado no mapa especificado.
 
@@ -257,13 +257,13 @@ O painel direito contém um atalho para iniciar um fluxo de trabalho de revisão
 
    ![Ícone de revisão](images/lesson-5/review-icon.png)
 
-2. Clique em [!UICONTROL **Criar revisão**].
+1. Clique em [!UICONTROL **Criar revisão**].
 
    ![Criar revisão](images/lesson-5/create-review.png)
 
-3. Na caixa de diálogo Criar tarefa de revisão , preencha os campos conforme necessário.
+1. Na caixa de diálogo Criar tarefa de revisão , preencha os campos conforme necessário.
 
-4. Clique em [!UICONTROL **Avançar**].
+1. Clique em [!UICONTROL **Avançar**].
 
 A Tarefa de revisão é criada.
 

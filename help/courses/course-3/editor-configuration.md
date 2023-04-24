@@ -2,7 +2,7 @@
 title: Configuração do Editor de Guias AEM
 description: Configuração do editor para guias de AEM
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -25,17 +25,17 @@ Você sempre pode baixar a configuração padrão da interface do usuário para 
 
    ![Ícone Ferramentas](images/reuse/tools-icon.png)
 
-2. Selecionar **Guias** no painel esquerdo.
+1. Selecionar **Guias** no painel esquerdo.
 
-3. Clique no botão [!UICONTROL **Perfis de pasta**] mosaico.
+1. Clique no botão [!UICONTROL **Perfis de pasta**] mosaico.
 
    ![Perfis de pasta](images/reuse/folder-profiles-tile.png)
 
-4. Selecione um Perfil de pasta.
+1. Selecione um Perfil de pasta.
 
-5. Clique no botão [!UICONTROL **Configuração do editor XML**] guia .
+1. Clique no botão [!UICONTROL **Configuração do editor XML**] guia .
 
-6. Clique em [!UICONTROL **Baixar**] Padrão.
+1. Clique em [!UICONTROL **Baixar**] Padrão.
 
    ![Baixar padrão](images/lesson-4/download-default.png)
 
@@ -47,15 +47,15 @@ Após personalizar a configuração da interface do usuário, você pode carreg�
 
 1. No Perfil da pasta, clique no botão [!UICONTROL **Configuração do editor XML**] guia .
 
-2. Em Configuração da interface do usuário do Editor XML, clique em [!UICONTROL **Upload**].
+1. Em Configuração da interface do usuário do Editor XML, clique em [!UICONTROL **Upload**].
 
    ![Upload](images/lesson-4/upload.png)
 
-3. Clique duas vezes no arquivo para a configuração da interface do usuário modificada ou, como mostrado aqui, no arquivo de amostra fornecido.
+1. Clique duas vezes no arquivo para a configuração da interface do usuário modificada ou, como mostrado aqui, no arquivo de amostra fornecido.
 
    ![Arquivo de configuração de exemplo](images/lesson-4/sample-config-file.png)
 
-4. Clique em [!UICONTROL **Salvar**] no canto superior esquerdo da tela.
+1. Clique em [!UICONTROL **Salvar**] no canto superior esquerdo da tela.
 
 Você carregou com êxito a configuração da interface do usuário modificada.
 
@@ -67,17 +67,17 @@ Assim como na configuração da interface do usuário, você pode baixar o layou
 
    ![Ícone Ferramentas](images/reuse/tools-icon.png)
 
-2. Selecionar **Guias** no painel esquerdo.
+1. Selecionar **Guias** no painel esquerdo.
 
-3. Clique no botão [!UICONTROL **Perfis de pasta**] mosaico.
+1. Clique no botão [!UICONTROL **Perfis de pasta**] mosaico.
 
    ![Perfis de pasta](images/reuse/folder-profiles-tile.png)
 
-4. Selecione um Perfil de pasta.
+1. Selecione um Perfil de pasta.
 
-5. Clique no botão [!UICONTROL **Configuração do editor XML**] guia .
+1. Clique no botão [!UICONTROL **Configuração do editor XML**] guia .
 
-6. Em Layout de modelo CSS, clique em [!UICONTROL **Baixar**].
+1. Em Layout de modelo CSS, clique em [!UICONTROL **Baixar**].
 
    ![Baixar CSS](images/lesson-4/download-css.png)
 
@@ -89,15 +89,15 @@ Após personalizar o layout do Modelo de CSS, é possível carregá-lo. Observe 
 
 1. No Perfil da pasta, clique no botão [!UICONTROL **Configuração do editor XML**] guia .
 
-2. Em Layout de modelo CSS, clique em [!UICONTROL **Upload**].
+1. Em Layout de modelo CSS, clique em [!UICONTROL **Upload**].
 
    ![Fazer upload de CSS](images/lesson-4/upload-css.png)
 
-3. Clique duas vezes no arquivo para obter seu próprio layout CSS personalizado ou o arquivo de amostra fornecido mostrado aqui.
+1. Clique duas vezes no arquivo para obter seu próprio layout CSS personalizado ou o arquivo de amostra fornecido mostrado aqui.
 
    ![Arquivo CSS de exemplo](images/lesson-4/sample-css-file.png)
 
-4. Clique em [!UICONTROL **Salvar**] no canto superior esquerdo da tela.
+1. Clique em [!UICONTROL **Salvar**] no canto superior esquerdo da tela.
 Você carregou com êxito o layout personalizado do Modelo de CSS.
 
 ## Editar trechos do editor XML
@@ -108,25 +108,25 @@ Os trechos são partes reutilizáveis do conteúdo que podem ser específicas de
 
    ![Ícone Ferramentas](images/reuse/tools-icon.png)
 
-2. Selecionar **Guias** no painel esquerdo.
+1. Selecionar **Guias** no painel esquerdo.
 
-3. Clique no botão [!UICONTROL **Perfis de pasta**] mosaico.
+1. Clique no botão [!UICONTROL **Perfis de pasta**] mosaico.
 
    ![Perfis de pasta](images/reuse/folder-profiles-tile.png)
 
-4. Selecione um Perfil de pasta.
+1. Selecione um Perfil de pasta.
 
-5. Clique no botão [!UICONTROL **Configuração do editor XML**] guia .
+1. Clique no botão [!UICONTROL **Configuração do editor XML**] guia .
 
-6. Em Snippets do editor XML, clique em **Upload**.
+1. Em Snippets do editor XML, clique em **Upload**.
 
    ![Fazer upload de trechos](images/lesson-4/upload-snippets.png)
 
-7. Escolha seus próprios Snippets ou use as amostras fornecidas.
+1. Escolha seus próprios Snippets ou use as amostras fornecidas.
 
    ![Trecho de amostra](images/lesson-4/sample-snippet.png)
 
-8. Clique em [!UICONTROL **Salvar**] no canto superior esquerdo da tela.
+1. Clique em [!UICONTROL **Salvar**] no canto superior esquerdo da tela.
 
 Você adicionou novos Snippets com êxito ao Editor.
 
@@ -138,17 +138,17 @@ Por padrão, os autores têm permissão para criar rótulos de sua escolha e ass
 
    ![Ícone Ferramentas](images/reuse/tools-icon.png)
 
-2. Selecionar **Guias** no painel esquerdo.
+1. Selecionar **Guias** no painel esquerdo.
 
-3. Clique no botão [!UICONTROL **Perfis de pasta**] mosaico.
+1. Clique no botão [!UICONTROL **Perfis de pasta**] mosaico.
 
    ![Perfis de pasta](images/reuse/folder-profiles-tile.png)
 
-4. Selecione um Perfil de pasta.
+1. Selecione um Perfil de pasta.
 
-5. Clique no botão [!UICONTROL **Configuração do editor XML**] guia .
+1. Clique no botão [!UICONTROL **Configuração do editor XML**] guia .
 
-6. Em Rótulos de versão do conteúdo XML, clique em [!UICONTROL **Baixar**].
+1. Em Rótulos de versão do conteúdo XML, clique em [!UICONTROL **Baixar**].
 
    ![Rótulos de download](images/lesson-4/download-labels.png)
 
@@ -160,14 +160,14 @@ Após baixar e modificar os rótulos, é possível fazer upload do tópico Rótu
 
 1. No Perfil da pasta, clique no botão [!UICONTROL **Configuração do editor XML**] guia .
 
-2. Em Rótulos de versão do conteúdo XML, clique em [!UICONTROL **Upload**].
+1. Em Rótulos de versão do conteúdo XML, clique em [!UICONTROL **Upload**].
 
    ![Fazer upload de rótulos](images/lesson-4/upload-labels.png)
 
-3. Clique duas vezes no arquivo para seus próprios rótulos personalizados ou no arquivo de amostra fornecido mostrado aqui.
+1. Clique duas vezes no arquivo para seus próprios rótulos personalizados ou no arquivo de amostra fornecido mostrado aqui.
 
    ![Arquivo de rótulos de amostra](images/lesson-4/sample-labels-file.png)
 
-4. Clique em [!UICONTROL **Salvar**] no canto superior esquerdo da tela.
+1. Clique em [!UICONTROL **Salvar**] no canto superior esquerdo da tela.
 
 Você carregou com êxito os Rótulos de versão de conteúdo XML personalizados.

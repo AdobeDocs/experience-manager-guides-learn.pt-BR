@@ -2,7 +2,7 @@
 title: Referências cruzadas e links
 description: Criação de referências cruzadas e links nos Guias AEM
 exl-id: bee7d50f-cbdd-4ac8-b15b-101febc4ae80
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Os arquivos de amostra que você pode optar por usar para esta lição são forn
 
 1. Abra um arquivo onde deseja inserir uma referência cruzada externa.
 
-2. Atribua uma ID ao elemento a ser referenciado.
+1. Atribua uma ID ao elemento a ser referenciado.
 
    a. Clique dentro do elemento .
 
@@ -34,15 +34,15 @@ Os arquivos de amostra que você pode optar por usar para esta lição são forn
 
    d. Visualize o elemento e seu valor em **Exibição da Estrutura de Tópicos** se desejar.
 
-3. **Salvar** o tópico para garantir que o Repositório tenha a ID atualizada.
+1. **Salvar** o tópico para garantir que o Repositório tenha a ID atualizada.
 
-4. Clique no botão [!UICONTROL **Referência**] na barra de ferramentas superior.
+1. Clique no botão [!UICONTROL **Referência**] na barra de ferramentas superior.
 
    ![Barra de ferramentas](images/lesson-7/references-icon.png)
 
-5. No **Referência de conteúdo** selecione a ID e o emparelhamento de elementos que deseja inserir como uma referência cruzada.
+1. No **Referência de conteúdo** selecione a ID e o emparelhamento de elementos que deseja inserir como uma referência cruzada.
 
-6. Clique em [!UICONTROL **Selecionar**].
+1. Clique em [!UICONTROL **Selecionar**].
 
 A referência cruzada foi adicionada ao tópico.
 
@@ -57,9 +57,9 @@ Algumas modificações podem resultar em referências cruzadas quebradas. Isso i
 
 1. Navegue até o **Exibição da Estrutura de Tópicos** no painel esquerdo.
 
-2. Clique no botão [!UICONTROL **Filtro**] ícone .
+1. Clique no botão [!UICONTROL **Filtro**] ícone .
 
-3. Selecionar **Links quebrados**.
+1. Selecionar **Links quebrados**.
 
    ![Lista suspensa de filtros](images/lesson-7/broken-links.png)
 
