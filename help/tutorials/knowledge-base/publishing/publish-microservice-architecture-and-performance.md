@@ -1,9 +1,9 @@
 ---
 title: Arquitetura e desempenho do microsserviço de publicação na nuvem
 description: Entenda como o novo microsserviço permite a publicação escalável no AEMaaCS.
-source-git-commit: c67cc61938b407c3b11c5f793c6becdc9e015670
+source-git-commit: a8466a16cea7df7757d15005baaf73a39c7952ea
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Cloud Publishing Microservice Architecture and Performance Analysis
 
-Este artigo compartilha os insights da arquitetura e alguns números de desempenho do novo microsserviço de publicação em nuvem.
+Este artigo compartilha os insights sobre a arquitetura e os números de desempenho do novo microsserviço de publicação em nuvem.
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ Essa restrição de recursos foi a principal motivação para criar um serviço 
 
 ## Introdução à nova arquitetura
 
-O serviço está usando soluções de nuvem de ponta como o Adobe App Builder, Eventos de E/S, IMS para criar uma oferta sem servidor. Estes serviços baseiam-se, eles próprios, nos padrões industriais amplamente aceitos, como o Kubernetes, docker.
+O serviço está usando soluções de nuvem de ponta como o Adobe App Builder, Eventos de E/S, IMS para criar uma oferta sem servidor. Estes serviços baseiam-se, eles próprios, nas normas industriais amplamente aceites, como a Kubernetes e a docker.
 
 Cada solicitação para o novo microsserviço de publicação é executada em um contêiner de docker isolado que executa apenas uma solicitação de publicação por vez. Vários novos contêineres são criados automaticamente caso novas solicitações de publicação sejam recebidas. Essa configuração de contêiner único por solicitação permite que o microsserviço forneça o melhor desempenho aos clientes sem apresentar riscos de segurança. Esses contêineres são descartados depois que a publicação terminar, liberando assim os recursos usados.
 
-Todas essas comunicações são seguras pelo Adobe IMS usando autenticação e autorização baseadas em JWT e são executadas por HTTPS.
+Todas essas comunicações são protegidas pelo Adobe IMS usando autenticação e autorização baseada em JWT e são executadas por HTTPS.
 
 <img src="assets/architecture.png" alt="guia projetos" width="600">
 
@@ -42,9 +42,9 @@ Todas essas comunicações são seguras pelo Adobe IMS usando autenticação e a
 
 ## Análise de desempenho
 
-Esta seção mostra os números de desempenho do microsserviço. Observe que a arquitetura de nuvem antiga tinha problemas com a publicação de mapas grandes ou com a execução de várias publicações simultâneas, portanto, esta seção compara os números de desempenho do microsserviço com a oferta local dos Guias AEM.
+Esta seção mostra os números de desempenho do microsserviço. Ele compara o desempenho do microsserviço com a oferta de guias no local, já que a arquitetura de nuvem antiga tinha problemas com a publicação simultânea ou com a publicação de mapas muito grandes.
 
-Se você estiver publicando um mapa grande no local, talvez precise ajustar os parâmetros de heap do Java ou encontrar erros de falta de memória. Na nuvem, o microsserviço já tem o perfil e o heap Java ideal e outras configurações definidas imediatamente.
+Se você estiver publicando um mapa grande no local, talvez precise ajustar os parâmetros de heap do Java ou encontrar erros de falta de memória. Na nuvem, o microsserviço já tem o perfil e o heap Java otimizado e outras configurações prontas para uso.
 
 ### Execução de uma publicação na nuvem e no local
 
@@ -64,18 +64,18 @@ Se você estiver publicando um mapa grande no local, talvez precise ajustar os p
 
 * Nuvem
 
-   O Novo Microserviço de Publicação brilha nesse cenário. Como você pode ver na imagem abaixo, com o aumento nos vários trabalhos de publicação simultâneos, a nuvem pode publicá-los sem nenhum aumento significativo no tempo de publicação.
+   O novo microsserviço de publicação brilha nesse cenário. Como você pode ver na imagem abaixo, com o aumento nos vários trabalhos de publicação simultâneos, a nuvem pode publicá-los sem nenhum aumento significativo no tempo de publicação.
 
    <img src="assets/cloud_bulk_publish.png" alt="guia projetos" width="600">
 
 * No local
 
-   A execução da publicação simultânea no local resulta em grave degradação do desempenho. Essa queda no desempenho é mais grave se as editoras estiverem publicando ainda mais mapas simultaneamente.
+   A execução da publicação simultânea em um servidor local resulta em grave degradação do desempenho. Essa queda no desempenho é mais grave se as editoras estiverem publicando ainda mais mapas simultaneamente.
 
    <img src="assets/onprem_bulk_publish.png" alt="guia projetos" width="600">
 
 ## Benefícios adicionais
 
-Alguns caminhos de cada solicitação de publicação devem ser executados na instância de AEM para buscar o conteúdo de publicação correto a ser enviado ao microsserviço. A nova arquitetura em nuvem usa AEM tarefas no lugar de AEM fluxos de trabalho, como era o caso na arquitetura antiga. Essa alteração permite que os administradores do AEM Guias configurem individualmente as configurações da fila de publicação na nuvem sem afetar outras tarefas AEM ou configurações do fluxo de trabalho.
+Parte de cada solicitação de publicação deve ser executada na instância de AEM para buscar o conteúdo de publicação correto a ser enviado ao microsserviço. A nova arquitetura em nuvem usa AEM tarefas no lugar de AEM fluxos de trabalho, como era o caso na arquitetura antiga. Essa alteração permite que os administradores do AEM Guias configurem individualmente as configurações da fila de publicação na nuvem sem afetar outras tarefas AEM ou configurações do fluxo de trabalho.
 
 Detalhes sobre como configurar o novo microsserviço de publicação podem ser encontrados aqui: [Configurar microsserviço](configure-microservices.md)

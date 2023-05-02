@@ -1,7 +1,8 @@
 ---
 title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de abril de 2023
 description: Versão mais recente dos Guias do Adobe Experience Manager as a Cloud Service
-source-git-commit: 77b118655ad8e37e00b0371497e4a2578ddd276e
+exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
+source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 2%
@@ -66,7 +67,7 @@ Os Guias de AEM agora fornecem suporte avançado para os metadados que são mape
 
 ### Painel de Exibição de Estrutura de Tópicos Avançada
 
-Os Guias AEM fornecem um painel de Exibição de Contorno improvisado no qual você obtém a exibição hierárquica dos elementos usados no documento.
+AEM Guias fornece um painel de Exibição de Estrutura de Tópicos aprimorado no qual você obtém a exibição hierárquica dos elementos usados no documento.
 
 <img src="assets/select-element-content-outline-view_cs.png" alt=" metadados pdf nativos">
 
@@ -104,4 +105,3 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 O Adobe identificou o seguinte problema conhecido para a versão dos Guias AEM as a Cloud Service abril de 2023.
 
 * PDF nativo | Os metadados antigos não são preenchidos até que a predefinição de saída seja explicitamente aberta.
-
