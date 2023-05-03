@@ -2,7 +2,7 @@
 user-guide-title: Tutorials do AEM Guides
 user-guide-description: Leia nossa coleção de tutoriais do Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials do AEM Guides
-source-git-commit: 954c58e92e3d90b3b45bda573d581f5201d439ae
+source-git-commit: 01c84074bc31898d2a1481d0ed5ddda0a8dba2c0
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 7%
@@ -195,7 +195,7 @@ ht-degree: 7%
       + Publicação {#publishing}
          + [Configuração do ambiente de AEM para publicação do PDF nativo](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS e guias](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-         + [Configurar publicação baseada em microsserviços](./knowledge-base/publishing/configure-microservices.md)
          + [Arquitetura de microsserviços e desempenho](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
+         + [Configurar publicação baseada em microsserviços](./knowledge-base/publishing/configure-microservices.md)
       + Fluxos de trabalho {#workflows}
          + [Fluxo de trabalho de pós-geração](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
