@@ -1,13 +1,13 @@
 ---
 title: Relatório de histórico de versão dos arquivos revertidos
 description: Saiba como reverter o relatório de histórico de versão dos arquivos
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: fa90b373-742a-4102-b00f-07e4113fef98
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 0%
 
 ---
-
 
 # Relatório de histórico de versão dos arquivos revertidos {#id205BBC00PRK}
 
@@ -19,7 +19,7 @@ Você pode acessar esse relatório nos seguintes lugares:
 
 - **Interface do usuário do Assets**: selecionando um arquivo e abrindo o **Histórico da versão** no painel esquerdo. O **Histórico da versão** a exibição contém o **Reverter registros de versão** na parte inferior do painel. Ao clicar neste link, o histórico do arquivo selecionado das versões revertidas é exibido.
 
-   ![](images/revert-log-from-assets-ui.png)
+   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
 - **Visualização do tópico**: quando você estiver visualizando um tópico, você também poderá exibir a variável **Histórico da versão** no painel esquerdo. Você obterá um painel semelhante à interface do usuário do Assets, onde é possível clicar no botão **Reverter registros de versão** link para acessar o histórico de versão revertido do documento ativo.
 
@@ -38,7 +38,7 @@ Execute as etapas a seguir para acessar o relatório Histórico de Reversão :
 
 1. Clique em **Mostrar registros** para gerar o relatório para o arquivo ou pasta selecionado.
 
-   ![](images/revert-version-history-report.png)
+   ![](images/revert-version-history-report.png){width="800" align="left"}
 
    O relatório contém os seguintes detalhes:
 
@@ -56,4 +56,3 @@ Execute as etapas a seguir para acessar o relatório Histórico de Reversão :
 
 
 **Tópico principal:**[ Relatórios](reports-intro.md)
-

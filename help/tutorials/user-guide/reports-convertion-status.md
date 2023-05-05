@@ -1,13 +1,13 @@
 ---
 title: Relatório de status de conversão
 description: Saiba como converter relatório de status
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
 
 # Relatório de status de conversão {#id205BBA00WZZ}
 
@@ -23,7 +23,7 @@ Execute as seguintes etapas para exibir o Relatório de status de conversão:
 
    O Relatório de status de conversão é exibido para todas as tarefas de conversão executadas no sistema.
 
-   ![](images/conversion-status-report.png)
+   ![](images/conversion-status-report.png){width="800" align="left"}
 
 1. A página do relatório é dividida em duas partes:
 
@@ -33,7 +33,7 @@ Execute as seguintes etapas para exibir o Relatório de status de conversão:
 
       A captura de tela a seguir exibe os dados do relatório para tarefas de conversão que têm status Failed, Ative e Queued .
 
-      ![](images/conversion-report-failed-active-queued.png)
+      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
    - **Dados do relatório:**
 
@@ -55,4 +55,3 @@ Execute as seguintes etapas para exibir o Relatório de status de conversão:
 
 
 **Tópico principal:**[ Relatórios](reports-intro.md)
-

@@ -1,13 +1,13 @@
 ---
 title: JSON
 description: Saiba como usar JSON
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 0a938cc2-1a6f-4ee4-ad7e-f94ad2a0cf94
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
-
 
 # JSON {#id231KK0180T4}
 
@@ -38,7 +38,7 @@ As seguintes opções estão disponíveis para a predefinição JSON:
 >
 > Também é possível editar o arquivo JSON no Editor da Web.
 
-| Opções de saída JSON | Descrição |
+| Opções JSON | Descrição |
 | --- | --- |
 | Caminho de saída | O caminho no repositório de AEM onde a saída JSON é armazenada. |
 | Arquivo de índice | Você pode dar um nome para o arquivo de índice que está criando para a saída JSON. Por padrão, ele escolhe o nome de arquivo do mapa DITA e adiciona um sufixo (como `map_filename_index.json`).<br><br>Você também pode usar variáveis ao definir o Arquivo de índice. Para obter mais detalhes sobre o uso de variáveis, consulte [Use variáveis para definir as opções Caminho de destino, Nome do site ou Nome do arquivo](generate-output-use-variables.md#id18BUG70K05Z). |
@@ -48,4 +48,3 @@ As seguintes opções estão disponíveis para a predefinição JSON:
 | Fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída.<br><br>**Observação**: Para obter mais informações sobre como criar um fluxo de trabalho de geração de pós-saída personalizado, consulte _Personalizar fluxo de trabalho de geração de pós-saída_ no guia as a Cloud Service Instalar e configurar os guias do Adobe Experience Manager. |
 
 **Tópico principal:**[ Noções básicas das predefinições de saída](generate-output-understand-presets.md)
-

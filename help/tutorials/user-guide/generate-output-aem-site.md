@@ -1,13 +1,13 @@
 ---
 title: Site AEM
 description: Saiba como AEM Site
-source-git-commit: 23d6c87b525f0763990166e46f4bd4ac2d6e7cd5
+exl-id: 8523ec55-d7f3-439d-96e8-163c7632f73c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 0%
 
 ---
-
 
 # Site AEM {#id205BE3008SW}
 
@@ -86,7 +86,7 @@ Para simplificar a publicação de mapas complexos e tópicos que se vinculam a 
 
 O contexto de publicação permite especificar qual tópico deve ser usado a partir de qual mapa para publicar uma saída específica. Vamos entender isso com a ajuda de um exemplo — digamos que você tenha quatro pastas: amostra a, amostra b, amostra c e amostra d. Cada pasta contém um mapa DITA — mapa DITA A, mapa DITA B, mapa DITA C e mapa DITA D. A vinculação entre mapas acontece quando um tópico no mapa DITA A é vinculado a um tópico no mapa DITA B, C ou D. Na captura de tela a seguir, um tópico de conceito de amostra contém links \(ou referências\) para arquivos que fazem parte de outros mapas DITA.
 
-![](images/sample-concept-link-to-other.png){width="450" align="left"}
+![](images/sample-concept-link-to-other.png){width="350" align="left"}
 
 Agora, ao definir as configurações de publicação do AEM Site para o arquivo de mapa que contém este tópico, você pode selecionar qual contexto de publicação para o conteúdo vinculado é usado durante a publicação. Um contexto de publicação é uma combinação do mapa DITA e de sua predefinição de saída. A predefinição de saída, por sua vez, contém uma versão específica do conteúdo e predefinições condicionais. Toda essa combinação do mapa DITA, predefinição de saída, versão \(arquivos\) e condições definem o contexto de publicação para um mapa vinculado.
 
@@ -143,8 +143,7 @@ Se estiver usando `conref` no seu conteúdo, ele é publicado como conteúdo nor
 
 Você pode procurar por uma string na saída do Site de AEM. Por padrão, você pode pesquisar a string somente nos títulos. Para procurar a string no conteúdo ou no corpo da saída do site AEM, entre em contato com o administrador do sistema para ativar a propriedade flating.enabled .
 
-
-<img src="images/aem-output-search.png" alt="Pesquisar AEM saída do Site" width="800">
+![Pesquisar AEM saída do Site](images/aem-output-search.png){width="650" align="left"}
 
 Para obter mais detalhes, consulte *Configurar o nivelamento AEM estrutura do nó do Site* no guia Instalar e configurar os guias do Adobe Experience Manager.
 

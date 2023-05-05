@@ -1,13 +1,13 @@
 ---
 title: Solução de problemas básicos
 description: Saiba como solucionar problemas básicos
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
 
 ---
-
 
 # Solução de problemas básicos {#id1821I0Y0G0A}
 
@@ -21,7 +21,7 @@ Execute as etapas a seguir para visualizar e verificar o arquivo de log de gera�
 
    O **Geral** da coluna **Saídas Geradas** mostra os ícones para dar uma dica visual sobre o sucesso ou a falha da geração de saída.
 
-   ![](images/output-general-settings.png)
+   ![](images/output-general-settings.png){width="300" align="left"}
 
    Na captura de tela acima, o primeiro e o terceiro ícones mostram a geração de saída com falha. O segundo ícone mostra uma geração de saída bem-sucedida, mas com mensagens. A última é uma geração de saída bem-sucedida sem qualquer mensagem.
 
@@ -29,7 +29,7 @@ Execute as etapas a seguir para visualizar e verificar o arquivo de log de gera�
 
    O arquivo de log é aberto em uma nova guia.
 
-   ![](images/log-file.png)
+   ![](images/log-file.png){width="800" align="left"}
 
 1. Aplique os seguintes filtros para realçar o texto no arquivo de log:
    - Fatal: Destaca os erros fatais no arquivo de log com cor rosa.
@@ -61,15 +61,15 @@ Execute as seguintes etapas para copiar e verificar o arquivo de log de geraçã
 
    - *Erro relacionado ao arquivo do mapa DITA*: Caso haja um erro encontrado no arquivo de mapa DITA ou em qualquer outro arquivo contido no mapa DITA, o arquivo de log conterá uma string, &quot;BUILD FAILED&quot;. Você pode verificar as informações fornecidas no arquivo de log para localizar o arquivo incorreto e corrigir o problema.
 
-      No seguinte trecho do arquivo de log de exemplo, você pode ver o `BUILD FAILED` juntamente com o motivo do erro.
+   No seguinte trecho do arquivo de log de exemplo, você pode ver o `BUILD FAILED` juntamente com o motivo do erro.
 
-      ![](images/dita-error-in-log-file.png)
+   ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-      - *Erro relacionado a guias de AEM*: O outro tipo de erro que você pode identificar no arquivo de log está relacionado ao próprio processo Guias AEM . Nesse caso, o arquivo de mapa DITA é analisado com êxito, mas o processo de geração de saída falha devido a algum erro interno nos Guias AEM. Para esse tipo de erro, você precisa buscar ajuda da equipe de suporte técnico.
+   - *Erro relacionado a guias de AEM*: O outro tipo de erro que você pode identificar no arquivo de log está relacionado ao próprio processo Guias AEM . Nesse caso, o arquivo de mapa DITA é analisado com êxito, mas o processo de geração de saída falha devido a algum erro interno nos Guias AEM. Para esse tipo de erro, você precisa buscar ajuda da equipe de suporte técnico.
 
-         No seguinte trecho do arquivo de log de exemplo, você pode ver o `BUILD SUCCESSFUL` , seguida de outro erro técnico.
+   No seguinte trecho do arquivo de log de exemplo, você pode ver o `BUILD SUCCESSFUL` , seguida de outro erro técnico.
 
-         ![](images/process-error-in-log-file.png)
+   ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## Resolver erro de compilação JSP
@@ -90,4 +90,3 @@ Execute as seguintes etapas para resolver esse problema:
 
 
 **Tópico principal:**[ Geração de saída](generate-output.md)
-

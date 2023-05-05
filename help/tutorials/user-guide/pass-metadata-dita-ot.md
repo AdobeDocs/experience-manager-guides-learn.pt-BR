@@ -1,13 +1,13 @@
 ---
 title: Transmita os metadados para a saída usando DITA-OT
 description: Saiba como transmitir os metadados para a saída usando DITA-OT
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 637895e5-aece-4827-a32e-f2ae3e3704ef
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
 
 ---
-
 
 # Transmita os metadados para a saída usando DITA-OT {#id21BJ00QD0XA}
 
@@ -19,7 +19,7 @@ Execute as seguintes etapas para transmitir os metadados para a saída usando a 
 1. Selecione e edite uma predefinição de saída para a qual deseja passar os campos de metadados. Por exemplo, selecione PDF output preet.
 1. Selecionar **DITA-OT** em Gerar &lt;output> Uso da opção na predefinição de saída selecionada.
 
-   ![](images/custom-meta-data-output-preset.png)
+   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
 
 1. No menu suspenso Propriedades , selecione os metadados que você deseja passar para a publicação de DITA-OT.
 
@@ -35,7 +35,7 @@ Execute as seguintes etapas para transmitir os metadados para a saída usando a 
 
 1. No **Propriedades** selecione as propriedades padrão e personalizadas necessárias. Por exemplo, selecione `author`, `dc:title`e `dc:description`. Estes são os padrões `metadata/properties` que é criado assim que criamos um arquivo. As propriedades selecionadas são listadas abaixo da caixa de depósito.
 
-   ![](images/selected-metadata-properties.png)
+   ![](images/selected-metadata-properties.png){width="300" align="left"}
 
 1. Clique em **Concluído** no canto superior esquerdo para salvar as alterações.
 1. Gere a saída.
@@ -43,4 +43,3 @@ Execute as seguintes etapas para transmitir os metadados para a saída usando a 
 As propriedades de metadados selecionadas serão passadas para a saída gerada usando DITA-OT.
 
 **Tópico principal:**[ Geração de saída](generate-output.md)
-

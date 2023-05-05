@@ -1,13 +1,13 @@
 ---
 title: Relatório de mapa DITA no painel de mapa
 description: Saiba como criar um relatório de mapa DITA no painel de mapa
-source-git-commit: 8a104cfe17778a71915e3700f49fc6892493ccd0
+exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
 
 ---
-
 
 # Relatório de mapa DITA no painel de mapa {#id205BB800EEN}
 
@@ -23,7 +23,7 @@ Execute as seguintes etapas para visualizar o relatório do mapa DITA:
 
 1. Clique em **Relatórios**.
 
-   ![](images/reports-page-uuid.png)
+   ![](images/reports-page-uuid.png){width="800" align="left"}
 
    A página Relatórios é dividida em duas partes:
 
@@ -35,7 +35,7 @@ Execute as seguintes etapas para visualizar o relatório do mapa DITA:
 
       Quando você clica em um tópico, um relatório detalhado do tópico selecionado é exibido.
 
-      ![](images/detailed-report-uuid.png)
+      ![](images/detailed-report-uuid.png){width="800" align="left"}
 
       Itens destacados em **A**, **B**, **C** e **D** são descritos abaixo:
 
@@ -79,20 +79,19 @@ Execute as seguintes etapas para gerar o CSV de um relatório de mapa DITA:
 
 1. Clique em **Gerar relatório** no canto superior esquerdo para gerar o relatório de mapa DITA.
 
-   ![](images/generate-DITA-map-report.png)
+   ![](images/generate-DITA-map-report.png){width="800" align="left"}
 
 1. Você receberá uma notificação quando o relatório estiver pronto para download. Clique em **Baixar** para baixar o CSV do relatório gerado.
 
-   ![](images/download-report-dialog.png)
+   ![](images/download-report-dialog.png){width="550" align="left"}
 
 
    Você também pode baixar o CSV do relatório gerado posteriormente a partir da Caixa de entrada da notificação de AEM.
 
    Clique no relatório gerado na Caixa de entrada para baixar o relatório.
 
-   ![](images/report-inbox--notification.png)
+   ![](images/report-inbox--notification.png){width="300" align="left"}
 
 Depois que o relatório for baixado na Caixa de entrada, você também poderá selecionar o relatório e usar o ícone Abrir na parte superior para abrir o relatório selecionado.
 
 **Tópico principal:**[ Relatórios](reports-intro.md)
-

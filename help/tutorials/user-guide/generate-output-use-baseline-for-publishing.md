@@ -1,13 +1,13 @@
 ---
 title: Trabalhar com linha de base
 description: Saiba como trabalhar com linha de base
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1917'
 ht-degree: 0%
 
 ---
-
 
 # Trabalhar com linha de base {#id1825FI0J0PF}
 
@@ -46,8 +46,7 @@ Execute as seguintes etapas para criar uma linha de base:
 1. Em **Defina a versão com base em**, selecione uma das seguintes opções:
 
    - **Rótulo**: Selecione essa opção para escolher os tópicos de acordo com o rótulo aplicado a eles. Insira um rótulo para filtrar a lista com base na string inserida. Na lista filtrada, é possível escolher um rótulo para selecionar tópicos e outros ativos com o rótulo especificado.
-
-      Ao selecionar **Rótulo**, você também recebe uma opção adicional para usar a versão mais recente dos tópicos que não têm o rótulo especificado aplicado neles. Se você não selecionar essa opção e houver um tópico ou arquivo de mídia que não tenha o rótulo especificado, o processo de criação da linha de base falhará. Para obter mais informações sobre como adicionar rótulos, consulte [Usar rótulos](web-editor-use-label.md#).
+   Ao selecionar **Rótulo**, você também recebe uma opção adicional para usar a versão mais recente dos tópicos que não têm o rótulo especificado aplicado neles. Se você não selecionar essa opção e houver um tópico ou arquivo de mídia que não tenha o rótulo especificado, o processo de criação da linha de base falhará. Para obter mais informações sobre como adicionar rótulos, consulte [Usar rótulos](web-editor-use-label.md#).
 
    - **Versão em** &lt;*carimbo de data e hora*\>: Seleciona a versão dos tópicos como na data e hora especificadas. Observe que a hora especificada aqui corresponde ao fuso horário do seu servidor AEM. Se o servidor estiver em um fuso horário diferente, os tópicos serão selecionados de acordo com o fuso horário do servidor e não com o fuso horário local.
 
@@ -55,7 +54,7 @@ Execute as seguintes etapas para criar uma linha de base:
 
 1. Se quiser usar uma versão diferente para um ou mais tópicos, poderá fazer isso selecionando manualmente esses tópicos. Clique em **Pesquisar tópico**, selecione o tópico para o qual deseja usar uma versão diferente. Na lista suspensa Selecionar uma versão para o tópico selecionado, selecione uma versão do tópico que deseja usar na linha de base e clique em **OK**.
 
-   ![](images/baseline-select-version-drop-down.png)
+   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
 
    As informações sobre o tópico e sua versão selecionada são armazenadas no back-end. Você pode repetir essa etapa para alterar a versão selecionada de vários tópicos.
 
@@ -133,7 +132,7 @@ Execute as seguintes etapas para adicionar um rótulo a vários tópicos e ao co
 
 1. Clique em **Adicionar rótulos**.
 
-   ![](images/add-label-baseline-uuid.png)
+   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
 
 1. No **Adicionar etiqueta** , especifique um rótulo exclusivo para associar a essa linha de base.
 
@@ -144,7 +143,7 @@ Execute as seguintes etapas para adicionar um rótulo a vários tópicos e ao co
    - Clique em **Adicionar**.
 O rótulo especificado é adicionado ao mapa DITA e aos tópicos e conteúdo referenciados.
 
-      ![](images/label-added-baseline-uuid.png)
+      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
 ## Exportar linha de base traduzida {#id196SE600GHS}
@@ -163,7 +162,7 @@ Execute as seguintes etapas para exportar uma linha de base traduzida:
 
 1. No **Tradução** , expanda a **Linha de base** disponível no painel esquerdo.
 
-   ![](images/export-baseline.png)
+   ![](images/export-baseline.png){width="800" align="left"}
 
 1. Selecione o **Usar linha de base** e escolha a Linha de Base que deseja exportar.
 
@@ -177,4 +176,3 @@ Execute as seguintes etapas para exportar uma linha de base traduzida:
 
 
 **Tópico principal:**[ Geração de saída](generate-output.md)
-

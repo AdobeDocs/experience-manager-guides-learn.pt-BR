@@ -1,13 +1,13 @@
 ---
 title: Exibir status de tradução
 description: Saiba como visualizar o status de tradução
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 2662d86e-5ebd-4f41-a1e9-5bf4c96ffce2
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%
 
 ---
-
 
 # Exibir status de tradução {#id169SEK00KOW}
 
@@ -23,7 +23,7 @@ Execute as seguintes etapas para visualizar o status de tradução de um mapa DI
    >
    > Você pode ainda filtrar o conteúdo com base em seu Status de Tradução \(como Ausência de Cópia Fora de Sincronização, Em Andamento ou Em Sincronia\), Tipo de Origem \(como Tudo, DITA, mapa DITA ou Recurso\), data de modificação. Você também pode inserir palavras-chave para procurar tópicos específicos.
 
-   ![](images/status-translation-uuid.png)
+   ![](images/status-translation-uuid.png){width="800" align="left"}
 
 
 A guia Translation tem as seguintes seções:
@@ -32,4 +32,3 @@ A guia Translation tem as seguintes seções:
 - **Detalhes**: Mostra o título do tópico, o tipo de tópico, o código do idioma do tópico, o idioma de origem, a versão do tópico de origem, o rótulo adicionado ao tópico e o status da tradução.
 
 **Tópico principal:**[ Traduzir conteúdo](translation.md)
-

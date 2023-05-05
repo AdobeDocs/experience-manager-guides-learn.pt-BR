@@ -1,13 +1,13 @@
 ---
 title: Traduzir tópicos modificados
 description: Saiba como traduzir tópicos modificados
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
 
 ---
-
 
 # Traduzir tópicos modificados {#id16A5A0B6072}
 
@@ -29,7 +29,7 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
 
    Se você clicar na seta para ver mais detalhes. você pode ver a cópia de idioma específica que está desatualizada.
 
-   ![](images/out-of-sync-uuid.png)
+   ![](images/out-of-sync-uuid.png){width="800" align="left"}
 
 1. Clique na caixa de seleção para selecionar os tópicos que deseja enviar para nova tradução.
 
@@ -51,7 +51,7 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
 
 1. Navegue até o projeto de tradução no console Projeto . Um novo cartão de trabalho de tradução é criado na pasta . Clique nas reticências para ver os ativos da pasta.
 
-   ![](images/incremental-job.PNG)
+   ![](images/incremental-job.PNG){width="300" align="left"}
 
 1. Para iniciar a tradução, clique na seta no cartão do trabalho de tradução e selecione **Iniciar** na lista. Uma mensagem notifica que o trabalho foi iniciado.
 
@@ -76,4 +76,3 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
 
 
 **Tópico principal:**[ Traduzir conteúdo](translation.md)
-

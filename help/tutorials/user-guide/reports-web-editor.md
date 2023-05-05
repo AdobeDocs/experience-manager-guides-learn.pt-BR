@@ -1,13 +1,13 @@
 ---
 title: Relatório de mapa DITA do Editor da Web
 description: Saiba como elaborar o relatório de mapa DITA no Editor da Web
-source-git-commit: 895d9bd3587c871d5223df5b71403d10bdc3d762
+exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
 
 ---
-
 
 # Relatório de mapa DITA do Editor da Web {#id231HF0Z0NXA}
 
@@ -25,9 +25,10 @@ Você pode criar um relatório dos tópicos executando as seguintes etapas:
 1. Clique no botão **Gerenciar** guia .
 1. Clique duas vezes **Lista de tópicos** à esquerda. A lista de tópicos presentes no mapa DITA é exibida.
 
-   ![](images/web-editor-topiclist-panel.png)
+   ![](images/web-editor-topiclist-panel.png){width="800" align="left"}
 
 1. No **Filtros** É possível filtrar os tópicos com base no **Tipo de referência** \(direto ou indireto\), **Estado do documento** \(o estado atual de seus tópicos. Por exemplo, se os tópicos estiverem no estado Editar, Em revisão ou Revisado, eles serão listados\) ou a variável **Autor** do tópico.
+
 1. Você também pode usar as seguintes opções de filtragem de tópicos para escolher exibir as seguintes colunas na lista:
 
    - **Tópico** O título do tópico é especificado no mapa DITA. Você pode clicar no tópico para editá-lo.
@@ -57,7 +58,7 @@ Para exibir os metadados de suas referências no mapa DITA atual, execute as seg
 1. Clique no botão **Gerenciar** guia .
 1. Clique duas vezes **Metadados** à esquerda. A lista de metadados de todas as referências no mapa DITA é exibida. Isso também inclui as referências de mídia.
 
-   ![](images/web-editor-metadata-panel.png)
+   ![](images/web-editor-metadata-panel.png){width="800" align="left"}
 
 1. No **Filtros** você pode filtrar seus tópicos com base no painel **Estado do documento** \(o estado atual de seus tópicos. Por exemplo, se os tópicos estiverem no estado Editar, Em revisão ou Revisado, eles serão listados\), **Referências** \(direto ou indireto\), **Tipo de arquivo** \(Mapa, Tópico e Imagem\) da referência.
 1. Você também pode optar por exibir somente a variável **Arquivos sem tags** ou também escolha tags específicas no **Tags** para exibir os arquivos associados a eles.
@@ -92,7 +93,7 @@ Para exibir os metadados de suas referências no mapa DITA atual, execute as seg
 
 1. Selecionar **Gerenciar** do topo.
 
-   ![](images/web-editor-manage-metadata.png)
+   ![](images/web-editor-manage-metadata.png){width="350" align="left"}
 
 1. Se desejar adicionar novas tags, selecione novas tags na lista suspensa para aplicá-las a todos os tópicos selecionados. Também é possível excluir qualquer tag ao clicar no ícone de cruz próximo à tag .
 
@@ -114,11 +115,11 @@ O **Multimídia** O relatório fornece informações detalhadas sobre a multimí
 
    - Ao solicitar por **Multimídia**, o nome***da multimídia é exibido na primeira coluna e, em seguida, os nomes de todas as referências em que foram usadas são exibidos em outra coluna na mesma linha. Por exemplo, a captura de tela a seguir mostra o WarmCoolForC.gif multimídia na primeira coluna e três referências em que é usado são exibidas na terceira coluna na mesma linha.
 
-      ![](images/multimedia-report-file-order.png)
+      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
    - Se você solicitar por **Usado em** , você verá a visualização transposta, na qual os nomes das referências em que a multimídia foi usada são listados na primeira coluna, enquanto os nomes da multimídia são listados em outra coluna em linhas separadas. Por exemplo, a captura de tela a seguir mostra os nomes de três referências \(Ajustar a temperatura do assento, Alterar a exibição da temperatura do assento e Área da tripulação\) na primeira coluna e o WarmCoolForC.gif multimídia é exibido na terceira coluna em três linhas separadas.
 
-      ![](images/multimedia-report-used-in-order.png)
+      ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
 
 1. Você pode filtrar sua multimídia com base na variável **Tipo de multimídia** e **Tipo de referência**. A lista de arquivos multimídia é exibida com base na sua seleção no menu suspenso . Por exemplo, você pode optar por exibir apenas as referências de áudio no mapa DITA e um arquivo mostra apenas as referências de áudio usadas nele.
 
@@ -138,10 +139,11 @@ O **Multimídia** O relatório fornece informações detalhadas sobre a multimí
    >[!NOTE]
    >
    > Clique em **Atualizar** para obter uma nova lista de multimídia e ver qualquer alteração no arquivo de mapa ou se alguma multimídia em seu mapa DITA for atualizada.
+
 1. Você também pode clicar e reproduzir um arquivo de áudio ou vídeo no Editor da Web. Você pode alterar o volume ou a visualização do vídeo. No menu de atalho, você também tem as opções para baixar, alterar a velocidade de reprodução ou exibir a imagem na imagem.
-   ![](images/video-web-editor.png)
+
+   ![](images/video-web-editor.png){width="800" align="left"}
 
 1. Clique em **Baixar CSV** para baixar o instantâneo atual da multimídia no mapa DITA. O CSV contém as colunas selecionadas e a multimídia filtrada no **Multimídia** exibir. Em seguida, você pode abrir esse arquivo CSV de multimídia em qualquer editor CSV.
 
 **Tópico principal:**[ Relatórios](reports-intro.md)
-

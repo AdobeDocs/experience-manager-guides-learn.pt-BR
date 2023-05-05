@@ -1,13 +1,13 @@
 ---
 title: Criar uma coleção de mapas de ativação em massa
 description: Saiba como criar uma coleção de mapas de ativação em massa
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # Criar uma coleção de mapas de ativação em massa {#id214GG0E90EV}
 
@@ -43,7 +43,7 @@ Para criar uma coleção de mapas de ativação em massa, execute as seguintes e
 
    Os arquivos de mapa DITA são adicionados à coleção do mapa de ativação em massa.
 
-   ![](images/bulk-activation-collection-created.png)
+   ![](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 
 A guia Mapas e predefinições apresenta informações nas seguintes colunas:
@@ -70,4 +70,3 @@ As seguintes opções de filtragem estão disponíveis no painel esquerdo:
 - **Mapas e predefinições** tabela: A tabela Mapas e predefinições mostra as seguintes colunas:
 
 **Tópico principal:**[ Ativação em massa de conteúdo publicado](conf-bulk-activation.md)
-

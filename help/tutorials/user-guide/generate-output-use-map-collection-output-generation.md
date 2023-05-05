@@ -1,13 +1,13 @@
 ---
 title: Usar Coleção de Mapa para geração de saída
 description: Saiba como usar a coleção de mapas para geração de saída
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
 
 ---
-
 
 # Usar Coleção de Mapa para geração de saída {#id1723F20G0HS}
 
@@ -25,7 +25,7 @@ Para criar uma Coleção de mapa e adicionar mapas DITA à coleção, execute as
 
    Se o link Mapear coleções não estiver disponível, selecione o **Navegação** no painel à esquerda e clique em **Mapear coleções**.
 
-   ![](images/access-map-collection-left-rail.png)
+   ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
 1. Insira um Título para sua coleção de mapas.
 1. Clique em **Criar**.
@@ -47,8 +47,7 @@ Para criar uma Coleção de mapa e adicionar mapas DITA à coleção, execute as
 
    Os arquivos de mapa DITA são adicionados à Coleção de mapa.
 
-
-![](images/maps_presets_62_63.png)
+   ![](images/maps_presets_62_63.png){width="800" align="left"}
 
 As seguintes opções de filtragem e detalhes do mapa são mostrados na página de coleção:
 
@@ -93,7 +92,6 @@ Para configurar e gerar a saída usando uma Coleção de mapa, execute as seguin
 
 Semelhante à maneira de cancelar uma tarefa de geração de saída do [Console de mapa DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) ou [Publicar painel](generate-output-publish-dashboard.md#), é possível cancelar uma tarefa de geração de saída de uma Coleção de Mapa. Acesse a guia Saídas de uma Coleção de mapa, vá para a tarefa de publicação que deseja cancelar e clique no botão **Cancelar esta Tarefa** ícone para cancelar a tarefa de publicação.
 
-![](images/cancel-publish-task-map-collection.png)
+![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
 **Tópico principal:**[ Geração de saída](generate-output.md)
-

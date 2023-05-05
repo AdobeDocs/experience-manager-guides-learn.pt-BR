@@ -1,13 +1,13 @@
 ---
 title: Criação de perfis de atributos condicionais
 description: Saiba como criar perfis de atributos condicionais
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # Criação de perfis de atributos condicionais {#id1843I0HN0Y4}
 
@@ -43,7 +43,7 @@ Para definir atributos condicionais, execute as seguintes etapas:
 
    A captura de tela a seguir mostra a definição para a variável `platform` atributo com valor de `unix` e um rótulo de `Red Hat Linux`.
 
-   ![](images/add-profile.png)
+   ![](images/add-profile.png){width="800" align="left"}
 
 1. Se quiser adicionar mais valores para o mesmo atributo, clique no botão **+** e insira valor e rótulo adicionais.
 
@@ -54,7 +54,6 @@ Para definir atributos condicionais, execute as seguintes etapas:
 
 O `platform` é armazenado no sistema. Sempre que um autor decidir usar o `platform` em um tópico DITA em uma pasta, eles verão os valores na guia Propriedades no Editor da Web.
 
-![](images/properties-tab.png)
+![](images/properties-tab.png){width="350" align="left"}
 
 **Tópico principal:**[ Geração de saída](generate-output.md)
-

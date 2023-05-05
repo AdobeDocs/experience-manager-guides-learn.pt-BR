@@ -1,13 +1,13 @@
 ---
 title: Relatório de reutilização de conteúdo
 description: Saiba como usar o Relatório de reutilização de conteúdo
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
 
 ---
-
 
 # Relatório de reutilização de conteúdo {#id205BB900OQD}
 
@@ -31,7 +31,7 @@ Execute as seguintes etapas para visualizar o Relatório de reutilização de co
 
 1. Clique em **Gerar relatório** para obter o Relatório de reutilização de conteúdo.
 
-   ![](images/content-reuse-uuid.png)
+   ![](images/content-reuse-uuid.png){width="800" align="left"}
 
    A página do relatório é dividida em duas partes:
 
@@ -61,4 +61,3 @@ Execute as seguintes etapas para visualizar o Relatório de reutilização de co
 > Também é possível exportar o Relatório de reutilização de conteúdo no formato CSV. Para fazer isso, clique no link Export to CSV no canto superior esquerdo da tela e escolha um local para salvar o arquivo CSV. Em seguida, você pode abrir esse arquivo CSV em qualquer editor CSV.
 
 **Tópico principal:**[ Relatórios](reports-intro.md)
-

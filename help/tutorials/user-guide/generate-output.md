@@ -1,13 +1,13 @@
 ---
 title: Geração de saída
 description: Saiba como gerar saída
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
-
 
 # Geração de saída {#id1645H8040HD}
 
@@ -43,29 +43,4 @@ As informações nas seções a seguir são para editores que usarão os workflo
 >[!IMPORTANT]
 >
 > Os recursos descritos neste tópico estão disponíveis somente para usuários com Publicadores ou privilégios de administrador.
-
-- **[Noções básicas das predefinições de saída](generate-output-understand-presets.md)**
-
-- **[Use variáveis para definir as opções Caminho de destino, Nome do site ou Nome do arquivo](generate-output-use-variables.md)**
-
-- **[Criar, editar, duplicar ou remover uma predefinição de saída](generate-output-create-edit-preset.md)**
-
-- **[Transmita os metadados para a saída usando DITA-OT](pass-metadata-dita-ot.md)**
-
-- **[Criação de perfis de atributos condicionais](generate-output-conditional-attribute-profiling.md)**
-
-- **[Usar predefinições de condição](generate-output-use-condition-presets.md)**
-
-- **[Trabalhar com linha de base](generate-output-use-baseline-for-publishing.md)**
-
-- **[Gerar saída para um mapa DITA a partir do console de mapa](generate-output-for-a-dita-map.md)**
-
-- **[Usar Coleção de Mapa para geração de saída](generate-output-use-map-collection-output-generation.md)**
-
-- **[Gerenciar tarefas de publicação usando o painel Publicar](generate-output-publish-dashboard.md)**
-
-- **[Solução de problemas básicos](generate-output-basic-troubleshooting.md)**
-
-- **[Ativação em massa de conteúdo publicado](conf-bulk-activation.md)**
-
 
