@@ -1,13 +1,13 @@
 ---
 title: Criar mapas com base em modelos personalizados
 description: Saiba como criar mapas com base em modelos personalizados
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: 02513148-3876-4549-962a-9984f619030f
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
 
 ---
-
 
 # Criar mapas com base em modelos personalizados {#id225VF0808MP}
 
@@ -33,7 +33,7 @@ Execute as seguintes etapas para criar um modelo de tópico:
 
 1. No **Interface do usuário do Assets**, navegue até a pasta de templates.
 
-   ![](images/dita-templates.png)
+   ![](images/dita-templates.png){width="800" align="left"}
 
 1. Clique em **tópicos** pasta para abri-la.Clique **Criar \> Modelo DITA**.
 1. Na página Blueprint, selecione **Tópico** e, em seguida, clique em **Próximo.**
@@ -55,7 +55,7 @@ Execute as seguintes etapas para criar um modelo de mapa:
 1. Clique em **mapas** para abri-la.
 1. Clique em **Crie \> Modelo DITA.**
 
-   ![](images/create-dita-template.png)
+   ![](images/create-dita-template.png){width="300" align="left"}
 
 1. Na página Blueprint, selecione **Mapa** e clique em **Próximo**.
 1. Na página Propriedades , especifique o modelo de mapa **Título**.
@@ -104,7 +104,11 @@ Se você não usar colchetes ao redor do título, o mapa DITA resultante somente
 Exemplo
 
 ```XML
-<title>	<sub>		<b>{title}</b>	</sub></title>
+<title>    
+    <sub>        
+        <b>{title}</b>    
+    </sub>
+</title>
 ```
 
 ## Usar o modelo de mapa para criar novos mapas
@@ -144,4 +148,3 @@ O mapa gera todos os ativos que são referenciados dentro da pasta de modelo. Al
 - Se outro mapa ou tópico for criado no mesmo nível na pasta, os nomes dos ativos recém-criados serão anexados com 0,1,2 e assim por diante. Você pode optar por abrir o mapa para editar ou salvar o arquivo de mapa no repositório.
 
 **Tópico principal:**[ Trabalhar com o Editor de Mapa](map-editor.md)
-

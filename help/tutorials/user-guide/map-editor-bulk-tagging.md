@@ -1,13 +1,13 @@
 ---
 title: Marcação em massa do conteúdo DITA
 description: Saiba como marcar conteúdo DITA em massa
-source-git-commit: 528dd5d33f38c29809e7e7dafd77d860daaba8db
+exl-id: 0e855575-e62f-4dc7-869c-7fd3ec61ffdb
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
 
 ---
-
 
 # Marcação em massa do conteúdo DITA {#id179SG0TN05Z}
 
@@ -31,7 +31,7 @@ Use o recurso de marcação em massa para aplicar várias tags ao mesmo tempo. E
 
 1. Selecione os tópicos ou o submapa nos quais deseja aplicar as tags.
 
-   ![](images/apply-tags-uuid.png)
+   ![](images/apply-tags-uuid.png){width="650" align="left"}
 
 
    >[!NOTE]
@@ -106,4 +106,3 @@ Execute as seguintes etapas para remover todas as tags de um ou mais tópicos:
 Se você tiver uma lista longa de tags aplicadas aos seus tópicos, talvez seja um pouco complicado navegar. Você pode ocultar facilmente as tags no na visualização do console do mapa DITA clicando no ícone Ocultar tags . Da mesma forma, quando as tags não estão visíveis, clicar em Mostrar tags revela todas as tags.
 
 **Tópico principal:**[ Gerenciar metadados](manage-metadata.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Criar um mapa
 description: Saiba como criar um mapa
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # Criar um mapa {#id176FEN0D05Z}
 
@@ -25,7 +25,7 @@ Execute as seguintes etapas para criar um arquivo de mapa:
    >
    > A maneira como os tópicos são referenciados em um arquivo de mapa depende do modelo de mapa. Por exemplo, se você selecionar o modelo de Mapa, o tópico referenciará \(`topicref`\) são usadas para se referir a tópicos. No caso de um Bookmap, as referências de tópico são criadas usando o `chapter` no DITA.
 
-   ![](images/map-template.png)
+   ![](images/map-template.png){width="650" align="left"}
 
 1. Na página Propriedades , especifique o mapa **Título**.
 
@@ -41,7 +41,7 @@ Execute as seguintes etapas para criar um arquivo de mapa:
 
    Cada novo arquivo de mapa que você criar na interface do usuário do Assets **Criar** \> **Mapa DITA** ou o Editor da Web recebe uma ID de mapa exclusiva. Além disso, o novo mapa é salvo como a cópia de trabalho mais recente no DAM. Até salvar uma revisão de um mapa recém-criado, você não verá nenhum número de versão no Histórico de versões. Se você abrir o mapa para edição, as informações da versão serão mostradas no canto superior direito da guia do arquivo de mapa:
 
-   ![](images/first-version-map-none.png)
+   ![](images/first-version-map-none.png){width="650" align="left"}
 
    As informações de versão de um mapa recém-criado são mostradas como *nenhum*. Ao salvar uma nova versão, é atribuído um número de versão como 1.0. Para obter mais informações sobre como salvar uma nova versão, consulte [Salvar como nova versão](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -53,4 +53,3 @@ Execute as seguintes etapas para criar um arquivo de mapa:
 
 
 **Tópico principal:**[ Trabalhar com o Editor de Mapa](map-editor.md)
-

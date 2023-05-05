@@ -1,13 +1,13 @@
 ---
 title: Exibir uma tarefa de revisão concluída
 description: Saiba como visualizar uma tarefa de revisão concluída
-source-git-commit: 176aee433300ce8d4d9cfbab2edb007acae4de87
+exl-id: 37f10fc3-e4ca-4e73-a887-65c7e9496f5e
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
-
 
 # Exibir uma tarefa de revisão concluída
 
@@ -19,8 +19,7 @@ Como revisor, você pode ver um indicador no painel de comentários para mostrar
 
 No entanto, você pode pesquisar ou filtrar quaisquer comentários. Você também pode optar por mostrar ou ocultar condições e exibir conteúdo condicional de acordo. É possível baixar anexos, mas não é possível fazer upload ou excluir anexos para os comentários.
 
-<img src="images/complete-task-reviewer.png" alt="revisor de tarefa de revisão concluída" width="800">
-
+![](images/complete-task-reviewer.png){width="800" align="left"}
 
 
 ## Como autor
@@ -29,7 +28,6 @@ Como autor, você pode ver o status como fechado no painel Revisar. Você pode l
 
 No entanto, você pode pesquisar ou filtrar quaisquer comentários. É possível baixar anexos, mas não é possível fazer upload ou excluir anexos para os comentários.
 
-<img src="images/completed-task-author.png" alt=" autor da tarefa de revisão concluída" width="800">
+![](images/completed-task-author.png){width="800" align="left"}
 
 Assim, como um revisor ou autor, você pode exibir o conteúdo revisado junto com os comentários, mas não pode fazer alterações em uma tarefa de revisão concluída.
-

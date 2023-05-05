@@ -1,13 +1,13 @@
 ---
 title: Criar e gerenciar linhas de base no Editor da Web
 description: Saiba como criar e gerenciar linhas de base no Editor da Web
-source-git-commit: 873111892d5b479f80a40c0b18cda9b538f5a1de
+exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 0%
 
 ---
-
 
 # Criar e gerenciar linhas de base no Editor da Web {#id223MB0ZF043}
 
@@ -24,7 +24,7 @@ Você pode criar uma linha de base no Editor da Web executando as seguintes etap
 1. No painel Repositório, abra o arquivo de mapa DITA na Visualização de mapa.
 1. Clique no botão **Gerenciar** guia . O **Linha de base** painel exibe as linhas de base do mapa DITA.
 
-   ![](images/baseline-manage.png)
+   ![](images/baseline-manage.png){width="800" align="left"}
 
 1. No **Linha de base** clique no ícone + na parte superior direita. Você pode criar uma linha de base com uma versão específica dos tópicos e do conteúdo referenciado disponível em uma data e hora específicas, ou com um rótulo definido para uma versão dos tópicos.
 1. Insira um nome para a linha de base em **Nome da linha de base**.
@@ -52,7 +52,7 @@ Você pode criar uma linha de base no Editor da Web executando as seguintes etap
 
    As linhas de base baseadas em rótulos são atualizadas dinamicamente. Se você gerar uma linha de base, baixar uma linha de base ou criar um projeto de tradução usando uma linha de base, os arquivos serão selecionados dinamicamente com base nos rótulos atualizados. Por exemplo, se você tiver usado a versão 1.2 de um tópico com o Rótulo Versão 1.0 para a linha de base e a versão 1.5 atualizada posteriormente com o Rótulo Versão 1.0, a linha de base será atualizada dinamicamente e a versão 1.5 será usada.
 
-   ![](images/dynamic-baseline.png)
+   ![](images/dynamic-baseline.png){width="550" align="left"}
 
    - **Selecionar rótulos**: Se os tópicos tiverem rótulos especificados para eles, os rótulos serão listados na variável **Selecionar rótulos** lista suspensa. Você pode escolher o rótulo\(s\) na lista. Os rótulos selecionados primeiro recebem prioridade mais alta do que os mais recentes.
 1. **Referências indiretas**: Para referências indiretas no mapa DITA, você recebe as seguintes opções:
@@ -74,7 +74,7 @@ Você pode gerenciar suas linhas de base existentes usando os vários recursos n
 - Você pode visualizar ou editar o conteúdo de uma linha de base existente clicando duas vezes na linha de base da lista no painel Linha de Base. A janela de edição da linha de base no centro exibe o arquivo de mapa DITA, o conteúdo ou tópicos do mapa e o conteúdo referenciado.
 
 
-![](images/baseline-options.png)
+![](images/baseline-options.png){width="550" align="left"}
 
 Também é possível executar as seguintes operações na linha de base no menu Opções :
 
@@ -92,7 +92,7 @@ Também é possível executar as seguintes operações na linha de base no menu 
 
 Uso do ícone Filtros na **Filtros da linha de base** painel é possível aplicar filtros na linha de base aberta na janela de edição da linha de base:
 
-![](images/baseline-filter.png)
+![](images/baseline-filter.png){width="350" align="left"}
 
 - Filtre os arquivos com base em nomes de arquivo ou no local do arquivo.
 - Filtre os arquivos com base nos valores de diferentes colunas, como Tipo de arquivo, Tipo de referência e assim por diante.
@@ -107,4 +107,3 @@ Uso do ícone Filtros na **Filtros da linha de base** painel é possível aplica
 Depois de editar a linha de base, clique no botão **Salvar** na parte superior para salvar as alterações na linha de base. Você pode clicar no botão **Redefinir** se não quiser salvar a alteração e redefinir a linha de base. Ao clicar no botão **Redefinir** Um aviso é exibido informando que as alterações não salvas serão perdidas.
 
 **Tópico principal:**[ Trabalhar com o editor da Web](web-editor.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Usar o painel Geração rápida
 description: Saiba como usar o painel Geração rápida
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d48803d9-470c-4679-8def-72b45a85917b
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
 
 ---
-
 
 # Usar o painel Geração rápida para gerar e exibir a saída {#id22AKE050F5L}
 
@@ -17,7 +17,7 @@ Os Guias de AEM fornecem um **Geração rápida** integrado ao Editor da Web. Es
 >
 > O **Geração rápida** é exibido para o mapa DITA aberto no painel Visualização de mapa .
 
-![](images/quick-generate-map-view.png)
+![](images/quick-generate-map-view.png){width="800" align="left"}
 
 Execute as etapas a seguir para gerar a saída do **Geração rápida** painel:
 
@@ -28,4 +28,3 @@ Execute as etapas a seguir para gerar a saída do **Geração rápida** painel:
 1. Clique em **Exibir saída** \( ![](images/view-output-icon.svg)\) ícone de uma predefinição específica para exibir a saída gerada para a predefinição.
 
 **Tópico principal:**[ Trabalhar com o editor da Web](web-editor.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Trabalhar com o Editor de mapa avançado
 description: Saiba como trabalhar com o Editor de mapa avançado
-source-git-commit: cb0f21b0e22c58da478a4b1a6d6aa99ad42f0f3d
+exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '3675'
 ht-degree: 0%
 
 ---
-
 
 # Trabalhar com o Editor de mapa avançado {#id1942D0S0IHS}
 
@@ -33,21 +33,21 @@ Execute as seguintes etapas para criar o arquivo de mapa usando o Editor de mapa
 
 1. Com o arquivo de mapa selecionado, clique em **Editar tópicos**.
 
-   ![](images/edit-map-main-menu.png)
+   ![](images/edit-map-main-menu.png){width="800" align="left"}
 
    Ou também é possível selecionar a variável **Editar tópicos** no menu de ações no arquivo de mapa:
 
-   ![](images/edit-map-action-menu.png)
+   ![](images/edit-map-action-menu.png){width="800" align="left"}
 
    O arquivo de mapa é aberto para edição no Editor da Web.
 
 1. Clique no botão **Editar** ícone .
 
-   ![](images/edit-map-icon.png)
+   ![](images/edit-map-icon.png){width="550" align="left"}
 
    O mapa é aberto na interface do Editor de mapa avançado. Se você tiver aberto um novo arquivo de mapa, somente o título do mapa será exibido no editor.
 
-   ![](images/new-map-file-in-editor.png)
+   ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
    - **A** - \(*Barra de ferramentas principal*\): Isso é semelhante à barra de ferramentas principal do Editor da Web. Consulte [Barra de ferramentas principal](web-editor-features.md#id2051EA0G05Z) no Editor da Web para obter mais detalhes.
 
@@ -69,7 +69,7 @@ Execute as seguintes etapas para criar o arquivo de mapa usando o Editor de mapa
 
    O tópico é adicionado no mapa.
 
-   ![](images/map-editor-add-topic.png)
+   ![](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. Para adicionar tópicos subsequentes ou um submapa, arraste e solte o tópico ou submapa no local desejado no mapa.
 
@@ -77,15 +77,15 @@ Execute as seguintes etapas para criar o arquivo de mapa usando o Editor de mapa
 
    - O arquivo é adicionado em um local onde a barra horizontal aparece na área de edição do mapa. Na captura de tela a seguir, a variável *Visão geral* será adicionado entre *Descrição geral* e *Lançamento e local de aterrissagem* tópicos.
 
-      ![](images/horizontal-line-in-adv-map-editor.png)
+      ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
    - Para substituir um tópico, coloque o tópico na parte superior, esquerda ou direita do tópico que deseja substituir. Uma barra vertical à esquerda ou à direita de um tópico indica que ela será substituída pelo tópico que está sendo solto nele.
 
-      ![](images/vertical-bar-left-right.png)
+      ![](images/vertical-bar-left-right.png){width="550" align="left"}
 
       No entanto, antes de substituir um tópico, você recebe um prompt de confirmação. O tópico é substituído somente após você fornecer a confirmação.
 
-      ![](images/replace-topic-confirm.png)
+      ![](images/replace-topic-confirm.png){width="300" align="left"}
 
    - Se você adicionar um submapa ao mapa DITA, o submapa será mostrado como um link no mapa DITA. Para exibir todos os tópicos do submapa, pressione Ctrl e clique no link do submapa. O conteúdo do submapa é mostrado em uma nova guia. Da mesma forma, para abrir um tópico do mapa DITA, clique com a tecla Ctrl pressionada no link do tópico e ele será aberto na nova guia.
 
@@ -93,7 +93,7 @@ Execute as seguintes etapas para criar o arquivo de mapa usando o Editor de mapa
 
    - Para alterar a posição de um tópico, selecione o tópico \(clicando no ícone de tópico\) e arraste-o e solte-o no local desejado no arquivo de mapa. Certifique-se de que a barra horizontal esteja visível no local onde deseja colocar o tópico. Na captura de tela a seguir, o tópico *Lançamento e local de aterrissagem* está sendo movido após a *Visão geral* tópico.
 
-      ![](images/move-topic-adv-map-editor.png)
+      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
    - Para verificar as propriedades do arquivo de mapa, clique com o botão direito do mouse em qualquer lugar na área de edição de mapa e escolha **Propriedades** no menu de contexto. Com base na sua versão AEM, você pode ver propriedades como metadados, agendar \(de\)ativação, referências, estado do documento e muito mais.
 
@@ -119,7 +119,7 @@ Você pode executar as seguintes tarefas na exibição Layout:
 **Inserir referência de tópico** - ![](images/insert-topic-reference.png)
 
 Exibe a caixa de diálogo de pesquisa de tópico. Navegue até o tópico/arquivo de mapa que deseja inserir e clique em Selecionar para adicioná-lo ao mapa.
-![](images/insert-topic-reference-dialog.png)
+![](images/insert-topic-reference-dialog.png){width="800" align="left"}
 
 
 **Inserir grupo de tópicos** - ![](images/insert-topic-group.png)
@@ -130,7 +130,7 @@ Insira o `topicgroup` elemento. Para obter mais informações sobre tópicos de 
 
 Exibe a caixa de diálogo Inserir teclado. Use essa caixa de diálogo para definir qualquer definição de chave que deseja usar no mapa.
 
-![](images/insert-key-definition-dialog.png)
+![](images/insert-key-definition-dialog.png){width="300" align="left"}
 
 **Inserir Antes/Inserir Depois** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -199,7 +199,7 @@ Mostra o nome do arquivo dos títulos dos tópicos.
 
 Além de organizar tópicos no arquivo de mapa, você também pode executar as seguintes ações usando o menu Opções disponível para um elemento na exibição Layout:
 
-![](images/map-editor-options-menu.png)
+![](images/map-editor-options-menu.png){width="650" align="left"}
 
 - **Adicionar**: Você pode optar por adicionar um novo tópico ou uma referência vazia no Editor de mapa:
    - **Referência vazia**: Essa opção permite adicionar uma referência vazia no mapa DITA. Você pode clicar duas vezes na referência vazia inserida posteriormente e adicionar os detalhes do Tópico. Para obter mais detalhes, consulte a [Criar um tópico](web-editor-features.md#id228ICI0105U) no Editor da Web.
@@ -231,7 +231,7 @@ O painel Propriedades de conteúdo contém informações sobre o tipo de tópico
 
 - **Outros atributos** Se o administrador criou um perfil para atributos, você os obterá junto com os valores configurados. Usando o painel de propriedades de conteúdo, você pode escolher esses atributos e atribuí-los ao conteúdo relevante em seu tópico. Também é possível atribuir atributos configurados pelo administrador na função **Exibir atributos** nas configurações do editor. Os atributos definidos para um elemento são exibidos na exibição Layout e Contorno. Isso ajuda você a visualizar rapidamente todos os tópicos em um mapa para o qual um determinado atributo é definido. Por exemplo, todos os tópicos que têm o atributo da plataforma definido como &quot;Android&quot;.
 
-   ![](images/layout-inline-attributes.png)
+   ![](images/layout-inline-attributes.png){width="650" align="left"}
 
 
    Para obter mais detalhes, consulte a *Exibir atributos* no *Configurações do editor* descrição do recurso na [Painel esquerdo](web-editor-features.md#id2051EA0M0HS) seção.
@@ -310,7 +310,7 @@ Para editar tópicos por meio de um mapa DITA, execute as seguintes etapas:
    >
    > Você também pode selecionar o arquivo de mapa DITA na interface do usuário do Assets e clicar em **Editar tópicos** na barra de ferramentas principal para iniciar o Editor da Web.
 
-   ![](images/web-editor-map-view_cs.png)
+   ![](images/web-editor-map-view_cs.png){width="350" align="left"}
 
 1. \(*Opcional*\) Você também pode selecionar um tópico no mapa e fazer check-out do arquivo antes de editar. Para fazer check-out do arquivo\(s\), selecione um ou mais arquivos no painel esquerdo e clique em **Check-out**. Você também pode liberar o bloqueio em qualquer arquivo selecionando o arquivo com check-out e clicando no botão **Cancelar Check-out e Desbloquear** na exibição Mapa.
 
@@ -320,13 +320,13 @@ Para editar tópicos por meio de um mapa DITA, execute as seguintes etapas:
 
    A captura de tela a seguir destaca os ícones de Check-out e Bloqueio \(A\), Cancelar Check-out e Desbloquear \(B\), Salvar Como Nova Versão e Desbloquear \(C\), Editar \(D\), Visualizar \(E\), ícones diferentes que mostram tipos de arquivos DITA diferentes \(F\) e arquivos que foram verificados \(G\).
 
-   ![](images/file-checkout-map-editor.png)
+   ![](images/file-checkout-map-editor.png){width="550" align="left"}
 
 1. Clique em qualquer link de tópico para abri-lo no Editor da Web para edição.
 
    Você pode abrir vários tópicos no editor e cada tópico é aberto em uma nova guia no editor. Mesmo que seu mapa DITA contenha submapas, os tópicos dos submapas também serão abertos em uma nova guia para edição. Se quiser exibir os tópicos em um submapa, clique em e expanda o submapa.
 
-   ![](images/web-editor-multiple-topics.png)
+   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
 
    Se você clicar em um arquivo de mapa, o mapa será aberto em uma nova guia do navegador da Web.
 
@@ -334,14 +334,14 @@ Para editar tópicos por meio de um mapa DITA, execute as seguintes etapas:
 
    - Você pode salvá-las individualmente. Se você clicar em **Fechar sem salvar** em seus tópicos, você verá uma caixa de diálogo solicitando que você salve os tópicos não salvos:
 
-      ![](images/save-multiple-topics.PNG)
+      ![](images/save-multiple-topics.PNG){width="550" align="left"}
 
       Você pode optar por salvar todos os tópicos selecionados ou desmarcar os tópicos que não deseja salvar.
 
    - Você pode fazer check-in do tópico usando a variável **Salvar como nova versão e desbloquear** botão. Quando você salva uma revisão do tópico, uma nova revisão é criada e o bloqueio também é lançado.
    - Se o administrador tiver ativado a opção de fazer check-in de arquivos ao fechar, você receberá um prompt para salvar arquivos sempre que os arquivos com check-out forem fechados. Com essa opção ativada, ao fechar o editor com arquivos alterados, você verá a lista de arquivos com check-out que precisam ser salvos. Os arquivos com check-out são mostrados com um ícone de bloqueio:
 
-      ![](images/save-on-close.PNG)
+      ![](images/save-on-close.PNG){width="550" align="left"}
 
       - Clicando em **Fechar sem salvar** fecha os arquivos sem salvar as alterações.
 
@@ -364,7 +364,7 @@ Você pode acessar a visualização de um mapa em:
 
 - **Editor de mapa avançado**: No Editor de mapa avançado, clique no ícone de Visualização para visualizar o mapa atual.
 
-   ![](images/map-preview-icon.png)
+   ![](images/map-preview-icon.png){width="350" align="left"}
 
    Você pode executar as seguintes tarefas adicionais no modo de visualização:
 
@@ -380,4 +380,3 @@ Você pode acessar a visualização de um mapa em:
 
 
 **Tópico principal:**[ Trabalhar com o Editor de Mapa](map-editor.md)
-

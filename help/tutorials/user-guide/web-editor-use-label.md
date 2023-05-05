@@ -1,13 +1,13 @@
 ---
 title: Usar rótulos
 description: Saiba como usar rótulos
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
 
 ---
-
 
 # Usar rótulos {#id164JBG0M0T1}
 
@@ -33,8 +33,7 @@ Execute as seguintes etapas para adicionar um rótulo ao seu tópico:
 
    Os rótulos são exibidos no Histórico de versão do tópico selecionado. A captura de tela a seguir exibe os rótulos *Versão x.x* e *Guia do usuário* adicionado à versão realçada do tópico.
 
-
-![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 >[!NOTE]
 >
@@ -49,12 +48,11 @@ Execute as seguintes etapas para excluir um rótulo:
 
    No Histórico de versões, você verá todas as versões de um tópico e os rótulos anexados a ele. A imagem a seguir mostra um exemplo de diferentes versões de um tópico e uma versão tem rótulos adicionados a ele.
 
-   ![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 1. Clique no botão de exclusão \(**X**\) para excluir o rótulo.
 
-   ![](images/delete-labels.png)
+   ![](images/delete-labels.png){width="300" align="left"}
 
 
 **Tópico principal:**[ Trabalhar com o editor da Web](web-editor.md)
-

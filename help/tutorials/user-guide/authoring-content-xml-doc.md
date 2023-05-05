@@ -1,13 +1,13 @@
 ---
 title: Criar conteúdo usando guias de AEM
 description: Saiba como criar conteúdo usando guias de AEM
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 6a6354ce-29cc-4bd7-8235-579fe3647682
+source-git-commit: 3c3aef9f6beefad69c1bf13f55643a79992ac6f7
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # Criar conteúdo usando guias de AEM {#id221EB0P0E20}
 
@@ -21,8 +21,7 @@ AEM Guias vem com três editores prontos para uso. você pode usá-los para cria
 
 - **[Trabalhar com o Editor de Mapa](map-editor.md)**
 
-- **[Editor DITAVAL](id17C5E0U0OQE.md#)**
+- **[Editor DITAVAL](ditaval-editor.md)**
 
 
 **Tópico principal:**[ Conteúdo do autor](authoring-content.md)
-

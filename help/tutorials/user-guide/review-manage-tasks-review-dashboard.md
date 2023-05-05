@@ -1,13 +1,13 @@
 ---
 title: Gerenciar tarefas de revisão usando o Painel de revisão
 description: Saiba como gerenciar tarefas de revisão usando o Painel de revisão
-source-git-commit: f3d747082103c73a365ee400cbd4dcdabd36eabf
+exl-id: 617017fe-59b6-4b38-b375-a126fa9dddf5
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 0%
 
 ---
-
 
 # Gerenciar tarefas de revisão usando o Painel de revisão {#id2056B0Y70X4}
 
@@ -23,13 +23,13 @@ Execute as seguintes etapas para acessar e usar o Painel de revisão:
 
    Um painel Projeto com blocos de tarefas é exibido.
 
-   ![](images/review-management.png)
+   ![](images/review-management.png){width="800" align="left"}
 
 1. Clique nos três pontos no **Resenhas** mosaico.
 
    O Painel de revisão é exibido. O painel lista todas as tarefas de revisão que você criou.
 
-   ![](images/review-dashboard.png)
+   ![](images/review-dashboard.png){width="800" align="left"}
 
    O Painel de Revisão exibe os detalhes sobre a tarefa de revisão, como o nome da tarefa, quem iniciou a revisão, a data em que a revisão foi iniciada, a data de vencimento, o status, o número de novos comentários que não foram aceitos ou rejeitados pelo autor e o nome dos revisores. As tarefas são listadas na ordem de tarefas recém-criadas para tarefas mais antigas.
 
@@ -48,7 +48,7 @@ Execute as seguintes etapas para acessar e usar o Painel de revisão:
 
 ## Guia Tarefa
 
-![](images/review-task-page.png)
+![](images/review-task-page.png){width="800" align="left"}
 
 Você pode executar as seguintes ações no **Tarefa** guia :
 
@@ -69,7 +69,7 @@ Você pode executar as seguintes ações no **Tarefa** guia :
 
 ## Guia Content
 
-![](images/review-content-page.png)
+![](images/review-content-page.png){width="800" align="left"}
 
 Você pode executar as seguintes ações no **Conteúdo** guia :
 
@@ -88,7 +88,7 @@ Você pode executar as seguintes ações no **Conteúdo** guia :
 
 ## Guia Revisores {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png)
+![](images/reviewers-tab.png){width="800" align="left"}
 
 Você pode executar as seguintes ações no **Revisores** guia :
 
@@ -109,7 +109,7 @@ Você pode executar as seguintes ações no **Revisores** guia :
 
 Na página principal Revisar painel , se você selecionar uma tarefa de revisão e clicar em **Status**, o relatório de status da tarefa de revisão é mostrado:
 
-![](images/review-status-report.png)
+![](images/review-status-report.png){width="800" align="left"}
 
 O relatório de status da tarefa de revisão contém os seguintes detalhes:
 
@@ -123,4 +123,3 @@ O relatório de status da tarefa de revisão contém os seguintes detalhes:
 - A data em que qualquer tópico foi acessado pela última vez pelo revisor.
 
 **Tópico principal:**[ Rever tópicos ou mapas](review.md)
-

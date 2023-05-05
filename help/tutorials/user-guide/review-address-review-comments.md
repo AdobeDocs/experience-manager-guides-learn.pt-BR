@@ -1,13 +1,13 @@
 ---
 title: Comentários da revisão de endereço
 description: Saiba como abordar comentários de revisão
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 04f6114d-601f-4e92-a303-18a6dd309a49
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
 
 ---
-
 
 # Comentários da revisão de endereço {#id2056B0X0KBI}
 
@@ -19,7 +19,7 @@ Um autor pode endereçar comentários em um documento do Editor da Web. Indicado
 >
 > Ao abordar comentários de revisão \(para um documento de revisão ativo\), certifique-se de não abrir o tópico de revisão em várias guias com a exibição completa de tags ativada, não alterne entre os modos Autor e Exibição da fonte.
 
-![](images/comments-page-web-editor_cs.png)
+![](images/comments-page-web-editor_cs.png){width="650" align="left"}
 
 No modo Editor da Web, o painel direito contém os ícones Revisar e Rastrear alterações. O painel Revisar mostra todos os comentários feitos em seu documento pelos revisores. O painel Alterações rastreadas mostra o status de todos os comentários inseridos e excluídos em seu documento.
 
@@ -41,11 +41,11 @@ No modo Editor da Web, o painel direito contém os ícones Revisar e Rastrear al
 
    Se quiser incorporar a alteração sugerida \(inserção ou exclusão\) uma de cada vez, basta clicar com o botão direito do mouse no comentário no conteúdo e selecionar Aceitar alteração ou Rejeitar alteração. Dependendo da sua seleção, o comentário é aceito ou rejeitado. Em caso de comentário aceito, o conteúdo é adicionado no conteúdo; e em caso de rejeição, ela será removida do conteúdo. Além disso, o status do comentário é alterado no painel Revisar .
 
-   ![](images/import-comment-accept-web-editor_cs.png)
+   ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
 
    Você também pode usar o recurso de revisão no painel direito para aceitar ou rejeitar comentários. Clicar em qualquer comentário destaca o comentário no documento.
 
-   ![](images/changes-tab_cs.png)
+   ![](images/changes-tab_cs.png){width="800" align="left"}
 
    >[!IMPORTANT]
    >
@@ -61,4 +61,3 @@ No modo Editor da Web, o painel direito contém os ícones Revisar e Rastrear al
 
 
 **Tópico principal:**[ Rever tópicos ou mapas](review.md)
-

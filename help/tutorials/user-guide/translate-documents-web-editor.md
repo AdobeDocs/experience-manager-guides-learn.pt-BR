@@ -1,13 +1,13 @@
 ---
 title: Traduzir documentos do Editor da Web
 description: Saiba como traduzir documentos do Editor da Web
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 0%
 
 ---
-
 
 # Traduzir documentos do Editor da Web {#id21BKF0Z0YZF}
 
@@ -46,7 +46,7 @@ Antes de executar as etapas neste procedimento, verifique se você criou as past
    >
    > Idioma mostra apenas os idiomas para os quais uma pasta de idioma é criada paralelamente ao idioma de origem. Uma pasta de idioma criada em qualquer outro nível, como um nível abaixo da pasta de idioma de origem também não é exibida. Certifique-se de criar todas as pastas de idioma de destino no mesmo nível da pasta de idioma de origem.
 
-   ![](images/translation-languages.png)
+   ![](images/translation-languages.png){width="350" align="left"}
 
 1. Você também pode usar as seguintes opções:
 
@@ -72,11 +72,11 @@ Antes de executar as etapas neste procedimento, verifique se você criou as past
    - **Rótulo de destino**: Rótulo para a versão selecionada do arquivo de destino
 1. Clique em **Enviar para tradução** no canto superior direito.
 
-   ![](images/translation-send.png)
+   ![](images/translation-send.png){width="800" align="left"}
 
 1. Na lista suspensa , selecione **Criar um novo projeto de tradução**.
 
-   ![](images/translation-project-types.png)
+   ![](images/translation-project-types.png){width="350" align="left"}
 
    Além de um novo projeto de tradução, você também pode selecionar entre as seguintes opções:
 
@@ -107,7 +107,7 @@ Para adicionar o rótulo da versão de origem à cópia de destino, o administra
 
 Por exemplo, se você tiver alguns arquivos de origem com o rótulo da versão `Release 1.0` aplicado a eles, você também pode passar no rótulo de origem \(`Release 1.0`\) ao arquivo traduzido.
 
-![](images/translation-pass-source-label.png)
+![](images/translation-pass-source-label.png){width="650" align="left"}
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ Por exemplo, se você tiver alguns arquivos de origem com o rótulo da versão `
 
 AEM Guias fornece o recurso para verificar as diferenças entre a versão selecionada e a última versão de origem traduzida dos tópicos. Você pode optar por traduzir a variável **Fora de Sincronização** arquivos com base nas alterações feitas.
 
-![](images/translation-version-diff.png)
+![](images/translation-version-diff.png){width="800" align="left"}
 
 Selecione o **Mostrar diferença**&#x200B;ícone \(![](images/show-difference-icon.svg)\) para um tópico para ver as diferenças entre a última versão traduzida e a versão atual do arquivo selecionado.
 
@@ -127,7 +127,7 @@ Selecione o **Mostrar diferença**&#x200B;ícone \(![](images/show-difference-ic
 
 O **Diferença de versão** será exibida. Mostra o **Última versão traduzida** e **Versão selecionada** à esquerda. A janela de pré-visualização exibe as diferenças entre a última versão traduzida e a versão selecionada do tópico.
 
-![](images/version-diff.png)
+![](images/version-diff.png){width="650" align="left"}
 
 ## Ignorar ativos fora de sincronia
 
@@ -138,7 +138,7 @@ Para descartar o status Fora de Sincronização, execute as seguintes etapas:
 1. Selecione os ativos fora de sincronia para os quais deseja alterar o status.
 1. Selecione o **Marcar Sincronizado** botão \(![](images/translation-mark-in-sync-icon.svg)\) no topo. O **Marcar Sincronizado** será exibida.
 
-   ![](images/translation-mark-in-sync.png)
+   ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
 1. Clique em **Forçar Sincronização**. Ele define o status como Em sincronia para os ativos Fora de sincronização selecionados.
 
@@ -156,7 +156,6 @@ Algumas das referências no painel de tradução podem estar em andamento. Essas
 
 Clique no nome da referência na caixa de diálogo para abri-la no modo de visualização. Você também pode clicar no projeto de tradução para iniciar a tradução.
 
-![](images/translation-in-progress.png)
+![](images/translation-in-progress.png){width="550" align="left"}
 
 **Tópico principal:**[ Trabalhar com o editor da Web](web-editor.md)
-

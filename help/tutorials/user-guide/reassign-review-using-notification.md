@@ -1,13 +1,13 @@
 ---
 title: Reatribuir tarefa de revisão usando notificação
 description: Saiba como Reatribuir tarefa de revisão usando notificação
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d20865a8-2c30-4bd7-8594-64e0ccdb665a
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
 
 ---
-
 
 # Reatribuir tarefa de revisão usando notificação {#id21BNH03M0KS}
 
@@ -28,7 +28,7 @@ Execute as seguintes etapas para atribuir novamente uma tarefa de revisão a par
    >
    > O revisor deve ter as permissões para reatribuir e deve fazer parte do grupo usuário-administrador.
 
-   ![](images/reassign-user-inbox.png)
+   ![](images/reassign-user-inbox.png){width="800" align="left"}
 
 1. Selecionar **Atribuir novamente**.
 
@@ -37,4 +37,3 @@ Depois que a tarefa de revisão é reatribuída, a coluna Destinatário exibe o 
 O revisor atribuído recebe uma notificação na Caixa de entrada para a tarefa de revisão atribuída novamente.
 
 **Tópico principal:**[ Rever tópicos ou mapas](review.md)
-

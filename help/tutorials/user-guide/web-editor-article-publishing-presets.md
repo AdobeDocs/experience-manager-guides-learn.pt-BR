@@ -1,13 +1,13 @@
 ---
 title: Criar predefinições de saída no Editor da Web
 description: Saiba como criar predefinições de saída no Editor da Web
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7fde0057-06a5-428e-a91b-9e9386a56270
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
 
 ---
-
 
 # Criar predefinições de saída no Editor da Web {#id218CL400JW3}
 
@@ -27,7 +27,7 @@ Execute as seguintes etapas para criar predefinições de saída para o mapa DIT
 
 1. No **Saída** selecione o ícone + para criar uma predefinição de saída para o mapa DITA.
 
-   ![](images/output-tab-preset_cs.png)
+   ![](images/output-tab-preset_cs.png){width="350" align="left"}
 
 1. Insira o nome da predefinição na caixa de diálogo Adicionar predefinição e clique em **Adicionar**.
 
@@ -43,20 +43,19 @@ Execute as seguintes etapas para criar predefinições de saída para o mapa DIT
    1. No **Artigos** selecione os tópicos para os quais deseja gerar a saída.
 1. Selecione o **Gerar predefinição** ícone na parte superior para gerar a saída.
 
-   ![](images/add-preset-articles-tab_cs.png)
+   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
 1. Você verá o status do processo de geração de saída. O **Tópicos** lista os tópicos para os quais a saída está sendo gerada enquanto a variável **Status** exibe o status de publicação de cada tópico.
 
    Para exibir a saída, passe o ponteiro do mouse sobre o tópico e clique em Exibir saída.
 
-   ![](images/add-preset-output-generated_cs.png)
+   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
 
 
 >[!NOTE]
 >
 > Também é possível editar, renomear, duplicar ou excluir uma predefinição de saída existente no menu Opções.
 
-![](images/edit-preset_cs.png)
+![](images/edit-preset_cs.png){width="550" align="left"}
 
 **Tópico principal:**[ Publicação baseada em artigo no Editor da Web](web-editor-article-publishing.md)
-

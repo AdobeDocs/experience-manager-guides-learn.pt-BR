@@ -1,13 +1,13 @@
 ---
 title: Gerar saída do painel Repositório
 description: Saiba como gerar saída do painel Repositório
-source-git-commit: a78a775406c07c1ec12665cdb00f65ca91f03f95
+exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
 
 ---
-
 
 # Gerar saída do painel Repositório ou do painel Visualização de mapa {#id218CL6010AE}
 
@@ -28,16 +28,16 @@ Execute as etapas a seguir para gerar a saída de um ou mais tópicos no mapa DI
 1. No **Autor** selecione o tópico no mapa DITA que deseja publicar.
 
 1. Selecionar **Geração rápida** no menu Opções do tópico selecionado.
-   ![](images/select-topic-options-menu_cs.png)
+   ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
 
 1. Para publicar um tópico usado em um único mapa DITA, selecione as predefinições de saída do mapa que deseja usar para publicar e clique em **Gerar**.
-   ![](images/select-preset_cs.png)
+   ![](images/select-preset_cs.png){width="350" align="left"}
 
 1. Você verá o status do processo de geração de saída. Para exibir a saída, passe o ponteiro do mouse sobre o tópico e clique em Exibir saída.
 
 1. Se você tiver um tópico comum que seja usado em vários tópicos, selecione os vários mapas DITA e também as predefinições de saída que deseja usar para publicar e clicar **Gerar.**
 
-   ![](images/select-preset-multiple-maps_cs.png)
+   ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
 
 1. Você verá o status do processo de geração de saída.
 
@@ -46,7 +46,7 @@ Execute as etapas a seguir para gerar a saída de um ou mais tópicos no mapa DI
    - **Mapa**: Lista os mapas DITA que contêm o tópico selecionado.
    - **Status**: Exibe o status de publicação de cada tópico.
 Para exibir a saída, passe o ponteiro do mouse sobre o tópico e clique em Exibir saída.
-      ![](images/output-multiple-maps_cs.png)
+      ![](images/output-multiple-maps_cs.png){width="800" align="left"}
 
 
 ## Gerar saída para um mapa DITA no Editor da Web
@@ -57,7 +57,7 @@ Execute as etapas a seguir para gerar a saída para todo o mapa DITA:
 
 1. Selecionar **Geração rápida** no menu Opções do mapa DITA.
 
-   ![](images/select-map-options-menu_cs.png)
+   ![](images/select-map-options-menu_cs.png){width="650" align="left"}
 
 1. Selecione as predefinições de saída do mapa DITA que deseja usar para publicar e clicar **Gerar.**
 
@@ -78,10 +78,9 @@ Execute as etapas a seguir para gerar a saída de mais de um tópico no mapa DIT
    >
    > Você verá apenas as predefinições de saída do mapa DITA atual que contêm todos os tópicos selecionados.
 
-   ![](images/generate-output-multiple-topics_cs.png)
+   ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
 
 1. Você verá o status do processo de geração de saída. Para exibir a saída, passe o ponteiro do mouse sobre o tópico e clique em Exibir Saída.
 
 
 **Tópico principal:**[ Publicação baseada em artigo no Editor da Web](web-editor-article-publishing.md)
-
