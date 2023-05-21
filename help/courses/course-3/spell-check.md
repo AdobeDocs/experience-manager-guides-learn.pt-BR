@@ -1,6 +1,6 @@
 ---
-title: Verificar ortografia e localizar/substituir
-description: Uso da verificação ortográfica e localizar/substituir em Guias AEM
+title: Verificação ortográfica e localizar/substituir
+description: Usando a verificação ortográfica e localizar/substituir nos guias AEM
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -9,13 +9,13 @@ ht-degree: 0%
 
 ---
 
-# Verificar ortografia e localizar/substituir
+# Verificação ortográfica e Localizar/Substituir
 
-O Editor de guias de AEM tem recursos avançados de verificação ortográfica e localização e substituição.
+O Editor de Guias do AEM tem poderosos recursos de verificação ortográfica e Localizar e Substituir.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342768?quality=12&learn=on)
 
-Corrigir um erro ortográfico
+Corrigir um erro de ortografia
 
 1. Localize um erro em um tópico aberto, mostrado com um sublinhado vermelho.
 
@@ -25,47 +25,47 @@ Corrigir um erro ortográfico
 
 Se a ortografia correta não for sugerida, você sempre poderá editar a palavra manualmente.
 
-## Mudar para AEM Verificação Ortográfica
+## Alternar para verificação ortográfica do AEM
 
-Você pode usar uma ferramenta de verificação ortográfica diferente do dicionário padrão do navegador.
+Talvez você queira usar uma ferramenta de verificação ortográfica diferente do dicionário padrão do navegador.
 
-1. Navegar para **Configurações do editor**.
+1. Navegue até **Configurações do editor**.
 
-1. Selecione o **Geral** guia de configurações.
+1. Selecione o **Geral** guia configurações.
 
-   ![Configuração de verificação ortográfica](images/lesson-11/configure-dictionary.png)
+   ![Configuração da verificação ortográfica](images/lesson-11/configure-dictionary.png)
 
 1. Há duas opções:
 
    - **Verificação ortográfica do navegador** — a configuração padrão em que a verificação ortográfica usa o dicionário interno do navegador.
 
-   - **Verificação Ortográfica AEM** — use essa opção para criar uma lista de palavras personalizada usando AEM dicionário personalizado.
+   - **Verificação ortográfica do AEM** — use isto para criar uma lista de palavras personalizada usando o dicionário personalizado AEM.
 
-1. Choose **Verificação Ortográfica AEM**.
+1. Escolher **Verificação ortográfica do AEM**.
 
 1. Clique em [!UICONTROL **Salvar**].
 
 Configurar um dicionário personalizado
 
-O Administrador pode alterar as configurações para que o dicionário de AEM reconheça palavras personalizadas, como nomes de empresas.
+O administrador pode alterar as configurações para que o dicionário AEM reconheça palavras personalizadas, como nomes de empresas.
 
-1. Navegue até o **Ferramentas** painel.
+1. Navegue até a **Ferramentas** painel.
 
-1. Faça logon em **CRXDE Lite**.
+1. Efetue logon no **CRXDE Lite**.
 
-   ![Ícone de CRXDE Lite da interface do usuário do AEM](images/lesson-11/crxde-lite.png)
+   ![Ícone de CRXDE Lite da interface do AEM](images/lesson-11/crxde-lite.png)
 
-1. Navegue até o **_/apps/fmdita/config node_**.
+1. Navegue até a **_nó /apps/fmdita/config_**.
 
-   ![Nó de configuração CRXDE Lite](images/lesson-11/config-node.png)
+   ![Nó de configuração do CRXDE Lite](images/lesson-11/config-node.png)
 
 1. Crie um novo arquivo.
 
    a. Clique com o botão direito do mouse na pasta de configuração.
 
-   b. Choose **Criar > Criar arquivo**.
+   b. Escolher **Criar > Criar arquivo**.
 
-   ![Nova criação de arquivo de dicionário](images/lesson-11/new-dictionary-file.png)
+   ![Criação do novo arquivo de dicionário](images/lesson-11/new-dictionary-file.png)
 
    c. Nomeie o arquivo _**user_dictionary.txt**_.
 
@@ -73,21 +73,21 @@ O Administrador pode alterar as configurações para que o dicionário de AEM re
 
    d. Clique em [!UICONTROL **OK**].
 
-1. Abra o arquivo .
+1. Abra o arquivo.
 
-1. Adicione uma lista de palavras que você deseja incluir em seu dicionário personalizado.
+1. Adicione uma lista de palavras que você deseja incluir no dicionário personalizado.
 
 1. Clique em [!UICONTROL **Salvar tudo**].
 
-1. Feche o arquivo .
+1. Feche o arquivo.
 
-Os autores podem precisar reiniciar a sessão do Editor da Web para obter a lista de palavras personalizada atualizada no Dicionário de AEM.
+Os autores podem precisar reiniciar a sessão do Editor da Web para obter a lista de palavras personalizada atualizada no dicionário AEM.
 
 ## Localizar e substituir em um único arquivo
 
 1. Clique no ícone Localizar e substituir na barra de ferramentas superior.
 
-   ![Ícone Localizar Substituir](images/lesson-11/find-replace-icon.png)
+   ![Ícone Localizar e Substituir](images/lesson-11/find-replace-icon.png)
 
 1. Na barra de ferramentas inferior, digite uma palavra ou frase.
 
@@ -99,28 +99,28 @@ Os autores podem precisar reiniciar a sessão do Editor da Web para obter a list
 
 ## Localizar e substituir no repositório
 
-1. Navegue até o **Repositório**.
+1. Navegue até a **Repositório**.
 
-1. Clique no botão [!UICONTROL **Localizar e substituir**] na parte inferior esquerda da tela.
+1. Clique em [!UICONTROL **Localizar e substituir**] ícone na parte inferior esquerda da tela.
 
-1. Clique no botão [!UICONTROL **Mostrar configurações**] ícone .
+1. Clique em [!UICONTROL **Exibir configurações**] ícone.
 
 1. Escolha um
 
-   - **Arquivo de check-out antes de substituir** — se ativado por um Administrador, o check-out do arquivo será feito automaticamente antes da substituição dos termos de pesquisa.
+   - **Fazer check-out do arquivo antes de substituir** — se ativado por um administrador, o check-out do arquivo será feito automaticamente antes da substituição dos termos de pesquisa.
 
-   - **Somente palavra inteira** — restringe a pesquisa a retornar somente a palavra exata ou frase inserida.
+   - **Somente palavra inteira** — restringe a pesquisa para retornar somente a palavra ou frase exata inserida.
 
-   ![Localizar Substituir no Repositório](images/lesson-11/repository-find-replace.png)
+   ![Localizar e substituir no repositório](images/lesson-11/repository-find-replace.png)
 
-1. Clique no botão [!UICONTROL **Aplicar filtro**] ícone para selecionar o caminho no Repositório onde deseja executar a pesquisa.
+1. Clique em [!UICONTROL **Aplicar filtro**] ícone para selecionar o caminho no Repositório onde deseja realizar a pesquisa.
 
-1. Insira os termos para Localizar e Substituir.
+1. Informe os termos para Localizar e Substituir.
 
 1. Se necessário, selecione **Criar nova versão após substituir**.
 
 1. Clique em [!UICONTROL **Localizar**].
 
-1. Abra o arquivo desejado e use as setas para navegar de um resultado encontrado para outro.
+1. Abra o arquivo desejado e use as setas para navegar de um resultado encontrado para o próximo.
 
-   ![Localizar e substituir interface de navegação](images/lesson-11/find-replace-navigation.png)
+   ![Localizar a interface de navegação de substituição](images/lesson-11/find-replace-navigation.png)

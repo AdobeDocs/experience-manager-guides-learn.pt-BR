@@ -1,6 +1,6 @@
 ---
-title: Teclas
-description: As chaves permitem incluir informações de variáveis no ao trabalhar com DITA nos guias de AEM
+title: Chaves
+description: As teclas permitem incluir informações variáveis no ao trabalhar com DITA em guias AEM
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -9,21 +9,21 @@ ht-degree: 0%
 
 ---
 
-# Teclas
+# Chaves
 
-Diferentes conjuntos de materiais podem conter informações semelhantes que precisam ser personalizadas em lugares selecionados. As chaves permitem incluir informações variáveis no ao trabalhar com DITA.
+Diferentes conjuntos de materiais podem conter informações semelhantes que precisam ser personalizadas em locais selecionados. As teclas permitem incluir informações variáveis no ao trabalhar com DITA.
 
-Os arquivos de amostra que você pode optar por usar para esta lição são fornecidos no arquivo [keys.zip](assets/keys.zip).
+Os arquivos de exemplo que você pode optar por usar para esta lição são fornecidos no arquivo [keys.zip](assets/keys.zip).
 
 >[!VIDEO](https://video.tv.adobe.com/v/342756?quality=12&learn=on)
 
-## Ativar chaves
+## Ativar teclas
 
-1. Faça upload do conjunto de arquivos de amostra fornecidos.
+1. Faça upload do conjunto de arquivos de amostra fornecido.
 
    a. Carregue o arquivo zip.
 
-   b. Atualize o ambiente de AEM.
+   b. Atualize o ambiente do AEM.
 
    c. Selecione o arquivo para extração.
 
@@ -33,114 +33,114 @@ Os arquivos de amostra que você pode optar por usar para esta lição são forn
 
    ![Barra de ferramentas](images/lesson-9/extract-archive.png)
 
-   e. Na caixa de diálogo, escolha o local específico para que os arquivos sejam extraídos, como uma pasta chamada Keys.
+   e. Na caixa de diálogo, escolha o local específico para os arquivos a serem extraídos, como uma pasta chamada Chaves.
 
-   f. Clique em [!UICONTROL **Próximo**].
+   f. Clique em [!UICONTROL **Próxima**].
 
-   g. Ignore quaisquer conflitos, pois eles não existirão para o conteúdo que nunca foi carregado antes.
+   g. Ignore quaisquer conflitos, pois eles não existirão em conteúdo que nunca foi carregado antes.
 
    h. Selecionar [!UICONTROL **Extract**] na parte superior direita da tela.
 
-1. Quando a extração estiver concluída, clique em [!UICONTROL **Vá para a pasta de destino**].
+1. Quando a extração for concluída, clique em [!UICONTROL **Ir para a pasta de destino**].
 
    ![Confirmação](images/lesson-9/go-to-target.png)
 
-## Resolver chaves aos valores referenciados
+## Resolver chaves para valores referenciados
 
-Para usar corretamente as Chaves, as Preferências do usuário devem fazer referência a um mapa específico como o Mapa de raiz. Dentro desse mapa há uma coleção de Keys, agrupadas dentro de um grupo de tópicos. Abrir o mapa e os tópicos resolvem as Chaves para os valores aos quais esse mapa faz referência.
+Para usar Chaves corretamente, as Preferências do usuário devem fazer referência a um mapa específico como o Mapa raiz. Dentro deste mapa há uma coleção de Chaves agrupadas dentro de um grupo de tópicos. Abrir o mapa e os tópicos resolve as Chaves para os valores aos quais este mapa faz referência.
 
-1. Especifique um Mapa de Raiz.
+1. Especifique um Mapa raiz.
 
-   a. Na tela Keys (Chaves), abra um mapa.
+   a. Na tela Chaves, abra um mapa.
 
-   b. Configurar preferências de usuário.
+   b. Configure as Preferências do Usuário.
 
-   c. Clique no botão [!UICONTROL **Preferências do usuário**] na barra de ferramentas superior.
+   c. Clique no link [!UICONTROL **Preferências do usuário**] ícone na barra de ferramentas superior.
 
    ![Barra de ferramentas superior](images/lesson-9/author-view.png)
 
-   d. Clique no ícone de chave para especificar uma **Mapa raiz** que será usada para resolver chaves.
+   d. Clique no ícone de chave para especificar uma **Mapa raiz** que será usado para resolver Chaves.
 
-   e. Marque as caixas de seleção de qualquer ativo desejado.
+   e. Marque as caixas de seleção para os Ativos desejados.
 
    ![Lista suspensa de ativos](images/lesson-9/select-assets.png)
 
    f. Clique em [!UICONTROL **Selecionar**].
 
-   g. **Salvar** as Preferências do usuário.
+   g) **Salvar** as Preferências do usuário.
 
-1. Navegue até o **Exibição do mapa**.
+1. Navegue até a **Exibição de mapa**.
 
 1. Abra o mapa especificado.
 
 As Chaves são resolvidas.
 
-## Adicionar uma nova tecla manualmente
+## Adicionar um novo keydef manualmente
 
-1. Abra um mapa com um mapa raiz especificado.
+1. Abra um mapa com um Mapa de Raiz especificado.
 
-1. Selecione uma Chave.
+1. Selecione uma chave.
 
-   ![Menu suspenso](images/lesson-9/hybrid-key.png)
+   ![Lista suspensa Chave](images/lesson-9/hybrid-key.png)
 
-1. Insira uma nova tecla de def.
+1. Insira um novo keydef.
 
    a. Clique em um local válido no mapa.
 
-   b. Selecione o **Keydef** na barra de ferramentas superior.
+   b. Selecione o **Keydef** ícone na barra de ferramentas superior.
 
    ![Barra de ferramentas Keydef](images/lesson-9/key-icon.png)
 
-   c. Na caixa de diálogo Inserir Keydef, insira um valor exclusivo para Teclas que faça sentido para a definição que você está criando.
+   c. Na caixa de diálogo Inserir keydef, digite um valor exclusivo para Chaves que faça sentido para a definição que você está criando.
 
    d. Clique em [!UICONTROL **Inserir**].
 
-1. Adicione topicmeta no keydef.
+1. Adicione topicmeta dentro do keydef.
 
-   a. Clique no botão [!UICONTROL **Inserir elemento**] na barra de ferramentas superior.
-
-   ![Barra de ferramentas Keydef](images/lesson-9/add-icon.png)
-
-   b. Na caixa de diálogo Inserir elemento, pesquise e selecione &quot;topicmeta&quot;.
-
-1. Adicione palavras-chave dentro da meta de tópicos.
-
-   a. Clique no botão [!UICONTROL **Inserir elemento**] na barra de ferramentas superior.
+   a. Clique no botão [!UICONTROL **Inserir elemento**] ícone na barra de ferramentas superior.
 
    ![Barra de ferramentas Keydef](images/lesson-9/add-icon.png)
 
-   b. Na caixa de diálogo Inserir elemento, pesquise e selecione &quot;palavras-chave&quot;.
+   b. Na caixa de diálogo Inserir elemento, procure e selecione &quot;topicmeta&quot;.
 
-1. Adicione uma palavra-chave dentro da meta de tópicos.
+1. Adicione palavras-chave no topicmeta.
 
-   a. Clique no botão [!UICONTROL **Inserir elemento**] na barra de ferramentas superior.
+   a. Clique no botão [!UICONTROL **Inserir elemento**] ícone na barra de ferramentas superior.
+
+   ![Barra de ferramentas Keydef](images/lesson-9/add-icon.png)
+
+   b. Na caixa de diálogo Inserir elemento, procure e selecione &quot;palavras-chave&quot;.
+
+1. Adicione uma palavra-chave no topicmeta.
+
+   a. Clique no botão [!UICONTROL **Inserir elemento**] ícone na barra de ferramentas superior.
 
    ![Barra de ferramentas Keydef](images/lesson-9/add-icon.png)
 
    b. No **Inserir elemento** , pesquise e selecione &quot;palavra-chave&quot;
 
-1. Digite o valor da palavra-chave na palavra-chave.
+1. Digite o valor de keydef na palavra-chave.
 
-No mapa, seu keydef agora deve ser semelhante a:
+No mapa, sua definição de chave agora deve ser semelhante a:
 
-![Keydef concluído](images/lesson-9/keydef.png)
+![Keydef Concluído](images/lesson-9/keydef.png)
 
 ## Configurar um keydef como um trecho
 
-Os trechos são pequenos fragmentos de conteúdo que podem ser reutilizados em vários tópicos do seu projeto de documentação. Em vez de gerar manualmente cada keydef, você pode configurar um único keydef como um trecho.
+Os trechos são pequenos fragmentos de conteúdo que podem ser reutilizados em vários tópicos do projeto de documentação. Em vez de gerar manualmente cada keydef, você pode configurar uma única keydef como um snippet.
 
 1. Selecione um elemento keydef no mapa.
 
 1. No menu contextual, clique em [!UICONTROL **Criar trecho**].
 
-1. Na caixa de diálogo Novo trecho , adicione um Título e uma Descrição.
-Também é possível remover as definições de palavras-chave ou teclas existentes do Conteúdo.
+1. Na caixa de diálogo Novo trecho, adicione um Título e uma Descrição.
+Você também pode remover chaves ou definições de palavras-chave existentes do Conteúdo.
 
 1. Clique em [!UICONTROL **Criar**].
 
 1. No painel esquerdo, selecione **Trechos**.
 
-1. Arraste e solte o trecho que acabou de criar do painel Snippets para o mapa.
+1. Arraste e solte o trecho recém-criado do painel Trechos no mapa.
 
-1. Atualize a keydef conforme necessário usando Propriedades do conteúdo.
-Quando salvo e atualizado, esse conjunto de chaves estará disponível para qualquer usuário que tenha definido um mapa que contenha o mesmo mapa raiz.
+1. Atualize o keydef conforme necessário usando as Propriedades de conteúdo.
+Quando salvo e atualizado, esse conjunto de chaves estará disponível para qualquer usuário que tenha definido um mapa que contenha o mesmo Mapa raiz.

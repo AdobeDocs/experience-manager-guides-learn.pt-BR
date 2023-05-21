@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Criar chaves globais
 
-As organizações devem usar as chaves nos casos em que tenham um texto fácil e comum, como nome do produto ou resumo do produto, que seja usado em muitos lugares, mas possa mudar. O uso de chaves para esse texto reutilizável permite que você envie uma atualização em vários lugares, fazendo a alteração em um único local, como no valor principal.
+As organizações devem usar teclas nos casos em que têm algum texto reutilizável e comum, como nome do produto ou apresentação do produto, que é usado em muitos lugares, mas sujeito a alterações. Usar chaves para esse texto reutilizável permite enviar uma atualização em vários locais fazendo a alteração em um único local, como no valor da chave.
 
-## Etapa 1: Criar um mapa global para armazenar suas chaves
+## Etapa 1: criar um mapa global para armazenar suas chaves
 
-Crie um mapa e adicione o [!UICONTROL keyref] para ele.
+Crie um mapa e adicione o [!UICONTROL keyref] elemento a ele.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -36,9 +36,9 @@ Crie um mapa e adicione o [!UICONTROL keyref] para ele.
 </map>
 ```
 
-Aqui você definiu duas definições, como mostrado acima, para fornecer um [!UICONTROL keyref] as _AEM_ para _Adobe Experience Manager_ texto.
+Aqui você definiu duas definições, conforme mostrado acima, fornecendo uma [!UICONTROL keyref] as _AEM_ para o _Adobe Experience Manager_ texto.
 
-## Etapa 2: Adicionar este mapa ao mapa de publicação
+## Etapa 2: adicionar este mapa ao mapa de publicação
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -52,12 +52,12 @@ Aqui você definiu duas definições, como mostrado acima, para fornecer um [!UI
 </map>
 ```
 
-## Etapa 3: Use as chaves para fazer referência às variáveis definidas no mapa de chaves global
+## Etapa 3: usar as chaves para se referir às variáveis definidas no mapa de chaves global
 
 + Edite o tópico e adicione o valor da chave usando o [!UICONTROL keyref].
 + Como mostrado na captura de tela, uma pequena janela aparecerá de onde as palavras-chave podem ser escolhidas. Isso será exibido quando você adicionar o elemento &quot;palavra-chave&quot;.
    ![Inserir elemento](assets/insert_element.png)
-   ![Ref. Chave](assets/key_ref.png)
+   ![Ref Chave](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

@@ -5,7 +5,7 @@ exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
 source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ Nesta sessão, você aprenderá sobre o processo de tradução, o mecanismo de i
 - **Duração** - 60 minutos
 - **Público** - Clientes, parceiros e funcionários da Adobe
 
-## Principais pontos
+## Principais aprendizados
 
 Nesta sessão, você aprenderá sobre o seguinte:
 - Motivos pelos quais as empresas investem em tradução para melhorar seus negócios

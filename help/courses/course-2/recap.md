@@ -13,8 +13,8 @@ ht-degree: 0%
 
 Neste curso, você aprendeu sobre o seguinte:
 
-- O painel Mapa
-- Trabalhar com relatórios
+- O painel do mapa
+- Trabalho com relatórios
 - Criação e publicação com linhas de base
 - Publicar com condições
 - Predefinições de saída

@@ -1,6 +1,6 @@
 ---
-title: Introdução ao painel Mapa
-description: Introdução ao painel Mapa
+title: Introdução ao Painel do Mapa
+description: Introdução ao Painel do Mapa
 exl-id: c2efa073-15e7-42a0-aaa8-04859b0fdf62
 source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
@@ -9,22 +9,22 @@ ht-degree: 0%
 
 ---
 
-# Introdução ao painel Mapa
+# Introdução ao Painel do Mapa
 
-A seguir, uma visão geral dos principais recursos do painel de mapa.
+A seguir será apresentada uma visão geral dos principais recursos do painel de mapa.
 
 >[!VIDEO](https://video.tv.adobe.com/v/339040?quality=12&learn=on)
 
-## Abrir um mapa no painel Mapa
+## Abrir um mapa no Painel do Mapa
 
-1. Na Exibição do Repositório, selecione o ícone Reticências no seu mapa para abrir o menu Opções e, em seguida, Abrir painel Mapa.
+1. Na Exibição de Repositório, selecione o ícone de Reticências no mapa para abrir o menu Opções e, em seguida, Abrir Painel de Mapa.
    ![images/ellipsis-map-dashboard.png](images/ellipsis-map-dashboard.png)
 
-   O painel Mapa é aberto em outra guia.
+   O Painel do mapa é aberto em outra guia.
 
-## Componentes do painel Mapa
+## Componentes do painel do mapa
 
-O painel do mapa contém várias guias, incluindo predefinições de saída, resultados de saída, tópico usado, linhas de base e muito mais.
+O Painel do Mapa contém várias guias, incluindo predefinições de saída, resultados de saída, tópico usado, linhas de base e muito mais.
 
 ### Predefinições de saída
 
@@ -32,46 +32,46 @@ A guia Predefinições de saída exibe as predefinições padrão para os difere
 
 ![images/output-presets.png](images/output-presets.png)
 
-Você pode selecionar uma predefinição de saída para exibir os detalhes de suas configurações, incluindo o nome da transformação, o caminho de destino, as linhas de base e as condições aplicadas.
+É possível selecionar uma predefinição de saída para exibir os detalhes de suas configurações, incluindo o nome da transformação, o caminho de destino, as linhas de base e as condições aplicadas.
 
 ### Saídas
 
-A guia Saídas exibe todas as saídas geradas anteriormente e atualmente.
+A guia Saídas exibe todas as saídas geradas anteriormente e geradas no momento.
 
 ![images/generated-outputs.png](images/generated-outputs.png)
 
-Um círculo verde na coluna Configurações de geração indica que a saída foi gerada com êxito. O texto nessa coluna atua como um hiperlink ativo e você pode selecioná-lo para abrir a saída gerada. As entradas na coluna Tipo indicam o tipo de saída.
-Outras informações de geração de saída também são exibidas aqui, incluindo o nome do usuário que gerou a saída, a data e a hora da geração e o tempo necessário para a geração ocorrer. Se houver um erro durante a geração, você poderá selecionar a data e a hora da geração na coluna Gerado em para abrir e revisar o log de erros.
+Um círculo verde na coluna Configurações de geração indica que a saída foi gerada com sucesso. O texto desta coluna atua como um hiperlink ativo e você pode selecioná-los para abrir a saída gerada. As entradas na coluna Tipo indicam o tipo de saída.
+Outras informações de geração de saída também são exibidas aqui, incluindo o nome do usuário que gerou a saída, a data e hora da geração e o tempo necessário para que a geração ocorresse. Se houver um erro durante a geração, você poderá selecionar a data e a hora da geração na coluna Gerado em para abrir e revisar o log de erros.
 
 ### Tópicos
 
-A guia Tópicos exibe uma lista de todos os tópicos no mapa.
+A guia Topics (Tópicos) exibe uma lista de todos os tópicos do mapa.
 
 ![images/topics.png](images/topics.png)
 
-Selecionar uma caixa de seleção de tópico permite executar ações adicionais. Você pode editá-la, gerá-la novamente e mostrar, aplicar ou ocultar suas tags.
+Marcar a caixa de seleção de um tópico permite executar ações adicionais. É possível editá-la, gerá-la novamente e mostrar, aplicar ou ocultar suas tags.
 
 ### Predefinições de condição
 
-A guia Predefinições de condição exibe as configurações do conteúdo condicional específico a ser incluído ou excluído.
+A guia Predefinições de condição exibe as configurações para que um conteúdo condicional específico seja incluído ou excluído.
 
 ![images/condition-presets.png](images/condition-presets.png)
 
-Aqui, marcar a caixa de seleção da edição Somente gravador resultará em uma saída que exclui todo o conteúdo com o atributo &quot;público-alvo&quot; que tem o rótulo &quot;designers&quot; e inclui todo o conteúdo com o rótulo &quot;autores&quot;.
+Aqui, marcar a caixa de seleção da edição Somente autor resultará em uma saída que exclui todo o conteúdo com o atributo &quot;público-alvo&quot; que tem o rótulo &quot;designers&quot; e inclui todo o conteúdo com o rótulo &quot;escritores&quot;.
 
-### Linhas de base
+### Linhas de Base
 
-A guia Linhas de base permite visualizar suas linhas de base.
+A guia Linhas de Base permite exibir suas linhas de base.
 
 ![images/baselines.png](images/baselines.png)
 
-As linhas de base atuam como instantâneos no tempo e permitem criar uma versão dos tópicos e ativos para publicação. Por exemplo, uma linha de base que captura o conteúdo em uma data e hora específicas pode usar a versão 1.3 de um tópico e 1.0 de outro tópico, com base em suas respectivas versões no momento.
+As linhas de base atuam como snapshots no tempo e permitem criar uma versão dos tópicos e ativos para publicação. Por exemplo, uma linha de base que captura conteúdo em uma data e hora específicas pode usar a versão 1.3 de um tópico e a 1.0 de outro tópico, com base nas respectivas versões no momento.
 Se não houver uma linha de base especificada, a saída será gerada com as versões mais recentes de todo o conteúdo.
 
 ### Relatórios
 
-A guia Relatórios exibe um resumo das informações do tópico, incluindo o número total de tópicos em uso, elementos ausentes nesses tópicos e o estado do documento.
+A guia Relatórios exibe um resumo das informações do tópico, incluindo o número total de tópicos em uso, os elementos ausentes nesses tópicos e o estado do documento.
 
 ![images/reports.png](images/reports.png)
 
-Se um elemento estiver ausente em um tópico, é possível selecionar a seta mais à direita na linha para expandir a entrada e exibir detalhes sobre o erro.
+Se um tópico não tiver um elemento, você poderá selecionar a seta mais à direita na linha para expandir a entrada e exibir detalhes sobre o erro.

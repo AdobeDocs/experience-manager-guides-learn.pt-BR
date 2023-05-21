@@ -5,7 +5,7 @@ exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
 source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Nesta sessão, você aprenderá a criar, publicar e gerenciar conteúdo usando o
 - **Duração** - 60 minutos
 - **Público** - Clientes, parceiros e funcionários da Adobe
 
-## Principais pontos
+## Principais aprendizados
 
 Nesta sessão, você aprenderá sobre o seguinte:
 - Definir configurações para o editor da Web

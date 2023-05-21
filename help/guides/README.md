@@ -7,9 +7,9 @@ ht-degree: 21%
 ---
 # Guias do Adobe Experience Manager
 
-Esta pasta contém todos os Guias de AEM.
+Esta pasta contém todos os Guias do AEM.
 
 Suas contribuições para a documentação são bem-vindas. Consulte os seguintes recursos:
 
-* [Contribuição](contributing.md) para obter uma visão geral de como contribuir para a documentação.
-* [Código de conduta](code-of-conduct.md) para obter uma visão geral dos padrões de comportamento que esperamos enquanto você contribui para este projeto de documentação.
+* [Contribuição](contributing.md) para obter uma visão geral de como contribuir com a documentação.
+* [Código de conduta](code-of-conduct.md) para obter uma visão geral dos padrões de comportamento que esperamos enquanto você contribui para esse projeto de documentação.

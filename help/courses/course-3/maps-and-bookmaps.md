@@ -1,5 +1,5 @@
 ---
-title: Mapas e mapas de livros
+title: Mapas e marcadores
 description: Criação e edição de mapas e marcadores em Guias AEM
 exl-id: 9c717e4b-017b-4f2b-b93e-f2c0e7525c55
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
@@ -9,26 +9,26 @@ ht-degree: 1%
 
 ---
 
-# Mapas e livros
+# Mapas e Livros
 
-O Editor de mapa dos guias do Adobe Experience Manager permite criar e editar arquivos de mapa. Com o Editor de mapa, você pode editar dois tipos de arquivos: mapa DITA e mapa de livros. Para nós, consideremos que estes são conceitos amplamente intercambiáveis.
-O Editor de mapa vem em dois modos: o Editor de mapa básico e o Editor de mapa avançado.
+O Editor de mapa do Adobe Experience Manager Guides permite criar e editar arquivos de mapa. Com o Editor de mapas, você pode editar dois tipos de arquivos: mapa DITA e mapa. Para nossos propósitos, considere que esses conceitos são amplamente intercambiáveis.
+O Editor de Mapas vem em dois modos: o Editor de Mapas Básico e o Editor de Mapas Avançado.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342766?quality=12&learn=on)
 
 ## Criar um mapa
 
-AEM Guias fornece dois modelos de mapa prontos para uso — mapa DITA e bookmap. Você também pode criar seus próprios modelos de mapa e compartilhá-los com seus autores para criar arquivos de mapa.
+O AEM Guides fornece dois modelos de mapa prontos para uso — mapa DITA e mapa. Você também pode criar seus próprios modelos de mapa e compartilhá-los com seus autores para criar arquivos de mapa.
 
-Execute as etapas a seguir para criar um arquivo de mapa.
+Execute as seguintes etapas para criar um arquivo de mapa.
 
 1. Na interface do usuário do Assets, navegue até o local em que deseja criar o arquivo de mapa.
 
 1. Clique em [!UICONTROL **Criar > Mapa DITA**].
 
-1. Na página Blueprint, selecione o tipo de modelo de mapa que deseja usar e clique em [!UICONTROL **Próximo**].
+1. Na página Blueprint, selecione o tipo de modelo de mapa que deseja usar e clique em [!UICONTROL **Próxima**].
 
-1. Na página Propriedades , insira um **Título** e **Nome** para o mapa.
+1. Na página Propriedades, insira um **Título** e **Nome** para o mapa.
 
 1. Clique em [!UICONTROL **Criar**].
 
@@ -47,35 +47,35 @@ Ou
 1. Selecionar **Editar tópicos** do **Ação** menu.
 
 
-## Adição de conteúdo a um mapa ou mapa de favoritos
+## Adição de conteúdo a um mapa ou bookmap
 
-1. Navegue até o **Exibição do Repositório**.
+1. Navegue até a **Visualização do repositório**.
 
-1. Arraste e solte o conteúdo da Visualização de Repositório em locais válidos no mapa ou no bookmap.
+1. Arraste e solte o conteúdo da Exibição do repositório em locais válidos no mapa ou mapa.
 
 Ou
 
-1. Clique em um local válido no mapa ou no mapa de favoritos.
+1. Clique em um local válido dentro do mapa ou mapa.
 
-1. Clique no botão [!UICONTROL **Ícone da barra de ferramentas**] para adicionar capítulos, tópicos ou tópicos.
+1. Clique no link apropriado [!UICONTROL **Ícone da barra de ferramentas**] para adicionar capítulos, tópicos ou topicrefs.
 
    ![Ícones da barra de ferramentas](images/lesson-14/toolbar-icons.png)
 
-1. Escolha um ou mais Ativos que deseja adicionar.
+1. Escolha um ou mais ativos que deseja adicionar.
 
 1. Clique em [!UICONTROL **Selecionar**].
 
 ### Promover ou rebaixar elementos em um mapa
 
-Use **Setas da barra de ferramentas** para promover ou rebaixar capítulos e tópicos em um mapa ou mapa de reservas.
+Uso **Setas da barra de ferramentas** para promover ou rebaixar capítulos e tópicos em um mapa ou mapa.
 
 1. Selecione um elemento no mapa.
 
-1. Clique no botão [!UICONTROL **Seta para a esquerda**] para promover um topicref para um capítulo, ou o [!UICONTROL **Seta para a direita**] para rebaixar um capítulo a um topicref.
+1. Clique em [!UICONTROL **Seta para a esquerda**] para promover uma referência de tópico a um capítulo, ou a [!UICONTROL **Seta para a direita**] para rebaixar um capítulo para um topicref.
 
    ![Ícones de seta](images/lesson-14/toolbar-arrows.png)
 
-1. Salve e versão do mapa, se necessário.
+1. Salve e crie a versão do mapa, se necessário.
 
 Ou
 
@@ -83,11 +83,11 @@ Ou
 
 ## Adição de metadados a um mapa
 
-1. No **Barra de ferramentas Mapa**, insira um topicgroup.
+1. No **Barra de ferramentas do mapa**, insira um grupo de tópicos.
 
    ![Adicionar atributo](images/lesson-14/add-topicgroup.png)
 
-1. Clique no botão [!UICONTROL **Ícone de adição**] para inserir elementos.
+1. Clique em [!UICONTROL **Ícone de adição**] para inserir elementos.
 
 1. Escolha os elementos a serem inseridos.
 
@@ -95,28 +95,28 @@ Ou
 
 1. Clique em [!UICONTROL **Fechar**].
 
-## Adicionar uma tabela a um mapa
+## Adição de um relacionável a um mapa
 
-Uma tabela relável pode ser adicionada após um mapa ser estruturado.
+Um reltable pode ser adicionado depois que um mapa é estruturado.
 
-1. Clique no mapa onde deseja inserir a tabela.
+1. Clique no mapa onde deseja inserir o relacionável.
 
-1. Use o **Ícone da barra de ferramentas** para adicionar a tabela relacionada ao mapa.
+1. Use o **Ícone da barra de ferramentas** para adicionar o relacionável ao mapa.
 
-   ![Ícone Relable](images/lesson-14/reltable-icon.png)
+   ![Ícone Relacionável](images/lesson-14/reltable-icon.png)
 
 1. Configure a caixa de diálogo.
 
 1. Clique em [!UICONTROL **Inserir**].
 
-1. Arraste e solte os tópicos necessários do **Repositório** para a tabela.
+1. Arraste e solte os tópicos necessários da **Repositório** no reltable.
 
-1. Copie e cole os elementos necessários do mapa no Reltable usando os atalhos de teclado padrão.
+1. Copie e cole os elementos necessários do mapa no relacionável usando atalhos de teclado padrão.
 
-## Atribuir atributos a topicrefs em um mapa
+## Designar atributos a topicrefs em um mapa
 
-1. Realce um topicref ou uma coleção aninhada de topicrefs no mapa.
+1. Realce um topicref ou uma coleção aninhada de topicref no mapa.
 
-1. Em Outros atributos no painel Propriedades de conteúdo, escolha uma **Atributo** e **Valor.**
+1. Em Outros atributos, no painel Propriedades do conteúdo, escolha uma **Atributo** e seus **Valor.**
 
    ![Adicionar atributos](images/lesson-14/add-attribute.png)

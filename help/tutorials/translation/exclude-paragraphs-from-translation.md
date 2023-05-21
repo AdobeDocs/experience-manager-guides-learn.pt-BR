@@ -1,6 +1,6 @@
 ---
 title: Excluir parágrafos dentro de um tópico da tradução
-description: Como excluir parágrafos dentro de um tópico da tradução
+description: Como excluir da tradução parágrafos dentro de um tópico
 feature: Translation
 role: User
 exl-id: 21e41bb4-52f3-4352-92d9-4a60f636de99
@@ -11,16 +11,16 @@ ht-degree: 0%
 
 ---
 
-# Como excluir parágrafos dentro de um tópico da tradução
+# Como excluir da tradução parágrafos dentro de um tópico
 
-A maneira mais fácil é usar um atributo translation=no .
+A maneira mais fácil é usar a tradução=sem atributo.
 
-+ Os autores podem inserir o atributo adicional como **translation=no** sobre os parágrafos que não pretendem traduzir. O fornecedor de tradução precisa ser informado e pode fazer a configuração ao final para ignorar o texto com este atributo.
-+ A tradução automática de OOTB (com conector de tradução Microsoft de avaliação) exibe o mesmo comportamento.
-+ Teste com a tradução do Microsoft : se você definir **translate=no** no nível do parágrafo, não traduz o parágrafo completo. Esse atributo pode ser definido em qualquer elemento e o conteúdo dentro desse elemento não será traduzido.
++ Os autores podem inserir o atributo adicional como **translation=no** nos parágrafos que não deseja traduzir. O fornecedor de tradução precisa ser informado e pode fazer a configuração ao final para ignorar o texto com esse atributo.
++ A tradução automática OOTB (com o conector de avaliação do Microsoft Translation) exibe o mesmo comportamento.
++ Testar com a tradução do Microsoft : se você definir **translate=no** no nível de parágrafo, então não traduz o parágrafo completo. Esse atributo pode ser definido em qualquer elemento e o conteúdo dentro desse elemento não será traduzido.
 
 
-Aqui estão algumas capturas de tela que explicam isso ainda mais:
+Veja a seguir algumas capturas de tela para explicar isso mais detalhadamente:
 
 **Conteúdo de origem**
 

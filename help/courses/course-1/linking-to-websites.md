@@ -1,6 +1,6 @@
 ---
-title: Vincular a sites na [!DNL AEM Guides]
-description: Vincular a sites na [!DNL Adobe Experience Manager Guides]
+title: Vinculação a sites no [!DNL AEM Guides]
+description: Vinculação a sites no [!DNL Adobe Experience Manager Guides]
 exl-id: 6b89f52e-ac15-4604-8bac-ab0bb5b5a978
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -11,19 +11,19 @@ ht-degree: 1%
 
 # Vinculação a sites
 
-Os links da Web direcionam os leitores para sites para obter mais informações, permitir que eles interajam com conteúdo externo ou conceder acesso a arquivos baixáveis. As etapas a seguir abordam como adicionar um link da Web a um conceito existente.
+Os links da Web direcionam os leitores para sites para obter mais informações, permitem que eles interajam com o conteúdo externo ou concedam acesso a arquivos baixáveis. As etapas a seguir mostram como adicionar um link da Web a um conceito existente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/336656?quality=12&learn=on)
 
 ## Inserção de um link
 
-1. Selecione seu conceito no Repositório e abra-o no editor.
-1. Adicione uma string de texto ao seu conceito e destaque-a ou destaque o texto existente da escolha.
+1. Selecione seu conceito no Repository e abra-o no editor.
+1. Adicione uma sequência de texto ao conceito e destaque-a, ou destaque o texto existente preferido.
 
    O texto destacado é onde o link será inserido.
-1. Selecione o **Inserir referência cruzada** na barra de ferramentas.
+1. Selecione o **Inserir Referência Cruzada** na barra de ferramentas.
 
-   ![Ícone Inserir referência cruzada](images/lesson-5/insert-crossref-icon.png)
+   ![Ícone Inserir Referência Cruzada](images/lesson-5/insert-crossref-icon.png)
 
    A caixa de diálogo Referência é exibida.
 
@@ -31,42 +31,42 @@ Os links da Web direcionam os leitores para sites para obter mais informações,
 1. Selecionar **Link da Web** no menu esquerdo.
 1. Cole o URL desejado e clique em **Selecionar**.
 
-   O link é funcional e abrirá uma página da Web em uma nova guia do navegador quando clicado.
+   O link está funcional e abrirá uma página da Web em uma nova guia do navegador quando clicado.
 
 ## Uso da Visualização para testar links
 
-O botão Preview permite visualizar um tópico. Aqui, você pode testar seus links e visualizá-los como seu público-alvo.
+O botão Visualizar permite visualizar um tópico. Aqui, você pode testar seus links e visualizá-los como seu público-alvo faria.
 
-1. Selecionar **Visualizar** na barra de menu superior preta.
+1. Selecionar **Visualizar** na barra de menu preta superior.
 
    ![Botão Visualizar](images/common/select-preview.png)
 
-   Seu conceito é aberto em Visualização.
+   Seu conceito é aberto na Pré-visualização.
 
-1. Selecione o link.
+1. Selecione seu link.
 O destino do link é aberto em outra guia.
-1. Retorne à exibição Autor selecionando **Autor** na barra de menu superior preta.
+1. Retornar à visualização de Autor selecionando **Autor** na barra de menu preta superior.
 
    ![Botão Autor](images/lesson-5/author-map.png)
 
 
 ## Salvar como uma nova versão
 
-Agora que você adicionou mais conteúdo ao seu conceito, é possível salvar seu trabalho como uma nova versão e registrar suas alterações.
+Agora que adicionou mais conteúdo ao conceito, você pode salvar seu trabalho como uma nova versão e registrar as alterações.
 
-1. Selecione o **Salvar como nova versão** ícone .
+1. Selecione o **Salvar como nova versão** ícone.
 
    ![Ícone Salvar como nova versão](images/common/save-as-new-version.png)
 
-1. No campo Comentários para nova versão , insira um resumo breve, mas claro, das alterações.
-1. No campo Rótulos de versão , insira quaisquer rótulos relevantes.
+1. No campo Comentários para nova Versão, informe um resumo breve mas claro das alterações.
+1. No campo Rótulos de versão, informe todos os rótulos relevantes.
 
-   Rótulos permitem especificar a versão que deseja incluir ao publicar.
+   Rótulos permitem especificar a versão que você deseja incluir ao publicar.
 
    >[!NOTE]
    > 
-   > Se o seu programa estiver configurado com rótulos predefinidos, você poderá selecioná-los para garantir uma rotulagem consistente.
+   > Se o seu programa estiver configurado com rótulos predefinidos, é possível selecionar um deles para garantir uma rotulagem consistente.
 
 1. Selecione **Salvar**.
 
-   Você criou uma nova versão do tópico e o número da versão é atualizado.
+   Você criou uma nova versão do seu tópico e o número da versão é atualizado.

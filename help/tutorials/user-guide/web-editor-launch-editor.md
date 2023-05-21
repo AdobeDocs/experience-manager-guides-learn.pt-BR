@@ -1,39 +1,39 @@
 ---
-title: Iniciar o Editor Web
-description: Saiba como Iniciar o Editor da Web
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+title: Iniciar o Editor da Web
+description: Saiba como iniciar o editor da Web
+exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
-
-# Iniciar o Editor Web {#id2056B0140HS}
+# Iniciar o Editor da Web {#id2056B0140HS}
 
 Você pode iniciar o Editor da Web nos seguintes locais:
 
-- [Página Navegação de AEM](#id2056BG00RZJ)
+- [Página de navegação do AEM](#id2056BG00RZJ)
 - [Interface do usuário do AEM Assets](#id2056BG0307U)
 - [Console de mapa DITA](#id2056BG090BF)
 
-As seções a seguir abordam os detalhes de como você pode acessar e iniciar o Editor da Web de vários locais.
+As seções a seguir abordam os detalhes de como você pode acessar e iniciar o Editor da Web a partir de vários locais.
 
-## Página Navegação de AEM {#id2056BG00RZJ}
+## Página de navegação do AEM {#id2056BG00RZJ}
 
-Ao fazer logon no AEM, é exibida a página Navegação :
+Ao fazer logon no AEM, você verá a página Navegação:
 
 ![](images/web-editor-from-navigation-page_cs.png){width="800" align="left"}
 
-Clicar no **Editor XML** O link direciona você ao Editor da Web.
+Ao clicar no botão **Editor XML** O link direciona você para o Editor da Web.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-Como você iniciou o Editor da Web sem selecionar nenhum arquivo, uma tela em branco do Editor da Web é exibida. Você pode abrir um arquivo para edição AEM repositório ou da coleção Favoritos.
+Como você iniciou o Editor da Web sem selecionar nenhum arquivo, uma tela em branco do Editor da Web é exibida. Você pode abrir um arquivo para edição no repositório AEM ou na sua coleção Favoritos.
 
 ## Interface do usuário do AEM Assets {#id2056BG0307U}
 
-Outro local onde você pode iniciar o Editor da Web é a partir da interface do usuário do AEM Assets. Você pode selecionar um ou mais tópicos e abri-los diretamente no Editor da Web. Para abrir um tópico no Editor da Web, siga estas etapas:
+Outro local onde você pode iniciar o Editor da Web é na interface do usuário do AEM Assets. Você pode selecionar um ou mais tópicos e abri-los diretamente no Editor da Web. Para abrir um tópico no Editor da Web, siga estas etapas:
 
 1. Na interface do usuário do Assets, navegue até o tópico que deseja editar.
 
@@ -47,27 +47,27 @@ Outro local onde você pode iniciar o Editor da Web é a partir da interface do 
 
    >[!IMPORTANT]
    >
-   > Certifique-se de ter as permissões de leitura e gravação na pasta que contém o tópico que deseja editar.
+   > Certifique-se de que você tenha as permissões de leitura e gravação na pasta que contém o tópico que deseja editar.
 
 1. Para obter um bloqueio exclusivo sobre o tópico, selecione o tópico e clique em **Check-out**.
 
    >[!IMPORTANT]
    >
-   > Se o administrador tiver configurado a variável **Desativar Edição Sem Check-out** , você deve fazer check-out do arquivo antes de editar. Se você não fizer check-out do arquivo, não poderá ver a opção de edição.
+   > Se o administrador tiver configurado a variável **Desativar Edição Sem Check-Out** , você deverá fazer check-out do arquivo antes de editar. Se você não fizer check-out do arquivo, não poderá ver a opção de edição.
 
 1. Feche o modo de seleção de ativos e clique no tópico que deseja editar.
 
    A visualização do tópico é exibida.
 
-   Você pode abrir o Editor da Web na exibição de Lista, na exibição de Cartão e no modo de Visualização.
+   Você pode abrir o Editor da Web na exibição em Lista, na exibição Cartão e no modo de Visualização.
 
    >[!IMPORTANT]
    >
-   > Se quiser abrir vários tópicos para edição, selecione os tópicos desejados na interface do usuário do ativo e clique em Editar. Certifique-se de que o seu navegador não tenha o bloqueador de pop-ups ativado; caso contrário, somente o primeiro tópico na lista selecionada será aberto para edição.
+   > Se quiser abrir vários tópicos para edição, selecione os tópicos desejados na interface do usuário do Assets e clique em Editar. Certifique-se de que o navegador não tenha o bloqueador de pop-ups ativado, caso contrário, somente o primeiro tópico na lista selecionada será aberto para edição.
 
    ![](images/edit-from-preview_cs.png){width="800" align="left"}
 
-   Se não quiser visualizar um tópico e quiser abri-lo diretamente no Editor da Web, clique no ícone Editar no menu de ação rápida na exibição de cartão:
+   Se não quiser visualizar um tópico e quiser abri-lo diretamente no Editor da Web, clique no ícone Editar no menu de ação rápida da exibição de cartão:
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
@@ -78,13 +78,13 @@ Outro local onde você pode iniciar o Editor da Web é a partir da interface do 
 
 ## Console de mapa DITA {#id2056BG090BF}
 
-Para abrir o Editor da Web no console do mapa DITA, siga estas etapas:
+Para abrir o Editor da Web no console de mapa DITA, siga estas etapas:
 
-1. Na interface do usuário do Assets, navegue até o arquivo de mapa DITA que contém o tópico que deseja editar e clique nele.
+1. Na interface do usuário do Assets, navegue e clique no arquivo de mapa DITA que contém o tópico que deseja editar.
 
    O console do mapa DITA é exibido.
 
-1. Clique em **Tópicos**.
+1. Clique em **Temas**.
 
    Uma lista de tópicos no arquivo de mapa é exibida. A UUID dos tópicos é exibida abaixo do título do tópico.
 
@@ -98,8 +98,7 @@ Para abrir o Editor da Web no console do mapa DITA, siga estas etapas:
 
    >[!IMPORTANT]
    >
-   > Se o administrador tiver configurado a variável **Desativar Edição Sem Check-out** , você deve fazer check-out do arquivo antes de editar. Se você não fizer check-out do arquivo, o documento será aberto no editor no modo somente leitura.
+   > Se o administrador tiver configurado a variável **Desativar Edição Sem Check-Out** , você deverá fazer check-out do arquivo antes de editar. Se você não fizer check-out do arquivo, o documento será aberto no editor no modo somente leitura.
 
 
-**Tópico principal:**[ Trabalhar com o editor da Web](web-editor.md)
-
+**Tópico pai:**[ Trabalhar com o editor da Web](web-editor.md)

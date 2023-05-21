@@ -19,13 +19,13 @@ O mesmo pode ser visto na captura de tela abaixo:
 ![Caracteres especiais](assets/special-chars.png)
 
 
-Essa lista de caracteres pode ser configurada aqui. Se precisar adicionar mais caracteres, siga as etapas abaixo:
+Essa lista de caracteres pode ser configurada aqui. Se precisar adicionar mais caracteres a isso, siga as etapas abaixo:
 
 + Faça logon no AEM e abra o modo CRXDE Lite.
 
-+ Crie o arquivo símbolos.json no seguinte local: &#39;/apps/fmdita/xmleditor/&#39; (Você pode copiar o padrão do local - &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39;)
++ Crie o arquivo symbol.json no seguinte local: &#39;/apps/fmdita/xmleditor/&#39; (Você pode copiar o padrão de - local &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39;)
 
-+ Adicione a definição de caractere especial no arquivo símbolos.json como:
++ Adicione a definição de caractere especial no arquivo symbol.json como:
 
 ```
 {
@@ -43,23 +43,23 @@ Essa lista de caracteres pode ser configurada aqui. Se precisar adicionar mais c
 }
 ```
 
-A estrutura do arquivo símbolos.json é explicada abaixo:
+A estrutura do arquivo symbol.json é explicada abaixo:
 
-+ &quot;label&quot;: &quot;Símbolos lógicos&quot;: Especifica a categoria para os caracteres especiais. No trecho, uma categoria com o nome &quot;Símbolo lógico&quot; é definida.
++ &quot;label&quot;: &quot;Logical Symbols&quot;: especifica a categoria dos caracteres especiais. No trecho, uma categoria com o nome &quot;Símbolo lógico&quot; é definida.
 
-+ &quot;itens&quot;: Isso define a coleção de caracteres especiais na categoria .
++ &quot;items&quot;: isso define a coleção de caracteres especiais na categoria.
 
-+ &quot;name&quot;: &quot;≥&quot;, &quot;title&quot;: &quot;Maior que ou igual a&quot;: Esta é a definição do caractere especial. Ela começa com o rótulo &quot;name&quot;, que não deve ser alterado. O nome é seguido pelo caractere especial. O &quot;título&quot; é o nome ou o título do caractere especial que aparece como a dica de ferramenta desse caractere especial.
++ &quot;name&quot;: &quot;≥&quot;, &quot;title&quot;: &quot;Greater-Than or Equal To&quot;: esta é a definição do caractere especial. Ela começa com o rótulo &quot;name&quot;, que não deve ser alterado. O nome é seguido pelo caractere especial. O &quot;título&quot; é o nome ou o título do caractere especial que aparece como a dica de ferramenta desse caractere especial.
 
 É possível definir várias definições de caracteres especiais em uma categoria.
 
-Isso adicionará outra categoria na caixa de diálogo caracteres especiais:
+Isso adicionará outra categoria na caixa de diálogo de caracteres especiais:
 
 ![Categoria de Símbolo Especial](assets/special-char-category.png)
 
-![Inserir Caractere Especial](assets/insert-special-char.png)
+![Inserir caractere especial](assets/insert-special-char.png)
 
 >[!MORELIKETHIS]
 >
->+ [Guia de Instalação e Configuração](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
+>+ [Guia de instalação e configuração](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
 

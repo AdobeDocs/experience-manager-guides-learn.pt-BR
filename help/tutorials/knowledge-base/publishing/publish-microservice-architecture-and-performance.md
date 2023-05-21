@@ -1,6 +1,6 @@
 ---
 title: Arquitetura e desempenho do microsserviço de publicação na nuvem
-description: Entenda como o novo microsserviço permite a publicação escalável no AEMaaCS.
+description: Entenda como o novo microsserviço permite a publicação escalonável no AEMaaCS.
 source-git-commit: 2e45f132ced5ac29118a7301f104bedc03c93253
 workflow-type: tm+mt
 source-wordcount: '730'
@@ -9,73 +9,73 @@ ht-degree: 0%
 ---
 
 
-# Cloud Publishing Microservice Architecture and Performance Analysis
+# Arquitetura do microsserviço de publicação na nuvem e análise de desempenho
 
-Este artigo compartilha os insights sobre a arquitetura e os números de desempenho do novo microsserviço de publicação em nuvem.
+Este artigo compartilha os insights sobre a arquitetura e os números de desempenho do novo microsserviço de publicação na nuvem.
 
 >[!NOTE]
 >
-> Atualmente, a publicação com base em microsserviços nos Guias AEM suporta apenas a saída PDF usando a publicação Native PDF ou por meio do DITA-OT. AEM Guias adicionarão suporte à publicação baseado em microsserviços para mais tipos de saída em versões futuras.
+> Atualmente, a publicação baseada em microsserviços nos Guias AEM só oferece suporte à saída de PDF usando a publicação de PDF nativo ou por meio do DITA-OT. Os Guias do AEM adicionarão suporte à publicação baseada em microsserviços para mais tipos de saída nas próximas versões.
 
 ## Problemas com fluxos de trabalho de publicação existentes na nuvem
 
-A Publicação DITA é um processo que consome muitos recursos, dependendo principalmente da memória do sistema e da CPU disponíveis. A necessidade desses recursos aumenta ainda mais se as editoras estiverem publicando mapas grandes com muitos tópicos ou se várias solicitações de publicação paralelas forem acionadas.
+A publicação DITA é um processo que consome muitos recursos e depende principalmente da memória do sistema e da CPU disponíveis. A necessidade desses recursos aumenta ainda mais se os editores estiverem publicando mapas grandes com muitos tópicos ou se várias solicitações de publicação paralelas forem acionadas.
 
-Se você não estiver usando o novo serviço, toda a publicação ocorrerá no mesmo pod do Kubernetes(k8) que também está executando o servidor de nuvem AEM. Um pod k8 típico tem um limite na quantidade de memória e CPU que pode ser usada. Se o AEM Guias os usuários estiverem publicando cargas de trabalho grandes ou paralelas, esse limite poderá ser violado rapidamente. O K8 reinicia pods que estão tentando usar mais recursos do que o limite configurado, o que pode ter um impacto sério na própria instância da nuvem de AEM.
+Se você não estiver usando o novo serviço, então toda a publicação acontece no mesmo pod Kubernetes(k8) que também está executando o servidor de nuvem AEM. Um pod k8 típico tem um limite na quantidade de memória e CPU que ele pode usar. Se os usuários do AEM Guides estiverem publicando cargas de trabalho grandes ou paralelas, esse limite poderá ser ultrapassado rapidamente. O K8 reinicia o pods que estão tentando usar mais recursos do que o limite configurado, o que pode ter um impacto sério na própria instância da nuvem AEM.
 
-Essa restrição de recursos foi a principal motivação para criar um serviço dedicado que pode nos permitir executar várias cargas de trabalho de publicação simultâneas e grandes na nuvem.
+Essa restrição de recursos foi a principal motivação para criar um serviço dedicado que pode permitir executar várias cargas de trabalho de publicação simultâneas e grandes na nuvem.
 
 ## Introdução à nova arquitetura
 
-O serviço está usando soluções de nuvem de ponta como o Adobe App Builder, Eventos de E/S, IMS para criar uma oferta sem servidor. Estes serviços baseiam-se, eles próprios, nas normas industriais amplamente aceites, como a Kubernetes e a docker.
+O serviço está usando soluções de nuvem de ponta do Adobe, como o App Builder, IO Eventing e IMS, para criar uma oferta sem servidor. Estes serviços são baseados nos padrões industriais amplamente aceitos como Kubernetes e docker.
 
-Cada solicitação para o novo microsserviço de publicação é executada em um contêiner de docker isolado que executa apenas uma solicitação de publicação por vez. Vários novos contêineres são criados automaticamente caso novas solicitações de publicação sejam recebidas. Essa configuração de contêiner único por solicitação permite que o microsserviço forneça o melhor desempenho aos clientes sem apresentar riscos de segurança. Esses contêineres são descartados depois que a publicação terminar, liberando assim os recursos não utilizados.
+Cada solicitação para o novo microsserviço de publicação é executada em um contêiner de docker isolado que executa somente uma solicitação de publicação por vez. Vários novos contêineres são criados automaticamente caso novas solicitações de publicação sejam recebidas. Essa configuração de contêiner único por solicitação permite que o microsserviço forneça o melhor desempenho aos clientes sem introduzir riscos de segurança. Esses contêineres são descartados quando a publicação termina, liberando assim os recursos não utilizados.
 
-Todas essas comunicações são protegidas pelo Adobe IMS usando autenticação e autorização baseada em JWT e são executadas por HTTPS.
+Todas essas comunicações são protegidas pelo Adobe IMS usando autenticação e autorização baseadas em JWT e são executadas por HTTPS.
 
 <img src="assets/architecture.png" alt="guia projetos" width="600">
 
 >[!NOTE]
 >
-> O processo de publicação executa algumas partes dependentes de conteúdo da solicitação no próprio servidor de AEM, como a geração de lista de dependências. No entanto, as partes mais exaustivas do processo de publicação, como a execução do DITA-OT ou mecanismo nativo, foram descarregadas para o novo serviço.
+> O processo de publicação executa algumas partes da solicitação dependentes de conteúdo no próprio servidor AEM, como a geração de listas de dependência. No entanto, as partes mais exaustivas do processo de publicação, como a execução do DITA-OT ou do mecanismo nativo, foram transferidas para o novo serviço.
 
 
 ## Análise de desempenho
 
-Esta seção mostra os números de desempenho do microsserviço. Ele compara o desempenho do microsserviço com a oferta de guias no local, já que a arquitetura de nuvem antiga tinha problemas com a publicação simultânea ou com a publicação de mapas muito grandes.
+Esta seção mostra os números de desempenho do microsserviço. Ele compara o desempenho do microsserviço com a oferta de Guias AEM no local, já que a antiga arquitetura de nuvem tinha problemas na publicação simultânea ou na publicação de mapas muito grandes.
 
-Se você estiver publicando um mapa grande no local, talvez precise ajustar os parâmetros de heap do Java ou encontrar erros de falta de memória. Na nuvem, o microsserviço já tem o perfil e o heap Java otimizado e outras configurações prontas para uso.
+Se você estiver publicando um mapa grande no local, talvez seja necessário ajustar os parâmetros de heap do Java ou encontrar erros de memória insuficiente. Na nuvem, o microsserviço já apresenta um perfil e tem a heap de Java ideal e outras configurações prontas para uso.
 
-### Execução de uma publicação na nuvem e no local
+### Executar uma publicação na nuvem ou no local
 
 * Nuvem
 
-   Se você estiver executando uma única publicação na nuvem usando o novo serviço, a publicação poderá demorar um pouco mais quando comparada à publicação única no local. Esse pequeno tempo elevado se deve à natureza distribuída da nova arquitetura de nuvem.
+   Se você estiver executando uma única publicação na nuvem usando o novo serviço, a publicação poderá demorar um pouco mais em comparação com a publicação única no local. Esse pequeno tempo elevado se deve à natureza distribuída da nova arquitetura de nuvem.
 
    <img src="assets/cloud_single_publish.png" alt="guia projetos" width="600">
 
 * No local
 
-   Os resultados de uma única publicação são melhores na arquitetura de nuvem antiga ou no local, pois a publicação completa está acontecendo no mesmo pod/máquina em que a AEM está sendo executada.
+   Os resultados de uma única publicação são melhores na antiga arquitetura em nuvem ou no local, já que a publicação completa está acontecendo no mesmo pod/computador em que o AEM está sendo executado.
 
    <img src="assets/onprem_single_publish.png" alt="guia projetos" width="600">
 
-### Execução de várias publicações na nuvem e no local
+### Execução de várias publicações na nuvem em vez de no local
 
 * Nuvem
 
-   O novo microsserviço de publicação brilha nesse cenário. Como você pode ver na imagem abaixo, com o aumento nos vários trabalhos de publicação simultâneos, a nuvem pode publicá-los sem nenhum aumento significativo no tempo de publicação.
+   O novo microsserviço de publicação destaca esse cenário. Como você pode ver na imagem abaixo, com o aumento dos vários trabalhos de publicação simultâneos, a nuvem pode publicá-los sem qualquer aumento significativo no tempo de publicação.
 
    <img src="assets/cloud_bulk_publish.png" alt="guia projetos" width="600">
 
 * No local
 
-   A execução da publicação simultânea em um servidor local resulta em grave degradação do desempenho. Essa queda no desempenho é mais grave se as editoras estiverem publicando ainda mais mapas simultaneamente.
+   A execução de publicação simultânea em um servidor no local resulta em grave degradação do desempenho. Essa queda de desempenho é mais grave se os editores publicarem ainda mais mapas simultaneamente.
 
    <img src="assets/onprem_bulk_publish.png" alt="guia projetos" width="600">
 
 ## Benefícios adicionais
 
-Parte de cada solicitação de publicação deve ser executada na instância de AEM para buscar o conteúdo de publicação correto a ser enviado ao microsserviço. A nova arquitetura em nuvem usa AEM tarefas no lugar de AEM fluxos de trabalho, como era o caso na arquitetura antiga. Essa alteração permite que os administradores do AEM Guias configurem individualmente as configurações da fila de publicação na nuvem sem afetar outras tarefas AEM ou configurações do fluxo de trabalho.
+Uma parte de cada solicitação de publicação deve ser executada na instância do AEM para buscar o conteúdo de publicação correto para ser enviado ao microsserviço. A nova arquitetura de nuvem usa trabalhos de AEM no lugar de fluxos de trabalho de AEM, como acontecia na arquitetura antiga. Essa alteração permite que os administradores do AEM Guides definam individualmente as configurações da fila de publicação na nuvem, sem afetar outras tarefas do AEM ou as configurações do fluxo de trabalho.
 
 Detalhes sobre como configurar o novo microsserviço de publicação podem ser encontrados aqui: [Configurar microsserviço](configure-microservices.md)

@@ -1,6 +1,6 @@
 ---
-title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de outubro de 2022
-description: Versão de outubro dos Guias do Adobe Experience Manager as a Cloud Service
+title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de outubro de 2022
+description: Versão de outubro do Adobe Experience Manager Guides as a Cloud Service
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -9,31 +9,31 @@ ht-degree: 4%
 
 ---
 
-# Versão de outubro dos Guias do Adobe Experience Manager as a Cloud Service
+# Versão de outubro do Adobe Experience Manager Guides as a Cloud Service
 
 ## Atualize para a versão de outubro
 
-Atualizar seus Guias atuais do Adobe Experience Manager as a Cloud Service (mais tarde, como *Guias de AEM as a Cloud Service*) configurando executando as seguintes etapas:
-1. Verifique o código GKS do Cloud Services e alterne para a ramificação configurada no pipeline correspondente ao ambiente que você deseja atualizar.
-1. Atualizar `<dox.version>` propriedade em `/dox/dox.installer/pom.xml` arquivo do código Git do Cloud Services para 2022.10.183.
-1. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de outubro AEM Guias as a Cloud Service.
+Atualize seus Guias do Adobe Experience Manager atuais as a Cloud Service (mais tarde chamados de *Guias de AEM as a Cloud Service*), executando as seguintes etapas:
+1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline Cloud Services correspondente ao ambiente que você deseja atualizar.
+1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Services para 2022.10.183.
+1. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de outubro do AEM Guides as a Cloud Service.
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade para os aplicativos de software compatíveis com AEM Guias as a Cloud Service versão de outubro de 2022.
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com os Guias do AEM as a Cloud Service na versão de outubro de 2022.
 
-### Servidor de publicação do FrameMaker e do FrameMaker
+### FrameMaker e FrameMaker Publishing Server
 
 | FMPS | FrameMaker |
 | --- | --- |
-| Não compatível | Atualização 4 e superior de 2020 |
+| Não compatível | Atualização 4 e superior para 2020 |
 |  |  |
 
-*A linha de base e as condições criadas em AEM são suportadas em versões FMPS a partir de 2020.2.
+*A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
 ### Conector de oxigênio
 
-| AEM Guias das a Cloud Release | Janelas do conector de oxigênio | Conector de oxigênio Mac | Editar no Windows Oxygen | Editar no Oxygen Mac |
+| Versão do AEM Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2022.10.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
 |  |  |  |  |
@@ -41,32 +41,32 @@ Esta seção lista a matriz de compatibilidade para os aplicativos de software c
 
 ## Novos recursos e melhorias
 
-AEM Guias as a Cloud Service oferecem melhorias e novos recursos na versão de outubro:
+O AEM Guides as a Cloud Service oferece aprimoramentos e novos recursos na versão de outubro:
 
 
 ### Painel Geração rápida
 
-Agora, as Guias AEM fornecem a variável **Geração rápida** painel que ajuda a gerar e exibir rapidamente a saída para predefinições criadas para o mapa DITA.
+Agora, o AEM Guides fornece a **Geração rápida** painel que ajuda a gerar e visualizar rapidamente a saída das predefinições criadas para o mapa DITA.
 
-![Ícone Gerar rapidamente](assets/quick-generate-icon.png)
+![Ícone Geração rápida](assets/quick-generate-icon.png)
 
-No **Geração rápida** , é possível ver a lista de todas as predefinições de saída criadas para o mapa DITA.
+No **Geração rápida** é possível ver a lista de todas as predefinições de saída criadas para o mapa DITA.
 
 ![Painel Geração rápida](assets/quick-generate-panel.png)
 
-Selecione uma ou mais predefinições e gere rapidamente a saída. Também é possível visualizar rapidamente a saída gerada para as predefinições. Uma mensagem de sucesso é exibida na geração da saída. Uma mensagem de erro é exibida se a geração de saída falhar. Você também pode visualizar o log de erros para ver os detalhes do erro que ocorreu no processo de geração.
+Selecione uma ou mais predefinições e gere rapidamente a saída. Também é possível visualizar rapidamente a saída gerada para as predefinições. Uma mensagem de sucesso é exibida na geração da saída. Uma mensagem de erro será exibida se a geração de saída falhar. Você também pode exibir o log de erros para ver os detalhes do erro que ocorreu no processo de geração.
 
 
 ## Problemas corrigidos
 
 Os bugs corrigidos em várias áreas estão listados abaixo:
 
-* PDF nativo | Ocorre um erro na remoção de tópicos somente de recursos da saída do PDF. (10554)
+* PDF nativo | Ocorre um erro ao remover tópicos somente de recursos da saída do PDF. (10554)
 * PDF nativo | Keyrefs vazios são exibidos na saída do PDF. (10553)
-* PDF nativo | `navtitle` para `topichead` não é honrado. (10509)
-* PDF nativo | Suporte necessário para sabores do JDK amd64. (10465)
-* PDF nativo | Não é possível ocultar os tópicos da frente do Índice. (10355)
-* PDF nativo | Reiniciar o número de página no layout do capítulo inicia aleatoriamente a numeração a partir do fim do capítulo anterior. (10154)
-* Navegador Chrome | A tela está ficando em branco ao arrastar e soltar qualquer elemento da interface do usuário. Por exemplo, ao arrastar uma condição do painel Condições . (10524)
-* As propriedades de nó estão sendo removidas após a operação de copiar e colar de um ativo. (10053)
-* Ao clicar  **Fechar** os usuários eram redirecionados para ativos - a experiência foi corrigida para levar os usuários para a página inicial do AEM. (9654)
+* PDF nativo | `navtitle` para `topichead` não é respeitado. (10509)
+* PDF nativo | Suporte necessário para tipos de JDK amd64. (10465)
+* PDF nativo | Não é possível ocultar tópicos do assunto principal do índice. (10355)
+* PDF nativo | Reiniciar o número de página no layout do capítulo inicia aleatoriamente a numeração a partir do final do capítulo anterior. (10154)
+* Navegador Chrome | A tela está ficando em branco ao arrastar e soltar qualquer elemento da interface do usuário. Por exemplo, ao arrastar uma condição do painel Condições. (10524)
+* As propriedades do nó estão sendo removidas após a operação de copiar e colar de um ativo. (10053)
+* Ao clicar em  **Fechar** os usuários estavam sendo redirecionados para ativos - a experiência foi corrigida para levar os usuários à página inicial do AEM. (9654)

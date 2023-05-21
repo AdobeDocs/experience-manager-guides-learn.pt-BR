@@ -9,22 +9,22 @@ ht-degree: 0%
 
 ---
 
-# Usar o painel Geração rápida para gerar e exibir a saída {#id22AKE050F5L}
+# Usar o painel Geração rápida para gerar e visualizar a saída {#id22AKE050F5L}
 
-Os Guias de AEM fornecem um **Geração rápida** integrado ao Editor da Web. Esse painel permite gerar simultaneamente a saída das predefinições de saída criadas para um mapa DITA. Você pode gerar a saída para uma ou mais predefinições, ou todas as predefinições criadas para um mapa DITA. Também é possível usar a variável **Geração rápida** para exibir posteriormente a saída gerada para as predefinições.
+Os Guias do AEM fornecem uma **Geração rápida** painel integrado no Editor da Web. Esse painel permite gerar simultaneamente a saída das predefinições de saída criadas para um mapa DITA. É possível gerar a saída para uma ou mais predefinições ou para todas as predefinições criadas para um mapa DITA. Você também pode usar a variável **Geração rápida** para exibir posteriormente a saída gerada para as predefinições.
 
 >[!NOTE]
 >
-> O **Geração rápida** é exibido para o mapa DITA aberto no painel Visualização de mapa .
+> A variável **Geração rápida** é exibido para o mapa DITA aberto no painel Exibição de mapa.
 
 ![](images/quick-generate-map-view.png){width="800" align="left"}
 
-Execute as etapas a seguir para gerar a saída do **Geração rápida** painel:
+Execute as seguintes etapas para gerar a saída do **Geração rápida** painel:
 
-1. Abra o mapa DITA na Visualização de mapa. O ícone Gerar rapidamente é exibido. Aparece em **Autor** e **Gerenciar** guias.
-1. Clique no botão **Geração rápida** ícone \( ![](images/quick-generate-icon.svg)\) para abrir o **Geração rápida** painel. No **Geração rápida** , é possível ver a lista de todas as predefinições de saída criadas para o mapa DITA.
+1. Abra o mapa DITA na Exibição de mapa. O ícone Geração rápida é exibido. Aparece em **Autor** e **Gerenciar** guias.
+1. Clique em **Geração rápida** ícone \( ![](images/quick-generate-icon.svg)\) para abrir o **Geração rápida** painel. No **Geração rápida** é possível ver a lista de todas as predefinições de saída criadas para o mapa DITA.
 1. Selecione uma ou mais predefinições para as quais deseja gerar a saída.
-1. Clique em **Gerar** para gerar a saída das predefinições selecionadas. Uma mensagem de sucesso é exibida na geração da saída. Uma mensagem de erro é exibida se a geração falhar. Você também pode visualizar o log de erros para ver os detalhes do erro que ocorreu no processo de geração.
-1. Clique em **Exibir saída** \( ![](images/view-output-icon.svg)\) ícone de uma predefinição específica para exibir a saída gerada para a predefinição.
+1. Clique em **Gerar** para gerar a saída para as predefinições selecionadas. Uma mensagem de sucesso é exibida na geração da saída. Uma mensagem de erro será exibida se a geração falhar. Você também pode exibir o log de erros para ver os detalhes do erro que ocorreu no processo de geração.
+1. Clique em **Exibir saída** \( ![](images/view-output-icon.svg)\) de uma predefinição específica para exibir a saída gerada para a predefinição.
 
-**Tópico principal:**[ Trabalhar com o editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o editor da Web](web-editor.md)

@@ -1,6 +1,6 @@
 ---
 title: Configuração de conteúdo e modelo
-description: Saiba o que deve ser considerado para configurar conteúdo e modelos nos Guias AEM.
+description: Saiba o que deve ser feito com toda a consideração para configurar o conteúdo e os modelos nos Guias do AEM.
 source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
 workflow-type: tm+mt
 source-wordcount: '289'
@@ -8,16 +8,16 @@ ht-degree: 1%
 
 ---
 
-# Configuração de conteúdo e modelo em Guias AEM
+# Configuração de conteúdo e modelo em guias AEM
 
-A quantidade de conteúdo que você gerencia em um sistema, para suportar tipos variados de documentos que são entregues aos usuários finais, requer que os autores não apenas categorizem o conteúdo para rastrear e alterar facilmente quando necessário, mas também requer habilitar os autores com capacidade de criar documentos novos ou semelhantes sem precisar gravá-los do zero.
+O volume de conteúdo que você gerencia em um sistema, para oferecer suporte a vários tipos de documentos que são entregues aos usuários finais, requer que os autores não apenas categorizem o conteúdo para rastrear e alterar facilmente quando necessário, mas também permite que os autores criem documentos novos/semelhantes sem precisar gravá-los do zero.
 
 
 ## Visão geral da sessão
 
-Nesta sessão, abordámos, em termos gerais, o seguinte:
+Nesta sessão, abordamos amplamente o seguinte:
 - diferentes aspectos da configuração do conteúdo (categorização, classificação, metadados)
-- configuração do modelo de conteúdo (modelos de tópicos, modelos de mapa, trechos)
+- configuração do modelo de conteúdo (modelos de tópico, modelos de mapa, snippets)
 
 
 
@@ -31,17 +31,17 @@ Nesta sessão, abordámos, em termos gerais, o seguinte:
 - **Data** - 27 de abril de 2023
 - **Número de participantes** - 70
 - **Duração** - 60 minutos
-- **Público** - Clientes, parceiros e funcionários do Adobe
+- **Público** - Clientes, parceiros e funcionários da Adobe
 
 
 ## Principais aprendizados
 
 Nesta sessão, você aprendeu sobre o seguinte:
-- Tempo gasto para analisar e pensar antes de importar/criar conteúdo
-- Classificação e categorização do conteúdo para atender a diferentes segmentos de usuários (usuários finais ou autores)
-- Aproveitamento dos recursos de metadados para melhorar a produtividade do usuário
-- Criar modelos de criação pré-criados o máximo possível para fornecer aos autores uma experiência guiada
-- Como PME, direcione os modelos com os quais os grupos de usuários devem trabalhar
+- Dedicar tempo para analisar e pensar antes de importar/criar conteúdo
+- Classificar e categorizar o conteúdo para atender a diferentes segmentos de usuários (usuários finais ou autor)
+- Aproveitar os recursos de metadados para melhorar a produtividade do usuário
+- Criar modelos de criação pré-criados o máximo possível para oferecer aos autores uma experiência guiada
+- À medida que as PME direcionam os modelos com os quais os grupos de usuários devem trabalhar
 - Personalizar a experiência de criação de maneira ideal
 
 
@@ -52,22 +52,22 @@ Nesta sessão, você aprendeu sobre o seguinte:
 
 - **Guia do usuário** - [Conteúdo do autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Fórum da comunidade** - Para interações da comunidade específicas da sessão no Experience League, visite  [Fórum de guias de AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Fórum da comunidade** - Para interações da comunidade específicas por sessão no Experience League, visite  [Fórum de guias do AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias de AEM:
+> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
 > - No local: 4.2 ou posterior
 > - Cloud Services: 2303 ou posterior
 
 
 
-## Próxima sessão de especialistas
+## Próxima sessão com especialistas
 
-- **Tópico** - Publicação nativa de PDF - Aprendendo por exemplo (parte 1)
-- **Agendado em** - 1 de junho de 2023
+- **Tópico** - Publicação PDF nativa - Aprendizagem por exemplo (parte 1)
+- **Agendado para** - 1 de junho de 2023
 
 
-## Entre em contato conosco
+## Entre em contato
 
-Para qualquer query, envie um email em <techcomm@adobe.com>
+Para qualquer consulta, envie-nos um email em <techcomm@adobe.com>

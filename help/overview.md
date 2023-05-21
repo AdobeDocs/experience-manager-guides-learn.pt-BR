@@ -1,6 +1,6 @@
 ---
-title: Tutoriais dos guias de Experience Manager
-description: Uma coleção de tutoriais para Guias do Experience Manager (antigo XML Documentation for Adobe Experience Manager).
+title: Tutoriais do Experience Manager Guides
+description: Uma coleção de tutoriais do Experience Manager Guides (antigo XML Documentation para Adobe Experience Manager).
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 source-git-commit: 0ab4c1590507b38cd3dbeb385a2200dc169fc36a
 workflow-type: tm+mt
@@ -11,37 +11,37 @@ ht-degree: 2%
 
 # [!DNL Adobe Experience Manager Guides] tutoriais {#overview}
 
-[!DNL Adobe Experience Manager Guides] (referido como [!DNL AEM Guides] posteriormente neste guia) é uma solução avançada de gerenciamento de conteúdo de componentes corporativos (CCMS). Ela permite o suporte nativo ao DITA no Adobe Experience Manager, capacitando AEM para lidar com a criação e o delivery de conteúdo baseado em DITA. Ela permite que os autores criem conteúdo usando qualquer ferramenta de criação de DITA offline, como o Adobe FrameMaker ou um editor da Web integrado e fácil de usar.
+[!DNL Adobe Experience Manager Guides] (referido como [!DNL AEM Guides] mais adiante neste guia) é uma solução poderosa de gerenciamento de conteúdo de componentes corporativos (CCMS). Ela permite o suporte ao DITA nativo no Adobe Experience Manager, permitindo que o AEM lide forma a lidar com a criação e a entrega de conteúdo baseado em DITA. Ele permite que os autores criem conteúdo usando qualquer ferramenta de criação DITA offline, como o Adobe FrameMaker ou um editor da Web integrado e fácil de usar.
 
-[!DNL AEM Guides] A solução fornece todas as funções principais do CCMS, como colaboração, revisão, tradução, pesquisa e relatórios para o conteúdo DITA, permitindo que os autores façam mais em menos tempo por meio da reutilização eficiente do conteúdo e de fluxos de trabalho avançados. Além disso, os usuários podem aproveitar seu melhor recurso de publicação de clique único para gerar saída baseada em DITA para os formatos mais populares - Experience Manager Sites, PDF, HTML5, EPUB e saída personalizada por meio do DITA-OT.
+[!DNL AEM Guides] A solução fornece todas as funções principais do CCMS, como colaboração, revisão, tradução, pesquisa e relatórios para conteúdo DITA, permitindo que os autores façam mais em menos tempo por meio da reutilização eficiente do conteúdo e de fluxos de trabalho avançados. Além disso, os usuários podem aproveitar seu melhor recurso de publicação de clique único da categoria para gerar saída baseada em DITA para os formatos mais populares: Experience Manager Sites, PDF, HTML5, EPUB e saída personalizada por meio do DITA-OT.
 
-Com [!DNL AEM Guides] solução, as empresas podem fornecer experiências contínuas e personalizadas para os usuários finais e garantir consistência e uniformidade no conteúdo pré e pós-venda. É possível obter facilmente o controle total sobre a integridade do conteúdo. Além disso, o tempo de localização e os custos também reduzem significativamente.
+Com [!DNL AEM Guides] As empresas podem oferecer experiências perfeitas e personalizadas aos usuários finais e garantir consistência e uniformidade no conteúdo pré e pós-venda. O controle total sobre a integridade do conteúdo pode ser facilmente obtido. Além disso, o tempo e os custos de localização também reduzem significativamente.
 
 >[!NOTE]
 > 
-> Os Guias do Adobe Experience Manager eram rotulados como &quot;XML Documentation for Adobe Experience Manager&quot;. Observe que algumas referências na documentação ainda podem se referir a marcas anteriores, mas ainda são aplicáveis à oferta atual.
+> O Adobe Experience Manager Guides era anteriormente conhecido como &quot;XML Documentation para Adobe Experience Manager&quot;. Observe que algumas referências contidas na documentação ainda podem se referir a marcas anteriores, mas ainda se aplicam à oferta atual.
 
 ## Novidades
 
-* **[[!DNL AEM Guides] Curso de criação](course-3/overview.md)**
+* **[[!DNL AEM Guides] Criação do curso](course-3/overview.md)**
 
    *Guia do usuário avançado para [!DNL AEM Guides] Editor*
 
-* **[[!DNL AEM Guides] Curso de introdução](course-1/overview.md)**
+* **[[!DNL AEM Guides] Introdução ao curso](course-1/overview.md)**
 
-   *Saiba como criar, organizar, criar e publicar conteúdo com [!DNL Adobe Experience Manager Guides].*
+   *Saiba como criar, organizar, criar e publicar conteúdo com o [!DNL Adobe Experience Manager Guides].*
 
-* **[Criação no editor da Web incorporado](course-3/overview.md)**
+* **[Criação no editor da Web integrado](course-3/overview.md)**
 
-   *Saiba como criar conteúdo usando o editor da Web nativo nos Guias do Experience Manager. Saiba mais sobre as preferências do usuário, as configurações do editor, a configuração, as barras de ferramentas e muito mais.*
+   *Saiba como criar conteúdo usando o editor nativo da Web em Guias do Experience Manager. Obter compreensão completa das preferências do usuário, configurações do editor, configuração, barras de ferramentas e muito mais.*
 
 * **[Geração de saída com [!DNL AEM Guides]](course-2/overview.md)**
 
-   *Saiba como gerar saída usando [!DNL Adobe Experience Manager Guides]. Saiba mais sobre os vários recursos disponíveis para geração de saída - relatórios, linhas de base, condições, solução de problemas, publicação em massa e ativação.*
+   *Saiba como gerar saída usando o [!DNL Adobe Experience Manager Guides]. Saiba mais sobre os vários recursos disponíveis para geração de saída - relatórios, linhas de base, condições, solução de problemas, publicação e ativação em massa.*
 
 
 ## Recursos adicionais
 
 * [[!DNL AEM Guides] Guia do usuário on-line](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
-* [[!DNL AEM Guides] Guias PDF](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [[!DNL AEM Guides] Guias do PDF](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - Explorar AEM](https://experienceleague.adobe.com/?lang=pt-BR#recommended/solutions/experience-manager)

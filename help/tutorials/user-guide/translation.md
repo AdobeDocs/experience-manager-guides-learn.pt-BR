@@ -1,21 +1,21 @@
 ---
 title: Saiba como traduzir conteúdo
 description: Saiba como traduzir conteúdo
-source-git-commit: 6eb8d29e71301581e8dbb5b6a4252194c5a89f96
+exl-id: 21a3307f-2b25-40e8-8801-2f3fd5b2415f
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 1%
 
 ---
 
-
 # Traduzir conteúdo {#id1645H700L67}
 
-Os guias de AEM vêm com recursos avançados que permitem traduzir o conteúdo em vários idiomas. Os fluxos de trabalho de tradução automática e humana são compatíveis com os Guias AEM.
+O Guias do AEM vem com recursos avançados que permitem traduzir o conteúdo para vários idiomas. Os fluxos de trabalho de tradução humana e tradução automática são suportados pelos Guias do AEM.
 
-- **Tradução humana** - Os ativos são enviados ao seu provedor de tradução e traduzidos por tradutores profissionais. Quando concluídos, os ativos traduzidos são retornados e, em seguida, são importados novamente para o AEM.
+- **Tradução humana** - Os ativos são enviados para seu provedor de tradução e traduzidos por tradutores profissionais. Quando concluídos, os ativos traduzidos são retornados e importados novamente para o AEM.
 
-- **Tradução da máquina** - Esse é o serviço padrão no AEM em que o conteúdo é imediatamente traduzido usando a tradução automática em tempo real. O AEM pronto para uso fornece a capacidade de se conectar ao Microsoft Translator.
+- **Tradução automática** - Esse é o serviço padrão no AEM, em que o conteúdo é traduzido imediatamente usando a tradução automática em tempo real. O AEM pronto para uso oferece a capacidade de conectar-se ao Microsoft Translator.
 
    >[!NOTE]
    >
@@ -24,8 +24,6 @@ Os guias de AEM vêm com recursos avançados que permitem traduzir o conteúdo e
 
 - **[Práticas recomendadas para tradução de conteúdo](translation-first-time.md)**
 
-- **[Exibir status de tradução](translation-view-trans-state-6234.md)**
+- **[Exibir status da tradução](translation-view-trans-state-6234.md)**
 
 - **[Traduzir tópicos modificados](translation-modified-topics-6234.md)**
-
-

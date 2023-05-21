@@ -13,11 +13,11 @@ ht-degree: 2%
 
 Neste curso, você aprenderá a fazer o seguinte:
 
-- [Entender o painel do mapa](./introduction-to-the-map-dashboard.md)
+- [Compreender o painel do mapa](./introduction-to-the-map-dashboard.md)
 - [Trabalhar com relatórios](./working-with-reports.md)
-- [Criar e publicar com linhas de base](./creating-and-publishing-with-baselines.md)
+- [Criar e publicar com Linhas de Base](./creating-and-publishing-with-baselines.md)
 - [Publicar com condições](./publishing-with-conditions.md)
-- [Entender predefinições de saída](./output-presets.md)
+- [Entender as predefinições de saída](./output-presets.md)
 - [Solução de problemas de erros de publicação](./troubleshooting-publishing-errors.md)
 - [Publicação em massa](./bulk-publishing.md)
 - [Recapitulação](./recap.md)

@@ -15,58 +15,58 @@ Para criar uma coleção de mapas de ativação em massa, execute as seguintes e
 
 1. Selecionar **Guias** na lista de ferramentas.
 
-1. Clique no link do Adobe Experience Manager na parte superior e escolha **Ferramentas**.
+1. Clique no link Adobe Experience Manager na parte superior e escolha **Ferramentas**.
 
-1. Clique no botão **Painel de publicação em massa** mosaico.
+1. Clique no link **Painel de publicação em massa** bloco.
 
-   Pela primeira vez, uma página de coleções em branco é exibida. Se você criou coleções de ativação em massa anteriormente, elas serão exibidas nesta página.
+   Pela primeira vez, uma página de coleções em branco é exibida. Se você tiver criado coleções de ativação em massa anteriormente, elas serão exibidas nesta página.
 
 1. Clique em **Criar**.
 
-1. Insira um título para a coleção do mapa de ativação em massa e clique em **Criar**.
+1. Insira um título para a coleção de mapas de ativação em massa e clique em **Criar**.
 
-   Uma mensagem de sucesso é exibida na criação da coleção do mapa de ativação em massa.
+   Uma mensagem de Sucesso é exibida ao criar a coleção de mapas de ativação em massa.
 
-1. Clique em **Abrir** na mensagem Success .
+1. Clique em **Abertura** na mensagem Success (Êxito).
 
-1. Clique em **Editar** e, em seguida, clique em **Adicionar Mapas**.
+1. Clique em **Editar** e clique em **Adicionar mapas**.
 
-1. Localize e adicione os mapas DITA que deseja adicionar à coleção do mapa de ativação em massa.
+1. Localize e adicione os mapas DITA que deseja adicionar à coleção de mapas de ativação em massa.
 
    Por padrão, todas as predefinições e localidades associadas ao mapa são adicionadas automaticamente.
 
-1. Selecione a saída desejada ao ativar ou desativar o botão deslizante.
+1. Selecione a saída desejada ativando ou desativando o botão deslizante.
 
-   Você pode escolher várias predefinições de saída em várias localidades disponíveis.
+   Você pode escolher várias predefinições de saída entre os locais disponíveis.
 
 1. Clique em **Concluído**.
 
-   Os arquivos de mapa DITA são adicionados à coleção do mapa de ativação em massa.
+   Os arquivos de mapa DITA são adicionados à sua coleção de mapas de ativação em massa.
 
    ![](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 
-A guia Mapas e predefinições apresenta informações nas seguintes colunas:
+A guia Mapas e Predefinições apresenta informações nas seguintes colunas:
 
-- **Mapa**: Mostra o título do arquivo de mapa DITA.
-- **Caminho do mapa**: Mostra o caminho completo do arquivo de mapa DITA.
+- **Mapa**: mostra o título do arquivo de mapa DITA.
+- **Caminho do mapa**: mostra o caminho completo do arquivo de mapa DITA.
 
-- **UUID**: Mostra o identificador exclusivo associado ao arquivo.
+- **UUID**: mostra o identificador exclusivo associado ao arquivo.
 
-- **Idioma**: Mostra o código de idioma do mapa DITA.
-- **Predefinição**: Mostra o tipo de predefinição de saída configurado no arquivo de mapa.
-- **Modificado**: Indica se o mapa DITA foi atualizado após a última publicação. Com base nessas informações, você pode decidir se deseja ativar ou não a saída para esse mapa DITA.
-- **Gerado**: Mostra a data e a hora da última saída gerada.
-- **Publicado**: Mostra a data e a hora da última saída \(ou ativada\) publicada. Se você clicar no link, a página Resultados da ativação será exibida com informações sobre o caminho raiz onde o conteúdo é ativado.
+- **Idioma**: mostra o código de idioma do mapa DITA.
+- **Predefinição**: mostra o tipo de predefinição de saída configurado no arquivo de mapa.
+- **Modificado**: indica se o mapa DITA foi atualizado após a última publicação. Com base nessas informações, você pode decidir se deseja ativar ou não a saída para esse mapa DITA.
+- **Gerado**: mostra a data e a hora da última saída gerada.
+- **Publicado**: mostra a data e a hora da última saída \(ou ativada\) publicada. Se você clicar no link, a página Resultados da ativação será exibida com informações sobre o caminho raiz onde o conteúdo é ativado.
 
 
-As seguintes opções de filtragem estão disponíveis no painel esquerdo:
+As seguintes opções de filtro estão disponíveis no painel esquerdo:
 
-- **Modificado**: Você pode selecionar Sim ou Não. Se você selecionar sim, somente os mapas DITA modificados serão mostrados. Um mapa modificado é um mapa que foi gerado desde a última publicação.
-- **Predefinição**: Selecione uma predefinição para a qual deseja filtrar os arquivos de mapa. Por exemplo, se você escolher *Site AEM* predefinição, então somente os mapas que têm a variável *Site AEM* predefinição de saída configurada neles.
-- **Idioma**: Você pode selecionar qualquer um dos códigos de idioma disponíveis e exibir somente o idioma selecionado na guia Mapas e predefinições .
+- **Modificado**: Você pode selecionar Sim ou Não. Se você selecionar sim, somente os mapas DITA modificados serão exibidos. Um mapa modificado é um mapa gerado desde a última publicação.
+- **Predefinição**: selecione uma predefinição para a qual deseja filtrar os arquivos de mapa. Por exemplo, se você escolher *Site AEM* predefinido, serão exibidos apenas os mapas que tiverem a *Site AEM* predefinição de saída configurada neles.
+- **Idioma**: é possível selecionar qualquer um dos códigos de idioma disponíveis e exibir somente o idioma selecionado na guia Mapas e predefinições.
 
-- **Filtro:** O último painel mostra os seguintes filtros:
-- **Mapas e predefinições** tabela: A tabela Mapas e predefinições mostra as seguintes colunas:
+- **Filtro:** O painel inferior mostra os seguintes filtros:
+- **Mapas e predefinições** tabela: A tabela Mapas e Predefinições mostra as seguintes colunas:
 
-**Tópico principal:**[ Ativação em massa de conteúdo publicado](conf-bulk-activation.md)
+**Tópico pai:**[ Ativação em massa de conteúdo publicado](conf-bulk-activation.md)

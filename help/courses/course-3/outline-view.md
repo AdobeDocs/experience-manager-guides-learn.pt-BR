@@ -1,6 +1,6 @@
 ---
-title: Exibição da Estrutura de Tópicos
-description: Uso da Exibição de Estrutura de Tópicos em Guias AEM
+title: Modo de Estrutura de Tópicos
+description: Utilização da exibição de contorno em guias de AEM
 exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -9,61 +9,61 @@ ht-degree: 0%
 
 ---
 
-# Exibição da Estrutura de Tópicos
+# Modo de Estrutura de Tópicos
 
-A Exibição de Estrutura de Tópicos oferece uma ampla variedade de suporte ao trabalhar com um documento estruturado. Expanda e recolha a exibição, navegue pela estrutura, trabalhe com Atributos (por exemplo, para criar uma nova ID) e reorganize, desvincule e reestruture elementos ao clicar em um botão.
+A Exibição de estrutura de tópicos fornece uma ampla variedade de suporte ao trabalhar com um documento estruturado. Expanda e recolha a exibição, navegue pela estrutura, trabalhe com Atributos (por exemplo, para criar uma nova ID) e reorganize, decomponha e reestruture elementos com apenas um clique.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342767?quality=12&learn=on)
 
-## Expandir e recolher a Vista de Estrutura de Tópicos
+## Expandir e recolher a Exibição de Estrutura de Tópicos
 
-Os elementos podem ser expandidos para mostrar elementos filho ou recolhidos conforme necessário.
+Os elementos podem ser expandidos para mostrar elementos secundários ou recolhidos conforme necessário.
 
-1. Clique no ícone apropriado para expandir ou recolher a Exibição da Estrutura de Tópicos.
+1. Clique no ícone apropriado para expandir ou recolher a Exibição de Estrutura de Tópicos.
 
-   ![Estrutura de Referência](images/lesson-6/outline-collapsed-before.png)
+   ![Estrutura de Tópicos de Referência](images/lesson-6/outline-collapsed-before.png)
 
    ![Subguias de Estrutura de Tópicos de Referência](images/lesson-6/outline-expanded-after.png)
 
-A exibição de estrutura alterna de expandida para recolhida.
+A exibição de estrutura de tópicos alterna de expandida para recolhida.
 
 ## Navegar usando a Exibição de Estrutura de Tópicos
 
-1. Clique em qualquer elemento para ir para esse local.
+1. Clique em qualquer elemento para ir até esse local.
 
-1. Clique no botão [!UICONTROL **Elipse**] ao lado de um elemento para acessar as opções de atalho.
+1. Clique em [!UICONTROL **Reticências**] ao lado de um elemento para acessar as opções de atalho.
 
    ![Menu de contexto](images/lesson-6/shortcut-options.png)
 
 ## Atribuir uma ID usando a Exibição de Estrutura de Tópicos
 
-Uma nova ID pode ser gerada automaticamente com base na configuração do sistema. Usando as Propriedades de conteúdo, a ID e seu valor também podem ser atualizados, se necessário.
+Uma nova ID pode ser gerada automaticamente com base na configuração do sistema. Usando as Propriedades de conteúdo, a ID e seu Valor também podem ser atualizados, se necessário.
 
-1. Clique no botão [!UICONTROL **Elipse**] ao lado de qualquer elemento.
+1. Clique em [!UICONTROL **Reticências**] ao lado de qualquer elemento.
 
-1. Choose **Gerar IDs**.
+1. Escolher **Gerar IDs**.
 
-   ![Menu de contexto de reticências](images/lesson-6/ellipsis-popup.png)
+   ![Menu de Contexto de Reticências](images/lesson-6/ellipsis-popup.png)
 
-A ID é atribuída. As Propriedades de conteúdo são atualizadas e as informações do elemento e do atributo são exibidas.
+A ID é atribuída. As atualizações das Propriedades de conteúdo e as informações do elemento e do atributo são exibidas.
 
 ## Reorganizar elementos usando arrastar e soltar
 
-Os elementos podem ser reordenados na Exibição da Estrutura de Tópicos.
+Os elementos podem ser reordenados na Visualização de estrutura de tópicos.
 
-1. Clique e arraste um elemento para outro local na Exibição da estrutura de tópicos.
+1. Clique e arraste um elemento para outro local na Exibição de Estrutura de Tópicos.
 
 1. Solte o elemento sobre outro elemento para substituí-lo. Essa ação é indicada por uma caixa quadrada ao redor do elemento a ser substituído.
 
    Ou
 
-   Solte o elemento entre dois outros elementos para alterar sua localização. Essa ação é indicada por uma linha entre elementos em que o novo elemento será descartado.
+   Solte o elemento entre dois outros elementos para alterar seu local. Essa ação é indicada por uma linha entre elementos onde o novo elemento será descartado.
 
 ## Renomear um elemento
 
-1. Selecione o elemento .
+1. Selecione o elemento.
 
-1. Clique no botão [!UICONTROL **Elipse**].
+1. Clique em [!UICONTROL **Reticências**].
 
 1. Selecionar **Renomear elemento**.
 
@@ -73,29 +73,29 @@ Os elementos podem ser reordenados na Exibição da Estrutura de Tópicos.
 
 O elemento foi renomeado.
 
-## Desvincular um elemento
+## Decodificar um elemento
 
-1. Selecione o elemento que deseja desvincular.
+1. Selecione o elemento que deseja decodificar.
 
-1. Clique no botão [!UICONTROL **Elipse**].
+1. Clique em [!UICONTROL **Reticências**].
 
-1. Selecionar [!UICONTROL **Desvincular elemento**].
+1. Selecionar [!UICONTROL **Decodificar elemento**].
 
 O conteúdo permanece, mas a estrutura foi removida.
 
-## Filtrar conteúdo usando a Exibição de Estrutura de Tópicos
+## Filtrar conteúdo usando a Exibição de estrutura de tópicos
 
-1. Clique no botão [!UICONTROL **Filtro**] ícone ao lado da barra de pesquisa na Exibição da Estrutura de Tópicos.
+1. Clique em [!UICONTROL **Filtro**] ícone ao lado da barra de pesquisa na Exibição de Estrutura de Tópicos.
 
    ![Filtros](images/lesson-6/filter-icon.png)
 
-1. Escolha um **Todos** para mostrar todos os elementos ou **Links quebrados** para localizar e corrigir referências quebradas.
+1. Escolha um **Todos** para mostrar todos os elementos ou **Links quebrados** para localizar e corrigir referências corrompidas.
 
-## Pesquisar com Exibição de Estrutura de Tópicos
+## Pesquisar com Modo de Exibição de Estrutura de Tópicos
 
 Uma pesquisa pode ser restrita e retornar resultados com base em um elemento, atributo ou valor.
 
-1. Digite o nome do elemento que deseja localizar na barra de pesquisa.
+1. Digite o nome do elemento que você deseja localizar na barra de pesquisa.
 
    ![Barra de pesquisa](images/lesson-6/search-bar.png)
 

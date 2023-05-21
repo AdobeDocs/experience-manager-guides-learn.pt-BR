@@ -1,6 +1,6 @@
 ---
-title: Relatórios nos guias de AEM
-description: Saiba quais relatórios estão disponíveis no AEM para ajudar os usuários a melhorar a qualidade do conteúdo.
+title: Relatórios nos Guias do AEM
+description: Saiba quais todos os relatórios estão disponíveis no AEM para ajudar os usuários a melhorar a qualidade do conteúdo.
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
 source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
 workflow-type: tm+mt
@@ -9,19 +9,19 @@ ht-degree: 1%
 
 ---
 
-# Relatórios nos guias de AEM
+# Relatórios nos Guias do AEM
 
-Em uma configuração organizacional, você deseja verificar a integridade geral do seu conteúdo antes de enviar os documentos para consumo pelos usuários finais. Essa necessidade se torna ainda mais essencial em ambientes de vários usuários e de grande escala, onde o conteúdo pode ser reutilizado em contextos diferentes, portanto, a validação do seu conteúdo ou documento é uma necessidade. No contexto do conteúdo estruturado, há alguns tipos específicos de relatórios que são normalmente necessários.
+Em uma configuração organizacional, você deseja verificar a integridade geral do conteúdo antes de enviar os documentos para consumo pelos usuários finais. Essa necessidade se torna ainda mais essencial em ambientes de vários usuários e grande escala, onde o conteúdo pode ser reutilizado em diferentes contextos, portanto, validar seu conteúdo ou documento é uma necessidade. No contexto de conteúdo estruturado, há alguns tipos específicos de relatórios que geralmente são necessários.
 
 
 ## Visão geral da sessão
 
-Nesta sessão, mostramos relatórios prontos para uso disponíveis para os usuários. Em geral, cobrimos o seguinte:
-- Relatórios de documento (mapa) e tópico
+Nesta sessão, mostramos relatórios prontos para uso disponíveis para usuários. Abordamos, em termos gerais, o seguinte:
+- Documento (mapa) e relatórios de tópico
 - Relatórios de metadados e opções de gerenciamento de metadados em massa
 - Relatórios de reutilização de conteúdo
 - Correção da importação de conteúdo
-- Aproveitamento do recurso de relatórios do AEM Assets
+- Aproveitamento do recurso de emissão de relatórios do AEM Assets
 
 
 ## Gravação da sessão
@@ -34,41 +34,41 @@ Nesta sessão, mostramos relatórios prontos para uso disponíveis para os usuá
 - **Data** - 30 de março de 2023
 - **Número de participantes** - 102
 - **Duração** - 60 minutos
-- **Público** - Clientes, parceiros e funcionários do Adobe
+- **Público** - Clientes, parceiros e funcionários da Adobe
 
 
 ## Principais aprendizados
 
 Nesta sessão, você aprendeu sobre o seguinte:
 - Importância dos relatórios no CCMS
-- relatórios disponíveis prontos para uso
+- relatórios prontos para uso disponíveis
 - exemplos de relatórios sobre conteúdo
 
 
 ## Recursos relacionados
 
-- **[Baixar AEM guia de relatórios](./assets/aem-guides-expert-session-reports-documentation.pdf)** para compreender os detalhes dos relatórios demonstrados na sessão.
+- **[Fazer download do manual de relatórios de Guias do AEM](./assets/aem-guides-expert-session-reports-documentation.pdf)** para entender os detalhes dos relatórios demonstrados na sessão.
 
 - **Vídeos em destaque** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
 - **Guia do usuário** - [Conteúdo do autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Fórum da comunidade** - Para interações da comunidade específicas da sessão no Experience League, visite  [Fórum de guias de AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Fórum da comunidade** - Para interações da comunidade específicas por sessão no Experience League, visite  [Fórum de guias do AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias de AEM:
+> Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
 > - No local: 4.2 ou posterior
 > - Cloud Services: 2302 ou posterior
 
 
 
-## Próxima sessão de especialistas
+## Próxima sessão com especialistas
 
 - **Tópico** - Configuração de conteúdo e modelo
-- **Agendado em** - 27 de abril de 2023
+- **Agendado para** - 27 de abril de 2023
 
 
-## Entre em contato conosco
+## Entre em contato
 
-Para qualquer query, envie um email em <techcomm@adobe.com>
+Para qualquer consulta, envie-nos um email em <techcomm@adobe.com>

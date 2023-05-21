@@ -1,6 +1,6 @@
 ---
-title: Notas de versão para [!DNL AEM Guides], versão de março de 2022
-description: Lançamento de março [!DNL Adobe Experience Manager Guides] as a Cloud Service
+title: Notas de versão do [!DNL AEM Guides], versão de março de 2022
+description: Lançamento de março do [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -9,61 +9,61 @@ ht-degree: 2%
 
 ---
 
-# Lançamento de março [!DNL Adobe Experience Manager Guides] as a Cloud Service
+# Lançamento de março do [!DNL Adobe Experience Manager Guides] as a Cloud Service
 
-## Atualize para a versão de março
+## Atualização para a versão de março
 
-Atualize seu [!DNL Adobe Experience Manager Guides] as a Cloud Service (mais tarde conhecido como *[!DNL AEM Guides]as a Cloud Service*) configurando executando as seguintes etapas:
-1. Verifique o código GKS do Cloud Services e alterne para a ramificação do Cloud Services configurada no pipeline correspondente ao ambiente que você deseja atualizar.
-1. Atualizar `<dox.version>` propriedade em `/dox/dox.installer/pom.xml` arquivo do código Git do Cloud Services para 2022.3.123.
-1. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de março de [!DNL AEM Guides] as a Cloud Service.
+Atualize seu atual [!DNL Adobe Experience Manager Guides] as a Cloud Service (mais tarde referido como *[!DNL AEM Guides]as a Cloud Service*), executando as seguintes etapas:
+1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline Cloud Services correspondente ao ambiente que você deseja atualizar.
+1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Services para 2022.3.123.
+1. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de março do [!DNL AEM Guides] as a Cloud Service.
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade para os aplicativos de software suportados por [!DNL AEM Guides] Versão as a Cloud Service de março de 2022.
+Esta seção lista a matriz de compatibilidade dos aplicativos de software suportados pela [!DNL AEM Guides] Versão as a Cloud Service de março de 2022.
 
-### Servidor de publicação do FrameMaker e do FrameMaker
+### FrameMaker e FrameMaker Publishing Server
 
 | FMPS | FrameMaker |
 | --- | --- |
-| Não compatível | Atualização 4 e superior de 2020 |
+| Não compatível | Atualização 4 e superior para 2020 |
 |  |  |
 
 
 ### Conector de oxigênio
 
-| [!DNL AEM Guides] Versão da nuvem | Janelas do conector de oxigênio | Conector de oxigênio Mac |
+| [!DNL AEM Guides] Versão na nuvem | Janelas do conector Oxygen | Conector Oxygen Mac |
 | --- | --- | --- |
 | 2022.3.0 | 2.4.0 | 2.4.0 |
 |  |  |  |
 
-*A linha de base e as condições criadas em AEM são suportadas em versões FMPS a partir de 2020.2.
+*A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
 ## Novos recursos e melhorias
 
-### Novo painel de linha de base
+### Novo painel Linha de base
 
-[!DNL AEM Guides] A versão de março as a Cloud Service fornece o recurso Linha de base integrado ao Editor da Web. Agora é possível criar linhas de base no Editor da Web e usá-las para publicar ou traduzir tópicos de diferentes versões.
+[!DNL AEM Guides] A versão as a Cloud Service de março fornece o recurso de linha de base integrado ao Editor da Web. Agora você pode criar linhas de base no Editor da Web e usá-las para publicar ou traduzir tópicos de diferentes versões.
 
-Observação: Para o sistema atualizado, atualize o mais recente **ui_config.json** para Perfil da pasta.
+Observação: para um sistema atualizado, atualize o mais recente **ui_config.json** para Perfil de pasta.
 
-Use esse recurso para criar uma linha de base com uma versão específica dos tópicos disponíveis em uma data e hora específicas. Além disso, você obtém o suporte da API para criar ou atualizar uma linha de base com um rótulo definido para uma versão de tópicos.
+Use este recurso para criar uma linha de base com uma versão específica dos tópicos disponíveis em uma data e hora específicas. Além disso, você obtém o suporte da API para criar ou atualizar uma linha de base com um rótulo definido para uma versão de tópicos.
 
 ![guia gerenciar linha de base](assets/baseline-manage.png)
 
-Você pode pesquisar os arquivos com base em nomes de arquivo ou no local do arquivo. Você também pode filtrar os tópicos a serem exibidos na janela de edição da linha de base e classificá-los com base em colunas específicas.
+Você pode pesquisar os arquivos com base nos nomes ou no local dos arquivos. Você também pode filtrar os tópicos a serem exibidos na janela de edição da linha de base e classificá-los com base em colunas específicas.
 
 ![guia gerenciar linha de base](assets/baseline-filter.png)
 
-O desempenho do processo de criação da linha de base foi aprimorado ainda mais. O processo para criar linhas de base é assíncrono, portanto, você pode continuar editando outros arquivos no Editor da Web enquanto a linha de base estiver sendo criada. Para obter mais detalhes, consulte *Criar e gerenciar linhas de base no Editor da Web* no Guia do usuário.
+O desempenho do processo de criação da linha de base foi melhorado. O processo para criar linhas de base é assíncrono, assim, você pode continuar editando outros arquivos no Editor da Web enquanto a linha de base está sendo criada. Para obter mais detalhes, consulte *Criar e gerenciar linhas de base no Editor da Web* no Guia do usuário.
 
-Observação: A guia Linha de base no painel de mapa está oculta por padrão. O administrador pode ativar a guia Linha de base no painel de mapa.
+Observação: A guia Linha de Base no painel de mapa fica oculta por padrão. O administrador pode habilitar a guia Linha de base no painel do mapa.
 
-### Melhora do comportamento de atualização do Editor da Web
+### Comportamento de atualização do Editor da Web aprimorado
 
-Os seguintes aprimoramentos agora estão disponíveis com a operação de atualização do navegador no Editor da Web:
+Os seguintes aprimoramentos estão disponíveis com a operação de atualização do navegador no Editor da Web:
 
-* Agora você tem suporte para atualizar o navegador enquanto edita seu conteúdo no Editor da Web. Se você clicar no ícone de atualização do navegador enquanto um ou mais arquivos com alterações não salvas forem abertos para edição, será solicitado a salvar seus arquivos ou cancelar a ação de atualização.
+* Agora você obtém o suporte para atualizar o navegador enquanto edita seu conteúdo no Editor da Web. Se você clicar no ícone de atualização do navegador enquanto um ou mais arquivos com alterações não salvas estiverem abertos para edição, será solicitado que você salve os arquivos ou cancele a ação de atualização.
 
 * Mesmo ao atualizar o navegador, as exibições do painel esquerdo e do painel direito são mantidas.
 
@@ -71,30 +71,30 @@ Os seguintes aprimoramentos agora estão disponíveis com a operação de atuali
 
 ### Aprimoramentos de publicação
 
-O processo de publicação foi aprimorado com a versão de março de [!DNL AEM Guides] as a Cloud Service:
+O processo de publicação foi melhorado com a versão de março do [!DNL AEM Guides] as a Cloud Service:
 
-* As linhas de base foram respeitadas para os metadados de saída AEM site. Também é possível processar as propriedades de uma versão da linha de base como metadados. Se nenhuma linha de base for definida, as propriedades da versão mais recente serão processadas como metadados.
+* Linhas de base foram honradas para os metadados de saída do site AEM. Você também pode processar as propriedades de uma versão de linha de base como metadados. Se nenhuma linha de base for definida, as propriedades da versão mais recente serão processadas como metadados.
 
-* O **Nome do arquivo** e **Argumentos da linha de comando DITA-OT** foram adicionadas opções para HTML5, EPUB e predefinições de saída Personalizadas. Agora é possível especificar o nome do arquivo com o qual deseja salvar a saída. Você também pode especificar os argumentos adicionais que deseja que o DITA-OT processe ao gerar a saída.
+* A variável **Nome do arquivo** e **Argumentos de linha de comando DITA-OT** foram adicionadas opções para predefinições de HTML5, EPUB e Saída personalizada. Agora você pode especificar o nome do arquivo com o qual deseja salvar a saída. Você também pode especificar os argumentos adicionais que deseja que o DITA-OT processe ao gerar saída.
 
 ## Problemas corrigidos
 
 Os bugs corrigidos em várias áreas estão listados abaixo:
 
-* Não é possível adicionar elementos de matéria de frente e de fundo em um mapa de favoritos usando a visualização Autor do Editor da Web. (7652)
+* Não é possível adicionar elementos de primeiro plano e de segundo plano em um mapa usando a exibição Autor do Editor da Web. (7652)
 * A árvore de referência é interrompida após a remoção de um tópico e a execução de uma operação de movimentação. (8804)
-* Uma exceção é recebida na visualização do conteúdo após o upload de um ativo. (3638)
-* Ocorre um erro quando os arquivos cuja pasta principal tem caracteres especiais no nome do arquivo são abertos no Oxygen (usando o **Editar no oxigênio** botão). (8918)
-* O **Localizar no repositório** não localiza e realça o mapa DITA no Editor XML. (8796)
-* A filtragem não mostra os resultados apropriados quando vários atributos são adicionados ao conteúdo no Editor XML. (8795)
+* Uma exceção é recebida ao visualizar o conteúdo após fazer upload de um ativo. (3638)
+* O erro ocorre quando arquivos cuja pasta pai tem caracteres especiais no nome do arquivo são abertos no Oxygen (usando o **Editar no Oxygen** botão). (8918)
+* A variável **Localizar No Repositório** A opção não localiza e realça o mapa DITA no Editor XML. (8796)
+* A filtragem não mostra os resultados apropriados quando vários atributos são adicionados ao conteúdo no Editor de XML. (8795)
 * Ocorre um erro ao adicionar um usuário como administrador no perfil da pasta quando a ID do usuário é numérica. (8908)
 
 ## Problemas conhecidos
 
-O Adobe identificou o seguinte problema conhecido na [!DNL AEM Guides] Versão as a Cloud Service de março.
+A Adobe identificou o seguinte problema conhecido no [!DNL AEM Guides] Versão as a Cloud Service de março.
 
-* Remover rótulos em referências diretas também remove os rótulos de referências indiretas.
+* A remoção de rótulos em referências diretas também remove os rótulos de referências indiretas.
 
-* Não é possível refletir o título atualizado da linha de base sem atualizar manualmente o painel de linha de base.
+* Não é possível refletir o título da linha de base atualizado sem atualizar manualmente o painel da linha de base.
 
-* O recurso de visualização de versão no painel Histórico de versões não mostra a visualização de um tópico selecionado.
+* O recurso de visualização de versão no painel Histórico de Versões não mostra a visualização de um tópico selecionado.

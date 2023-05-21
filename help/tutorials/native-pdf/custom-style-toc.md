@@ -1,30 +1,30 @@
 ---
-title: Recurso de publicação do PDF nativo | Aplicar estilo personalizado em entradas de sumário e conteúdo de tópico
-description: Saiba como criar folhas de estilos e criar estilos para o seu conteúdo.
-source-git-commit: 09918abbdade934468dea1c55d0ca2cd60622b35
+title: Recurso de publicação de PDF nativo | Aplicar estilo personalizado em entradas de índice e conteúdo de tópico
+description: Saiba como criar folhas de estilos de uso e criar estilos para o seu conteúdo.
+exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
+source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
+# Aplicar estilo personalizado em entradas de índice e conteúdo de tópico
 
-# Aplicar estilo personalizado em entradas de sumário e conteúdo de tópico
+Às vezes, você pode aplicar um estilo personalizado às entradas do índice ou a um tópico específico. Isso pode ser feito associando um `outputclass` atributo com o `<topicref>` elemento no mapa DITA. Além disso, caso você queira aplicar um formato personalizado a um tópico inteiro, isso também pode ser obtido estendendo a definição de estilo do atributo no CSS.
 
-Às vezes, você pode aplicar um estilo personalizado nas entradas do sumário ou em um tópico específico. Isso pode ser feito associando um `outputclass` com o `<topicref>` no mapa DITA. Além disso, caso você queira aplicar um formato personalizado a um tópico inteiro, isso também pode ser feito estendendo a definição de estilo do atributo no CSS.
+Vamos ver um exemplo de um novo tópico que você deseja enviar para revisão. Para facilitar a identificação do tópico atualizado, é necessário adicionar um `outputclass` atributo para o `<topicref>` no mapa DITA e defina um estilo personalizado para o mesmo no CSS.
 
-Vamos ver um exemplo de um novo tópico que você deseja enviar para revisão. Para facilitar a identificação do tópico atualizado, é necessário adicionar um `outputclass` para a `<topicref>` no mapa DITA e, em seguida, defina um estilo personalizado para o mesmo no CSS.
-
-No exemplo a seguir, a variável *História dos voos* foi atribuído um `outputclass` com o valor de `new-topic`.
+No exemplo a seguir, a variável *Histórico de voos* o tópico recebeu um `outputclass` atributo com o valor de `new-topic`.
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 
-A definição de classe do `new-topic` em um CSS pode permitir definir o estilo para os seguintes itens:
-* A entrada principal no TOC ou miniTOC
+A definição de classe do `new-topic` em um CSS pode permitir a definição do estilo para os seguintes itens:
+* A entrada principal no sumário ou minisumário
 * O título do tópico no conteúdo principal
-* O conteúdo inteiro do tópico, incluindo o título
+* Todo o conteúdo do tópico, incluindo o título
 
-Vamos ver como cada um desses cenários pode ser definido no CSS. Na seguinte definição de CSS da variável `new-topic` , a cor do texto foi alterada.
+Vamos ver como cada um desses cenários pode ser definido no CSS. Na seguinte definição CSS da variável `new-topic` classe, a cor do texto foi alterada.
 
 ```css
 …
@@ -34,15 +34,15 @@ Vamos ver como cada um desses cenários pode ser definido no CSS. Na seguinte de
 …
 ```
 
-Esta definição controla a cor do texto no sumário e o título do tópico. A saída de PDF a seguir mostra a cor diferente aplicada na entrada TOC:
+Essa definição controla a cor do texto no índice e o título do tópico. A saída de PDF a seguir mostra a cor diferente aplicada na entrada de índice:
 
 <img src="./assets/pdf-output-toc-entry.jpg" width="500">
 
-O título do tópico também é estilizado usando a mesma cor.
+O título do tópico também é estilizado com a mesma cor.
 
 <img src="./assets/pdf-output-topic-title.jpg" width="500">
 
-Se quiser que a entrada do sumário e o título do tópico tenham estilos diferentes, é possível defini-los separadamente, conforme mostrado abaixo:
+Se você quiser que a entrada do sumário e o título do tópico tenham estilos diferentes, poderá defini-los separadamente, conforme mostrado abaixo:
 
 ```css
 ...
@@ -58,7 +58,7 @@ Se quiser que a entrada do sumário e o título do tópico tenham estilos difere
 ...
 ```
 
-Por fim, também é possível aplicar estilos em todo o conteúdo do tópico. Para isso, é necessário adicionar um sufixo &quot;`-content`&quot; para o nome da classe. No exemplo a seguir, uma barra de alteração foi adicionada em todo o conteúdo do tópico:
+Por fim, também é possível aplicar estilos a todo o conteúdo do tópico. Para isso, é necessário adicionar um sufixo &quot;`-content`&quot; para o nome da classe. No exemplo a seguir, uma barra de alteração foi adicionada em todo o conteúdo do tópico:
 
 ```css
 ...
@@ -69,8 +69,6 @@ Por fim, também é possível aplicar estilos em todo o conteúdo do tópico. Pa
 ...
 ```
 
-Usando os atributos de estilo acima, uma barra de alteração é adicionada à esquerda da variável *História do voo* tópico, conforme mostrado abaixo:
+Usando os atributos de estilo acima, uma barra de alteração é adicionada à esquerda do *Histórico de voo* tópico, conforme mostrado abaixo:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
-
-

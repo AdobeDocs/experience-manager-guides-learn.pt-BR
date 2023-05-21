@@ -1,17 +1,17 @@
 ---
 title: Visão geral
-description: Visão geral dos guias de AEM do Experience Manager.
+description: Visão geral de guias de AEM Experience Manager.
 source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
 
 # Visão geral {#overview}
 
-Uma visão geral de 1 a 2 frases do produto centrado neste guia do usuário. Este guia do usuário contém vídeos e tutoriais sobre os vários recursos e características da *xyz*.
+Uma visão geral de uma a duas frases do produto no qual este guia do usuário se concentra. Este guia do usuário contém vídeos e tutoriais sobre os vários recursos e funcionalidades do *xyz*.
 
 <!--
 

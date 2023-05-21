@@ -14,10 +14,10 @@ ht-degree: 5%
 Neste curso, você aprenderá a fazer o seguinte:
 
 - [Entender a interface](understanding-the-aem-user-interface.md)
-- [Criar e estruturar conteúdo com a visualização do repositório e o Editor XML](creating-and-structuring-content.md)
+- [Criar e estruturar conteúdo com a visualização de repositório e o Editor de XML](creating-and-structuring-content.md)
 - [Trabalhar com imagens](working-with-images.md)
 - [Adicionar links da Web ao seu conteúdo](linking-to-websites.md)
 - [Trabalhar com listas com marcadores e numeradas](working-with-lists.md)
-- [Versão do conteúdo](versioning-content.md)
+- [Versão do seu conteúdo](versioning-content.md)
 - [Criar e organizar um mapa](creating-a-map.md)
-- [Publicar um mapa como um site AEM e PDF](publishing-default-output.md)
+- [Publicar um mapa como um site e PDF do AEM](publishing-default-output.md)

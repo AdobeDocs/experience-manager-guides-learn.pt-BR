@@ -1,6 +1,6 @@
 ---
-title: Gerar saída do painel Repositório
-description: Saiba como gerar saída do painel Repositório
+title: Gerar saída a partir do painel Repositório
+description: Saiba como gerar saída no painel Repositório
 exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
 source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
@@ -9,21 +9,21 @@ ht-degree: 0%
 
 ---
 
-# Gerar saída do painel Repositório ou do painel Visualização de mapa {#id218CL6010AE}
+# Gerar saída a partir do painel Repositório ou do painel Exibição de mapa {#id218CL6010AE}
 
-Você também pode usar as predefinições de saída criadas para o mapa DITA para gerar saída do painel Repositório ou do painel Visualização de mapa .
+Você também pode usar as predefinições de saída criadas para o mapa DITA para gerar saída a partir do painel Repositório ou do painel Exibição de mapa.
 
-- Use o **Geração rápida** no painel Repositório ou no painel Visualização de mapa para gerar saída para o único tópico selecionado ou para todo o mapa DITA.
+- Use o **Geração rápida** recurso no painel Repositório ou no painel Exibição de mapa para gerar saída para o único tópico selecionado ou para o mapa DITA inteiro.
 
    >[!NOTE]
    >
-   > Você também pode acessar a variável **Geração rápida** do painel Favoritos ou do painel Pesquisar.
+   > Você também pode acessar a variável **Geração rápida** no painel Favoritos ou no painel Pesquisar.
 
-- Use o **Gerar saída** no painel Visualização de mapa para gerar a saída para os vários tópicos selecionados.
+- Use o **Gerar saída** recurso no painel Exibição de mapa para gerar a saída para os vários tópicos selecionados.
 
 ## Publicar um tópico usado em um ou mais mapas DITA
 
-Execute as etapas a seguir para gerar a saída de um ou mais tópicos no mapa DITA:
+Execute as seguintes etapas para gerar saída para um ou mais tópicos em seu mapa DITA:
 
 1. No **Autor** selecione o tópico no mapa DITA que deseja publicar.
 
@@ -33,25 +33,25 @@ Execute as etapas a seguir para gerar a saída de um ou mais tópicos no mapa DI
 1. Para publicar um tópico usado em um único mapa DITA, selecione as predefinições de saída do mapa que deseja usar para publicar e clique em **Gerar**.
    ![](images/select-preset_cs.png){width="350" align="left"}
 
-1. Você verá o status do processo de geração de saída. Para exibir a saída, passe o ponteiro do mouse sobre o tópico e clique em Exibir saída.
+1. Você verá o status do processo de geração de saída. Para exibir a saída, passe o mouse sobre o tópico e clique em Exibir saída.
 
-1. Se você tiver um tópico comum que seja usado em vários tópicos, selecione os vários mapas DITA e também as predefinições de saída que deseja usar para publicar e clicar **Gerar.**
+1. Se você tiver um tópico comum que seja usado em vários tópicos, selecione os vários mapas DITA e também as predefinições de saída que deseja usar para publicar e clique em **Gerar.**
 
    ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
 
 1. Você verá o status do processo de geração de saída.
 
-   - **Tópicos**: Lista os tópicos selecionados para os quais a saída está sendo gerada.
-   - **Predefinição**: Exibe as predefinições de saída que contêm os tópicos selecionados.
-   - **Mapa**: Lista os mapas DITA que contêm o tópico selecionado.
-   - **Status**: Exibe o status de publicação de cada tópico.
-Para exibir a saída, passe o ponteiro do mouse sobre o tópico e clique em Exibir saída.
+   - **Temas**: lista os tópicos selecionados para os quais a saída está sendo gerada.
+   - **Predefinição**: exibe as predefinições de saída que contêm os tópicos selecionados.
+   - **Mapa**: lista os mapas DITA que contêm o tópico selecionado.
+   - **Status**: exibe o status de publicação de cada tópico.
+Para exibir a saída, passe o mouse sobre o tópico e clique em Exibir saída.
       ![](images/output-multiple-maps_cs.png){width="800" align="left"}
 
 
-## Gerar saída para um mapa DITA no Editor da Web
+## Gerar saída para um mapa DITA do Editor da Web
 
-Execute as etapas a seguir para gerar a saída para todo o mapa DITA:
+Execute as seguintes etapas para gerar a saída para todo o mapa DITA:
 
 1. No **Autor** selecione o mapa DITA que deseja publicar.
 
@@ -59,18 +59,18 @@ Execute as etapas a seguir para gerar a saída para todo o mapa DITA:
 
    ![](images/select-map-options-menu_cs.png){width="650" align="left"}
 
-1. Selecione as predefinições de saída do mapa DITA que deseja usar para publicar e clicar **Gerar.**
+1. Selecione as predefinições de saída do mapa DITA que deseja usar para publicar e clique em **Gerar.**
 
-1. Você verá o status do processo de geração de saída. Para exibir a saída, passe o ponteiro do mouse sobre o tópico e clique em Exibir saída.
+1. Você verá o status do processo de geração de saída. Para exibir a saída, passe o mouse sobre o tópico e clique em Exibir saída.
 
 
 ## Gerar saída para mais de um tópico
 
-Execute as etapas a seguir para gerar a saída de mais de um tópico no mapa DITA no painel Visualização de mapa :
+Execute as seguintes etapas para gerar saída para mais de um tópico no mapa DITA a partir do painel Exibição de mapa:
 
 1. No **Autor** selecione os tópicos que deseja publicar.
 
-1. Selecionar **Gerar saída** no menu Opções, na parte inferior.
+1. Selecionar **Gerar saída** no menu Opções na parte inferior.
 
 1. Selecione a predefinição de saída do mapa DITA que deseja usar para publicar.
 
@@ -83,4 +83,4 @@ Execute as etapas a seguir para gerar a saída de mais de um tópico no mapa DIT
 1. Você verá o status do processo de geração de saída. Para exibir a saída, passe o ponteiro do mouse sobre o tópico e clique em Exibir Saída.
 
 
-**Tópico principal:**[ Publicação baseada em artigo no Editor da Web](web-editor-article-publishing.md)
+**Tópico pai:**[ Publicação baseada em artigos no Editor da Web](web-editor-article-publishing.md)

@@ -15,7 +15,7 @@ Execute as seguintes etapas para criar predefinições de saída para o mapa DIT
 
 1. Na interface do usuário do Assets, navegue até o arquivo de mapa que deseja editar.
 
-1. Para obter um bloqueio exclusivo no arquivo de mapa, selecione o arquivo de mapa e clique em **Check-out**.
+1. Para obter um bloqueio exclusivo sobre o arquivo de mapa, selecione o arquivo de mapa e clique em **Check-out**.
 
 1. Selecione o **Editar tópicos** no menu de ações no arquivo de mapa.
 
@@ -25,7 +25,7 @@ Execute as seguintes etapas para criar predefinições de saída para o mapa DIT
    >
    > É possível adicionar ou excluir qualquer tópico do mapa usando o Editor de mapa avançado. Para obter mais detalhes, consulte [Trabalhar com o Editor de mapa avançado](map-editor-advanced-map-editor.md#).
 
-1. No **Saída** selecione o ícone + para criar uma predefinição de saída para o mapa DITA.
+1. No **Output** selecione o ícone + para criar uma predefinição de saída para o mapa DITA.
 
    ![](images/output-tab-preset_cs.png){width="350" align="left"}
 
@@ -33,29 +33,29 @@ Execute as seguintes etapas para criar predefinições de saída para o mapa DIT
 
 1. Insira os detalhes de configuração a seguir.
 
-   1. Selecione as opções necessárias na **Geral** guia . Você pode optar por criar uma predefinição de saída com ou sem condições. Você também pode usar um arquivo DISVAL. Guias de AEM também permitem selecionar uma linha de base para publicar uma versão específica do mapa DITA.
-   1. Insira os detalhes do AEM Site na **AEM** guia . **Site** exibe a lista da AEM Sites disponível em seu repositório AEM. **Categoria**, **Modelo de seção** e **Modelo de artigo** são os componentes estruturais usados para organizar a aparência de sua saída. Eles são predefinidos no modelo de Site de AEM.
+   1. Selecione as opções necessárias no **Geral** guia. É possível optar por criar uma predefinição de saída com ou sem condições. Você também pode usar um arquivo DITVAL. O Guia AEM também permite selecionar uma linha de base para publicar uma versão específica do mapa DITA.
+   1. Insira os detalhes do site do AEM na **AEM** guia. **Site** exibe a lista do AEM Sites disponível no repositório AEM. **Categoria**, **Modelo de seção**, e **Modelo do artigo** são os componentes estruturais usados para organizar a aparência da saída. Eles são predefinidos no modelo de site AEM.
 
       >[!NOTE]
       >
-      > Atualize cada lista suspensa para obter a classificação adicional na próxima lista suspensa.
+      > Atualize cada lista suspensa para obter mais classificações na próxima lista suspensa.
 
    1. No **Artigos** selecione os tópicos para os quais deseja gerar a saída.
 1. Selecione o **Gerar predefinição** ícone na parte superior para gerar a saída.
 
    ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
-1. Você verá o status do processo de geração de saída. O **Tópicos** lista os tópicos para os quais a saída está sendo gerada enquanto a variável **Status** exibe o status de publicação de cada tópico.
+1. Você verá o status do processo de geração de saída. A variável **Temas** lista os tópicos para os quais a saída está sendo gerada enquanto a variável **Status** exibe o status de publicação de cada tópico.
 
-   Para exibir a saída, passe o ponteiro do mouse sobre o tópico e clique em Exibir saída.
+   Para exibir a saída, passe o mouse sobre o tópico e clique em Exibir saída.
 
    ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
 
 
 >[!NOTE]
 >
-> Também é possível editar, renomear, duplicar ou excluir uma predefinição de saída existente no menu Opções.
+> Também é possível Editar, Renomear, Duplicar ou Excluir uma predefinição de saída existente no menu Opções.
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Tópico principal:**[ Publicação baseada em artigo no Editor da Web](web-editor-article-publishing.md)
+**Tópico pai:**[ Publicação baseada em artigos no Editor da Web](web-editor-article-publishing.md)

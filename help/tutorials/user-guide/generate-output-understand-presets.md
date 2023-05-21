@@ -1,24 +1,24 @@
 ---
-title: Noções básicas das predefinições de saída
+title: Noções básicas sobre as predefinições de saída
 description: Saiba como entender as predefinições de saída
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 2%
 
 ---
 
+# Noções básicas sobre as predefinições de saída {#understanding_output_settings}
 
-# Noções básicas das predefinições de saída {#understanding_output_settings}
-
-Os Guias de AEM oferecem suporte para a criação de saída nos formatos mais populares, como AEM Site, PDF, HTML5, EPUB, JSON e saída personalizada por meio de DITA-OT, PDF nativo e FMPS. Com esses formatos de saída, você pode configurar várias predefinições de saída. Uma predefinição de saída representa um formato de saída personalizado no qual você deseja que o conteúdo seja publicado.
+O AEM Guides suporta a criação de saída nos formatos mais populares, como AEM Site, PDF, HTML5, EPUB, JSON e saída personalizada através de DITA-OT, PDF nativo e FMPS. Usando esses formatos de saída, é possível configurar várias predefinições de saída. Uma predefinição de saída representa um formato de saída personalizado no qual você deseja que o conteúdo seja publicado.
 
 As seções a seguir explicam as opções disponíveis para os formatos de saída compatíveis.
 
-É possível criar predefinições de duas formas:
+É possível criar predefinições de duas maneiras:
 
-- **No Editor Web**: Você pode criar AEM predefinição de saída Site, PDF, HTML, Knowledge Base, HTML5, Custom e JSON e gerar as respectivas saídas.
-- **No painel de mapa**: Você pode criar AEM predefinição de saída Site, PDF, HTML5, EPUB e personalizada e gerar as respectivas saídas.
+- **No Editor da Web**: Você pode criar uma predefinição de saída AEM Site, PDF, HTML, Knowledge Base, HTML5, Custom e JSON e gerar as respectivas saídas.
+- **No painel do mapa**: você pode criar um site AEM, PDF, HTML5, EPUB e uma predefinição de saída personalizada e gerar as respectivas saídas.
 
 As seções a seguir explicam as opções disponíveis para os formatos de saída compatíveis.
 
@@ -28,12 +28,11 @@ As seções a seguir explicam as opções disponíveis para os formatos de saíd
 
 - **[HTML 5](generate-output-html5.md)**
 
-- **[ePub](generate-output-epub.md)**
+- **[EPUB](generate-output-epub.md)**
 
 - **[Personalizado](generate-output-custom.md)**
 
 - **[JSON](generate-output-json.md)**
 
 
-**Tópico principal:**[ Geração de saída](generate-output.md)
-
+**Tópico pai:**[ Geração de saída](generate-output.md)

@@ -11,63 +11,63 @@ ht-degree: 0%
 
 # Estado do documento {#id1821HC00URO}
 
-Para gerenciar a prontidão dos documentos, os Guias AEM fornecem propriedade de estado do documento para indicar o estado atual do documento. Os estados de documentos ajudam você a descobrir rapidamente se um documento é novo, em revisão ou no estado de revisão concluído.
+Para gerenciar a prontidão dos documentos, as Guias do AEM fornecem propriedade de estado do documento para indicar o estado atual do documento. Os estados do documento ajudam você a descobrir rapidamente se um documento é novo, está em revisão ou se está no estado concluído.
 
-## Tipos de estados do documento
+## Tipos de estados de documentos
 
-Um documento pode ter qualquer um dos estados do documento definidos no perfil Estado do documento. Por exemplo, um documento pode ter qualquer um dos seguintes Estados de documento:
+Um documento pode ter qualquer um dos estados de documento definidos no perfil Estado do documento. Por exemplo, um documento pode ter qualquer um dos seguintes Estados do documento:
 
 - Rascunho - Indica que o documento foi criado e salvo com novas alterações.
 - Em revisão - Indica que um fluxo de trabalho de revisão foi iniciado para o documento.
 - Revisado - Indica que o documento foi revisado pelos usuários pretendidos.
 
-Esses estados são definidos manual ou automaticamente de acordo com as configurações de perfil Estados do documento. Por exemplo, se o perfil Estado do documento estiver configurado com o estado inicial como Rascunho e o estado Em revisão for definido para documentos sob revisão. Em seguida, quando você cria um documento, o estado do documento é definido como *Rascunho*. Se você iniciar uma tarefa de revisão, o estado do documento será alterado para Em revisão.
+Esses estados são definidos manual ou automaticamente de acordo com as configurações do perfil Estados do documento. Por exemplo, se o perfil de Estado do documento estiver configurado com o estado inicial como Rascunho e o estado Em revisão estiver definido para documentos em revisão. Em seguida, ao criar um documento, o estado do documento é definido como *Rascunho*. Se você iniciar uma tarefa de revisão, o estado do documento será alterado para Em revisão.
 
-Também é possível alterar manualmente o estado do documento para um ou vários documentos. No entanto, se você optar por alterar o estado do documento para vários documentos, o estado permitido será determinado pelos estados comuns permitidos para os documentos selecionados. Por exemplo, digamos que você tenha definido os estados do documento como Rascunho, Em revisão, Revisado e Pronto para publicar, na mesma ordem. No documento um.dita, o estado está definido como *Rascunho* e no documento dois.dita, o estado é definido como Reviewed. Quando você seleciona—one.dita e two.dita, o estado do documento permitido será *Pronto para publicar*. Como dois.dita está em *Revisado* estado, o próximo estado possível para two.dita é somente *Pronto para publicar*, que é exibido quando ambos os documentos são selecionados.
+Você também pode alterar manualmente o estado do documento para um ou vários documentos. No entanto, se você optar por alterar o estado do documento para vários documentos, o estado permitido será determinado pelos estados comuns permitidos para os documentos selecionados. Por exemplo, digamos que você tenha definido os estados do documento como Rascunho, Em revisão, Revisado e Pronto para publicar, na mesma ordem. No documento one.dita, o estado é definido como *Rascunho* e no document two.dita, o estado é definido como Reviewed. Quando você selecionar ambos — one.dita e two.dita, o estado do documento permitido será *Pronto para publicar*. Como two.dita está em *Revisado* estado, o próximo estado possível para two.dita é apenas *Pronto para publicar*, que é mostrado quando ambos os documentos são selecionados.
 
 >[!NOTE]
 >
-> Um documento pode existir em apenas um estado por vez.
+> Um documento só pode existir em um estado por vez.
 
 ## Alterar estado do documento
 
 Para alterar o estado de um documento, execute as seguintes etapas:
 
-1. Na interface do usuário do Assets, selecione mais um documento para o qual deseja alterar o estado do documento.
+1. Na interface do usuário do Assets, selecione um ou mais documentos cujo estado do documento você deseja alterar.
 1. Na barra de ferramentas principal, clique em **Propriedades**.
-1. Selecione o novo estado no **Estado do documento** lista suspensa. Você pode selecionar apenas os estados do documento permitidos na seção Transição de Estado do perfil de Estado do Documento.
+1. Selecione o novo estado na **Estado do documento** menu suspenso. Você pode selecionar apenas os estados do documento permitidos na seção Transição de estado do perfil Estado do documento.
 
    >[!NOTE]
    >
-   >Os administradores podem ver todos os estados do documento e alterar o documento para qualquer estado possível.
+   >Os administradores podem visualizar todos os estados do documento e alterá-lo para qualquer estado possível.
 
 1. Clique em **Salvar e fechar**.
 
 ## Exibir estado do documento
 
-A exibição de cartão da interface do usuário do Assets mostra o estado atual junto com a data e o tamanho de criação do respectivo tópico DITA ou mapa DITA.
+A exibição de cartão da interface do usuário do Assets mostra o estado atual juntamente com a data de criação e o tamanho do respectivo tópico DITA ou mapa DITA.
 
 ![](images/document_state.png){width="800" align="left"}
 
 ## Usar estados de documento no DDLC
 
-Os estados de documentos desempenham um papel importante no gerenciamento do ciclo de vida dos documentos no DDLC. Se sua organização seguir rigorosamente o DDLC, ter um mecanismo para controlar documentos de edição com base em seu estado se tornará um recurso essencial. Por exemplo, você pode permitir a edição de documentos quando eles estiverem em *Rascunho* ou *Na revisão* estados. No entanto, uma vez que um documento seja revisto e esteja pronto para publicar, deverá existir uma forma de evitar novas alterações de documentos.
+Os estados do documento desempenham um papel importante no gerenciamento do ciclo de vida dos documentos no DDLC. Se sua organização seguir estritamente o DDLC, ter um mecanismo para controlar a edição de documentos com base em seu estado se torna um recurso essencial. Por exemplo, você pode permitir a edição de documentos quando eles estiverem em *Rascunho* ou *Em revisão* estados. No entanto, quando um documento é revisado e está pronto para ser publicado, deve haver uma maneira de impedir novas modificações nos documentos.
 
-AEM Guias fornece fluxo de trabalho de aprovação de documento, que ajuda você a controlar o ciclo de vida do seu processo de desenvolvimento de documento. Quando um documento estiver pronto para publicar ou atingir o penúltimo estado, você poderá marcá-lo como aprovado. Depois que um documento é aprovado, AEM Guias cria uma nova versão do documento e o torna somente leitura. Em seguida, você pode mover o documento para publicação ou criar uma linha de base para processamento adicional.
+O Guia AEM fornece fluxo de trabalho para aprovação de documentos, que ajuda a controlar o ciclo de vida do processo de desenvolvimento de documentos. Quando um documento estiver pronto para publicação ou tiver atingido o penúltimo estado, você poderá marcá-lo como aprovado. Depois que um documento é aprovado, o Guia AEM cria uma nova versão do documento e o torna somente leitura. Você pode então mover o documento para publicação ou criar uma linha de base para processamento adicional.
 
-Para iniciar um novo formulário de versão dos documentos marcados como aprovados, um autor deve iniciar uma nova versão. Iniciar uma nova versão altera o estado do documento para *Rascunho* novamente. Alterando o estado do documento para *Rascunho*, o documento será editável novamente e você poderá continuar trabalhando na próxima versão.
+Para iniciar uma nova versão dos documentos marcados como aprovados, um autor precisa iniciar uma nova versão. Iniciar uma nova versão altera o estado do documento para *Rascunho* novamente. Ao alterar o estado do documento para *Rascunho*, o documento se tornará editável novamente e você poderá continuar trabalhando na próxima versão.
 
-Para usar o recurso de aprovação do documento, execute as seguintes etapas:
+Para usar o recurso de aprovação de documento, execute as seguintes etapas:
 
 >[!NOTE]
 >
-> O recurso de fluxo de trabalho de aprovação deve ser habilitado pelo administrador. Para obter mais detalhes, consulte *Ativar fluxo de trabalho de aprovação* na seção Instalar e configurar os guias do Adobe Experience Manager as a Cloud Service.
+> O recurso de fluxo de trabalho de aprovação deve ser habilitado pelo administrador. Para obter mais detalhes, consulte *Ativar fluxo de trabalho de aprovação* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
-1. No Editor da Web, abra o documento que deseja marcar para aprovação.
+1. No Editor da Web, abra o documento que você deseja marcar para aprovação.
 
-1. Clique no botão **Marca aprovada**![](images/mark_approve_icon.svg)&#x200B;ícone .
+1. Clique em **Marcar como aprovado**![](images/mark_approve_icon.svg)&#x200B;ícone.
 
-1. Se o documento estiver no estado para ser marcado como aprovado, a seguinte caixa de diálogo será exibida:
+1. Se o documento estiver no estado a ser marcado como aprovado, a seguinte caixa de diálogo será exibida:
 
    ![](images/mark-approved-correct-state.png){width="300" align="left"}
 
@@ -81,24 +81,24 @@ Para usar o recurso de aprovação do documento, execute as seguintes etapas:
    >
    > Se o administrador não tiver configurado uma lista predefinida de rótulos, você verá um campo de texto de forma livre para inserir um rótulo.
 
-1. Depois que o documento for marcado com êxito como aprovado, um **Visualizar** do documento é mostrado no modo somente leitura.
+1. Depois que o documento for marcado como aprovado com êxito, uma **Visualizar** do documento é exibido no modo somente leitura.
 
    ![](images/approved-doc-read-only.png){width="650" align="left"}
 
    >[!NOTE]
    >
-   > No modo Visualização , todas as opções de edição são removidas da barra de ferramentas. Além disso, a exibição Autor e Origem do documento também foi removida da navegação superior.
+   > No modo de Visualização, todas as opções de edição são removidas da barra de ferramentas. Além disso, a visualização Autor e Fonte do documento também foi removida da navegação superior.
 
 
-Depois que um documento é marcado como aprovado, ele não está mais disponível para edição. Se você quiser usar o documento para a próxima versão, será necessário trazê-lo de volta ao *Rascunho* estado. Para alterar o estado do documento de um documento aprovado de volta para *Rascunho* execute as seguintes etapas:
+Depois que um documento é marcado como aprovado, ele não fica mais disponível para edição. Se quiser usar o documento para a próxima versão, será necessário trazê-lo de volta para a *Rascunho* estado. Para alterar novamente o estado do documento de um documento aprovado para *Rascunho* , execute as seguintes etapas:
 
-1. Em um documento aprovado, clique no botão **Iniciar uma nova versão** Ícone ![](images/approved-restart-draft-mode-icon.svg).
+1. Em um documento aprovado, clique no **Iniciar uma nova versão** Ícone ![](images/approved-restart-draft-mode-icon.svg).
 
    A mensagem Iniciar nova versão é exibida.
 
-1. Clique em **Confirmar**.
+1. Clique em **Confirmar o**.
 
    O estado do documento é alterado para Rascunho e o documento é aberto no Editor da Web no modo de edição.
 
 
-**Tópico principal:**[ Trabalhar com o editor da Web](web-editor.md)
+**Tópico pai:**[ Trabalhar com o editor da Web](web-editor.md)
