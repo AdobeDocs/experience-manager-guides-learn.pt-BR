@@ -2,16 +2,18 @@
 title: Criar tópicos
 description: Saiba como criar tópicos
 exl-id: 336bbbff-f268-40be-ad3a-9c72923be71b
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: e69665f3c4a0db10365719ac671cbd3ac0c455ec
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
 
 # Criar tópicos {#id2056AL00O5Z}
 
-O AEM Guides permite criar tópicos DITA do tipo — tópico, tarefa, conceito, referência, glossário, DITAVAL e muito mais. Além de criar tópicos com base nos modelos prontos para uso, também é possível definir seus modelos personalizados. Para obter mais informações sobre o uso de modelos DITA personalizados, consulte *Configurar modelos e tags para criação* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+O AEM Guides permite criar tópicos DITA do tipo — tópico, tarefa, conceito, referência, glossário, DITAVAL e muito mais. Além de criar tópicos com base nos modelos prontos para uso, também é possível definir seus modelos personalizados. Esses modelos devem ser adicionados ao perfil da pasta para serem exibidos no Blueprint de seleção de modelo e no Editor da Web.
+
+Observe que a configuração Global e Perfil de pasta está disponível somente para usuários administrativos no nível da pasta. Para obter detalhes sobre a configuração de perfis globais e de nível de pasta, consulte *Configurar modelos de criação* em Instalar e configurar o Adobe Experience Manager Guides para a sua configuração.
 
 Execute as seguintes etapas para criar um tópico:
 
@@ -23,7 +25,7 @@ Execute as seguintes etapas para criar um tópico:
 
    ![](images/create_dita_topic.png){width="800" align="left"}
 
-   Por padrão, os Guias do AEM fornecem os modelos de tópicos DITA mais usados. É possível configurar mais modelos de tópico de acordo com seus requisitos organizacionais. Consulte *Configurar modelos e tags para criação* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+   Por padrão, os Guias do AEM fornecem os modelos de tópicos DITA mais usados. É possível configurar mais modelos de tópico de acordo com seus requisitos organizacionais. Consulte *Configurar modelos de criação* em Instalar e configurar o Adobe Experience Manager Guides para a sua configuração.
 
    >[!NOTE]
    >

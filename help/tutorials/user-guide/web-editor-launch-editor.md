@@ -2,9 +2,9 @@
 title: Iniciar o Editor da Web
 description: Saiba como iniciar o editor da Web
 exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,34 @@ As seções a seguir abordam os detalhes de como você pode acessar e iniciar o 
 
 Ao fazer logon no AEM, você verá a página Navegação:
 
-![](images/web-editor-from-navigation-page_cs.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Ao clicar no botão **Editor XML** O link direciona você para o Editor da Web.
+Clicar no **Guias** O link direciona você para o Editor da Web.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 Como você iniciou o Editor da Web sem selecionar nenhum arquivo, uma tela em branco do Editor da Web é exibida. Você pode abrir um arquivo para edição no repositório AEM ou na sua coleção Favoritos.
+
+- Clique em **Guias** ícone (![](images/aem-guides-icon.png) ), para voltar à página de Navegação por AEM.
+
+- A variável **Fechar** leva você a um destino com base em sua configuração:
+
+
+
+   <details>
+
+   <summary> Cloud Services </summary>
+
+   Se estiver usando Cloud Services, clique no link **Fechar** botão para voltar à página de Navegação AEM.
+   </details>
+
+   <details>
+
+   <summary> Software local</summary>
+
+   Se você estiver usando o Software no local Guias do AEM (4.2.1 e posterior), clique no link **Fechar** botão à direita para voltar ao caminho do arquivo atual na interface do usuário do Assets.
+
+   </details>
 
 ## Interface do usuário do AEM Assets {#id2056BG0307U}
 
@@ -53,7 +74,7 @@ Outro local onde você pode iniciar o Editor da Web é na interface do usuário 
 
    >[!IMPORTANT]
    >
-   > Se o administrador tiver configurado a variável **Desativar Edição Sem Check-Out** , você deverá fazer check-out do arquivo antes de editar. Se você não fizer check-out do arquivo, não poderá ver a opção de edição.
+   > Se o administrador tiver configurado a variável **Desativar Edição Sem Check-Out** , você deverá fazer check-out do arquivo antes de editar. Se não fizer check-out do arquivo, você não poderá ver a opção de edição.
 
 1. Feche o modo de seleção de ativos e clique no tópico que deseja editar.
 

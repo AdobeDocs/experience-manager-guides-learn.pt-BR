@@ -2,9 +2,9 @@
 title: Práticas recomendadas para tradução de conteúdo
 description: Saiba como aplicar as práticas recomendadas para tradução de conteúdo
 exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1285'
 ht-degree: 1%
 
 ---
@@ -103,6 +103,16 @@ Execute as seguintes etapas para criar um projeto de tradução:
 1. Clique em **Início** para criar um novo projeto de tradução.
 
    Um novo projeto de tradução é criado com a versão selecionada dos tópicos. No momento, uma mensagem pop-up é exibida confirmando que o projeto de tradução foi criado. Quando todas as cópias de idioma de destino estiverem disponíveis no projeto de tradução, você receberá uma notificação na Caixa de entrada. Depois que a área de cópias do idioma de destino estiver disponível no projeto de tradução, você poderá continuar e iniciar o trabalho de tradução.
+
+   ![](images/status-translation-uuid.png){width="800" align="left"}
+
+
+A guia Tradução tem as seguintes seções:
+
+- **Resumo**: mostra o número de tópicos e o idioma de origem referenciados junto com seu código.
+- **Detalhes**: Mostra o título do tópico, o tipo de tópico, o código do idioma do tópico, o idioma de origem, a versão do tópico de origem, o rótulo adicionado ao tópico e o status da tradução.
+
+
 
 
 ## Iniciar o trabalho de tradução {#id225IK030OE8}
