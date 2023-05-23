@@ -1,9 +1,9 @@
 ---
 title: Notas de versão | Novidades na versão 4.2.1 dos Guias do Adobe Experience Manager
 description: Conheça os recursos novos e aprimorados das versões 4.2.1 do Adobe Experience Manager Guides
-source-git-commit: 66b83f940457c64dadc5b319e1274960ac0f6da8
+source-git-commit: 8ea7b6d80b94d24910ac00bf1fb1d40d6992a166
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Agora é possível navegar facilmente do Editor da Web para a página de Navega�
 
 * Clique em **Guias** ícone (![](assets/aem-guides-icon.png) ), para voltar à página de Navegação por AEM.
 
+
+Para obter mais detalhes, consulte [Página de navegação do AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)
 
 ## Suporte a metadados avançados na publicação do PDF
 
@@ -45,7 +47,7 @@ A Exibição de estrutura de tópicos fornece as seguintes melhorias:
 
 * Usando o recurso de pesquisa, você pode pesquisar um elemento por seu nome, id, texto ou valor de atributo.
 
-Para obter mais detalhes, consulte a descrição do recurso Modo de exibição de Estrutura de Tópicos na [Painel esquerdo](../user-guide/web-editor-features.md) seção.
+Para obter mais detalhes, consulte a descrição do recurso Modo de exibição de Estrutura de Tópicos na [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS) seção.
 
 ## Gerar o relatório Multimídia no Editor da Web
 
@@ -80,4 +82,4 @@ O AEM Guides agora fornece o recurso para abrir e reproduzir os arquivos de áud
 
 <img src="assets/video-web-editor.png" alt="reproduzir vídeo" width="600">
 
-Para obter mais detalhes, consulte a descrição do recurso Exibição do repositório no [Painel esquerdo](../user-guide/web-editor-features.md) seção.
+Para obter mais detalhes, consulte a descrição do recurso Exibição do repositório no [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS) seção.
