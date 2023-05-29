@@ -2,9 +2,9 @@
 user-guide-title: Tutorials do AEM Guides
 user-guide-description: Leia nossa coleção de tutoriais do Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials do AEM Guides
-source-git-commit: 6982737881d7dcf314d28a69060db7031e156c76
+source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1009'
 ht-degree: 6%
 
 ---
@@ -220,9 +220,6 @@ ht-degree: 6%
       + [Traduzir conteúdo](./install-guide/translation.md)
       + [Configurar pesquisa para a interface do usuário do AEM Assets](./install-guide/conf-dita-search.md)
       + [Apêndice](./install-guide/appendix.md)
-+ Arquitetura de conteúdo e casos de uso {#content-arch}
-   + [Trabalhar com saída condicional](./content-architecture/create-and-use-conditions.md)
-   + [Criar chaves globais](./content-architecture/create-global-keys.md)
 + Configuração {#configuring}
    + Publicação de PDF nativo {#config-native-pdf-publish}
       + [Modelo PDF](./native-pdf/pdf-template.md)
@@ -235,9 +232,6 @@ ht-degree: 6%
          + [Adicionar um marcador personalizado na saída do PDF](./native-pdf/add-custom-bookmark.md)
          + [Usar JavaScript para trabalhar com conteúdo ou estilo](./native-pdf/use-javascript-content-style.md)
          + [Usar estilos personalizados em notas de rodapé](./native-pdf/footnote-number-style.md)
-   + [Configurar um DITA-OT personalizado](./configuring/setup-a-custom-dita-ot.md)
-+ Tradução {#translation}
-   + [Excluir parágrafos da tradução](./translation/exclude-paragraphs-from-translation.md)
 + Versões {#versioning}
 + Knowledge Base {#knowledge-base}
    + Sessão com especialista {#expert-session}
@@ -261,5 +255,11 @@ ht-degree: 6%
          + [FMPS e guias](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [Arquitetura e desempenho de microsserviços](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [Configurar publicação baseada em microsserviços](./knowledge-base/publishing/configure-microservices.md)
+         + [Configurar um DITA-OT personalizado](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       + Fluxos de trabalho {#workflows}
          + [Fluxo de trabalho de pós-geração](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+      + Tradução {#translation}
+         + [Excluir parágrafos da tradução](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
+      + Casos de uso {#use-cases}
+         + [Trabalhar com conteúdo condicional](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
+         + [Trabalhar com chaves](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
