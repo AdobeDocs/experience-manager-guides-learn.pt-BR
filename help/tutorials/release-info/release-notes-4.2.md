@@ -2,7 +2,7 @@
 title: Notas de versão | Versão do Adobe Experience Manager Guides 4.2
 description: Saiba mais sobre as correções de erros e como atualizar para as versões 4.2 do Adobe Experience Manager Guides
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: a54ada55dad4ff8da8eee3dccb5ad9028b4cdc9e
+source-git-commit: b7a6cb6086e94e2c0cbed8e35ca8d194a4fa36d4
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 6%
@@ -11,7 +11,7 @@ ht-degree: 6%
 
 # Versão 4.2 do Adobe Experience Manager Guides (fevereiro de 2023)
 
-Esta nota de versão aborda as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos na versão 4.2 dos Guias da Adobe Experience Manager (mais tarde chamados de *Guias do AEM*).
+Esta nota de versão aborda as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos na versão 4.2 do Adobe Experience Manager Guides (mais tarde chamados de *Guias do AEM*).
 
 Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades da versão 4.2 dos Guias do Adobe Experience Manager](whats-new-4.2-release.md).
 

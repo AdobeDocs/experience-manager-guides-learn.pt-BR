@@ -2,9 +2,9 @@
 title: Conhecer os recursos do Editor da Web
 description: Saiba como conhecer os recursos do Editor da Web
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: f7eea65f58927527dbd90138a653f75ee181d141
+source-git-commit: e7a34908b0e61d33469ef83683507f16ab12f0bd
 workflow-type: tm+mt
-source-wordcount: '14387'
+source-wordcount: '14919'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,7 @@ As Preferências do usuário estão disponíveis para todos os autores. Usando a
 
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
+- **Usar tema do dispositivo**: marque essa caixa de seleção para permitir que Guias do AEM alternem automaticamente entre temas claros e escuros com base no tema do seu dispositivo.
 - **Tema**: Você pode escolher entre os temas Claro, Mais claro, Escuro ou Mais escuro do editor. No caso do tema Mais claro, as barras de ferramentas e os painéis usam um plano de fundo de cor cinza mais claro. No caso do tema claro, as barras de ferramentas e os painéis usam o plano de fundo cinza-claro. No caso do tema Mais escuro, as barras de ferramentas e os painéis usam um plano de fundo de cor preta mais escuro. No caso do tema Escuro, as barras de ferramentas e os painéis usam o plano de fundo preto. Em todos os temas, a área de edição de conteúdo é mostrada em fundo branco.
 
 - **Perfis de pasta**: o Perfil de pasta controla várias configurações relacionadas a atributos condicionais, modelos de criação, predefinições de saída e configurações do Editor da Web. O Perfil global é exibido por padrão. Além disso, se o administrador tiver configurado perfis de pastas no sistema, esses perfis de pastas também serão mostrados na lista Perfis de pastas.
@@ -671,9 +672,20 @@ Para adicionar um arquivo à sua coleção favorita, use um dos seguintes métod
    ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
+** Menu Opções para a coleção Favoritos**\
+Também é possível executar muitas ações usando o menu Opções disponível para uma coleção Favoritos:
+
+![](images/favorites-options.png){width="400" align="left"}
+- **Renomear**: renomeie a coleção selecionada.
+- **Excluir**: exclui o arquivo selecionado.
+- **Atualizar**: obtenha uma nova lista de arquivos e pastas do repositório.
+- **Exibir na interface do usuário do Assets**: mostrar o conteúdo do arquivo ou da pasta na interface do usuário do Assets.
+
+
 >[!NOTE]
 >
-> Para remover um item da lista de favoritos, clique no ícone Opções ao lado do arquivo ou pasta na lista Favoritos e escolha **Remover dos Favoritos**.
+> Você também pode atualizar a lista usando o ícone Atualizar na parte superior.
+
 
 **Visualização do repositório** - ![](images/Repository_icon.svg)
 
@@ -761,6 +773,8 @@ Você verá diferentes opções no menu Opções dependendo se você seleciona u
 - Duplicar
 - Check-out/Check-in
 - Visualizar
+- Mover para
+- Renomear
 - Excluir
 - Copiar
 - Recolher Tudo
@@ -784,6 +798,41 @@ As várias opções no menu Opções são explicadas abaixo:
 - **Visualizar**: obtenha uma visualização rápida do arquivo \(.dita/.xml\) sem abri-lo.
 
    ![](images/quick-preview_cs.png){width="800" align="left"}
+
+- **Renomear**: use essa opção para renomear o arquivo selecionado. Insira o nome do novo arquivo nas **Renomear ativo** diálogo.
+   - É possível renomear arquivos de qualquer tipo.
+   - Não é possível alterar a extensão de um arquivo.
+   - Dois arquivos não podem ter o mesmo nome. Portanto, não é possível renomear um arquivo com um nome que já existe. Um erro é exibido.
+
+- **Mover para**: use essa opção para mover o arquivo selecionado para outra pasta.
+   - Você pode digitar o nome da pasta de destino ou escolher **Selecionar caminho** para selecionar a pasta de destino.
+   - É possível mover um arquivo de qualquer tipo para qualquer destino na pasta Conteúdo.
+   - Dois arquivos não podem ter o mesmo nome. Portanto, não é possível mover um arquivo para uma pasta na qual já exista um arquivo com o mesmo nome.
+
+   Se você tentar mover um arquivo para uma pasta onde existe um arquivo com o mesmo nome mas com um título diferente, a caixa de diálogo Renomear e mover arquivo é exibida e você precisa renomear o arquivo antes de movê-lo. O arquivo movido na pasta de destino tem o novo nome de arquivo.
+
+   ![](images/rename-move-asset.png){width="550" align="left"}
+
+   >[!NOTE]
+   > Você também pode arrastar e soltar um arquivo em outra pasta de destino.
+
+   **Cenários de exclusão**
+
+   Os Guias do AEM não permitem renomear ou mover um arquivo nos seguintes cenários:
+
+   - Não é possível mover ou renomear um arquivo se ele fizer parte de um fluxo de trabalho de revisão ou tradução.
+
+   - Se qualquer outro usuário fizer check-out do arquivo, você não poderá renomeá-lo ou movê-lo. Você não verá a opção Renomear ou Mover para do arquivo.
+   >[!NOTE]
+   > Se o administrador tiver concedido as permissões em uma pasta, somente a variável **Renomear** ou **Mover para** são exibidas.
+
+   <details>
+    <summary> Cloud Services </summary>
+
+   Renomear ou mover qualquer arquivo não interrompe nenhuma referência existente do ou para o arquivo, pois cada arquivo tem uma UUID exclusiva.
+   </details>
+
+
 
 - **Excluir**: use essa opção para excluir o arquivo selecionado. Um prompt de confirmação é exibido antes de excluir o arquivo.
 
@@ -1202,32 +1251,86 @@ O exemplo a seguir mostra como usar o esquema do assunto nos Guias do AEM.
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
+   **Lidar com definições hierárquicas de definições e enumerações de assunto**
 
-**Menu suspenso Atributos**
+   Além de lidar com as enumerações e as definições de assunto presentes no mesmo mapa, o AEM Guides também fornece o recurso para definir enumerações e definições de assunto em dois mapas separados. Você pode definir a definição de assunto em um mapa e as definições de enumeração em outro mapa e, em seguida, adicionar a referência do mapa. Por exemplo, o código XML a seguir cria definições de assunto e definições de enumeração em dois mapas separados.
 
-Também é possível alterar o valor do esquema do assunto usando a lista suspensa Atributo, no painel Propriedades de conteúdo na exibição Autor. Para alterar o valor, selecione um valor na lista suspensa Atributo.
+   As definições de assunto são definidas em `subject_scheme_map_1.ditamap`
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-Você também pode aplicar valores a um atributo selecionando vários valores na lista suspensa.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
 
-**Exibição de origem**
+   A definição de enumeração está presente em subject_scheme_map_2.ditamap
 
-Você também pode alterar os valores do menu suspenso do atributo na Exibição de origem. A Exibição de código-fonte também impede que você adicione qualquer valor incorreto.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+   Aqui, as definições de assunto são definidas em `subject_scheme_map_1.ditamap`  enquanto o def de enumeração estiver presente em `subject_scheme_map_2.ditamap`. A referência a `subject_scheme_map_1.ditamap` também é adicionado em `subject_scheme_map_2.ditamap`.
 
-**Exibir e aplicar o esquema de assunto do painel Condições**
+   >[!NOTE]
+   >
+   > Como a variável `subject_scheme_map_1.ditamap` e `subject_scheme_map_2.ditamap` são referenciados entre si, portanto, os esquemas de assunto estão sendo resolvidos.
 
-Você também pode exibir e aplicar o esquema de assunto do painel Condições.
+   As referências de enumeração do assunto são resolvidas na seguinte ordem de prioridade:
 
-Para exibir o esquema do assunto no painel Condições, o administrador do sistema deve selecionar a opção **Mostrar esquema do assunto no painel Condições** na guia Condição, em Configurações do editor. Para obter mais detalhes, consulte [Guia Condição](#id21BMNE0602V).
+   1. Mesmo mapa
+   1. Mapa referenciado
 
-O painel Condições exibe a estrutura vertical plana das definições de assunto dentro do esquema de assunto.
+   As referências não serão resolvidas se a enumeração não for encontrada no mesmo mapa e no mapa referenciado.
 
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-Você pode adicionar condições ao seu conteúdo arrastando e soltando a condição desejada no seu conteúdo. O conteúdo condicional é realçado usando a cor definida para a condição.
+   **Menu suspenso Atributos**
+
+   Também é possível alterar o valor do esquema do assunto usando a lista suspensa Atributo, no painel Propriedades de conteúdo na exibição Autor. Para alterar o valor, selecione um valor na lista suspensa Atributo.
+
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+
+   Você também pode aplicar valores a um atributo selecionando vários valores na lista suspensa.
+
+   **Exibição de origem**
+
+   Você também pode alterar os valores do menu suspenso do atributo na Exibição de origem. A Exibição de código-fonte também impede que você adicione qualquer valor incorreto.
+
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
+
+   **Exibir e aplicar o esquema de assunto do painel Condições**
+
+   Você também pode exibir e aplicar o esquema de assunto do painel Condições.
+
+   Para exibir o esquema do assunto no painel Condições, o administrador do sistema deve selecionar a opção **Mostrar esquema do assunto no painel Condições** na guia Condição, em Configurações do editor. Para obter mais detalhes, consulte [Guia Condição](#id21BMNE0602V).
+
+   O painel Condições exibe a estrutura vertical plana das definições de assunto dentro do esquema de assunto.
+
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+
+   Você pode adicionar condições ao seu conteúdo arrastando e soltando a condição desejada no seu conteúdo. O conteúdo condicional é realçado usando a cor definida para a condição.
 
 **Trechos** -  ![](images/insert-snippet-icon.svg)
 

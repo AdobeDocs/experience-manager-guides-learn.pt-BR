@@ -2,9 +2,9 @@
 title: Recurso de publicação de PDF nativo | Criar um layout de página
 description: Saiba como projetar o layout da página para apresentar informações em diferentes seções da saída de PDF.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: 6182455850fb14cc24ce6229f6e4cb2b547901b7
 workflow-type: tm+mt
-source-wordcount: '4649'
+source-wordcount: '4712'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,16 @@ Há as seguintes categorias para campos que você pode inserir no layout da pág
 
 Cada uma dessas categorias de campo contém diferentes variações nas quais as informações de campo podem ser inseridas. Por exemplo, um campo Data pode ter variações diferentes, como `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` e assim por diante. Da mesma forma, o Número de página pode ter variações na forma de formatos romanos, decimais ou até mesmo específicos do local, como _Árabe_, _Devanágari_, _Hebraico_ e muito mais.
 
-Além dos campos predefinidos, também é possível adicionar informações de metadados como variáveis ou campos no layout da página. Esses metadados são armazenados no conteúdo do mapa DITA de origem e podem ser facilmente inseridos no layout da página. <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
+Além dos campos predefinidos, também é possível adicionar informações de metadados como variáveis ou campos no layout da página. Esses metadados são armazenados no conteúdo do mapa DITA de origem e podem ser facilmente inseridos no layout da página.
+
+Você também pode selecionar as propriedades de metadados dos seus ativos e adicioná-las ao layout da página. Os metadados do ativo são publicados para a saída do PDF. Essas propriedades de metadados dos ativos são definidas no **Propriedades** página do mapa DITA ou do arquivo de mapa.
+
+>[!NOTE]
+>
+> Os campos de metadados são exibidos de acordo com a seleção de ativo ou mapa no **De** lista suspensa.
+
+
+<!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
 
 No exemplo a seguir, inseriremos um número de página e um título de capítulo na área de rodapé de um layout de página.
 
