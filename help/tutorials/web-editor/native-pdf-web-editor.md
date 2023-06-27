@@ -2,9 +2,9 @@
 title: PDF nativo | Geração de saída de PDF
 description: Gerar saída de PDF nos Guias do Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
+source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
 workflow-type: tm+mt
-source-wordcount: '2904'
+source-wordcount: '2903'
 ht-degree: 0%
 
 ---
@@ -179,6 +179,6 @@ Para exibir o log de erros, clique em **Ignorar**, passe o mouse sobre a guia de
 Se você selecionar a variável **Baixar arquivos temporários** nas Configurações avançadas, você também pode baixar os arquivos de HTML provisórios criados durante a geração da saída de PDF nativo. Depois de gerar a saída, você pode baixar os arquivos temporários usando o **Baixar arquivos temporários** ![baixar arquivos temporários](assets/native-pdf-download-temporary-files-icon.svg)ícone na barra superior. Esse recurso ajuda a visualizar os estilos e layouts provisórios do HTML e ajuda a corrigir ou alterar os estilos de CSS de acordo com os requisitos.
 
 
->OBSERVAÇÃO
+>[!NOTE]
 >
 > A variável **Baixar arquivos temporários**  ![baixar arquivos temporários](assets/native-pdf-download-temporary-files-icon.svg) O ícone será exibido somente se tiver gerado a última saída de PDF usando a predefinição na qual você selecionou a opção no **Avançado** guia.

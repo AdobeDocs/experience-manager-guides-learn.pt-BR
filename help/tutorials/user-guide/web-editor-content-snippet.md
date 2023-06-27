@@ -1,7 +1,7 @@
 ---
 title: Inserir um trecho de conteúdo da sua fonte de dados
 description: Saiba como inserir um trecho de conteúdo da sua fonte de dados
-source-git-commit: 3571b8acfa51dc91f9ed0366715357af7b2f1ecb
+source-git-commit: 84dbcd80d8b41ae52ec7389dd0d0a750ea8d6c65
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Por exemplo:
 
    1. A exibição fonte mostra os dados na exibição fonte DITA.
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
-   1. Para salvar os resultados da consulta, digite o nome do gerador e clique em **ADICIONAR**.   Um novo gerador de trecho de conteúdo é adicionado à lista.
+1. Para salvar os resultados da consulta, digite o nome do gerador e clique em **ADICIONAR**.   Um novo gerador de trecho de conteúdo é adicionado à lista.
 
    >[!NOTE]
    >
