@@ -1,7 +1,7 @@
 ---
 title: Inserir um trecho de conteúdo da sua fonte de dados
 description: Saiba como inserir um trecho de conteúdo da sua fonte de dados
-source-git-commit: e4fcf6c7b7e69d83edb91e25081dae6e7cf1ae89
+source-git-commit: f01903fe9ae3d60a8b818e881fd3b1d626fcd2bc
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -31,7 +31,6 @@ Os modelos prontos para uso da fonte de dados selecionada são exibidos na lista
    >[!NOTE]
    >  
    > Se o administrador tiver configurado modelos personalizados, esses modelos também serão exibidos na lista suspensa (com base nas configurações de caminho do modelo feitas pelo administrador).
-
 1. Clique em **Buscar** para buscar os dados da fonte de dados e aplicar o modelo nos dados resultantes da consulta SQL.
 1. É possível exibir os dados na visualização ou na exibição da fonte DITA.
 
