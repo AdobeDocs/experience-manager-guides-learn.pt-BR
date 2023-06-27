@@ -2,9 +2,9 @@
 title: Usar coleção de mapas para geração de saída
 description: Saiba como usar a coleção de mapas para geração de saída
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 22f88ae4097a6067ed65a963ad6765f6f8c24f36
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -66,15 +66,26 @@ As seguintes opções de filtro e detalhes do mapa são mostrados na página de 
 
 Para configurar e gerar a saída usando uma Coleção de mapas, execute as seguintes etapas:
 
-1. Abra a Coleção de mapas.
+1. Abra a Coleção de Mapas. Você pode visualizar as várias predefinições de saída, como o Site AEM, PDF (incluindo PDF Nativo), HTML5, EPUB e predefinições Personalizadas. Também é possível exibir as predefinições de perfil global e de pasta criadas pelo administrador.
+
+   A variável ![](images/global-preset-icon.svg) O ícone indica uma predefinição no nível do perfil de pasta.
 1. \(Opcional\) Siga qualquer um dos procedimentos a seguir com base em seus requisitos:
    - Aplique filtros no painel esquerdo para filtrar os mapas modificados, a predefinição de saída ou o idioma.
    - Se necessário, clique em **Editar** e altere a saída desejada ativando ou desativando o botão deslizante.
+
+
+
+     >[!NOTE]
+     >  
+     > Por padrão, qualquer nova predefinição é desativada.
+
+   - É possível selecionar **Ativar/desativar todas as predefinições de perfil de pasta** para um mapa DITA para selecionar todos os perfis de pasta para ele de uma só vez.
+
+
 1. Siga uma das seguintes opções:
 
    - Para gerar a saída de mapas selecionados, selecione os arquivos de mapa e clique em **Gerar seleção**.
    - Para gerar a saída de todos os mapas DITA com suas predefinições configuradas, clique em **Gerar tudo**.
-
    >[!IMPORTANT]
    >
    > Se um processo de geração de saída para uma predefinição ou um mapa DITA estiver na fila ou em andamento, não será possível iniciar outra tarefa de geração de saída para a mesma predefinição ou mapa.
@@ -85,7 +96,7 @@ Para configurar e gerar a saída usando uma Coleção de mapas, execute as segui
 - Para excluir uma coleção de mapas, selecione uma coleção na página Coleção de Mapas e clique em **Excluir**.
 - Para excluir um mapa DITA de uma coleção de mapas, abra a Coleção de mapas no modo Editar, selecione o arquivo de mapa DITA e clique em **Remover da coleção**.
 
-   Isso também removerá quaisquer predefinições ou localidades associadas ao mapa DITA da Coleção de mapas.
+  Isso também removerá quaisquer predefinições ou localidades associadas ao mapa DITA da Coleção de mapas.
 
 
 ## Cancelar uma tarefa de geração de saída de uma coleção de mapas

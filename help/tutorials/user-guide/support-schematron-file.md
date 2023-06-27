@@ -1,13 +1,13 @@
 ---
 title: Suporte para arquivos do Schematron
 description: Saiba como validar seus tópicos com o schema
-source-git-commit: 5ad78d32cbfa1c913866fae5dafe97dc8f01139c
+exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
 
 ---
-
 
 # Suporte para arquivos do Schematron
 
@@ -55,7 +55,7 @@ Quando você abre um tópico no Editor da Web, um painel Validação do Schematr
 
 O suporte ao Schematron no Editor da Web ajuda a validar os arquivos em relação a um conjunto de regras e a manter a consistência e a correção nos tópicos.
 
-## Usar instruções Assert e Report para verificar se há regras{#schematron-assert-report}
+## Usar instruções assert e report para verificar regras{#schematron-assert-report}
 
 Os Guias do AEM também suportam as instruções assert e report no Schematron. Essas instruções ajudam a validar os tópicos DITA.
 
@@ -146,10 +146,3 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
-
-
-
-
-
-
-

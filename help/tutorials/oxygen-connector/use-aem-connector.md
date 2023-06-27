@@ -4,9 +4,9 @@ description: Saiba como usar o Oxygen Plugin para Adobe Experience Manager Guide
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: ee4722ed92d1b1a59e8baea583517a4470f558c9
 workflow-type: tm+mt
-source-wordcount: '5762'
+source-wordcount: '5885'
 ht-degree: 0%
 
 ---
@@ -212,19 +212,19 @@ Execute as seguintes etapas para definir as configurações de conexão no Plug-
 1. Especifique os seguintes detalhes:
    - **URL do servidor**: O URL do servidor AEM, por exemplo:
 
-      ```http
-      http[s]://<host>:<port>
-      ```
+     ```http
+     http[s]://<host>:<port>
+     ```
 
-      No URL acima, especifique o nome do host e a porta do servidor onde o servidor AEM está implantado.
+     No URL acima, especifique o nome do host e a porta do servidor onde o servidor AEM está implantado.
 
-      >[!IMPORTANT]
-      >
-      >Se o servidor AEM for implantado na porta 80 ou 443, não será necessário especificá-lo no URL.
+     >[!IMPORTANT]
+     >
+     >Se o servidor AEM for implantado na porta 80 ou 443, não será necessário especificá-lo no URL.
 
    - **Autenticação:** Escolher de **Básico \(Nome de usuário/Senha\)** ou **Autenticação da Web**. Caso selecione **Básico** autenticação que você precisa para inserir o **Nome de usuário** e **Senha** no diálogo Preferências.
 
-      Se você selecionar Autenticação da Web, será exibida a tela de logon AEM. Insira suas credenciais de logon e clique no link **Conectar** botão. Ao fazer logon com êxito, a tela de logon do AEM é fechada e o painel Guias do AEM exibe a lista de arquivos do servidor AEM.
+     Se você selecionar Autenticação da Web, será exibida a tela de logon AEM. Insira suas credenciais de logon e clique no link **Conectar** botão. Ao fazer logon com êxito, a tela de logon do AEM é fechada e o painel Guias do AEM exibe a lista de arquivos do servidor AEM.
 
    - **Tempo limite da conexão**: especifique o tempo em segundos que o cliente aguardará uma resposta do servidor AEM. Caso nenhuma resposta do servidor seja recebida dentro do tempo especificado, a solicitação será encerrada. O valor padrão é de 20 segundos.
 
@@ -256,7 +256,7 @@ Execute as seguintes etapas para configurar os atributos de criação de perfil:
 - Clique em **Escolher** ao lado da **Editor de valor do atributo personalizado do autor** em **Extensões individuais** e selecione CustomValueEditor - com.adobe.o2.framework.extn na **Classe** lista. Clique em **OK**.
 A captura de tela a seguir mostra o configurado **Extensão** para tópicos DITA:
 
-   ![](images/dita-topic-extension-tab.png)
+  ![](images/dita-topic-extension-tab.png)
 
 1. Clique em **OK** em todas as caixas de diálogo para salvar as alterações.
 
@@ -275,11 +275,11 @@ Execute as seguintes etapas para configurar a extensão do mapa DITA:
 - Clique em **Escolher** ao lado da **Editor de valor do atributo personalizado do autor** em **Extensões individuais** e selecione CustomValueEditor - com.adobe.o2.framework.extn na **Classe** lista. Clique em **OK**.
 - *\(Opcional\)* Se você não quiser resolver referências ao abrir um arquivo de mapa, será necessário executar a seguinte configuração adicional:
 
-   Clique em **Escolher** ao lado da **Resolvedor de Referências** em **Extensões individuais** e selecione CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn no **Classe** lista. Clique em **OK**.
+  Clique em **Escolher** ao lado da **Resolvedor de Referências** em **Extensões individuais** e selecione CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn no **Classe** lista. Clique em **OK**.
 
-   A captura de tela a seguir mostra o configurado **Extensão** guia:
+  A captura de tela a seguir mostra o configurado **Extensão** guia:
 
-   ![](images/dita-map-extension-tab.png)
+  ![](images/dita-map-extension-tab.png)
 
 1. Clique em **OK** em todas as caixas de diálogo para salvar as alterações.
 
@@ -302,9 +302,9 @@ A tela a seguir mostra o painel Guias do AEM.
 - **Conectar**: selecione esta opção para se conectar ao servidor AEM. A opção é desativada quando o Oxygen XML Author está conectado ao servidor AEM.
 - **Atualizar**: selecione essa opção para obter o status mais recente dos arquivos e das pastas no repositório AEM.
 
-   >[!NOTE]
-   >
-   >Salve os arquivos antes de atualizá-los. Ao selecionar **Atualizar** , você receberá um aviso para salvar seus arquivos antes de atualizá-los. Se não tiver salvo os arquivos, você pode clicar em **Cancelar** e salve-os.
+  >[!NOTE]
+  >
+  >Salve os arquivos antes de atualizá-los. Ao selecionar **Atualizar** , você receberá um aviso para salvar seus arquivos antes de atualizá-los. Se não tiver salvo os arquivos, você pode clicar em **Cancelar** e salve-os.
 
 - **Configurações**: Você pode usar esta opção para abrir a caixa de diálogo Preferências gerais do Plug-in.
 - **Sair**: selecione essa opção para fechar a conexão do servidor AEM. Essa opção só estará disponível se você estiver usando o modo de Autenticação da Web.
@@ -418,6 +418,16 @@ Ao fazer check-in de um arquivo, a cópia local do sistema é armazenada no repo
    >[!NOTE]
    >
    >Este comentário é exibido no histórico de versões AEM do arquivo.
+1. Adicionar rótulo(s) na **Rótulo** texto. Insira um rótulo e pressione Enter. Por exemplo, *Versão 2307*.
+Se o administrador tiver predefinido uma lista de rótulos e feito o upload deles no `label.json` esses rótulos são exibidos como uma lista suspensa. Você pode escolher um ou mais rótulos na lista suspensa.
+   ![](images/checkin-dropdown-labels.png){width="300" align="left"}
+Você pode adicionar vários rótulos (separados por vírgulas) à mesma versão de um tópico.  Por exemplo, *Adobe*, *AEM*,*Guias*
+No entanto, não é possível adicionar o mesmo rótulo às diferentes versões de um tópico. Se você adicionar um rótulo já adicionado a uma versão anterior, ele será adicionado à versão mais recente e removido da versão anterior.
+
+   >[!NOTE]
+   > 
+   > Esses rótulos são exibidos no histórico de versões AEM do arquivo.
+
 
 1. Clique em **OK**.
 

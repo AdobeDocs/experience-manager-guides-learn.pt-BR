@@ -2,9 +2,9 @@
 title: Conhecer os recursos do Editor da Web
 description: Saiba como conhecer os recursos do Editor da Web
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: e7a34908b0e61d33469ef83683507f16ab12f0bd
+source-git-commit: b55b4aa572a680181388e24827daa7d045f1e406
 workflow-type: tm+mt
-source-wordcount: '14919'
+source-wordcount: '15310'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ As Configurações do editor estão disponíveis somente para usuários administ
 
 - **Geral**: As configurações Gerais permitem configurar o dicionário a ser usado com o Editor da Web. Essa guia contém três seções: **Verificação ortográfica**, **Condição**, e **Criação**.
 
-   ![](images/editor-setting-general.png){width="650" align="left"}
+  ![](images/editor-setting-general.png){width="650" align="left"}
 
    - **Verificação ortográfica**: Há duas opções — **Verificação ortográfica do AEM** e **Verificação ortográfica do navegador**. Por padrão, o editor usa o recurso Verificação ortográfica do navegador, no qual a verificação ortográfica é executada usando o dicionário interno do navegador. Você pode alternar para Verificação ortográfica do AEM para usar o dicionário AEM, que também pode ser personalizado para adicionar sua lista de palavras personalizada. Para obter mais informações sobre a personalização do dicionário AEM, consulte *Personalizar dicionário padrão do AEM* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
@@ -108,13 +108,13 @@ As Configurações do editor estão disponíveis somente para usuários administ
 
       - **Mostrar a chave com o título no painel Assunto do esquema**: selecione esta opção para mostrar as chaves junto com os títulos no esquema de assunto. Se você não selecionar essa opção, somente os títulos serão exibidos. Por exemplo, aqui as chaves &quot;os&quot;, &quot;audience&quot; e &quot;other&quot; também são mostradas junto com títulos.
 
-         ![](images/subject-scheme-title.png){width="550" align="left"}
+        ![](images/subject-scheme-title.png){width="550" align="left"}
 
       - **Mostrar esquema do assunto no painel Condições**: selecione esta opção para ver um esquema de assunto no painel condições. Se você desmarcar essa opção, as condições definidas serão mostradas no painel Condições.
+
    - **Criação**
 
       - **Ativar Substituir tudo**: Selecione essa opção para ver o ícone Substituir tudo no painel Localizar e Substituir.
-
 
 **Painéis**: essa configuração controla os painéis mostrados no painel esquerdo do editor. Você pode alternar o botão para mostrar ou ocultar o painel desejado.
 
@@ -126,7 +126,7 @@ As Configurações do editor estão disponíveis somente para usuários administ
 
 - **Lista de elementos**: Como administrador, você pode controlar a lista de elementos que um autor pode inserir usando o [Inserir elemento](#id204SG30105Z) e também define o nome de exibição do elemento. A configuração Lista de elementos permite especificar o nome do elemento de acordo com as especificações DITA e um rótulo que você deseja usar em vez do nome do elemento definido por DITA:
 
-   ![](images/editor-setting-element-list.png){width="650" align="left"}
+  ![](images/editor-setting-element-list.png){width="650" align="left"}
 
 Na captura de tela acima, a variável `b` elemento recebeu um rótulo de Negrito, `codeblock` O recebe um rótulo de Bloco de código junto com alguns outros elementos. Se você selecionar a variável **Usar somente os elementos acima** e, em seguida, somente os elementos válidos \(no ponto de inserção atual\) dessa lista serão exibidos na janela pop-up Inserir elemento.
 
@@ -152,7 +152,7 @@ Os atributos definidos para um elemento são exibidos na exibição Layout e Est
 
    - **Propagar rótulos de versão de origem para a versão de destino**: selecione essa opção para passar o rótulo da versão do arquivo de origem para o arquivo traduzido. Por padrão, está desativado.
 
-   ![](images/editor-setting-translation.png){width="550" align="left"}
+  ![](images/editor-setting-translation.png){width="550" align="left"}
 
 
 **Preferências de usuário** - ![](images/user_preference_editor_icon.svg)
@@ -166,11 +166,11 @@ As Preferências do usuário estão disponíveis para todos os autores. Usando a
 
 - **Perfis de pasta**: o Perfil de pasta controla várias configurações relacionadas a atributos condicionais, modelos de criação, predefinições de saída e configurações do Editor da Web. O Perfil global é exibido por padrão. Além disso, se o administrador tiver configurado perfis de pastas no sistema, esses perfis de pastas também serão mostrados na lista Perfis de pastas.
 
-   As configurações do Editor da Web que um administrador pode definir no perfil da pasta incluem: personalização da interface do usuário, incluindo ícones da barra de ferramentas, layout do Editor da Web, trechos e mapa raiz. Para obter mais detalhes, consulte *Configurar perfis globais ou de nível de pasta* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+  As configurações do Editor da Web que um administrador pode definir no perfil da pasta incluem: personalização da interface do usuário, incluindo ícones da barra de ferramentas, layout do Editor da Web, trechos e mapa raiz. Para obter mais detalhes, consulte *Configurar perfis globais ou de nível de pasta* em Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
-   >[!NOTE]
-   >
-   > O nome do Perfil de pasta atual é exibido como um rótulo para o ícone Preferências do usuário na barra de ferramentas principal.
+  >[!NOTE]
+  >
+  > O nome do Perfil de pasta atual é exibido como um rótulo para o ícone Preferências do usuário na barra de ferramentas principal.
 
 - **Caminho base**: por padrão, ao acessar o repositório AEM no Editor da Web, você verá os ativos no local /content/dam. Sua pasta de trabalho provavelmente seria algumas pastas dentro da pasta /content/dam/. Você levaria alguns cliques para acessar a pasta de trabalho todas as vezes. Você pode definir o Caminho base para sua pasta de trabalho e a Visualização do repositório, em seguida, mostra o conteúdo desse local antecipadamente. Isso reduz o tempo de acesso à pasta de trabalho. Além disso, quando você insere qualquer referência ou arquivo de mídia no tópico, o local de navegação do arquivo começa com a pasta definida no Caminho base.
 
@@ -665,11 +665,11 @@ Para adicionar um arquivo à sua coleção favorita, use um dos seguintes métod
 
 - Navegue até o arquivo ou pasta desejado na Exibição do repositório, clique no *Opções* ícone para abrir o menu de contexto e escolher **Adicionar a Favoritos**. Na caixa de diálogo Adicionar a favoritos, você pode optar por adicionar o arquivo/pasta a um favorito existente ou criar um novo.
 
-   ![](images/favorite-add-file-folder.png){width="300" align="left"}
+  ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
 - Clique com o botão direito do mouse na guia de um arquivo no editor para abrir o menu de contexto. Escolher **Adicionar a \> Favoritos** para adicionar o arquivo à lista de favoritos.
 
-   ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
 ** Menu Opções para a coleção Favoritos**\
@@ -739,27 +739,27 @@ Você pode executar as seguintes ações usando o menu Opções disponível para
 
 - **Fazer upload de ativos**: carregue um arquivo do sistema local para a pasta selecionada no repositório AEM. Você também pode arrastar e soltar arquivos do seu sistema local no tópico de trabalho atual. Isso é muito útil se você quiser inserir imagens do sistema local no tópico.
 
-   ![](images/upload-assets.png){width="550" align="left"}
+  ![](images/upload-assets.png){width="550" align="left"}
 
-   É possível selecionar uma pasta na qual deseja fazer upload do arquivo, e uma visualização da imagem também é exibida. Se desejar renomear o arquivo, faça isso na caixa de texto nome do arquivo. Clique em fazer upload para concluir o processo de upload de arquivo. Se você tiver arrastado e soltado um arquivo de imagem em um tópico, o arquivo de imagem será adicionado ao artigo e também será carregado.
+  É possível selecionar uma pasta na qual deseja fazer upload do arquivo, e uma visualização da imagem também é exibida. Se desejar renomear o arquivo, faça isso na caixa de texto nome do arquivo. Clique em fazer upload para concluir o processo de upload de arquivo. Se você tiver arrastado e soltado um arquivo de imagem em um tópico, o arquivo de imagem será adicionado ao artigo e também será carregado.
 
-   Se o administrador tiver ativado a opção UUIDs no *XMLEditorConfig*, você verá a UUID da imagem carregada no **Origem** propriedade.
+  Se o administrador tiver ativado a opção UUIDs no *XMLEditorConfig*, você verá a UUID da imagem carregada no **Origem** propriedade.
 
-   ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
 
 - **Localizar arquivos na pasta**: altera o foco para a pesquisa no repositório, na qual você pode inserir o termo de pesquisa. A pesquisa é realizada na pasta selecionada no repositório. Você também pode aplicar um filtro para retornar Arquivos DITA, Arquivos de imagem ou ambos.
 
-   ![](images/find-files-in-folders-repo-view_cs.png){width="400" align="left"}
+  ![](images/find-files-in-folders-repo-view_cs.png){width="400" align="left"}
 
-   Também é possível pesquisar usando a UUID de um arquivo. Nesse caso, os resultados da pesquisa exibem o título do arquivo DITA/XML e, caso o arquivo seja um arquivo de imagem, a UUID do arquivo é exibida. No exemplo de pesquisa a seguir, a UUID de um arquivo de imagem é pesquisada e os resultados da pesquisa exibem a UUID do arquivo de imagem original e o título do tópico do arquivo ao qual essa imagem é referenciada.
+  Também é possível pesquisar usando a UUID de um arquivo. Nesse caso, os resultados da pesquisa exibem o título do arquivo DITA/XML e, caso o arquivo seja um arquivo de imagem, a UUID do arquivo é exibida. No exemplo de pesquisa a seguir, a UUID de um arquivo de imagem é pesquisada e os resultados da pesquisa exibem a UUID do arquivo de imagem original e o título do tópico do arquivo ao qual essa imagem é referenciada.
 
-   ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
+  ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
 
 - **Recolher Tudo**: Recolhe todas as pastas abertas no repositório e mostra apenas as pastas de nível raiz.
 
-   >[!NOTE]
-   >
-   > Use o **\>** ícone ao lado de uma pasta para expandi-la.
+  >[!NOTE]
+  >
+  > Use o **\>** ícone ao lado de uma pasta para expandi-la.
 
 - **Adicionar a Favoritos**: adiciona a pasta selecionada aos favoritos. Você pode optar por adicioná-lo a uma coleção de favoritos existente ou nova.
 
@@ -791,13 +791,13 @@ As várias opções no menu Opções são explicadas abaixo:
 - **Duplicar**: use essa opção para criar uma duplicata ou uma cópia do arquivo selecionado. Você também tem a opção de renomear o arquivo duplicado no prompt Duplicar ativo. Por padrão, o arquivo é criado com um sufixo \(como nomedoarquivo\_1.extensão\). O título do arquivo permanece o mesmo do arquivo de origem, e o novo arquivo começa com a versão 1.0. Todas as referências, tags e metadados são copiados, enquanto as linhas de base não são copiadas no arquivo duplicado.
 - **Check-out**: obtenha um bloqueio no arquivo selecionado para edição. Para um arquivo bloqueado, essa opção muda para **Check-in**.
 
-   >[!NOTE]
-   >
-   > Se um arquivo for bloqueado ou submetido a check-out por um usuário, passar o ponteiro do mouse sobre o ícone de bloqueio mostrará o usuário \(name\) que bloqueou o arquivo.
+  >[!NOTE]
+  >
+  > Se um arquivo for bloqueado ou submetido a check-out por um usuário, passar o ponteiro do mouse sobre o ícone de bloqueio mostrará o usuário \(name\) que bloqueou o arquivo.
 
 - **Visualizar**: obtenha uma visualização rápida do arquivo \(.dita/.xml\) sem abri-lo.
 
-   ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){width="800" align="left"}
 
 - **Renomear**: use essa opção para renomear o arquivo selecionado. Insira o nome do novo arquivo nas **Renomear ativo** diálogo.
    - É possível renomear arquivos de qualquer tipo.
@@ -809,28 +809,29 @@ As várias opções no menu Opções são explicadas abaixo:
    - É possível mover um arquivo de qualquer tipo para qualquer destino na pasta Conteúdo.
    - Dois arquivos não podem ter o mesmo nome. Portanto, não é possível mover um arquivo para uma pasta na qual já exista um arquivo com o mesmo nome.
 
-   Se você tentar mover um arquivo para uma pasta onde existe um arquivo com o mesmo nome mas com um título diferente, a caixa de diálogo Renomear e mover arquivo é exibida e você precisa renomear o arquivo antes de movê-lo. O arquivo movido na pasta de destino tem o novo nome de arquivo.
+  Se você tentar mover um arquivo para uma pasta onde existe um arquivo com o mesmo nome mas com um título diferente, a caixa de diálogo Renomear e mover arquivo é exibida e você precisa renomear o arquivo antes de movê-lo. O arquivo movido na pasta de destino tem o novo nome de arquivo.
 
-   ![](images/rename-move-asset.png){width="550" align="left"}
+  ![](images/rename-move-asset.png){width="550" align="left"}
 
-   >[!NOTE]
-   > Você também pode arrastar e soltar um arquivo em outra pasta de destino.
+  >[!NOTE]
+  > Você também pode arrastar e soltar um arquivo em outra pasta de destino.
 
-   **Cenários de exclusão**
+  **Cenários de exclusão**
 
-   Os Guias do AEM não permitem renomear ou mover um arquivo nos seguintes cenários:
+  Os Guias do AEM não permitem renomear ou mover um arquivo nos seguintes cenários:
 
    - Não é possível mover ou renomear um arquivo se ele fizer parte de um fluxo de trabalho de revisão ou tradução.
 
    - Se qualquer outro usuário fizer check-out do arquivo, você não poderá renomeá-lo ou movê-lo. Você não verá a opção Renomear ou Mover para do arquivo.
-   >[!NOTE]
-   > Se o administrador tiver concedido as permissões em uma pasta, somente a variável **Renomear** ou **Mover para** são exibidas.
 
-   <details>
+  >[!NOTE]
+  > Se o administrador tiver concedido as permissões em uma pasta, somente a variável **Renomear** ou **Mover para** são exibidas.
+
+  <details>
     <summary> Cloud Services </summary>
 
-   Renomear ou mover qualquer arquivo não interrompe nenhuma referência existente do ou para o arquivo, pois cada arquivo tem uma UUID exclusiva.
-   </details>
+  Renomear ou mover qualquer arquivo não interrompe nenhuma referência existente do ou para o arquivo, pois cada arquivo tem uma UUID exclusiva.
+  </details>
 
 
 
@@ -840,23 +841,24 @@ As várias opções no menu Opções são explicadas abaixo:
    - Se o arquivo não for referenciado a partir de outro arquivo, ele será excluído e uma mensagem de sucesso será exibida.
    - Se o arquivo for submetido a check-out, não será possível excluí-lo e uma mensagem de erro será exibida.
 
-      >[!NOTE]
-      >
-      > Se o administrador impediu a exclusão de arquivos com check-out, apenas a mensagem de erro será exibida. Para obter mais detalhes, consulte *Impedir exclusão de arquivos com check-out* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+     >[!NOTE]
+     >
+     > Se o administrador impediu a exclusão de arquivos com check-out, apenas a mensagem de erro será exibida. Para obter mais detalhes, consulte *Impedir exclusão de arquivos com check-out* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
    - Se o arquivo for adicionado a uma coleção de favoritos, **Forçar Exclusão** será exibida e você poderá excluí-la à força.
    - Se o arquivo for referenciado a partir de qualquer outro arquivo, **Forçar Exclusão** será exibida uma caixa de diálogo com a mensagem de confirmação, e você poderá excluir o arquivo à força:
 
-      ![](images/options-menu-force-delete.png){width="550" align="left"}
+     ![](images/options-menu-force-delete.png){width="550" align="left"}
 
-      >[!NOTE]
-      >
-      > Se o administrador tiver dado permissão para excluir o arquivo, **Forçar Exclusão** está ativado. Senão, **Forçar Exclusão** O está desativado e é exibida uma mensagem informando que você não tem permissão para excluir os arquivos referenciados. Para obter mais detalhes, consulte *Impedir exclusão de arquivos referenciados* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
+     >[!NOTE]
+     >
+     > Se o administrador tiver dado permissão para excluir o arquivo, **Forçar Exclusão** está ativado. Senão, **Forçar Exclusão** O está desativado e é exibida uma mensagem informando que você não tem permissão para excluir os arquivos referenciados. Para obter mais detalhes, consulte *Impedir exclusão de arquivos referenciados* na seção Instalar e configurar o Adobe Experience Manager Guides as a Cloud Service.
 
    - Se você excluir um tópico referenciado e tiver aberto o arquivo contendo referências para edição, ele mostrará o link corrompido para o arquivo referenciado.
-   >[!NOTE]
-   >
-   > Você também pode excluir o arquivo selecionado de forma semelhante usando a tecla Delete do teclado.
+
+  >[!NOTE]
+  >
+  > Você também pode excluir o arquivo selecionado de forma semelhante usando a tecla Delete do teclado.
 
 - **Copiar**: Você pode escolher entre as seguintes opções:
 
@@ -893,16 +895,16 @@ No **Criar Novo Tópico** forneça os seguintes detalhes:
 
 - Um modelo no qual o tópico será baseado. Por exemplo, para uma configuração pronta para uso, você pode escolher entre os modelos Em branco, Conceito, DITAVAL, Referência, Tarefa, Tópico e Solução de problemas.
 
-   Se a pasta tiver um Perfil de pasta configurado, você verá apenas os modelos de tópico configurados no Perfil de pasta.
+  Se a pasta tiver um Perfil de pasta configurado, você verá apenas os modelos de tópico configurados no Perfil de pasta.
 
 - Caminho no qual você deseja salvar o arquivo de tópico. Por padrão, o caminho da pasta selecionada no momento no repositório é mostrado no campo Caminho.
 - Um Título para o tópico.
 
 - *\(Opcional\)* O nome do arquivo do tópico. O nome do arquivo é sugerido automaticamente com base no tópico Título.
 
-   Caso o administrador tenha ativado nomes de arquivo automáticos com base na configuração UUID, você não verá o campo Nome, como mostrado na seguinte captura de tela:
+  Caso o administrador tenha ativado nomes de arquivo automáticos com base na configuração UUID, você não verá o campo Nome, como mostrado na seguinte captura de tela:
 
-   ![](images/new-topic-without-filename.PNG){width="300" align="left"}
+  ![](images/new-topic-without-filename.PNG){width="300" align="left"}
 
 
 Ao clicar em **Criar**, o tópico é criado no caminho especificado. Além disso, o tópico é aberto no Editor da Web para edição.
@@ -922,7 +924,7 @@ No **Criar novo mapa** forneça os seguintes detalhes:
 
 - *\(Opcional\)* O nome de arquivo do mapa. O nome do arquivo é sugerido automaticamente com base no Título do mapa.
 
-   Caso o administrador tenha ativado nomes de arquivo automáticos com base na configuração UUID, você não verá o campo Nome.
+  Caso o administrador tenha ativado nomes de arquivo automáticos com base na configuração UUID, você não verá o campo Nome.
 
 
 Ao clicar em **Criar**, o mapa é criado e adicionado à pasta especificada no campo Caminho. Além disso, o mapa é aberto na Exibição de mapa. Você pode abrir o arquivo de mapa no Editor de mapa e adicionar tópico a ele. Para obter mais informações sobre como adicionar tópicos a um arquivo de mapa, consulte [Criar um mapa](map-editor-create-map.md#).
@@ -987,9 +989,9 @@ Você pode executar as seguintes ações usando o menu Opções:
 
 - **Check-out**: Faça check-out do arquivo selecionado. Para um arquivo com check-out, essa opção muda para **Check-in**.
 
-   >[!NOTE]
-   >
-   > Se um arquivo for bloqueado ou submetido a check-out por um usuário, passar o ponteiro do mouse sobre o ícone de bloqueio mostrará o usuário \(name\) que bloqueou o arquivo.
+  >[!NOTE]
+  >
+  > Se um arquivo for bloqueado ou submetido a check-out por um usuário, passar o ponteiro do mouse sobre o ícone de bloqueio mostrará o usuário \(name\) que bloqueou o arquivo.
 
 - **Visualizar**: obtenha uma visualização rápida do arquivo \(.dita/.xml\) sem abri-lo.
 - **Copiar**: Você pode escolher entre as seguintes opções:
@@ -1034,15 +1036,15 @@ A Exibição de Estrutura de Tópicos oferece os seguintes recursos:
 
 - Clicar em um elemento no Modo de Exibição de Estrutura de Tópicos seleciona o conteúdo do elemento no modo de exibição Autor ou Fonte.O modo de exibição de Estrutura de Tópicos permanece sincronizado com o modo de exibição Autor e Fonte. Se você fizer alterações em qualquer exibição, poderá vê-las na exibição Estrutura de Tópicos. Por exemplo, se você adicionar um parágrafo ou atualizar um elemento na exibição Autor, ele será mostrado na exibição Estrutura de tópicos.
 
-   ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
+  ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
 
 - Arraste e solte elementos. Você pode substituir facilmente um elemento soltando outro elemento nele. Se você arrastar e soltar um elemento sobre outro elemento e vir uma caixa quadrada ao redor dele, isso indica que o elemento será substituído. Ele substitui o elemento no qual o elemento é solto.
 
-   ![](images/replace-element-outline-view_cs.png){width="300" align="left"}
+  ![](images/replace-element-outline-view_cs.png){width="300" align="left"}
 
-   Se você arrastar e soltar um elemento, um retângulo tracejado indicará que o elemento pode ser colocado no local atual. Se arrastar e soltar for inválido, uma mensagem de erro será mostrada para indicar que a operação não é permitida.
+  Se você arrastar e soltar um elemento, um retângulo tracejado indicará que o elemento pode ser colocado no local atual. Se arrastar e soltar for inválido, uma mensagem de erro será mostrada para indicar que a operação não é permitida.
 
-   ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
+  ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
 
 - A variável **Opções** no menu *Modo de Estrutura de Tópicos* O permite executar operações genéricas como Recortar, Copiar, Excluir, Gerar ID, Inserir elemento antes ou depois do elemento atual, Renomear ou substituir um elemento, Decodificar um elemento e criar um trecho do elemento selecionado.
 
@@ -1086,7 +1088,7 @@ Para adicionar um arquivo DITA ao painel Conteúdo reutilizável, use um dos seg
 
 - Clique no ícone + ao lado de Conteúdo reutilizável para abrir a caixa de diálogo Procurar arquivo. Selecione o arquivo que deseja adicionar e clique em **Adicionar** para concluir o processo.
 
-   ![](images/reuse-content-add-dita-file_cs.png){width="650" align="left"}
+  ![](images/reuse-content-add-dita-file_cs.png){width="650" align="left"}
 
 - Na Exibição de repositório, clique no ícone Opções do arquivo desejado e escolha **Adicionar ao conteúdo reutilizável** no menu de contexto.
 
@@ -1109,11 +1111,11 @@ Para inserir conteúdo do painel Conteúdo reutilizável, use um dos seguintes m
 
 - Passe o ponteiro do mouse sobre um elemento que você deseja inserir, clique no ícone Opções e escolha **Inserir conteúdo reutilizável**.
 
-   ![](images/insert-reusable-content_cs.png){width="400" align="left"}
+  ![](images/insert-reusable-content_cs.png){width="400" align="left"}
 
-   >[!NOTE]
-   >
-   > Observação: a variável **Visualizar** A opção também está disponível no menu de contexto, que fornece uma visualização rápida do elemento antes de inseri-lo.
+  >[!NOTE]
+  >
+  > Observação: a variável **Visualizar** A opção também está disponível no menu de contexto, que fornece uma visualização rápida do elemento antes de inseri-lo.
 
 - Arraste e solte o item de conteúdo reutilizável do painel no local desejado no documento.
 
@@ -1151,7 +1153,7 @@ Você pode definir as seguintes configurações da ferramenta Ponto de acesso:
    - **Criar uma nova versão após a conversão**: uma nova versão do tópico é criada após a conclusão da conversão dos termos.
 - **Próxima** será exibido se você selecionar **Manualmente para cada tópico** opção. Clique em **Próxima** para converter os termos de cada tópico com base nas configurações selecionadas. Ele solicita a conversão de termos em cada tópico e passa para o próximo arquivo. Você pode optar por converter um termo ou ignorá-lo e passar para o próximo termo.
 
-   ![](images/manual-convert-skip.png){width="300" align="left"}
+  ![](images/manual-convert-skip.png){width="300" align="left"}
 
 - **Converter** será exibido se você selecionar **Automaticamente para todos os tópicos** opção. Selecionar **Converter** para converter todos os termos encontrados no documento em abreviações de glossário vinculadas.
 
@@ -1303,6 +1305,7 @@ O exemplo a seguir mostra como usar o esquema do assunto nos Guias do AEM.
    1. Mesmo mapa
    1. Mapa referenciado
 
+
    As referências não serão resolvidas se a enumeração não for encontrada no mesmo mapa e no mapa referenciado.
 
 
@@ -1346,17 +1349,17 @@ Para adicionar um trecho, use um dos seguintes métodos:
 
 - Clique no ícone + ao lado de Trechos para abrir a caixa de diálogo Novo trecho.
 
-   ![](images/snippet-new-dialog.png){width="550" align="left"}
+  ![](images/snippet-new-dialog.png){width="550" align="left"}
 
-   Na caixa de diálogo Novo trecho, forneça um título que apareça no painel Trechos, uma descrição e o código XML do conteúdo do trecho que você deseja criar. Clique em **Criar** para salvar e criar o trecho.
+  Na caixa de diálogo Novo trecho, forneça um título que apareça no painel Trechos, uma descrição e o código XML do conteúdo do trecho que você deseja criar. Clique em **Criar** para salvar e criar o trecho.
 
 - Na área de edição de conteúdo, clique com o botão direito do mouse na navegação estrutural do elemento que deseja usar como snippet e escolha **Criar trecho** no menu de contexto. A caixa de diálogo Novo trecho é exibida com o código XML do elemento selecionado preenchido na **Conteúdo** campo. Insira o **Título** e **Descrição** para o trecho e clique em **Criar** para salvar o trecho.
 
 - Na área de edição de conteúdo, clique com o botão direito do mouse em qualquer lugar do conteúdo que você deseja usar como um snippet e escolha **Criar trecho** no menu de contexto. A caixa de diálogo Novo trecho é exibida com o código XML do elemento selecionado preenchido na **Conteúdo** campo. Insira o **Título** e **Descrição** para o trecho e clique em **Criar** para salvar o trecho.
 
-   A captura de tela a seguir destaca a navegação estrutural e a área de conteúdo da qual você pode chamar o menu de contexto.
+  A captura de tela a seguir destaca a navegação estrutural e a área de conteúdo da qual você pode chamar o menu de contexto.
 
-   ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
+  ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
 
 
 Para inserir um trecho, use um dos seguintes métodos:
@@ -1390,6 +1393,41 @@ Depois que o modelo for criado, é necessário adicioná-lo ao perfil global ou 
 
 Usando o menu Opções em um modelo existente, você pode optar por **Editar** ou **Duplicar** o mesmo. No caso de duplicação, a estrutura e o tipo do modelo \(do documento\) são retidos e você pode reutilizá-los para criar outro modelo a partir dele.
 
+**Revisão** -  ![](images/active-review-tasklist-icon.svg)
+
+O Guias do AEM fornece o recurso para exibir todas as tarefas de revisão em seus projetos. Você pode exibir todos os projetos de revisão e as tarefas de revisão ativas nos projetos de revisão, dos quais você faz parte no **Revisão** painel.  É possível abrir as tarefas de revisão para exibir os comentários dos vários revisores.
+O painel de revisão exibe as tarefas de revisão. Como autor, você pode endereçar os comentários em um tópico usando o Editor da Web.
+
+
+Para exibir os comentários de revisão nas tarefas de revisão ativas que estão presentes em seus projetos, execute as seguintes etapas:
+
+1. Selecionar revisão ![](images/active-review-tasklist-icon.svg)   no painel esquerdo. A variável **Revisão** é aberto.  Todos os projetos de revisão e as tarefas de revisão ativas nos projetos de revisão, dos quais você faz parte, são exibidos.
+
+   ![](images/web-editor-review-panel.png){width="300" align="left"}
+1. Selecione um projeto de revisão e, em seguida, selecione uma tarefa de revisão na lista para abri-lo.
+1. Você também pode filtrar seus projetos das seguintes maneiras:
+
+   - Insira o termo ou texto de pesquisa que deseja localizar no título do projeto. Pressione Enter para realizar a pesquisa. Por exemplo, você pode pesquisar todos os projetos com o termo &quot;espaço&quot; no título.
+
+   - Selecionar ![](images/filter-search-icon.svg)  para abrir o **Filtro** diálogo. Você pode selecionar todos ou somente projetos específicos. Os projetos selecionados são listados na **Revisão** painel.
+     ![](images/active-review-select-project.png){width="300" align="left"}
+
+     A variável **Tarefas iniciadas por mim** está ativada por padrão. Ela permite exibir somente as tarefas iniciadas.
+
+1. Por padrão, no projeto de revisão, você exibirá uma lista simples de tópicos que têm comentários associados a eles. Aplique os filtros necessários no painel esquerdo para filtrar os tópicos com base nos comentários de revisão presentes neles:
+
+   - **Exibir todos os tópicos**: lista todos os tópicos presentes nos projetos.
+   - **Exibir tópicos com comentários**: lista somente os tópicos que contêm comentários de revisão.
+1. Você também pode inserir o termo de pesquisa ou o texto que deseja localizar no título do tópico ou no caminho do arquivo. Os tópicos que contêm o termo no título ou no caminho do arquivo são listados.
+1. Clique duas vezes em qualquer tópico para abri-lo na exibição do autor. É possível exibir os comentários nas **Comentários** painel.
+   ![](images/active-review-task-comments.png){width="800" align="left"}
+
+
+   >[!NOTE]
+   > 
+   > A variável **Revisão** e o painel **Comentários** Os painéis do estão sincronizados o tempo todo. No painel Comentários, os comentários são carregados com base na tarefa de revisão carregada no painel Revisão.
+   > Para obter mais informações sobre como tratar os comentários, consulte [Comentários de revisão de endereço](review-address-review-comments.md#).
+
 **Localizar e substituir** -  ![](images/FindAndReplace_icon.svg)
 
 O ícone Localizar e substituir é encontrado na parte inferior do painel esquerdo. O painel Localizar e substituir permite procurar e substituir texto entre arquivos em um mapa ou uma pasta no repositório. É possível localizar e substituir em todos os tópicos de um mapa, bem como nos tópicos presentes nos submapas dentro do mapa.
@@ -1402,9 +1440,9 @@ Para executar a pesquisa global e substituir, execute as seguintes etapas:
 1. Clique em **Examinar** selecione uma das seguintes opções para realizar a pesquisa.
    - **Mapa atual**: Para pesquisar no mapa aberto no momento
 
-      >[!NOTE]
-      >
-      > Essa opção será exibida se você já tiver aberto um mapa para edição.
+     >[!NOTE]
+     >
+     > Essa opção será exibida se você já tiver aberto um mapa para edição.
 
    - **Caminho**: Para pesquisar no caminho selecionado
    - **Selecionar mapa**: Para pesquisar no mapa selecionado
@@ -1415,7 +1453,7 @@ Para executar a pesquisa global e substituir, execute as seguintes etapas:
    - **Somente Palavra Inteira**: selecione essa opção se desejar pesquisar a cadeia de caracteres de pesquisa inteira. Por exemplo, se você inserir sobre na cadeia de caracteres de pesquisa, o resultado da pesquisa retornará todos os arquivos contendo palavras como sobre e visão geral. Se quiser restringir a pesquisa para retornar o termo exato inserido, selecione essa opção.
    - **Criar nova versão após substituição**: selecione esta opção se quiser criar uma nova versão do tópico no qual você escolher substituir o texto. Você também pode fornecer comentários de versão que serão adicionados com cada arquivo atualizado.
 
-      Se você não selecionar essa opção, as alterações serão salvas na versão atual do tópico e nenhuma nova versão será criada.
+     Se você não selecionar essa opção, as alterações serão salvas na versão atual do tópico e nenhuma nova versão será criada.
 
    - **Incluir referência indireta**: selecione essa opção se desejar pesquisar a cadeia de caracteres nas referências indiretas também no mapa DITA. Por padrão, isso fica desativado para que a pesquisa seja executada somente nas referências diretas.
 
@@ -1428,9 +1466,9 @@ Para executar a pesquisa global e substituir, execute as seguintes etapas:
 
    - **Mapa atual**: Para pesquisar no mapa aberto no momento
 
-      >[!NOTE]
-      >
-      > Essa opção será exibida se você já tiver aberto um mapa para edição.
+     >[!NOTE]
+     >
+     > Essa opção será exibida se você já tiver aberto um mapa para edição.
 
    - **Caminho**: Para pesquisar no caminho selecionado
    - **Selecionar mapa**: Para pesquisar no mapa selecionado
@@ -1443,7 +1481,7 @@ Para executar a pesquisa global e substituir, execute as seguintes etapas:
 
    - **Criar nova versão após substituição**: selecione esta opção se quiser criar uma nova versão do tópico no qual você escolher substituir o texto. Você também pode fornecer comentários de versão que serão adicionados com cada arquivo atualizado.
 
-      Se você não selecionar essa opção, as alterações serão salvas na versão atual do tópico e nenhuma nova versão será criada.
+     Se você não selecionar essa opção, as alterações serão salvas na versão atual do tópico e nenhuma nova versão será criada.
 
    - **Incluir referência indireta**: selecione essa opção se desejar pesquisar a cadeia de caracteres nas referências indiretas também no mapa DITA. Por padrão, isso fica desativado para que a pesquisa seja executada somente nas referências diretas.
 

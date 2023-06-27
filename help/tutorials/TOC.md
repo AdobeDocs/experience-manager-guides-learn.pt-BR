@@ -2,10 +2,10 @@
 user-guide-title: Tutorials do AEM Guides
 user-guide-description: Leia nossa coleção de tutoriais do Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials do AEM Guides
-source-git-commit: fb746eb58a53cf175f7af9a7aabd495f2e017d9b
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 7%
+source-wordcount: '1390'
+ht-degree: 6%
 
 ---
 
@@ -13,12 +13,16 @@ ht-degree: 7%
 # Tutorials para [!DNL Adobe Experience Manager Guides] {#tutorials}
 
 + [Tutorials para [!DNL AEM Guides]](overview.md)
++ [Aviso](./user-guide/rebranding-disclaimer.md)
 + Informações da versão {#release-info}
    + [[!DNL AEM Guides] versões](./release-info/latest-release-info.md)
    + Notas de versão {#release-notes}
       + Cloud Services {#cloud-release-notes}
          + [Instruções de implantação](./release-info/deploy-xml-on-aemaacs.md)
          + Versões de 2023 {#2023-releases}
+            + Versão de julho {#2307-release}
+               + [Novidades](./release-info/whats-new-2023.7.0.md)
+               + [Notas de versão](./release-info/release-notes-2023.7.0.md)
             + Versão de junho {#2306-release}
                + [Novidades](./release-info/whats-new-2023.6.0.md)
                + [Notas de versão](./release-info/release-notes-2023.6.0.md)
@@ -53,7 +57,6 @@ ht-degree: 7%
          + [Notas de versão 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [Notas de versão do 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + Guia do usuário {#user-guide}
-   + [Aviso](./user-guide/rebranding-disclaimer.md)
    + Introdução {#about-aem-guide}
       + [Sobre [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       + [!DNL AEM Guides] funcionamento e principais recursos {#aemg-works-features}
@@ -82,6 +85,7 @@ ht-degree: 7%
                + [Visualizações do Editor da Web](./user-guide/web-editor-views.md)
                + [Suporte para arquivos do Schematron](./user-guide/support-schematron-file.md)
                + [Criação de documentos do Markdown no editor da Web](./user-guide/web-editor-markdown-topic.md)
+               + [Inserir um trecho de conteúdo da sua fonte de dados](./user-guide/web-editor-content-snippet.md)
                + [Gerenciar predefinições de saída de perfil global e de pasta](./user-guide/web-editor-manage-output-presets.md)
                + Publicação baseada em artigo {#article-based-pub}
                   + [Publicação baseada em artigos no Editor da Web](./user-guide/web-editor-article-publishing.md)
@@ -143,7 +147,7 @@ ht-degree: 7%
       + [Trabalhar com linha de base](./user-guide/generate-output-use-baseline-for-publishing.md)
       + [Gerar saída para um mapa DITA a partir do console de mapas](./user-guide/generate-output-for-a-dita-map.md)
       + [Usar coleção de mapas para geração de saída](./user-guide/generate-output-use-map-collection-output-generation.md)
-      + Usar recurso nativo de publicação de PDF {#web-editor}
+      + Usar recurso de publicação de PDF nativo {#web-editor}
          + [Publicar saída de PDF](./web-editor/native-pdf-web-editor.md)
          + [Configurar caracteres especiais adicionais](./web-editor/configure-additional-special-characters.md)
       + [Gerenciar tarefas de publicação usando o Painel de publicação](./user-guide/generate-output-publish-dashboard.md)
@@ -172,7 +176,6 @@ ht-degree: 7%
       + [Relatório de histórico de versão de arquivos revertidos](./user-guide/reports-reverted-file-version-history.md)
 + Guia de instalação e configuração {#install-guide}
    + No local {#on-prem-ig}
-      + [Aviso](./install-guide/rebranding-disclaimer.md)
       + [Sobre este guia](./install-guide/introduction.md)
       + Baixar, instalar e atualizar {#download-install-upgrade-aemg}
          + [Visão geral](./install-guide/download-install.md)
@@ -249,6 +252,69 @@ ht-degree: 7%
       + Trabalhar com pesquisa no AEM Assets {#aem-asset-search}
          + [Configurar pesquisa para a interface do usuário do AEM Assets](./install-guide/conf-dita-search.md)
       + [Apêndice](./install-guide/appendix.md)
+   + Cloud Services {#cs-ig}
+      + [Sobre este guia](./cs-install-guide/introduction.md)
+      + Implantar e configurar guias de AEM como Cloud Service {#deploy-conf-aemg-cs}
+         + [Baixar e instalar](./cs-install-guide/download-install.md)
+         + [Implantar módulo de Guias do AEM](./cs-install-guide/download-install-dxml-first-time.md)
+         + [Configurar o Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
+         + [Verificar a instalação dos Guias do AEM](./cs-install-guide/download-install-verify-dxml-installation.md)
+         + [Atualizar guias do AEM](./cs-install-guide/download-install-upgrade-dxml.md)
+         + [Substituições de configuração](./cs-install-guide/download-install-additional-config-override.md)
+         + [Recommendations para otimização de desempenho](./cs-install-guide/download-install-recommend-perf-optimiz.md)
+      + Trabalhar com grupos de usuários e segurança {#user-group-sec-cs}
+         + [Administração e segurança do usuário](./cs-install-guide/user-admin-sec.md)
+      + Migração de conteúdo {#migrate-con-cs}
+         + [Migrar conteúdo existente](./cs-install-guide/migrate-content.md)
+         + [Fazer upload de conteúdo DITA existente](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
+         + [Migrar conteúdo não DITA](./cs-install-guide/migrate-content-non-dita.md)
+      + Trabalhar com DITA-OT personalizado e especialização {#custom-dita-ot-spec-cs}
+         + [Usar a especialização personalizada do DITA-OT e do DITA](./cs-install-guide/dita-ot-specialization.md)
+      + Configurar UUID e nomes de arquivo não baseados em UUID {#conf-non-uuid-filename-cs}
+         + [Configurar nomes de arquivo](./cs-install-guide/conf-file-names.md)
+         + [Configurar nomes de arquivo automáticos com base no UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
+         + [Configurar Regx para caracteres válidos de nome de arquivo](./cs-install-guide/conf-file-names-valid-regx.md)
+         + [Configurar nomes de arquivo válidos para saída do site AEM](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      + Trabalhar com modelos de tópico e mapa {#topic-map-template-cs}
+         + [Configurar tópico e modelos de mapa](./cs-install-guide/conf-template-tags.md)
+         + [Configurar modelo de tópico DITA personalizado](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
+         + [Configurar modelo de mapa DITA personalizado](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
+      + Trabalhar com estados de documentos {#doc-state-cs}
+         + [Configurar estados dos documentos](./cs-install-guide/customize-doc-state.md)
+      + Trabalhar com as configurações do Editor da Web {#web-editor-configs-cs}
+         + [Personalizar editor da Web](./cs-install-guide/conf-web-editor.md)
+         + [Personalizar barra de ferramentas](./cs-install-guide/conf-web-editor-customize-toolbar.md)
+         + [Configurar valor padrão para a exibição de tags](./cs-install-guide/configure-default-value-tags-view.md)
+         + [Configurar a exibição de links baseados em UUID](./cs-install-guide/conf-uuid-based-links.md)
+         + [Abrir tópico DITA ou mapear arquivos na mesma guia](./cs-install-guide/open-dita-files-same-tab.md)
+         + [Configurar um painel personalizado no painel esquerdo](./cs-install-guide/configure-custom-panel.md)
+         + [Configurar o salvamento automático de arquivos no Editor da Web](./cs-install-guide/auto-save-in-editor.md)
+         + [Configurar o prompt para salvar como uma nova versão ao fechar](./cs-install-guide/conf-save-as-new-version-close.md)
+         + [Configurar prompt para fazer check-in de um arquivo ao fechar](./cs-install-guide/conf-checkin-file-close.md)
+         + [Configurar caracteres especiais permitidos](./cs-install-guide/conf-special-chars.md)
+         + [Gerar IDs de elemento automaticamente](./cs-install-guide/auto-generate-ids.md)
+         + [Personalizar dicionário padrão do AEM](./cs-install-guide/customize-aem-custom-dictionary.md)
+         + [Configurar filtros de texto](./cs-install-guide/config-text-filters.md)
+         + [Configurar filtros para a caixa de diálogo de procura de arquivos](./cs-install-guide/conf-custom-file-filters.md)
+         + [Instalar pacotes para publicação baseada em artigo](./cs-install-guide/configure-article-based-publishing.md)
+         + [Configurar a geração de PDF de um único tópico](./cs-install-guide/conf-pdf-generation-dita-ot.md)
+         + [Configurar o recurso de tradução no editor da Web](./cs-install-guide/conf-translation-web-editor.md)
+         + [Configurar um conector de fonte de dados](./cs-install-guide/conf-data-source-connector.md)
+         + [Definir o Editor de mapa avançado como padrão](./cs-install-guide/conf-map-editor.md)
+         + [Incluir atributo @navtitle por padrão](./cs-install-guide/auto-add-navtitle.md)
+      + Trabalhar com perfis globais e de nível de pasta {#global-folder-profiles-cs}
+         + [Configurar perfis globais ou de nível de pasta](./cs-install-guide/conf-folder-level.md)
+      + Configurar versões {#version-mgt-cs}
+         + [Gerenciamento de versão](./cs-install-guide/version-management.md)
+      + Trabalhar com configurações de geração de saída {#output-gen-config-cs}
+         + [Definir configurações de geração de saída](./cs-install-guide/conf-output-generation.md)
+      + Trabalhar com fluxos de trabalho personalizados {#custom-workflow-cs}
+         + [Configurar e personalizar workflows](./cs-install-guide/customize-workflows.md)
+      + Trabalhar com configurações de tradução {#translate-config-cs}
+         + [Traduzir conteúdo](./cs-install-guide/translation.md)
+      + Trabalhar com pesquisa no AEM Assets {#aem-asset-search-cs}
+         + [Configurar pesquisa para a interface do usuário do AEM Assets](./cs-install-guide/conf-dita-search.md)
+      + [Apêndice](./cs-install-guide/appendix.md)
 + Knowledge Base {#knowledge-base}
    + Sessão com especialista {#expert-session}
       + [Visão geral da sessão com especialistas](./knowledge-base/expert-sessions/expert-session.md)
@@ -263,10 +329,10 @@ ht-degree: 7%
       + Criação {#authoring}
          + Relatórios {#reports}
             + [Gerenciar metadados para seu conteúdo DITA](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
-         + Webeditor {#webeditor}
+         + Editor da Web {#webeditor}
             + Personalização {#customizing}
                + [Adicionar botão personalizado à barra de ferramentas](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-               + [Adicionar estilos personalizados ao editor da Web](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+               + [Adicionar estilos personalizados ao Editor da Web](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + Schematron {#schematron}
                + [Validação do esquema](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + Publicação {#publishing}

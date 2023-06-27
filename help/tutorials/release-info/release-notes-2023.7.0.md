@@ -1,29 +1,30 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos nos Guias da Adobe Experience Manager, versão de junho de 2023
-description: Saiba mais sobre as correções de erros e como atualizar para a versão de junho de 2023 do Adobe Experience Manager Guides as a Cloud Service
-exl-id: ea0ff27a-9c3a-49d7-b94a-d1b9d9e85dcf
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+description: Saiba mais sobre as correções de erros e como atualizar para a versão de julho de 2023 do Adobe Experience Manager Guides as a Cloud Service
+source-git-commit: 4ba47a803eec7bcbb106c34a1ad6a7fbed9934be
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 3%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
 
 # Versão de junho de 2023 do Adobe Experience Manager Guides as a Cloud Service
 
-Esta nota de versão aborda as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos na versão de junho de 2023 dos Guias da Adobe Experience Manager (mais tarde chamados de *Guias de AEM as a Cloud Service*).
+Esta nota de versão aborda as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos na versão de julho de 2023 dos Guias da Adobe Experience Manager (mais tarde chamados de *Guias de AEM as a Cloud Service*).
 
-Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades na versão de junho de 2023 do Guia do AEM as a Cloud Service](whats-new-2023.6.0.md).
+Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades na versão de julho de 2023 do Guia do AEM as a Cloud Service](whats-new-2023.7.0.md).
 
-## Atualização para a versão de junho de 2023
+## Atualização para a versão de julho de 2023
 
 Atualize sua configuração as a Cloud Service dos Guias AEM atuais executando as seguintes etapas:
 
 1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline Cloud Services correspondente ao ambiente que você deseja atualizar.
-2. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Services para 2023.6.297.
-3. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de junho de 2023 do AEM Guides as a Cloud Service.
+2. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Services para 2023.7.0.314.
+3. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de julho de 2023 do AEM Guides as a Cloud Service.
 
 ## Etapas para ativar o acionador de um script por meio de um servlet
+
+(Somente se você estiver em uma versão anterior à versão de junho de 2023 dos Guias do AEM as a Cloud Service)
 
 Após concluir a instalação, você pode optar por APRESENTAR o acionador para iniciar o trabalho de tradução:
 
@@ -82,7 +83,7 @@ Execute as seguintes etapas para o pós-processamento do conteúdo existente e u
 
 ## Etapas para indexar o conteúdo existente para usar a nova localização e substituição e lista de tópicos na guia Relatórios:
 
-(Somente se você estiver em uma versão anterior à versão de setembro de 2022 dos Guias do AEM as a Cloud Service)
+(Somente se você estiver em uma versão anterior à versão de junho de 2023 dos Guias do AEM as a Cloud Service)
 
 Execute as seguintes etapas para indexar o conteúdo existente e usar o novo texto de localização e substituição no nível do mapa e da lista de tópicos na guia relatórios:
 
@@ -97,13 +98,13 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com os Guias do AEM as a Cloud Service na versão de junho de 2023.
+Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com os Guias do AEM as a Cloud Service na versão de julho de 2023.
 
 ### FrameMaker e FrameMaker Publishing Server
 
 | Versão do AEM Guides as a Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.06.0 | Não compatível | 2022 ou superior |
+| 2023.07.0 | Não compatível | 2022 ou superior |
 | | | |
 
 
@@ -111,7 +112,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 | Versão do AEM Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.06.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023.07.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
@@ -121,45 +122,16 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 ### Criação  
 
-- Navtitle é removido do content33 ao alternar da exibição de layout para a exibição de autor ou fonte. (12174)
-- Às vezes, ocorre um erro de aplicativo ao clicar em um mapa DITA. (11842)
-- Editor da Web | O espaço sem quebra é adicionado no Editor de XML ao editar um tópico. (11786)
-- Interface do usuário do ativo | Na exibição em Lista, as colunas disponíveis sobrepostas não são mescláveis. (11528)
-- Keyref não foi resolvido na exibição de mapa. (11490)
-- O menu superior não é exibido ao navegar pelo editor XML. (10868)
-- `conref` na tag ph | A caixa de diálogo de navegação exibida está incorreta. (9481)
-- Links locais para outros elementos não são resolvidos no Editor da Web. (8790)
-- A função Matches() não funciona no recurso schematron. (11224)
-
-
-### Gerenciamento
-
-- A guia Relatórios na interface do Editor da Web não exibe a lista de tópicos de mapas DITA antigos criados antes da atualização 4.2. (11708)
-
-- A funcionalidade do botão Fazer upload de arquivos na quebra da interface do usuário do Assets na versão 4.2. (11633)
+- Os atributos em linha/Exibição não aparecem na exibição de layout do Editor da Web. (12498)
+- Carregar arquivos no plug-in Oxygen para o AEM Guides não está funcionando no Cloud Services, se você tiver! no nome do arquivo. (12207)
+- A publicação de mapas DITA é muito lenta com o modelo editável. (12075)
+- A configuração da interface do usuário do perfil global não corresponde ao Perfil da pasta. (11970)
+- As referências de conteúdo são quebradas quando os arquivos DITA são copiados e colados. (11959)
+- Não é possível editar o fragmento de conteúdo na exibição de coluna com Guias do AEM instalados. (7342)
+- O conteúdo é perdido quando uma refex não encapsulada está sob tags de um subelemento. (12532)
 
 ### Publicação
 
-- A publicação no site AEM falha ao ler arquivos temporários do pod que podem ter sido atualizados ou reiniciados. (12113)
-- PDF nativo | A publicação de conteúdo que tem uma classe de saída com colchetes() resulta em um congelamento da publicação. (11936)
-- Saída JSON | Mapear metadados com o valor de propriedade como `"value in spaces and double quotes"` leva a um erro de publicação. (11933)
-- Editor da Web | O caminho de saída e o modelo não podem ser selecionados na Predefinição de AEM. (11530)
-- PDF nativo | Os atributos personalizados não são propagados para o mecanismo de HTML ou PDF temporário. (DXML-12005)
-- PDF nativo | Java OutOfMemoryError ocorre ao publicar conteúdo grande. (11789)
-- Saída JSON | O `fmUuid` no nó jcr:content do JSON é diferente da &quot;id&quot; dentro do JSON. (11564)
-- Saída JSON | Se o mapa e o tópico com o mesmo nome de arquivo estiverem presentes, o JSON do mapa será removido. (11524)
-- PDF nativo | Xref está imprimindo o conteúdo do título do tópico href em vez do rótulo Xref. (11322)
-- PDF nativo | Não é possível salvar as configurações do modelo de PDF. (10751)
-- PDF nativo | O texto se estende além da largura da coluna ao incluir vários xrefs. (10876)
-- PDF nativo | `<note>``</note>` O elemento não gera um título de extensão extra de seu tipo. (10549)
-- PDF nativo | Os metadados de idioma não podem ser definidos no PDF gerado para estar em conformidade com a WCAG 2.0. (12407)
+- O fluxo de trabalho de aprovação não funciona quando o docstate é alterado para &quot;estado final&quot; nas propriedades File do painel direito. (11026)
 
 
-
-### Tradução
-
-- Após a versão na nuvem de fevereiro (2302), todo o conteúdo da tradução é exibido Fora de sincronia ou sem cópia. (11834)
-
-### Análise
-
-- Nova interface de revisão | As condições destacadas e mostrar ocultar funcionam de forma diferente em relação ao Editor da Web. (11628)

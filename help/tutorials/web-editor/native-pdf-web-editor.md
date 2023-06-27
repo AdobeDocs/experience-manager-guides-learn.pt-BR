@@ -2,9 +2,9 @@
 title: PDF nativo | Geração de saída de PDF
 description: Gerar saída de PDF nos Guias do Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b9cf70ac957bfacbf9a6bf4c3b32d4f73c2b1287
+source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2904'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ Para obter mais informações sobre como gerar um PDF usando o método DITA-OT, 
 
 * **FrameMaker Publishing Server (FMPS)**
 
-Use esse método para gerar uma saída de PDF não apenas do conteúdo DITA, mas também dos documentos do FrameMaker (.book e .fm) disponíveis no repositório AEM. O PDF pode ser criado configurando uma predefinição de saída e publicado usando o FrameMaker Publishing Server (FMPS). Você pode projetar e configurar a aparência da sua saída para PDF e outros formatos e armazenar o mesmo em um arquivo de configuração (.sts). Esse arquivo de configuração é então usado pelo FMPS para gerar saída para um mapa DITA ou arquivo .book. Para criar ou editar uma predefinição de saída, consulte  *Noções básicas sobre as predefinições de saída* na seção [Guia do usuário as a Cloud Service do AEM](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
+Use esse método para gerar uma saída de PDF não apenas do conteúdo DITA, mas também de documentos do FrameMaker (.book e .fm) disponíveis no repositório do AEM. O PDF pode ser criado configurando uma predefinição de saída e publicado usando o FrameMaker Publishing Server (FMPS). Você pode projetar e configurar a aparência da sua saída para PDF e outros formatos e armazenar o mesmo em um arquivo de configuração (.sts). Esse arquivo de configuração é então usado pelo FMPS para gerar saída para um mapa DITA ou arquivo .book. Para criar ou editar uma predefinição de saída, consulte  *Noções básicas sobre as predefinições de saída* na seção [Guia do usuário as a Cloud Service do AEM](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-Para obter mais informações sobre como configurar o FMPS, consulte [Gerar saída de documentos do FrameMaker](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
+Para obter mais informações sobre como configurar o FMPS, consulte [Gerar saída de documentos de FrameMaker](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
 * **Publicação de PDF nativo**
 
@@ -56,7 +56,6 @@ Para criar ou configurar uma predefinição de saída de PDF:
 
 1. Na guia Saída, clique em **Predefinições** na barra lateral esquerda.
 O painel Predefinição é aberto. <br>
-
 <img src="assets/preset-panel.png" alt="painel predefinido" width="600">
 
 1. Na saída **Predefinições** , siga um destes procedimentos:
@@ -95,17 +94,17 @@ Esses metadados são mapeados na guia Descrição, nas Propriedades do documento
 Nas predefinições de Saída, **selecionar PDF** > **Metadados** para adicionar e personalizar opções de metadados.
 * **Fornecer arquivo XMP**
 
-   Os campos de metadados podem ser preenchidos diretamente com a importação [XMP](https://www.adobe.com/products/xmp.html) arquivo (Extensible Metadata Platform). Você pode baixar um arquivo XMP de amostra daqui.
+  Os campos de metadados podem ser preenchidos diretamente com a importação [XMP](https://www.adobe.com/products/xmp.html) arquivo (Extensible Metadata Platform). Você pode baixar um arquivo XMP de amostra daqui.
 
 [Download](assets/SampleXMP.xmp)
 
-   Como alternativa, você pode gerar um arquivo XMP usando o Adobe Acrobat.
+  Como alternativa, você pode gerar um arquivo XMP usando o Adobe Acrobat.
    1. Clique em **Arquivo** > **Propriedades** no Acrobat.
    1. Em **Descrição**, clique em **Metadados adicionais**.
    1. No painel esquerdo, selecione **Avançado**.
    1. Clique em **Salvar**.
 
-   O arquivo XMP é salvo no dispositivo.
+  O arquivo XMP é salvo no dispositivo.
 
 * **Fornecer nomes e valores de metadados**
 
@@ -152,6 +151,7 @@ Use as opções a seguir para especificar configurações avançadas para mescla
 | **Mostrar marca d&#39;água** | Selecione esta opção para renderizar as equações MathML presentes no seu conteúdo. Caso contrário, as equações serão ignoradas. |
 | **Habilitar equações MathML** | Selecione esta opção para renderizar as equações MathML presentes no seu conteúdo. As equações serão ignoradas caso contrário, por padrão. |
 | **Conformidade de PDF** | É o padrão para o qual você pretende salvar o PDF para garantir sua conformidade. Selecione na lista suspensa para escolher os padrões de PDF disponíveis. Para obter mais detalhes sobre os padrões suportados, consulte [Sobre os padrões PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Baixar arquivos temporários** | Selecione esta opção se você deseja fazer download dos arquivos de HTML provisórios criados durante a geração da saída de PDF nativo. Posteriormente, você pode baixar os arquivos temporários depois de gerar a saída. |
 
 ## Gerar uma saída de PDF {#generate-pdf-output}
 
@@ -173,3 +173,12 @@ Se uma saída não for bem-sucedida, a mensagem de erro abaixo será exibida.
 <img src="assets/error-log.png" alt="log de erros" width="250">
 
 Para exibir o log de erros, clique em **Ignorar**, passe o mouse sobre a guia de predefinição selecionada e clique em ![opções](assets/options.svg) **Opções** > **Exibir registro**.
+
+### Baixar arquivos temporários depois de gerar a saída de PDF nativa
+
+Se você selecionar a variável **Baixar arquivos temporários** nas Configurações avançadas, você também pode baixar os arquivos de HTML provisórios criados durante a geração da saída de PDF nativo. Depois de gerar a saída, você pode baixar os arquivos temporários usando o **Baixar arquivos temporários** ![baixar arquivos temporários](assets/native-pdf-download-temporary-files-icon.svg)ícone na barra superior. Esse recurso ajuda a visualizar os estilos e layouts provisórios do HTML e ajuda a corrigir ou alterar os estilos de CSS de acordo com os requisitos.
+
+
+>OBSERVAÇÃO
+>
+> A variável **Baixar arquivos temporários**  ![baixar arquivos temporários](assets/native-pdf-download-temporary-files-icon.svg) O ícone será exibido somente se tiver gerado a última saída de PDF usando a predefinição na qual você selecionou a opção no **Avançado** guia.
