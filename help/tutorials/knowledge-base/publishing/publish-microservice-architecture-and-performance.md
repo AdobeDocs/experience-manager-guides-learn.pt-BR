@@ -1,13 +1,13 @@
 ---
 title: Arquitetura e desempenho do microsserviço de publicação na nuvem
 description: Entenda como o novo microsserviço permite a publicação escalonável no AEMaaCS.
-source-git-commit: 2e45f132ced5ac29118a7301f104bedc03c93253
+exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
+source-git-commit: 862f086c4682e3efed06d142ddd099fecc9ca00e
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
-
 
 # Arquitetura do microsserviço de publicação na nuvem e análise de desempenho
 
@@ -15,7 +15,7 @@ Este artigo compartilha os insights sobre a arquitetura e os números de desempe
 
 >[!NOTE]
 >
-> Atualmente, a publicação baseada em microsserviços nos Guias AEM só oferece suporte à saída de PDF usando a publicação de PDF nativo ou por meio do DITA-OT. Os Guias do AEM adicionarão suporte à publicação baseada em microsserviços para mais tipos de saída nas próximas versões.
+> A publicação baseada em microsserviços nos Guias AEM suporta os tipos de predefinição de saída PDF (baseados tanto em Nativo quanto em DITA-OT), HTML5 e PERSONALIZADO.
 
 ## Problemas com fluxos de trabalho de publicação existentes na nuvem
 
@@ -50,29 +50,29 @@ Se você estiver publicando um mapa grande no local, talvez seja necessário aju
 
 * Nuvem
 
-   Se você estiver executando uma única publicação na nuvem usando o novo serviço, a publicação poderá demorar um pouco mais em comparação com a publicação única no local. Esse pequeno tempo elevado se deve à natureza distribuída da nova arquitetura de nuvem.
+  Se você estiver executando uma única publicação na nuvem usando o novo serviço, a publicação poderá demorar um pouco mais em comparação com a publicação única no local. Esse pequeno tempo elevado se deve à natureza distribuída da nova arquitetura de nuvem.
 
-   <img src="assets/cloud_single_publish.png" alt="guia projetos" width="600">
+  <img src="assets/cloud_single_publish.png" alt="guia projetos" width="600">
 
 * No local
 
-   Os resultados de uma única publicação são melhores na antiga arquitetura em nuvem ou no local, já que a publicação completa está acontecendo no mesmo pod/computador em que o AEM está sendo executado.
+  Os resultados de uma única publicação são melhores na antiga arquitetura em nuvem ou no local, já que a publicação completa está acontecendo no mesmo pod/computador em que o AEM está sendo executado.
 
-   <img src="assets/onprem_single_publish.png" alt="guia projetos" width="600">
+  <img src="assets/onprem_single_publish.png" alt="guia projetos" width="600">
 
 ### Execução de várias publicações na nuvem em vez de no local
 
 * Nuvem
 
-   O novo microsserviço de publicação destaca esse cenário. Como você pode ver na imagem abaixo, com o aumento dos vários trabalhos de publicação simultâneos, a nuvem pode publicá-los sem qualquer aumento significativo no tempo de publicação.
+  O novo microsserviço de publicação destaca esse cenário. Como você pode ver na imagem abaixo, com o aumento dos vários trabalhos de publicação simultâneos, a nuvem pode publicá-los sem qualquer aumento significativo no tempo de publicação.
 
-   <img src="assets/cloud_bulk_publish.png" alt="guia projetos" width="600">
+  <img src="assets/cloud_bulk_publish.png" alt="guia projetos" width="600">
 
 * No local
 
-   A execução de publicação simultânea em um servidor no local resulta em grave degradação do desempenho. Essa queda de desempenho é mais grave se os editores publicarem ainda mais mapas simultaneamente.
+  A execução de publicação simultânea em um servidor no local resulta em grave degradação do desempenho. Essa queda de desempenho é mais grave se os editores publicarem ainda mais mapas simultaneamente.
 
-   <img src="assets/onprem_bulk_publish.png" alt="guia projetos" width="600">
+  <img src="assets/onprem_bulk_publish.png" alt="guia projetos" width="600">
 
 ## Benefícios adicionais
 

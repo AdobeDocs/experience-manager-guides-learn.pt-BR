@@ -1,21 +1,22 @@
 ---
 title: Guias de publicação de benchmarks no AEMaaCS
 description: Entenda os limites do sistema em Publicação na Nuvem AEM.
-source-git-commit: e64430bb968b18090c3981cc2d21ebe6593ba933
+exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
+source-git-commit: 06a55ef933f9e7941cef2337212a830413a478af
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 7%
+source-wordcount: '233'
+ht-degree: 8%
 
 ---
-
 
 # Guias do AEM publicam benchmarks no AEMaaCS
 
 Atualmente, o serviço em nuvem AEM Guides tem alguns limites de tamanhos de mapa de publicação para os quais a equipe do Guides está trabalhando ativamente para resolver.
 
-A equipe do Guides já introduziu um [Microsserviço de publicação](publish-microservice-architecture-and-performance.md) para oferecer suporte a mapas grandes e várias publicações simultâneas. Por enquanto, esse microsserviço oferece suporte a um subconjunto de tipos de saída e o suporte para outros tipos está em desenvolvimento ativo.
+A equipe do Guides apresentou um microsserviço de publicação escalável para oferecer suporte a mapas grandes e várias publicações simultâneas. Para saber mais sobre o novo microsserviço de publicação, consulte [arquitetura de microsserviço de publicação](publish-microservice-architecture-and-performance.md)
 
-Para configurar o novo serviço de publicação para qualquer ambiente de nuvem AEM, consulte [Configurar nova publicação baseada em microsserviços](configure-microservices.md)
+Para configurar o novo serviço de publicação para qualquer ambiente de nuvem AEM, consulte [configurar nova publicação baseada em microsserviços](configure-microservices.md)
+
 
 ## Ambiente de execução
 
