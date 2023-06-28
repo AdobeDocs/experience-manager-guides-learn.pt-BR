@@ -1,13 +1,13 @@
 ---
 title: Atualização dos Guias do Adobe Experience Manager
 description: Saiba como atualizar os Guias do Adobe Experience Manager
-source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
+exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
+source-git-commit: a00484a6e0a900a568ae1f651e96dca31add1bd8
 workflow-type: tm+mt
 source-wordcount: '2750'
 ht-degree: 1%
 
 ---
-
 
 # Atualização dos Guias do Adobe Experience Manager {#id224MBE0M0XA}
 
@@ -214,11 +214,10 @@ Depois de instalar o AEM Guides, você pode mesclar as várias configurações a
 
    - &#39;excludeList&#39; deve ter `"event-user-data:changedByWorkflowProcess"`.
    - Iniciador para &quot;*Nó Modificado*&quot; para **Fluxo de trabalho do Ativo de atualização DAM -** para a condição &quot;`jcr:content/jcr:mimeType!=video`&quot;,
-   - 
-      - o valor de &#39;Globbing&#39; deve ser:
+   - o valor de &#39;Globbing&#39; deve ser:
 
    ```json
-   `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - &#39;excludeList&#39; deve ter `"event-user-data:changedByWorkflowProcess"`.
@@ -388,11 +387,10 @@ Depois de instalar o AEM Guides, você pode mesclar as várias configurações a
    - Iniciador para &quot;*Nó Modificado*&quot; para **Fluxo de trabalho do Ativo de atualização DAM -** para a condição &quot;`jcr:content/jcr:mimeType!=video`&quot;, o valor de &#39;Globbing&#39; deve ser:
 
    ```json
-   `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - `excludeList` deve ter `"event-user-data:changedByWorkflowProcess"`.
-
 
 1. Quando a atualização for concluída, verifique se todas as personalizações/sobreposições estão validadas e atualizadas para corresponder ao novo código do aplicativo. Alguns exemplos são apresentados abaixo:
    - Quaisquer componentes sobrepostos de/libs/fmditaor/libsdevem ser comparados com o novo código do produto e as atualizações devem ser feitas em arquivos sobrepostos em/apps.
@@ -408,7 +406,7 @@ Depois de instalar o AEM Guides, você pode mesclar as várias configurações a
 Execute as seguintes etapas para indexar o conteúdo existente e usar o novo texto de localização e substituição no nível do mapa:
 
 - Certifique-se de que o `damAssetLucene` a indexação foi concluída. Pode levar algumas horas, dependendo da quantidade de dados presentes no servidor. Você pode confirmar que a reindexação foi concluída verificando se o campo de reindexação está definido como falso em
-   `http://<server:port>/oak:index/damAssetLucene`.  Além disso, se você tiver adicionado personalizações no `damAssetLucene`, talvez seja necessário aplicá-los novamente.
+  `http://<server:port>/oak:index/damAssetLucene`.  Além disso, se você tiver adicionado personalizações no `damAssetLucene`, talvez seja necessário aplicá-los novamente.
 
 - Executar uma solicitação POST no servidor \(com autenticação correta\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Opcional: é possível passar caminhos específicos dos mapas para indexá-los. Por padrão, todos os mapas serão indexados \|\| Por exemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
@@ -420,4 +418,3 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 - Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
 **Tópico pai:**[ Baixar e instalar](download-install.md)
-
