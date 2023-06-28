@@ -2,9 +2,9 @@
 title: Arquitetura e desempenho do microsserviço de publicação na nuvem
 description: Entenda como o novo microsserviço permite a publicação escalonável no AEMaaCS.
 exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
-source-git-commit: 862f086c4682e3efed06d142ddd099fecc9ca00e
+source-git-commit: 4185c31ae45c7b6fd0d394a15fbca0753d5e0463
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Este artigo compartilha os insights sobre a arquitetura e os números de desempe
 
 >[!NOTE]
 >
-> A publicação baseada em microsserviços nos Guias AEM suporta os tipos de predefinição de saída PDF (baseados tanto em Nativo quanto em DITA-OT), HTML5 e PERSONALIZADO.
+> A publicação com base em microsserviços nos Guias AEM suporta os tipos de predefinições de saída PDF (baseados em DITA e nativo), HTML5 e CUSTOM.
 
 ## Problemas com fluxos de trabalho de publicação existentes na nuvem
 
