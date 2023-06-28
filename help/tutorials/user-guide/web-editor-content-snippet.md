@@ -1,7 +1,7 @@
 ---
 title: Inserir um trecho de conteúdo da sua fonte de dados
 description: Saiba como inserir um trecho de conteúdo da sua fonte de dados
-source-git-commit: f01903fe9ae3d60a8b818e881fd3b1d626fcd2bc
+source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -16,6 +16,7 @@ O Guias do AEM fornece o recurso para se conectar com sua fonte de dados. Você 
 Execute as seguintes etapas para criar um trecho de conteúdo usando o gerador de trecho de conteúdo e insira-o em seu tópico:
 
 1. Selecionar **Fontes de dados** ![](images/data-source-icon.svg)   no painel esquerdo para exibir as fontes de dados conectadas. O painel Fontes de dados é aberto e exibe todas as fontes de dados conectadas. Para obter mais detalhes, consulte [Configurar um conector de fonte de dados](../cs-install-guide/conf-data-source-connector.md).
+
    >[!NOTE]
    >
    > Você verá as fontes de dados para as quais o administrador configurou o conector.
@@ -31,7 +32,9 @@ Os modelos prontos para uso da fonte de dados selecionada são exibidos na lista
    >[!NOTE]
    >  
    > Se o administrador tiver configurado modelos personalizados, esses modelos também serão exibidos na lista suspensa (com base nas configurações de caminho do modelo feitas pelo administrador).
+
 1. Clique em **Buscar** para buscar os dados da fonte de dados e aplicar o modelo nos dados resultantes da consulta SQL.
+
 1. É possível exibir os dados na visualização ou na exibição da fonte DITA.
 
    1. A visualização mostra como os dados serão exibidos quando inseridos no conteúdo. A visualização exibe uma pequena fração dos dados no formato do modelo selecionado.
