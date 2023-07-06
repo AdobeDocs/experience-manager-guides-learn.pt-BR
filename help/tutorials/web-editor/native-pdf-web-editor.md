@@ -2,9 +2,9 @@
 title: PDF nativo | Geração de saída de PDF
 description: Gerar saída de PDF nos Guias do Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
+source-git-commit: 3ae7a2a5954b68da29d4268012be47cd2ac8df3e
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2951'
 ht-degree: 0%
 
 ---
@@ -182,3 +182,10 @@ Se você selecionar a variável **Baixar arquivos temporários** nas Configuraç
 >[!NOTE]
 >
 > A variável **Baixar arquivos temporários**  ![baixar arquivos temporários](assets/native-pdf-download-temporary-files-icon.svg) O ícone será exibido somente se tiver gerado a última saída de PDF usando a predefinição na qual você selecionou a opção no **Avançado** guia.
+
+
+
+### Usar variáveis de idioma
+
+Guias de AEM também fornecem suporte para variáveis de idioma. Selecionar **Variáveis de idioma** <img src="./assets/language-variables.svg" width="25">  no painel esquerdo para definir uma versão localizada dos rótulos prontos para uso como Observação, Cuidado e Aviso ou texto estático na saída de PDF. Para obter mais detalhes, consulte [Suporte para variáveis de idioma](../native-pdf/native-pdf-language-variables.md).
+

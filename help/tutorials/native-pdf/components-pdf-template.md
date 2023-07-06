@@ -2,9 +2,9 @@
 title: Recurso de publicação de PDF nativo | Componentes de um modelo de PDF
 description: Saiba mais sobre os vários componentes de um modelo de PDF e como personalizá-los e configurá-los.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
+source-git-commit: 360bba8b5e6ab61314486497e9cc41348ff903c1
 workflow-type: tm+mt
-source-wordcount: '2516'
+source-wordcount: '2938'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Um modelo de PDF tem quatro componentes: Layouts de página, Folhas de estilos, 
 
 ## Criar e personalizar layouts de página {#create-customize-page-layout}
 
-As configurações no componente Layouts de página permitem que você crie a estrutura de uma página definindo o cabeçalho, o rodapé e a área de conteúdo em uma página. Usando o editor de layout de página WYSIWYG, você pode criar um layout de página para diferentes seções em um PDF, como as páginas de capa frontal e traseira, capítulo, Índice, página em branco, Lista de figuras (LOF), Lista de tabelas (LOT), glossário ou criar um layout para uma página personalizada. Nas Configurações do modelo de PDF, é possível atribuir um layout de página com diferentes seções dentro de um PDF, que são usadas para gerar a saída de PDF.
+As configurações no componente Layouts de página permitem que você crie a estrutura de uma página definindo o cabeçalho, o rodapé e a área de conteúdo em uma página. Usando o editor de layout de página WYSIWYG, você pode criar um layout de página para diferentes seções em um PDF, como as páginas de capa e contracapa, capítulo, Índice, página em branco, Páginas de matéria frontal, Páginas de matéria traseira, Lista de figuras (LOF), Lista de tabelas (LOT), glossário ou criar um layout para uma página personalizada. Nas Configurações do modelo de PDF, é possível atribuir um layout de página com diferentes seções dentro de um PDF, que são usadas para gerar a saída de PDF.
 
 ### Criar um novo layout de página {#create-page-layout}
 
@@ -34,9 +34,9 @@ As configurações no componente Layouts de página permitem que você crie a es
    * Focalizar **Layouts de página** e clique no botão *Opções* ícone) **..** e escolha **Novo layout de página**.
    * No **Modelos** clique no botão **+** ícone ao lado de **Modelos** e escolha **Layout da página** no menu de contexto.
 
-      Isso abre a caixa de diálogo Adicionar layout.
+     Isso abre a caixa de diálogo Adicionar layout.
 
-      <img src="assets/add-layout-2.png" alt="Caixa de diálogo Adicionar layout" width="250">
+     <img src="assets/add-layout-2.png" alt="Caixa de diálogo Adicionar layout" width="250">
 1. Especifique um nome para o novo layout de página.
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ As configurações no componente Layouts de página permitem que você crie a es
 
 ### Duplicação de um layout de página {#duplicate-page-layout}
 
-1. No **Modelos** do modelo que deseja duplicar, clique duas vezes em **Layouts de página** ou clique no link **>** ícone antes **Layouts de página**.
+1. No **Modelos** do modelo que deseja duplicar, clique duas vezes em  **Layouts de página** ou clique no link **>** ícone antes **Layouts de página**.
 
    Isso exibe a lista de layouts de página no modelo.
 
@@ -123,7 +123,7 @@ Para criar um novo estilo, siga as etapas abaixo:
 Depois de criar um novo arquivo CSS com estilos padrão ou personalizar estilos em um arquivo CSS existente, você pode usar o editor de estilos para fazer isso.
 
 Para personalizar um estilo, siga as etapas abaixo:
-1. Clique duas vezes em **Folhas de estilos** ou clique no link **>** ícone antes **Folhas de estilos**.
+1. Clique duas vezes **Folhas de estilos** ou clique no link **>** ícone antes **Folhas de estilos**.
 
    Isso exibe os arquivos CSS padrão (Conteúdo e Layout) e personalizados.
 1. Abra uma folha de estilos para edição.
@@ -138,7 +138,7 @@ Para personalizar um estilo, siga as etapas abaixo:
 
 1. Para personalizar um estilo, clique duas vezes em um estilo ou clique no ícone > antes de um estilo para exibi-lo e personalizá-lo usando o editor de Estilos.
 
-para obter detalhes sobre como trabalhar com os estilos mais comuns, consulte [Trabalhar com os estilos de conteúdo comuns](stylesheet.md)
+Para obter detalhes sobre como trabalhar com os estilos mais comuns, consulte [Trabalhar com os estilos de conteúdo comuns](stylesheet.md).
 
 ## Trabalhar com recursos {#work-with-resources}
 
@@ -171,7 +171,7 @@ Para configurar, clique em **Configurações** no **Modelos** para exibir as seg
 
 Defina as configurações básicas para iniciar um capítulo a partir de uma página ímpar ou par, a estrutura do sumário e defina o formato da linha de chamada para as entradas do sumário. Você pode definir a seguinte configuração:
 
-* **Sempre iniciar capítulo de**: permite definir como cada capítulo é publicado no PDF final. Você pode escolher entre uma **Nova página**, **Página ímpar** ou **Página par** opções. Se você optar por iniciar um novo capítulo a partir de uma página ímpar, uma página em branco será inserida depois de um capítulo que termina em uma página ímpar. Por exemplo, se o capítulo terminar na página número 15, o processo de publicação inserirá um 16 em branco<sup>th</sup> para que o novo capítulo possa começar no 17<sup>th</sup> página.
+* **Inicie qualquer novo capítulo em**: permite definir como cada capítulo é publicado no PDF final. Você pode escolher entre uma **Nova página**, **Página ímpar**, **Página par** ou **Página atual**  opções. Se você optar por iniciar um novo capítulo a partir de uma página ímpar, uma página em branco será inserida depois de um capítulo que termina em uma página ímpar. Por exemplo, se o capítulo terminar na página número 15, o processo de publicação inserirá um 16 em branco<sup>th</sup> para que o novo capítulo possa começar no 17<sup>th</sup> página.  Se você escolher a variável **Página atual** , todos os capítulos serão publicados na continuação sem nenhuma quebra de página. Por exemplo, se um capítulo terminar no meio da página 15, o próximo capítulo também será iniciado a partir da própria 15 página.
 
 * **Iniciar cada tópico a partir de uma nova página**: Se quiser que cada tópico do capítulo comece em uma nova página, selecione **Iniciar cada tópico a partir de uma nova página** opção. Se quiser manter os tópicos em continuação sem qualquer intervalo de página, desmarque essa opção.
 
@@ -180,27 +180,30 @@ Defina as configurações básicas para iniciar um capítulo a partir de uma pá
    * **Usar cabeçalhos até o nível**: permite ajustar o número de níveis de cabeçalho a serem exibidos na estrutura de índice do seu PDF.
    * **Não mostrar o número de página do primeiro nível no índice**: selecione esta opção para ocultar os números de página correspondentes para todos os capítulos que contenham tópicos aninhados ou filhos. Considere o exemplo a seguir em que uma saída é criada sem selecionar essa opção.
 
-   <img src="assets/page-number-in-toc.png" alt="Fazer upload de ativos" width="250">
+  <img src="assets/page-number-in-toc.png" alt="Fazer upload de ativos" width="250">
 
-   No exemplo acima, Configurações avançadas de PDF, Apêndice e Ofício são os títulos de tópico de primeiro nível ou títulos de capítulo. Um número de página é atribuído a todos esses cabeçalhos.
+  No exemplo acima, Configurações avançadas de PDF, Apêndice e Ofício são os títulos de tópico de primeiro nível ou títulos de capítulo. Um número de página é atribuído a todos esses cabeçalhos.
 
-   Agora, se você selecionar essa opção e gerar a saída, você obterá o seguinte índice:
+  Agora, se você selecionar essa opção e gerar a saída, você obterá o seguinte índice:
 
-   <img src="assets/page-number-missing-in-toc.png" alt="Fazer upload de ativos" width="250">
+  <img src="assets/page-number-missing-in-toc.png" alt="Fazer upload de ativos" width="250">
 
-   Aqui você pode notar que o primeiro capítulo Configurações avançadas de PDF não recebe nenhum número de página, pois tem tópicos aninhados ou filhos. Ao passo que um número de página se atribuído ao Apêndice e Legal porque são tópicos independentes sem nenhum tópico secundário.
+  Aqui você pode notar que o primeiro capítulo Configurações avançadas de PDF não recebe nenhum número de página, pois tem tópicos aninhados ou filhos. Ao passo que um número de página se atribuído ao Apêndice e Legal porque são tópicos independentes sem nenhum tópico secundário.
 
 * **Formato do líder**: use o menu suspenso para selecionar linhas pontilhadas, sólidas ou com preenchimento de espaço a fim de conectar níveis de cabeçalho aos números de página correspondentes.
 Para aplicar a estrutura de índice e os níveis de cabeçalho de estilo, consulte [Adicionar um índice de capítulo](design-page-layout.md#add-chapter-toc).
 
-   >[!NOTE]
-   >
-   >Se você for um desenvolvedor de CSS, também poderá definir o formato de líder diretamente no arquivo CSS.
+  >[!NOTE]
+  >
+  >Se você for um desenvolvedor de CSS, também poderá definir o formato de líder diretamente no arquivo CSS.
+
 * **Usar marcador de continuação de tabela**: selecione essa opção para definir marcadores para tabelas longas espalhadas em várias páginas. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 **Layouts de página**
 
 As configurações de Layouts de página oferecem controle total sobre a especificação de qual layout de página deve ser usado para uma seção específica do documento. Por exemplo, para selecionar um layout para o Sumário, clique no menu suspenso sob o campo Sumário e selecione o layout criado para gerar o Sumário.
+
+É importante observar que as configurações do mapa de favoritos têm prioridade sobre as configurações do layout da página.
 
 As seguintes configurações estão disponíveis na seção Layout da página:
 
@@ -209,30 +212,57 @@ As seguintes configurações estão disponíveis na seção Layout da página:
 
 **Layout de página padrão**: selecione um layout de página que atue como o layout padrão para todas as páginas no PDF. Esse é o layout de página base aplicado às seções ou aos tópicos em que você não criou um layout de página dedicado.
 
-**Layout de página para diferentes seções**: é possível optar por mapear um layout de página com as seguintes seções da saída do PDF:
+**Layout de página para diferentes seções**: é possível mapear um layout de página com as seguintes seções da saída do PDF. Se você tiver criado um layout de página para a seção relacionada, selecione-o na lista suspensa. Se nenhum layout de página tiver sido criado para seções específicas, o layout de página padrão será aplicado.
+
+* **Capítulos e tópicos**: Você pode especificar o layout da página para o Capítulo e Tópicos. O layout selecionado será aplicado a todos os capítulos e tópicos.
+
+* **TOC**: Se você tiver criado o layout de página de índice, selecione **TOC** na lista suspensa, e todas as páginas de índice no documento terão o layout de página de índice.
+
+* **Lista de figuras e Lista de tabelas**: Também é possível especificar o layout da página para figuras e tabelas. O layout selecionado será aplicado a todas as figuras e tabelas.
+
+* **Índice e Glossário**: se você tiver projetado um layout de página de índice, mapeie-o para a opção Índice. Se você tiver um layout de página do Glossário, mapeie-o para a opção Glossário.
+
+* **Páginas de primeiro plano e de segundo plano**: esses layouts de página definem o estilo das páginas principais ou secundárias do livro. Se você projetou o layout da frente, mapeie-o para o **Páginas Principais** opção. Quando você seleciona o layout da frente na lista suspensa, o layout da frente é aplicado a todos os tópicos presentes na frente.
+
+  Se você projetou o layout de material de fundo, mapeie-o para o **Páginas de fundo importantes** opção. Quando você seleciona o layout de material de fundo na lista suspensa, o layout de material de fundo é aplicado a todos os tópicos presentes no material de fundo.
+
+  **Páginas Principais** também é usado como layout de fallback para **TOC**, **Lista de figuras** e Lista de tabelas.  Da mesma forma, **Páginas de fundo importantes** também é usado como layout de fallback para **Índice** e **Glossário** layouts. Se você não tiver selecionado o layout dessas páginas, o layout selecionado de Páginas da frente ou do verso será aplicado.  Se você não tiver selecionado o layout Páginas da frente ou do verso, o layout padrão da página será aplicado a elas.
+
+* **Layout de página para páginas vazias**: também é possível especificar o layout das páginas vazias. O layout selecionado será aplicado a todas as páginas vazias. Por exemplo, se você tiver criado um layout de página em branco para todas as páginas vazias, selecione **Em branco** na lista suspensa, e todas as páginas vazias no documento terão o layout Página em branco.
+
+* **Página de capa e página traseira**: Se você tiver criado um layout de folha de rosto, mapeie-o para a tag **Folha de rosto** opção. Da mesma forma, se você tiver um layout de página de trás, mapeie-o para a tag **Voltar à página** opção. Se nenhum layout de folha de rosto ou de página posterior tiver sido criado, o layout de página padrão será aplicado.
+
+
+
+Para obter mais informações sobre layouts de página, consulte [Criar um layout de página](design-page-layout.md).
+
+**Ordem da página**
+
+Você pode ativar ou desativar as seguintes seções no PDF e também organizar a ordem em que elas devem aparecer na saída final do PDF:
+
+<img src="assets/page-order-advance-settings.png" alt="Layouts de página" width="550">
+
 * TOC
+* Capítulos e tópicos
 * Lista de figuras
 * Lista de tabelas
-* Capítulos e tópicos
 * Índice
 * Glossário
 
-Se você não quiser mostrar uma seção específica na saída do PDF, desative o botão de alternância para desligado.
+Se você não quiser mostrar uma seção específica na saída do PDF, desative o botão de alternância.
 
-**Capítulo e tópicos** o layout é sempre ativado e **Glossário** o layout é sempre desativado por padrão. Não é possível alterná-los.
-
-Você também pode definir a ordem em que essas diferentes seções são geradas no PDF. Se quiser alterar a ordem padrão dessas páginas, passe o mouse sobre a esquerda de um layout de página e clique no ícone de barras pontilhadas para arrastar e soltar o layout de página no local desejado.
-Seu PDF conterá os layouts de página ativados na ordem em que você os organizou aqui.
-
-**Layout de página para páginas vazias**: também é possível especificar o layout das páginas vazias. O layout selecionado será aplicado a todas as páginas vazias. Por exemplo, se você tiver criado um layout de página em branco para todas as páginas vazias, selecione **Em branco** na lista suspensa, e todas as páginas vazias no documento terão o layout Página em branco.
-
-**Página de capa e página traseira**: Se você tiver criado um layout de folha de rosto, mapeie-o para a tag **Folha de rosto** opção. Da mesma forma, se você tiver um layout de página de trás, mapeie-o para a tag **Voltar à página** opção. Se nenhum layout de folha de rosto ou de página posterior tiver sido criado, o layout de página padrão será aplicado.
+Você também pode definir a ordem em que essas diferentes seções são geradas no PDF. Para alterar a ordem padrão dessas páginas, selecione as barras pontilhadas para arrastar e soltar o layout da página no local desejado.
 
 >[!NOTE]
 >
->As configurações do mapa de favoritos têm prioridade sobre as configurações do layout da página.
+> Essas configurações de ordem e inclusão se aplicam somente a um mapa DITA. Para um mapa, essas configurações não se aplicam. As páginas em um mapa são exibidas de acordo com a ordem das seções no mapa.
 
-Para obter mais informações sobre layouts de página, consulte [Criar um layout de página](design-page-layout.md).
+
+Seu PDF conterá os layouts de página ativados na ordem em que você os organizou aqui.
+**Capítulo e tópicos** o layout é sempre ativado e **Glossário** o layout é sempre desativado por padrão. Não é possível alterná-los.
+
+
+
 
 **Imprimir**
 
@@ -244,16 +274,16 @@ Configure as configurações de produção de impressão para atribuir marcas de
    * **Marcas de registro**: selecione para colocar uma marca fora da área de corte para alinhar as diferentes separações em um documento colorido.
    * **Barras de cores**: selecione para adicionar uma faixa de cores fora da área de apara, a fim de manter a consistência das cores e ajustar a densidade da tinta ao imprimir.
 
-   Definir dimensões para as marcas de impressora selecionadas usando o **Largura da linha**, **Cor da linha**, e **Largura da caixa de sangria** opções.
+  Definir dimensões para as marcas de impressora selecionadas usando o **Largura da linha**, **Cor da linha**, e **Largura da caixa de sangria** opções.
 
 * **Tamanho da caixa de mídia**: este é o tamanho geral da página, incluindo a área estendida ocupada pelas marcas da impressora. Use a opção suspensa para selecionar o tamanho da página para a saída de PDF ou criar seu próprio tamanho personalizado.
 
 * **Espaço de cor**: você tem a opção de escolher entre espaços de cores RGB ou CMYK para imprimir o documento PDF. Escolha RGB para exibir o PDF gerado digitalmente e o CMYK para impressão física. As cores definidas no documento são convertidas no espaço de cores escolhido.
-   >[!NOTE]
-   >
-   >Um perfil de cores ICC é necessário para a criação de PDF/A se estiver usando o espaço de cores CMYK.
+  >[!NOTE]
+  >
+  >Um perfil de cores ICC é necessário para a criação de PDF/A se estiver usando o espaço de cores CMYK.
 
-   <!--For more information on applying these print settings, see *Printing preferences*.-->
+  <!--For more information on applying these print settings, see *Printing preferences*.-->
 
 **Referências cruzadas**
 

@@ -2,9 +2,9 @@
 title: Notas de versão | Novidades no Adobe Experience Manager Guides, versão de junho de 2023
 description: Conheça os recursos novos e aprimorados da versão de junho de 2023 do Adobe Experience Manager Guides as a Cloud Service
 exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: f1292c94d77b724467d9eede59687bf0041cbce5
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 Este artigo aborda os recursos novos e aprimorados da versão de junho de 2023 do Adobe Experience Manager Guides (mais tarde conhecido como *Guias de AEM as a Cloud Service*).
 
-Para obter mais detalhes sobre as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos nesta versão, consulte [Notas de versão](release-notes-2023.6.0.md) artigo.
+Para obter mais detalhes sobre as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos nesta versão, consulte [Notas de versão](release-notes-2023.6.0.md).
 
 ## Relatório de Links quebrados no Editor da Web
 
-O Guia AEM permite verificar a integridade geral de seus documentos técnicos e gerar relatórios do Editor da Web. Agora, na versão de junho de 2023, o Guia AEM fornece o recurso para visualizar e corrigir links com falha. Esse é um relatório muito útil que ajuda a gerenciar links com falha. É possível visualizar facilmente os links corrompidos presentes no mapa DITA e corrigi-los.
+O Guia AEM permite verificar a integridade geral de seus documentos técnicos e gerar relatórios do Editor da Web. Agora, na versão de junho de 2023, o Guia AEM fornece o recurso para visualizar e corrigir links com falha. Esse é um relatório útil que ajuda a gerenciar links com falha. É possível visualizar facilmente os links corrompidos presentes no mapa DITA e corrigi-los.
 ![](assets/broken-link-report.png){width="800" align="left"}
 
 Depois de corrigir um link, ele não é exibido abaixo da lista de links quebrados.
@@ -26,7 +26,7 @@ Para obter mais detalhes, consulte [Exibir e corrigir links corrompidos](../user
 
 ## Renomear e mover arquivos na visualização Repositório
 
-Agora, você também pode renomear ou mover um arquivo do painel do repositório. Esse recurso é muito útil e ajuda a gerenciar seus arquivos facilmente no painel Repositório. É possível selecionar um arquivo e renomeá-lo ou movê-lo usando a **Opções** para o arquivo selecionado. O Guias do AEM exibe uma mensagem de sucesso quando você move ou renomeia um arquivo.
+Agora, você também pode renomear ou mover um arquivo do painel do repositório. Esse recurso é útil e ajuda a gerenciar os arquivos facilmente no painel Repositório. É possível selecionar um arquivo e renomeá-lo ou movê-lo usando a **Opções** para o arquivo selecionado. O Guias do AEM exibe uma mensagem de sucesso quando você move ou renomeia um arquivo.
 
 ![](assets/rename-move-assets.png){width="650" align="left"}
 
@@ -40,29 +40,26 @@ Agora você pode adicionar uma marca d&#39;água à saída em PDF do documento q
 
 Para obter mais detalhes, consulte [Adicionar uma marca d&#39;água à saída do PDF para documentos de rascunho](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-### Compatibilidade com variáveis de idioma em elementos DITA
+### Suporte para variáveis de idioma
 
-Os Guias do AEM fornecem suporte para as variáveis de idioma. Essas variáveis são muito úteis para gerar strings localizadas para elementos como observação, dica, aviso e cuidado.
-Por exemplo, você pode ter as seguintes maneiras de apresentar sua NOTA na saída de PDF:
+Os Guias do AEM fornecem suporte para variáveis de idioma. Você pode usar variáveis de idioma para definir uma versão localizada dos rótulos prontos para uso como Observação, Cuidado e Aviso ou texto estático na saída de PDF.
+Você pode adicionar as variáveis de idioma ou a versão localizada dos rótulos às seções apropriadas na saída de PDF e nos modelos de saída.
 
-Alemão: Notiz
+#### Variáveis de linguagem na saída do PDF
 
-Espanhol: Nota
+Você pode usar as variáveis de idioma para definir rótulos localizados para elementos como Nota, Cuidado e Aviso. Você pode atualizar o valor dessas variáveis em um ou mais idiomas e, em seguida, o valor localizado é escolhido automaticamente na saída do PDF.
+Por exemplo, você pode apresentar o rótulo Observação na saída de PDF das seguintes maneiras:
 
+* Inglês: Note
+* Francês: Remarque
+* Alemão: Hinweis
 
-### Suporte para variáveis de idioma no rodapé da página
+#### Variáveis de idioma nos modelos de saída
 
-Você pode adicionar uma variável de idioma a um cabeçalho ou rodapé em execução na página principal de um documento. A variável é exibida em todas as páginas de corpo do documento às quais essa página principal foi aplicada. Por exemplo, 1 de 1 página.
-Também é possível usá-lo para apresentar os números em vários idiomas.
+Se você quisesse criar a saída de PDF em vários idiomas, seria necessário criar diferentes modelos de PDF contendo texto localizado para cada idioma. Agora, com o recurso de variáveis de idioma, é necessário criar o modelo apenas uma vez. Em seguida, para qualquer texto estático que precise localizar, é possível criar variáveis de idioma correspondentes e usá-las no modelo.
+É possível criar variáveis de idioma para textos mais longos, como uma frase inteira ou até mesmo um parágrafo. Também é possível aplicar estilos e usar a marcação HTML para formatar essas variáveis de idioma.
 
-### Prefixos localizados para o índice
-
-Você também tem o recurso para exibir termos localizados que serão usados para apresentar os prefixos em seus cabeçalhos.
-Por exemplo, você pode ter as seguintes maneiras de apresentar o prefixo &quot;Chapter&quot; na saída do PDF:
-
-Alemão: Kapitel
-
-Espanhol: Capítulo
+Para obter mais detalhes, consulte [Suporte para variáveis de idioma](../native-pdf/native-pdf-language-variables.md).
 
 ### Capacidade de usar metadados de AEM em layouts de PDF
 

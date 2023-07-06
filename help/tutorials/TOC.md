@@ -2,9 +2,9 @@
 user-guide-title: Tutorials do AEM Guides
 user-guide-description: Leia nossa coleção de tutoriais do Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials do AEM Guides
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: cabb567088e8f118db5af614b64948f56dc1e25e
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1394'
 ht-degree: 6%
 
 ---
@@ -238,6 +238,7 @@ ht-degree: 6%
             + [Modelo PDF](./native-pdf/pdf-template.md)
             + [Componentes de um modelo de PDF](./native-pdf/components-pdf-template.md)
             + [Criar um layout de página](./native-pdf/design-page-layout.md)
+            + [Suporte para variáveis de idioma](./native-pdf/native-pdf-language-variables.md)
             + Estilos de conteúdo comuns {#content-styles}
                + [Trabalhar com os estilos de conteúdo comuns](./native-pdf/stylesheet.md)
                + [Trabalhar com estilos de barras de alteração personalizados](./native-pdf/change-bar-style.md)
