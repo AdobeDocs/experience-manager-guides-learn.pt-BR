@@ -1,7 +1,7 @@
 ---
 title: PDF nativo | Suporte para variáveis de idioma
 description: Usar variáveis de linguagem nos modelos de saída e saída de PDF
-source-git-commit: 7c7381d2d5a218de9c4ca1fbc0363eacd43947cd
+source-git-commit: 3e922ef7ed9af200aa8fcfb0cbe4489cf059e335
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -105,18 +105,18 @@ Para inserir uma variável de idioma como a `copyright-label` na área de cabeç
 
 1. Abra o layout de página desejado para edição.
 
->[!NOTE]
->
-> Exibir [Personalizar um layout de página](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) seção para abrir um layout de página para personalização ou edição.:
+   >[!NOTE]
+   >
+   > Exibir [Personalizar um layout de página](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) seção para abrir um layout de página para personalização ou edição.
 
 1. Selecione o cabeçalho para torná-lo ativo e inserir uma variável.
 1. Selecionar **Inserir variável**  <img src="./assets/insert-language-variable.svg" width="25"> na barra de ferramentas.
 1. No **Inserir variável** selecione o nome da variável de idioma a ser inserida e clique em **Inserir** para inseri-lo na área de cabeçalho.
 
->[!NOTE]
->
-> Você também pode inserir a string de pesquisa na caixa de texto. Os nomes das variáveis que contêm a cadeia de caracteres fornecida são filtrados e exibidos na lista.
-> A variável de idioma selecionada é inserida na área de cabeçalho.
+   >[!NOTE]
+   >
+   > Você também pode inserir a string de pesquisa na caixa de texto. Os nomes das variáveis que contêm a cadeia de caracteres fornecida são filtrados e exibidos na lista.
+   > A variável de idioma selecionada é inserida na área de cabeçalho.
 
 A captura de tela a seguir mostra o valor do `copyright-label` adicionado na área de cabeçalho.
 
