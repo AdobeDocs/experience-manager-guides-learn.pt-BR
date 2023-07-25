@@ -2,9 +2,9 @@
 user-guide-title: Tutorials do AEM Guides
 user-guide-description: Leia nossa coleção de tutoriais do Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials do AEM Guides
-source-git-commit: cabb567088e8f118db5af614b64948f56dc1e25e
+source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1392'
 ht-degree: 6%
 
 ---
@@ -350,5 +350,4 @@ ht-degree: 6%
       + Casos de uso {#use-cases}
          + [Trabalhar com conteúdo condicional](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [Trabalhar com chaves](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-+ Artigos ocultos {#hidden}
    + [Usar conector de oxigênio](./oxygen-connector/use-aem-connector.md)
