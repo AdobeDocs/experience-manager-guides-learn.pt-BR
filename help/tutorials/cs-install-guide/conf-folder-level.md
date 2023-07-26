@@ -1,7 +1,7 @@
 ---
 title: Configurar perfis globais ou de nível de pasta
 description: Saiba como Configurar perfis globais ou de nível de pasta
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 6f4ab3baf0c0dd333035c3a7d131bd151b17de45
 workflow-type: tm+mt
 source-wordcount: '3962'
 ht-degree: 0%
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 Em uma empresa, diferentes grupos ou produtos podem usar diferentes modelos de criação, modelos de saída, perfis de atributo condicional \(ou esquemas de assunto\) e configurações do Editor da Web. Configurar esses apenas em nível corporativo \(ou global\) pode dificultar a experiência dos autores, pois eles verão modelos ou perfis que não são relevantes para eles.
 
-O Guias do AEM permite configurar a criação de modelos \(tópico ou mapa\), modelos de saída, atributo condicional e configurações do Editor da Web em nível corporativo \(global\), bem como em nível de pasta. Dessa forma, você pode separar as configurações de diferentes departamentos ou produtos em sua empresa.
+O AEM Guides permite configurar a criação de modelos \(tópico ou mapa\), modelos de saída, atributo condicional e configurações do Editor da Web em nível corporativo \(global\), bem como em nível de pasta. Dessa forma, você pode separar as configurações de diferentes departamentos ou produtos em sua empresa.
 
 Além disso, você pode delegar as configurações específicas da pasta a um departamento ou administradores de produtos para descentralizar a administração.
 
 Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir as configurações nas seguintes guias:
 
-![](assets/folder-profile-tabs.png)
+![](assets/folder-profile-tabs.png){width="800" align="left"}
 
 - **Geral**: a guia Geral só está disponível quando você está definindo as configurações no nível da pasta \(ou projeto/produto\). É possível definir configurações, como os caminhos de pasta aos quais as configurações serão aplicáveis e os usuários que terão direitos administrativos para criar ou atualizar configurações.
 
@@ -93,7 +93,7 @@ Execute as seguintes etapas para configurar o perfil global:
 
    Pela primeira vez, a página Perfis de pasta é exibida somente com o bloco Perfil global.
 
-   ![](assets/folder-profile-global.png)
+   ![](assets/folder-profile-global.png){width="800" align="left"}
 
 1. Clique no link **Perfil global** bloco.
 
@@ -122,7 +122,7 @@ Execute as seguintes etapas para configurar um perfil no nível da pasta:
 
 1. Clique em **Criar**.
 
-   ![](assets/create-folder-profile.png)
+   ![](assets/create-folder-profile.png){width="300" align="left"}
 
 1. Insira os seguintes detalhes na **Criar perfil de pasta** diálogo:
    - Nome do perfil da pasta.
@@ -248,7 +248,7 @@ Execute as seguintes etapas para adicionar o tópico ou mapear modelos em um per
 1. Na página do perfil, clique no link **Criação de modelo** guia.
 1. Clique em **Editar**.
 
-   Você tem as opções para adicionar Tópico e Modelos de mapa pesquisando do local padrão ou procurando por ele.
+   Você tem a opção de adicionar Tópico e Modelos de mapa pesquisando do local padrão ou procurando por ele.
 
    >[!NOTE]
    >

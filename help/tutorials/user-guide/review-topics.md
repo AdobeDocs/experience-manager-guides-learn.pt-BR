@@ -2,9 +2,9 @@
 title: Revisar tópicos
 description: Saiba como revisar tópicos
 exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: b9bf08ccbe2eb17ca8d4dac675155e0b4631f0a9
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2323'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,6 @@ Execute as seguintes etapas para revisar um tópico:
 
 
 
-
    A tela a seguir é exibida quando um mapa DITA é usado para iniciar o workflow de revisão:
 
    ![](images/multiple-topics-review.png){width="800" align="left"}
@@ -44,16 +43,21 @@ Execute as seguintes etapas para revisar um tópico:
    - **A**: o nome da tarefa de revisão.
    - **B**: Clique no ícone Exibição de tópicos para mostrar ou ocultar o painel de tópicos.
 
-   - **C**: os números destacados por ***F*** pode ser filtrado ao escolher a opção de filtro desejada aqui. Você pode filtrar comentários por tipo, status, revisor ou versão. Por exemplo, se você quiser ver quantos comentários de tachado foram feitos em cada um dos tópicos em revisão, clique no ícone de filtro e escolha **Tipo de revisão** \> **Exclusão**.
+   - **C**: Você pode pesquisar o tópico desejado inserindo alguma parte do texto do título ou caminho de arquivo na barra de pesquisa.
 
-      >[!NOTE]
-      >
-      > Ao aplicar os filtros, somente os comentários que correspondem aos filtros selecionados são exibidos no painel de comentários. O número de comentários filtrados é mostrado à esquerda no painel de tópicos.
+     Selecionar  ![](images/view-options.svg) próximo à barra de pesquisa para escolher exibir todos os tópicos ou exibir tópicos com comentários. Por padrão, é possível exibir todos os tópicos presentes na tarefa de revisão.
 
-   - **D**: um tópico atribuído para revisão ao revisor atual é mostrado em preto e é clicável. Quando o revisor clicar em um link de tópico, esse tópico será trazido para a parte superior da tela.
-   - **E**: Um tópico que não está disponível para revisão fica esmaecido. O tópico é exibido no modo somente leitura e você não tem permissão para adicionar comentários de revisão sobre esses tópicos.
 
-   - **F**: Número de comentários recebidos sobre um tópico. Esse número é alterado com base no filtro aplicado.
+   - **D**: os números destacados por ***F*** pode ser filtrado ao escolher a opção de filtro desejada aqui. Você pode filtrar comentários por tipo, status, revisor ou versão. Por exemplo, se você quiser ver quantos comentários de tachado foram feitos em cada um dos tópicos em revisão, clique no ícone de filtro e escolha **Tipo de revisão** \> **Exclusão**.
+
+     >[!NOTE]
+     >
+     > Ao aplicar os filtros, somente os comentários que correspondem aos filtros selecionados são exibidos no painel de comentários. O número de comentários filtrados é mostrado à esquerda no painel de tópicos.
+
+   - **E**: um tópico atribuído para revisão ao revisor atual é mostrado em preto e é clicável. Quando o revisor clicar em um link de tópico, esse tópico será trazido para a parte superior da tela.
+   - **F**: Um tópico que não está disponível para revisão fica esmaecido. O tópico é exibido no modo somente leitura e você não tem permissão para adicionar comentários de revisão sobre esses tópicos.
+
+   - **G**: Número de comentários recebidos sobre um tópico. Esse número é alterado com base no filtro aplicado.
 
    Todos os tópicos no mapa são mostrados como um único documento composto. Os tópicos que o revisor tem permissão para revisar são mostrados normalmente. Os tópicos que a revisão não tem permissão para revisar não são mostrados.
 
@@ -93,13 +97,13 @@ Ao exibir um único tópico, você obtém uma opção adicional para alternar de
 
 - **Realce** \(![](images/review-highlight-icon.svg)\): para adicionar um comentário de destaque, selecione o texto e clique no ícone Realce. Ou clique no ícone de Realce e selecione o texto desejado:
 
-   ![](images/highlight-comment.png){width="650" align="left"}
+  ![](images/highlight-comment.png){width="650" align="left"}
 
-   Um pop-up é exibido no painel Comentários, onde você pode adicionar seu comentário ao conteúdo destacado.
+  Um pop-up é exibido no painel Comentários, onde você pode adicionar seu comentário ao conteúdo destacado.
 
 - **Tachado** \(![](images/review-text-strike-through-icon.svg)\): se quiser sugerir a remoção de conteúdo, selecione o conteúdo e clique no ícone Tachado. Ou selecione o texto desejado e clique na tecla Delete:
 
-   Um pop-up é exibido no painel Comentários, onde você pode adicionar seu comentário ao conteúdo excluído.
+  Um pop-up é exibido no painel Comentários, onde você pode adicionar seu comentário ao conteúdo excluído.
 
 - **Inserir texto** \(![](images/review-insert-text-icon.svg)\): Se quiser inserir texto, clique no ícone Inserir Texto e coloque o cursor onde deseja inserir o texto e digite as informações. Ou coloque o cursor onde deseja inserir texto e comece a digitar. As informações adicionadas aparecem na fonte em verde:
 
@@ -128,11 +132,11 @@ As tarefas que você pode executar usando o painel Comentários estão descritas
 - Você pode editar seu próprio comentário clicando no texto comentado no painel Comentários e selecionando **Editar** no menu Opções.
 - Você pode excluir seus próprios comentários clicando no comentário no painel Comentários e selecionando o **Excluir** no menu Opções.
 
-   ![](images/review-comment-options-menu.png){width="300" align="left"}
+  ![](images/review-comment-options-menu.png){width="300" align="left"}
 
-   >[!NOTE]
-   >
-   > O menu Opções é exibido apenas quando você passa o mouse sobre seus próprios comentários. Não é exibido para os comentários de outros revisores.
+  >[!NOTE]
+  >
+  > O menu Opções é exibido apenas quando você passa o mouse sobre seus próprios comentários. Não é exibido para os comentários de outros revisores.
 
 - Todos os usuários participantes podem responder aos comentários enviados por outros usuários. Em um comentário, clique em **Responder** e pressione Enter para enviar uma resposta.
 
@@ -220,11 +224,11 @@ No modo de pré-visualização, o conteúdo não condicionado e o conteúdo cond
 
 - Clicando no ícone Comentário desatualizado \(![](images/outdated-comment-icon.svg)\) exibe as diferenças entre a versão mais recente e a versão comentada do documento. Os números de versão \(das versões que estão sendo comparadas\) são exibidos na parte superior dos documentos.
 
-   ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){width="800" align="left"}
 
-   >[!NOTE]
-   >
-   > Quando você passa o mouse sobre o ícone Comentário desatualizado, o número da versão do tópico em que o comentário foi adicionado é exibido. Por exemplo, se um comentário foi fornecido na versão 1.0, o mesmo é exibido.
+  >[!NOTE]
+  >
+  > Quando você passa o mouse sobre o ícone Comentário desatualizado, o número da versão do tópico em que o comentário foi adicionado é exibido. Por exemplo, se um comentário foi fornecido na versão 1.0, o mesmo é exibido.
 
 - Clicar em um comentário desatualizado abre a versão desse comentário no painel esquerdo. A versão anterior é mostrada no painel esquerdo e a versão atual é exibida no painel direito. Todos os comentários sobre a versão desatualizada são importados no lado esquerdo. Você pode comparar a versão anterior com a versão atual.
 
@@ -238,7 +242,7 @@ Selecione uma ou mais das seguintes opções de filtro na **Tipo de filtro** e c
 
 - **Versões** - Filtre com base nos comentários recebidos sobre uma versão específica do tópico.
 
-   Ao usar os filtros, os comentários no painel direito são filtrados de acordo com a seleção e o número de comentários no painel esquerdo é atualizado adequadamente.
+  Ao usar os filtros, os comentários no painel direito são filtrados de acordo com a seleção e o número de comentários no painel esquerdo é atualizado adequadamente.
 
 
 Para remover o filtro e exibir todos os comentários, desmarque todos os filtros da **Tipo de filtro** e clique em **Aplicar**.

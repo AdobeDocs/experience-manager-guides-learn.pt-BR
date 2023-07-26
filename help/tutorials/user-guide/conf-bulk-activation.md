@@ -2,9 +2,9 @@
 title: Ativação em massa de conteúdo publicado
 description: Saiba como Ativar em massa o conteúdo publicado
 exl-id: 66c454bb-f09e-442f-b863-60ee249a0e08
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: c4f383984501525527136773ce7ef556170e8ad3
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ Com o recurso de ativação em massa dos Guias do AEM, você pode ativar rápida
 
 - Adicionar um ou mais mapas \(a uma coleção de mapas\) a uma única tarefa de ativação
 
-- Selecione uma das várias predefinições de saída que deseja publicar
+- Selecione uma ou várias predefinições de saída que deseja publicar. É possível adicionar predefinições de saída AEM Site, PDF, PDF nativo, HTML5, Personalizado e JSON.
+
 
 - Definir localidades nas quais a saída deve ser ativada
 

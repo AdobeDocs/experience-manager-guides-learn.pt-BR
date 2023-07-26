@@ -2,9 +2,9 @@
 user-guide-title: Tutorials do AEM Guides
 user-guide-description: Leia nossa coleção de tutoriais do Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials do AEM Guides
-source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
+source-git-commit: 33c4a7b452049ab130f7bcdf9e8a90ecead32170
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1429'
 ht-degree: 6%
 
 ---
@@ -46,6 +46,11 @@ ht-degree: 6%
             + [Notas de versão de fevereiro](./release-info/release-notes-2022.2.0.md)
             + [Notas de versão de janeiro](./release-info/release-notes-2022.1.0.md)
       + No local/Managed Services {#on-prem-release-notes}
+         + Versão 4.3.0 {#43-release}
+            + Novidades {#43-whats-new}
+               + [4.3.0 Novidades](./release-info/whats-new-4.3-release.md)
+            + Notas de versão {#43-release-notes}
+               + [Notas de versão 4.3.0](./release-info/release-notes-4.3.md)
          + Versão 4.2 {#42-release}
             + Novidades {#42-whats-new}
                + [4.2.1 Novidades](./release-info/whats-new-4.2.1-release.md)
@@ -85,7 +90,8 @@ ht-degree: 6%
                + [Visualizações do Editor da Web](./user-guide/web-editor-views.md)
                + [Suporte para arquivos do Schematron](./user-guide/support-schematron-file.md)
                + [Criação de documentos do Markdown no editor da Web](./user-guide/web-editor-markdown-topic.md)
-               + [Inserir um trecho de conteúdo da sua fonte de dados](./user-guide/web-editor-content-snippet.md)
+               + [Adicionar citações ao seu conteúdo](./user-guide/web-editor-apply-citations.md)
+               + [Usar dados de suas fontes de dados](./user-guide/web-editor-content-snippet.md)
                + [Gerenciar predefinições de saída de perfil global e de pasta](./user-guide/web-editor-manage-output-presets.md)
                + Publicação baseada em artigo {#article-based-pub}
                   + [Publicação baseada em artigos no Editor da Web](./user-guide/web-editor-article-publishing.md)
@@ -159,7 +165,7 @@ ht-degree: 6%
          + [Editar uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-edit-map-collection.md)
          + [Excluir uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-delete-map-collection.md)
    + Geração de saída de documentos do FrameMaker {#generate-fm-output}
-      + [Gerar saída de documentos do FrameMaker](./user-guide/fm-output-generatation.md)
+      + [Gerar saída de documentos de FrameMaker](./user-guide/fm-output-generatation.md)
       + Predefinições suportadas {#fm-docs-generating-presets}
          + [Predefinições para gerar documentos do FrameMaker](./user-guide/fm-output-understand-presets.md)
          + [PDF](./user-guide/fm-output-pdf-preset.md)
@@ -211,6 +217,7 @@ ht-degree: 6%
          + [Personalizar editor da Web](./install-guide/conf-web-editor.md)
          + [Personalizar barra de ferramentas](./install-guide/conf-web-editor-customize-toolbar.md)
          + [Configurar valor padrão para a exibição de tags](./install-guide/configure-default-value-tags-view.md)
+         + [Configurar o título para os ícones Fazer check-in e Check-out](./install-guide/conf-checkin-checkout-title.md)
          + [Configurar a exibição de links baseados em UUID](./install-guide/conf-uuid-based-links.md)
          + [Abrir tópico DITA ou mapear arquivos na mesma guia](./install-guide/open-dita-files-same-tab.md)
          + [Configurar um painel personalizado no painel esquerdo](./install-guide/configure-custom-panel.md)
@@ -224,6 +231,7 @@ ht-degree: 6%
          + [Configurar filtros de texto](./install-guide/config-text-filters.md)
          + [Configurar o número de LimitReads para uma consulta](./install-guide/conf-query-limitreads.md)
          + [Instalar pacotes para publicação baseada em artigo](./install-guide/configure-article-based-publishing.md)
+         + [Configurar um conector de fonte de dados](./install-guide/conf-data-source-connector.md)
          + [Definir o Editor de mapa avançado como padrão](./install-guide/conf-map-editor.md)
          + [Incluir atributo @navtitle por padrão](./install-guide/auto-add-navtitle.md)
       + Trabalhar com perfis globais e de nível de pasta {#global-folder-profiles}
@@ -246,6 +254,7 @@ ht-degree: 6%
                + [Adicionar um marcador personalizado na saída do PDF](./native-pdf/add-custom-bookmark.md)
                + [Usar JavaScript para trabalhar com conteúdo ou estilo](./native-pdf/use-javascript-content-style.md)
                + [Usar estilos personalizados em notas de rodapé](./native-pdf/footnote-number-style.md)
+            + [Configurar sinalizadores JVM para publicação de PDF nativo](./native-pdf/configure-jvm-flags.md)
       + Trabalhar com fluxos de trabalho personalizados {#custom-workflow}
          + [Configurar e personalizar workflows](./install-guide/customize-workflows.md)
       + Trabalhar com configurações de tradução {#translate-config}
@@ -309,6 +318,7 @@ ht-degree: 6%
          + [Gerenciamento de versão](./cs-install-guide/version-management.md)
       + Trabalhar com configurações de geração de saída {#output-gen-config-cs}
          + [Definir configurações de geração de saída](./cs-install-guide/conf-output-generation.md)
+         + [Publicação de PDF nativo](./cs-install-guide/native-pdf-publishing.md)
       + Trabalhar com fluxos de trabalho personalizados {#custom-workflow-cs}
          + [Configurar e personalizar workflows](./cs-install-guide/customize-workflows.md)
       + Trabalhar com configurações de tradução {#translate-config-cs}
@@ -351,3 +361,4 @@ ht-degree: 6%
          + [Trabalhar com conteúdo condicional](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [Trabalhar com chaves](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
    + [Usar conector de oxigênio](./oxygen-connector/use-aem-connector.md)
+

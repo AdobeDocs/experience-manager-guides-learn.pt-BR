@@ -1,25 +1,27 @@
 ---
 title: Configurar perfis globais ou de nível de pasta
 description: Saiba como Configurar perfis globais ou de nível de pasta
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+exl-id: 3370e22c-b996-4261-b250-8b8f8667c2a0
+source-git-commit: 192d807d0020193f39e8340fb6c0b6a50c6489f8
 workflow-type: tm+mt
-source-wordcount: '3890'
+source-wordcount: '3891'
 ht-degree: 0%
 
 ---
-
 
 # Configurar perfis globais ou de nível de pasta {#id181AH2003PF}
 
 Em uma empresa, diferentes grupos ou produtos podem usar diferentes modelos de criação, modelos de saída, perfis de atributo condicional \(ou esquemas de assunto\) e configurações do Editor da Web. Configurar esses apenas em nível corporativo \(ou global\) pode dificultar a experiência dos autores, pois eles verão modelos ou perfis que não são relevantes para eles.
 
-O Guias do AEM permite configurar a criação de modelos \(tópico ou mapa\), modelos de saída, atributo condicional e configurações do Editor da Web em nível corporativo \(global\), bem como em nível de pasta. Dessa forma, você pode separar as configurações de diferentes departamentos ou produtos em sua empresa.
+O AEM Guides permite configurar a criação de modelos \(tópico ou mapa\), modelos de saída, atributo condicional e configurações do Editor da Web em nível corporativo \(global\), bem como em nível de pasta. Dessa forma, você pode separar as configurações de diferentes departamentos ou produtos em sua empresa.
 
 Além disso, você pode delegar as configurações específicas da pasta a um departamento ou administradores de produtos para descentralizar a administração.
 
 Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir as configurações nas seguintes guias:
 
-- **Geral**: a guia Geral está disponível ao definir as configurações no nível da pasta \(ou projeto/produto\). É possível definir configurações, como os caminhos de pasta aos quais as configurações serão aplicáveis e os usuários que terão direitos administrativos para criar ou atualizar configurações.
+![](assets/folder-profile-tabs.png){width="800" align="left"}
+
+- **Geral**: a guia Geral só está disponível quando você está definindo as configurações no nível da pasta \(ou projeto/produto\). É possível definir configurações, como os caminhos de pasta aos quais as configurações serão aplicáveis e os usuários que terão direitos administrativos para criar ou atualizar configurações.
 
 - **Atributos condicionais**: use essa guia para configurar atributos condicionais em nível global ou de pasta. Um atributo condicional é uma combinação do nome e do valor do atributo, e você também pode definir um rótulo para ele. Você pode usar os atributos DITA padrão ou seus próprios atributos personalizados. Os atributos condicionais definidos no nível global são disponibilizados a todos os usuários nos projetos. Caso tenha definido atributos condicionais no nível da pasta, eles são mesclados com os atributos condicionais definidos globalmente.
 
@@ -40,16 +42,16 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
    - Em branco
 
    - DITAVAL
-   >[!NOTE]
-   >
-   > Você pode usar qualquer um dos modelos existentes como base para criar novos modelos. O modelo DITA em branco não contém nenhuma estrutura ou elementos como os outros modelos. Você pode usar qualquer um dos modelos OOTB DITA como base, fazer modificações nele e salvá-lo com um nome diferente. Depois de fazer as alterações necessárias, adicione o modelo atualizado à configuração global ou de modelos de criação no nível da pasta e, em seguida, ele fica disponível para criação.
 
-   Juntamente com os modelos de tópico, também é possível definir os modelos de mapa que serão disponibilizados aos autores. Os seguintes modelos de mapa estão disponíveis prontamente:
+  >[!NOTE]
+  >
+  > Você pode usar qualquer um dos modelos existentes como base para criar novos modelos. O modelo DITA em branco não contém nenhuma estrutura ou elementos como os outros modelos. Você pode usar qualquer um dos modelos OOTB DITA como base, fazer modificações nele e salvá-lo com um nome diferente. Depois de fazer as alterações necessárias, adicione o modelo atualizado à configuração global ou de modelos de criação no nível da pasta e, em seguida, ele fica disponível para criação.
+
+  Juntamente com os modelos de tópico, também é possível definir os modelos de mapa que serão disponibilizados aos autores. Os seguintes modelos de mapa estão disponíveis prontamente:
 
    - Mapa
 
    - Bookmap
-
 
 - **Predefinição de saída**: Assim como a Criação de modelos, há cinco predefinições de saída pré-configuradas:
 
@@ -62,7 +64,8 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
    - EPUB
 
    - Personalizado
-   Os editores podem usar essas predefinições de saída prontas para uso para publicar conteúdo. Essas predefinições podem ser configuradas por um administrador do perfil global ou de nível de pasta. Após configuradas, as predefinições de publicação ficam disponíveis para os editores para mapas DITA recém-criados. Também é possível aplicar predefinições de publicação a mapas DITA existentes. Consulte [Aplicar alterações predefinidas](#id18AGD0K0OHS) para obter mais detalhes.
+
+  Os editores podem usar essas predefinições de saída prontas para uso para publicar conteúdo. Essas predefinições podem ser configuradas por um administrador do perfil global ou de nível de pasta. Após configuradas, as predefinições de publicação ficam disponíveis para os editores para mapas DITA recém-criados. Também é possível aplicar predefinições de publicação a mapas DITA existentes. Consulte [Aplicar alterações predefinidas](#id18AGD0K0OHS) para obter mais detalhes.
 
 - **Configurações do editor XML**: use essa guia para personalizar a aparência e os vários recursos do Editor da Web. As seguintes configurações configuráveis estão disponíveis para o Editor da Web:
 
@@ -89,6 +92,8 @@ Execute as seguintes etapas para configurar o perfil global:
 1. Selecionar **Guias** na lista de ferramentas e clique no botão **Perfis de pasta**.
 
    Pela primeira vez, a página Perfis de pasta é exibida somente com o bloco Perfil global.
+
+   ![](assets/folder-profile-global.png){width="800" align="left"}
 
 1. Clique no link **Perfil global** bloco.
 
@@ -117,13 +122,15 @@ Execute as seguintes etapas para configurar um perfil no nível da pasta:
 
 1. Clique em **Criar**.
 
+   ![](assets/create-folder-profile.png){width="300" align="left"}
+
 1. Insira os seguintes detalhes na **Criar perfil de pasta** diálogo:
    - Nome do perfil da pasta.
    - Caminho da pasta à qual o perfil será aplicável.
 
-      >[!NOTE]
-      >
-      > Não é possível aplicar vários perfis de pasta a uma pasta. Verifique se a pasta que você está selecionando aqui não tem nenhum outro perfil aplicado a ela. No caso de pastas pai-filho com perfis específicos, a pasta filho usará as configurações do próprio perfil. As configurações da pasta principal não substituem as configurações de uma pasta secundária.
+     >[!NOTE]
+     >
+     > Não é possível aplicar vários perfis de pasta a uma pasta. Verifique se a pasta que você está selecionando aqui não tem nenhum outro perfil aplicado a ela. No caso de pastas pai-filho com perfis específicos, a pasta filho usará as configurações do próprio perfil. As configurações da pasta principal não substituem as configurações de uma pasta secundária.
 
 1. Clique em **Criar**.
 
@@ -255,7 +262,7 @@ Execute as seguintes etapas para adicionar o tópico ou mapear modelos em um per
 1. Na página do perfil, clique no link **Criação de modelo** guia.
 1. Clique em **Editar**.
 
-   Você tem as opções para adicionar Tópico e Modelos de mapa pesquisando do local padrão ou procurando por ele.
+   Você tem a opção de adicionar Tópico e Modelos de mapa pesquisando do local padrão ou procurando por ele.
 
    >[!NOTE]
    >
@@ -269,7 +276,7 @@ Execute as seguintes etapas para adicionar o tópico ou mapear modelos em um per
 
    - Escolher **Pesquisar ou Digitar** e digite ou selecione o nome de um template na lista suspensa. A lista suspensa consiste em todos os modelos padrão e qualquer novo modelo criado.
 
-      ![](assets/default-template-list.png){width="350" align="left"}
+     ![](assets/default-template-list.png){width="350" align="left"}
 
    - Clique em **Procurar** e selecione um modelo do DAM.
 
@@ -362,7 +369,7 @@ Execute as seguintes etapas para configurar predefinições de saída globais ou
 
    - Clique em **Editar** para abrir a configuração da predefinição selecionada para edição.
 
-      Para obter informações sobre configurações de predefinição de saída, consulte *Noções básicas sobre as predefinições de saída* em Uso dos guias do Adobe Experience Manager.
+     Para obter informações sobre configurações de predefinição de saída, consulte *Noções básicas sobre as predefinições de saída* em Uso dos guias do Adobe Experience Manager.
 
 1. Clique em **Salvar** para salvar as configurações predefinidas.
 
@@ -476,4 +483,3 @@ No exemplo acima, o &quot;label1&quot; é o identificador para a sequência do r
 **Roteiro**
 
 Se os autores trabalharem com um mapa raiz específico, você poderá navegar até esse mapa e selecioná-lo aqui. Observe que é possível definir o mapa de roteiro somente para um perfil de nível de pasta.
-

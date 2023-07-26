@@ -2,9 +2,9 @@
 title: Conhecer os recursos do Editor da Web
 description: Saiba como conhecer os recursos do Editor da Web
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: b55b4aa572a680181388e24827daa7d045f1e406
+source-git-commit: 270b94f0c1e29237c4bdad891c41446de897fddb
 workflow-type: tm+mt
-source-wordcount: '15310'
+source-wordcount: '15461'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,11 @@ As Configurações do editor estão disponíveis somente para usuários administ
    - **Criação**
 
       - **Ativar Substituir tudo**: Selecione essa opção para ver o ícone Substituir tudo no painel Localizar e Substituir.
+
+
+   - **Citações**
+Alterar o estilo das citações. Escolha o estilo da citação no menu suspenso que deseja usar em seu projeto. Para obter mais detalhes, consulte [Alterar estilos de citação](./web-editor-apply-citations.md#change-citation-style).
+
 
 **Painéis**: essa configuração controla os painéis mostrados no painel esquerdo do editor. Você pode alternar o botão para mostrar ou ocultar o painel desejado.
 
@@ -430,11 +435,20 @@ Escolher a forma preferida Retângulo ![](images/imagemap-rectangle-toolbar.png)
 
 Se houver sobreposição de áreas, você poderá trazer a forma para frente ou enviá-la para trás clicando no respectivo ícone na barra de ferramentas. Você também pode remover uma área selecionando-a e clicando no ícone Excluir. Clicar duas vezes em uma área abre a caixa de diálogo Referência, na qual é possível alterar o link de destino. Depois de marcar as áreas necessárias na imagem, salve as alterações clicando em Concluído.
 
-**Bloquear/Desbloquear** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
+**Check-out/Check-in** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
 
-Bloqueia ou desbloqueia o arquivo atual. Bloquear \(ou fazer check-out\) de um arquivo fornece ao usuário acesso de gravação exclusivo no arquivo. Quando o arquivo estiver Desbloqueado \(ou com check-in\), as alterações serão salvas na versão atual do arquivo.
+Faz check-out ou check-in do arquivo atual. Ao fazer check-out de um arquivo, o usuário obtém acesso exclusivo de gravação ao arquivo. Quando o check-in do arquivo é feito, as alterações são salvas na versão atual do arquivo.
 
-Se você estiver na Exibição de mapa e expandir o mapa principal, será possível bloquear todos os arquivos no mapa com um único clique. Basta expandir o arquivo de mapa principal e selecionar o arquivo principal, o que resulta na seleção de todos os arquivos no mapa. Em seguida, você pode clicar no ícone Bloquear para obter o bloqueio em todos os arquivos dentro do mapa.
+Se você estiver na Exibição de mapa e expandir o mapa principal, poderá fazer check-out de todos os arquivos no mapa com um único clique. Basta expandir o arquivo de mapa principal e selecionar o arquivo principal, o que resulta na seleção de todos os arquivos no mapa. Em seguida, você pode selecionar **Confira**  ![](images/LockClosed_icon.svg) para bloquear todos os arquivos no mapa.
+
+>[!NOTE]
+>
+> Ao fazer check-in de um arquivo que tenha alterações não salvas, ele solicita que você salve as alterações. Se você não salvar as alterações, ele só fará o check-in do arquivo.
+
+A dica de ferramenta do Check-in/Check-out é determinada pela propriedade do título no campo `ui_config.json` arquivo.
+
+Para obter mais detalhes, consulte [Configurar o título para os ícones Fazer check-in e Check-out](../install-guide/conf-checkin-checkout-title.md) no Guia de instalação e configuração no local.
+
 
 **Alternar exibição de tags** - ![](images/Label_icon.svg)
 
@@ -584,7 +598,7 @@ Para acessar o histórico de versões e reverter para uma versão específica do
    Sua cópia de trabalho do arquivo foi revertida para a versão selecionada. Se você optar por criar uma nova versão da cópia de trabalho ativa no momento, uma nova versão do arquivo também será criada com todas as alterações de trabalho.
 
 
-Quando você reverte para uma versão anterior, uma dica visual é mostrada indicando que a versão em que você está trabalhando no momento não é a versão mais recente.
+Quando você reverte para uma versão anterior, uma dica visual é mostrada, indicando que a versão em que você está trabalhando no momento não é a versão mais recente.
 
 ![](images/older-version-visual-cue.png){width="800" align="left"}
 
@@ -772,7 +786,7 @@ Você verá diferentes opções no menu Opções dependendo se você seleciona u
 
 - Duplicar
 - Check-out/Check-in
-- Visualizar
+- Visualização
 - Mover para
 - Renomear
 - Excluir
@@ -793,7 +807,8 @@ As várias opções no menu Opções são explicadas abaixo:
 
   >[!NOTE]
   >
-  > Se um arquivo for bloqueado ou submetido a check-out por um usuário, passar o ponteiro do mouse sobre o ícone de bloqueio mostrará o usuário \(name\) que bloqueou o arquivo.
+  > - Se um arquivo for bloqueado ou submetido a check-out por um usuário, passar o ponteiro do mouse sobre o ícone de bloqueio mostrará o usuário \(name\) que bloqueou o arquivo.
+  > - Ao fazer check-in de um arquivo que tenha alterações não salvas, ele solicita que você salve as alterações. Se você não salvar as alterações, ele só fará o check-in do arquivo.
 
 - **Visualizar**: obtenha uma visualização rápida do arquivo \(.dita/.xml\) sem abri-lo.
 
@@ -825,7 +840,7 @@ As várias opções no menu Opções são explicadas abaixo:
    - Se qualquer outro usuário fizer check-out do arquivo, você não poderá renomeá-lo ou movê-lo. Você não verá a opção Renomear ou Mover para do arquivo.
 
   >[!NOTE]
-  > Se o administrador tiver concedido as permissões em uma pasta, somente a variável **Renomear** ou **Mover para** são exibidas.
+  > Se o administrador tiver concedido a você as permissões em uma pasta, somente a **Renomear** ou **Mover para** são exibidas.
 
   <details>
     <summary> Cloud Services </summary>
@@ -989,14 +1004,18 @@ Você pode executar as seguintes ações usando o menu Opções:
 
 - **Check-out**: Faça check-out do arquivo selecionado. Para um arquivo com check-out, essa opção muda para **Check-in**.
 
+
+
   >[!NOTE]
   >
-  > Se um arquivo for bloqueado ou submetido a check-out por um usuário, passar o ponteiro do mouse sobre o ícone de bloqueio mostrará o usuário \(name\) que bloqueou o arquivo.
+  > - Se um arquivo for bloqueado ou submetido a check-out por um usuário, passar o ponteiro do mouse sobre o ícone de bloqueio mostrará o usuário \(name\) que bloqueou o arquivo.
+  > - Ao fazer check-in de um arquivo, ele solicita que você salve as alterações. Se você não salvar as alterações, ele só fará o check-in do arquivo.
 
 - **Visualizar**: obtenha uma visualização rápida do arquivo \(.dita/.xml\) sem abri-lo.
 - **Copiar**: Você pode escolher entre as seguintes opções:
    - **Copiar UUID**: copie a UUID do arquivo selecionado para a Área de transferência.
    - **Copiar caminho**: copia o caminho completo do arquivo selecionado para a área de transferência.
+
 
 - **Localizar no repositório**: mostra o local do arquivo selecionado no repositório \(ou DAM\).
 - **Expandir tudo**: expanda todos os tópicos nos arquivos de mapa.

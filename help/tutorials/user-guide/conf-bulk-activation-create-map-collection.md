@@ -2,9 +2,9 @@
 title: Criar uma coleção de mapas de ativação em massa
 description: Saiba como criar uma coleção de mapas de ativação em massa
 exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: c13d5146f478ed9b9122986a01eaa8a790bc8212
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,11 @@ A guia Mapas e Predefinições apresenta informações nas seguintes colunas:
 - **UUID**: mostra o identificador exclusivo associado ao arquivo.
 
 - **Idioma**: mostra o código de idioma do mapa DITA.
-- **Predefinição**: mostra o tipo de predefinição de saída configurado no arquivo de mapa.
+- **Predefinição**: mostra o título da predefinição de saída configurada no arquivo de mapa. Ela também exibe o ícone com base no tipo de predefinição de saída.
+
+  >[!NOTE]
+  >
+  > Os pequenos ![](images/global-preset-icon.svg) O ícone indica uma predefinição no nível do perfil de pasta.
 - **Modificado**: indica se o mapa DITA foi atualizado após a última publicação. Com base nessas informações, você pode decidir se deseja ativar ou não a saída para esse mapa DITA.
 - **Gerado**: mostra a data e a hora da última saída gerada.
 - **Publicado**: mostra a data e a hora da última saída \(ou ativada\) publicada. Se você clicar no link, a página Resultados da ativação será exibida com informações sobre o caminho raiz onde o conteúdo é ativado.

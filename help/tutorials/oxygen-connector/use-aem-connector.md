@@ -4,9 +4,9 @@ description: Saiba como usar o Oxygen Plugin para Adobe Experience Manager Guide
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
+source-git-commit: a77f93ddc14b6beb440eaa314eebe53fd00265d7
 workflow-type: tm+mt
-source-wordcount: '5885'
+source-wordcount: '5952'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ Depois de ter o instalador, instale-o no computador local onde o Oxygen XML Auth
 
 ### Requisitos técnicos
 
-- Oxygen XML Author versão 24.1
+- Oxygen XML Author versão 25.1
 
-- Adobe Experience Manager Guides versão 3.4 ou superior
+- Adobe Experience Manager Guides versão 4.3 ou superior
 
-- Adobe Experience Manager versão 6.5 com Service Pack 10, 11, 12 e 13
+- Adobe Experience Manager versão 6.5 com Service Pack 14, 15, 16 e 17
 
-- Sistema operacional compatível com o Oxygen XML Author versão 24.1
+- Sistema operacional compatível com o Oxygen XML Author versão 25.1
 
 - Java Development Kit
    - Oracle SE 8 JRE 1.8
@@ -66,7 +66,7 @@ Execute as seguintes etapas no sistema em que o Oxygen XML Author está instalad
 
    O painel Guias do AEM é exibido no Oxygen XML Author.
 
-   ![](images/oxygen-aem-connector.png)
+   ![Conector AEM](images/oxygen-aem-connector.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -98,7 +98,7 @@ Execute as seguintes etapas no sistema em que o Oxygen XML Author está instalad
 
    O painel Guias do AEM é exibido no Oxygen XML Author.
 
-   ![](images/oxygen-aem-connector-mac.png)
+   ![Conector AEM para Mac](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
 
    >[!NOTE]
    >
@@ -118,7 +118,7 @@ Como administrador do AEM, execute as seguintes etapas para instalar o pacote:
 
    O Gerenciador de pacotes gerencia os pacotes na sua instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de pacotes, consulte [Como trabalhar com pacotes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) na documentação do AEM.
 
-   ![](images/package-manager.png)
+   ![Gerenciador de pacotes](images/package-manager.png) {width="650" align="left"}
 
 1. Para fazer upload do pacote Oxygen, clique em **Fazer upload do pacote**.
 1. Na caixa de diálogo Fazer upload do pacote, navegue até o arquivo de pacote do Oxygen que você baixou na Etapa 1 e clique em OK.
@@ -127,7 +127,7 @@ Como administrador do AEM, execute as seguintes etapas para instalar o pacote:
 
 1. Para iniciar o processo de instalação, clique em **Instalar**.
 
-   ![](images/oxygen-package.png)
+   ![Pacote de oxigênio](images/oxygen-package.png){width="650" align="left"}
 
 1. Na caixa de diálogo Instalar pacote, clique em **Instalar**.
 1. Depois que a instalação for concluída, clique no botão Início no canto superior esquerdo do Gerenciador de pacotes do CRX.
@@ -158,7 +158,7 @@ Atualize os arquivos fornecidos para definir as configurações de autenticaçã
 >
 >Faça backup do arquivo antes de atualizá-lo.
 
-**Para Mac e Oxygen 24.1**
+**Para Mac e Oxygen 25.1**
 
 Adicione as seguintes linhas em env.sh
 
@@ -184,7 +184,7 @@ Adicione as seguintes linhas no OxyAuthor.sh
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**Para Windows e Oxygen 24.1**
+**Para Windows e Oxygen 25.1**
 
 Adicione as seguintes linhas no env.bat
 
@@ -208,7 +208,7 @@ Execute as seguintes etapas para definir as configurações de conexão no Plug-
 
 1. No painel Guias do AEM, clique no ícone de configurações e selecione **Configurações**.
 
-   ![](images/settings.png)
+   ![Configurações de conexão ](images/settings.png){width="800" align="left"}
 
 1. Especifique os seguintes detalhes:
    - **URL do servidor**: O URL do servidor AEM, por exemplo:
@@ -245,19 +245,18 @@ Execute as seguintes etapas para configurar os atributos de criação de perfil:
 1. No Autor XML do Oxygen, clique em **Opções** \> **Preferências**.
 1. No **Associação de Tipo de Documento** selecione **DITA** e clique em **Estender**.
 
-   ![](images/document_type_association.png)
+   ![associação de tipo de documento](images/document_type_association.png){width="650" align="left"}
 
 1. No **Classpath** selecione com.adobe.o2.connector na guia **Usar carregador de classe pai do plug-in com ID** menu suspenso.
 
-   ![](images/dita-extension.png)
+   ![Guia Caminho da classe](images/dita-extension.png){width="650" align="left"}
 
 1. No **Extensões** faça as seguintes alterações:
-1. 
    - Clique em **Escolher** ao lado da **Ouvinte de estado da extensão do autor** em **Extensões individuais** e selecione CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn na **Classe** lista. Clique em **OK**.
-- Clique em **Escolher** ao lado da **Editor de valor do atributo personalizado do autor** em **Extensões individuais** e selecione CustomValueEditor - com.adobe.o2.framework.extn na **Classe** lista. Clique em **OK**.
+   - Clique em **Escolher** ao lado da **Editor de valor do atributo personalizado do autor** em **Extensões individuais** e selecione CustomValueEditor - com.adobe.o2.framework.extn na **Classe** lista. Clique em **OK**.
 A captura de tela a seguir mostra o configurado **Extensão** para tópicos DITA:
 
-  ![](images/dita-topic-extension-tab.png)
+     ![Extensão configurada para tópicos DITA](images/dita-topic-extension-tab.png){width="650" align="left"}
 
 1. Clique em **OK** em todas as caixas de diálogo para salvar as alterações.
 
@@ -280,7 +279,7 @@ Execute as seguintes etapas para configurar a extensão do mapa DITA:
 
   A captura de tela a seguir mostra o configurado **Extensão** guia:
 
-  ![](images/dita-map-extension-tab.png)
+  ![Extensão configurada para o mapa DITA](images/dita-map-extension-tab.png){width="650" align="left"}
 
 1. Clique em **OK** em todas as caixas de diálogo para salvar as alterações.
 
@@ -290,7 +289,7 @@ Execute as seguintes etapas para configurar a extensão do mapa DITA:
 
 A tela a seguir mostra o painel Guias do AEM.
 
-![](images/connector-panel.png)
+![painel conector](images/connector-panel.png){width="550" align="left"}
 
 **A**\) Mostra a barra de Pesquisa.
 
@@ -343,7 +342,7 @@ Depois de se conectar ao repositório AEM, você pode abrir arquivos para ediç�
 
    O arquivo é aberto no editor do Oxygen XML Author.
 
-   ![](images/guid-in-file-tab.png)
+   ![Guid na guia Arquivo](images/guid-in-file-tab.png) {width="800" align="left"}
 
    Ao passar o ponteiro do mouse sobre a guia de um arquivo, é exibido o caminho do servidor junto com a UUID. Na captura de tela acima, a UUID do documento é realçada.
 
@@ -385,7 +384,7 @@ Se você selecionou a variável **Arquivo de check-out automático quando aberto
 
 Quando um arquivo é submetido a check-out, o ícone do arquivo muda para mostrar o status bloqueado.
 
-![](images/check-out-file.png)
+![Fazer check-out de um arquivo](images/check-out-file.png){width="650" align="left"}
 
 Na captura de tela acima, um arquivo com check-out feito por outro usuário é mostrado com um ícone de cadeado preto \(A\). O check-out do arquivo pelo usuário atual é mostrado com um bloqueio de cor verde \(B\).
 
@@ -406,7 +405,7 @@ Ao fazer check-in de um arquivo, a cópia local do sistema é armazenada no repo
 
    Se você não tiver feito check-out de arquivos dependentes e escolher essa opção, então somente os arquivos dependentes aos quais você \(separadamente\) fez check-out serão submetidos a check-in. Você verá uma lista de arquivos que não puderam ser verificados:
 
-   ![](images/check-in-error.png)
+   ![verificar erros](images/check-in-error.png){width="800" align="left"}
 
    É altamente recomendável não mover um arquivo com check-out. No entanto, se um arquivo com check-out for movido para um local diferente, você deverá cancelar o check-out desse arquivo. Se você quiser fazer atualizações nesse arquivo, faça check-out novamente, faça alterações e, em seguida, faça check-in novamente. Se você tentar fazer check-in de um arquivo que foi movido de seu local original, então você receberá um erro.
 
@@ -414,15 +413,19 @@ Ao fazer check-in de um arquivo, a cópia local do sistema é armazenada no repo
 
    Da mesma forma, se você tiver feito o check-in de um arquivo dependente por meio do AEM, a lista de arquivos não será atualizada no Oxygen Author até que você faça uma pasta Atualizar e atualizar arquivos com check-out. Se você fizer um Check-in com Dependentes com alguns arquivos verificados por meio do AEM, você receberá um erro listando os arquivos que não puderam ser verificados.
 
-1. \(Opcional\) Na caixa de diálogo Check-in, adicione um comentário em **Comentários da versão** texto.
+1. \(Opcional\) Na guia **Check-in** ou o **Check-in com Dependentes** , adicionar um comentário na **Comentários da versão** texto.
 
    >[!NOTE]
    >
    >Este comentário é exibido no histórico de versões AEM do arquivo.
-1. Adicionar rótulo(s) na **Rótulo** texto. Insira um rótulo e pressione Enter. Por exemplo, *Versão 2307*.
-Se o administrador tiver predefinido uma lista de rótulos e feito o upload deles no `label.json` esses rótulos são exibidos como uma lista suspensa. Você pode escolher um ou mais rótulos na lista suspensa.
-   ![](images/checkin-dropdown-labels.png){width="300" align="left"}
-Você pode adicionar vários rótulos (separados por vírgulas) à mesma versão de um tópico.  Por exemplo, *Adobe*, *AEM*,*Guias*
+
+1. Adicionar rótulo(s) na **Rótulo** caixa de texto no **Check-in** ou o **Check-in com Dependentes** caixa de diálogo . Insira um rótulo e pressione Enter. Por exemplo, *Versão 2307*.
+
+   Se o administrador tiver predefinido uma lista de rótulos e feito o upload deles no `label.json` esses rótulos são exibidos como uma lista suspensa. Você pode escolher um ou mais rótulos na lista suspensa.
+
+   ![Caixa de diálogo de check-in](images/checkin-dropdown-labels.png){width="550" align="left"}
+
+   Você pode adicionar vários rótulos (separados por vírgulas) à mesma versão de um tópico.  Por exemplo, *Adobe*, *AEM*,*Guias*
 No entanto, não é possível adicionar o mesmo rótulo às diferentes versões de um tópico. Se você adicionar um rótulo já adicionado a uma versão anterior, ele será adicionado à versão mais recente e removido da versão anterior.
 
    >[!NOTE]
@@ -444,7 +447,7 @@ Quando você tem arquivos em várias pastas, não é fácil descobrir quantos ar
 
    A exibição Arquivos com check-out nas guias do AEM é exibida.
 
-   ![](images/files-checkedout-view.png)
+   ![arquivos com check out](images/files-checkedout-view.png){width="550" align="left"}
 
 1. Clique com o botão direito do mouse em um arquivo nesta exibição para obter as seguintes opções:
 
@@ -513,7 +516,7 @@ Execute as seguintes etapas para visualizar o histórico de versões de um arqui
 
    O histórico de versões do arquivo é exibido na caixa de diálogo Versões.
 
-   ![](images/version-history.png)
+   ![Histórico de versão](images/version-history.png){width="550" align="left"}
 
 
 ### Visualizar os metadados de um arquivo {#id195GHN0H05C}
@@ -526,7 +529,7 @@ Execute as seguintes etapas para exibir os metadados de um arquivo:
 
    Os metadados do arquivo, como Classe DITA, Estado do documento, data de modificação, tamanho, Título e UUID são exibidos na caixa de diálogo Metadados.
 
-   ![](images/metadata.png)
+   ![Exibir metadados](images/metadata.png){width="550" align="left"}
 
 
 ## Pesquisar um tópico no repositório AEM {#id1826J20405Z}
@@ -541,7 +544,7 @@ Execute as seguintes etapas para pesquisar tópicos:
 
    O resultado é exibido na guia Resultados da pesquisa como uma lista com o caminho do arquivo. Se não houver nenhum resultado correspondente para a consulta de pesquisa, nenhum resultado será encontrado em &lt;path of=&quot;&quot; the=&quot;&quot; selected=&quot;&quot; folder=&quot;&quot;> será exibida.
 
-   ![](images/search.png)
+   ![Resultados da pesquisa](images/search.png){width="550" align="left"}
 
 1. \(Opcional\) Clique duas vezes em um arquivo no resultado da pesquisa para abri-lo no Oxygen XML Author.
 1. Para voltar para a exibição do Repositório AEM, siga um destes procedimentos:
@@ -604,13 +607,13 @@ Execute as seguintes etapas para adicionar atributos condicionais ao seu conteú
 1. Selecione a parte do conteúdo na qual deseja aplicar os atributos condicionais.
 1. Clique duas vezes no atributo condicional no painel Atributos do Oxygen XML Author.
 
-   ![](images/attribute-panel.png)
+   ![painel atributos](images/attribute-panel.png){width="300" align="left"}
 
 1. No **Disponível** da caixa de diálogo Editar atributo, selecione o atributo\(s\) e clique em **Adicionar**.
 
    A tela a seguir mostra `audience` atributos.
 
-   ![](images/edit-attributes.png)
+   ![Caixa de diálogo Editar atributos](images/edit-attributes.png){width="550" align="left"}
 
 1. Clique em **OK**.
 
@@ -653,7 +656,7 @@ Solução 3:
 
 **Problema** - Quando você executa qualquer transformação DITA-OT em arquivos processados pelo Plug-in, a transformação falha e o seguinte erro é exibido:
 
-![](images/proxy-server-path-error-new.png)
+![Erro de falha de transformação DITA-OT](images/proxy-server-path-error-new.png){width="800" align="left"}
 
 **Solução** - Esse problema foi corrigido adicionando um servidor proxy entre o DITA-OT e o plug-in. Esse servidor proxy processa e compartilha todos os arquivos solicitados pelo DITA-OT para transformações. A porta padrão na qual este servidor foi configurado é: `5972`. Se estiver usando essa porta para algum outro servidor, você poderá especificar uma porta diferente para o servidor proxy.
 
@@ -676,38 +679,58 @@ Solução: esse problema foi observado em cenários em que o caminho do arquivo 
 
 Problema: Por padrão, o Plug-in do Oxygen para o AEM Guides não gera nenhum registro, o que dificulta a depuração de qualquer cenário de erro.
 
-Solução: execute as seguintes etapas para habilitar o recurso de geração de logs no Plug-in:
+Solução: execute as seguintes etapas para configurar os registradores para o Xygen e JxBrowser:
 
-1. Navegue até o local de instalação do Oxygen XML Author.
+1. Fechar autor de XML do Oxygen
 
-1. Abra o arquivo OxyAuthor19.1.vmoptions em um editor de texto.
+1. Crie um arquivo chamado `logback.xml` com o seguinte conteúdo:
 
-   >[!NOTE]
-   >
-   >O número da versão do arquivo pode ser diferente com base no número da versão do aplicativo instalado no sistema.
-
-1. Acrescentar a seguinte linha no arquivo:
-
-   ```java
-   -Djava.util.logging.config.file=./log.properties
+   ```xml
+   <configuration>
+       <appender name="R2" class="ch.qos.logback.core.rolling.RollingFileAppender">
+           <file>${user.home}/Desktop/oxygenLog/oxygen.log</file>
+           <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+               <fileNamePattern>${user.home}/Desktop/oxygenLog/oxygen%i.log.gz</fileNamePattern>
+               <minIndex>1</minIndex>
+               <maxIndex>20</maxIndex>
+           </rollingPolicy>
+           <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+               <maxFileSize>100MB</maxFileSize>
+           </triggeringPolicy>
+           <encoder>
+               <pattern>%r %marker %p [ %t ] %c - %m%n</pattern>
+           </encoder>
+       </appender> 
+   
+       <root level="debug">
+           <appender-ref ref="R2" />
+       </root>
+   </configuration>   
    ```
 
-1. Salvar e fechar o arquivo.
+1. Salve o arquivo na `Oxygen Author 25` diretório. (Por exemplo, o caminho seria: `C:\Program Files\Oxygen XML Author 25\logback.xml`)
 
-1. No mesmo local, crie um arquivo chamado log.properties com o seguinte conteúdo:
+1. Feche o arquivo. Isso ativará os logs do Oxygen, que estarão disponíveis no caminho: `${user.home}/Desktop/oxygenLog/oxygen.log`
+1. Abra o `oxygenAuthor.bat` em um editor de texto.
+1. Configure logs relacionados ao JxBrowser adicionando o parâmetro
+   `-Denable.aem.jx.log=true`. Isso habilita logs relacionados ao JxBrowser, que podem ser visualizados no caminho: `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`:
+
+
+
 
    ```java
-   handlers=java.util.logging.FileHandler
-   java.util.logging.FileHandler.level = DEBUG
-   java.util.logging.FileHandler.limit = 1048576
-   java.util.logging.FileHandler.count = 5
-   java.util.logging.FileHandler.pattern = %h/aem-plugin%g.log
-   java.util.logging.FileHandler.formatter = java.util.logging.SimpleFormatter
-   java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
+   SET OXYGEN_JAVA=java.exe
+   if exist "%JAVA_HOME%\bin\java.exe" set OXYGEN_JAVA="%JAVA_HOME%\bin\java.exe"
+   if exist "%~dp0\jre\bin\java.exe" SET OXYGEN_JAVA="%~dp0\jre\bin\java.exe"
+   rem Set environment variables
+   call "%~dp0\env.bat"
+   %OXYGEN_JAVA% -XX:-OmitStackTraceInFastThrow -XX:SoftRefLRUPolicyMSPerMB=10 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true 
+   -Denable.aem.jx.log=true -Dsun.java2d.noddraw=true -Dsun.awt.nopixfmt=true -Dsun.java2d.dpiaware=true -Dsun.io.useCanonCaches=true -Dsun.io.useCanonPrefixCache=true 
+   -Dsun.awt.keepWorkingSetOnMinimize=true -Dcom.oxygenxml.app.descriptor=ro.sync.exml.AuthorFrameDescriptor
+    -Dcom.oxygenxml.ApplicationDataFolder="%APPDATA%" -cp %CP% ro.sync.exml.Oxygen %*
    ```
 
-1. Salvar e fechar o arquivo.
-1. Inicie o Oxygen XML Author.
+
+Com as etapas anteriores, os logs serão ativados e você poderá usá-los para depurar os problemas.
 
 
-O plug-in agora cria logs no diretório inicial do usuário com o nome de arquivo aem-pluginX.log \(*em que X indica o número de rotação*\).

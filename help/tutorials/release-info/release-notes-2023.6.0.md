@@ -2,7 +2,7 @@
 title: Notas de versão | Instruções de atualização e problemas corrigidos nos Guias da Adobe Experience Manager, versão de junho de 2023
 description: Saiba mais sobre as correções de erros e como atualizar para a versão de junho de 2023 do Adobe Experience Manager Guides as a Cloud Service
 exl-id: ea0ff27a-9c3a-49d7-b94a-d1b9d9e85dcf
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: 4359d857f3662ae29a55420c0fafc4a244258389
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 3%
@@ -99,7 +99,7 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 
 Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com os Guias do AEM as a Cloud Service na versão de junho de 2023.
 
-### FrameMaker e FrameMaker Publishing Server
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versão do AEM Guides as a Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
@@ -152,7 +152,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - PDF nativo | Não é possível salvar as configurações do modelo de PDF. (10751)
 - PDF nativo | O texto se estende além da largura da coluna ao incluir vários xrefs. (10876)
 - PDF nativo | `<note>``</note>` O elemento não gera um título de extensão extra de seu tipo. (10549)
-- PDF nativo | Os metadados de idioma não podem ser definidos no PDF gerado para estar em conformidade com a WCAG 2.0. (12407)
+- PDF nativo | Os metadados de idioma não podem ser definidos no PDF gerado para estar em conformidade com a WCAG 2.0. (12296)
 
 
 

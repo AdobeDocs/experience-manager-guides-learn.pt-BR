@@ -2,10 +2,10 @@
 title: Editar uma coleção de mapas de ativação em massa
 description: Saiba como editar uma coleção de mapas de ativação em massa
 exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 25641f5c3207d98228d406e3b553c06d2bad1e10
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 1%
+source-wordcount: '218'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 1%
 1. Clique em **Editar**.
 
    A página de coleção de mapas de ativação em massa é exibida, onde você exibe os mapas junto com suas predefinições pré-configuradas para cada localidade disponível.
+Você pode visualizar os vários tipos de predefinições de saída juntamente com seus ícones, como Site AEM, PDF, PDF Nativo, HTML5, Personalizado e Saída JSON .
+
+   >[!NOTE]
+   >
+   > Os pequenos ![](images/global-preset-icon.svg) O ícone indica uma predefinição no nível do perfil de pasta.
+
 
 1. Use o controle deslizante para ativar ou desativar a predefinição de saída desejada.
 
@@ -33,7 +39,7 @@ ht-degree: 1%
 
 1. Clique em **Excluir**.
 
-   ![](images/bulk-activation-delete-map.png){width="800" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
    O mapa selecionado é removido da coleção de mapas de ativação em massa.
 

@@ -2,7 +2,7 @@
 title: Outros recursos no Editor da Web
 description: Saiba como usar Outros recursos no Editor da Web
 exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: dd744a8e5b7d60a0e5b4d0ad8f9201950e3ae1ce
 workflow-type: tm+mt
 source-wordcount: '2131'
 ht-degree: 0%
@@ -113,19 +113,19 @@ Você pode ver as seguintes opções, dependendo se o arquivo está bloqueado/de
 
 - **Desbloquear e fechar**: o bloqueio no arquivo é liberado e o arquivo é fechado.
 
-   ![](images/file-close-unlock-file.png){width="400" align="left"}
+  ![](images/file-close-unlock-file.png){width="400" align="left"}
 
 - **Salvar como uma nova versão**: Isso salvará as alterações feitas no conteúdo e criará uma nova versão do arquivo. Você também pode adicionar rótulos e comentários para a versão recém-salva. Para obter mais informações sobre como salvar uma nova versão, consulte [Salvar como nova versão](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
 - **Desbloquear o arquivo**: se você optar por desbloquear um arquivo, ele liberará o bloqueio no arquivo e as alterações serão salvas na versão atual do arquivo.
 
->[!NOTE]
->
-> Se você desmarcar a opção para desbloquear o arquivo, também receberá uma opção para fechar o arquivo sem salvar as alterações.
+  >[!NOTE]
+  >
+  > Se você desmarcar a opção para desbloquear o arquivo, também receberá uma opção para fechar o arquivo sem salvar as alterações.
 
-Por exemplo, um dos prompts é mostrado na seguinte captura de tela:
+  Por exemplo, um dos prompts é mostrado na seguinte captura de tela:
 
-![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
 
 **Indicações visuais para referências corrompidas**
 

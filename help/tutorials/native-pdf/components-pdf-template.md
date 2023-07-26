@@ -2,9 +2,9 @@
 title: Recurso de publicação de PDF nativo | Componentes de um modelo de PDF
 description: Saiba mais sobre os vários componentes de um modelo de PDF e como personalizá-los e configurá-los.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: abeef67c07189d54e4adfb634c6094f3dc70e3eb
+source-git-commit: 08c1f1a8df5fdbaa0d8f27d2752028d0ee2ed538
 workflow-type: tm+mt
-source-wordcount: '2938'
+source-wordcount: '3672'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ Use a seção Configurações para definir as configurações avançadas para o 
 
 Para configurar, clique em **Configurações** no **Modelos** para exibir as seguintes opções:
 
-**Geral**
+### Geral
 
 Defina as configurações básicas para iniciar um capítulo a partir de uma página ímpar ou par, a estrutura do sumário e defina o formato da linha de chamada para as entradas do sumário. Você pode definir a seguinte configuração:
 
@@ -208,7 +208,7 @@ Para aplicar a estrutura de índice e os níveis de cabeçalho de estilo, consul
 
 * **Usar marcador de continuação de tabela**: selecione essa opção para definir marcadores para tabelas longas espalhadas em várias páginas. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
-**Layouts de página**
+### Layouts de página {#page-layouts}
 
 As configurações de Layouts de página oferecem controle total sobre a especificação de qual layout de página deve ser usado para uma seção específica do documento. Por exemplo, para selecionar um layout para o Sumário, clique no menu suspenso sob o campo Sumário e selecione o layout criado para gerar o Sumário.
 
@@ -245,11 +245,11 @@ As seguintes configurações estão disponíveis na seção Layout da página:
 
 Para obter mais informações sobre layouts de página, consulte [Criar um layout de página](design-page-layout.md).
 
-**Ordem da página**
+### Ordem da página {#page-order}
 
-Você pode ativar ou desativar as seguintes seções no PDF e também organizar a ordem em que elas devem aparecer na saída final do PDF:
+Você pode mostrar ou ocultar as seguintes seções no PDF e também organizar a ordem em que elas devem aparecer na saída final do PDF:
 
-<img src="assets/page-order-advance-settings.png" alt="Layouts de página" width="550">
+
 
 * TOC
 * Capítulos e tópicos
@@ -257,23 +257,64 @@ Você pode ativar ou desativar as seguintes seções no PDF e também organizar 
 * Lista de tabelas
 * Índice
 * Glossário
+* Citação
 
-Se você não quiser mostrar uma seção específica na saída do PDF, desative o botão de alternância.
+  <img src="assets/page-order-advance-settings.png" alt="Ordem da página" width="550">
 
-Você também pode definir a ordem em que essas diferentes seções são geradas no PDF. Para alterar a ordem padrão dessas páginas, selecione as barras pontilhadas para arrastar e soltar o layout da página no local desejado.
+  Se você não quiser mostrar uma seção específica na saída do PDF, oculte isso desativando o botão de alternância.
+
+  Você também pode definir a ordem em que essas diferentes seções são geradas no PDF. Para alterar a ordem padrão dessas seções, selecione as barras pontilhadas para arrastar e soltar as seções no local desejado.
+
+  >[!NOTE]
+  >
+  > As configurações de ordem e inclusão se aplicam somente a um mapa DITA. Para um mapa, essas configurações não se aplicam. As páginas em um mapa são exibidas de acordo com a ordem das seções no mapa.
+
+
+.
+**Capítulo e tópicos** o layout é sempre ativado e **Glossário** o layout é sempre desativado por padrão. Não é possível alterná-los.
+
+**Mesclar páginas**
+
+Por padrão, todas as seções começam em uma nova página. Selecione o **Página anterior** ou **Próxima página** opção no **Mesclar com** para mesclar uma seção com uma página anterior ou seguinte. Isso publicará a seção na continuação com a página selecionada na saída do PDF. Com isso, não haverá quebra de página entre eles.
 
 >[!NOTE]
 >
-> Essas configurações de ordem e inclusão se aplicam somente a um mapa DITA. Para um mapa, essas configurações não se aplicam. As páginas em um mapa são exibidas de acordo com a ordem das seções no mapa.
+> Essa configuração se aplica somente à seção e não a seus componentes.  Por exemplo, se você selecionar a variável **Página anterior** opção para **Capítulos e tópicos**, o **Capítulos e tópicos** A seção se mescla com a página anterior. Os vários capítulos e tópicos são publicados de acordo com a **Geral** configurações.Por exemplo, se em **Iniciar qualquer novo capítulo na configuração**, você seleciona **Página ímpar**, uma página em branco é inserida após um capítulo que termina em uma página ímpar.
+
+Ao mesclar uma seção com sua página anterior ou próxima página, o conteúdo é mesclado e o estilo da seção de destino na qual o conteúdo é mesclado é aplicado.
+
+Por exemplo, se você ativar **TOC** e **Capítulo e tópicos** e selecione o **Próxima página** para **TOC**, o **TOC** mescla com a próxima seção, que é a **Capítulo e tópicos**. O estilo do **Capítulo e tópicos** é aplicada ao conteúdo mesclado de ambas as seções.
+
+A opção de mesclagem funciona sucessivamente, portanto, se você tiver selecionado **Próxima página** para várias seções contínuas, todas se mesclam com a primeira seção (na próxima direção), que não tem essa propriedade definida. Por exemplo, você ativa **TOC**, **Capítulo e tópicos**, **Lista de figuras**, e **Índice**. Em seguida, se você definir **Próxima página** para **TOC**, **Capítulo e tópicos**, **Lista de figuras**, e **Nenhum** para **Índice**, todos eles se mesclam com  **Índice**.
 
 
-Seu PDF conterá os layouts de página ativados na ordem em que você os organizou aqui.
-**Capítulo e tópicos** o layout é sempre ativado e **Glossário** o layout é sempre desativado por padrão. Não é possível alterná-los.
+**Páginas estáticas**
+
+Os vários layouts de página ajudam a projetar a saída das várias seções. Essas seções são geradas pelo mapa DITA enquanto você publica a saída.
+Você também pode criar layouts de página personalizados e publicá-los como páginas estáticas na saída do PDF. Isso ajuda a adicionar qualquer conteúdo estático, como Notas ou páginas em branco.
+
+Execute as seguintes etapas para adicionar um layout de página personalizado:
+
+1. Selecionar **Adicionar** ![](assets/add-icon.svg) para adicionar um novo layout de página. O painel Adicionar layout de página é aberto.
+2. Selecione o layout de página na lista e clique em Adicionar. O novo layout da página é adicionado à lista de layouts de página.
+
+
+Você também pode executar as seguintes ações:
+
+* Selecione as barras pontilhadas para arrastar e soltar o layout da página no local desejado.
+
+* Selecionar **Remover layout** ![](assets/delete-icon.svg)  para remover um layout.
+
+* Também é possível mesclar uma página estática com a página anterior ou a próxima página.
+
+* Você também pode adicionar um layout personalizado várias vezes e organizá-los. Isso ajuda a publicar o conteúdo estático adequadamente.
+
+  Por exemplo, você pode usar um layout personalizado para publicar um aviso estático várias vezes na saída de PDF.
 
 
 
 
-**Imprimir**
+### Imprimir
 
 Configure as configurações de produção de impressão para atribuir marcas de impressora, selecionar modelos de cores e especificar propriedades relacionadas à impressão da saída de PDF.
 
@@ -294,6 +335,34 @@ Configure as configurações de produção de impressão para atribuir marcas de
 
   <!--For more information on applying these print settings, see *Printing preferences*.-->
 
-**Referências cruzadas**
+### Referências cruzadas {#cross-references}
 
-Use a guia Referência cruzada para definir como as referências cruzadas são publicadas no PDF. É possível formatar as referências cruzadas para título de tópico, tabelas, figuras e muito mais. <!--For more information, see *Format cross-references*.-->
+Use a guia Referência cruzada para definir como as referências cruzadas são publicadas no PDF. É possível formatar as referências cruzadas para título de tópico, tabelas, figuras e muito mais.
+
+Você também pode usar variáveis para definir uma referência cruzada.  Quando você usa uma variável, seu valor é extraído das propriedades. Você pode usar uma única variável ou uma combinação de variáveis para definir uma referência cruzada. Também é possível usar uma combinação de uma string e uma variável.
+
+Por exemplo, você pode usar Exibir detalhes em {chapter}. Se o nome do capítulo for &quot;Configurações gerais&quot;, a referência cruzada na saída será &quot;Consulte detalhes em Configurações gerais&quot;.
+
+Os Guias do AEM fornecem as seguintes variáveis prontas para uso:
+
+* {title}: cria uma referência cruzada para o título do tópico. Por exemplo, consulte Links úteis na página 2.
+* {page} Adiciona uma referência cruzada aos números de página. Por exemplo, consulte na página 1.
+* {description}: adiciona uma referência cruzada ao texto da descrição. Por exemplo, consulte os detalhes de Guias do AEM.
+* {chapter}: adiciona uma referência cruzada aos números do capítulo. Por exemplo, consulte no Capítulo 1.
+* {bookmarkText}: cria uma referência cruzada para o texto marcado. Por exemplo, consulte stop_words na página 5.
+* {captionText}: cria uma referência cruzada para a legenda da figura ou tabela no tópico. Por exemplo, consulte Fluxo de ar na página 2.
+* {figure}: adiciona uma referência cruzada ao número da figura. Seleciona o número de figura a partir dos estilos de numeração automática que você definiu para a legenda digital.  Por exemplo, você pode usar &quot;Consulte {figure} na página {page}&quot;. A referência cruzada na saída contém o número de figura gerado automaticamente e seu número de página, &quot;Consulte a Figura 1 na página 5&quot;.
+* {table}: adiciona uma referência cruzada ao número da tabela. Seleciona o número da tabela a partir dos estilos de numeração automática definidos para a legenda. Por exemplo, você pode usar &quot;Consulte {table} na página {page}&quot;. A referência cruzada na saída contém o número da tabela gerado automaticamente e seu número de página, &quot;Consulte a Tabela 1 na página 5&quot;.
+
+
+
+  >[!NOTE]
+  >
+  >É possível criar estilos de numeração automática para tags de legenda e legenda.
+
+
+
+
+
+
+<!--For more information, see *Format cross-references*.-->

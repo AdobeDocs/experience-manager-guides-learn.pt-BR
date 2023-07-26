@@ -2,9 +2,9 @@
 title: PDF nativo | Geração de saída de PDF
 description: Gerar saída de PDF nos Guias do Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 3ae7a2a5954b68da29d4268012be47cd2ac8df3e
+source-git-commit: c11a9d2153dd2971a133ecd40325266b1d6e236c
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '3071'
 ht-degree: 0%
 
 ---
@@ -112,6 +112,17 @@ Nas predefinições de Saída, **selecionar PDF** > **Metadados** para adicionar
    1. Insira o valor dos metadados e clique no ícone &quot;+&quot;.
 Os metadados são adicionados à lista para o PDF.
 
+Também é possível usar variáveis para definir os valores de metadados.  Você pode usar os metadados definidos para o mapa DITA ou arquivo de mapa como variáveis. Os metadados podem ser encontrados no `/jcr:content/metadata` nó do mapa DITA ou arquivo de mapa.
+Quando você usa uma variável, seu valor é escolhido das propriedades dos metadados.
+
+Para usar uma variável, você precisa defini-la na variável `${<variable>}` formato.
+
+Por exemplo, uma das propriedades de metadados definidas em /`jcr:content/metadata` o nó é
+`dc:title`. Você pode especificar `${dc:title}`, e o valor de título é usado na saída final.
+
+Você pode usar uma única variável ou uma combinação de variáveis para definir os metadados. Por exemplo, `${dc:title} ${dc:docstate}`.
+
+Também é possível usar a combinação de uma variável e uma string.  Por exemplo, `View ${dc:title} in ${dc:language}`.
 
 
 **Layout**

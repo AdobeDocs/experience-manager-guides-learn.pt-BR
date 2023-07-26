@@ -2,9 +2,9 @@
 title: Atualização dos Guias do Adobe Experience Manager
 description: Saiba como atualizar os Guias do Adobe Experience Manager
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: 4c31580a7deb3e13931831c1888bbf0fd1bf9e14
+source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
 workflow-type: tm+mt
-source-wordcount: '2896'
+source-wordcount: '3216'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,13 @@ ht-degree: 1%
 >
 > Siga as instruções de atualização específicas para a versão licenciada do seu produto.
 
-Você pode atualizar sua versão atual dos Guias do AEM para a versão 4.2.1
-- Se você estiver usando a versão 4.1, 4.1.x ou 4.2, é possível atualizar diretamente para a versão 4.2.1.
-- Se você estiver usando a versão 4.0, será necessário atualizar para a versão 4.2 antes de atualizar para a versão 4.2.1.
+Você pode atualizar sua versão atual dos Guias do AEM para a versão 4.3.0
+- Se você estiver usando a versão 4.2 ou 4.2.x, é possível atualizar diretamente para a versão 4.3.0.
+- Se você estiver usando a versão 4.1, 4.1.x ou 4.2, será necessário atualizar para a versão 4.2.1 antes de atualizar para a versão 4.3.0.
+- Se você estiver usando a versão 4.0, será necessário atualizar para a versão 4.2 antes de atualizar para a versão 4.3.0.
 - Se você estiver usando a versão 3.8.5, será necessário atualizar para a versão 4.0 antes de atualizar para a versão 4.2.
 - Se você estiver em uma versão anterior à 3.8.5, consulte a seção Atualizar guias de AEM no guia de instalação específico do produto.
+
 
 >[!NOTE]
 >
@@ -30,6 +32,7 @@ Para obter mais detalhes, consulte os seguintes procedimentos:
 - [Atualização da versão 3.8.5 para a versão 4.0](#id2256DK003E1)
 - [Atualizar para a versão 4.2](#id22A3F500SXA)
 - [Atualizar para a versão 4.2.1](#upgrade-version-4-2-1)
+- [Atualizar para a versão 4.3.0](#upgrade-version-4-3)
 
 
 >[!IMPORTANT]
@@ -228,7 +231,7 @@ Depois de instalar o AEM Guides, você pode mesclar as várias configurações a
    - ui\_config.json\(pode ter sido definido em perfis de pasta\)
    - alterado `com.adobe.fmdita.config.ConfigManager`
    - Verifique se qualquer um dos códigos personalizados estava usando caminhos antigos \(como mencionado na [Mapeamento de migração](#id2244LE040XA) section\) - deve ser atualizado para os novos caminhos para que as personalizações também funcionem conforme esperado.
-1. Leia sobre as novas configurações trazidas na versão atual \(verifique [Notas de versão](../release-info/release-notes-4.2.md)\) e veja se alguma funcionalidade foi afetada, em seguida, tome as medidas apropriadas. Um exemplo pode ser o uso da seção &quot;Manuseio aprimorado de arquivos e versões&quot;, introduzida na versão 4.0, para a qual é necessário ativar uma configuração.
+1. Leia sobre as novas configurações trazidas na versão atual \(verifique [Notas de versão](../release-info/release-notes-4.3.md)\) e veja se alguma funcionalidade foi afetada, em seguida, tome as medidas apropriadas. Um exemplo pode ser o uso da seção &quot;Manuseio aprimorado de arquivos e versões&quot;, introduzida na versão 4.0, para a qual é necessário ativar uma configuração.
 
 ## Etapas para indexar o conteúdo existente para usar a nova localização e substituição:
 
@@ -459,4 +462,55 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 
 - Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
+
+## Atualizar para a versão 4.3.0 {#upgrade-version-4-3}
+
+A atualização para a versão 4.3.0 depende da versão atual dos Guias AEM. Se você estiver usando a versão 4.2 ou 4.2.x, é possível atualizar diretamente para a versão 4.3.0.
+
+>[!NOTE]
+>
+>O pós-processamento e a indexação podem levar algumas horas. Recomendamos que você inicie o processo de atualização fora do horário de pico.
+
+****Pré-requisitos****
+
+Antes de iniciar o processo de atualização do AEM Guides 4.3.0, verifique se você:
+
+1. Atualizado para a versão 4.2 ou 4.2.x dos Guias do AEM e concluída a respectiva etapa de instalação.
+1. Todas as tarefas de tradução foram fechadas.
+
+
+
+## Instalar a versão 4.3.0
+
+1. Baixe o pacote da versão 4.3.0 de [Portal de distribuição de software Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/br/aem.html).
+1. Instale o pacote da versão 4.3.0.
+1. Limpe o cache do navegador após instalar o pacote.
+1. Atualizar o `ui_config.json` arquivo do **Configuração do editor XML** no Perfil de pasta.
+
+
+## Depois de instalar a versão 4.3.0
+
+Depois de instalar o AEM Guides, você pode mesclar as várias configurações aplicáveis da versão recém-instalada à sua configuração.
+
+## Etapas para pós-processar o conteúdo existente para usar o relatório de link corrompido
+
+
+Execute as seguintes etapas para o pós-processamento do conteúdo existente e uso do novo relatório de link desfeito:
+
+1. (Opcional) Se houver mais de 100.000 arquivos dita no sistema, atualize o `queryLimitReads` em `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` para um valor maior (qualquer valor maior que o número de ativos presentes, por exemplo, 200.000) e reimplante.
+
+   | PID | Chave de propriedade | Valor da propriedade |
+   |---|---|---|
+   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Valor: 200000 <br> Valor padrão: 100000 |
+
+1. Execute uma solicitação POST no servidor (com a autenticação correta) - `http://<server:port>//bin/guides/reports/upgrade`.
+
+1. A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação de GET com id de trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+(Por exemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+
+1. Quando a tarefa for concluída, a solicitação anterior do GET responderá com sucesso. Se o trabalho falhar por algum motivo, a falha poderá ser vista nos logs do servidor.
+
+1. Reverter de volta para o valor padrão ou existente anterior de `queryLimitReads` se você o alterou na etapa 1.
+
 **Tópico pai:**[ Baixar e instalar](download-install.md)
+

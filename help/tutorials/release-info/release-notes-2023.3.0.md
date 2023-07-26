@@ -1,13 +1,13 @@
 ---
 title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de março de 2023
 description: Lançamento de março do Adobe Experience Manager Guides as a Cloud Service
-source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
+exl-id: c62a65fb-b52d-455d-b42c-f0b19b4d5f63
+source-git-commit: f419281cdecb570f9e5c7ce5cd4c831cae349e11
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '545'
+ht-degree: 2%
 
 ---
-
 
 # Lançamento de março de 2023 do Adobe Experience Manager Guides as a Cloud Service
 
@@ -30,8 +30,7 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados || Exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação de GET com id de trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Por exemplo: http://&lt;
-_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+(Por exemplo: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
@@ -39,12 +38,12 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 
 Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com os Guias do AEM as a Cloud Service na versão de março de 2023.
 
-### FrameMaker e FrameMaker Publishing Server
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versão do AEM Guides as a Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
 | 2023.03.0 | Não compatível | 2022 ou superior |
-|  |  |  |
+| | | |
 
 
 ### Conector de oxigênio
@@ -54,4 +53,23 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 | 2023.03.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
+## Problemas corrigidos
 
+Os bugs corrigidos em várias áreas estão listados abaixo:
+
+* O processo de PDF de download não está funcionando adequadamente no Editor da Web. (11496)
+* Saída JSON | Mapear metadados com o valor de propriedade como `"value in spaces and double quotes"` leva a um erro de publicação. (11438)
+* A inserção para arquivos multimídia de áudio e vídeo falha no formato YouTube na **Inserir multimídia** ícone. (11320)
+* O erro de validação ocorre quando um mapa é criado usando o modelo que tem um elemento de título especializado. (11212)
+* PDF nativo | a nota de rodapé presente no cabeçalho da tabela leva a negrito e texto alinhado ao centro no rodapé da página correspondente na saída do PDF. (10610)
+>[!NOTE]
+>
+>Para refletir a alteração do PDF nativo, exclua a pasta PDF localizada em /content/dam/dita-templates e atualize para a build mais recente. (10610)
+
+### Problema conhecido com a solução alternativa
+
+A Adobe identificou o seguinte problema conhecido para os Guias AEM as a Cloud Service na versão de março de 2023.
+
+* Os usuários não podem salvar ou criar a versão de um ativo duplicado.
+
+**Solução alternativa**: antes de fazer qualquer alteração no ativo duplicado, reprocesse-o na interface do usuário do Assets.
