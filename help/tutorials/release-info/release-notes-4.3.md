@@ -1,9 +1,9 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 4.3.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros e como atualizar para as versões 4.3.0 do Adobe Experience Manager Guides
-source-git-commit: 756ba69360e1796e36f6cc1ef410443ef8cb4acb
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '998'
 ht-degree: 5%
 
 ---
@@ -81,7 +81,6 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - Os resultados da pesquisa são desativados no painel Localizar e substituir após abrir um arquivo pesquisado. (12142)
 - A tecla numérica &quot;8&quot; no teclado lateral não está funcionando no editor de Guias AEM. (12106)
 - Os atributos em linha/Exibição não aparecem na exibição de layout do Editor da Web. (12498)
-- Carregar arquivos no plug-in Oxygen para o AEM Guides não está funcionando no Cloud Services, se você tiver! no nome do arquivo. (12207)
 - A configuração da interface do usuário do perfil global não corresponde ao Perfil da pasta. (11970)
 - As referências de conteúdo são quebradas quando os arquivos DITA são copiados e colados. (11959)
 - Não é possível editar o fragmento de conteúdo na exibição de coluna com Guias do AEM instalados. (7342)
@@ -93,7 +92,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - `conref` na tag ph | A caixa de diálogo de navegação exibida está incorreta. (9481)
 - Links locais para outros elementos não são resolvidos no Editor da Web. (8790)
 - A função Matches() não funciona no recurso schematron. (11224)
-- No Plug-in Oxygen para Guias do AEM, a opção para abrir um mapa DITA no Editor de mapa DITA da Web leva para a interface antiga. (12633)
+
 
 
 ### Gerenciamento

@@ -1,9 +1,9 @@
 ---
 title: Notas de versão | Novidades na versão 4.3.0 dos Guias do Adobe Experience Manager
 description: Conheça os recursos novos e aprimorados das versões 4.3.0 do Adobe Experience Manager Guides
-source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '2638'
+source-wordcount: '2639'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Este artigo aborda os recursos novos e aprimorados da versão 4.3.0 do Adobe Experience Manager Guides (mais tarde conhecido como *Guias do AEM*).
 
-Para obter mais detalhes sobre as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos nesta versão,  [Notas de versão](./release-notes-4.3.md).
+Para obter mais detalhes sobre as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos nesta versão, consulte [Notas de versão](./release-notes-4.3.md).
 
 
 ## Conecte-se a uma fonte de dados e insira dados em seus tópicos
