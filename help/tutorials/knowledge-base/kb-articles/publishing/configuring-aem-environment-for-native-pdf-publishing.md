@@ -2,9 +2,9 @@
 title: Configuração do ambiente AEM para publicação de PDF nativo
 description: Configuração do ambiente AEM para publicação de PDF nativo
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
-source-git-commit: 7b48633ef2418fa7c91842a8d2c2a4177017ef58
+source-git-commit: 45dfe6078039001327e91ae85ea2a5beeacb2d59
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ O mecanismo de publicação PDF nativo precisa do JDK do Oracle para gerar os m�
 
 ## Etapas de configuração para servidor Linux (RHEL7/centOS 7)
 
-1. Certifique-se de que o servidor AEM esteja desativado
+1. Verifique se o servidor AEM está desativado
 2. Verifique a variável JAVA_HOME fazendo echo $JAVA_HOME
 3. Se a variável JAVA_HOME não estiver definida, siga a etapa 4. Caso contrário, vá diretamente para a etapa 5.
 4. Defina a variável JAVA_HOME usando os comandos abaixo com base na versão instalada do java
@@ -90,8 +90,7 @@ O mecanismo de publicação PDF nativo precisa do JDK do Oracle para gerar os m�
    1. exportar JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
    2. caminho de exportação=$PATH: $JAVA\_HOME/bin
 
-
-5. Reiniciar o servidor AEM
+5. Reinicie o Servidor AEM e vá para a Etapa 12, se estiver usando o Guides versão 4.2 e superior.
 6. Copie o &quot;_node_modules.zip_&quot; anexado na parte inferior deste artigo ao diretório crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 7. Abra o terminal no crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 8. Exclua o diretório node_modules usando o comando abaixo
@@ -112,7 +111,7 @@ Comando: yum install fontconfig
 
 **NOTA** : o pacote node_modules.zip pode ser baixado [aqui](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
-A importação manual dos módulos de nó baixados para o sistema operacional Linux é uma solução alternativa para usuários que estão no Guides 4.1 ou em versões anteriores.
+A importação manual dos módulos de nó baixados para o sistema operacional Linux é uma solução alternativa para usuários que estão no Guides 4.1 ou em versões anteriores (Etapa 6-12)
 
 ## Etapas de configuração para a máquina do Mac (JAVA 11/8)
 
@@ -141,7 +140,7 @@ A importação manual dos módulos de nó baixados para o sistema operacional Li
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i) encontrar . -type d -exec chmod 0755 {} \; ii) localizar . -type f -exec chmod 0755 {} \; iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install — unsafe-perm — scripts-prepend-node-path
+   i) encontrar . -tipo d -exec chmod 0755 {} \; ii) localizar . -tipo f -exec chmod 0755 {} \; iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install — unsafe-perm — scripts-prepend-node-path
 
 8. Verifique se o Java está instalado usando o comando abaixo
 
@@ -164,8 +163,22 @@ Abaixo estão os erros comuns que podem ocorrer durante a Geração de PDF quand
 
 ![exceção de ponteiro nulo](../assets/publishing/null-pointer-exception.png)
 
+Se o problema persistir mesmo após a correção das configurações do ambiente Java, revalide o seguinte:
+
+1. Verifique se a predefinição de saída está definida corretamente ou crie uma nova predefinição de saída sem espaços.
+
+2. Verifique o diretório de recursos do nó em /libs/fmdta/node_resources para garantir que todas as bibliotecas necessárias estejam instaladas durante a instalação.
+
 ### Bibliotecas ausentes no SO Linux RHEL 7
 
 ![bibliotecas ausentes](../assets/publishing/missing-libraries.png)
+
+### Tempo limite do processo de publicação. O processo não foi concluído no tempo especificado de 0 ms
+
+![tempo limite do processo de publicação](../assets/publishing/publish-process-timeout.png)
+
+Valide o valor da propriedade timeout do nó nodejs em /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs no repositório CRX. O valor padrão é 300.
+
+
 
 Caso encontre problemas ao executar qualquer uma das etapas acima, poste sua pergunta na Comunidade dos Guias AEM [fórum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para obter assistência.
