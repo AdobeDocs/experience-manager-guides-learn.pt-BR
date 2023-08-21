@@ -2,9 +2,9 @@
 user-guide-title: Tutorials do AEM Guides
 user-guide-description: Leia nossa coleção de tutoriais do Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials do AEM Guides
-source-git-commit: 33c4a7b452049ab130f7bcdf9e8a90ecead32170
+source-git-commit: 49b1876f2e9ac653ced74bddb03a585c5154b8b6
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1444'
 ht-degree: 6%
 
 ---
@@ -158,6 +158,7 @@ ht-degree: 6%
          + [Configurar caracteres especiais adicionais](./web-editor/configure-additional-special-characters.md)
       + [Gerenciar tarefas de publicação usando o Painel de publicação](./user-guide/generate-output-publish-dashboard.md)
       + [Solução básica de problemas](./user-guide/generate-output-basic-troubleshooting.md)
+      + [Publicar em um fragmento de conteúdo](./user-guide/publish-content-fragment.md)
       + Ativação em massa de conteúdo {#bulk-activation}
          + [Ativação em massa de conteúdo publicado](./user-guide/conf-bulk-activation.md)
          + [Criar uma coleção de mapas de ativação em massa](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -255,6 +256,7 @@ ht-degree: 6%
                + [Usar JavaScript para trabalhar com conteúdo ou estilo](./native-pdf/use-javascript-content-style.md)
                + [Usar estilos personalizados em notas de rodapé](./native-pdf/footnote-number-style.md)
             + [Configurar sinalizadores JVM para publicação de PDF nativo](./native-pdf/configure-jvm-flags.md)
+         + [Criar um mapeamento entre um tópico e um fragmento de conteúdo](./install-guide/conf-content-fragment-mapping.md)
       + Trabalhar com fluxos de trabalho personalizados {#custom-workflow}
          + [Configurar e personalizar workflows](./install-guide/customize-workflows.md)
       + Trabalhar com configurações de tradução {#translate-config}

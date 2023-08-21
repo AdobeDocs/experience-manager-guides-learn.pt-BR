@@ -1,9 +1,9 @@
 ---
 title: Inserir um trecho de conteúdo da sua fonte de dados
 description: Saiba como inserir um trecho de conteúdo da sua fonte de dados
-source-git-commit: 0f1c9d545dfc6dc53742c6f8d89cd48d33de2681
+source-git-commit: af5ec027ea093a28ba2a2ffd0ca3895546ed6e76
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
@@ -32,14 +32,18 @@ Selecione uma fonte de dados para exibir os geradores de trechos de conteúdo e 
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
 
+*Lista de fontes de dados conectadas.*
 
 ### Exibição lado a lado   ![](images/data-sources-tile-view-icon.svg)
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
 
+*Exibir as fontes de dados conectadas como mosaicos.*
+
 Você pode usar os dados das fontes de dados de duas maneiras:
 - Inserir um trecho de conteúdo
 - Criar um tópico
+
 
 
 ## Inserir um trecho de conteúdo da sua fonte de dados
@@ -53,6 +57,7 @@ Execute as seguintes etapas para criar um trecho de conteúdo usando o gerador d
 1. Selecione uma fonte de dados para exibir os geradores de trecho de conteúdo disponíveis para a fonte de dados selecionada.
 
    ![](images/code-snippet-generator.png){width="300" align="left"}
+   *O painel Fontes de dados lista os geradores de snippet de conteúdo disponíveis.*
 
 1. Selecionar **Adicionar** para adicionar um novo gerador de trecho de conteúdo. A variável **Adicionar gerador de trecho de conteúdo** é aberto.
 
@@ -75,6 +80,8 @@ Por exemplo:
 
    1. A exibição fonte mostra os dados na exibição fonte DITA.
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
+      *Adicione um gerador de snippet de conteúdo. Exibir os dados no modo de origem ou de visualização.*
+
 1. Para salvar os resultados da consulta, digite o nome do gerador e clique em **ADICIONAR**.   Um novo gerador de trecho de conteúdo é adicionado à lista.
 
    >[!NOTE]
@@ -102,6 +109,7 @@ Você também pode usar a variável **Inserir trecho da consulta** ![](images/da
 
 ![](images/insert-content-snippet.png){width="800" align="left"}
 
+*Editar e inserir um trecho de dados.*
 
 ## Criar um tópico usando o gerador de tópicos
 
@@ -118,6 +126,9 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 1. Selecione uma fonte de dados para exibir os geradores de trechos de conteúdo e os geradores de tópicos disponíveis para a fonte de dados selecionada.
 
    ![](images/data-sources.png){width="300" align="left"}
+
+   *Adicione um gerador de tópico para uma origem de dados conectada.*
+
 1. Selecionar **Adicionar** ![](images/Add_icon.svg) e selecione **Gerador de tópico** na lista suspensa para adicionar um novo gerador de tópico. A variável **Adicionar gerador de tópico** é aberto.
 
 
@@ -128,13 +139,14 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
    ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
 
+   *Adicione a Consulta de dados, o modelo de mapeamento de dados e os detalhes do nó Raiz do gerador de tópicos e dê a ele um nome exclusivo no painel Buscar configuração.*
 
    1. Insira a consulta no **Consulta de dados** texto.
    1. Selecione o modelo que mapeia com sua fonte de dados na **Modelo de mapeamento de dados** lista suspensa.
 
-   >[!NOTE]
-   >
-   > Se o administrador tiver configurado modelos personalizados, esses modelos também serão exibidos na lista suspensa (com base nas configurações de caminho do modelo feitas pelo administrador). Por exemplo, você pode criar um modelo de tópico contendo uma lista ordenada, tabelas, parágrafos ou outros elementos DITA.
+      >[!NOTE]
+      >
+      > Se o administrador tiver configurado modelos personalizados, esses modelos também serão exibidos na lista suspensa (com base nas configurações de caminho do modelo feitas pelo administrador). Por exemplo, você pode criar um modelo de tópico contendo uma lista ordenada, tabelas, parágrafos ou outros elementos DITA.
 
    1. Insira o **Nó raiz**. Esse é o nó no qual você deseja acessar seus dados. O gerador de tópicos cria cada tópico no nível definido no nó raiz. Por exemplo, você pode adicionar ‘problemas’ como o nó raiz no Jira. Portanto, se um query retornar 13 problemas, você terá 13 tópicos, um tópico para cada problema.
 
@@ -148,6 +160,8 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
    **Configurações de saída**
 
    ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+
+   *Insira os detalhes do Caminho de saída e da Convenção de nomenclatura do tópico no painel Configuração de saída. Gere um mapa DITA e nomeie-o.*
 
    1. Insira o **Caminho de saída** detalhes em que você deseja salvar seus tópicos.
    1. No **Convenção de nomenclatura de tópico**, você pode inserir um valor ou uma variável com tags do velocity. Os novos tópicos seguirão a convenção. Por exemplo, você pode inserir a variável `$key` para criar tópicos com base em chaves Jira.
@@ -166,7 +180,7 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
    ![](images/topic-generator-metadata.png){width="300" align="left"}
 
-
+   *Adicione as propriedades dos metadados no painel Metadados para passar para os tópicos.*
 
 1. Insira o nome do gerador e clique em **Salvar** para salvar os resultados da consulta. Um novo gerador de tópico é adicionado à lista.
 
@@ -175,6 +189,8 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
 
    ![](images/edit-topic-generator.png){width="650" align="left"}
+
+   *Gerar novos tópicos a partir de um gerador de tópicos existente.*
 
    >[!NOTE]
    >
@@ -192,6 +208,8 @@ Clique com o botão direito do mouse em um gerador de tópico para abrir o **Op�
   >Se o tópico já existir, você poderá substituir os dados nele contidos ou salvá-lo como uma nova versão.
 
   ![](images/generate-topic-options.png)
+
+  *Gere um tópico e, se o arquivo já existir, salve-o como uma nova versão ou substitua-o.*
 
 - **Editar**: Use essa opção para alterar e salvar o gerador de tópicos.
 - **Excluir**: Use essa opção para excluir o gerador de tópicos selecionado.

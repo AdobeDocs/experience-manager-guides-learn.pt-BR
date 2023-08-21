@@ -2,9 +2,9 @@
 title: Recurso de publicação de PDF nativo | Componentes de um modelo de PDF
 description: Saiba mais sobre os vários componentes de um modelo de PDF e como personalizá-los e configurá-los.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 08c1f1a8df5fdbaa0d8f27d2752028d0ee2ed538
+source-git-commit: 18ec7e1b19cd6404b86f965be96caa88a0a067fe
 workflow-type: tm+mt
-source-wordcount: '3672'
+source-wordcount: '3934'
 ht-degree: 0%
 
 ---
@@ -107,25 +107,36 @@ Para criar uma folha de estilos, siga as etapas abaixo:
 
 ### Criar um novo estilo {#create-style}
 
-Por padrão, os arquivos CSS contêm estilos para cabeçalho, parágrafo, caractere, hiperlink, imagem, tabela, div, página e outros estilos. É possível substituir o formato de estilo padrão ou criar um novo estilo.
+Por padrão, os arquivos CSS fornecidos com o modelo contêm estilos para cabeçalho, parágrafo, caractere, hiperlink, imagem, tabela, div, página e outros estilos. É possível substituir o formato de estilo padrão ou criar um novo estilo.
 
-Normalmente, você criará um novo estilo quando quiser associar um estilo personalizado a qualquer elemento DITA. Para que esses estilos personalizados funcionem, você deve garantir que esteja associando o nome de classe do estilo ao atributo outputclass do elemento DITA.
+
+Você pode criar um novo estilo para usá-lo no layout de página do modelo ou aplicar um estilo personalizado a qualquer elemento DITA. Para aplicar esses estilos personalizados ao elemento DITA, verifique se o nome da classe do estilo é igual ao nome do elemento DITA ou à variável `outputclass` atributo.  Por exemplo, `<div>` no DITA é regido pelo `.div {}` no CSS ou em seu `outputclass` atributo. Se você aplicar `<div outputclass="my-div">` no DITA, é regido pelo `.div {}` ou `.my-div {}` no CSS.
+
 
 
 Para criar um novo estilo, siga as etapas abaixo:
-1. Clique com o botão direito em qualquer estilo e escolha Novo estilo no menu de contexto.
+1. Expanda a barra lateral esquerda e clique duas vezes no template no qual deseja criar o estilo.
+1. Expanda a **Folhas de estilos** seção. Ele abre o **Estilos** painel que contém todas as opções de estilo.
+1. Selecione o ícone + para adicionar um novo estilo.
 
-   Isso abre a caixa de diálogo Adicionar estilo.
+   **Adicionar estilo** é aberta.
 
-   <img src="assets/add-style.png" alt="Adicionar novo estilo" width="300"/>
-1. No **Tag** escolha uma tag para a qual deseja criar um novo estilo.
-1. Especificar um **Classe** nome.
 
-   Esse nome de classe deve ser associado ao atributo outputclass da tag no conteúdo de origem.
-1. Selecione um **Pseudo-classe** para aprimorar o estilo do elemento.
+   <img src="assets/add-style.png" alt="Adicionar novo estilo" width="500"/>
+
+1. Especificar um **Classe** nome. Para aplicar um estilo ao elemento DITA, verifique se o nome da classe do estilo é igual ao nome do elemento DITA ou à variável `outputclass` atributo.
+1. No **Tag** (opcional), escolha uma tag para a qual deseja criar um novo estilo.
+
+
+1. Selecione um **Pseudo classe** para estilizar um elemento. Uma pseudoclasse ajuda a definir um estado especial do elemento. Por exemplo, use a pseudoclasse para estilizar um elemento ao passar o mouse sobre ele ou ao focalizar sobre ele. Também é possível selecionar várias pseudoclasses. Por exemplo, você pode usar pseudoclasse `a::visited {color: blue;}` para criar um estilo para os links visitados.
+
+1. Adicione o seletor para o novo estilo. A variável **Seletor** ajuda a adicionar seletores personalizados além da combinação Classe, Tag e Pseudo Classe. Por exemplo, você pode criar `table a.link` estilo para todos os hiperlinks dentro de uma tabela.
+
+   Para obter mais informações sobre tags CSS, consulte [Consulte Gramática de estilo CSS](https://www.w3.org/TR/CSS21/syndata.html#characters).
+
 1. Clique em **Concluído**.
 
-   Um novo estilo é criado e adicionado sob o estilo base.
+   Um novo estilo é criado e adicionado à lista de estilos.
 
 ### Personalizar um estilo predefinido ou novo {#customize-style}
 
@@ -143,17 +154,26 @@ Para personalizar um estilo, siga as etapas abaixo:
 
    Essa ação abre a folha de estilos para edição e exibe a lista de estilos no painel Estilos.
 
-   <img src="assets/customize-style.png" alt="Personalizar estilo" width="450">
+   <img src="assets/customize-style.png" alt="Personalizar estilo" width="800">
 
-1. Para personalizar um estilo, clique duas vezes em um estilo ou clique no ícone > antes de um estilo para exibi-lo e personalizá-lo usando o editor de Estilos.
+1. Para personalizar um estilo, selecione-o e personalize-o usando o editor de Estilos.
 
-Para obter detalhes sobre como trabalhar com os estilos mais comuns, consulte [Trabalhar com os estilos de conteúdo comuns](stylesheet.md).
+
+### Propriedades de estilos
+
+No painel central, você pode editar as propriedades, mas pode ser difícil obter um instantâneo do que todos os valores estão presentes.  A variável **Propriedades** fornece uma visualização rápida de todos os atributos e valores do estilo.
+
+No painel central, você pode editar as propriedades comumente usadas, mas não todas as propriedades compatíveis com o CSS. No **Propriedades** você pode editar todas as propriedades compatíveis com o CSS e visualizá-las. Você não precisa alternar para a exibição de origem para editar propriedades.
+
+
+Saiba mais sobre como usar o editor de estilos para [Trabalhar com os estilos de conteúdo comuns](stylesheet.md).
 
 ## Trabalhar com recursos {#work-with-resources}
 
 Este é um contêiner de todos os ativos usados para criar um modelo. Pense nisso como uma pasta, que contém ativos como imagens de fundo, fontes personalizadas, logotipos e muito mais. Sempre que você adiciona um ativo no modelo, ele é carregado ou registrado na pasta de ativos. Em seguida, você pode usar esses ativos para personalizar ou projetar seus modelos de PDF.
 
 Para adicionar um arquivo de ativo à pasta Recursos, siga as etapas abaixo:
+
 1. Passe o mouse sobre a guia Resources folder, clique em (Options icon) ... e escolha Import.
 
    Isso abre a caixa de diálogo Fazer upload de ativos.
