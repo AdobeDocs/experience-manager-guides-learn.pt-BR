@@ -2,10 +2,10 @@
 title: Criar mapas com base em modelos personalizados
 description: Saiba como Criar mapas com base em modelos personalizados
 exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: ca96cafa214d2dd03a9933024a195ec4995ee4dc
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 0%
+source-wordcount: '1084'
+ht-degree: 1%
 
 ---
 
@@ -26,6 +26,14 @@ O Guia AEM permite criar mapas e tópicos personalizados a partir da pasta dita-
 >[!NOTE]
 >
 > Quaisquer recursos que só devem ser referenciados e mantidos em devem ser mantidos fora da pasta de templates.
+
+
+Você pode criar modelos de mapa e tópico das seguintes maneiras:
+1. Painel Modelos da [Painel esquerdo](./web-editor-features.md#left-panel-id2051ea0m0hs)
+1. [Modelos na interface do usuário do Assets](#templates-assets-ui)
+1. [Menu Opções](#templates-in-assets-ui)
+
+### Modelos na interface do usuário do Assets {#templates-assets-ui}
 
 **Modelo de tópico**
 
@@ -66,6 +74,35 @@ Execute as seguintes etapas para criar um modelo de mapa:
    > O nome do arquivo deve ter a extensão .ditamap.
 
 1. (Opcional\) Adicione uma descrição.Clique **Criar**. A mensagem de criação do modelo de mapa é exibida. Em seguida, é possível abrir o modelo de mapa e editá-lo. É possível adicionar as referências para os modelos de tópico, modelos de mapa e também outros ativos no modelo de mapa.
+
+### Menu Opções {#options-menu}
+
+Para criar um mapa ou modelo de tópico, execute as seguintes etapas:
+
+1. Selecione o **Mapa** ou **Tópico** pasta na pasta de modelos atual. Por exemplo, pasta `dita-templates`.
+1. No **Opções** selecione **Criar modelo de mapa** ou **Criar Modelo de Tópico**.
+
+   A variável **Criar novo modelo de mapa** ou o **Criar Novo Modelo de Tópico** será aberta.
+1. Insira o título e o nome do novo template.
+1. Escolha o tipo de modelo que deseja criar na **Modelo** lista suspensa.
+
+A mensagem de criação do modelo de mapa é exibida. Você pode adicionar o modelo ao seu perfil global ou de nível de pasta. O novo modelo aparece no tópico ou no processo de criação de mapa e você pode criar mapas ou tópicos usando-o.
+
+
+O administrador também pode criar uma pasta e configurá-la para ser a pasta na qual você pode criar e salvar os modelos.
+
+Com base em sua configuração, saiba como configurar o caminho de pasta do modelo DITA personalizado:
+<details>
+    <summary> Cloud Services </summary>
+
+Saiba como [configurar o caminho da pasta de modelo DITA personalizado](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) no Guia de instalação e configuração do Cloud Service.
+</details>
+
+<details>
+    <summary> Software local</summary>
+
+Saiba como [configurar o caminho da pasta de modelo DITA personalizado](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) no Guia de instalação e configuração no local.
+</details>
 
 ## Transmita o título definido nos modelos
 
@@ -111,6 +148,9 @@ Exemplo
 </title>
 ```
 
+
+
+
 ## Usar o modelo de mapa para criar novos mapas
 
 >[!NOTE]
@@ -138,12 +178,12 @@ O mapa gera todos os ativos que são referenciados dentro da pasta de modelo. Al
 - Se o mapa contiver a referência a um modelo de mapa, uma cópia dele será criada dentro da pasta, na mesma hierarquia que na pasta de mapas na `dita-templates` pasta.
 - Se o mapa contiver a referência genérica a um tópico ou mapa fora do `dita-templates/topics` ou `dita-templates/maps` pasta, o mesmo só é mencionado e nenhuma cópia é criada.
 
-   >[!NOTE]
-   >
-   > `dita-templates/topics` e `dita-templates/maps` são os caminhos padrão em Guias e são configuráveis.
+  >[!NOTE]
+  >
+  > `dita-templates/topics` e `dita-templates/maps` são os caminhos padrão em Guias e são configuráveis.
 
 
-   Se houver uma definição de chave de modelo de tópico no modelo de mapa, uma nova chave \(portanto, novo tópico\) será criada e referenciada no mapa.
+  Se houver uma definição de chave de modelo de tópico no modelo de mapa, uma nova chave \(portanto, novo tópico\) será criada e referenciada no mapa.
 
 - Se outro mapa ou tópico for criado no mesmo nível na pasta, os nomes dos ativos recém-criados serão anexados com 0,1,2 e assim por diante. Você pode optar por abrir o mapa para edição ou salvar o arquivo de mapa no repositório.
 
