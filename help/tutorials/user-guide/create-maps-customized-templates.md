@@ -2,7 +2,7 @@
 title: Criar mapas com base em modelos personalizados
 description: Saiba como Criar mapas com base em modelos personalizados
 exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: ca96cafa214d2dd03a9933024a195ec4995ee4dc
+source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Execute as seguintes etapas para criar um modelo de mapa:
 
 1. No **Interface do usuário do Assets**, navegue até a pasta dita-templates.
 1. Clique em **mapas** para abri-la.
-1. Clique em **Criar \> modelo DITA.**
+1. Clique em **Criar** > **Modelo DITA.**
 
    ![](images/create-dita-template.png){width="300" align="left"}
 

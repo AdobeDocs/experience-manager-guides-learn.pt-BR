@@ -2,7 +2,7 @@
 title: Usar coleção de mapas para geração de saída
 description: Saiba como usar a coleção de mapas para geração de saída
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 2e39580aa8417641d8b2ac7eab4ba4805cb68f0f
+source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Para criar uma Coleção de mapas e adicionar mapas DITA à coleção, execute a
 
    ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
-1. Insira um Título para sua coleção de mapas.
+1. Insira um título para a coleção de mapas.
 1. Clique em **Criar**.
 
    Uma mensagem de Sucesso é exibida ao criar a coleção de mapas.
