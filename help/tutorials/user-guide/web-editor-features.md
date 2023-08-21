@@ -2,9 +2,9 @@
 title: Conhecer os recursos do Editor da Web
 description: Saiba como conhecer os recursos do Editor da Web
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: d6e7046e8885191270620d634bda0a5284f76fa2
 workflow-type: tm+mt
-source-wordcount: '15745'
+source-wordcount: '15744'
 ht-degree: 0%
 
 ---
@@ -805,7 +805,7 @@ Você verá diferentes opções no menu Opções dependendo se você seleciona u
 
 As várias opções no menu Opções são explicadas abaixo:
 
-- **Editar**: abra o arquivo para edição. No caso de um arquivo .ditamap/.bookmap, ele é aberto na [Editor de mapa avançado](map-editor-advanced-map-editor.md#) para edição.
+- **Editar**: abra o arquivo para edição. No caso de um arquivo .ditamap/.bookmap, ele é aberto em [Editor de mapa avançado](map-editor-advanced-map-editor.md#) para edição.
 
 - **Duplicar**: use essa opção para criar uma duplicata ou uma cópia do arquivo selecionado. Você também tem a opção de renomear o arquivo duplicado no prompt Duplicar ativo. Por padrão, o arquivo é criado com um sufixo \(como nomedoarquivo\_1.extensão\). O título do arquivo permanece o mesmo do arquivo de origem, e o novo arquivo começa com a versão 1.0. Todas as referências, tags e metadados são copiados, enquanto as linhas de base não são copiadas no arquivo duplicado.
 - **Check-out**: obtenha um bloqueio no arquivo selecionado para edição. Para um arquivo bloqueado, essa opção muda para **Check-in**.
