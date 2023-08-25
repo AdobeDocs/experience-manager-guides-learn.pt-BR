@@ -2,9 +2,9 @@
 title: Trabalhar com linha de base
 description: Saiba como trabalhar com a linha de base
 exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8e2e2c60f223b3967fad10372abee3192016c4ef
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1936'
 ht-degree: 0%
 
 ---
@@ -43,40 +43,20 @@ Execute as seguintes etapas para criar uma linha de base:
 
 1. Na página Linhas de Base, clique em **Criar**.
 1. Insira um nome para a Linha de base em **Nome da Linha de Base**.
+   ![criar uma linha de base](images/create-baseline.png){width="800" align="left"}
 1. Entrada **Definir a versão com base em**, selecione uma das seguintes opções:
 
    - **Rótulo**: selecione essa opção para escolher os tópicos de acordo com o rótulo aplicado a eles. Insira um rótulo para filtrar a lista com base na sequência de caracteres inserida. Na lista filtrada, é possível escolher um rótulo para selecionar tópicos e outros ativos com o rótulo especificado.
+
    Ao selecionar **Rótulo**, você também receberá uma opção adicional para usar a versão mais recente dos tópicos que não têm o rótulo especificado aplicado. Se você não selecionar essa opção e houver qualquer tópico ou arquivo de mídia sem o rótulo especificado, o processo de criação da linha de base falhará. Para obter mais informações sobre como adicionar rótulos, consulte [Usar rótulos](web-editor-use-label.md#).
 
    - **Versão ativada** &lt;*carimbo de data/hora*\>: Seleciona a versão dos tópicos como na data e hora especificadas. Observe que a hora especificada aqui corresponde ao fuso horário do seu servidor AEM. Se o servidor estiver em um fuso horário diferente, os tópicos serão abordados de acordo com o fuso horário do servidor e não do fuso horário local.
 
    Depois de selecionar um rótulo ou uma versão como na data, todos os tópicos e arquivos de mídia referenciados no mapa são selecionados adequadamente. Essa seleção de tópicos não é exibida na interface do usuário, mas é salva no back-end.
 
-1. Se quiser usar uma versão diferente para um ou mais tópicos, selecione manualmente esses tópicos. Clique em **Procurar tópico**, selecione o tópico para o qual deseja usar uma versão diferente. Na lista suspensa Selecionar uma Versão para o tópico selecionado, selecione uma versão do tópico que deseja usar na linha de base e clique em **OK**.
-
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
-
-   As informações sobre o tópico e sua versão selecionada são armazenadas no back-end. Você pode repetir essa etapa para alterar a versão selecionada de vários tópicos.
-
-1. Clique em **Procurar todos os tópicos** link para carregar todos os tópicos e arquivos de mídia referenciados do mapa DITA. A UUID de tópicos e arquivos de mídia também é mostrada abaixo do título do tópico ou do nome do arquivo \(mídia\).
-
    >[!NOTE]
    >
-   > Se você tiver um conjunto muito grande de arquivos no mapa DITA, com mapas e tópicos aninhados, clicar em Procurar todos os tópicos pode levar algum tempo para carregar todos os arquivos.
-
-   O conteúdo do mapa é apresentado nas três seções: o arquivo de mapa, Conteúdo \(referências de tópico\) e Conteúdo referenciado \(tópicos, mapas e outros ativos aninhados\). Depois que todo o conteúdo referenciado estiver disponível, você poderá selecionar individualmente a versão do tópico que deseja usar na linha de base.
-
-   A variável **Versão** lista suspensa mostra as versões disponíveis dos tópicos ou do conteúdo referenciado. Para o conteúdo referenciado, você tem a opção de escolher uma versão automaticamente.
-
-   Se você escolher **Escolher Automaticamente** para o conteúdo referenciado, o sistema escolhe automaticamente a versão do conteúdo referenciado correspondente à versão do conteúdo no qual ele é referenciado. Por exemplo, digamos que um tópico A tenha uma referência a uma imagem B. Quando a versão 1.5 do tópico A foi criada, a versão da imagem B era a 1.2 no repositório. Agora, quando uma linha de base é criada com a versão 1.5 do tópico A com a imagem B definida como **Escolher Automaticamente**, o sistema escolherá automaticamente a versão 1.2 da imagem B.
-
-   Se você criar uma linha de base usando os rótulos, **Escolher Automaticamente** é aplicado à versão de todo o conteúdo referenciado.
-
-   Se o conteúdo ou os ativos referenciados \(tópico, submapas, imagens ou vídeos\) não tiverem versão \(como conteúdo recém-carregado\), a criação de uma linha de base criará uma versão para esses arquivos. No entanto, se a versão dos arquivos for atribuída, nenhuma versão incremental será criada para esses arquivos. Esse comportamento é controlado pela configuração de criação automática de versão, que é ativada por padrão. Isso também é necessário para traduzir conteúdo no qual o processo de tradução espera que todos os arquivos tenham uma versão.
-
-   >[!NOTE]
-   >
-   > Se quiser especificar uma versão diferente para qualquer recurso específico, escolha a versão desejada na caixa suspensa **Versão** lista suspensa.
+   >É recomendável não usar o **Procurar todos os tópicos** ao criar uma linha de base.
 
 1. Clique em **Salvar**.
 
@@ -108,6 +88,31 @@ Execute as seguintes etapas para editar uma linha de base existente:
 
 1. Selecione a Linha de base e clique em **Editar**.
 1. Faça as alterações necessárias na linha de base. É possível alterar o nome e a versão do tópico ou conteúdo referenciado.
+1. Se quiser usar uma versão diferente para um ou mais tópicos, selecione manualmente esses tópicos. Clique em **Procurar tópico**, selecione o tópico para o qual deseja usar uma versão diferente. Na lista suspensa Selecionar uma Versão para o tópico selecionado, selecione uma versão do tópico que deseja usar na linha de base e clique em **OK**.
+
+   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+
+   As informações sobre o tópico e sua versão selecionada são armazenadas no back-end. Você pode repetir essa etapa para alterar a versão selecionada de vários tópicos.
+
+1. Para carregar todos os tópicos e arquivos de mídia referenciados do mapa DITA, clique no link **Procurar todos os tópicos** link. A UUID de tópicos e arquivos de mídia também é mostrada abaixo do título do tópico ou do nome do arquivo \(mídia\).
+
+   >[!NOTE]
+   >
+   > Se você tiver um conjunto muito grande de arquivos no mapa DITA, com mapas e tópicos aninhados, clicar em Procurar todos os tópicos pode levar algum tempo para carregar todos os arquivos.
+
+   O conteúdo do mapa é apresentado nas três seções: o arquivo de mapa, Conteúdo \(referências de tópico\) e Conteúdo referenciado \(tópicos, mapas e outros ativos aninhados\). Depois que todo o conteúdo referenciado estiver disponível, você poderá selecionar individualmente a versão do tópico que deseja usar na linha de base.
+
+   A variável **Versão** lista suspensa mostra as versões disponíveis dos tópicos ou do conteúdo referenciado. Para o conteúdo referenciado, você tem a opção de escolher uma versão automaticamente.
+
+   Se você escolher **Escolher Automaticamente** para o conteúdo referenciado, o sistema escolhe automaticamente a versão do conteúdo referenciado correspondente à versão do conteúdo no qual ele é referenciado. Por exemplo, digamos que um tópico A tenha uma referência a uma imagem B. Quando a versão 1.5 do tópico A foi criada, a versão da imagem B era a 1.2 no repositório. Agora, quando uma linha de base é criada com a versão 1.5 do tópico A com a imagem B definida como **Escolher Automaticamente**, o sistema escolherá automaticamente a versão 1.2 da imagem B.
+
+   Se você criar uma linha de base usando os rótulos, **Escolher Automaticamente** é aplicado à versão de todo o conteúdo referenciado.
+
+   Se o conteúdo ou os ativos referenciados \(tópico, submapas, imagens ou vídeos\) não tiverem versão \(como conteúdo recém-carregado\), a criação de uma linha de base criará uma versão para esses arquivos. No entanto, se a versão dos arquivos for atribuída, nenhuma versão incremental será criada para esses arquivos. Esse comportamento é controlado pela configuração de criação automática de versão, que é ativada por padrão. Isso também é necessário para traduzir conteúdo no qual o processo de tradução espera que todos os arquivos tenham uma versão.
+
+   >[!NOTE]
+   >
+   > Se quiser especificar uma versão diferente para qualquer recurso específico, escolha a versão desejada na caixa suspensa **Versão** lista suspensa.
 1. Clique em **Salvar**.
 
 **Linhas de Base Duplicadas**
@@ -143,7 +148,7 @@ Execute as seguintes etapas para adicionar um rótulo a vários tópicos e conte
    - Clique em **Adicionar**.
 O rótulo especificado é adicionado ao mapa DITA e aos tópicos e conteúdo referenciados.
 
-      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
 ## Exportar Linha de Base traduzida {#id196SE600GHS}
