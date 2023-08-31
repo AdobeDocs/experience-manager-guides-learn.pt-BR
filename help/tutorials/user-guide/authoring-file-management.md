@@ -2,9 +2,9 @@
 title: Gerenciar arquivos e pastas
 description: Saiba como gerenciar arquivos e pastas
 exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: d0b3ccb87901c54b86aa7d0dba14dc7201c072e9
+source-git-commit: 8154cfe11f2f032d457671ebca60c1ab3f090385
 workflow-type: tm+mt
-source-wordcount: '3079'
+source-wordcount: '3082'
 ht-degree: 0%
 
 ---
@@ -129,13 +129,13 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    <details>
 
-   <summary> Sistema de arquivos no local baseado em UUID </summary>
+   <summary> Cloud Service e sistema de arquivos baseado em UUID no local </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
    >[!TIP]
    >
-   > Selecionar <img src="images/info-icon.svg" width="25">   próximo a qualquer campo para exibir mais detalhes sobre ele.
+   > Selecione <img src="images/info-icon.svg" width="25">   próximo a qualquer campo para exibir mais detalhes sobre ele.
 
 
    - **Adicionar sufixo a pastas duplicadas**: caso esteja movendo pastas com o mesmo nome, você deve selecionar essa opção. Por exemplo, na captura de tela anterior, a variável **Caminho de origem** contém o nome das pastas a serem movidas. A pasta chamada topic existe em dois locais diferentes — test-A e test-B. Ao selecionar essa opção, as pastas serão movidas com êxito. A primeira pasta movida será chamada de topic, enquanto a segunda pasta será chamada topic0. A operação de movimentação adiciona um sufixo em séries sequenciais \(0, 1, 2 e assim por diante\) às pastas com o mesmo nome.
@@ -176,7 +176,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    >[!TIP]
    >
-   > Selecionar <img src="images/info-icon.svg" width="25">   próximo a qualquer campo para exibir mais detalhes sobre ele.
+   > Selecione <img src="images/info-icon.svg" width="25">   próximo a qualquer campo para exibir mais detalhes sobre ele.
 
    - **Tamanho do lote**: especifique o número de arquivos a serem movidos em um único lote. Os valores padrão são 50 arquivos.
    - **Intervalo de suspensão**: especifique o tempo em segundos que o processo aguardará antes de iniciar o próximo lote. Durante esse intervalo de suspensão, o sistema corrige as referências de e para os arquivos movidos. O intervalo de suspensão padrão é de 60 segundos.

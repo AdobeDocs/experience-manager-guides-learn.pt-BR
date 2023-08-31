@@ -1,9 +1,9 @@
 ---
 title: Publicar um tópico em um fragmento de conteúdo
 description: Saiba como publicar um tópico em um fragmento de conteúdo.
-source-git-commit: 6cd7d2ec76f90a192dbcd0ef552789d42c23a4fb
+source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,22 @@ Por exemplo, adicione `/conf/we-retail` na configuração da nuvem. Essa configu
    * **Modelo**: selecione o modelo de fragmento de conteúdo que deseja usar para criar o fragmento de conteúdo. Os modelos são selecionados na pasta que você configurou nos serviços em nuvem.
    * **Mapeamento**: selecione um mapeamento no menu suspenso. Ele escolhe os mapeamentos do *contentFragmentMapping.json* arquivo.
 
-     >[!NOTE]
-     >
-     >O administrador pode adicionar os mapeamentos no *contentFragmentMapping.json* arquivo.  Saiba como [criar um mapeamento entre um tópico e um fragmento de conteúdo](../install-guide/conf-content-fragment-mapping.md) in *Guia de instalação e configuração no local*.
 
 
+     Com base na sua configuração, o administrador pode adicionar os mapeamentos no *contentFragmentMapping.json* arquivo.
+
+     <details>
+        <summary>Cloud Services</summary>
+
+     Saiba como [criar um mapeamento entre um tópico e um fragmento de conteúdo](../cs-install-guide/conf-content-fragment-mapping-cs.md) no Guia de instalação e configuração do Cloud Service.
+     </details>
+
+     <details>
+        <summary> Software local</summary>
+
+     Saiba como [criar um mapeamento entre um tópico e um fragmento de conteúdo](../install-guide/conf-content-fragment-mapping.md) no Guia de instalação e configuração no local.
+
+     </details>
    * Selecione o **Substituir** se o fragmento de conteúdo já existir e você desejar substituí-lo. O Guias do AEM exibe um erro se você não marcar a caixa de seleção e o fragmento de conteúdo já existir.
 1. Clique em **Criar** para publicar o fragmento de conteúdo.
 1. Você pode visualizar os fragmentos de conteúdo de um tópico sob o **Fragmentos** na seção **Propriedades do arquivo**.

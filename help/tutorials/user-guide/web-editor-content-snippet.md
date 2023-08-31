@@ -1,9 +1,9 @@
 ---
 title: Inserir um trecho de conteúdo da sua fonte de dados
 description: Saiba como inserir um trecho de conteúdo da sua fonte de dados
-source-git-commit: af5ec027ea093a28ba2a2ffd0ca3895546ed6e76
+source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,22 @@ A **fonte de dados** O é um sistema no qual você armazena e gerencia os dados 
 
 ## Painel Fontes de dados
 
-Selecionar **Fontes de dados** ![](images/data-source-icon.svg) no painel esquerdo para exibir as fontes de dados conectadas. O painel Fontes de dados é aberto e exibe todas as fontes de dados conectadas. Para obter mais detalhes, consulte [Configurar um conector de fonte de dados](../install-guide/conf-data-source-connector.md).
+Selecionar **Fontes de dados** ![](images/data-source-icon.svg) no painel esquerdo para exibir as fontes de dados conectadas. O painel Fontes de dados é aberto e exibe todas as fontes de dados conectadas.
+
+Com base na sua configuração, o administrador pode configurar um conector de fonte de dados:
+
+<details>
+<summary> Cloud Services </summary>
+
+Saiba como [configurar um conector de fonte de dados](../cs-install-guide/conf-data-source-connector.md) no Guia de instalação e configuração do Cloud Service.
+</details>
+
+<details>    
+<summary>  Software local </summary>
+
+Saiba como [configurar um conector de fonte de dados](../install-guide/conf-data-source-connector.md)  no Guia de instalação e configuração no local.
+</details>
+
 
 >[!NOTE]
 >

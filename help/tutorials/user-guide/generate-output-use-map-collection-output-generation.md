@@ -2,9 +2,9 @@
 title: Usar coleção de mapas para geração de saída
 description: Saiba como usar a coleção de mapas para geração de saída
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: be1a61d9475185da594b382c1daf361d3fe60b08
+source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Para criar uma Coleção de mapas e adicionar mapas DITA à coleção, execute a
 
    ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
-1. Insira um título para a coleção de mapas.
+1. Insira um Título para sua coleção de mapas.
 1. Clique em **Criar**.
 
    Uma mensagem de Sucesso é exibida ao criar a coleção de mapas.
@@ -79,7 +79,13 @@ Para configurar e gerar a saída usando uma Coleção de mapas, execute as segui
      >  
      > Por padrão, qualquer nova predefinição é desativada.
 
-   - É possível selecionar **Ativar/desativar todas as predefinições de perfil de pasta** para um mapa DITA para selecionar todos os perfis de pasta para ele de uma só vez.
+1. Você pode ativar as predefinições de um mapa DITA das seguintes maneiras:
+
+   - Ativar qualquer predefinição individual.
+   - Ativar **Todas as predefinições** para que um mapa DITA selecione todas as predefinições de uma só vez. Essa opção está desativada por padrão.
+   - Ativar **Predefinições de perfil de pasta** para que um mapa DITA selecione todas as predefinições de perfil de pasta para ele. Essa opção está desativada por padrão.
+     ![editar uma coleção de mapas nos serviços em nuvem](images/edit-map-collection-cs.png){width="800" align="left"}
+
 
 
 1. Siga uma das seguintes opções:

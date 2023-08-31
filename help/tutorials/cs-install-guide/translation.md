@@ -1,7 +1,7 @@
 ---
 title: Traduzir conteúdo
 description: Saiba como traduzir conteúdo
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 15%
@@ -48,7 +48,7 @@ Para ocultar a guia Tradução no painel de mapa DITA, execute as seguintes etap
 
    | PID | Chave de propriedade | Valor da propriedade |
    |---|------------|--------------|
-   | `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.translation` | Booleano\\ ( true/ false\).<br> **Valor padrão**: `true` |
+   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | Booleano\\ ( true/ false\).<br> **Valor padrão**: `true` |
 
    >[!NOTE]
    >

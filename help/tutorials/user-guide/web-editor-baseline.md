@@ -2,9 +2,9 @@
 title: Criar e gerenciar linhas de base no Editor da Web
 description: Saiba como criar e gerenciar linhas de base no Editor da Web
 exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 906b1db461d343568b43195113dbc37ef5f88341
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1327'
 ht-degree: 0%
 
 ---
@@ -36,17 +36,21 @@ Você pode criar uma linha de base no Editor da Web executando as seguintes etap
 
 
       1. **Data** &lt;time stamp=&quot;&quot;>: Seleciona a versão do tópico como na data e hora especificadas.
-      1. **Rótulo**: selecione essa opção para escolher os tópicos de acordo com o rótulo aplicado a eles. Se os tópicos tiverem rótulos especificados para eles, eles serão listados na lista suspensa. Você pode escolher um rótulo na lista. Também é possível adicionar um rótulo na caixa de texto.\
+      1. **Rótulo**: selecione essa opção para escolher os tópicos de acordo com o rótulo aplicado a eles. Se os tópicos tiverem rótulos especificados para eles, eles serão listados na lista suspensa. Você pode escolher um rótulo na lista. Também é possível adicionar um rótulo na caixa de texto.
+
+         Para as referências diretas em linhas de base estáticas, os rótulos são extraídos da versão salva mais recente do mapa. Por exemplo, se você tiver criado rótulos `Label Release 1.0` e `Label Release 1.1` para as versões 1.0 e 1.1 do Tópico A e, em seguida, adicione o Tópico A ao mapa salvo como versão 1.0. Nesse caso, é possível visualizar os rótulos `Label Release 1.0` e `Label Release 1.1` no menu suspenso para rótulos de linha de base estáticos.
+
+
          Ao selecionar **Label,** você pode escolher as referências diretas e indiretas.
-      - Para referências diretas no mapa DITA, você tem a opção de usar a versão mais recente de tópicos que não têm o rótulo especificado aplicado a eles.
+         - Para referências diretas no mapa DITA, você tem a opção de usar a versão mais recente de tópicos que não têm o rótulo especificado aplicado a eles.
 
-      >[!NOTE]
-      >
-      > Se você inserir um rótulo que não existe e selecionar a opção **Não criar uma linha de base** em seguida, a criação da linha de base falha e fornece uma mensagem de erro próxima ao nome da linha de base no painel Linha de base.
+           >[!NOTE]
+           >
+           > Se você inserir um rótulo que não existe e selecionar a opção **Não criar uma linha de base** em seguida, a criação da linha de base falha e fornece uma mensagem de erro próxima ao nome da linha de base no painel Linha de base.
 
-      - Para referências indiretas no mapa DITA, você tem uma opção adicional para usar a versão mais recente de tópicos que não têm o rótulo especificado aplicado. Você também pode optar por **Escolher Automaticamente** para o conteúdo referenciado, e o sistema escolhe automaticamente a versão do conteúdo referenciado correspondente à versão do conteúdo no qual ele é referenciado.
+         - Para referências indiretas no mapa DITA, você tem uma opção adicional para usar a versão mais recente de tópicos que não têm o rótulo especificado aplicado. Você também pode optar por **Escolher Automaticamente** para o conteúdo referenciado, e o sistema escolhe automaticamente a versão do conteúdo referenciado correspondente à versão do conteúdo no qual ele é referenciado.
 
-   Depois de selecionar um rótulo ou uma versão como na data, todos os tópicos e arquivos de mídia referenciados no mapa são selecionados adequadamente. Essa seleção de tópicos não é exibida na interface do usuário, mas é salva no back-end.
+         Depois de selecionar um rótulo ou uma versão como na data, todos os tópicos e arquivos de mídia referenciados no mapa são selecionados adequadamente. Essa seleção de tópicos não é exibida na interface do usuário, mas é salva no back-end.
 
    **Usar rótulos**: selecione essa opção para que a criação da linha de base escolha os tópicos de acordo com o rótulo aplicado a eles.
 
@@ -55,6 +59,9 @@ Você pode criar uma linha de base no Editor da Web executando as seguintes etap
    ![](images/dynamic-baseline.png){width="550" align="left"}
 
    - **Selecionar rótulos**: Se os tópicos tiverem rótulos especificados para eles, os rótulos serão listados na **Selecionar rótulos** lista suspensa. Você pode escolher o rótulo\(s\) na lista. Os rótulos selecionados primeiro recebem prioridade mais alta sobre os posteriores.
+
+     Para linhas de base dinâmicas, os rótulos são extraídos da versão salva mais recente e da cópia de trabalho atual do mapa. Por exemplo, se você tiver criado rótulos   `Label Release A.1.0 ` e `Label Release A.1.1` para as versões 1.0 e 1.1 do Tópico A e rótulos `Label Release B.1.0` e `Label Release B.1.1` para as versões 1.0 e 1.1 do Tópico B. Em seguida, você pode adicionar o Tópico A ao Mapa A na versão 1.0 e o Tópico B ao Mapa A no 1.0* (cópia de trabalho). Nesse caso, você pode exibir  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`, e `Label Release B.1.1` na lista suspensa de rótulos de linha de base dinâmicos.
+
 1. **Referências indiretas**: para referências indiretas no mapa DITA, você recebe as seguintes opções:
 
    - **Escolher automaticamente**: você pode optar por **Escolher Automaticamente** para o conteúdo referenciado, e o sistema escolhe automaticamente a versão do conteúdo referenciado correspondente à versão do conteúdo no qual ele é referenciado.
@@ -81,9 +88,9 @@ Você também pode executar as seguintes operações na linha de base a partir d
 - **Editar**, **Duplicar,** ou **Excluir** uma linha de base existente.
 - Adicionar, remover ou fazer alterações em rótulos existentes do **Gerenciar rótulos** opção. Se o administrador tiver configurado rótulos predefinidos, esses rótulos serão exibidos na lista suspensa Adicionar rótulo. Para obter mais informações sobre como adicionar rótulos, consulte [Usar rótulos](web-editor-use-label.md#).
 
-   >[!NOTE]
-   >
-   > O processo para adicionar ou remover rótulos ocorre de forma assíncrona, para que você possa continuar trabalhando em outros arquivos no Editor da Web. Depois que o rótulo é adicionado ou removido, uma mensagem pop-up é exibida confirmando que o rótulo foi adicionado ou removido, e você também recebe uma notificação da Caixa de entrada para o mesmo.
+  >[!NOTE]
+  >
+  > O processo para adicionar ou remover rótulos ocorre de forma assíncrona, para que você possa continuar trabalhando em outros arquivos no Editor da Web. Depois que o rótulo é adicionado ou removido, uma mensagem pop-up é exibida confirmando que o rótulo foi adicionado ou removido, e você também recebe uma notificação da Caixa de entrada para o mesmo.
 
 - **Editar propriedades** de uma linha de base existente que você definiu ao criar a linha de base.
 - Exporte o instantâneo de uma linha de base em um arquivo CSV com o **Exportar Linha de Base** opção.

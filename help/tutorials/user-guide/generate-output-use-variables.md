@@ -2,9 +2,9 @@
 title: Use variáveis para definir as opções Caminho de destino, Nome do site ou Nome do arquivo
 description: Saiba como usar variáveis para definir as opções Caminho de destino, Nome do site ou Nome do arquivo
 exl-id: e8d5b7c7-4f80-4ab6-9ad1-308bf0d4cf74
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: cf45be23a6369de1e510b7e8ee9cd1a2b61721e3
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ A tabela a seguir lista as variáveis compatíveis prontas para uso:
 | `${language_code}` | Usa o código do idioma em que o arquivo de mapa está localizado para criar o caminho de destino. | **Nome do arquivo de mapa DITA**:<br>`SampleDita.ditamap`<br><br>**Caminho do arquivo de mapa DITA**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**Caminho de destino** configurado como:<br>`/content/output/sites/${language_code}`<br><br>**Local de saída final**:<br>`/content/output/sites/en/SampleDita.html` |
 | `${map_parentpath}` | Usa o caminho completo do arquivo de mapa para criar o caminho de destino.<br><br>**Nota**: essa variável não pode ser usada para especificar o Nome do site AEM ou o Nome do arquivo PDF. | **Nome do arquivo de mapa DITA**:<br>`SampleDita.ditamap`<br><br>**Caminho do arquivo de mapa DITA**:<br>`/content/dam/projects/AEM-Guides/en/user-guide`/<br><br>**Caminho de destino** configurado como:<br>`/content/output/sites/${map_parentpath}`<br><br>**Local de saída final**:<br>`/content/output/sites/content/dam/projects/AEM-Guides/en/user-guide/SampleDita.html` |
 | `${path_after_langfolder}` | Usa o caminho do arquivo de mapa após a pasta de idioma para criar o caminho de destino.<br><br>**Nota**: essa variável não pode ser usada para especificar o Nome do site AEM ou o Nome do arquivo PDF. | **Nome do arquivo de mapa DITA**:<br>`SampleDita.ditamap`<br><br>**Caminho do arquivo de mapa DITA**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**Caminho de destino** configurado como:<br>`/content/output/sites/${path\_after\_langfolder}`<br><br>**Local de saída final**:<br>`/content/output/sites/user-guide/SampleDita.html` |
+| `${system_date}` | Usa a data atual do servidor para criar o caminho de destino. | **Nome do arquivo de mapa DITA**: <br> `SampleDita.ditamap` <br><br> **Caminho do arquivo de mapa DITA:** <br> `/content/dam/projects/AEM-Guides/en/user-guide/` <br><br> **Caminho de destino** configurado como: <br> `/content/output/sites/${system_date}` <br> <br> **Local de saída final:** <br> /`content/output/sites/08252023/SampleDita.html` |
+| `${system_time}` | Usa a hora atual do servidor para criar o caminho de destino. | **Nome do arquivo de mapa DITA:** <br>`SampleDita.ditamap` <br> <br> **Caminho do arquivo de mapa DITA:** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**Caminho de destino** configurado como: <br> `/content/output/sites/${system_time}`<br><br>**Local de saída final:**<br>`/content/output/sites/055612/SampleDita.html` |
 
 Além disso, também é possível usar os metadados definidos para o mapa DITA ou arquivo de mapa como variáveis. Os metadados podem ser encontrados no `/jcr:content/metadata` nó do mapa DITA ou arquivo de mapa. Por exemplo, uma das propriedades de metadados define na variável `/jcr:content/metadata` o nó é `dc:title`. Você pode especificar `${dc:title}` e o valor title é usado na saída final.
 **Tópico pai:**[ Geração de saída](generate-output.md)

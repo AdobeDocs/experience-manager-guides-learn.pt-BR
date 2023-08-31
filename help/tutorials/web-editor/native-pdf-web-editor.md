@@ -2,9 +2,9 @@
 title: PDF nativo | Geração de saída de PDF
 description: Gerar saída de PDF nos Guias do Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: c11a9d2153dd2971a133ecd40325266b1d6e236c
+source-git-commit: 70801ab0e9465cea7568c7d8e67fcc7f41bae8ab
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '3083'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Use as opções a seguir para especificar configurações avançadas para mescla
 | **Usar compactação total para otimizar o tamanho do PDF** | Selecione esta opção se desejar compactar/reduzir o tamanho de um PDF grande. Lembre-se de que compactar o PDF pode reduzir a qualidade do arquivo. |
 | **Usar compactação de imagem para otimizar o tamanho do PDF** | Selecione esta opção se você deseja compactar/reduzir o tamanho das imagens usadas em seu PDF. Lembre-se de que compactar uma imagem pode reduzir sua qualidade. |
 | **Usar resolução personalizada (pixels por polegada)** | É a resolução de exibição da página em pixels por polegada. Insira um valor preferencial no campo que aparece quando esta opção é selecionada. O valor padrão é de 96 pixels por polegada. Defina um valor maior para ajustar mais conteúdo em uma polegada e vice-versa, se você definir um valor menor. |
-| **Mostrar marca d&#39;água** | Selecione esta opção para renderizar as equações MathML presentes no seu conteúdo. Caso contrário, as equações serão ignoradas. |
+| **Mostrar marca d&#39;água** | Selecione essa opção para sobrepor uma marca d&#39;água na saída. Você pode inserir uma nova cadeia de caracteres de texto na caixa de texto com o caractere no formato desejado. |
 | **Habilitar equações MathML** | Selecione esta opção para renderizar as equações MathML presentes no seu conteúdo. As equações serão ignoradas caso contrário, por padrão. |
 | **Conformidade de PDF** | É o padrão para o qual você pretende salvar o PDF para garantir sua conformidade. Selecione na lista suspensa para escolher os padrões de PDF disponíveis. Para obter mais detalhes sobre os padrões suportados, consulte [Sobre os padrões PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Baixar arquivos temporários** | Selecione esta opção se você deseja fazer download dos arquivos de HTML provisórios criados durante a geração da saída de PDF nativo. Posteriormente, você pode baixar os arquivos temporários depois de gerar a saída. |

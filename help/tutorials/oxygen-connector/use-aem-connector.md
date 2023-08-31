@@ -4,9 +4,9 @@ description: Saiba como usar o Oxygen Plugin para Adobe Experience Manager Guide
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: a77f93ddc14b6beb440eaa314eebe53fd00265d7
+source-git-commit: 7fbc6d22fd2f93b7b5bf3233f7ebdd0cb020dda2
 workflow-type: tm+mt
-source-wordcount: '5952'
+source-wordcount: '6038'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Depois de baixar e instalar o plug-in, é necessário configurar o seguinte para
 
 - **Configurações de autenticação da Web**: configurações para autenticação SSO no plug-in para guias AEM.
 - **Configurações gerais**: configurações de conexão para o plug-in, como URL do servidor AEM, detalhes de logon e assim por diante.
-- **Preferência para a personalização do atributo de criação de perfil**: essa configuração é necessária para os esquemas de atributo de criação de perfil dos conjuntos de documentação.
+- **Preferência para a criação de perfil da personalização de atributos e nomes de arquivos em referências cruzadas**: essa configuração é necessária para os esquemas de atributo de criação de perfil dos conjuntos de documentação.
 
 ### Configurações de autenticação da Web
 
@@ -236,11 +236,11 @@ Execute as seguintes etapas para definir as configurações de conexão no Plug-
    - **Arquivo de check-out automático quando aberto**: Se selecionada, clicar duas vezes em um arquivo automaticamente faz o check-out dele e o abre para edição. Caso o arquivo já esteja com check-out, ele será simplesmente aberto para edição. Se essa opção não estiver selecionada, abrir um arquivo no qual você não tem um bloqueio o abrirá no modo somente leitura.
 1. Clique em **OK**.
 
-### Preferência para a personalização do atributo de criação de perfil {#id1827K0D0OHT}
+### Preferência para a criação de perfil da personalização de atributos e nomes de arquivo em referências cruzadas {#id1827K0D0OHT}
 
-Você precisa configurar as preferências no Oxygen XML Author para usar o atributo de criação de perfil associado aos tópicos DITA no repositório do AEM.
+Você precisa configurar as preferências no Oxygen XML Author para usar o atributo de criação de perfil associado aos tópicos DITA no repositório do AEM. Você também precisa configurar a preferência para exibir nomes de arquivo no lugar de GUIDs nas referências cruzadas.
 
-Execute as seguintes etapas para configurar os atributos de criação de perfil:
+Execute as seguintes etapas para configurar os atributos de criação de perfil e as referências cruzadas:
 
 1. No Autor XML do Oxygen, clique em **Opções** \> **Preferências**.
 1. No **Associação de Tipo de Documento** selecione **DITA** e clique em **Estender**.
@@ -257,6 +257,11 @@ Execute as seguintes etapas para configurar os atributos de criação de perfil:
 A captura de tela a seguir mostra o configurado **Extensão** para tópicos DITA:
 
      ![Extensão configurada para tópicos DITA](images/dita-topic-extension-tab.png){width="650" align="left"}
+
+   - Clique em **Escolher** ao lado da **Pacote de extensões** e selecione LinkResolverExtensionBundle - com.adobe.o2.framework.extn no **Classe** lista. Clique em **OK**.
+
+     ![Extensão configurada para tópicos DITA](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+
 
 1. Clique em **OK** em todas as caixas de diálogo para salvar as alterações.
 
@@ -496,6 +501,7 @@ Os seguintes pontos devem ser considerados ao mover ou copiar o conteúdo do seu
 
 - Ao fazer check-out do conteúdo do repositório AEM e fazer alterações no sistema local, verifique se o nome do arquivo não foi alterado no momento do upload do arquivo.
 
+- Quando você insere uma referência no Gerenciador de mapas DITA, ela exibe o título do arquivo e não a UUID. Se o título não estiver presente, ele exibirá o nome do arquivo.
 
 ### Adicionar ou remover Favoritos {#id195HC04405P}
 

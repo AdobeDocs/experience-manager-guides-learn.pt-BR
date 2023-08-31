@@ -2,9 +2,9 @@
 title: Traduzir documentos do Editor da Web
 description: Saiba como traduzir documentos no Editor da Web
 exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 7df3024578ad289d9c6e0ab8b93f9fc6b9ff0bfe
+source-git-commit: 15ba984275155489d7ac3878d4b1307a6cd076c6
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1885'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,9 @@ Antes de executar etapas neste procedimento, verifique se você criou a raiz de 
    **Usar a versão mais recente como em**: opte por filtrar a versão dos tópicos com base na data e hora de criação. Quando você seleciona uma data e hora, somente a versão mais recente dos arquivos criados na data e hora selecionadas ou antes dela é exibida.
 
 1. Clique em **Aplicar**. Uma lista com detalhes de tópicos e ativos associados é exibida.
-1. Selecione os tópicos que deseja enviar para tradução.
+1. Selecione os tópicos que deseja enviar para tradução. Você também pode usar as opções de filtragem de tópico para as seguintes colunas:
 
-   Você também pode usar as seguintes opções de filtragem de tópico:
-
-   - **Título**: Título do arquivo de origem
+   - **Título**: Título do arquivo de origem.  Passe o mouse sobre o título do arquivo de origem para exibir o título do arquivo de destino ou traduzido.
    - **Nome do arquivo**: Nome do arquivo de origem
    - **Tipo de arquivo**: Tipo do arquivo de origem. As opções disponíveis são Mapa, Tópico e Imagem.
    - **Tipo de referência**: referências diretas ou indiretas
@@ -111,7 +109,7 @@ O Guia AEM permite que os administradores configurem as regras de tradução. O 
 
 Os arquivos SRX devem ser nomeados como `<language-code>.srx`. Por exemplo, en-US ou ar-AE.
 
->[Nota]
+>[Observação]
 >O título não diferencia maiúsculas de minúsculas, portanto, você pode ter &quot;en-US&quot;, &quot;en-us&quot; ou &quot;EN-us&quot;. Além disso, os guias de AEM podem resolver &#39;-&#39; (hífen) ou &#39;_&#39; (sublinhado). Então, você pode ter &quot;en-US&quot; ou &quot;en_US&quot;.
 
 Além disso, você pode colocar esses arquivos dentro de qualquer pasta na raiz de ativos AEM `./content/dam`.

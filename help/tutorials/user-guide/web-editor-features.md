@@ -2,9 +2,9 @@
 title: Conhecer os recursos do Editor da Web
 description: Saiba como conhecer os recursos do Editor da Web
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 0a01752122d012cff9fb583ae527842714e8f154
+source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
 workflow-type: tm+mt
-source-wordcount: '15461'
+source-wordcount: '15744'
 ht-degree: 0%
 
 ---
@@ -681,20 +681,25 @@ Para adicionar um arquivo à sua coleção favorita, use um dos seguintes métod
 
   ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
-- Clique com o botão direito do mouse na guia de um arquivo no editor para abrir o menu de contexto. Escolher **Adicionar a \> Favoritos** para adicionar o arquivo à lista de favoritos.
+- Clique com o botão direito do mouse na guia de um arquivo no editor para abrir o menu de contexto. Escolher **Adicionar a** > **Favoritos** para adicionar o arquivo à lista de favoritos.
 
   ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
+>[!NOTE]
+>
+> - Para remover um item da lista de favoritos, selecione o ícone Opções ao lado do item em uma coleção Favoritos e escolha **Remover dos Favoritos**.
+> - Para visualizar o arquivo sem abri-lo, selecione um arquivo e **Visualizar** no menu Opções.
 
-** Menu Opções para a coleção Favoritos**\
+
+
+**Menu Opções para a coleção Favoritos**\
 Também é possível executar muitas ações usando o menu Opções disponível para uma coleção Favoritos:
 
 ![](images/favorites-options.png){width="400" align="left"}
 - **Renomear**: renomeie a coleção selecionada.
-- **Excluir**: exclui o arquivo selecionado.
+- **Excluir**: exclui a coleção selecionada.
 - **Atualizar**: obtenha uma nova lista de arquivos e pastas do repositório.
 - **Exibir na interface do usuário do Assets**: mostrar o conteúdo do arquivo ou da pasta na interface do usuário do Assets.
-
 
 >[!NOTE]
 >
@@ -800,7 +805,7 @@ Você verá diferentes opções no menu Opções dependendo se você seleciona u
 
 As várias opções no menu Opções são explicadas abaixo:
 
-- **Editar**: abra o arquivo para edição. No caso de um arquivo .ditamap/.bookmap, ele é aberto em [Editor de mapa avançado](map-editor-advanced-map-editor.md#) para edição.
+- **Editar**: abra o arquivo para edição. No caso de um arquivo .ditamap/.bookmap, ele é aberto na [Editor de mapa avançado](map-editor-advanced-map-editor.md#) para edição.
 
 - **Duplicar**: use essa opção para criar uma duplicata ou uma cópia do arquivo selecionado. Você também tem a opção de renomear o arquivo duplicado no prompt Duplicar ativo. Por padrão, o arquivo é criado com um sufixo \(como nomedoarquivo\_1.extensão\). O título do arquivo permanece o mesmo do arquivo de origem, e o novo arquivo começa com a versão 1.0. Todas as referências, tags e metadados são copiados, enquanto as linhas de base não são copiadas no arquivo duplicado.
 - **Check-out**: obtenha um bloqueio no arquivo selecionado para edição. Para um arquivo bloqueado, essa opção muda para **Check-in**.
@@ -810,7 +815,7 @@ As várias opções no menu Opções são explicadas abaixo:
   > - Se um arquivo for bloqueado ou submetido a check-out por um usuário, passar o ponteiro do mouse sobre o ícone de bloqueio mostrará o usuário \(name\) que bloqueou o arquivo.
   > - Ao fazer check-in de um arquivo que tenha alterações não salvas, ele solicita que você salve as alterações. Se você não salvar as alterações, ele só fará o check-in do arquivo.
 
-- **Visualizar**: obtenha uma visualização rápida do arquivo (.dita/.xml\) sem abri-lo.
+- **Visualizar**: obtenha uma visualização rápida do arquivo (.dita, .xml, áudio, vídeo ou imagem) sem abri-lo. É possível redimensionar o painel de visualização. Se o conteúdo contiver qualquer `<xref>` ou `<conref>`, você pode selecioná-lo para abri-lo em uma nova guia. O título do arquivo aparece na janela. Se nenhum título estiver presente, o nome do arquivo será exibido. Para fechar o **Visualizar** você pode selecionar o ícone fechar ou clicar em qualquer lugar fora do painel.
 
   ![](images/quick-preview_cs.png){width="800" align="left"}
 
@@ -1011,7 +1016,7 @@ Você pode executar as seguintes ações usando o menu Opções:
   > - Se um arquivo for bloqueado ou submetido a check-out por um usuário, passar o ponteiro do mouse sobre o ícone de bloqueio mostrará o usuário \(name\) que bloqueou o arquivo.
   > - Ao fazer check-in de um arquivo, ele solicita que você salve as alterações. Se você não salvar as alterações, ele só fará o check-in do arquivo.
 
-- **Visualizar**: obtenha uma visualização rápida do arquivo \(.dita/.xml\) sem abri-lo.
+- **Visualizar**: obtenha uma visualização rápida do arquivo (.dita, .xml, áudio, vídeo ou imagem) sem abri-lo. É possível redimensionar o painel de visualização. Se o conteúdo contiver qualquer `<xref>` ou `<conref>`, você pode selecioná-lo para abri-lo em uma nova guia.  O título do arquivo aparece na janela. Se nenhum título estiver presente, o nome do arquivo será exibido. Para fechar o **Visualizar** você pode selecionar o ícone fechar ou clicar em qualquer lugar fora do painel.
 - **Copiar**: Você pode escolher entre as seguintes opções:
    - **Copiar UUID**: copie a UUID do arquivo selecionado para a Área de transferência.
    - **Copiar caminho**: copia o caminho completo do arquivo selecionado para a área de transferência.
@@ -1134,9 +1139,12 @@ Para inserir conteúdo do painel Conteúdo reutilizável, use um dos seguintes m
 
   >[!NOTE]
   >
-  > Observação: a variável **Visualizar** A opção também está disponível no menu de contexto, que fornece uma visualização rápida do elemento antes de inseri-lo.
+  > Selecione um arquivo e **Visualizar** do **Opções** para visualizar o arquivo sem abri-lo. Você também pode visualizar as referências presentes em um tópico. A ID de referência aparece na janela.
+  >
+  > A variável **Visualizar** também está disponível na **Opções** menu de um elemento, que fornece uma visualização rápida do elemento antes de inseri-lo.
 
 - Arraste e solte o item de conteúdo reutilizável do painel no local desejado no documento.
+
 
 
 **Glossário** -  ![](images/glossary.svg)
@@ -1272,86 +1280,138 @@ O exemplo a seguir mostra como usar o esquema do assunto nos Guias do AEM.
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
-   **Lidar com definições hierárquicas de definições e enumerações de assunto**
+**Lidar com definições hierárquicas de definições e enumerações de assunto**
 
-   Além de lidar com as enumerações e as definições de assunto presentes no mesmo mapa, o AEM Guides também fornece o recurso para definir enumerações e definições de assunto em dois mapas separados. Você pode definir a definição de assunto em um mapa e as definições de enumeração em outro mapa e, em seguida, adicionar a referência do mapa. Por exemplo, o código XML a seguir cria definições de assunto e definições de enumeração em dois mapas separados.
+Além de lidar com as enumerações e as definições de assunto presentes no mesmo mapa, o AEM Guides também fornece o recurso para definir enumerações e definições de assunto em dois mapas separados. É possível definir uma ou mais definições de assunto em um mapa e as definições de enumeração em outro mapa e, em seguida, adicionar a referência do mapa. Por exemplo, o código XML a seguir cria definições de assunto e definições de enumeração em dois mapas separados.
 
-   As definições de assunto são definidas em `subject_scheme_map_1.ditamap`
-
-
-   ```XML
-   <?xml version="1.0" encoding="UTF-8"?> 
-   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
-   <title>subject_scheme_map_1</title> 
-   <subjectdef keys="os" navtitle="Operating system"> 
-   <subjectdef keys="linux" navtitle="Linux"> 
-   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
-   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
-   </subjectdef> 
-   <subjectdef keys="windows" navtitle="Windows"/> 
-   <subjectdef keys="zos" navtitle="z/OS"/> 
-   </subjectdef> 
-   </subjectScheme>  
-   ```
-
-   A definição de enumeração está presente em subject_scheme_map_2.ditamap
-
-   ```XML
-   <?xml version="1.0" encoding="UTF-8"?> 
-   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
-   <title>subject_scheme_map_2</title> 
-   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
-   </mapref> 
-   <enumerationdef> 
-   <attributedef name="platform"> 
-   </attributedef> 
-   <subjectdef keyref="os"> 
-   </subjectdef> 
-   </enumerationdef> 
-   </subjectScheme>  
-   ```
-
-   Aqui, as definições de assunto são definidas em `subject_scheme_map_1.ditamap`  enquanto o def de enumeração estiver presente em `subject_scheme_map_2.ditamap`. A referência a `subject_scheme_map_1.ditamap` também é adicionado em `subject_scheme_map_2.ditamap`.
-
-   >[!NOTE]
-   >
-   > Como a variável `subject_scheme_map_1.ditamap` e `subject_scheme_map_2.ditamap` são referenciados entre si, portanto, os esquemas de assunto estão sendo resolvidos.
-
-   As referências de enumeração do assunto são resolvidas na seguinte ordem de prioridade:
-
-   1. Mesmo mapa
-   1. Mapa referenciado
+As definições de assunto são definidas em `subject_scheme_map_1.ditamap`
 
 
-   As referências não serão resolvidas se a enumeração não for encontrada no mesmo mapa e no mapa referenciado.
+```XML
+  <?xml version="1.0" encoding="UTF-8"?> 
+    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+    <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
 
-   **Menu suspenso Atributos**
+    <title>subject_scheme_map_1</title> 
+    
+    <subjectdef keys="os" navtitle="Operating system">
+        <subjectdef keys="linux" navtitle="Linux">
+        <subjectdef keys="redhat" navtitle="RedHat Linux">
+        </subjectdef>
+        <subjectdef keys="suse" navtitle="SuSE Linux">
+        </subjectdef>
+        </subjectdef>
+        <subjectdef keys="windows" navtitle="Windows">
+        </subjectdef>
+        <subjectdef keys="zos" navtitle="z/OS">
+        </subjectdef>
+        </subjectdef>
+        <subjectdef keys="deliveryTargetValues">
+        <subjectdef keys="print">
+        </subjectdef>
+        <subjectdef keys="online">
+        </subjectdef>
+    </subjectdef>
+    <subjectdef keys="mobile" navtitle="Mobile">
+        <subjectdef keys="android" navtitle="Android">
+        </subjectdef>
+        <subjectdef keys="ios" navtitle="iOS">
+    </subjectdef>
+    </subjectdef>
+    <subjectdef keys="cloud" navtitle="Cloud">
+        <subjectdef keys="aws" navtitle="Amazon Web Services">
+        </subjectdef>
+        <subjectdef keys="azure" navtitle="Microsoft Azure">
+        </subjectdef>
+        <subjectdef keys="gcp" navtitle="Google Cloud Platform">
+        </subjectdef>
+    </subjectdef>
+    </subjectScheme>
+```
 
-   Também é possível alterar o valor do esquema do assunto usando a lista suspensa Atributo, no painel Propriedades de conteúdo na exibição Autor. Para alterar o valor, selecione um valor na lista suspensa Atributo.
+A definição de enumeração está presente em subject_scheme_map_2.ditamap.
 
-   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+```XML
+    ?xml version="1.0" encoding="UTF-8"?> 
+        <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+        <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+        <title>subject_scheme_map_2</title> 
+        <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+        </mapref> 
+        <enumerationdef>
+        <attributedef name="platform">
+        </attributedef>
+        <subjectdef keyref="mobile">
+        </subjectdef>
+        <subjectdef keyref="cloud">
+        </subjectdef>
+        </enumerationdef>
+        </subjectScheme>
+```
 
-   Você também pode aplicar valores a um atributo selecionando vários valores na lista suspensa.
+Aqui, as definições de assunto são definidas em `subject_scheme_map_1.ditamap`  enquanto o def de enumeração estiver presente em `subject_scheme_map_2.ditamap`. A referência a `subject_scheme_map_1.ditamap` também é adicionado em `subject_scheme_map_2.ditamap`.
 
-   **Exibição de origem**
+>[!NOTE]
+>
+> Como a variável `subject_scheme_map_1.ditamap` e `subject_scheme_map_2.ditamap` são referenciados entre si, portanto, os esquemas de assunto estão sendo resolvidos.
 
-   Você também pode alterar os valores do menu suspenso do atributo na Exibição de origem. A Exibição de código-fonte também impede que você adicione qualquer valor incorreto.
+As referências de enumeração do assunto são resolvidas na seguinte ordem de prioridade:
 
-   ![](images/subject-scheme-code-error.png){width="550" align="left"}
+1. Mesmo mapa
+1. Mapa referenciado
 
-   **Exibir e aplicar o esquema de assunto do painel Condições**
 
-   Você também pode exibir e aplicar o esquema de assunto do painel Condições.
+As referências não serão resolvidas se a enumeração não for encontrada no mesmo mapa e no mapa referenciado.
 
-   Para exibir o esquema do assunto no painel Condições, o administrador do sistema deve selecionar a opção **Mostrar esquema do assunto no painel Condições** na guia Condição, em Configurações do editor. Para obter mais detalhes, consulte [Guia Condição](#id21BMNE0602V).
 
-   O painel Condições exibe a estrutura vertical plana das definições de assunto dentro do esquema de assunto.
 
-   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-   Você pode adicionar condições ao seu conteúdo arrastando e soltando a condição desejada no seu conteúdo. O conteúdo condicional é realçado usando a cor definida para a condição.
+**Restringir os valores a um elemento específico**
+
+Você também pode restringir as condições a alguns elementos dentro de um tópico. Use o `<elementdef>` para definir o elemento e a variável `<attributedef>` para definir a condição que pode ser aplicada ao elemento.  Se você não adicionar a variável `<elementdef>` você pode aplicar as condições a todos os elementos.
+Por exemplo, use a seguinte enumeração para restringir o `@platform` atributo para o `<shortdesc>` elemento.  As outras condições são visíveis para todos os elementos.
+
+```XML
+<enumerationdef>
+    <elementdef name="shortdesc">
+    </elementdef>
+    <attributedef name="platform">
+    </attributedef>
+    <subjectdef keyref="deliveryTargetValues">
+    </subjectdef>
+    <subjectdef keyref="os">
+    </subjectdef>
+  </enumerationdef>
+```
+
+</details>
+
+
+**Menu suspenso Atributos**
+
+Também é possível alterar o valor do esquema do assunto usando a lista suspensa Atributo, no painel Propriedades de conteúdo na exibição Autor. Para alterar o valor, selecione um valor na lista suspensa Atributo.
+
+![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+
+Você também pode aplicar valores a um atributo selecionando vários valores na lista suspensa.
+
+**Exibição de origem**
+
+Você também pode alterar os valores do menu suspenso do atributo na Exibição de origem. A Exibição de código-fonte também impede que você adicione qualquer valor incorreto.
+
+![](images/subject-scheme-code-error.png){width="550" align="left"}
+
+**Exibir e aplicar o esquema de assunto do painel Condições**
+
+Você também pode exibir e aplicar o esquema de assunto do painel Condições.
+
+Para exibir o esquema do assunto no painel Condições, o administrador do sistema deve selecionar a opção **Mostrar esquema do assunto no painel Condições** na guia Condição, em Configurações do editor. Para obter mais detalhes, consulte [Guia Condição](#id21BMNE0602V).
+
+O painel Condições exibe a estrutura vertical plana das definições de assunto dentro do esquema de assunto.
+
+![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+
+Você pode adicionar condições ao seu conteúdo arrastando e soltando a condição desejada no seu conteúdo. O conteúdo condicional é realçado usando a cor definida para a condição.
 
 **Trechos** -  ![](images/insert-snippet-icon.svg)
 
