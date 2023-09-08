@@ -2,9 +2,9 @@
 user-guide-title: Tutorials do AEM Guides
 user-guide-description: Leia nossa coleção de tutoriais do Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials do AEM Guides
-source-git-commit: ca40b77f58b57599353d91cd7ce3002670729322
+source-git-commit: 0a1e03989ff75146c88eb10569e57954bdedbee5
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1569'
 ht-degree: 6%
 
 ---
@@ -336,6 +336,22 @@ ht-degree: 6%
       + Trabalhar com pesquisa no AEM Assets {#aem-asset-search-cs}
          + [Configurar pesquisa para a interface do usuário do AEM Assets](./cs-install-guide/conf-dita-search.md)
       + [Apêndice](./cs-install-guide/appendix.md)
++ Referência da API {#api-reference}
+   + [Introdução](./api-reference/introduction.md)
+   + [REST APIs para gerenciamento de saída](./api-reference/output-management.md)
+   + [API REST para trabalhar com mapas DITA](./api-reference/dita-map-management.md)
+   + [API REST para registrar um conector de fonte de dados](./api-reference/data-source-connector.md)
+   + [API REST para trabalhar com atributos condicionais](./api-reference/conditional-attribute.md)
+   + [REST APIs para fluxo de trabalho de conversão](./api-reference/convert-to-dita.md)
+   + [API REST para criar e ativar pacotes](./api-reference/create-activate-package.md)
+   + [API baseada em Java para trabalhar com a geração de saída](./api-reference/generate-output.md)
+   + [APIs baseadas em Java para trabalhar com mapas DITA](./api-reference/dita-map-management-java.md)
+   + [APIs baseadas em Java para fluxo de trabalho de conversão](./api-reference/convert-to-dita-java.md)
+   + [APIs baseadas em Java para trabalhar com rótulos e linhas de base](./api-reference/create-baseline-label-java.md)
+   + [API baseada em Java para trabalhar com perfis de pastas](./api-reference/folder-profile-java.md)
+   + [API baseada em Java para criar e ativar pacotes](./api-reference/create-activate-package-java.md)
+   + [Manipulador de eventos de pós-processamento](./api-reference/post-process-event.md)
+   + [Manipulador de eventos do processo de conversão](./api-reference/conversion-complete-event.md)
 + Knowledge Base {#knowledge-base}
    + Sessão com especialista {#expert-session}
       + [Visão geral da sessão com especialistas](./knowledge-base/expert-sessions/expert-session.md)

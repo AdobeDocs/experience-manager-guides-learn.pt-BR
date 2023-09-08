@@ -2,9 +2,9 @@
 title: Recurso de publicação de PDF nativo | Componentes de um modelo de PDF
 description: Saiba mais sobre os vários componentes de um modelo de PDF e como personalizá-los e configurá-los.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 18ec7e1b19cd6404b86f965be96caa88a0a067fe
+source-git-commit: 90cd3c53fd8da0b987c99950dd37d405bea12c6e
 workflow-type: tm+mt
-source-wordcount: '3934'
+source-wordcount: '4160'
 ht-degree: 0%
 
 ---
@@ -226,7 +226,14 @@ Para aplicar a estrutura de índice e os níveis de cabeçalho de estilo, consul
   >
   >Se você for um desenvolvedor de CSS, também poderá definir o formato de líder diretamente no arquivo CSS.
 
-* **Usar marcador de continuação de tabela**: selecione essa opção para definir marcadores para tabelas longas espalhadas em várias páginas. <!--For more information on using table continuation markers, see Use table continuation markers.-->
+* **Usar marcador de continuação de tabela**: selecione essa opção para definir marcadores para tabelas longas espalhadas em várias páginas.
+Você pode definir o texto a ser exibido antes e depois da quebra. Por exemplo, uma tabela é quebrada na página 5 e você define `<Continued on page %page-num%>` para **Texto antes da quebra**.  O texto exibe &quot;Continuado na página 6&quot; na parte inferior da página 5.
+
+  Use variáveis de idioma para definir o texto do marcador de continuação antes e depois da interrupção. Dependendo do idioma escolhido, o valor localizado é escolhido automaticamente na saída do PDF. Por exemplo, você pode publicar `Continued on page %page-num%` como texto em inglês e `Fortsetzung auf Seite %page-num%` em alemão.
+
+  Focalizar <img src="./assets/info-details.svg" alt= "ícone de informações" width="25"> próximo à opção para ver mais detalhes sobre ele.
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Layouts de página {#page-layouts}
 
@@ -357,11 +364,11 @@ Configure as configurações de produção de impressão para atribuir marcas de
 
 ### Referências cruzadas {#cross-references}
 
-Use a guia Referência cruzada para definir como as referências cruzadas são publicadas no PDF. É possível formatar as referências cruzadas para título de tópico, tabelas, figuras e muito mais.
+Use o **Referência cruzada** para definir como as referências cruzadas são publicadas no PDF. É possível formatar as referências cruzadas para título de tópico, tabelas, figuras e muito mais.
 
 Você também pode usar variáveis para definir uma referência cruzada.  Quando você usa uma variável, seu valor é extraído das propriedades. Você pode usar uma única variável ou uma combinação de variáveis para definir uma referência cruzada. Também é possível usar uma combinação de uma string e uma variável.
 
-Por exemplo, você pode usar Exibir detalhes em {chapter}. Se o nome do capítulo for &quot;Configurações gerais&quot;, a referência cruzada na saída será &quot;Consulte detalhes em Configurações gerais&quot;.
+Por exemplo, você pode usar `View details on {chapter}`. Se o nome do capítulo for &quot;Configurações gerais&quot;, a referência cruzada na saída será &quot;Consulte detalhes em Configurações gerais&quot;.
 
 Os Guias do AEM fornecem as seguintes variáveis prontas para uso:
 
@@ -372,7 +379,7 @@ Os Guias do AEM fornecem as seguintes variáveis prontas para uso:
 * {bookmarkText}: cria uma referência cruzada para o texto marcado. Por exemplo, consulte stop_words na página 5.
 * {captionText}: cria uma referência cruzada para a legenda da figura ou tabela no tópico. Por exemplo, consulte Fluxo de ar na página 2.
 * {figure}: adiciona uma referência cruzada ao número da figura. Seleciona o número de figura a partir dos estilos de numeração automática que você definiu para a legenda digital.  Por exemplo, você pode usar &quot;Consulte {figure} na página {page}&quot;. A referência cruzada na saída contém o número de figura gerado automaticamente e seu número de página, &quot;Consulte a Figura 1 na página 5&quot;.
-* {table}: adiciona uma referência cruzada ao número da tabela. Seleciona o número da tabela a partir dos estilos de numeração automática definidos para a legenda. Por exemplo, você pode usar &quot;Consulte {table} na página {page}&quot;. A referência cruzada na saída contém o número da tabela gerado automaticamente e seu número de página, &quot;Consulte a Tabela 1 na página 5&quot;.
+* {table}: adiciona uma referência cruzada ao número da tabela. Seleciona o número da tabela a partir dos estilos de numeração automática definidos para a legenda. Por exemplo, você pode usar &quot;Consulte {table} na página {page}&quot;. A referência cruzada na saída contém o número de tabela gerado automaticamente e seu número de página, &quot;Consulte a Tabela 1 na página 5&quot;.
 
 
 
@@ -381,8 +388,25 @@ Os Guias do AEM fornecem as seguintes variáveis prontas para uso:
   >É possível criar estilos de numeração automática para tags de legenda e legenda.
 
 
+#### Variáveis de idioma em referências cruzadas
+
+Você também pode usar variáveis de idioma para definir referências cruzadas localizadas. Dependendo do idioma escolhido, o valor localizado é escolhido automaticamente na saída do PDF.
+
+Por exemplo, é possível adicionar uma variável de idioma &quot;reference-label&quot; e definir os valores em inglês e alemão.
+
+* Inglês - &quot;View on page&quot; {page}&quot;
+* Alemão - &quot;Einzelheiten finden Sie auf der Seite {page}&quot;
 
 
+Ao adicionar `${lng:<variable name>}` para a seção Parágrafo, as referências cruzadas nos parágrafos da saída contêm o texto localizado e o número da página.\
+Por exemplo, as capturas de tela a seguir mostram as referências cruzadas &quot;View on page 1&quot; em inglês e &quot;Einzelheiten finden Sie auf der Seite 1&quot; em alemão.
 
+<img src="./assets/english-output-corss-reference.png" alt="Inglês output of a cross-reference in a pragrah" width ="800">
+
+*Uma referência cruzada em um parágrafo quando publicada no idioma inglês.*
+
+<img src="./assets/german-output-corss-reference.png" alt="Saída alemã de uma referência cruzada em um pragrah" width ="800">
+
+*Uma referência cruzada dentro de um parágrafo quando publicado em alemão.*
 
 <!--For more information, see *Format cross-references*.-->
