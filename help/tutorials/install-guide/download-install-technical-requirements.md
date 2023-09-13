@@ -1,25 +1,25 @@
 ---
 title: Requisitos técnicos
 description: Conheça os requisitos técnicos para trabalhar com guias do AEM
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+exl-id: 980a2c8b-d1ea-4644-8452-4a3e4b304b51
+source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 3%
 
 ---
 
-
 # Requisitos técnicos {#id213BCG003XA}
 
-Antes de instalar o AEM Guides 4.0.2, verifique se o seu sistema atende aos seguintes requisitos técnicos:
+Antes de instalar o AEM Guides 4.3, verifique se o seu sistema atende aos seguintes requisitos técnicos:
 
 **Adobe Experience Manager**
 
-- Versão 6.5 Service Pack 12, 11, 10 ou 9
+- Versão 6.5 Service Pack 18, 17, 16, 15 ou 14
 
 >[!IMPORTANT]
 >
-> Para gerar saída do site AEM, a instância de publicação AEM deve ter o Service Pack 12, 11, 10 ou 9.
+> Para gerar saída do site AEM, a instância de publicação AEM deve ter o Service Pack 18, 17, 16, 15 ou 14.
 
 **Sistemas operacionais**
 
@@ -41,4 +41,3 @@ Antes de instalar o AEM Guides 4.0.2, verifique se o seu sistema atende aos segu
 
 
 **Tópico pai:**[ Baixar e instalar](download-install.md)
-
