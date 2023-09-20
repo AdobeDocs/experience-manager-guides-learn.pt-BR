@@ -1,9 +1,10 @@
 ---
 title: Publicação PDF nativa - Aprendizagem por exemplos (parte 1)
 description: Com o mecanismo de publicação PDF nativo, é possível controlar o layout de conteúdo do documento enquanto manipula as seções desejadas, conforme necessário, usando CSS, HTML e JavaScript de fácil atualização.
-source-git-commit: c004267eab4dfaea10565b535b875c716c162343
+exl-id: e6fcb2cb-4dfe-4aa7-8c84-f11759898c41
+source-git-commit: 63c2103c18b2a6da450247b1ee6b676a00d5a510
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
@@ -43,7 +44,7 @@ Nesta sessão, você aprendeu sobre o seguinte para publicação de PDF nativo:
 
 - **Visão geral funcional da publicação de PDF nativo** - [no Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Casos de uso comuns documentados** - [no Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **Casos de uso comuns documentados** - [no Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
 - **Fórum da comunidade** - Para interações da comunidade específicas por sessão no Experience League, visite  [Fórum de guias do AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
@@ -51,13 +52,12 @@ Nesta sessão, você aprendeu sobre o seguinte para publicação de PDF nativo:
 >
 > Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
 > - No local 4.2 ou posterior
-> - Cloud Services 2303 e posterior
-
+> - Cloud Service 2303 e posterior
 
 ## Próxima sessão com especialistas
 
-- **Tópico** - A SER DEFINIDO
-- **Agendado para** - 20 de julho de 2023
+- **Tópico** - Publicação de PDF nativo &quot;Hands on lab - BYOS&quot; - Aprendizado interativo
+- **Agendado para** - 07 de setembro de 2023
 
 ## Entre em contato
 
