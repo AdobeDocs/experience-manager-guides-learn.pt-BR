@@ -1,10 +1,10 @@
 ---
 title: Gerenciar tarefas de publicação usando o Painel de publicação
-description: Saiba como Gerenciar tarefas de publicação usando o Painel de publicação
+description: Gerencie tarefas de publicação usando o Painel de publicação nos Guias do AEM. Saber como acessar o painel de publicação e cancelar uma tarefa de publicação.
 exl-id: 5ede608d-f905-44b7-9147-ab678ad68ee7
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ O painel esquerdo no Painel de publicação fornece as seguintes opções de fil
 
 - **Predefinição de saída** - Selecione uma ou mais predefinições de saída para as quais deseja ver as tarefas de publicação ativas no momento. Na captura de tela a seguir, as tarefas de publicação são filtradas para mostrar somente as tarefas que usam a predefinição de saída do site AEM:
 
-   ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
 - **Iniciado por** - Selecione um nome de usuário na lista para mostrar as tarefas de publicação iniciadas pelo usuário selecionado.
 

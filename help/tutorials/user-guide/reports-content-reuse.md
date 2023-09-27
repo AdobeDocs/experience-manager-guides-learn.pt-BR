@@ -1,10 +1,10 @@
 ---
 title: Relatório de reutilização de conteúdo
-description: Saiba como usar o relatório de reutilização de conteúdo
+description: Saiba como visualizar o relatório de reutilização de conteúdo nos Guias do AEM. Gere o relatório para encontrar a porcentagem de reutilização de conteúdo.
 exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ Execute as seguintes etapas para exibir o Relatório de reutilização de conte�
 
    - **Resumo do relatório:**
 
-      Lista a Reutilização média de conteúdo, que é calculada como Instâncias de reutilização de conteúdo/Contagem total de tópicos. Este relatório considera todas as referências diretas de conteúdo de primeiro nível e referências de tópico para cálculo. As Instâncias de reutilização de conteúdo são calculadas como o total da soma dos valores no campo Número de vezes de reutilização. O tópico mais amplamente reutilizado também está listado no Resumo do relatório. Clicar no link do tópico no Tópico Mais Reutilizado abre a visualização do tópico.
+     Lista a Reutilização média de conteúdo, que é calculada como Instâncias de reutilização de conteúdo/Contagem total de tópicos. Este relatório considera todas as referências diretas de conteúdo de primeiro nível e referências de tópico para cálculo. As Instâncias de reutilização de conteúdo são calculadas como o total da soma dos valores no campo Número de vezes de reutilização. O tópico mais amplamente reutilizado também está listado no Resumo do relatório. Clicar no link do tópico no Tópico Mais Reutilizado abre a visualização do tópico.
 
    - **Detalhes:**
 
-      A seção Detalhes contém as seguintes colunas:
+     A seção Detalhes contém as seguintes colunas:
 
       - **Título**: O título do tópico. Clicar no link do título do tópico abre a visualização do tópico.
 

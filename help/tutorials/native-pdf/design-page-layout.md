@@ -2,9 +2,9 @@
 title: Recurso de publicação de PDF nativo | Criar um layout de página
 description: Saiba como projetar o layout da página para apresentar informações em diferentes seções da saída de PDF.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 6182455850fb14cc24ce6229f6e4cb2b547901b7
+source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
 workflow-type: tm+mt
-source-wordcount: '4712'
+source-wordcount: '4807'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ Considere os seguintes pontos ao criar os layouts de página:
 
 * Se quiser que os capítulos comecem a partir de uma página ímpar ou par, poderá optar por criar um layout de página para a página em branco. Esse layout de página é usado para preencher a lacuna entre dois capítulos para garantir que o capítulo comece a partir da página par ou ímpar desejada.
 
-   >[!NOTE]
-   >
-   >Se você não criar um layout de página em branco separado, o layout de página padrão será usado. Para criar um layout de página, consulte [Criar um novo layout de página](components-pdf-template.md#create-page-layout).
+  >[!NOTE]
+  >
+  >Se você não criar um layout de página em branco separado, o layout de página padrão será usado. Para criar um layout de página, consulte [Criar um novo layout de página](components-pdf-template.md#create-page-layout).
 
 O exemplo a seguir o guiará pelo processo de criação de variantes de um layout de página:
 
@@ -97,11 +97,14 @@ Ao projetar um layout de página, é essencial ter controle sobre várias propri
 
 * **Exibir rotação** : especifique o lado ou a direção em que o lado superior original é representado após a rotação. Você pode escolher entre 90 e 90 graus no sentido horário ou 180 graus no sentido anti-horário. Isso é muito útil em uma situação em que você deseja usar uma combinação de layouts Retrato e Paisagem na saída. Por exemplo, você pode usar retrato como o layout de página genérico e pode definir um layout de página paisagem para renderizar tabelas largas. Nessa situação, você pode definir a exibição do conteúdo da tabela no sentido horário em 90 graus. Dessa forma, a página será orientada em paisagem e o conteúdo será girado 90 graus para manter a continuidade da exibição. Veremos como isso é feito, como exemplo, posteriormente nesta seção.
 
-* **Reiniciar numeração a partir de** : especifique o número da página de onde a numeração deste layout de página será iniciada. Por exemplo, você pode definir o número de página a ser reiniciado para cada capítulo. Nesse caso, você precisa definir a propriedade Reiniciar numeração de como 1 na variante de layout da primeira página do layout da página do capítulo.
+* **Numeração de páginas** : A numeração de páginas, por padrão, é contínua em um PDF. Por exemplo, um PDF de 100 páginas pode ter números de página contínuos de 1 a 100. Você também pode reiniciar a numeração a partir de um número específico em todas as diferentes seções ou na primeira ocorrência de uma seção.
+   * **Reiniciar a partir de** : especifique o número da página de onde a numeração deste layout de página será iniciada. Por exemplo, você pode definir o número de página a ser reiniciado para cada capítulo. Nesse caso, você precisa definir a propriedade restart from como 1 na variante de layout First page do layout da página do capítulo. Por padrão, a numeração de páginas continua a partir da página anterior.
+
+   * **Aplicar somente à primeira ocorrência**: também é possível começar com um número específico somente para a primeira ocorrência de uma seção. Por exemplo, você pode iniciar somente o primeiro capítulo de 1 e continuar os números de página de outros capítulos.
 
 * **Layout** : especifique as margens da página junto com o preenchimento para os lados superior, inferior, esquerdo e direito. A ilustração a seguir explica como as margens, o preenchimento e as bordas são renderizados em torno do conteúdo. Observe que a margem na parte superior e inferior de uma página contém o cabeçalho e o rodapé.
 
-   <img src="./assets/margins-padding-illustration.png" width="300">
+  <img src="./assets/margins-padding-illustration.png" width="300">
 
 * **Histórico** : inclua uma imagem ou uma cor como o plano de fundo do layout da página. Para uma imagem, você pode especificar a altura e a largura da imagem junto com as propriedades de repetição e posição.
 
@@ -159,7 +162,6 @@ Execute as seguintes etapas para realizar as tarefas acima:
 1. Altere a propriedade Rotação de exibição para renderizar o conteúdo em 90° no sentido horário.
 
    1. Selecionar **90° no sentido horário** na lista suspensa Exibir Rotação.
-
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Clique em **Salvar tudo** para salvar as propriedades atualizadas do layout da página.
@@ -520,9 +522,9 @@ Para criar um layout de página com várias colunas, execute as seguintes etapas
 
    * **Largura da coluna:** Especifique a largura de uma coluna em um layout de várias colunas. Por padrão, o tamanho é definido em pixels (px). Também é possível especificá-lo em pt, rem, em, % ou em unidades.
 
-      >[!NOTE]
-      >
-      >Se você não especificar um tamanho, as colunas serão divididas uniformemente para caber na página especificada. Na maioria dos casos, não é necessário especificar esse valor.
+     >[!NOTE]
+     >
+     >Se você não especificar um tamanho, as colunas serão divididas uniformemente para caber na página especificada. Na maioria dos casos, não é necessário especificar esse valor.
 
    * **Lacuna da coluna** : especifique o espaço entre colunas individuais.
 
@@ -542,7 +544,6 @@ Para criar um layout de página com várias colunas, execute as seguintes etapas
 
    * **Regra de coluna** : se quiser ter uma linha entre colunas, use essa propriedade para definir os estilos de linha ou de regra. Especifique os valores para Estilo, Cor e Largura da regra para adicionar uma linha entre as colunas.
 
-
 ## Trabalhar com o painel Propriedades de conteúdo {#work-with-content-props}
 
 O painel Propriedades de conteúdo permite atualizar facilmente a aparência dos elementos no layout de página. As propriedades no painel Propriedades de conteúdo são divididas nas seguintes seções:
@@ -551,7 +552,7 @@ O painel Propriedades de conteúdo permite atualizar facilmente a aparência dos
 
 * **Borda** : contém propriedades para adicionar e formatar uma borda a um elemento no layout da página. Você pode definir Lado da borda (como tudo, superior, inferior, direita ou esquerda), Estilo da borda (como sólido, tracejado, linhas pontilhadas ou mais), Cor da borda, Largura e Raio para ter uma borda curva. No exemplo a seguir, uma borda curva foi adicionada à área de cabeçalho da página.
 
-   <img src="./assets/border-properties.png" width="500">
+  <img src="./assets/border-properties.png" width="500">
 
 * **Layout** : contém propriedades para configurar o layout de um elemento no layout da página. Você pode definir Altura, Largura, Margens e Preenchimento (para cima, baixo, esquerda ou direita), Alinhamento horizontal ou vertical, Flutuação (como Esquerda, Direita ou nenhum), Limpar (como esquerda, direita, ambos ou nenhum), Posição do elemento (como absoluto, fixo, relativo ou mais), Exibição (como bloco, conteúdo, correção ou mais), Índice Z, Transparência, Transformação (por rotação ou dimensionamento) e Transformar Origem (por deslocamento X e Y).
 

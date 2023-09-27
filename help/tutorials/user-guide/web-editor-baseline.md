@@ -1,10 +1,10 @@
 ---
 title: Criar e gerenciar linhas de base no Editor da Web
-description: Saiba como criar e gerenciar linhas de base no Editor da Web
+description: Criar e gerenciar linhas de base do editor da Web no AEM Guides. Saiba como criar linhas de base com base em rótulos e aplicar filtros às linhas de base.
 exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
-source-git-commit: 906b1db461d343568b43195113dbc37ef5f88341
+source-git-commit: 361c605bdf02fb3b8754c6596a70e86a00acb3db
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -78,21 +78,28 @@ Você pode gerenciar suas linhas de base existentes usando os vários recursos n
 
 - Você pode pesquisar uma linha de base existente usando a caixa de texto no painel Linha de base. Use o **Aplicar filtro** ícone para mostrar todas as linhas de base ou listar as linhas de base com o status de criação como Bem-sucedido, Em Andamento ou Falha.
 - Use o **Atualizar** ícone no painel Linha de Base para verificar novamente todas as linhas de base e exibir uma nova lista de linhas de base para o mapa DITA aberto na Exibição de Mapa.
-- Você pode exibir ou editar o conteúdo de uma linha de base existente clicando duas vezes na linha de base na lista do painel Linha de base. A janela de edição da linha de base no centro exibe o arquivo de mapa DITA, o conteúdo do mapa ou os tópicos e o conteúdo referenciado.
+- Você pode exibir ou editar o conteúdo de uma linha de base estática existente clicando duas vezes na linha de base na lista do painel Linha de base. A janela de edição da linha de base no centro exibe o arquivo de mapa DITA, o conteúdo do mapa ou os tópicos e o conteúdo referenciado.
 
 
-![](images/baseline-options.png){width="550" align="left"}
+  ![opções de uma linha de base](images/baseline-options.png){width="800" align="left"}
 
 Você também pode executar as seguintes operações na linha de base a partir do menu Opções:
 
-- **Editar**, **Duplicar,** ou **Excluir** uma linha de base existente.
-- Adicionar, remover ou fazer alterações em rótulos existentes do **Gerenciar rótulos** opção. Se o administrador tiver configurado rótulos predefinidos, esses rótulos serão exibidos na lista suspensa Adicionar rótulo. Para obter mais informações sobre como adicionar rótulos, consulte [Usar rótulos](web-editor-use-label.md#).
+- **Editar**, **Duplicar,** **Renomear** ou **Excluir** uma linha de base existente.
+
+  >[!NOTE]
+  >
+  >A operação de edição para linhas de base estáticas só é recomendada para um pequeno número de alterações de referência. A operação de edição não é recomendada para alterar a versão do mapa DITA principal, pois deve recalcular todas as referências. Isso pode causar uma falha de atualização de linha de base para mapas DITA grandes. Para os mapas DITA maiores, é possível criar uma nova linha de base ou editar as propriedades da linha de base.
+  >
+  >Editar operação no caso de linha de base dinâmica permite editar as propriedades da linha de base, pois as referências para linhas de base dinâmicas são geradas no tempo de execução usando os rótulos.
+
+- Adicionar, remover ou fazer alterações em rótulos existentes do **Gerenciar rótulos** opção para linhas de base estáticas. Se o administrador tiver configurado rótulos predefinidos, esses rótulos serão exibidos na lista suspensa Adicionar rótulo. Para obter mais informações sobre como adicionar rótulos, consulte [Usar rótulos](web-editor-use-label.md#).
 
   >[!NOTE]
   >
   > O processo para adicionar ou remover rótulos ocorre de forma assíncrona, para que você possa continuar trabalhando em outros arquivos no Editor da Web. Depois que o rótulo é adicionado ou removido, uma mensagem pop-up é exibida confirmando que o rótulo foi adicionado ou removido, e você também recebe uma notificação da Caixa de entrada para o mesmo.
 
-- **Editar propriedades** de uma linha de base existente que você definiu ao criar a linha de base.
+- **Editar propriedades** de uma linha de base estática existente que você definiu ao criar a linha de base.
 - Exporte o instantâneo de uma linha de base em um arquivo CSV com o **Exportar Linha de Base** opção.
 
 **Filtros da linha de base**

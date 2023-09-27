@@ -1,10 +1,10 @@
 ---
 title: HTML 5
-description: Saiba como fazer o HTML5
+description: Gerar e configurar saída de HTML5 para documentos do FrameMaker nos Guias do AEM.
 exl-id: 9ac39237-c6b3-47d9-8d54-67150002c050
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 5%
 
 ---
@@ -25,4 +25,4 @@ As seguintes opções estão disponíveis para a saída de HTML5:
 | Caminho de destino | O caminho dentro do repositório AEM onde a saída de HTML5 é armazenada. |
 | Executar fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída. |
 
-**Tópico pai:**[ Gerar saída de documentos do FrameMaker](fm-output-generatation.md)
+**Tópico pai:**[ Gerar saída de documentos de FrameMaker](fm-output-generatation.md)

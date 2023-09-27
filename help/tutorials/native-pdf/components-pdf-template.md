@@ -2,9 +2,9 @@
 title: Recurso de publicação de PDF nativo | Componentes de um modelo de PDF
 description: Saiba mais sobre os vários componentes de um modelo de PDF e como personalizá-los e configurá-los.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 90cd3c53fd8da0b987c99950dd37d405bea12c6e
+source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
 workflow-type: tm+mt
-source-wordcount: '4160'
+source-wordcount: '4376'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ No painel central, você pode editar as propriedades, mas pode ser difícil obte
 No painel central, você pode editar as propriedades comumente usadas, mas não todas as propriedades compatíveis com o CSS. No **Propriedades** você pode editar todas as propriedades compatíveis com o CSS e visualizá-las. Você não precisa alternar para a exibição de origem para editar propriedades.
 
 
-Saiba mais sobre como usar o editor de estilos para [Trabalhar com os estilos de conteúdo comuns](stylesheet.md).
+Saiba mais sobre como usar o editor de estilos para [trabalhar com os estilos de conteúdo comuns](stylesheet.md).
 
 ## Trabalhar com recursos {#work-with-resources}
 
@@ -219,6 +219,7 @@ Defina as configurações básicas para iniciar um capítulo a partir de uma pá
 
   Aqui você pode notar que o primeiro capítulo Configurações avançadas de PDF não recebe nenhum número de página, pois tem tópicos aninhados ou filhos. Ao passo que um número de página se atribuído ao Apêndice e Legal porque são tópicos independentes sem nenhum tópico secundário.
 
+* **Não mostrar o número do capítulo no índice** : selecione essa opção para exibir os nomes dos capítulos sem os números de capítulo no índice.   Por padrão, os números de capítulo são exibidos no índice da saída do PDF.
 * **Formato do líder**: use o menu suspenso para selecionar linhas pontilhadas, sólidas ou com preenchimento de espaço a fim de conectar níveis de cabeçalho aos números de página correspondentes.
 Para aplicar a estrutura de índice e os níveis de cabeçalho de estilo, consulte [Adicionar um índice de capítulo](design-page-layout.md#add-chapter-toc).
 
@@ -232,8 +233,14 @@ Você pode definir o texto a ser exibido antes e depois da quebra. Por exemplo, 
   Use variáveis de idioma para definir o texto do marcador de continuação antes e depois da interrupção. Dependendo do idioma escolhido, o valor localizado é escolhido automaticamente na saída do PDF. Por exemplo, você pode publicar `Continued on page %page-num%` como texto em inglês e `Fortsetzung auf Seite %page-num%` em alemão.
 
   Focalizar <img src="./assets/info-details.svg" alt= "ícone de informações" width="25"> próximo à opção para ver mais detalhes sobre ele.
+* **Vincular termos do glossário à página do glossário**: selecione essa opção para mostrar os termos do glossário como hiperlinks no conteúdo e vinculá-los aos termos na página do glossário. Isso ajuda os leitores a visualizar rapidamente a definição de um termo definido no glossário.
 
-<!--For more information on using table continuation markers, see Use table continuation markers.-->
+  Para converter os termos do glossário em hiperlinks, é necessário:
+   * Ativar **Glossário** no **Ordem da página** para obter um mapa DITA.
+   * Adicione o Glossário nas Páginas do Back Matter para um mapa de Livros.
+
+  Se você não ativar a página Glossário, os termos do Glossário no conteúdo não serão convertidos em hiperlinks na saída em PDF.
+  <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Layouts de página {#page-layouts}
 
@@ -256,7 +263,13 @@ As seguintes configurações estão disponíveis na seção Layout da página:
 
 * **Lista de figuras e Lista de tabelas**: Também é possível especificar o layout da página para figuras e tabelas. O layout selecionado será aplicado a todas as figuras e tabelas.
 
-* **Índice e Glossário**: se você tiver projetado um layout de página de índice, mapeie-o para a opção Índice. Se você tiver um layout de página do Glossário, mapeie-o para a opção Glossário.
+* **Índice**: se você tiver criado um layout de página de índice, mapeie-o para a opção Índice. Usando as folhas de estilos, é possível estilizar diferentes elementos de índice na saída de PDF. Usar os estilos de índice `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`,  `.idx-keyword`, `.idx-name`, `.idx-link` e `.idx-child` para personalizar os estilos dos elementos do índice.
+
+* **Glossário**: Se você tiver um layout de página do Glossário, mapeie-o para a opção Glossário.  Os termos no glossário da sua saída de PDF são sempre classificados em ordem alfabética.
+
+  Usando as folhas de estilos, você pode estilizar diferentes elementos de glossário na saída de PDF. Usar os estilos de glossário `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, e `.glo-term` para personalizar os estilos dos elementos do glossário.
+
+  Saiba mais sobre como usar o editor de estilos para [trabalhar com os estilos de conteúdo comuns](stylesheet.md).
 
 * **Páginas de primeiro plano e de segundo plano**: esses layouts de página definem o estilo das páginas principais ou secundárias do livro. Se você projetou o layout da frente, mapeie-o para o **Páginas Principais** opção. Quando você seleciona o layout da frente na lista suspensa, o layout da frente é aplicado a todos os tópicos presentes na frente.
 
@@ -298,7 +311,7 @@ Você pode mostrar ou ocultar as seguintes seções no PDF e também organizar a
 
 
 .
-**Capítulo e tópicos** o layout é sempre ativado e **Glossário** o layout é sempre desativado por padrão. Não é possível alterná-los.
+**Capítulo e tópicos** o layout é sempre ativado por padrão. Não é possível alterná-lo.
 
 **Mesclar páginas**
 

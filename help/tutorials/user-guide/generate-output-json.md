@@ -1,10 +1,10 @@
 ---
 title: JSON
-description: Saiba como usar o JSON
+description: Saiba como criar uma predefinição JSON no editor da Web e no painel de mapa. Configurar a predefinição de saída JSON nos Guias AEM.
 exl-id: 0a938cc2-1a6f-4ee4-ad7e-f94ad2a0cf94
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '676'
 ht-degree: 1%
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: Gerar saída para um mapa DITA a partir do console de mapas
-description: Saiba como Gerar saída para um mapa DITA no console de mapas
+description: Gere saída para um mapa DITA a partir do console de mapas nos Guias AEM. Saiba mais sobre a geração de saída incremental e como visualizar o status, cancelar e excluir uma tarefa de saída.
 exl-id: 98afbdd2-56d7-44b0-ad2a-25e9143c88f3
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -101,21 +101,21 @@ Execute as seguintes etapas para exibir a fila de geração de saída:
 
    - **Saídas em fila:**
 
-      Lista as saídas que estão aguardando para serem geradas ou que estão em processo de geração. As tarefas em fila ou em andamento são mostradas com um ícone de cor azul antes do nome predefinido. Você também pode encontrar a configuração de geração de saída ou a predefinição usada para a tarefa na fila, o tipo, o usuário que iniciou a tarefa, o tempo desde quando a tarefa está na fila e o status atual.
+     Lista as saídas que estão aguardando para serem geradas ou que estão em processo de geração. As tarefas em fila ou em andamento são mostradas com um ícone de cor azul antes do nome predefinido. Você também pode encontrar a configuração de geração de saída ou a predefinição usada para a tarefa na fila, o tipo, o usuário que iniciou a tarefa, o tempo desde quando a tarefa está na fila e o status atual.
 
-      Clique no link para acessar a **Publicar painel** e visualize o status de execução atual. Uma lista de todas as tarefas de publicação ativas está disponível no Painel de publicação. A variável **Saídas em fila** e a variável **Publicar painel** são exibidos somente quando há saídas que estão aguardando para serem geradas ou estão em processo de geração. Eles não aparecem quando as tarefas de saída são concluídas.Para obter mais detalhes sobre o Painel de publicação, consulte [Gerenciar tarefas de publicação usando o Painel de publicação](generate-output-publish-dashboard.md#).
+     Clique no link para acessar a **Publicar painel** e visualize o status de execução atual. Uma lista de todas as tarefas de publicação ativas está disponível no Painel de publicação. A variável **Saídas em fila** e a variável **Publicar painel** são exibidos somente quando há saídas que estão aguardando para serem geradas ou estão em processo de geração. Eles não aparecem quando as tarefas de saída são concluídas.Para obter mais detalhes sobre o Painel de publicação, consulte [Gerenciar tarefas de publicação usando o Painel de publicação](generate-output-publish-dashboard.md#).
 
    - **Saídas geradas**
 
-      Lista as tarefas de saída concluídas. Novamente, as informações mostradas aqui são semelhantes à seção Saídas em fila, com algumas diferenças. Você tem um novo conjunto de informações na forma de ícone de resultado de saída e o tempo de geração da saída.
+     Lista as tarefas de saída concluídas. Novamente, as informações mostradas aqui são semelhantes à seção Saídas em fila, com algumas diferenças. Você tem um novo conjunto de informações na forma de ícone de resultado de saída e o tempo de geração da saída.
 
-      Nesta lista, você pode ter tarefas que foram executadas com sucesso, tarefas que foram executadas com mensagem ou tarefas que falharam. As tarefas bem-sucedidas são mostradas com ícone de cor verde, as tarefas com uma mensagem têm um ícone de cor laranja e as tarefas com falha são mostradas com ícone de cor vermelha.
+     Nesta lista, você pode ter tarefas executadas com sucesso, tarefas executadas com mensagem ou tarefas com falha. As tarefas bem-sucedidas são mostradas com ícone de cor verde, as tarefas com uma mensagem têm um ícone de cor laranja e as tarefas com falha são mostradas com ícone de cor vermelha.
 
-      Para todas as tarefas, o processo de publicação cria um arquivo de log \(logs.txt\) que pode ser acessado clicando no link na coluna Gerado em. Para tarefas que falharam ou têm mensagens, você pode verificar o arquivo de log, que é explicado na seção [Exibir e verificar o arquivo de log](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
+     Para todas as tarefas, o processo de publicação cria um arquivo de log \(logs.txt\) que pode ser acessado clicando no link na coluna Gerado em. Para tarefas que falharam ou têm mensagens, você pode verificar o arquivo de log, que é explicado na seção [Exibir e verificar o arquivo de log](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
 
-      >[!NOTE]
-      >
-      > Ao clicar em um link da saída de PDF gerada, você é solicitado a baixar o PDF. Este é o comportamento padrão no AEM 6.5 e 6.4.
+     >[!NOTE]
+     >
+     > Ao clicar em um link da saída de PDF gerada, você é solicitado a baixar o PDF. Este é o comportamento padrão no AEM 6.5 e 6.4.
 
 
 ## Cancelar uma tarefa de geração de saída {#id2061H100T5Z}

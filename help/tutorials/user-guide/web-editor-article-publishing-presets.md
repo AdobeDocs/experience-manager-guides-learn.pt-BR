@@ -1,10 +1,10 @@
 ---
 title: Criar predefinições de saída no Editor da Web
-description: Saiba como criar predefinições de saída no Editor da Web
+description: Criar predefinições de saída no editor da Web. Saiba como editar, renomear, duplicar e excluir uma predefinição de saída nos Guias do AEM.
 exl-id: 7fde0057-06a5-428e-a91b-9e9386a56270
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---

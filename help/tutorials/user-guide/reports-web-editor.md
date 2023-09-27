@@ -1,10 +1,10 @@
 ---
 title: Relatório de mapa DITA do Editor da Web
-description: Saiba como fazer o mapeamento DITA no Editor da Web
+description: Gerar relatórios de mapa DITA do editor da Web em Guias AEM. Saiba como gerar um CSV para relatórios de lista de tópicos, multimídia, metadados e links quebrados.
 exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
-source-git-commit: 5670b4a8f34916c7ff415680c5ddcfab6e9618e6
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2367'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,6 @@ Você pode criar um relatório dos tópicos executando as seguintes etapas:
    - **Estado do documento** O estado atual do tópico.
    - **Autor** O usuário que trabalhou por último no tópico.
    - **Mapa principal** A lista de todos os mapas em que o tópico é referenciado diretamente.
-
    >[!NOTE]
    >
    > Clique em **Atualizar** para obter uma nova lista de tópicos e exibir qualquer alteração no arquivo de mapa ou se qualquer referência no arquivo de tópico for atualizada.
@@ -65,17 +64,17 @@ Para exibir os metadados de suas referências no mapa DITA atual, execute as seg
    1. Você também pode usar as seguintes opções de filtragem de tópico para exibir as seguintes colunas na lista de metadados:
       - **Título** \(selecionado por padrão\) O título do arquivo referenciado é especificado no mapa DITA. Você pode clicar no arquivo para editá-lo.Você também pode clicar e reproduzir um arquivo de áudio ou vídeo no Editor da Web. Você pode alterar o volume ou a visualização do vídeo. No menu de atalho, você também tem as opções para baixar, alterar a velocidade de reprodução ou visualizar uma imagem na imagem.
 
-         >[!NOTE]
-         >
-         > Um ícone de check-out também é exibido próximo ao título de um arquivo com check-out. Você pode passar o mouse sobre o ícone para visualizar o nome do usuário.
+        >[!NOTE]
+        >
+        > Um ícone de check-out também é exibido próximo ao título de um arquivo com check-out. Você pode passar o mouse sobre o ícone para visualizar o nome do usuário.
 
       - **Nome do arquivo** O nome do arquivo.
       - **Local do arquivo** O caminho completo do arquivo.
       - **Tags** \(selecionado por padrão\) Tags aplicadas ao arquivo.
 
-         >[!NOTE]
-         >
-         > Por padrão, você pode exibir duas tags para um arquivo. Para exibir mais tags, clique em **Mostrar mais**. Clique em **Mostrar menos** para contrair a lista novamente.
+        >[!NOTE]
+        >
+        > Por padrão, você pode exibir duas tags para um arquivo. Para exibir mais tags, clique em **Mostrar mais**. Clique em **Mostrar menos** para contrair a lista novamente.
 
       - **Tipo de referência** O tipo de referência - direta ou indireta
       - **Estado do documento** \(selecionado por padrão\) O estado atual do arquivo de referência.
@@ -115,11 +114,11 @@ A variável **Multimídia** O relatório fornece informações detalhadas sobre 
 
    - Quando você faz pedidos por **Multimídia**, o nome **** da multimídia é exibido na primeira coluna e, em seguida, os nomes de todas as referências nas quais foram usados são exibidos em outra coluna na mesma linha. Por exemplo, a captura de tela a seguir mostra a multimídia WarmCoolForC.gif na primeira coluna e três referências nas quais ela é usada são exibidas na terceira coluna na mesma linha.
 
-      ![](images/multimedia-report-file-order.png){width="650" align="left"}
+     ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
    - Se você fizer o pedido até **Usado em** , você verá a exibição transposta na qual os nomes das referências nas quais o multimídia foi usado são listados na primeira coluna, enquanto os nomes multimídia são listados em outra coluna em linhas separadas. Por exemplo, a captura de tela a seguir mostra os nomes de três referências \(Ajustar a temperatura da cadeira, Alterar a exibição da temperatura da cadeira e Área da tripulação\) na primeira coluna e a multimídia WarmCoolForC.gif é exibida na terceira coluna em três linhas separadas.
 
-      ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
+     ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
 
 1. Você pode filtrar seus multimídia com base no **Tipo de multimídia**, e **Tipo de referência**. A lista de arquivos multimídia é exibida com base na sua seleção na lista suspensa. Por exemplo, você pode optar por exibir somente as referências de áudio no mapa DITA, e um arquivo mostra somente as referências de áudio usadas nele.
 
@@ -135,7 +134,6 @@ A variável **Multimídia** O relatório fornece informações detalhadas sobre 
    - **Tipo de multimídia** \(selecionado por padrão\) Tipo de multimídia. As opções disponíveis são Áudio, Vídeo ou Imagem.
    - **Usado em** \(selecionado por padrão\) As referências nas quais a multimídia foi usada. Você pode clicar na referência para editá-la.
    - **Tipo de referência** \(selecionado por padrão\) O tipo de referência - direta ou indireta.
-
    >[!NOTE]
    >
    > Clique em **Atualizar** para obter uma nova lista de multimídia e visualizar qualquer alteração no arquivo de mapa ou se alguma multimídia no mapa DITA for atualizada.
@@ -164,7 +162,7 @@ Você pode exibir o relatório de links desfeitos executando as seguintes etapas
    ![](images/broken-link-filter-usedin.png){width="800" align="left"}
 1. Você pode filtrar seus links desfeitos com base na variável **Tipo de arquivo** e **Tipo de link**. A lista de links com falha é exibida com base na sua seleção na lista suspensa. Por exemplo, você pode optar por exibir somente as referências de conteúdo no mapa DITA, e um arquivo mostra somente as referências de conteúdo usadas nele.
 
-   Dependendo do tipo de referências usadas no mapa, a referência de Arquivo, a referência de Chave, a referência de Conteúdo, a referência de Chave de Conteúdo, a referência de Imagem e a referência de Arquivo Multimídia são listadas no **Tipo de link** e **Tópico DITA** ou **Mapa DITA** estão listados no **Tipo de arquivo** lista suspensa.
+   Dependendo do tipo de referências usadas no seu mapa, a referência de arquivo, a referência de chave, a referência de conteúdo, a referência de chave de conteúdo, a referência de imagem e a referência de arquivo multimídia estão listadas no **Tipo de link** e **Tópico DITA** ou **Mapa DITA** estão listados no **Tipo de arquivo** lista suspensa.
 1. Você também pode usar as seguintes opções de filtro para optar por exibir as seguintes colunas na lista:
 
    - **Link quebrado** (selecionado por padrão) O caminho do link quebrado é especificado no mapa DITA.

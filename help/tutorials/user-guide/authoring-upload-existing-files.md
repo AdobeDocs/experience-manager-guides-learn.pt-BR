@@ -1,10 +1,10 @@
 ---
 title: Fazer upload de arquivos
-description: Saiba como fazer upload de arquivos
+description: Saiba como fazer upload de arquivos para o repositório AEM e lidar com erros. Conhecer a interface do usuário do console de ativos, o aplicativo de desktop AEM, a assimilação de ativos em massa e usar o FrameMaker para upload em massa.
 exl-id: d6a73953-94dd-4fa5-b09c-5e4c77fead62
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Use o aplicativo de desktop AEM se você for um profissional criativo e quiser g
 
 Se você tiver migrações em grande escala e assimilações ocasionais em massa, use o Assimilador de ativos em massa para fazer upload de conteúdo. Com essa ferramenta, você pode carregar conteúdo em massa de armazenamentos de dados compatíveis, como o Azure ou S3. Para obter mais detalhes, consulte [Assimilador de ativos em massa](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
-## Usar FrameMaker para carregamento em massa
+## Usar o FrameMaker para upload em massa
 
 O Adobe FrameMaker vem com um poderoso conector AEM que permite carregar facilmente seu DITA existente e outros documentos do FrameMaker \(`.book` e `.fm`\) no AEM. Você pode usar várias funcionalidades de upload de arquivos, como fazer upload de um único arquivo, fazer upload de uma pasta completa com ou sem dependências \(como referências de conteúdo, referências cruzadas e elementos gráficos\).
 
-Para obter mais detalhes sobre o uso do recurso de carregamento em massa no FrameMaker, consulte a seção *Criar uma pasta do CRX e fazer upload de arquivos* no Guia do usuário do FrameMaker.
+Para obter mais detalhes sobre como usar o recurso de upload em massa no FrameMaker, consulte a seção *Criar uma pasta do CRX e fazer upload de arquivos* no Guia do usuário do FrameMaker.
 
 ## Tratamento de erros ao fazer upload do conteúdo {#id201MI0I04Y4}
 

@@ -1,10 +1,10 @@
 ---
 title: Relatório de status de conversão
-description: Saiba como converter o relatório de status
+description: Converta documentos de diferentes formatos em DITA em guias AEM. Saiba como adicionar filtros e visualizar um relatório de status de conversão.
 exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,15 @@ Execute as seguintes etapas para exibir o Relatório de Status de Conversão:
 
    - **Filtro:**
 
-      Você pode filtrar os dados do relatório com base no Tipo de arquivo e no Status da conversão. No Tipo de Arquivo, você pode optar por ver os dados do relatório dos documentos do Word, do tipo HTML estruturado, XML e DocBook. Em Status, você pode optar por ver os dados do relatório para tarefas que foram executadas com Sucesso, Falharam, Ativas ou Enfileiradas.
+     Você pode filtrar os dados do relatório com base no Tipo de arquivo e no Status da conversão. No Tipo de Arquivo, você pode optar por ver os dados do relatório dos documentos do Word, do tipo HTML estruturado, XML e DocBook. Em Status, você pode optar por ver os dados do relatório para tarefas que foram executadas com Sucesso, Falharam, Ativas ou Enfileiradas.
 
-      A captura de tela a seguir exibe os dados do relatório para tarefas de conversão com status Falha, Ativo e Em fila.
+     A captura de tela a seguir exibe os dados do relatório para tarefas de conversão com status Falha, Ativo e Em fila.
 
-      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
    - **Dados do relatório:**
 
-      Os dados do relatório contêm as seguintes colunas:
+     Os dados do relatório contêm as seguintes colunas:
 
       - **Nome do arquivo**: Nome do arquivo de origem no qual o processo de conversão foi executado. Ao clicar no link Nome do arquivo, você será direcionado ao local do documento de origem.
 

@@ -2,9 +2,9 @@
 user-guide-title: Tutorials do AEM Guides
 user-guide-description: Leia nossa coleção de tutoriais do Adobe Experience Manager Guides.
 breadcrumb-title: Tutorials do AEM Guides
-source-git-commit: 8ee493dbcdf68b83a55a65945febfa52c56ef09e
+source-git-commit: 40666d63314fa94f4ddf9b23341671994274c7e2
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1597'
 ht-degree: 6%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 6%
       + Cloud Services {#cloud-release-notes}
          + [Instruções de implantação](./release-info/deploy-xml-on-aemaacs.md)
          + Versões de 2023 {#2023-releases}
+            + Versão de outubro {#2310-release}
+               + [Novidades](./release-info/whats-new-2023.10.0.md)
+               + [Notas de versão](./release-info/release-notes-2023.10.0.md)
             + Versão de setembro {#2309-release}
                + [Novidades](./release-info/whats-new-2023.9.0.md)
                + [Notas de versão](./release-info/release-notes-2023.9.0.md)
@@ -241,6 +244,7 @@ ht-degree: 6%
          + [Configurar um conector de fonte de dados](./install-guide/conf-data-source-connector.md)
          + [Definir o Editor de mapa avançado como padrão](./install-guide/conf-map-editor.md)
          + [Incluir atributo @navtitle por padrão](./install-guide/auto-add-navtitle.md)
+         + [Configurar a opção para editar no Oxygen](./cs-install-guide/conf-edit-in-oxygen.md)
       + Trabalhar com perfis globais e de nível de pasta {#global-folder-profiles}
          + [Configurar perfis globais ou de nível de pasta](./install-guide/conf-folder-level.md)
       + Configurar versões {#version-mgt}
@@ -318,6 +322,7 @@ ht-degree: 6%
          + [Configurar a geração de PDF de um único tópico](./cs-install-guide/conf-pdf-generation-dita-ot.md)
          + [Configurar o recurso de tradução no editor da Web](./cs-install-guide/conf-translation-web-editor.md)
          + [Configurar um conector de fonte de dados](./cs-install-guide/conf-data-source-connector.md)
+         + [Configurar um conector de fonte de dados usando ferramentas](./cs-install-guide/conf-data-source-connector-tools.md)
          + [Definir o Editor de mapa avançado como padrão](./cs-install-guide/conf-map-editor.md)
          + [Incluir atributo @navtitle por padrão](./cs-install-guide/auto-add-navtitle.md)
       + Trabalhar com perfis globais e de nível de pasta {#global-folder-profiles-cs}

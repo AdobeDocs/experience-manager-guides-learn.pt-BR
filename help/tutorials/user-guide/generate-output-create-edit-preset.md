@@ -1,10 +1,10 @@
 ---
 title: Criar, editar, duplicar ou remover uma predefinição de saída
-description: Saiba como criar, editar, duplicar ou remover uma predefinição de saída
+description: Saiba como criar, editar, duplicar e excluir uma predefinição de saída personalizada nos Guias do AEM.
 exl-id: 6ed4f028-da96-4383-9d5c-06b94d6661c0
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---

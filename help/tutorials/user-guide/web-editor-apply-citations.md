@@ -1,9 +1,9 @@
 ---
 title: Adicionar e gerenciar citações no seu conteúdo
-description: Saiba como implementar referências adicionando e aplicando citações ao seu conteúdo.
-source-git-commit: 85eb0228908134080f3f1e2644f3f7c37b8d7497
+description: Adicionar e gerenciar citações em Guias do AEM. Saiba como aplicar, importar, filtrar, pesquisar, alterar o estilo da citação, editar, visualizar, inserir, excluir e gerar saída de conteúdo com citações.
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Para visualizar uma citação, siga estas etapas:
 
 Passe o mouse sobre o nome da citação na lista. Selecionar     ![](images/options.svg) **Opções** ícone.
 
-1. Selecionar **Visualizar**.
+1. Selecione **Visualizar**.
 Você pode visualizar o conteúdo e o formato da citação no painel de visualização.
 
    >[!NOTE]

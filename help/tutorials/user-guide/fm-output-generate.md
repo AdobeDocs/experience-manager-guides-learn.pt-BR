@@ -1,10 +1,10 @@
 ---
 title: Gerar saída de arquivos .book ou .fm
-description: Saiba como gerar saída de arquivos .book ou .fm
+description: Saiba como gerar saída de arquivos .book ou .fm nos Guias AEM.
 exl-id: 578cff9f-cb27-4df3-8571-277f81b930d7
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -28,4 +28,4 @@ Execute as seguintes etapas para gerar saída para documentos do FrameMaker:
 >
 > Você pode visualizar o status atual da solicitação de geração de saída clicando em Saídas. Para obter mais informações, consulte [Exibir o status da tarefa de geração de saída](fm-output-view-status.md).
 
-**Tópico pai:**[ Gerar saída de documentos do FrameMaker](fm-output-generatation.md)
+**Tópico pai:**[ Gerar saída de documentos de FrameMaker](fm-output-generatation.md)

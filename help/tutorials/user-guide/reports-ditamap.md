@@ -1,10 +1,10 @@
 ---
 title: Relatório de mapa DITA no painel de mapa
-description: Saiba como criar um relatório de mapa DITA no painel de mapa
+description: Gerar relatórios de mapa DITA no painel de mapa em Guias AEM. Saiba como gerar o CSV de um relatório de mapa DITA.
 exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,15 @@ Execute as seguintes etapas para exibir o Relatório de mapa DITA:
 
    - **Resumo do tópico:**
 
-      Lista o resumo geral do arquivo de mapa selecionado. Ao observar o Resumo, você pode saber rapidamente o número total de tópicos no mapa, tópicos ausentes, número de tópicos que têm elementos ausentes, estado dos tópicos — no rascunho, em revisão ou no estado Revisado.
+     Lista o resumo geral do arquivo de mapa selecionado. Ao observar o Resumo, você pode saber rapidamente o número total de tópicos no mapa, tópicos ausentes, número de tópicos que têm elementos ausentes, estado dos tópicos — no rascunho, em revisão ou no estado Revisado.
 
    - **Detalhes:**
 
-      Quando você clica em um tópico, um relatório detalhado do tópico selecionado é exibido.
+     Quando você clica em um tópico, um relatório detalhado do tópico selecionado é exibido.
 
-      ![](images/detailed-report-uuid.png){width="800" align="left"}
+     ![](images/detailed-report-uuid.png){width="800" align="left"}
 
-      Itens destacados em **A**, **B**, **C** e **D** são descritos abaixo:
+     Itens destacados em **A**, **B**, **C** e **D** são descritos abaixo:
 
       - **Tópico**: o título do tópico especificado no mapa DITA. Passar o ponteiro do mouse sobre o título do tópico exibe o caminho completo do tópico. Se houver problemas no tópico, como referências ou imagens ausentes, um ponto vermelho será mostrado antes do título do tópico.
 
@@ -55,6 +55,7 @@ Execute as seguintes etapas para exibir o Relatório de mapa DITA:
 
       - **Abrir no Editor \(D\)**: Clicar nesse ícone abre o tópico no Editor da Web.
 
+
    Itens destacados em **E** são descritos abaixo:
 
    - **Multimídia**: O caminho das imagens usadas no tópico é mostrado junto com sua UUID. Se você clicar no caminho da imagem, a imagem correspondente será aberta em uma janela pop-up. Os links de imagem quebrados são listados na cor vermelha.
@@ -66,8 +67,6 @@ Execute as seguintes etapas para exibir o Relatório de mapa DITA:
    - **Revisão**: mostra o status da tarefa de revisão do tópico. Você pode ver o status \(abertura ou fechamento\), a data de vencimento e o destinatário do tópico em revisão. Se você clicar no link do tópico, ele abrirá o tópico no modo de revisão.
 
    - **Usado em**: mostra uma lista de outros tópicos ou mapas em que o tópico é usado. A UUID de todos esses tópicos e mapas também é listada.
-
-
 
 Além do relatório de cada tópico individual, os administradores também têm acesso a informações como o histórico de publicação de um mapa DITA. Para obter mais informações sobre o histórico de saídas geradas, consulte [Exibir o status da tarefa de geração de saída](generate-output-for-a-dita-map.md#viewing_output_history).
 

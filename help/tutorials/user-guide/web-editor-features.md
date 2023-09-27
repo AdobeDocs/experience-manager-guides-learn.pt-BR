@@ -1,10 +1,10 @@
 ---
 title: Conhecer os recursos do Editor da Web
-description: Saiba como conhecer os recursos do Editor da Web
+description: Descubra os recursos do editor da Web em Guias do AEM. Conhecer a interface do editor da Web, incluindo a barra de ferramentas principal, a barra de ferramentas secundária, o painel esquerdo, a área de edição de conteúdo e o painel direito.
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
+source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
 workflow-type: tm+mt
-source-wordcount: '15744'
+source-wordcount: '16066'
 ht-degree: 0%
 
 ---
@@ -741,9 +741,7 @@ A lista de arquivos filtrados que contém o texto pesquisado é exibida. Por exe
 
 **Menu Opções**
 
-Além de abrir arquivos no painel esquerdo, também é possível executar muitas ações usando o
-
-Menu de opções disponível na Exibição de repositório. Você verá opções diferentes, dependendo se você escolher uma pasta, um arquivo de tópico ou um arquivo de mídia.
+Além de abrir arquivos no painel esquerdo, também é possível executar muitas ações usando o menu Opções disponível na Exibição do repositório. Você verá opções diferentes, dependendo se você escolher uma pasta, um arquivo de tópico ou um arquivo de mídia.
 
 **Opções de uma pasta**
 
@@ -801,7 +799,7 @@ Você verá diferentes opções no menu Opções dependendo se você seleciona u
 - Propriedades
 - Exibir na interface do usuário do Assets
 
-![](images/options-menu-repo-view-file-level.png){width="550" align="left"}
+![menu de opções de um arquivo na exibição repositório](images/options-menu-repo-view-file-level.png){width="550" align="left"}
 
 As várias opções no menu Opções são explicadas abaixo:
 
@@ -896,7 +894,18 @@ As várias opções no menu Opções são explicadas abaixo:
 
 - **Abrir painel do mapa**: Caso o arquivo selecionado seja um mapa DITA, essa opção abre o painel de mapa.
 
+- **Editar no Oxygen**: selecione esta opção para editar o arquivo selecionado no plug-in do conector Oxygen. O arquivo está aberto para edição.
+
+  >[!NOTE]
+  >
+  >Entre em contato com a equipe de sucesso do cliente para habilitar esse recurso no ambiente. Isso não é ativado como parte do suporte pronto para uso. Para obter mais detalhes, consulte [Configurar a opção para editar no Oxygen](../cs-install-guide/conf-edit-in-oxygen.md) no Guia de instalação e configuração.
+
+
 - **Exibir na interface do usuário do Assets**: use essa opção para mostrar uma pré-visualização de um arquivo .dita/.xml na interface do usuário do Assets. No caso de um arquivo .ditamap/.bookmap, todos os arquivos de tópico no mapa são mostrados em uma única exibição unificada página por página.
+
+- **Baixar como PDF**: use a opção para gerar a saída do PDF e baixá-la.
+
+- **Publicar como**: Use a opção para publicar um tópico ou os elementos dentro de um tópico em um fragmento de conteúdo.
 
 - **Geração rápida**: gere a saída para o arquivo selecionado. A saída só pode ser gerada para arquivos que fazem parte de uma predefinição de saída. Para obter mais detalhes, consulte [Publicação baseada em artigos no Editor da Web](web-editor-article-publishing.md#id218CK0U019I).
 
@@ -995,9 +1004,25 @@ Você pode executar as seguintes ações usando o menu Opções do arquivo de ma
 - **Abrir painel do mapa**: abra o painel do mapa.
 
 - **Exibir na interface do usuário do Assets**: use essa opção para mostrar uma pré-visualização do arquivo de mapa na interface do usuário do Assets. Nesta exibição, todos os arquivos de tópico no mapa são mostrados em uma única exibição unificada página por página.
+- **Baixar mapa**: selecione esta opção para abrir a variável **Baixar mapa** diálogo.
+No **Baixar mapa** você pode escolher as seguintes opções:
+   - **Usar Linha de Base**: selecione esta opção para obter uma lista de Linhas de Base criadas para o mapa DITA. Para baixar o arquivo de mapa e seu conteúdo com base em uma Linha de Base específica, selecione a Linha de Base na lista suspensa. Para obter mais detalhes sobre como trabalhar com Linhas de Base, exiba [trabalhar com Linha de Base](./generate-output-use-baseline-for-publishing.md).
+   - **Nivelar Hierarquia de Arquivo**: selecione esta opção para salvar todos os tópicos e arquivos de mídia referenciados em uma única pasta.
 
-- **Geração rápida**: gere a saída para o arquivo de mapa selecionado. A saída só pode ser gerada para arquivos que fazem parte de uma predefinição de saída. Para obter mais detalhes, consulte [Publicação baseada em artigos no Editor da Web](web-editor-article-publishing.md#id218CK0U019I).
+  Também é possível baixar o arquivo de mapa sem selecionar nenhuma opção. Nesse caso, as últimas versões persistentes dos tópicos e arquivos de mídia referenciados são baixadas.
+
+  Depois de clicar no botão **Baixar** , a solicitação de download de mapa é enfileirada. Você recebe a notificação de que o mapa está pronto para download se estiver pronto para download. Caso o download falhe, você receberá a notificação de que o download do mapa falhou
+
+  Você pode acessar o link de download na Caixa de entrada de notificação do AEM. Selecione a notificação de mapa gerada na Caixa de entrada para baixar o mapa no formato .zip.
+
+  >[!NOTE]
+  >
+  >  Por padrão, os mapas baixados permanecem por cinco dias na Caixa de entrada de notificação do AEM.
+
+- **Gerar saída**: gere a saída para o arquivo de mapa selecionado. A saída só pode ser gerada para arquivos que fazem parte de uma predefinição de saída. Para obter mais detalhes, consulte [Publicação baseada em artigos no Editor da Web](web-editor-article-publishing.md#id218CK0U019I).
 - **Fechar**: fecha o arquivo de mapa.
+
+
 
 A captura de tela a seguir mostra o menu Opções para um arquivo na Exibição do mapa DITA:
 

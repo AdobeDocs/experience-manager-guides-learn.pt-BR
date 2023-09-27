@@ -1,10 +1,10 @@
 ---
 title: Trabalhar com linha de base
-description: Saiba como trabalhar com a linha de base
+description: Conhecer o uso de linhas de base em guias de AEM. Saiba como criar, exibir conteúdo, editar, duplicar, remover, adicionar rótulos e exportar linhas de base traduzidas.
 exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
-source-git-commit: 8e2e2c60f223b3967fad10372abee3192016c4ef
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---

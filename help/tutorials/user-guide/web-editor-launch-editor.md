@@ -1,10 +1,10 @@
 ---
 title: Iniciar o Editor da Web
-description: Saiba como iniciar o editor da Web
+description: Saiba como iniciar o editor da Web na página de navegação do AEM, na interface do usuário do AEM Assets e no console de mapas DITA no AEM Guides.
 exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -37,20 +37,20 @@ Como você iniciou o Editor da Web sem selecionar nenhum arquivo, uma tela em br
 
 
 
-   <details>
+  <details>
 
-   <summary> Cloud Services </summary>
+  <summary> Cloud Services </summary>
 
-   Se estiver usando Cloud Services, clique no link **Fechar** botão para voltar à página de Navegação AEM.
-   </details>
+  Se estiver usando Cloud Service, clique no link **Fechar** botão para voltar à página de Navegação AEM.
+  </details>
 
-   <details>
+  <details>
 
-   <summary> Software local</summary>
+  <summary> Software local</summary>
 
-   Se você estiver usando o Software no local Guias do AEM (4.2.1 e posterior), clique no link **Fechar** botão à direita para voltar ao caminho do arquivo atual na interface do usuário do Assets.
+  Se você estiver usando o Software no local Guias do AEM (4.2.1 e posterior), clique no link **Fechar** botão à direita para voltar ao caminho do arquivo atual na interface do usuário do Assets.
 
-   </details>
+  </details>
 
 ## Interface do usuário do AEM Assets {#id2056BG0307U}
 

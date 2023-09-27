@@ -1,10 +1,10 @@
 ---
 title: Gerenciar tarefas de revisão usando o Painel de revisão
-description: Saiba como Gerenciar tarefas de revisão usando o Painel de revisão
+description: Gerencie tarefas de revisão no Painel de revisão em Guias do AEM. Saiba mais sobre como executar ações na guia tarefa, conteúdo, revisores e verifique o status de uma tarefa de revisão.
 exl-id: 617017fe-59b6-4b38-b375-a126fa9dddf5
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,9 @@ Você pode executar as seguintes ações no **Tarefa** guia:
 - Clique em **Concluído** para marcar a tarefa de revisão como concluída antes da data de vencimento. Quando a tarefa de um tópico for marcada como Concluída, a revisão do tópico selecionado será fechada. No entanto, no caso de tópicos compartilhados para revisão por meio de um mapa DITA, marcar a tarefa do mapa DITA como Concluída fechará a revisão de todos os tópicos no mapa que foram compartilhados para revisão.
 - Clique em **Duplicar** para criar uma cópia da tarefa de revisão. O processo de criação de uma tarefa de revisão duplicada é semelhante à criação de uma nova tarefa de revisão. Depois de iniciar o workflow de tarefa duplicada, você verá a página Criar Tarefa de Revisão. Você precisa fornecer os detalhes da nova tarefa conforme explicado em [Enviar tópicos para revisão](review-send-topics-for-review.md#).
 
-   Se você tiver selecionado uma tarefa de revisão criada a partir de um mapa DITA, serão exibidos os tópicos que são parte do mapa. Você pode então escolher os tópicos que deseja incluir na nova tarefa de revisão.
+  Se você tiver selecionado uma tarefa de revisão criada a partir de um mapa DITA, serão exibidos os tópicos que são parte do mapa. Você pode então escolher os tópicos que deseja incluir na nova tarefa de revisão.
 
-   No caso de tarefa de revisão duplicada de uma ou várias revisões de tópicos, apenas esses tópicos serão mostrados na lista de tarefas de revisão. Você pode optar por compartilhar esses tópicos para revisão com um conjunto diferente de revisores.
+  No caso de tarefa de revisão duplicada de uma ou várias revisões de tópicos, apenas esses tópicos serão mostrados na lista de tarefas de revisão. Você pode optar por compartilhar esses tópicos para revisão com um conjunto diferente de revisores.
 
 - Clique em **Fechar** para ir até a página Caixa de entrada.
 
@@ -77,9 +77,9 @@ Você pode executar as seguintes ações no **Conteúdo** guia:
 
 - Clique em **Atualizar** para compartilhar a versão atualizada do tópico com os revisores. Os revisores recebem uma notificação por email informando que a versão mais recente do tópico foi enviada para revisão. Na próxima vez que um revisor abrir o tópico, ele verá a versão atualizada do tópico.
 
-   >[!NOTE]
-   >
-   > No caso de uma versão atualizada de um tópico, os comentários antigos também são mantidos na versão mais recente. Os revisores também podem ver as diferenças entre as duas versões.
+  >[!NOTE]
+  >
+  > No caso de uma versão atualizada de um tópico, os comentários antigos também são mantidos na versão mais recente. Os revisores também podem ver as diferenças entre as duas versões.
 
 - Clique em **Concluído** para marcar a tarefa de revisão como concluída antes da data de vencimento. Quando a tarefa de um tópico for marcada como Concluída, a revisão do tópico selecionado será fechada. No entanto, no caso de tópicos compartilhados para revisão por meio de um mapa DITA, marcar a tarefa do mapa DITA como Concluída fechará a revisão de todos os tópicos no mapa que foram compartilhados para revisão.
 
@@ -95,9 +95,9 @@ Você pode executar as seguintes ações no **Revisores** guia:
 - **Selecionar tudo**: seleciona todos os tópicos na lista de tópicos. Você pode executar facilmente uma operação em lote após selecionar todos os tópicos.
 - **Limpar seleção**: desmarca os tópicos selecionados na lista de tópicos.
 
-   >[!NOTE]
-   >
-   > Você também pode marcar ou desmarcar individualmente um tópico clicando na caixa de seleção ao lado dele.
+  >[!NOTE]
+  >
+  > Você também pode marcar ou desmarcar individualmente um tópico clicando na caixa de seleção ao lado dele.
 
 - **Adicionar**: exibe a caixa de diálogo Adicionar revisores. É possível digitar o nome de um revisor ou função de usuário \(ou grupo\) que você deseja adicionar como revisor aos tópicos selecionados.
 - **Remover**: exibe a caixa de diálogo Remover revisores. Você pode digitar o nome de um revisor ou função de usuário \(ou grupo\) que deseja remover como revisor dos tópicos selecionados.

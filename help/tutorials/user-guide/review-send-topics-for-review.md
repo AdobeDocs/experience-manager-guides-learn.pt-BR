@@ -1,10 +1,10 @@
 ---
 title: Enviar tópicos para revisão
-description: Saiba como enviar tópicos para revisão
+description: Saiba como criar uma tarefa de revisão e enviar tópicos para revisão nos Guias do AEM. Envie um ou mais tópicos em um mapa DITA para revisão.
 exl-id: 7a9b36ad-44d4-4952-9906-d95feb95d0c6
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -119,16 +119,16 @@ Para criar uma tarefa de revisão e enviar tópicos para revisão, execute as se
    - **Selecionar tudo**: seleciona todos os tópicos na lista de tópicos. Você pode executar facilmente uma operação em lote após selecionar todos os tópicos.
    - **Limpar seleção**: desmarca os tópicos selecionados na lista de tópicos.
 
-      >[!NOTE]
-      >
-      > Você também pode marcar ou desmarcar individualmente um tópico clicando na caixa de seleção ao lado dele.
+     >[!NOTE]
+     >
+     > Você também pode marcar ou desmarcar individualmente um tópico clicando na caixa de seleção ao lado dele.
 
    - **Adicionar**: exibe a caixa de diálogo Adicionar revisores. É possível digitar o nome de um revisor ou função de usuário \(ou grupo\) que você deseja adicionar como revisor aos tópicos selecionados.
    - **Remover**: exibe a caixa de diálogo Remover revisores. Você pode digitar o nome de um revisor ou função de usuário \(ou grupo\) que deseja remover como revisor dos tópicos selecionados.
 
-      >[!NOTE]
-      >
-      > Você também pode remover uma revisão de um tópico clicando no sinal cruzado na caixa do revisor.
+     >[!NOTE]
+     >
+     > Você também pode remover uma revisão de um tópico clicando no sinal cruzado na caixa do revisor.
 
    - **Reatribuir**: exibe a caixa de diálogo Reatribuir revisores. É possível digitar o nome de um revisor ou função de usuário \(ou grupo\) à qual você deseja atribuir a tarefa de revisão. Isso remove todos os revisores existentes dos tópicos selecionados e atribui os revisores recém-selecionados a esses tópicos.
    - **Exportar**: permite exportar os detalhes da tarefa de revisão em um arquivo CSV. O arquivo contém detalhes como caminho e título do tópico, nome do revisor e versão dos tópicos enviados para revisão.
@@ -235,16 +235,15 @@ Para enviar um ou vários tópicos juntamente com o arquivo de mapa para revisã
    - **Selecionar tudo**: seleciona todos os tópicos na lista de tópicos. Você pode executar facilmente uma operação em lote após selecionar todos os tópicos.
    - **Limpar seleção**: desmarca os tópicos selecionados na lista de tópicos.
 
-      >[!NOTE]
-      >
-      > Você também pode marcar ou desmarcar individualmente um tópico clicando na caixa de seleção ao lado dele.
+     >[!NOTE]
+     >
+     > Você também pode marcar ou desmarcar individualmente um tópico clicando na caixa de seleção ao lado dele.
 
    - **Adicionar**: exibe a caixa de diálogo Adicionar revisores. É possível digitar o nome de um revisor ou função de usuário \(ou grupo\) que você deseja adicionar como revisor aos tópicos selecionados.
    - **Remover**: exibe a caixa de diálogo Remover revisores. Você pode digitar o nome de um revisor ou função de usuário \(ou grupo\) que deseja remover como revisor dos tópicos selecionados.
    - **Reatribuir**: exibe a caixa de diálogo Reatribuir revisores. É possível digitar o nome de um revisor ou função de usuário \(ou grupo\) à qual você deseja atribuir a tarefa de revisão. Isso remove todos os revisores existentes dos tópicos selecionados e atribui os revisores recém-selecionados a esses tópicos.
    - **Exportar**: permite exportar os detalhes da tarefa de revisão em um arquivo CSV. O arquivo contém detalhes como caminho e título do tópico, nome do revisor e versão dos tópicos enviados para revisão.
    - **Editar Revisores**: Ao clicar no botão ![](images/edit_pencil_icon.svg)ícone na lista de tópicos exibe a caixa de diálogo Editar revisores. Você pode adicionar ou remover revisores para o tópico selecionado nesta caixa de diálogo.
-
    >[!IMPORTANT]
    >
    > Você deve atribuir pelo menos um revisor para criar a tarefa de revisão.

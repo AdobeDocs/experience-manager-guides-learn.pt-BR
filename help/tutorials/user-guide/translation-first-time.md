@@ -1,10 +1,10 @@
 ---
 title: Práticas recomendadas para tradução de conteúdo
-description: Saiba como aplicar as práticas recomendadas para tradução de conteúdo
+description: Conhecer as práticas recomendadas para a tradução de conteúdo nos Guias do AEM. Saiba como configurar o serviço de tradução, criar um novo projeto de tradução e iniciar o trabalho de tradução.
 exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
-source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1304'
 ht-degree: 1%
 
 ---
@@ -37,9 +37,9 @@ Execute as seguintes etapas para configurar o serviço de tradução humana ou a
 
 1. Na interface do usuário do Assets, selecione a pasta de idioma de origem.
 
-1. Abra as propriedades da pasta e vá para **Cloud Services** guia.
+1. Abra as propriedades da pasta e vá para **Cloud Service** guia.
 
-1. No **Cloud Services** , configure o serviço de tradução que deseja usar.
+1. No **Cloud Service** , configure o serviço de tradução que deseja usar.
 
    Você pode configurar tradução humana ou baseada em máquina.
 

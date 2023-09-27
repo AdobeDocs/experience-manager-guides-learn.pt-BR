@@ -1,10 +1,10 @@
 ---
 title: Trabalhar com o Editor básico de mapas
-description: Saiba como trabalhar com o Editor básico de mapas
+description: Saiba como trabalhar com o Editor básico de mapas em Guias do AEM. Conhecer os recursos do editor de mapa básico no nível do mapa e do tópico. Criar e editar tabelas de relacionamento em um mapa DITA.
 exl-id: 85194806-db3f-442b-a551-540d148d26ec
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---

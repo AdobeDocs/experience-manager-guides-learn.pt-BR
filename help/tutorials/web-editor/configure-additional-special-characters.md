@@ -1,12 +1,12 @@
 ---
 title: Configurar caracteres especiais adicionais na barra de ferramentas do Editor da Web
-description: Como configurar caracteres especiais adicionais na barra de ferramentas do Editor da Web
+description: Saiba como configurar caracteres especiais adicionais no editor da Web do AEM Guides.
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -62,4 +62,3 @@ Isso adicionará outra categoria na caixa de diálogo de caracteres especiais:
 >[!MORELIKETHIS]
 >
 >+ [Guia de instalação e configuração](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
-

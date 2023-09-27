@@ -1,10 +1,10 @@
 ---
 title: Visualizações do Editor da Web
-description: Saiba como acessar visualizações do Editor da Web
+description: Visualize documentos no modo de autor, fonte e visualização. Saiba como visualizar o conteúdo com base em filtros condicionais, visualizar as marcações de alterações de rastreamento e exportar um tópico como PDF nos Guias do AEM.
 exl-id: 86d8abc2-1d0e-4744-91c9-848c00447971
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -27,62 +27,62 @@ A visualização Código-fonte exibe o XML subjacente que compõe o tópico. Se 
 
 - Para chamar o Catálogo inteligente, coloque o cursor no final de qualquer tag de elemento onde deseja inserir o novo elemento e insira &quot;&lt;&quot;. O editor mostra uma lista de todos os elementos XML válidos que você pode inserir nesse local. Use as teclas de seta para selecionar o elemento que deseja inserir e pressione Enter. Ao inserir o colchete &quot;\>, a tag de fechamento do elemento é adicionada automaticamente.
 
-   ![](images/smart-catalog-elements.png){width="400" align="left"}
+  ![](images/smart-catalog-elements.png){width="400" align="left"}
 
 - Você também pode alterar um elemento facilmente na visualização Código-fonte. Por exemplo, se você alterar a tag de abertura de um `p` elemento para `note`, depois o fechamento `p` é automaticamente alterada para `/note`. Caso substitua um elemento por um elemento incorreto, você verá imediatamente o Erro de validação.
 
 - Se quiser adicionar um atributo a um elemento, coloque o cursor dentro da tag element e pressione a barra Espaço. Uma lista de atributos válidos para esse elemento é mostrada no Catálogo inteligente. Use as teclas de seta para selecionar o elemento desejado e pressione Enter para inserir o elemento. Para especificar um valor para o atributo, digite o sinal de igual \(=\) e o editor insere automaticamente as aspas de abertura e fechamento &quot; &quot;, onde você pode especificar o valor do atributo.
 
-   ![](images/smart-catalog-attribute.png){width="350" align="left"}
+  ![](images/smart-catalog-attribute.png){width="350" align="left"}
 
 - Na visualização Código-fonte, há uma opção de Recuo automático que reorganiza o código XML no formato apresentável e facilmente legível. Além disso, se você selecionar qualquer texto e alternar da exibição Autor para Origem ou da exibição Origem para Autor, o texto selecionado também será destacado na outra exibição.
 - Outro recurso poderoso na visualização Código-fonte é a validação XML no documento. Se você abrir um documento contendo XML inválido, ele será aberto na visualização Código-fonte com as informações sobre XML inválido. Por exemplo, na captura de tela a seguir, a informação exata sobre o XML incorreto é fornecida na janela pop-up Erro de análise.
 
-   ![](images/invalid-topic-xml.png){width="650" align="left"}
+  ![](images/invalid-topic-xml.png){width="650" align="left"}
 
-   Na captura de tela acima, um destaque cruzado é usado para apontar a linha que contém XML incorreto.
+  Na captura de tela acima, um destaque cruzado é usado para apontar a linha que contém XML incorreto.
 
 - O recurso Localizar e substituir permite procurar qualquer texto, elemento ou atributo na Exibição de origem.
 Para obter mais detalhes, consulte **Localizar e substituir** descrição do recurso na [Barra de ferramentas principal](web-editor-features.md#id#id2051EA0G05Z) seção.
 
 - A Exibição de origem fornece muitos atalhos para ajudá-lo a navegar e trabalhar rapidamente em um documento. A tabela a seguir lista as ações compatíveis e suas teclas de atalho:
 
-   | Para fazer isso | Usar este atalho |
-   |----------|-----------------|
-   | Adicionar vários cursores | **Ctrl**+Clique com o botão esquerdo |
-   | Várias seleções de texto não consecutivas | **Ctrl**+Clique com o botão esquerdo para arrastar e selecionar o texto |
-   | Selecionar texto entre e entre linhas | **Alt**+Clique com o botão esquerdo para arrastar e selecionar o texto |
-   | Desfazer seleção múltipla ou sair do modo de tela cheia | **Esc** |
-   | Mostrar preenchimento automático | **Ctrl**+**Espaço** |
-   | Ir para a tag de abertura ou fechamento da tag atual | **Ctrl**+**J** |
-   | Expandir ou recolher a tag atual e seu conteúdo | **Ctrl**+**Q** |
-   | Selecionar o elemento atual e seu conteúdo | **Ctrl**+**L** |
-   | Recuar para a esquerda o elemento atual | **Shift**+**Guia** |
-   | Excluir o elemento atual e seu conteúdo | **Shift**+**Ctrl**+**K** |
-   | Mover o cursor uma palavra para a esquerda | **Alt**+**Seta para a esquerda** |
-   | Mover o cursor uma palavra para a direita | **Alt**+**Seta para a direita** |
-   | Rolar uma linha para cima sem alterar a localização do cursor | **Ctrl**+**Seta para cima** |
-   | Rolar uma linha para baixo sem alterar a localização do cursor | **Ctrl**+**Seta para baixo** |
-   | Alternar tela inteira | **F11** |
-   | Inserir uma nova linha após o elemento atual | **Ctrl**+**Enter** |
-   | Inserir uma nova linha antes do elemento atual | **Shift**+**Ctrl**+**Enter** |
-   | Localizar e selecionar a próxima ocorrência da palavra atual | **Ctrl**+**D** |
-   | Mover o elemento atual e seu conteúdo um elemento para cima | **Shift**+**Ctrl**+**Seta para cima** |
-   | Mover o elemento atual e seu conteúdo um elemento para baixo | **Shift**+**Ctrl**+**Seta para baixo** |
-   | Envolver o elemento atual na tag de comentário | **Ctrl**+**/** |
-   | Duplicar o elemento atual e seu conteúdo | **Shift**+**Ctrl**+**D** |
-   | Excluir o texto após o cursor. Se o cursor estiver antes de um elemento de abertura, o elemento inteiro será excluído. | **Ctrl**+**K**+**K** |
-   | Exclui o texto à esquerda do cursor na linha atual. Se o cursor estiver após a tag de fechamento de um elemento, o elemento inteiro será excluído. | **Ctrl**+**K**+**Backspace** |
-   | Converter o texto atual em maiúsculas | **Ctrl**+**K**+**U** |
-   | Converter o texto atual em minúsculas | **Ctrl**+**K**+**L** |
-   | Rolar o elemento atual para o centro do editor | **Ctrl**+**K**+**C** |
-   | Adicionar um cursor acima da posição atual | **Ctrl**+**Alt**+**Seta para cima** |
-   | Adicionar um cursor abaixo da posição atual | **Ctrl**+**Alt**+**Seta para baixo** |
-   | Localizar recursivamente a palavra atual \(na direção anterior\) | **Ctrl**+**F3** |
-   | Localizar recursivamente a palavra atual \(na direção inversa\) | **Shift**+**Ctrl**+**F3** |
+  | Para fazer isso | Usar este atalho |
+  |----------|-----------------|
+  | Adicionar vários cursores | **Ctrl**+Clique com o botão esquerdo |
+  | Várias seleções de texto não consecutivas | **Ctrl**+Clique com o botão esquerdo para arrastar e selecionar o texto |
+  | Selecionar texto entre e entre linhas | **Alt**+Clique com o botão esquerdo para arrastar e selecionar o texto |
+  | Desfazer seleção múltipla ou sair do modo de tela cheia | **Esc** |
+  | Mostrar preenchimento automático | **Ctrl**+**Espaço** |
+  | Ir para a tag de abertura ou fechamento da tag atual | **Ctrl**+**J** |
+  | Expandir ou recolher a tag atual e seu conteúdo | **Ctrl**+**Q** |
+  | Selecionar o elemento atual e seu conteúdo | **Ctrl**+**L** |
+  | Recuar para a esquerda o elemento atual | **Shift**+**Guia** |
+  | Excluir o elemento atual e seu conteúdo | **Shift**+**Ctrl**+**K** |
+  | Mover o cursor uma palavra para a esquerda | **Alt**+**Seta para a esquerda** |
+  | Mover o cursor uma palavra para a direita | **Alt**+**Seta para a direita** |
+  | Rolar uma linha para cima sem alterar a localização do cursor | **Ctrl**+**Seta para cima** |
+  | Rolar uma linha para baixo sem alterar a localização do cursor | **Ctrl**+**Seta para baixo** |
+  | Alternar tela inteira | **F11** |
+  | Inserir uma nova linha após o elemento atual | **Ctrl**+**Enter** |
+  | Inserir uma nova linha antes do elemento atual | **Shift**+**Ctrl**+**Enter** |
+  | Localizar e selecionar a próxima ocorrência da palavra atual | **Ctrl**+**D** |
+  | Mover o elemento atual e seu conteúdo um elemento para cima | **Shift**+**Ctrl**+**Seta para cima** |
+  | Mover o elemento atual e seu conteúdo um elemento para baixo | **Shift**+**Ctrl**+**Seta para baixo** |
+  | Envolver o elemento atual na tag de comentário | **Ctrl**+**/** |
+  | Duplicar o elemento atual e seu conteúdo | **Shift**+**Ctrl**+**D** |
+  | Excluir o texto após o cursor. Se o cursor estiver antes de um elemento de abertura, o elemento inteiro será excluído. | **Ctrl**+**K**+**K** |
+  | Exclui o texto à esquerda do cursor na linha atual. Se o cursor estiver após a tag de fechamento de um elemento, o elemento inteiro será excluído. | **Ctrl**+**K**+**Backspace** |
+  | Converter o texto atual em maiúsculas | **Ctrl**+**K**+**U** |
+  | Converter o texto atual em minúsculas | **Ctrl**+**K**+**L** |
+  | Rolar o elemento atual para o centro do editor | **Ctrl**+**K**+**C** |
+  | Adicionar um cursor acima da posição atual | **Ctrl**+**Alt**+**Seta para cima** |
+  | Adicionar um cursor abaixo da posição atual | **Ctrl**+**Alt**+**Seta para baixo** |
+  | Localizar recursivamente a palavra atual \(na direção anterior\) | **Ctrl**+**F3** |
+  | Localizar recursivamente a palavra atual \(na direção inversa\) | **Shift**+**Ctrl**+**F3** |
 
 
-## Visualizar
+## Visualização
 
 Abrir um tópico no modo de Visualização mostra como um tópico será exibido quando for visualizado por um usuário em seu navegador. No caso de um mapa DITA, uma visualização do mapa é mostrada, onde um único documento composto de todos os tópicos no mapa é mostrado.
 
@@ -112,9 +112,9 @@ Há três **Rastreamento** opções que você pode escolher:
 - **Original**: nessa exibição, todas as inserções são rejeitadas, todas as exclusões são restauradas e uma visualização é exibida. Basta obter a forma original do documento antes de ativar o modo de controle de alterações.
 - **Mostrar Marcação**: nessa visualização, você obtém todas as marcações para conteúdo inserido e excluído.
 
-   A imagem a seguir mostra a pré-visualização de um arquivo de mapa com marcações:
+  A imagem a seguir mostra a pré-visualização de um arquivo de mapa com marcações:
 
-   ![](images/preview-map-with-track-changes.PNG){width="800" align="left"}
+  ![](images/preview-map-with-track-changes.PNG){width="800" align="left"}
 
 
 ### Exportar um tópico como PDF {#id2114BL00B5U}

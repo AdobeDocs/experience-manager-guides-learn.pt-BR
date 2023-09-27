@@ -1,10 +1,10 @@
 ---
 title: PDF
-description: Saiba como fazer o PDF
+description: Gerar e configurar saída de PDF para documentos do FrameMaker nos Guias do AEM.
 exl-id: ece004ed-5233-460b-889d-94e693ceed93
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '381'
 ht-degree: 3%
 
 ---
@@ -38,4 +38,4 @@ As seguintes opções estão disponíveis para a saída de PDF:
 | Caminho de destino | O caminho no repositório AEM onde a saída de PDF está armazenada. |
 | Executar fluxo de trabalho de pós-geração | Ao escolher essa opção, uma nova lista suspensa Fluxo de trabalho de pós-geração é exibida contendo todos os fluxos de trabalho configurados no AEM. Você deve selecionar um workflow que deseja executar após a conclusão do workflow de geração de saída. |
 
-**Tópico pai:**[ Gerar saída de documentos do FrameMaker](fm-output-generatation.md)
+**Tópico pai:**[ Gerar saída de documentos de FrameMaker](fm-output-generatation.md)

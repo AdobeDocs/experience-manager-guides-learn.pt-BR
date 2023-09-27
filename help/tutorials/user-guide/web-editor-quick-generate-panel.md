@@ -1,10 +1,10 @@
 ---
 title: Usar o painel Geração rápida
-description: Saiba como usar o painel Geração rápida
+description: Use o painel de geração rápida em Guias do AEM. Saiba como gerar e visualizar a saída do painel de geração rápida.
 exl-id: d48803d9-470c-4679-8def-72b45a85917b
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: Baixar arquivos
-description: Saiba como Baixar arquivos
+description: Saiba como baixar arquivos do console de mapas DITA em Guias AEM e exportar um arquivo de mapas DITA no repositório AEM.
 exl-id: 3b588256-da30-4a98-be5c-fa36cfa8a80b
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA junto com seus a
 
    - **Usar Linha de Base**: selecione esta opção para obter uma lista de Linhas de Base criadas para o mapa DITA. Para baixar o arquivo de mapa e seu conteúdo com base em uma Linha de Base específica, selecione a Linha de Base na lista suspensa. Para obter mais detalhes sobre como trabalhar com Linhas de Base, consulte [Trabalhar com linha de base](generate-output-use-baseline-for-publishing.md#).
    - **Nivelar Hierarquia de Arquivo**: selecione esta opção para salvar todos os tópicos e arquivos de mídia referenciados em uma única pasta.
-
    >[!NOTE]
    >
    > Também é possível baixar o arquivo de mapa sem selecionar nenhuma opção. Nesse caso, a última versão persistente dos tópicos e arquivos de mídia referenciados é baixada.
@@ -47,6 +46,7 @@ Execute as seguintes etapas para baixar um arquivo de mapa DITA junto com seus a
    - Clique em **Baixar** para baixar o arquivo de mapa no formato .zip.
 
    - Clique em **Baixar mais tarde** para baixar o arquivo de mapa posteriormente. O link de download pode ser acessado na Caixa de entrada de notificação do AEM. Clique na notificação de mapa gerada na Caixa de entrada para baixar o mapa no formato .zip.
+
    >[!NOTE]
    >
    > Por padrão, os mapas baixados permanecem por cinco dias na Caixa de entrada de notificação do AEM.

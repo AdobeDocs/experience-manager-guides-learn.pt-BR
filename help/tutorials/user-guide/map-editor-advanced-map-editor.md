@@ -1,10 +1,10 @@
 ---
 title: Trabalhar com o Editor de mapa avançado
-description: Saiba como trabalhar com o Editor de mapa avançado
+description: Saiba como trabalhar com o editor de mapa avançado em Guias do AEM. Conhecer os recursos do Editor de Mapa avançado. Edite tópicos por meio de um mapa DITA e use o modo de exibição de layout, de criação e de visualização.
 exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '3675'
+source-wordcount: '3701'
 ht-degree: 0%
 
 ---
@@ -77,15 +77,15 @@ Execute as seguintes etapas para criar seu arquivo de mapa usando o Editor de ma
 
    - O arquivo é adicionado em um local onde a barra horizontal aparece na área de edição de mapa. Na seguinte captura de tela, a variável *Visão geral* o tópico será adicionado entre as *Descrição geral* e *Site de lançamento e aterrissagem* tópicos.
 
-      ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
    - Para substituir um tópico, coloque-o na parte superior, esquerda ou direita do tópico que deseja substituir. Uma barra Vertical à esquerda ou direita de um tópico indica que ele será substituído pelo tópico solto sobre ele.
 
-      ![](images/vertical-bar-left-right.png){width="550" align="left"}
+     ![](images/vertical-bar-left-right.png){width="550" align="left"}
 
-      No entanto, antes de substituir um tópico, você receberá um prompt de confirmação. O tópico é substituído somente após a confirmação.
+     No entanto, antes de substituir um tópico, você receberá um prompt de confirmação. O tópico é substituído somente após a confirmação.
 
-      ![](images/replace-topic-confirm.png){width="300" align="left"}
+     ![](images/replace-topic-confirm.png){width="300" align="left"}
 
    - Se você adicionar um submapa ao mapa DITA, o submapa será mostrado como um link no mapa DITA. Para exibir todos os tópicos do submapa, pressione Ctrl e clique no link do submapa. O conteúdo do submapa é mostrado em uma nova guia. Da mesma forma, para abrir um tópico no mapa DITA, clique com o botão Ctrl no link do tópico e ele será aberto na nova guia.
 
@@ -93,7 +93,7 @@ Execute as seguintes etapas para criar seu arquivo de mapa usando o Editor de ma
 
    - Para alterar a posição de um tópico, selecione o tópico \(clicando no ícone de tópico\) e arraste-o e solte-o no local desejado no arquivo de mapa. Certifique-se de que a barra horizontal esteja visível no local onde você deseja colocar o tópico. Na captura de tela a seguir, o tópico *Site de lançamento e aterrissagem* está sendo movido após o *Visão geral* tópico.
 
-      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
+     ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
    - Para verificar as propriedades do arquivo de mapa, clique com o botão direito do mouse em qualquer lugar na área de edição de mapas e escolha **Propriedades** no menu de contexto. Com base na versão do AEM, você pode ver propriedades como metadados, programação de ativação, referências, estado do documento e muito mais.
 
@@ -209,16 +209,16 @@ Além de organizar tópicos no arquivo de mapa, você também pode executar as s
 - **Refazer**: Refaz a última operação na exibição de layout.
 - **Copiar**: copie a referência selecionada do arquivo de mapa.
 
-   >[!NOTE]
-   >
-   > Você pode exibir e marcar as caixas de seleção para copiar várias referências.
+  >[!NOTE]
+  >
+  > Você pode exibir e marcar as caixas de seleção para copiar várias referências.
 
 - **Colar**: cole as referências copiadas no local atual na hierarquia.
 - **Excluir**: exclua as referências selecionadas do arquivo de mapa.
 
-   >[!NOTE]
-   >
-   > Você pode exibir e marcar as caixas de seleção para excluir várias referências.
+  >[!NOTE]
+  >
+  > Você pode exibir e marcar as caixas de seleção para excluir várias referências.
 
 
 ## Painel direito no Editor de mapa
@@ -231,10 +231,10 @@ O painel Propriedades de conteúdo contém informações sobre o tipo de tópico
 
 - **Outros atributos** Se o administrador tiver criado um perfil para atributos, você obterá esses atributos junto com seus valores configurados. Usando o painel de propriedades de conteúdo, você pode escolher esses atributos e atribuí-los ao conteúdo relevante em seu tópico. Você também pode designar atributos configurados pelo administrador na variável **Atributos de exibição** nas configurações do editor. Os atributos definidos para um elemento são exibidos na exibição Layout e Estrutura de Tópicos. Isso ajuda você a ter uma olhada rápida em todos os tópicos em um mapa para o qual um determinado atributo é definido. Por exemplo, todos os tópicos que têm o atributo de plataforma definido como &quot;Android&quot;.
 
-   ![](images/layout-inline-attributes.png){width="650" align="left"}
+  ![](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-   Para obter mais detalhes, consulte *Atributos de exibição* no prazo de *Configurações do editor* descrição do recurso na [Painel esquerdo](web-editor-features.md#id2051EA0M0HS) seção.
+  Para obter mais detalhes, consulte *Atributos de exibição* no prazo de *Configurações do editor* descrição do recurso na [Painel esquerdo](web-editor-features.md#id2051EA0M0HS) seção.
 
 - **Metadados** Usando os metadados , é possível definir as informações de metadados. Você pode definir o Título de navegação, Texto do link, Descrição curta e Palavras-chave.
 
@@ -266,7 +266,7 @@ Exibe a caixa de diálogo Reutilizar conteúdo. Use esta caixa de diálogo para 
 
 **Atualizar atributo de título de navegação** - ![](images/navtitle-refresh-icon.svg)
 
-Sincroniza o `title` elemento de um arquivo referenciado em um mapa com o valor especificado em seu `@navtitle` atributo. É possível adicionar diferentes tipos de arquivos de referência em um mapa, por exemplo, tópico, referência, tarefa, mapas \(sub\) e assim por diante. A maioria desses arquivos suporta o `@navtitle` atributo. Se um arquivo contiver a variável `@navtitle` atributo, depois a variável `@navtitle` o atributo para o mesmo arquivo no mapa é atualizado. Caso a variável `@navtitle` atributo não estiver presente, a variável `@navtitle` o atributo é adicionado a esse arquivo de referência e seu `title` também é atualizado para exibir a variável `@navtitle`.
+Sincroniza o `title` elemento de um arquivo referenciado em um mapa com o valor especificado em seu `@navtitle` atributo. É possível adicionar diferentes tipos de arquivos de referência em um mapa, por exemplo, tópico, referência, tarefa, mapas \(sub\) e assim por diante. A maioria desses arquivos oferece suporte ao `@navtitle` atributo. Se um arquivo contiver a variável `@navtitle` atributo, depois a variável `@navtitle` o atributo para o mesmo arquivo no mapa é atualizado. Caso a variável `@navtitle` atributo não estiver presente, a variável `@navtitle` o atributo é adicionado a esse arquivo de referência e seu `title` também é atualizado para exibir a variável `@navtitle`.
 
 >[!NOTE]
 >
@@ -334,14 +334,14 @@ Para editar tópicos por meio de um mapa DITA, execute as seguintes etapas:
 
    - Você pode salvá-los individualmente. Se você clicar em **Fechar sem salvar** Em seus tópicos, você verá uma caixa de diálogo solicitando que você salve os tópicos não salvos:
 
-      ![](images/save-multiple-topics.PNG){width="550" align="left"}
+     ![](images/save-multiple-topics.PNG){width="550" align="left"}
 
-      Você pode optar por salvar todos os tópicos selecionados ou desmarcar os tópicos que não deseja salvar.
+     Você pode optar por salvar todos os tópicos selecionados ou desmarcar os tópicos que não deseja salvar.
 
    - Você pode fazer check-in do tópico usando a **Salvar como nova versão e desbloquear** botão. Quando você salva uma revisão do tópico, uma nova revisão é criada e o bloqueio também é liberado.
    - Se o administrador tiver ativado a opção de fazer check-in de arquivos ao fechar, você receberá um prompt para salvar os arquivos sempre que os arquivos com check-out forem fechados. Com essa opção ativada, ao fechar o editor com arquivos alterados, você verá a lista de arquivos com check-out que precisam ser salvos. Os arquivos com check-out são mostrados com um ícone de cadeado:
 
-      ![](images/save-on-close.PNG){width="550" align="left"}
+     ![](images/save-on-close.PNG){width="550" align="left"}
 
       - Clicando em **Fechar sem salvar** fecha os arquivos sem salvar as alterações.
 
@@ -358,21 +358,21 @@ Você pode acessar a visualização de um mapa em:
 
 - **Interface do usuário do Assets**: na interface do usuário do Assets, navegue até o local do mapa, selecione o arquivo de mapa e escolha **Visualizar mapa** na barra de ferramentas. A visualização do mapa é mostrada em uma nova guia. É possível exibir o conteúdo de todos os tópicos no modo de visualização. Nesta exibição, não é possível editar nenhum tópico.
 
-   >[!NOTE]
-   >
-   > Se a variável *Visualizar mapa* opção não estiver visível na barra de ferramentas principal, ela pode ter sido movida para baixo da **Mais** barra de ferramentas.
+  >[!NOTE]
+  >
+  > Se a variável *Visualizar mapa* opção não estiver visível na barra de ferramentas principal, ela pode ter sido movida para baixo da **Mais** barra de ferramentas.
 
 - **Editor de mapa avançado**: No Editor de mapa avançado, clique no ícone Visualizar para visualizar o mapa atual.
 
-   ![](images/map-preview-icon.png){width="350" align="left"}
+  ![](images/map-preview-icon.png){width="350" align="left"}
 
-   Você pode executar as seguintes tarefas adicionais no modo de visualização:
+  Você pode executar as seguintes tarefas adicionais no modo de visualização:
 
    - Clique com o botão direito em um tópico e selecione **Editar** para abrir o tópico para edição em uma nova guia.
 
-      >[!NOTE]
-      >
-      > Se você não tiver direitos de edição, o tópico será aberto no modo somente leitura.
+     >[!NOTE]
+     >
+     > Se você não tiver direitos de edição, o tópico será aberto no modo somente leitura.
 
    - Pule para o tópico desejado clicando no título do tópico na árvore de mapa \(no painel esquerdo\).
 

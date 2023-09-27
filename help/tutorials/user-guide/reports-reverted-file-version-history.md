@@ -1,10 +1,10 @@
 ---
 title: Relatório de histórico de versão de arquivos revertidos
-description: Saiba como reverter o relatório de histórico de versão de arquivos
+description: Visualize relatórios de histórico de versão de arquivos revertidos nos Guias AEM. Saiba como acessar logs de versão de reversão na interface do usuário do Assets, na pré-visualização de tópicos e na seleção de ferramentas do AEM.
 exl-id: fa90b373-742a-4102-b00f-07e4113fef98
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Você pode acessar esse relatório nos seguintes locais:
 
 - **Interface do usuário do Assets**: selecionando um arquivo e abrindo o **Histórico da versão** do painel esquerdo. A variável **Histórico da versão** a exibição contém o **Reverter logs da versão** na parte inferior do painel. Ao clicar nesse link, o histórico do arquivo selecionado das versões revertidas é exibido.
 
-   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
+  ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
 - **Visualização do tópico**: quando você estiver visualizando um tópico, também poderá exibir a **Histórico da versão** painel à esquerda. Você obterá um painel semelhante à interface do usuário do Assets, onde é possível clicar no link **Reverter logs da versão** link para acessar o histórico de versões revertidas do documento ativo.
 

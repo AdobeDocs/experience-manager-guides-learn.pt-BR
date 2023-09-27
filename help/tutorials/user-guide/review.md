@@ -1,10 +1,10 @@
 ---
 title: Revisar tópicos ou mapas
-description: Saiba como revisar tópicos ou mapas
+description: Revise com eficiência tópicos ou mapas em guias de AEM para uma avaliação de conteúdo suave. Conhecer os recursos para autores e revisores nos Guias do AEM.
 exl-id: 26860f5d-d744-49b4-8483-4e0f3798af93
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---

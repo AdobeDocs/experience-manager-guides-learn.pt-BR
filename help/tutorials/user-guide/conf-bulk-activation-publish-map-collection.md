@@ -1,10 +1,10 @@
 ---
 title: Ativar saída
-description: Saiba como ativar a saída
+description: Ative a saída de mapas DITA em guias AEM. Saiba como ativar o conteúdo na instância de publicação.
 exl-id: a3b6cfed-813e-433c-891f-bb0715e7b94a
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
@@ -30,8 +30,7 @@ Depois de criar uma coleção de mapas para ativação em massa, a próxima etap
 
    - Para ativar a saída de mapas selecionados, selecione os arquivos de mapa e clique em **Publicação rápida**.
    - Para ativar a saída de todos os mapas DITA com suas predefinições configuradas, marque a caixa de seleção ao lado de Mapa \(coluna\) e clique em **Publicação rápida.**
-
-      ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+     ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
 
 Quando a saída for ativada para os arquivos de mapa selecionados, a coluna Publicado será atualizada com a data e a hora atuais.

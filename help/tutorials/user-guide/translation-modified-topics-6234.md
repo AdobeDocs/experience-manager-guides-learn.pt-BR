@@ -1,10 +1,10 @@
 ---
 title: Traduzir tópicos modificados
-description: Saiba como traduzir tópicos modificados
+description: Saiba como traduzir novamente um tópico modificado nos Guias do AEM.
 exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,7 @@ Execute as seguintes etapas para enviar um tópico modificado para nova traduç�
    - Clique em **Aceitar tradução** se você acha que as alterações foram traduzidas corretamente. Uma mensagem de confirmação é exibida.
 
    - Clique em **Rejeitar tradução** se você acha que o trabalho precisa ser refeito. Uma mensagem de rejeição é exibida.
+
    >[!NOTE]
    >
    > É importante aceitar ou rejeitar o ativo traduzido, caso contrário, o arquivo permanecerá no local temporário e não será copiado para o DAM.

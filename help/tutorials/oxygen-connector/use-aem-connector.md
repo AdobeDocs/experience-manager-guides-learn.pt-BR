@@ -4,9 +4,9 @@ description: Saiba como usar o Oxygen Plugin para Adobe Experience Manager Guide
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 7fbc6d22fd2f93b7b5bf3233f7ebdd0cb020dda2
+source-git-commit: 23c1dfb405643bd9f5906807dddc4fff3f2e8535
 workflow-type: tm+mt
-source-wordcount: '6038'
+source-wordcount: '6120'
 ht-degree: 0%
 
 ---
@@ -377,7 +377,12 @@ Se quiser usar os editores disponíveis nos Guias do AEM, selecione a opção ne
 
 Ao fazer check-out de um arquivo, ele é armazenado localmente no sistema e bloqueado para edição no repositório AEM. Execute as seguintes etapas para fazer check-out de um arquivo:
 
-1. Clique com o botão direito do mouse em um arquivo no painel Guias do AEM.
+1. Você pode fazer check-out dos arquivos de uma das seguintes maneiras:
+   - Clique com o botão direito do mouse em um arquivo no painel Guias do AEM.
+   - Clique com o botão direito do mouse na guia do mapa no painel Gerenciador de mapas DITA.
+   - Clique com o botão direito do mouse em um arquivo no painel Gerenciador de mapas DITA.
+   - Clique com o botão direito do mouse na guia do arquivo ao abrir um mapa ou tópico no Editor.
+
 1. Selecione uma das seguintes opções:
    - **Check-out:** Faz check-out de um arquivo do repositório AEM e o disponibiliza para edição.
    - **Check-out com dependentes**: faz o check-out de um arquivo com suas referências diretas. É possível fazer alterações em páginas pai e filho usando essa opção. O plug-in Oxygen para guias AEM oferece suporte à verificação de um nível de dependentes. Por exemplo, o Mapa A faz referência ao Tópico A e o Tópico A faz referência ao Tópico B. Fazer check-out do Mapa A finalizará o Tópico A, independentemente do seu nível na hierarquia do índice. No entanto, ele não verificará o Tópico B porque não está diretamente vinculado do Mapa A.
@@ -403,7 +408,13 @@ Ao fazer check-in de um arquivo, a cópia local do sistema é armazenada no repo
 
 1. Salve o arquivo clicando em **Arquivo** \> **Salvar**.
 
-1. Clique com o botão direito do mouse em um arquivo com check-out e escolha uma das duas opções a seguir:
+1. Clique com o botão direito do mouse em um arquivo ou mapa com check-out em um dos seguintes locais:
+   - Painel Guias do AEM
+   - Painel Gerenciador de mapas DITA
+   - A guia Arquivo quando você abre um mapa ou tópico no Editor.
+   - A guia Mapa no painel Gerenciador de Mapas DITA.
+
+1. Escolha entre as duas opções a seguir:
 
    - **Check-in**: faz o check-in do arquivo selecionado do sistema local no repositório AEM.
    - **Check-in com Dependentes:** Se você tiver feito check-out de um arquivo junto com seus dependentes, use essa opção para fazer check-in de todos os arquivos dependentes em uma única operação. Ao selecionar essa opção, você verá a caixa de diálogo Check-in com todos os arquivos dependentes. Clique em OK para fazer check-in de todos os arquivos de uma só vez.

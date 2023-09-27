@@ -1,10 +1,10 @@
 ---
 title: Principais recursos dos Guias do AEM
-description: Saiba mais sobre os principais recursos dos Guias do AEM
+description: Explore os principais recursos dos Guias do AEM, criação de DITA, gerenciamento de conteúdo, revisão baseada na Web, tradução, localização, publicação multicanal e integração do FrameMaker.
 exl-id: f456741a-b504-4686-8230-64fac0ad8939
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Todos os documentos no DAM agora recebem um status de documento. Este status de 
 **O melhor do setor em gerenciamento de tradução e suporte à localização**
 Obtenha economias significativas no tempo e nos custos de tradução e garanta que o conteúdo publicado não contenha erros de tradução.
 
-O Adobe Experience Manager vem com conectores integrados para os principais provedores de tradução. Aproveite esses conectores para gerenciar conteúdo específico do local. Aproveite ao máximo os relatórios de tradução prontos para uso detalhados para identificar o conteúdo não traduzido antes da publicação e tomar as ações corretivas adequadas. Você pode gerenciar o status do conteúdo traduzido em relação às atualizações de idioma principais para realizar a tradução somente para os arquivos DITA atualizados. A identificação manual e demorada dos arquivos a serem enviados para tradução não é necessária.
+O Adobe Experience Manager vem com conectores integrados para os principais provedores de tradução. Aproveite esses conectores para gerenciar conteúdo específico do local. Aproveite ao máximo os relatórios de tradução prontos para uso detalhados para identificar o conteúdo não traduzido antes da publicação e tomar as ações corretivas adequadas. Você pode gerenciar o status do conteúdo traduzido em relação às atualizações do idioma principal para realizar a tradução somente para os arquivos DITA atualizados. A identificação manual e demorada dos arquivos a serem enviados para tradução não é necessária.
 
 **A melhor publicação multicanal da categoria de conteúdo DITA**
 Simplifique a publicação de conteúdo corporativo com uma abordagem contínua de um toque que acelera o tempo de entrada no mercado.
@@ -60,9 +60,9 @@ Impulsionar maior engajamento do usuário final e adoção de conteúdo por meio
 **Integração nativa com o Adobe FrameMaker**
 Desfrute de uma experiência rápida e contínua ao trabalhar com o Experience Manager e o FrameMaker (versão 2015) Atualização 4 ou posterior.
 
-A estreita integração do Experience Manager e do FrameMaker por meio de um conector integrado ajuda você a trabalhar perfeitamente com o repositório de conteúdo de Experience Manager. Aproveite o conector para começar rapidamente a criar, revisar e pesquisar conteúdo DITA.
+A estreita integração do Experience Manager e do FrameMaker por meio de um conector integrado ajuda você a trabalhar perfeitamente com o repositório de conteúdo Experience Manager. Aproveite o conector para começar rapidamente a criar, revisar e pesquisar conteúdo DITA.
 
-Usando o conector AEM no FrameMaker, você pode gerenciar seus arquivos do FrameMaker. O conector AEM permite que você carregue facilmente seu DITA e outros documentos do FrameMaker (.book e .fm) no AEM. O Guia do AEM também permite publicar documentos do FrameMaker diretamente do AEM. Caso seu arquivo de livro do FrameMaker contenha uma combinação de arquivos DITA e .fm, os Guias AEM também podem publicar esses documentos. Atualmente, você pode publicar arquivos .book e .fm do FrameMaker nos formatos PDF, HTML5 e EPUB.
+Usando o conector AEM no FrameMaker, você pode gerenciar os arquivos do FrameMaker. O conector AEM permite que você carregue facilmente seu DITA e outros documentos do FrameMaker (.book e .fm) no AEM. O AEM Guides também permite publicar documentos do FrameMaker diretamente do AEM. Caso seu arquivo do FrameMaker Book contenha uma combinação de arquivos DITA e .fm, os Guias do AEM também podem publicar esses documentos. Atualmente, você pode publicar arquivos .book e .fm do FrameMaker nos formatos PDF, HTML5 e EPUB.
 
 ## Recursos adicionais
 

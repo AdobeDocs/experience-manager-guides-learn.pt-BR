@@ -1,10 +1,10 @@
 ---
 title: Comentários de revisão de endereço
-description: Saiba como lidar com comentários de revisão
+description: Saiba como abordar comentários de revisão como autor nos Guias do AEM. Descubra como um autor pode editar, filtrar, aceitar ou rejeitar comentários em um documento.
 exl-id: 04f6114d-601f-4e92-a303-18a6dd309a49
-source-git-commit: b55b4aa572a680181388e24827daa7d045f1e406
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
