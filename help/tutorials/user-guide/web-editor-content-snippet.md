@@ -1,9 +1,9 @@
 ---
 title: Inserir um trecho de conteúdo da sua fonte de dados
-description: Saiba como inserir um trecho de conteúdo da sua fonte de dados
-source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
+description: Use dados da sua fonte de dados em Guias do AEM. Saiba como inserir um trecho de conteúdo da sua fonte de dados. Crie um tópico usando o gerador de tópicos.
+source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ Com base na sua configuração, o administrador pode configurar um conector de f
 <details>
 <summary> Cloud Services </summary>
 
-Saiba como [configurar um conector de fonte de dados](../cs-install-guide/conf-data-source-connector.md) no Guia de instalação e configuração do Cloud Service.
+
+- Se estiver usando a versão de outubro de 2023 ou posterior, saiba como [configurar um conector de fonte de dados usando as ferramentas](../cs-install-guide/conf-data-source-connector-tools.md) no Guia de instalação e configuração do Cloud Service.
+
+- Se estiver usando a versão de julho de 2023 ou setembro de 2023, saiba como [configurar um conector de fonte de dados](../cs-install-guide/conf-data-source-connector.md) no Guia de instalação e configuração do Cloud Service.
+
 </details>
 
 <details>    
@@ -83,6 +87,8 @@ Os modelos prontos para uso da fonte de dados selecionada são exibidos na lista
    >[!NOTE]
    >  
    > Se o administrador tiver configurado modelos personalizados, esses modelos também serão exibidos na lista suspensa (com base nas configurações de caminho do modelo feitas pelo administrador).
+   >   
+   >Também é possível usar as ferramentas do Velocity nos modelos. Saiba como [usar as ferramentas do Velocity](#use-velocity-tools).
 
 1. Clique em **Buscar** para buscar os dados da fonte de dados e aplicar o modelo nos dados resultantes da consulta SQL.
 
@@ -215,9 +221,7 @@ Execute as seguintes etapas para criar um tópico usando o gerador de tópicos:
 
 Clique com o botão direito do mouse em um gerador de tópico para abrir o **Opções**. Usando as opções, você pode executar as seguintes operações:
 
-- **Visualizar**: use essa opção para abrir um painel e visualizar uma pequena fração de como os dados são exibidos na saída.
-- **Gerar conteúdo**: Essa opção gera os tópicos para o gerador de tópicos selecionado. Também é possível usar essa opção para atualizar os tópicos existentes. Ele se conecta à fonte de dados e busca os dados atualizados.
-
+- **Gerar**: Essa opção gera os tópicos para o gerador de tópicos selecionado. Também é possível usar essa opção para atualizar os tópicos existentes. Ele se conecta à fonte de dados e busca os dados atualizados. Ao gerar o conteúdo, essa opção é desativada e você visualiza um carregador.
   >[!NOTE]
   >
   >Se o tópico já existir, você poderá substituir os dados nele contidos ou salvá-lo como uma nova versão.
@@ -225,11 +229,50 @@ Clique com o botão direito do mouse em um gerador de tópico para abrir o **Op�
   ![](images/generate-topic-options.png)
 
   *Gere um tópico e, se o arquivo já existir, salve-o como uma nova versão ou substitua-o.*
+- **Exibir registro**: selecione esta opção para exibir o arquivo de log de geração de conteúdo. O arquivo de log é aberto em uma nova guia. Você pode exibir os erros, avisos, mensagens de informações e exceções no arquivo de log. Essa opção estará ativada se você tiver gerado o conteúdo para o gerador de tópicos selecionado.
 
-- **Editar**: Use essa opção para alterar e salvar o gerador de tópicos.
-- **Excluir**: Use essa opção para excluir o gerador de tópicos selecionado.
+- **Visualizar**: use essa opção para abrir um painel e visualizar uma pequena fração de como os dados são exibidos na saída.
+
+
+
+- **Editar**: Use essa opção para alterar e salvar o gerador de tópicos. Essa opção é desativada enquanto você está gerando o conteúdo.
+- **Excluir**: Use essa opção para excluir o gerador de tópicos selecionado. Essa opção é desativada enquanto você está gerando o conteúdo.
 - **Duplicar**: Essa opção cria uma duplicata ou cópia do gerador de tópicos selecionado. A duplicata é criada com um sufixo (como `topic-sample_1`) por padrão.
 
+
+
+## Usar ferramentas do Velocity nos modelos de fonte de dados {#use-velocity-tools}
+
+Os modelos de Experience Manager também são compatíveis com as ferramentas do Velocity (versão 2.0). Essas ferramentas ajudam a aplicar várias funções aos dados obtidos nas fontes de dados. Saiba mais sobre o uso do [Ferramentas do Velocity](https://velocity.apache.org/tools/2.0/generic.html) e as funções que podem ser aplicadas.
+
+Execute as seguintes etapas para usar uma ferramenta Velocity em um modelo:
+1. Editar um modelo do Velocity no Editor da Web.
+1. Adicione uma ferramenta e sua função na `<tool.function>` formato. Por exemplo:
+   - Para gerar um número aleatório usando a ferramenta matemática, use `$mathTool.random`.
+   - Para gerar a soma de números usando a ferramenta matemática, use `$mathTool.add(num1, num2)`.
+1. Use o modelo para criar um trecho de conteúdo ou tópico.
+1. Após aplicar o modelo aos dados, é possível exibi-los na visualização ou na exibição da fonte DITA.
+
+
+
+
+Você pode usar as seguintes ferramentas nos modelos do Velocity para aplicar várias funções aos dados obtidos do conector: -`$alternatorTool`
+- `$classTool`
+- `$contextTool`
+- `$conversionTool`
+- `$dateTool`
+- `$comparisonDateTool`
+- `$displayTool`
+- `$escapeTool`
+- `$fieldTool`
+- `$loopTool`
+- `$linkTool`
+- `$listTool`
+- `$mathTool`
+- `$numberTool`
+- `$renderTool`
+- `$resourceTool`
+- `$sortTool`
 
 
 
