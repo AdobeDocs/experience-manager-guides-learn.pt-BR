@@ -1,15 +1,17 @@
 ---
 title: Configurar um conector de fonte de dados usando ferramentas
 description: Saiba como configurar um conector de fonte de dados usando as ferramentas.
-source-git-commit: 87e907a1fbc27c9b3f8db5e4ab3c78143b03001e
+exl-id: b73ceb8d-caf0-4752-a6d9-07985cdf741e
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 
-# Configurar um conector de fonte de dados usando as ferramentas
+
+# Configurar um conector de fonte de dados na interface do usuário
 
 Os Guias do Experience Manager vêm com a tag **Fontes de dados** ferramenta que ajuda a configurar conectores prontos para uso para fontes de dados. Você pode configurar conectores para bancos de dados JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce e Elasticsearch.
 
@@ -74,7 +76,3 @@ Você verá um erro se existir um conector com o mesmo nome.
 
 
 Após configurar a fonte de dados, o conector será listado no **Painel Fontes de dados** no Editor da Web. Em seguida, você pode se conectar à fonte de dados e inserir um trecho de conteúdo em seus tópicos. Para obter mais detalhes, consulte [Inserir um trecho de conteúdo da sua fonte de dados](../user-guide/web-editor-content-snippet.md).
-
-
-
-

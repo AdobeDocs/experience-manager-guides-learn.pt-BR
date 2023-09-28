@@ -1,13 +1,13 @@
 ---
 title: Inserir um trecho de conteúdo da sua fonte de dados
 description: Use dados da sua fonte de dados em Guias do AEM. Saiba como inserir um trecho de conteúdo da sua fonte de dados. Crie um tópico usando o gerador de tópicos.
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2029'
 ht-degree: 0%
 
 ---
-
 
 # Usar dados da sua fonte de dados
 
@@ -23,7 +23,7 @@ Com base na sua configuração, o administrador pode configurar um conector de f
 <summary> Cloud Services </summary>
 
 
-- Se estiver usando a versão de outubro de 2023 ou posterior, saiba como [configurar um conector de fonte de dados usando as ferramentas](../cs-install-guide/conf-data-source-connector-tools.md) no Guia de instalação e configuração do Cloud Service.
+- Se estiver usando a versão de outubro de 2023 ou posterior, saiba como [configurar um conector de fonte de dados na interface do usuário](../cs-install-guide/conf-data-source-connector-tools.md) no Guia de instalação e configuração do Cloud Service.
 
 - Se estiver usando a versão de julho de 2023 ou setembro de 2023, saiba como [configurar um conector de fonte de dados](../cs-install-guide/conf-data-source-connector.md) no Guia de instalação e configuração do Cloud Service.
 
@@ -273,6 +273,3 @@ Você pode usar as seguintes ferramentas nos modelos do Velocity para aplicar v�
 - `$renderTool`
 - `$resourceTool`
 - `$sortTool`
-
-
-

@@ -1,9 +1,10 @@
 ---
 title: Notas de versão | Novidades no Adobe Experience Manager Guides, versão de outubro de 2023
 description: Conheça os recursos novos e aprimorados da versão de outubro de 2023 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 583bc9fe-1e61-4727-869b-0dbc19625f70
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -15,11 +16,11 @@ Este artigo aborda os recursos novos e aprimorados da versão de outubro de 2023
 Para obter mais detalhes sobre as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos nesta versão, consulte [Notas de versão](release-notes-2023.10.0.md).
 
 
-## Configurar um conector de fonte de dados usando as ferramentas
+## Configurar um conector de fonte de dados na interface do usuário
 
 Os Guias do Experience Manager agora fornecem um **Fontes de dados** ferramenta que ajuda a configurar conectores prontos para uso para fontes de dados. Você pode criar facilmente os conectores para bancos de dados JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce e Elasticsearch.
 
-Você também pode editar, reconectar, duplicar ou excluir facilmente um conector de origem de dados. Saiba como [configurar um conector de fonte de dados usando as ferramentas](../cs-install-guide/conf-data-source-connector-tools.md).
+Você também pode editar, reconectar, duplicar ou excluir facilmente um conector de origem de dados. Saiba como [configurar facilmente um conector de fonte de dados na interface do usuário](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![conectores de fonte de dados listados no painel fontes de dados](assets/data-sources-create-window.png){width="550" align="left"}
 
@@ -65,4 +66,3 @@ Para obter mais detalhes, consulte **Exibição de mapa** descrição do recurso
 O Experience Manager Guides agora permite que você selecione um arquivo no Editor da Web e, em seguida, escolha editar o arquivo no plug-in do conector Oxygen. Essa opção não está ativada como parte do suporte pronto para uso.
 
 Para obter mais detalhes, consulte **Opções de um arquivo** descrição do recurso na [Painel esquerdo](../user-guide/web-editor-features.md#id2051EA0M0HS) seção.
-
