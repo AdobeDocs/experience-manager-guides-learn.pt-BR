@@ -1,11 +1,11 @@
 ---
 title: Atalhos de teclado no Editor da Web
 description: Descubra atalhos de teclado que economizam tempo no editor da Web do AEM Guides.
-exl-id: e8be4c83-a236-43c1-b778-c3da92537174
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 0%
+source-wordcount: '262'
+ht-degree: 2%
 
 ---
 
@@ -17,23 +17,27 @@ Há muitas operações no Editor da Web que você pode executar usando os atalho
 >
 > As teclas de letra no atalho de teclado não diferenciam maiúsculas de minúsculas.
 
-| Operação no Editor da Web | Atalho de teclado |
-|-----------------------|-----------------|
-| Aplicar formatação em negrito ao texto selecionado | ***Ctrl***+***B*** |
-| Aplicar formatação em itálico ao texto selecionado | ***Ctrl***+***I*** |
-| Aplicar formatação de sublinhado ao texto selecionado | ***Ctrl***+***U*** |
-| Salvar documento na exibição Autor ou Fonte | ***Ctrl***+**Shift**+***S*** |
-| Salvar todos os documentos abertos na exibição Autor ou Fonte | **Ctrl**+**S** |
-| Mostrar caixa de diálogo Inserir elemento | ***Alt***+***Enter*** |
-| Mostrar caixa de diálogo Inserir elemento para inserir o elemento antes do elemento selecionado | ***Alt***+***Shift***+***Enter*** |
-| Mover de um elemento aninhado e ir para o elemento pai na direção esquerda; caso contrário, ir para o elemento irmão anterior | ***Alt***+**Esquerda *Seta* |
-| Mover de um elemento aninhado e ir para o elemento pai na direção direita; caso contrário, ir para o próximo elemento irmão | ***Alt***+*Seta para a direita* |
-| Recuo automático de XML na exibição Código-fonte | *Ctrl*+***Alt***+***L*** |
-| Dividir o elemento atual | **Insira** |
-| Copiar texto selecionado | ***Ctrl***+**C** |
-| Colar | ***Ctrl***+**V** |
-| Abrir caixa de diálogo Imprimir | ***Ctrl***+**P** |
-| Desfazer a última ação | ***Ctrl***+**Z** |
-| Refazer a última ação | ***Ctrl***+**Y** |
+## Atalhos de teclado para Windows e macOS
 
-**Tópico pai:**[ Trabalhar com o editor da Web](web-editor.md)
+| Operação no Editor da Web | Windows | macOS |
+|-----------------------|-----------------|-----------------|
+| Aplicar formatação em negrito ao texto selecionado | ***Ctrl***+***B*** | ***Comando***+***B*** |
+| Aplicar formatação em itálico ao texto selecionado | ***Ctrl***+***I*** | ***Comando***+***I*** |
+| Aplicar formatação de sublinhado ao texto selecionado | ***Ctrl***+***U*** | ***Comando***+***U*** |
+| Salvar documento na exibição Autor ou Fonte | ***Ctrl***+**Shift**+***S*** | ***Comando***+**Shift**+***S*** |
+| Salvar todos os documentos abertos na exibição Autor ou Fonte | ***Ctrl***+***S*** | ***Comando***+***S*** |
+| Mostrar caixa de diálogo Inserir elemento | ***Alt***+***Enter*** | ***Opção***+***Enter*** |
+| Mostrar caixa de diálogo Inserir elemento para inserir o elemento antes do elemento selecionado | ***Alt***+***Shift***+***Enter*** | ***Opção***+***Shift***+***Enter*** |
+| Move o cursor uma palavra para a esquerda. | ***Ctrl***+***Seta para a esquerda*** | ***Opção***+***Seta para a esquerda*** |
+| Move o cursor uma palavra para a direita. | ***Ctrl***+***Seta para a direita*** | ***Opção***+***Seta para a direita*** |
+| Mova o cursor para o início da linha atual. | ***Início*** | ***Comando***+***Seta para a esquerda*** |
+| Mova o cursor para o fim da linha atual. | **Fim** | ***Comando***+***Seta para a direita*** |
+| Recuo automático de XML na exibição Código-fonte | ***Ctrl***+***Alt***+***L*** | ***Comando***+***Opção***+***L*** |
+| Dividir o elemento atual | ***Insira*** | ***Retornar*** |
+| Copiar texto selecionado | ***Ctrl***+**C** | ***Comando***+**C** |
+| Colar | ***Ctrl***+**V** | ***Comando***+**V** |
+| Abrir caixa de diálogo Imprimir | ***Ctrl***+**P** | ***Comando***+**P** |
+| Desfazer a última ação | ***Ctrl***+**Z** | ***Comando***+**Z** |
+| Refazer a última ação | ***Ctrl***+**Y** | ***Comando***+**Y** |
+
+**Tópico pai:** [Trabalhar com o editor da Web](web-editor.md)

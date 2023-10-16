@@ -1,10 +1,10 @@
 ---
 title: Conhecer os recursos do Editor da Web
 description: Descubra os recursos do editor da Web em Guias do AEM. Conhecer a interface do editor da Web, incluindo a barra de ferramentas principal, a barra de ferramentas secundária, o painel esquerdo, a área de edição de conteúdo e o painel direito.
-exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '16066'
+source-wordcount: '16500'
 ht-degree: 0%
 
 ---
@@ -141,17 +141,62 @@ Na captura de tela a seguir, apenas 3 dos 4 elementos configurados da captura de
 
 - **Lista de atributos**: assim como a Lista de elementos, você pode controlar a lista de atributos e seus nomes de exibição a serem exibidos na lista de atributos de um elemento. Na captura de tela a seguir, apenas 3 atributos foram configurados para serem mostrados na lista de atributos de um elemento:
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+  ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
-Com essa configuração, ao tentar adicionar um atributo a um elemento, você verá apenas a lista de atributos configurados na lista.
+  Com essa configuração, ao tentar adicionar um atributo a um elemento, você verá apenas a lista de atributos configurados na lista.
 
-![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+  ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+
+- **Publicar perfil**: contém os Perfis de publicação que podem ser usados para publicar a saída da base de conhecimento. Você pode criar um novo perfil para um tipo de consumidor selecionado. Por exemplo, Salesforce.
+
+   - **Requisitos para criar um perfil de publicação do Salesforce**
+
+      - Crie um aplicativo conectado para o Salesforce. Para obter mais detalhes, consulte [Habilitar configurações do OAuth para integração com a API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+
+      - Ao configurar o aplicativo conectado, verifique o seguinte:
+
+         - Especifique o retorno de chamada.
+
+           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+
+         - Selecione os seguintes escopos do OAuth:
+            - Acesso total (total)
+            - Selecione Gerenciar dados do usuário por meio das APIs (api)
+
+  Depois que o aplicativo é configurado, o Salesforce fornece uma **Chave do consumidor** e **Segredo do consumidor**.
+
+  Eles podem ser usados para criar o Perfil de publicação do Salesforce.
+  ![perfis nas configurações do editor](./images/create-profile-editor-settings.png){width="300" align="left"}
+
+
+
+- Para criar um Perfil de publicação, você pode selecionar uma base de conhecimento como Salesforce no **Tipo de servidor** lista suspensa. Insira um Nome de perfil. No **URL do site** insira o site do consumidor que você usaria para publicar a saída e adicionar o **Chave do consumidor** e **Segredo do consumidor** fornecido pelo site do consumidor, como o Salesforce. Em seguida, faça logon no perfil recém-criado.
+
+  >[!NOTE]
+  >
+  >Para configurar um proxy para o Salesforce nos Guias do Experience Manager, use a Configuração de proxy dos componentes HTTP do Apache no AEM. Saiba como [configurar proxy para o Verificador de links AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+
+
+  Depois de fazer logon, é possível selecionar o Perfil de publicação nas predefinições de saída de um Mapa DITA e usar o para gerar a saída dos artigos selecionados. Para obter mais detalhes, consulte [Publicação baseada em artigos no Editor da Web](../install-guide/configure-article-based-publishing.md) no Guia de instalação e configuração.
+
+- **Validação**: esta guia contém opções para configurar as Validações de Schematron no editor da Web. Você pode ativar os seguintes recursos:
+
+   - **Executar verificação de validação antes de salvar o arquivo**: selecione esta opção para executar validações do Schematron usando os arquivos do Schematron selecionados antes de qualquer operação de salvamento. Você pode adicionar um arquivo do Schematron clicando no ícone +. Os arquivos do Schematron selecionados são listados.
+
+     >[!NOTE]
+     >O(s) arquivo(s) de esquema selecionado(s) persistirá(ão) no perfil de pasta selecionado.
+
+     ![Validação nas configurações do editor](./images/editor-setting-validation.png){width="300" align="left"}
+Isso impede que os usuários salvem qualquer arquivo que quebre uma regra definida no(s) arquivo(s) selecionado(s) do Schematron. Se esta opção não estiver selecionada, o arquivo não será validado antes de salvar as alterações.
+
+   - **Permitir que todos os usuários adicionem arquivos de esquemas no painel de validação**: selecione essa opção para permitir que os usuários adicionem qualquer arquivo do Schematron no painel Validação do Editor da Web. Isso permite que os usuários adicionem arquivos do Schematron e, em seguida, validem os tópicos em relação ao arquivo Schematron. Se essa opção não estiver selecionada, a variável **Adicionar arquivo de esquema** O botão não está disponível para os usuários na **Painel de validação** do Editor da Web.
+
 
 - **Atributos de exibição**: Assim como a Lista de atributos, você pode controlar a lista de atributos a serem exibidos na lista de atributos de um elemento. Por padrão, quatro **Atributos de exibição** — o público-alvo, a plataforma, o produto e as props foram configurados para serem exibidos na lista de atributos de um elemento. Também é possível adicionar um atributo de exibição usando a variável **Adicionar** ícone na parte superior. Também é possível excluir qualquer um dos atributos de exibição usando o **Excluir** ícone.
 
-Os atributos definidos para um elemento são exibidos na exibição Layout e Estrutura de Tópicos.
+  Os atributos definidos para um elemento são exibidos na exibição Layout e Estrutura de Tópicos.
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+  ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
 - **Tradução**: Esta guia contém a opção para propagar os labels de origem para a versão de destino.
 

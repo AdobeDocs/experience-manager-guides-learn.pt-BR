@@ -1,10 +1,10 @@
 ---
 title: Inserir um trecho de conteúdo da sua fonte de dados
 description: Use dados da sua fonte de dados em Guias do AEM. Saiba como inserir um trecho de conteúdo da sua fonte de dados. Crie um tópico usando o gerador de tópicos.
-exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,9 @@ Com base na sua configuração, o administrador pode configurar um conector de f
 <details>    
 <summary>  Software local </summary>
 
-Saiba como [configurar um conector de fonte de dados](../install-guide/conf-data-source-connector.md)  no Guia de instalação e configuração no local.
+- Se estiver usando a versão 4.3.1 ou posterior, saiba como [configurar um conector de fonte de dados na interface do usuário](../cs-install-guide/conf-data-source-connector-tools.md) no Guia de instalação e configuração no local.
+
+- Se estiver usando a versão 4.3, saiba como [configurar um conector de fonte de dados](../cs-install-guide/conf-data-source-connector.md) no Guia de instalação e configuração no local.
 </details>
 
 
