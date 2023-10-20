@@ -1,41 +1,41 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 4.3.1 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros e como atualizar para as versões 4.3.1 do Adobe Experience Manager Guides
-source-git-commit: a8f36d020422d9d83ca47e2246dc42278f2c7963
+source-git-commit: eb22fe5d4872b0e5c6594869193799fd9e64d95d
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1216'
 ht-degree: 5%
 
 ---
 
 # Versão 4.3.1 do Adobe Experience Manager Guides (outubro de 2023)
 
-Esta nota de versão aborda as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos na versão 4.3.1 do Adobe Experience Manager Guides (mais tarde chamados de *Guias do AEM*).
+Esta nota de versão aborda as instruções de atualização, a matriz de compatibilidade e os problemas corrigidos na versão 4.3.1 do Adobe Experience Manager Guides (mais tarde chamados de *Guias do Experience Manager*).
 
 Para obter mais informações sobre os novos recursos e aprimoramentos, consulte [Novidades na versão 4.3.1 dos Guias do Adobe Experience Manager](./whats-new-4.3.1-release.md).
 
-## Atualização para a versão 4.3.1 dos Guias do AEM
+## Atualização para a versão 4.3.1 dos Guias do Experience Manager
 
 
-Você pode facilmente atualizar sua versão atual do Guides AEM para a versão 4.3.1. Antes de prosseguir com a atualização para a versão 4.3.1 dos Guias AEM, você deve considerar os seguintes pontos: Você pode atualizar sua versão atual dos Guias AEM para a versão 4.3.1
+Você pode atualizar facilmente sua versão atual do Guides para a versão 4.3.1. Antes de prosseguir com a atualização para a versão 4.3.1 dos Guias do Experience Manager, você deve considerar os seguintes pontos: Você pode atualizar sua versão atual dos Guias do Experience Manager para a versão 4.3.1
 
-- Se você estiver usando a versão 4.2 ou 4.2.x, é possível atualizar diretamente para a versão 4.3.1.
-- Se você estiver usando a versão 4.1 ou 4.1.x, será necessário atualizar para a versão 4.2 ou 4.2.x antes de atualizar para a versão 4.3.1.
+
+- Se você estiver usando a versão 4.3.0, 4.2 ou 4.2.1, é possível atualizar diretamente para a versão 4.3.1.
+- Se você estiver usando a versão 4.1 ou 4.1.x, será necessário atualizar para a versão 4.3.0, 4.2 ou 4.2.x antes de atualizar para a versão 4.3.1.
 - Se você estiver usando a versão 4.0, será necessário atualizar para a versão 4.2 antes de atualizar para a versão 4.3.1.
 - Se você estiver usando a versão 3.8.5, será necessário atualizar para a versão 4.0 antes de atualizar para a versão 4.2.
-- Se você estiver em uma versão anterior à 3.8.5, consulte a seção Atualizar guias de AEM no guia de instalação específico do produto.
-
+- Se você estiver em uma versão anterior à 3.8.5, consulte a seção Guias de atualização de Experience Manager no guia de instalação específico do produto.
 
 
 >[!NOTE]
 >
->Você deve instalar o service pack AEM antes de atualizar a versão dos Guias AEM.
+>Você deve instalar o service pack AEM antes de atualizar a versão dos Guias do Experience Manager.
 
 Para obter detalhes, consulte [Instruções de atualização](../install-guide/upgrade-xml-documentation.md).
 
 ## Matriz de compatibilidade
 
-Esta seção lista a matriz de compatibilidade para os aplicativos de software suportados pela versão 4.3.1 dos Guias AEM.
+Esta seção lista a matriz de compatibilidade para os aplicativos de software suportados pelos Guias Experience Manager versão 4.3.1.
 
 ### Adobe Experience Manager
 
@@ -71,7 +71,7 @@ Para obter mais detalhes, consulte *Requisitos técnicos* no guia Instalar e con
 
 | Nome do pacote de componentes | Versão dos componentes | Versão do modelo |
 |---|---|---|
-| O AEM guia o pacote de conteúdo dos componentes para o Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Experience Manager Guias Componentes Pacote de conteúdo para Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 ## Problemas corrigidos
 
