@@ -2,9 +2,9 @@
 title: Recurso de publicação de PDF nativo | Componentes de um modelo de PDF
 description: Saiba mais sobre os vários componentes de um modelo de PDF e como personalizá-los e configurá-los.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
+source-git-commit: 7fe45a2bb55e9cb72518edd3cb2aa81b99612613
 workflow-type: tm+mt
-source-wordcount: '4376'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -414,11 +414,11 @@ Por exemplo, é possível adicionar uma variável de idioma &quot;reference-labe
 Ao adicionar `${lng:<variable name>}` para a seção Parágrafo, as referências cruzadas nos parágrafos da saída contêm o texto localizado e o número da página.\
 Por exemplo, as capturas de tela a seguir mostram as referências cruzadas &quot;View on page 1&quot; em inglês e &quot;Einzelheiten finden Sie auf der Seite 1&quot; em alemão.
 
-<img src="./assets/english-output-corss-reference.png" alt="Inglês output of a cross-reference in a pragrah" width ="800">
+<img src="./assets/english-output-corss-reference.png" alt="Inglês output of a cross-reference in a pragrah" width ="800" border="2px solid blue">
 
 *Uma referência cruzada em um parágrafo quando publicada no idioma inglês.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Saída alemã de uma referência cruzada em um pragrah" width ="800">
+<img src="./assets/german-output-corss-reference.png" alt="Saída alemã de uma referência cruzada em um pragrah" width ="800" border="2px solid blue">
 
 *Uma referência cruzada dentro de um parágrafo quando publicado em alemão.*
 
