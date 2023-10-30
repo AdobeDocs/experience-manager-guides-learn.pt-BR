@@ -1,7 +1,7 @@
 ---
 title: Recurso de publicação de PDF nativo | Adicionar código de barras
 description: Saiba como adicionar códigos de barras.
-source-git-commit: 6cea7a92eed8f7b1d4a0763baae65ccccd71790e
+source-git-commit: 31225583f45337b209f325174176b9a4199db648
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 2%
@@ -38,7 +38,7 @@ Adicione um elemento de ID de recurso ao mapa DITA. A ID do recurso serve como a
 
 Você também pode editar a ID do recurso no modo de criação.
 
-<img src="./assets/barcode-map.png" alt="Exemplo de saída com código de barras" width="700">
+<img src="./assets/barcode-map.png" alt="Exemplo de saída com código de barras" width="700" border="2px solid blue">
 
 
 ### Adicionar um espaço reservado para código de barras no cabeçalho do modelo
@@ -82,30 +82,30 @@ A captura de tela a seguir exibe um exemplo de código de barras em uma saída d
 
 | Tipo | Atributo CSS | Atributos adicionais |
 | ------------------------------- | ----------------------- | -------------------------- |
-| Código QR | qrcode |  |
-| PDF417 | pdf417 |  |
-| DataMatrix | matriz de dados |  |
-| Código asteca | aztec-code |  |
-| Matriz de grade | grid-matrix |  |
-| Maxicode | maxicode mode-4 |  |
-| Micro QR | microqr |  |
-| Código um | code-one |  |
-| Codablock F | codablockf |  |
-| GS1 Databar Limited | limitado à barra de dados |  |
-| Barra de Dados GS1 Onidirecional | barra de dados omnidirectional |  |
-| EAN-13 | ean-13 |  |
+| Código QR | qrcode |                            |
+| PDF417 | pdf417 |                            |
+| DataMatrix | matriz de dados |                            |
+| Código asteca | aztec-code |                            |
+| Matriz de grade | grid-matrix |                            |
+| Maxicode | maxicode mode-4 |                            |
+| Micro QR | microqr |                            |
+| Código um | code-one |                            |
+| Codablock F | codablockf |                            |
+| GS1 Databar Limited | limitado à barra de dados |                            |
+| Barra de Dados GS1 Onidirecional | barra de dados omnidirectional |                            |
+| EAN-13 | ean-13 |                            |
 | GS1-128 (EAN-128) | code128 | -ro-código-de-barras: gs1; |
-| ITF-14 | itf14 |  |
-| UPC-A | upc-a |  |
-| Código 128 | code128 |  |
-| Intercalado 2 de 5 | code2of5 intercalado |  |
-| POSTNET | postnet |  |
-| Dutch Post Kixcode | kixcode |  |
-| Korea Post | coreia-post |  |
-| Deutsche Post Leitcode | dp-leitcode |  |
-| Austrália Post | auspost |  |
-| Logmars | logmars |  |
-| Pharmacode | farmacode |  |
-| USPS OneCode (Email Inteligente) | usps-onecode |  |
+| ITF-14 | itf14 |                            |
+| UPC-A | upc-a |                            |
+| Código 128 | code128 |                            |
+| Intercalado 2 de 5 | code2of5 intercalado |                            |
+| POSTNET | postnet |                            |
+| Dutch Post Kixcode | kixcode |                            |
+| Korea Post | coreia-post |                            |
+| Deutsche Post Leitcode | dp-leitcode |                            |
+| Austrália Post | auspost |                            |
+| Logmars | logmars |                            |
+| Pharmacode | farmacode |                            |
+| USPS OneCode (Email Inteligente) | usps-onecode |                            |
 
 
