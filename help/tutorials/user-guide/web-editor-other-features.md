@@ -1,10 +1,10 @@
 ---
 title: Outros recursos no Editor da Web
 description: Explore outros recursos do editor da Web em Guias do AEM. Saiba como usar esses recursos para melhorar a criação nos Guias do AEM.
-exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2136'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ Além do menu de contexto da navegação estrutural, a caixa de diálogo Renomea
 
 **Decodificar um elemento**
 
-- Desfazer a quebra de um elemento permite remover a tag do elemento do texto selecionado e mesclá-lo com seu elemento pai. Por exemplo, se você tiver uma `p` elemento dentro de um `note` elemento, você pode decodificar o `p` elemento para mesclar o texto diretamente na `note` elemento. A opção Decodificar elemento está disponível no menu de contexto da navegação estrutural do tópico. Para decodificar um elemento, selecione o elemento na navegação estrutural do tópico, clique com o botão direito do mouse no elemento para abrir o menu de contexto e, em seguida, selecione Decodificar elemento para remover o elemento e mesclar o texto do elemento com seu elemento pai.
+- Desfazer a quebra de um elemento permite remover a tag do elemento do texto selecionado e mesclá-lo com seu elemento pai. Por exemplo, se você tiver uma `p` elemento dentro de um `note` elemento, você pode decodificar o `p` elemento para mesclar o texto diretamente na `note` elemento. A variável **Decodificar Elemento** está disponível no menu de contexto da navegação estrutural do tópico. Para decodificar um elemento, clique com o botão direito do mouse no elemento para abrir o menu de contexto e selecione **Decodificar Elemento** para remover o elemento e mesclar o texto do elemento com seu elemento pai.
 
 **Preservando quebras de linha e recuo**
 

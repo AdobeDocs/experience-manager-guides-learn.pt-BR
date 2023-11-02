@@ -1,10 +1,10 @@
 ---
 title: Criar e gerenciar linhas de base no Editor da Web
 description: Criar e gerenciar linhas de base do editor da Web no AEM Guides. Saiba como criar linhas de base com base em rótulos e aplicar filtros às linhas de base.
-exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
-source-git-commit: 361c605bdf02fb3b8754c6596a70e86a00acb3db
+exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Você também pode executar as seguintes operações na linha de base a partir d
   > O processo para adicionar ou remover rótulos ocorre de forma assíncrona, para que você possa continuar trabalhando em outros arquivos no Editor da Web. Depois que o rótulo é adicionado ou removido, uma mensagem pop-up é exibida confirmando que o rótulo foi adicionado ou removido, e você também recebe uma notificação da Caixa de entrada para o mesmo.
 
 - **Editar propriedades** de uma linha de base estática existente que você definiu ao criar a linha de base.
-- Exporte o instantâneo de uma linha de base em um arquivo CSV com o **Exportar Linha de Base** opção.
+- Exporte o instantâneo de uma linha de base em um arquivo do Microsoft Excel com o **Exportar Linha de Base** opção.
 
 **Filtros da linha de base**
 

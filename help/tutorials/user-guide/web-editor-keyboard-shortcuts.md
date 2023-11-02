@@ -2,10 +2,10 @@
 title: Atalhos de teclado no Editor da Web
 description: Descubra atalhos de teclado que economizam tempo no editor da Web do AEM Guides.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 2%
+source-wordcount: '320'
+ht-degree: 3%
 
 ---
 
@@ -32,10 +32,15 @@ Há muitas operações no Editor da Web que você pode executar usando os atalho
 | Move o cursor uma palavra para a direita. | ***Ctrl***+***Seta para a direita*** | ***Opção***+***Seta para a direita*** |
 | Mova o cursor para o início da linha atual. | ***Início*** | ***Comando***+***Seta para a esquerda*** |
 | Mova o cursor para o fim da linha atual. | **Fim** | ***Comando***+***Seta para a direita*** |
+| Mova o cursor para o início do próximo elemento. | ***Guia*** | ***Guia*** |
+| Recuar o item de lista para o próximo nível. | ***Guia*** | ***Guia*** |
+| Mova o cursor para o final do elemento anterior. | ***Shift***+***Guia*** | ***Shift***+***Guia*** |
+| Diminua o recuo do item de lista para o nível anterior. | ***Shift***+***Guia*** | ***Shift***+***Guia*** |
 | Recuo automático de XML na exibição Código-fonte | ***Ctrl***+***Alt***+***L*** | ***Comando***+***Opção***+***L*** |
 | Dividir o elemento atual | ***Insira*** | ***Retornar*** |
 | Copiar texto selecionado | ***Ctrl***+**C** | ***Comando***+**C** |
 | Colar | ***Ctrl***+**V** | ***Comando***+**V** |
+| Colar e corresponder formatação | ***Ctrl***+***Shift***+**V** | ***Comando***+***Shift***+**V** |
 | Abrir caixa de diálogo Imprimir | ***Ctrl***+**P** | ***Comando***+**P** |
 | Desfazer a última ação | ***Ctrl***+**Z** | ***Comando***+**Z** |
 | Refazer a última ação | ***Ctrl***+**Y** | ***Comando***+**Y** |

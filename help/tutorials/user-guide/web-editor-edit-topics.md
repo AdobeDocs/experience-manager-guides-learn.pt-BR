@@ -1,10 +1,10 @@
 ---
 title: Editar tópicos no Editor da Web
 description: Saiba como editar tópicos no editor da Web. Saiba mais sobre vários recursos de edição para modificar arquivos de tópico em Guias AEM.
-exl-id: 9950df78-09bd-433a-891d-0d689bb0c2e4
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ O Editor da Web vem com uma variedade de recursos de edição que permitem criar
    > Se não quiser confirmar as alterações no repositório AEM, clique em **Fechar** e clique em **Fechar sem salvar** no diálogo Alterações não salvas.
 
    **Atualizar o navegador ao editar os arquivos**
-Os Guias do AEM fornecem suporte para atualizar o navegador enquanto você edita seu conteúdo no Editor da Web. Este recurso ajuda você a continuar editando o conteúdo caso encontre um erro no aplicativo durante o trabalho. Se você clicar em Atualizar do navegador enquanto um ou mais arquivos com alterações não salvas estiverem abertos para edição, você será avisado de que as alterações não salvas podem ser perdidas. Você tem a opção de cancelar a operação de atualização e salvar os arquivos para preservar as alterações.
+Os Guias do Experience Manager fornecem suporte para atualizar o navegador enquanto você edita seu conteúdo no Editor da Web. Este recurso ajuda você a continuar editando o conteúdo caso encontre um erro no aplicativo durante o trabalho. Se você clicar em Atualizar do navegador enquanto um ou mais arquivos com alterações não salvas estiverem abertos para edição, você será avisado de que as alterações não salvas podem ser perdidas. Você tem a opção de cancelar a operação de atualização e salvar os arquivos para preservar as alterações.
 
-   Mesmo ao atualizar o navegador, as exibições do painel esquerdo e direito são mantidas no Editor da Web. Por exemplo, o tópico ativo no painel Repositório é aberto novamente. O painel de mapa é mantido junto com o mapa aberto anteriormente.
+   Mesmo ao atualizar o navegador, as exibições do painel esquerdo e direito são mantidas no Editor da Web. O Experience Manager Guides restaura o último estado salvo dos arquivos abertos no Editor da Web quando você atualiza o navegador. Por exemplo, os arquivos abertos no painel Repositório são abertos novamente. O painel de mapa é mantido junto com o mapa aberto anteriormente.
 
    O tópico ativo ou mapa DITA é reaberto na área de edição de conteúdo.
 

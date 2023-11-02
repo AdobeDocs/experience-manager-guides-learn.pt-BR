@@ -2,9 +2,9 @@
 title: PDF nativo | Geração de saída de PDF
 description: Saiba como usar a publicação de PDF nativo, criar e gerar uma predefinição de saída de PDF, baixar arquivos temporários após gerar a saída de PDF AEM nativo e usar variáveis de idioma nos Guias do.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 4c10f2387208477bd2ba27188e8aeaa6f3a4a661
 workflow-type: tm+mt
-source-wordcount: '3229'
+source-wordcount: '3264'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Use para definir layouts de página e especificar opções de exibição de pág
 
 | Configuração | Descrição |
 | --- | --- |
-| **Modelo PDF** | Os modelos de PDF fornecem uma estrutura clara para definir layouts de página, estilo do conteúdo e aplicar várias configurações à saída de PDF. Selecione nas opções suspensas do modelo de PDF para escolher o modelo de sua preferência. |
+| **Modelo PDF** | Os modelos de PDF fornecem uma estrutura clara para definir layouts de página, estilo do conteúdo e aplicar várias configurações à saída de PDF. Selecione nas opções suspensas do modelo de PDF para escolher o modelo de sua preferência. <br> Também é possível selecionar **Procurar Modelo** <img src="./assets/browse-templates-icon.svg"  alt= "ícone procurar modelos" width="25">  para escolher um modelo. No **Selecionar modelo de PDF** caixa de diálogo, também é possível visualizar a miniatura e exibir o título e a descrição do modelo selecionado. |
 | **Exibição da página** | Use a Exibição de página para a exibição de página que mostra como o PDF é exibido quando é aberto. Selecione nas opções suspensas Exibição da página para escolher uma exibição preferencial. <br><ul><li> **Padrão**  É exibido de acordo com a configuração padrão do visualizador de PDF na máquina de um usuário.  <br> <li> **Exibição de página única** Exibe uma página de cada vez.   <br> <li> **Rolagem de página única** Exibe uma única página em uma coluna vertical contínua.  <br> <li> **Exibição de duas páginas** Exibe duas páginas espelhadas lado a lado de cada vez. .<br> <li> **Rolagem de duas páginas** Exibe páginas espelhadas lado a lado com rolagem contínua. </ul> |
 | **Zoom** | Selecione para redimensionar a exibição de página que mostra como o PDF é exibido quando é aberto.  <br><ul><li> **Padrão** É exibido de acordo com a configuração padrão do visualizador de PDF na máquina de um usuário    <br> <li> **100%** Faz a página aparecer em seu tamanho real.     <br> <li> **Ajustar página** Torna a largura e a altura da página ajustáveis dentro do painel de documentos. .<br> <li> **Ajustar largura da página** Faz com que a largura da página preencha a largura do painel do documento.  <br> <li> **Ajustar altura da página** Faz com que a altura da página preencha a altura do painel do documento. </ul> |
 

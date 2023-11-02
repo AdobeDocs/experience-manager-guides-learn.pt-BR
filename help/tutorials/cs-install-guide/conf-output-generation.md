@@ -1,13 +1,13 @@
 ---
 title: Definir configurações de geração de saída
 description: Saiba como definir configurações de geração de saída
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '5252'
+source-wordcount: '5340'
 ht-degree: 1%
 
 ---
-
 
 # Definir configurações de geração de saída {#id181AI0B0E30}
 
@@ -30,7 +30,7 @@ Para ocultar a guia Linha de base no painel do mapa DITA, execute as seguintes e
 
 ## Configurar a publicação combinada em um site AEM existente {#id1691I0V0MGR}
 
-Se você tiver um site AEM com conteúdo DITA, poderá configurar sua saída de site AEM para publicar conteúdo DITA em um local predefinido em seu site. Por exemplo, na captura de tela a seguir de uma página do site AEM, a variável `ditacontent` é reservado para armazenar conteúdo DITA:
+Se você tiver um site AEM com conteúdo DITA, poderá configurar sua saída de site AEM para publicar conteúdo DITA em um local predefinido no seu site. Por exemplo, na captura de tela a seguir de uma página do site AEM, a variável `ditacontent` é reservado para armazenar conteúdo DITA:
 
 ![](assets/publish-in-aem-site.png)
 
@@ -66,9 +66,7 @@ Na próxima vez que você publicar qualquer conteúdo DITA usando as configuraç
 Os Guias do AEM permitem a criação de saídas nos seguintes formatos:
 
 - Site AEM
-
 - PDF
-
 - HTML 5
 - EPUB
 - Saída personalizada através do DITA-OT
@@ -80,6 +78,7 @@ Você também pode usar os plug-ins personalizados do DITA Open Toolkit \(DITA-O
 >[!TIP]
 >
 > Consulte a *Publicação no site do AEM* no guia de práticas recomendadas para práticas recomendadas sobre a criação de saída do site AEM.
+
 
 ### Personalizar modelo de design para gerar saída {#customize_xml-add-on}
 
@@ -260,6 +259,12 @@ Execute as seguintes etapas para interromper a criação de uma versão para a p
    >[!NOTE]
    >
    > Com essa opção selecionada, os usuários poderão excluir diretamente qualquer página\(s\) sem criar qualquer versão para eles. Se a opção não estiver selecionada, uma versão será criada antes que a página\(s\) seja excluída.
+
+### Configurar reescrita personalizada com guias de Experience Manager {#custom-rewriter}
+
+O Experience Manager Guides tem um sling personalizado [**reescritor**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) módulo para tratamento de ligações geradas em caso de mapas cruzados (ligações entre os tópicos de dois mapas diferentes). Essa configuração de reescrita está instalada no seguinte caminho: <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
+
+Se você tiver outra reescrita de sling personalizada em sua base de código, use uma `'order'` valor maior que 50, como o sling rewriter dos Guias do Experience Manager usa `'order'` 50.  Para substituir isso, é necessário um valor >50. Para obter mais detalhes, consulte [Pipelines de reescrita de saída](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 
 ## Usar metadados na saída de publicação por meio do DITA-OT {#id191LF0U0TY4}
@@ -657,4 +662,3 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 >[!TIP]
 >
 > Consulte a *Histórico de saída* no guia de práticas recomendadas para práticas recomendadas relacionadas ao trabalho com o histórico de saída.
-

@@ -1,13 +1,13 @@
 ---
 title: Configurar perfis globais ou de nível de pasta
 description: Saiba como Configurar perfis globais ou de nível de pasta
-source-git-commit: 6f4ab3baf0c0dd333035c3a7d131bd151b17de45
+exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '3962'
+source-wordcount: '3961'
 ht-degree: 0%
 
 ---
-
 
 # Configurar perfis globais ou de nível de pasta {#id181AH2003PF}
 
@@ -25,7 +25,7 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
 
 - **Atributos condicionais**: use essa guia para configurar atributos condicionais em nível global ou de pasta. Um atributo condicional é uma combinação do nome e do valor do atributo, e você também pode definir um rótulo para ele. Você pode usar os atributos DITA padrão ou seus próprios atributos personalizados. Os atributos condicionais definidos no nível global são disponibilizados a todos os usuários nos projetos. Caso tenha definido atributos condicionais no nível da pasta, eles são mesclados com os atributos condicionais definidos globalmente.
 
-- **Criação de modelo**: use essa guia para configurar os modelos que os autores usarão para criar conteúdo DITA. Os seguintes modelos de tópico estão disponíveis prontamente:
+- **Modelos**: use essa guia para configurar os modelos que os autores usarão para criar ou publicar conteúdo DITA. Os seguintes modelos de tópico estão disponíveis prontamente:
 
    - Glossário
 
@@ -53,7 +53,7 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
 
    - Bookmap
 
-- **Predefinição de saída**: Assim como a Criação de modelos, há cinco predefinições de saída pré-configuradas:
+- **Predefinição de saída**: assim como Modelos, há cinco predefinições de saída pré-configuradas:
 
    - Site AEM
 
@@ -75,9 +75,9 @@ Ao usar o bloco Perfis de pasta nas configurações de Guias, você pode definir
    - Rótulos da versão do conteúdo XML
    - Roteiro \(somente no nível da pasta\)
 
-Você pode configurar ambos — perfil global e perfil de nível de pasta. Em um perfil de nível de pasta, é possível definir as pastas nas quais as configurações serão aplicáveis. Essas configurações incluem atributos condicionais, modelos de criação, predefinições de saída e configurações do Editor XML. As predefinições condicionais, os modelos de criação e as configurações do Editor XML são então disponibilizados aos autores que trabalham nas pastas configuradas. Da mesma forma, os editores terão acesso às predefinições de saída configuradas definidas nas pastas configuradas.
+Você pode configurar ambos — perfil global e perfil de nível de pasta. Em um perfil de nível de pasta, é possível definir as pastas nas quais as configurações serão aplicáveis. Essas configurações incluem atributos condicionais, modelos, predefinições de saída e configurações do Editor de XML. As predefinições condicionais, os modelos e as configurações do Editor XML são então disponibilizados aos autores que trabalham nas pastas configuradas. Da mesma forma, os editores terão acesso às predefinições de saída configuradas definidas nas pastas configuradas.
 
-Um perfil de nível de pasta substitui as configurações definidas no perfil global. Em outras palavras, se uma pasta tiver um perfil no nível da pasta, ela mostrará os modelos de criação, os modelos de saída e as configurações do Editor XML definidas em seu perfil de pasta correspondente. Ele não mostrará as configurações definidas no perfil global. No entanto, isso não se aplica aos atributos condicionais. No caso de atributos condicionais, os atributos condicionais são mesclados nos níveis global e de pasta.
+Um perfil de nível de pasta substitui as configurações definidas no perfil global. Em outras palavras, se uma pasta tiver um perfil no nível da pasta, ela mostrará os modelos, os modelos de saída e as configurações do Editor XML definidas em seu perfil de pasta correspondente. Ele não mostrará as configurações definidas no perfil global. No entanto, isso não se aplica aos atributos condicionais. No caso de atributos condicionais, os atributos condicionais são mesclados nos níveis global e de pasta.
 
 As seções a seguir orientam você pelo processo de configuração de perfis globais e de nível de pasta.
 
@@ -99,7 +99,7 @@ Execute as seguintes etapas para configurar o perfil global:
 
 1. Para configurar **Atributos condicionais**, consulte [Configurar atributos condicionais para perfis globais ou de nível de pasta](#id1889D0I305Z).
 
-1. Para configurar **Criação de modelo**, consulte [Configurar modelos de criação](#id1889D0IL0Y4).
+1. Para configurar **Modelos**, consulte [Configurar modelos de criação](#id1889D0IL0Y4).
 
 1. Para configurar **Predefinições de saída**, consulte [Configurar predefinições de saída](#id18AGD0IH0Y4).
 
@@ -144,7 +144,7 @@ Execute as seguintes etapas para configurar um perfil no nível da pasta:
 
    >[!NOTE]
    >
-   > Os usuários adicionados aqui terão os direitos administrativos para atualizar os atributos condicionais, o modelo de criação e as predefinições de saída configurados para esse perfil de pasta.
+   > Os usuários adicionados aqui terão os direitos administrativos para atualizar os atributos condicionais, o modelo e as predefinições de saída configurados para esse perfil de pasta.
 
 1. Para adicionar uma pasta, clique no ícone Procurar no Caminho da pasta, navegue até uma pasta e selecione-a e clique em Adicionar para adicioná-la a esse perfil.
 
@@ -161,11 +161,11 @@ Execute as seguintes etapas para configurar um perfil no nível da pasta:
 1. Depois de adicionar todas as pastas e usuários necessários ao perfil da pasta, clique em **Salvar**.
 
 
-Agora você está pronto para configurar os atributos condicionais, os modelos de criação, as predefinições de saída e o Editor XML.
+Agora você está pronto para configurar os atributos condicionais, modelos, predefinições de saída e Editor XML.
 
 >[!IMPORTANT]
 >
-> Ao criar um perfil de pasta, por padrão ele não contém modelos de criação. Você deve adicionar os modelos de criação necessários no perfil da pasta para disponibilizá-los aos autores.
+> Ao criar um perfil de pasta, por padrão ele não contém modelos. Você deve adicionar os modelos necessários no perfil da pasta para disponibilizá-los aos autores.
 
 ## Configurar atributos condicionais para perfis globais ou de nível de pasta {#id1889D0I305Z}
 
@@ -225,13 +225,13 @@ Se você estiver usando um atributo personalizado, ele deverá ser um atributo D
 1. Adicione atributos personalizados ao perfil global ou de nível de pasta.
 
 
-## Configurar modelos de criação {#id1889D0IL0Y4}
+## Configurar modelos {#id1889D0IL0Y4}
 
-O AEM Guides vem com 7 modelos de criação prontos para uso e 2 modelos de mapa DITA. Você pode optar por ter somente alguns modelos disponíveis para os autores. Caso use um modelo personalizado, o mesmo pode ser configurado e disponibilizado para criação. Use a guia Modelo de criação na configuração Perfis de pasta para adicionar ou remover tópicos ou mapear modelos a partir de perfis globais ou de nível de pasta.
+O AEM Guides vem com 7 modelos de tópico prontos para uso, 2 modelos de mapa DITA e 3 modelos de PDF. Você pode optar por ter somente alguns modelos disponíveis para seus autores e editores. Caso use um modelo personalizado, o mesmo pode ser configurado e disponibilizado para criação e publicação. Você usa o **Modelos** na configuração Perfis de pasta para adicionar ou remover modelos de tópico, mapa ou PDF dos perfis globais ou de nível de pasta.
 
-Mesmo antes de configurar o tópico ou os modelos de mapa no nível global ou de pasta, você também pode definir um local para armazenar seus modelos de criação personalizados. Para configurar um local personalizado para armazenar modelos de criação, consulte [Configurar caminho da pasta de modelo DITA personalizado](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Mesmo antes de configurar os modelos de tópico, mapa ou PDF no nível global ou de pasta, você também pode definir um local para armazenar os modelos personalizados. Para configurar um local personalizado para armazenar os modelos, consulte [Configurar caminho da pasta de modelo DITA personalizado](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
-Execute as seguintes etapas para adicionar o tópico ou mapear modelos em um perfil de pasta:
+Execute as seguintes etapas para adicionar os modelos de tópico, mapa ou PDF em um perfil de pasta:
 
 1. Faça logon no Adobe Experience Manager como administrador ou como um usuário com direitos administrativos em um perfil de nível de pasta.
 
@@ -243,26 +243,26 @@ Execute as seguintes etapas para adicionar o tópico ou mapear modelos em um per
 
    >[!NOTE]
    >
-   > Você pode optar por configurar o modelo de criação no Perfil global ou em um perfil no nível da pasta.
+   > Você pode optar por configurar um modelo no Perfil global ou um perfil de nível de pasta.
 
-1. Na página do perfil, clique no link **Criação de modelo** guia.
+1. Na página do perfil, clique no link **Modelos** guia.
 1. Clique em **Editar**.
 
-   Você tem a opção de adicionar Tópico e Modelos de mapa pesquisando do local padrão ou procurando por ele.
+   Você tem as opções para adicionar modelos de Tópico, Mapa e PDF, pesquisando no local padrão ou procurando por ele.
 
    >[!NOTE]
    >
-   > Por padrão, todos os modelos de criação são armazenados na pasta /content/dam/dita-templates. A variável `dita-templates` pasta contém `topics` e `maps` subpastas para armazenar o tópico e os modelos de mapa. Você pode adicionar seus modelos personalizados \(.dita,.xml ou .ditamapfiles\) nas pastas de modelo padrão. Depois de adicionar o modelo à pasta padrão, é possível adicioná-los ao perfil global ou de pasta. Para obter mais informações sobre como criar modelos personalizados usando o Editor da Web, consulte [Criar modelo de criação personalizado](#id1917D0EG0HJ).
+   > Por padrão, todos os modelos são armazenados na pasta /content/dam/dita-templates. A variável `dita-templates` pasta contém `topics`, `maps`, e `PDF` subpastas para armazenar os modelos de tópico, mapa e PDF. Você pode adicionar seus modelos personalizados \(.dita,.xml ou .ditamapfiles\) nas pastas de modelo padrão. Depois de adicionar o modelo à pasta padrão, é possível adicioná-los ao perfil global ou de pasta. Para obter mais informações sobre como criar modelos personalizados usando o Editor da Web, consulte [Criar modelo de criação personalizado](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png)
+   ![](assets/search-author-temp.png){width="800" align="left"}
 
-1. Adicione o tópico necessário e mapeie os modelos ao seu perfil.
+1. Adicione os modelos de tópico, mapa e PDF necessários ao seu perfil.
 
    Para adicionar um modelo, siga um destes procedimentos:
 
    - Escolher **Pesquisar ou Digitar** e digite ou selecione o nome de um template na lista suspensa. A lista suspensa consiste em todos os modelos padrão e qualquer novo modelo criado.
 
-     ![](assets/default-template-list.png)
+     ![](assets/default-template-list.png){width="800" align="left"}
 
    - Clique em **Procurar** e selecione um modelo do DAM.
 
@@ -270,7 +270,7 @@ Execute as seguintes etapas para adicionar o tópico ou mapear modelos em um per
 
    Os modelos selecionados são adicionados à lista de modelos.
 
-   ![](assets/author-templ-added-list.png)
+   ![](assets/author-templ-added-list.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -475,4 +475,3 @@ No exemplo acima, o &quot;label1&quot; é o identificador para a sequência do r
 **Roteiro**
 
 Se os autores trabalharem com um mapa raiz específico, você poderá navegar até esse mapa e selecioná-lo aqui. Observe que é possível definir o mapa de roteiro somente para um perfil de nível de pasta.
-

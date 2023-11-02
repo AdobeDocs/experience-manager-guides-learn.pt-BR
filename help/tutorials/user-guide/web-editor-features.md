@@ -2,9 +2,9 @@
 title: Conhecer os recursos do Editor da Web
 description: Descubra os recursos do editor da Web em Guias do AEM. Conhecer a interface do editor da Web, incluindo a barra de ferramentas principal, a barra de ferramentas secundária, o painel esquerdo, a área de edição de conteúdo e o painel direito.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '16500'
+source-wordcount: '17079'
 ht-degree: 0%
 
 ---
@@ -212,6 +212,12 @@ As Preferências do usuário estão disponíveis para todos os autores. Usando a
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
 - **Usar tema do dispositivo**: marque essa caixa de seleção para permitir que Guias do AEM alternem automaticamente entre temas claros e escuros com base no tema do seu dispositivo.
+
+- **Exibir arquivos por**: selecione a maneira padrão de exibir os arquivos no Editor da Web. Você pode visualizar a lista de arquivos pelos títulos ou pelos nomes de arquivos dos vários painéis no **Autor** exibição.
+  >[!NOTE]
+  >
+  > Por padrão, os arquivos são exibidos por título no Editor da Web.
+
 - **Tema**: Você pode escolher entre os temas Claro, Mais claro, Escuro ou Mais escuro do editor. No caso do tema Mais claro, as barras de ferramentas e os painéis usam um plano de fundo de cor cinza mais claro. No caso do tema claro, as barras de ferramentas e os painéis usam o plano de fundo cinza-claro. No caso do tema Mais escuro, as barras de ferramentas e os painéis usam um plano de fundo de cor preta mais escuro. No caso do tema Escuro, as barras de ferramentas e os painéis usam o plano de fundo preto. Em todos os temas, a área de edição de conteúdo é mostrada em fundo branco.
 
 - **Perfis de pasta**: o Perfil de pasta controla várias configurações relacionadas a atributos condicionais, modelos de criação, predefinições de saída e configurações do Editor da Web. O Perfil global é exibido por padrão. Além disso, se o administrador tiver configurado perfis de pastas no sistema, esses perfis de pastas também serão mostrados na lista Perfis de pastas.
@@ -713,6 +719,10 @@ O painel esquerdo fornece acesso aos seguintes recursos:
 **Favoritos** -  ![](images/favorite-collections.svg)
 
 Se você trabalhar em um conjunto de arquivos ou pastas, poderá adicioná-los à sua lista de favoritos para acessá-los rapidamente. A lista Favoritos mostra a lista de documentos adicionados e outras listas de documentos favoritos acessíveis publicamente dos outros usuários.
+Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
+>[!NOTE]
+>
+> Como administrador, você também pode optar por exibir a lista de arquivos por nomes de arquivo no Editor da Web. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
 
 Para criar uma lista ou coleção de favoritos, clique no ícone + ao lado do painel Favoritos para mostrar o log de Nova coleção de dados:
 
@@ -753,7 +763,12 @@ Também é possível executar muitas ações usando o menu Opções disponível 
 
 **Visualização do repositório** - ![](images/Repository_icon.svg)
 
-Ao clicar no ícone Exibição do repositório, você obtém uma lista de arquivos e pastas disponíveis no DAM.
+Ao clicar no ícone Exibição do repositório, você obtém uma lista de arquivos e pastas disponíveis no DAM. Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível exibir o título e o nome do arquivo como uma dica de ferramenta.
+
+>[!NOTE]
+>
+> Como administrador, você também pode optar por exibir a lista de arquivos por nomes de arquivo no Editor da Web. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
+
 
 São carregados 75 arquivos de cada vez. Sempre que você clicar em **Carregar mais**... 75 arquivos são carregados e o botão para de ser exibido quando todos os arquivos forem listados. Esse carregamento em lote é eficiente, e você pode acessar os arquivos mais rapidamente em comparação ao carregamento de todos os arquivos existentes em uma pasta.
 
@@ -1013,7 +1028,15 @@ Insira um **Título** para a pasta, que é convertida automaticamente no nome da
 
 **Exibição de mapa** -  ![](images/map-view-icon.svg)
 
-Ao clicar no ícone Exibição de mapa, você obtém uma lista de tópicos dentro do arquivo de mapa. Se você não tiver aberto nenhum arquivo de mapa, a Exibição de mapa aparecerá em branco. Clicar duas vezes em qualquer arquivo de mapa abre o arquivo de mapa nesta exibição. Você pode clicar duas vezes em qualquer arquivo no mapa para abri-lo no Editor da Web. Quando você abre um mapa na exibição de mapa, o título do mapa atual é exibido no centro da barra de ferramentas principal. Se o título for muito longo, uma reticências será exibida e você também poderá passar o mouse sobre o título para ver o título completo na dica de ferramenta. Se você tiver direitos de edição nos arquivos de mapa, também poderá editar os arquivos. Para obter mais informações sobre como abrir e editar um tópico no mapa DITA, consulte [Editar tópicos por meio do mapa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+Ao clicar no ícone Exibição de mapa, você obtém uma lista de tópicos dentro do arquivo de mapa. Se você não tiver aberto nenhum arquivo de mapa, a Exibição de mapa aparecerá em branco. Clicar duas vezes em qualquer arquivo de mapa abre o arquivo de mapa nesta exibição. Você pode clicar duas vezes em qualquer arquivo no mapa para abri-lo no Editor da Web.
+
+Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
+>[!NOTE]
+>
+>Como administrador, você também pode optar por exibir o nome do arquivo do mapa pai que está aberto na exibição de mapa. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
+
+
+Quando você abre um mapa na exibição de mapa, o título do mapa atual é exibido no centro da barra de ferramentas principal. Se o título for muito longo, uma reticências será exibida e você também poderá passar o mouse sobre o título para ver o título completo na dica de ferramenta. Se você tiver direitos de edição nos arquivos de mapa, também poderá editar os arquivos. Para obter mais informações sobre como abrir e editar um tópico no mapa DITA, consulte [Editar tópicos por meio do mapa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
 Você pode executar as seguintes ações usando o menu Opções do arquivo de mapa:
 
@@ -1177,6 +1200,11 @@ Você pode procurar por uma string no elemento se ela estiver mostrada no painel
 Um dos principais recursos do DITA é a capacidade de reutilizar conteúdo. O painel Conteúdo reutilizável pode armazenar seus arquivos DITA de onde você geralmente insere conteúdo reutilizável. Depois de adicionados, os arquivos DITA permanecem no painel Conteúdo reutilizável nas sessões. Isso significa que não é necessário adicionar os arquivos DITA novamente para acessá-los posteriormente.
 
 Você pode simplesmente arrastar e soltar o conteúdo reutilizável do painel no seu tópico atual e ele é inserido de forma fácil e rápida. Você também pode obter uma visualização do conteúdo antes de inseri-lo no documento.
+
+Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
+>[!NOTE]
+>
+> Como administrador, você também pode optar por exibir a lista de arquivos por nomes de arquivo no Editor da Web. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
 
 Para adicionar um arquivo DITA ao painel Conteúdo reutilizável, use um dos seguintes métodos:
 
@@ -1527,6 +1555,12 @@ O painel Modelos está disponível somente para administradores. Com esse painel
 
 ![](images/templates-panel_cs.png){width="550" align="left"}
 
+Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um modelo, é possível exibir o título do arquivo e o nome do arquivo como uma dica de ferramenta.
+
+>[!NOTE]
+>
+> Como administrador, você também pode optar por exibir a lista de arquivos no Editor da Web. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
+
 Para criar um modelo, clique no ícone + ao lado de Modelos e escolha um modelo que deseja criar. Se você selecionar **Modelo de Tópico**, a caixa de diálogo Criar novo modelo de tópico será exibida:
 
 ![](images/create-new-topic-template.PNG){width="400" align="left"}
@@ -1544,7 +1578,12 @@ Usando o menu Opções em um modelo existente, você pode optar por **Editar** o
 **Revisão** -  ![](images/active-review-tasklist-icon.svg)
 
 O Guias do AEM fornece o recurso para exibir todas as tarefas de revisão em seus projetos. Você pode exibir todos os projetos de revisão e as tarefas de revisão ativas nos projetos de revisão, dos quais você faz parte no **Revisão** painel.  É possível abrir as tarefas de revisão para exibir os comentários dos vários revisores.
-O painel de revisão exibe as tarefas de revisão. Como autor, você pode endereçar os comentários em um tópico usando o Editor da Web.
+O painel de revisão exibe as tarefas de revisão. Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
+>[!NOTE]
+>
+> Como administrador, você também pode optar por exibir a lista de arquivos por nomes de arquivo no Editor da Web. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
+
+Como autor, você pode endereçar os comentários em um tópico usando o Editor da Web.
 
 
 Para exibir os comentários de revisão nas tarefas de revisão ativas que estão presentes em seus projetos, execute as seguintes etapas:
@@ -1581,6 +1620,11 @@ Para exibir os comentários de revisão nas tarefas de revisão ativas que estã
 O ícone Localizar e substituir é encontrado na parte inferior do painel esquerdo. O painel Localizar e substituir permite procurar e substituir texto entre arquivos em um mapa ou uma pasta no repositório. É possível localizar e substituir em todos os tópicos de um mapa, bem como nos tópicos presentes nos submapas dentro do mapa.
 
 ![](images/map-find-replace.png){width="800" align="left"}
+
+Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
+>[!NOTE]
+>
+> Como administrador, você também pode optar por exibir a lista de nomes de arquivo no Editor da Web. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
 
 Para executar a pesquisa global e substituir, execute as seguintes etapas:
 
@@ -1665,7 +1709,14 @@ Você também pode usar a variável **Localizar no mapa** opção no **Opções*
 
 ## Área de edição de conteúdo {#id2051EB000UI}
 
-A área de edição de conteúdo é onde o conteúdo do tópico ou mapa é exibido. Você faz todas as edições de conteúdo nesta área. Ele fornece uma visualização WYSIWYG do conteúdo que você está editando. É possível abrir vários tópicos ao mesmo tempo, que são exibidos em suas respectivas guias. Abaixo da guia do arquivo, você tem a navegação estrutural do elemento na localização atual do cursor. No canto superior direito da área de edição de conteúdo, o número da versão do tópico atual é exibido.
+A área de edição de conteúdo é onde o conteúdo do tópico ou mapa é exibido. Você faz todas as edições de conteúdo nesta área. Ele fornece uma visualização WYSIWYG do conteúdo que você está editando. É possível abrir vários tópicos ao mesmo tempo, que são exibidos em suas respectivas guias.
+
+Por padrão, é possível exibir os títulos dos arquivos nas guias. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
+>[!NOTE]
+>
+> Como administrador, você também pode optar por exibir a lista de arquivos por nomes de arquivo nas guias. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
+
+Abaixo da guia do arquivo, você tem a navegação estrutural do elemento na localização atual do cursor. No canto superior direito da área de edição de conteúdo, o número da versão do tópico atual é exibido.
 
 ![](images/content-editing-area.png){width="650" align="left"}
 
@@ -1720,7 +1771,10 @@ A seção Referências fornece acesso aos seguintes recursos:
 - **Usado em**: as referências Usadas em listam os documentos nos quais o arquivo atual está sendo referenciado ou usado.
 - **Links de saída:** Os Links de Saída listam os documentos referenciados no documento atual.
 
-Passe o mouse sobre a referência do arquivo e obtenha o caminho e a UUID do arquivo na dica de ferramenta.
+Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse sobre um arquivo, é possível visualizar o título do arquivo e o caminho do arquivo como uma dica de ferramenta.
+>[!NOTE]
+>
+> Como administrador, você também pode optar por exibir a lista de arquivos por nomes de arquivo no Editor da Web. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
 
 **Nota:** Todas as referências Usadas em e de Saída têm hiperlinks para os documentos. É possível abrir e editar facilmente os documentos vinculados.
 
