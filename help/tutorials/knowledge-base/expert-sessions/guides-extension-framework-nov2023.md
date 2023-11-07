@@ -1,8 +1,7 @@
 ---
 title: Estrutura de extensão de guias do AEM - Personalizar o editor da Web e a interface de revisão
 description: Com a estrutura de extensão do Guides, é possível personalizar as seções desejadas da interface de revisão ou do Editor da Web usando JSON, CSS e JavaScript fáceis de atualizar.
-exl-id: null
-source-git-commit: 38d0ef3dcfea0d0059296b35c84c4973832f5215
+source-git-commit: 5ad664296478ed16f6f2d80e79a4812f5ff96f9c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
