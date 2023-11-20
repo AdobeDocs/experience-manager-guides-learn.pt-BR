@@ -1,8 +1,8 @@
 ---
 title: Suporte para arquivos do Schematron
 description: Saiba como importar e validar um tópico DITA, usar instruções de relatório assert para verificar regras, usar expressões regex e definir padrões abstratos em arquivos Schematron de Guias AEM.
-exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
+source-git-commit: 05a7b46b0c6ec056f85a82759400717fce9a845c
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -105,7 +105,7 @@ No one word titles.
 
 ## Definir padrões abstratos{#schematron-abstract-patterns}
 
-O AEM Gudies também suporta padrões abstratos no Schematron. Você pode definir padrões abstratos genéricos e reutilizar esses padrões abstratos.  Você pode criar parâmetros de espaço reservado que especificam o padrão real.
+Guias AEM também suporta padrões abstratos no Schematron. Você pode definir padrões abstratos genéricos e reutilizar esses padrões abstratos.  Você pode criar parâmetros de espaço reservado que especificam o padrão real.
 
 
 O uso de padrões abstratos pode simplificar o esquema Schematron, reduzindo a duplicação de regras e facilitando o gerenciamento e a atualização da lógica de validação. Ela também pode facilitar a compreensão do esquema, pois é possível definir uma lógica de validação complexa em um único padrão abstrato que pode ser reutilizado em todo o esquema.
