@@ -1,10 +1,10 @@
 ---
 title: Gerenciar predefinições de saída de perfil global e de pasta
 description: Saiba como criar, editar, renomear, duplicar e excluir predefinições de saída de perfil global e de pasta como usuários administrativos nos Guias do AEM.
-exl-id: 40ea464c-16c8-4c95-9c0e-61b6bad95272
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Execute as seguintes etapas para criar uma predefinição de saída para os Perf
    - Nome
    - Target \(para predefinição da Base de conhecimento\)
 1. Selecione o **Adicionar ao perfil da pasta** para criar uma predefinição de saída para o perfil de pasta relacionado e clique em **Adicionar**. A predefinição é criada e aparece sob a tag **Output** de todos os mapas relacionados. \( ![](images/global-preset-icon.svg)\) indica uma predefinição no nível do perfil da pasta.
-1. Insira os detalhes da configuração.
+1. Insira os detalhes da configuração. Para obter mais detalhes sobre predefinições de saída, consulte [Noções básicas sobre as predefinições de saída](./generate-output-understand-presets.md).
 
    >[!NOTE]
    >

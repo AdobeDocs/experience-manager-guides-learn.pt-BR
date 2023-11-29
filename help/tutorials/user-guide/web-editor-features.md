@@ -2,9 +2,9 @@
 title: Conhecer os recursos do Editor da Web
 description: Descubra os recursos do editor da Web em Guias do AEM. Conhecer a interface do editor da Web, incluindo a barra de ferramentas principal, a barra de ferramentas secundária, o painel esquerdo, a área de edição de conteúdo e o painel direito.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '17079'
+source-wordcount: '17231'
 ht-degree: 0%
 
 ---
@@ -302,7 +302,12 @@ Usando o menu de contexto da tabela, você pode:
 - Gerar IDs
 
 
-Você também pode definir atributos em várias células, linha inteira ou coluna de uma tabela. Por exemplo, para alinhar a célula da tabela, arraste e selecione a célula necessária. No painel Propriedades de conteúdo \(à direita\), a propriedade **Tipo** alterações em **Múltiplas entradas**. Na seção Outros Atributos, selecione a variável `@valign` atributo na lista suspensa de atributos. Na lista suspensa valor, selecione o alinhamento de texto desejado que deseja aplicar nas células selecionadas da tabela.
+Você também pode definir atributos em várias células, linha inteira ou coluna de uma tabela. Por exemplo, para alinhar a célula da tabela, arraste e selecione a célula necessária. No painel Propriedades de conteúdo (à direita), a propriedade **Tipo** alterações em **Múltiplas entradas**.
+
+1. No **Atributos** clique em **+Adicionar**.
+1. Selecione o `@valign` atributo do **Atributo** lista suspensa.
+1. Na lista suspensa de valores, selecione o alinhamento de texto desejado que deseja aplicar às células selecionadas da tabela.
+1. Clique em **Adicionar.**
 
 ![](images/align-table-cell_cs.png){width="800" align="left"}
 
@@ -329,7 +334,7 @@ O campo Origem exibe a UUID do arquivo de imagem inserido. Você pode encontrar 
 
 Você pode redimensionar uma imagem fornecendo o valor de Altura ou Largura para o arquivo de imagem. A proporção da imagem é mantida automaticamente. Se desejar, também é possível optar por não manter a proporção do arquivo de imagem clicando no ícone de cadeado \(de Manter proporção\) e fornecendo valores de Altura e Largura.
 
-Você também pode especificar a configuração de Posicionamento para a imagem como Em linha ou Quebra. Caso opte por usar a opção Inserção de quebra, é possível escolher onde alinhar a imagem \(Esquerda, Centro ou Direita\).
+Você também pode especificar a configuração de Posicionamento para a imagem como Em linha ou Quebra. Caso opte por usar a opção Inserção de quebra, é possível escolher onde alinhar a imagem (esquerda, centro ou direita).
 
 Você também pode adicionar outras propriedades para um arquivo de imagem selecionando as propriedades necessárias na **Atributos** campo.
 
@@ -778,7 +783,7 @@ Você também pode clicar e reproduzir um arquivo de áudio ou vídeo no Editor 
 
 
 
-Clicar duas vezes em um arquivo de mapa o abre na **Exibição de mapa**. Para obter mais detalhes, consulte **Exibição de mapa** descrição do recurso na [Painel esquerdo](web-editor-features.md#id2051EA0M0HS) seção. Clicar duas vezes em um arquivo de tópico abre-o na [Área de edição de conteúdo](#id2051EB000UI). Ser capaz de navegar e abrir um arquivo diretamente do Editor da Web economiza tempo e aumenta a produtividade.
+Selecione um mapa e pressione Enter ou clique duas vezes para abri-lo no **Exibição de mapa**. Para obter mais detalhes, consulte **Exibição de mapa** descrição do recurso na [Painel esquerdo](web-editor-features.md#id2051EA0M0HS) seção. Selecione um tópico e pressione Enter ou clique duas vezes para abri-lo no [Área de edição de conteúdo](#id2051EB000UI). Ser capaz de navegar e abrir um arquivo diretamente do Editor da Web economiza tempo e aumenta a produtividade.
 
 **Filtrar pesquisa**
 
@@ -1036,7 +1041,14 @@ Por padrão, é possível visualizar os arquivos por títulos. Ao passar o mouse
 >Como administrador, você também pode optar por exibir o nome do arquivo do mapa pai que está aberto na exibição de mapa. Selecione o **Nome do arquivo** opção do **Exibir arquivos por** seção em **Preferências do usuário** ![](images/user_preference_editor_icon.svg).
 
 
-Quando você abre um mapa na exibição de mapa, o título do mapa atual é exibido no centro da barra de ferramentas principal. Se o título for muito longo, uma reticências será exibida e você também poderá passar o mouse sobre o título para ver o título completo na dica de ferramenta. Se você tiver direitos de edição nos arquivos de mapa, também poderá editar os arquivos. Para obter mais informações sobre como abrir e editar um tópico no mapa DITA, consulte [Editar tópicos por meio do mapa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+Quando você abre um mapa na exibição de mapa, o título do mapa atual é exibido no centro da barra de ferramentas principal. Se o título for muito longo, uma reticências será exibida e você também poderá passar o mouse sobre o título para ver o título completo na dica de ferramenta.
+
+Ao definir atributos principais para o tópico ou referências de mapa, é possível visualizar o título, o ícone correspondente e a chave no painel esquerdo. A chave é exibida como `keys=<key-name>`.
+
+![chaves na exibição de mapa](images/view-key-title-map-view.png){width="300" align="left"}
+
+Se você tiver direitos de edição nos arquivos de mapa, também poderá editar os arquivos. Para obter mais informações sobre como abrir e editar um tópico no mapa DITA, consulte [Editar tópicos por meio do mapa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+
 
 Você pode executar as seguintes ações usando o menu Opções do arquivo de mapa:
 
@@ -1163,7 +1175,7 @@ A Exibição de Estrutura de Tópicos oferece os seguintes recursos:
 
   ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
 
-- A variável **Opções** no menu *Modo de Estrutura de Tópicos* O permite executar operações genéricas como Recortar, Copiar, Excluir, Gerar ID, Inserir elemento antes ou depois do elemento atual, Renomear ou substituir um elemento, Decodificar um elemento e criar um trecho do elemento selecionado.
+- A variável **Opções** no menu *Modo de Estrutura de Tópicos* O permite executar operações genéricas como Recortar, Copiar, Excluir, Gerar ID, Inserir elemento antes ou depois do elemento atual, Renomear ou substituir um elemento, Vincular um elemento, Desvincular um elemento e criar um trecho do elemento selecionado.
 
 >[!NOTE]
 >
@@ -1487,9 +1499,16 @@ Por exemplo, use a seguinte enumeração para restringir o `@platform` atributo 
 
 **Menu suspenso Atributos**
 
-Também é possível alterar o valor do esquema do assunto usando a lista suspensa Atributo, no painel Propriedades de conteúdo na exibição Autor. Para alterar o valor, selecione um valor na lista suspensa Atributo.
+Também é possível alterar o valor do esquema do assunto usando a variável **Atributos** lista suspensa no **Propriedades de conteúdo** no painel **Autor** exibição.
+![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
+Execute as seguintes etapas para alterar o valor:
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+1. Selecione um atributo na **Atributo** lista suspensa.
+1. Selecionar **Editar** ![ícone de edição](images/edit_pencil_icon.svg).
+1. Selecione o valor obrigatório na caixa **Valor** lista suspensa.
+1. Clique em **Atualizar**.
+
+
 
 Você também pode aplicar valores a um atributo selecionando vários valores na lista suspensa.
 
@@ -1732,7 +1751,22 @@ O painel direito fornece acesso aos seguintes recursos:
 
 **Propriedades de conteúdo** -  ![](images/content-properties-icon.svg)
 
-Você pode acessar o recurso Propriedades de conteúdo clicando no ícone Propriedades de conteúdo no painel direito. O painel Propriedades de conteúdo contém informações sobre o tipo de elemento atualmente selecionado no documento e seus atributos. Você também pode adicionar atributos selecionando o atributo na lista suspensa e especificando o valor de um atributo.
+Você pode acessar o recurso Propriedades de conteúdo clicando no ícone Propriedades de conteúdo no painel direito. O painel Propriedades de conteúdo contém informações sobre o tipo de elemento atualmente selecionado no documento e seus atributos.
+É possível adicionar, editar ou excluir facilmente os atributos.
+
+1. Clique em **+ Adicionar**.
+
+   ![atributos em propriedades de conteúdo](images/properties-tab-attributes_cs.png){width="300" align="left"}
+
+1. No **Atributo** selecione o atributo na lista suspensa e especifique o valor de um atributo.  Clique em **Adicionar**.
+
+   ![painel atributos com vários atributos ](images/attributes-multiple-properties.png){width="300" align="left"}
+
+1. Para editar o atributo, passe o mouse sobre ele e selecione **Editar** ![ícone de edição](images/edit_pencil_icon.svg).
+   ![editar atributos](images/edit-attributes-content-properties.png){width="300" align="left"}
+
+1. Para excluir o atributo, passe o mouse sobre ele e selecione **Excluir** ![ícone de exclusão](images/Delete_icon.svg).
+
 
 >[!NOTE]
 >
@@ -1740,7 +1774,7 @@ Você pode acessar o recurso Propriedades de conteúdo clicando no ícone Propri
 
 Se o administrador tiver criado um perfil para atributos, você obterá esses atributos junto com seus valores configurados. Usando o painel de propriedades de conteúdo, você pode escolher esses atributos e atribuí-los ao conteúdo relevante em seu tópico. Dessa forma, você também pode criar conteúdo condicional, que pode ser usado para criar saída condicional. Para obter mais informações sobre a geração de saída usando predefinições condicionais, consulte [Usar predefinições de condição](generate-output-use-condition-presets.md#).
 
-![](images/properties-tab-attributes_cs.png){width="300" align="left"}
+
 
 **Propriedades do arquivo** -  ![](images/topic-properties-icon.svg)
 
@@ -1750,11 +1784,12 @@ Visualize as propriedades do arquivo selecionado clicando no ícone Propriedades
 
 A seção Geral fornece acesso aos seguintes recursos:
 
-![](images/file-properties-general.png){width="300" align="left"}
+![file-properties](images/file-properties-general.png){width="300" align="left"}
 
 - **Nome**: exibe o nome de arquivo do tópico selecionado. O nome do arquivo tem um hiperlink para a página de propriedades do arquivo selecionado.
 - **ID**: exibe a ID do tópico selecionado.
-- **Tags de metadados**: Essas são as tags de metadados do tópico. Eles são definidos no campo tags na página propriedades.
+- **Tags**: Essas são as tags de metadados do tópico. Eles são definidos no campo tags na página propriedades. Você pode digitá-los ou selecioná-los na lista suspensa.  As tags são exibidas na lista suspensa. Para excluir uma tag, selecione o ícone de cruz ao lado da tag.
+- **Editar mais propriedades**: é possível editar mais propriedades na página de propriedades do arquivo.
 - **Idioma**: mostra o idioma do tópico. Ele é definido no campo Language na página de propriedades.
 - **Criado em**: exibe a data e a hora em que o tópico foi criado.
 - **Retirado por**: mostra o usuário que fez check-out do tópico.

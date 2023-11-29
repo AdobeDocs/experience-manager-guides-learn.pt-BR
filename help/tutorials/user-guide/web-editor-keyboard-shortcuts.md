@@ -2,10 +2,10 @@
 title: Atalhos de teclado no Editor da Web
 description: Descubra atalhos de teclado que economizam tempo no editor da Web do AEM Guides.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 3%
+source-wordcount: '347'
+ht-degree: 2%
 
 ---
 
@@ -24,6 +24,9 @@ Há muitas operações no Editor da Web que você pode executar usando os atalho
 | Aplicar formatação em negrito ao texto selecionado | ***Ctrl***+***B*** | ***Comando***+***B*** |
 | Aplicar formatação em itálico ao texto selecionado | ***Ctrl***+***I*** | ***Comando***+***I*** |
 | Aplicar formatação de sublinhado ao texto selecionado | ***Ctrl***+***U*** | ***Comando***+***U*** |
+| Foco no painel esquerdo | **Ctrl***+**Shift**+***1*** | ***Comando***+**Shift**+***1*** |
+| Foco no painel direito | **Ctrl***+**Shift**+***2*** | ***Comando***+**Shift**+***2*** |
+| Focaliza no editor atual | **Ctrl***+**Shift**+***0*** | ***Comando***+**Shift**+***0*** |
 | Salvar documento na exibição Autor ou Fonte | ***Ctrl***+**Shift**+***S*** | ***Comando***+**Shift**+***S*** |
 | Salvar todos os documentos abertos na exibição Autor ou Fonte | ***Ctrl***+***S*** | ***Comando***+***S*** |
 | Mostrar caixa de diálogo Inserir elemento | ***Alt***+***Enter*** | ***Opção***+***Enter*** |

@@ -1,10 +1,10 @@
 ---
 title: Criar uma coleção de mapas de ativação em massa
 description: Saiba como criar uma coleção de mapas de ativação em massa em guias AEM.
-exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ A guia Mapas e Predefinições apresenta informações nas seguintes colunas:
   > Os pequenos ![](images/global-preset-icon.svg) O ícone indica uma predefinição no nível do perfil de pasta.
 - **Modificado**: indica se o mapa DITA foi atualizado após a última publicação. Com base nessas informações, você pode decidir se deseja ativar ou não a saída para esse mapa DITA.
 - **Gerado**: mostra a data e a hora da última saída gerada.
-- **Publicado**: mostra a data e a hora da última saída \(ou ativada\) publicada. Se você clicar no link, a página Resultados da ativação será exibida com informações sobre o caminho raiz onde o conteúdo é ativado.
+- **Publicado**: mostra a data e a hora da última saída publicada (ou ativada). Se você selecionar o link, a variável **Resultados da ativação** será exibida, contendo os logs com informações sobre o caminho raiz onde o conteúdo é ativado.
 
 
 As seguintes opções de filtro estão disponíveis no painel esquerdo:

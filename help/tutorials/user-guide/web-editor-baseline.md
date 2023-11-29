@@ -2,9 +2,9 @@
 title: Criar e gerenciar linhas de base no Editor da Web
 description: Criar e gerenciar linhas de base do editor da Web no AEM Guides. Saiba como criar linhas de base com base em rótulos e aplicar filtros às linhas de base.
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Você pode criar uma linha de base no Editor da Web executando as seguintes etap
 1. No painel Repositório, abra o arquivo de mapa DITA na Exibição de mapa.
 1. Clique em **Gerenciar** guia. A variável **Linha de base** exibe as linhas de base do mapa DITA.
 
-   ![](images/baseline-manage.png){width="800" align="left"}
+   ![Painel Linha de base](images/baseline-manage.png){width="800" align="left"}
 
 1. No **Linha de base** clique no ícone + no canto superior direito. Você pode criar uma linha de base com uma versão específica dos tópicos e conteúdo referenciado disponível em uma data e hora específicas, ou com um rótulo definido para uma versão dos tópicos.
 1. Insira um nome para a linha de base em **Nome da Linha de Base**.
@@ -56,7 +56,7 @@ Você pode criar uma linha de base no Editor da Web executando as seguintes etap
 
    As linhas de base baseadas em rótulos são atualizadas dinamicamente. Se você gerar uma linha de base, baixar uma linha de base ou criar um projeto de tradução usando uma linha de base, os arquivos serão selecionados dinamicamente com base nos rótulos atualizados. Por exemplo, se você tiver usado a versão 1.2 de um tópico com Rótulo Versão 1.0 para a linha de base e a versão mais recente atualizada 1.5 com Rótulo Versão 1.0, a linha de base será atualizada dinamicamente e a versão 1.5 será usada.
 
-   ![](images/dynamic-baseline.png){width="550" align="left"}
+   ![Criar uma linha de base](images/dynamic-baseline.png){width="550" align="left"}
 
    - **Selecionar rótulos**: Se os tópicos tiverem rótulos especificados para eles, os rótulos serão listados na **Selecionar rótulos** lista suspensa. Você pode escolher o rótulo\(s\) na lista. Os rótulos selecionados primeiro recebem prioridade mais alta sobre os posteriores.
 
@@ -83,7 +83,9 @@ Você pode gerenciar suas linhas de base existentes usando os vários recursos n
 
   ![opções de uma linha de base](images/baseline-options.png){width="800" align="left"}
 
-Você também pode executar as seguintes operações na linha de base a partir do menu Opções:
+
+
+  Você também pode executar as seguintes operações na linha de base a partir do menu Opções:
 
 - **Editar**, **Duplicar,** **Renomear** ou **Excluir** uma linha de base existente.
 
@@ -106,7 +108,7 @@ Você também pode executar as seguintes operações na linha de base a partir d
 
 Uso do ícone Filtros no **Filtros da linha de base** painel é possível aplicar filtros na linha de base aberta na janela de edição da linha de base:
 
-![](images/baseline-filter.png){width="350" align="left"}
+![filtros da linha de base](images/baseline-filter.png){width="300" align="left"}
 
 - Filtre os arquivos com base nos nomes ou no local dos arquivos.
 - Filtre os arquivos com base nos valores de diferentes colunas, como Tipo de arquivo, Tipo de referência e assim por diante.

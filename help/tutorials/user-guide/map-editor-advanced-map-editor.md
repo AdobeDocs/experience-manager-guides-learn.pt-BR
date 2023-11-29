@@ -1,10 +1,10 @@
 ---
 title: Trabalhar com o Editor de mapa avançado
 description: Saiba como trabalhar com o editor de mapa avançado em Guias do AEM. Conhecer os recursos do Editor de Mapa avançado. Edite tópicos por meio de um mapa DITA e use o modo de exibição de layout, de criação e de visualização.
-exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '3701'
+source-wordcount: '3707'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Execute as seguintes etapas para criar seu arquivo de mapa usando o Editor de ma
 
    O tópico é adicionado no mapa.
 
-   ![](images/map-editor-add-topic.png){width="800" align="left"}
+   ![editor de mapa adicionar tópico](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. Para adicionar tópicos subsequentes ou um submapa, arraste e solte o tópico ou submapa no local necessário no mapa.
 
@@ -231,7 +231,7 @@ O painel Propriedades de conteúdo contém informações sobre o tipo de tópico
 
 - **Outros atributos** Se o administrador tiver criado um perfil para atributos, você obterá esses atributos junto com seus valores configurados. Usando o painel de propriedades de conteúdo, você pode escolher esses atributos e atribuí-los ao conteúdo relevante em seu tópico. Você também pode designar atributos configurados pelo administrador na variável **Atributos de exibição** nas configurações do editor. Os atributos definidos para um elemento são exibidos na exibição Layout e Estrutura de Tópicos. Isso ajuda você a ter uma olhada rápida em todos os tópicos em um mapa para o qual um determinado atributo é definido. Por exemplo, todos os tópicos que têm o atributo de plataforma definido como &quot;Android&quot;.
 
-  ![](images/layout-inline-attributes.png){width="650" align="left"}
+  ![exibição de layout](images/layout-inline-attributes.png){width="650" align="left"}
 
 
   Para obter mais detalhes, consulte *Atributos de exibição* no prazo de *Configurações do editor* descrição do recurso na [Painel esquerdo](web-editor-features.md#id2051EA0M0HS) seção.

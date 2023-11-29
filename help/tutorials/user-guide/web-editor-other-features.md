@@ -2,9 +2,9 @@
 title: Outros recursos no Editor da Web
 description: Explore outros recursos do editor da Web em Guias do AEM. Saiba como usar esses recursos para melhorar a criação nos Guias do AEM.
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2248'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,15 @@ Além do menu de contexto da navegação estrutural, a caixa de diálogo Renomea
 
 - Você pode acessar a caixa de diálogo Renomear elemento chamando o menu Opções de um elemento no painel Estrutura de tópicos.
 
+
+
+**Quebrar um elemento**
+
+- Quebrar um elemento permite adicionar uma tag de elemento ao texto selecionado. Você pode quebrar o texto para qualquer elemento filho seguindo os padrões DITA. Por exemplo, se você tiver texto em um `note` elemento, em seguida, você pode quebrar o texto em um `p` elemento.
+
+  A variável **Elemento de quebra de linha** está disponível no menu de contexto da navegação estrutural do tópico. Para quebrar um elemento, clique com o botão direito do mouse no elemento e abra o menu de contexto. Selecione o elemento na **Elemento de quebra de linha** diálogo. O texto aparece no novo elemento.
+
+  Você também pode selecionar o texto ou o elemento no conteúdo e selecionar a variável **Elemento de quebra de linha**  no menu de contexto.
 
 **Decodificar um elemento**
 

@@ -1,11 +1,11 @@
 ---
 title: Usar coleção de mapas para geração de saída
 description: Saiba como criar e excluir uma coleção de mapas e adicionar ou excluir um mapa DITA. Configure, gere e cancele uma tarefa de geração de saída de uma coleção de mapas nos Guias AEM.
-exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
+source-wordcount: '1212'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +47,7 @@ Para criar uma Coleção de mapas e adicionar mapas DITA à coleção, execute a
 
    Os arquivos de mapa DITA são adicionados à Coleção de mapas.
 
-   ![](images/maps_presets_62_63.png){width="800" align="left"}
+   ![painel da coleção de mapas](./images/map-collection-dashboard.png){width="800" align="left"}
 
 As seguintes opções de filtro e detalhes do mapa são mostrados na página de coleção:
 
@@ -57,8 +57,10 @@ As seguintes opções de filtro e detalhes do mapa são mostrados na página de 
    - **Idioma**: é possível selecionar qualquer um dos códigos de idioma disponíveis e exibir apenas o idioma selecionado na tabela Mapas e predefinições.
 - **Mapas e predefinições** tabela: A tabela Mapas e Predefinições apresenta informações nas seguintes colunas:
    - **Mapa**: mostra o título do arquivo de mapa DITA.
+   - **Nome do arquivo**: mostra o nome de arquivo do mapa DITA.
    - **Idioma**: mostra o idioma do mapa DITA.
    - **Predefinição**: mostra o tipo de predefinição de saída configurado no arquivo de mapa.
+   - **Linha de base**: mostra a linha de base usada pela predefinição de saída.  Se nenhuma linha de base for usada, ela mostrará um hífen &quot;-&quot;
    - **Modificado**: indica se o mapa DITA foi atualizado após a última publicação. Com base nessas informações, você pode decidir se deseja republicar a saída desse mapa DITA ou não.
    - **Gerado por último**: mostra a data e a hora da última saída gerada.
 
@@ -82,8 +84,8 @@ Para configurar e gerar a saída usando uma Coleção de mapas, execute as segui
 1. Você pode ativar as predefinições de um mapa DITA das seguintes maneiras:
 
    - Ativar qualquer predefinição individual.
-   - Ativar **Todas as predefinições** para que um mapa DITA selecione todas as predefinições de uma só vez. Essa opção está desativada por padrão.
-   - Ativar **Predefinições de perfil de pasta** para que um mapa DITA selecione todas as predefinições de perfil de pasta para ele. Essa opção está desativada por padrão.
+   - Ativar **Todas as predefinições** para que um mapa DITA selecione todas as predefinições de uma só vez. Essa opção está desabilitada por padrão.
+   - Ativar **Predefinições de perfil de pasta** para que um mapa DITA selecione todas as predefinições de perfil de pasta para ele. Essa opção está desabilitada por padrão.
      ![editar uma coleção de mapas nos serviços em nuvem](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
@@ -92,9 +94,36 @@ Para configurar e gerar a saída usando uma Coleção de mapas, execute as segui
 
    - Para gerar a saída de mapas selecionados, selecione os arquivos de mapa e clique em **Gerar seleção**.
    - Para gerar a saída de todos os mapas DITA com suas predefinições configuradas, clique em **Gerar tudo**.
+
    >[!IMPORTANT]
    >
    > Se um processo de geração de saída para uma predefinição ou um mapa DITA estiver na fila ou em andamento, não será possível iniciar outra tarefa de geração de saída para a mesma predefinição ou mapa.
+
+## Configurar as propriedades dos metadados
+
+Na coleção de mapas, é possível configurar as propriedades de metadados em massa para os mapas DITA. Selecionar **Configurar metadados**  para abrir o **Metadados do ativo** página. No **Metadados do ativo** todos os mapas presentes na coleção estão listados à esquerda.
+
+![configurar metadados](images/map-collection-asset-metadata.png){width="800" align="left"}
+
+Execute as seguintes etapas para configurar as propriedades de metadados:
+
+1. Você pode escolher os mapas para os quais deseja atualizar os metadados. Por padrão, todos os mapas DITA presentes são selecionados.
+
+1. Depois de selecionar os mapas DITA, você pode visualizar propriedades como metadados, agendar (des)ativação, referências, estado do documento e muito mais.
+
+1. Atualize as propriedades dos metadados.
+
+1. Clique em **Salvar e fechar** na parte superior para salvar as atualizações.
+1. (Opcional) Ao atualizar as tags, você também pode selecionar Anexar na **Salvar e fechar** para anexar as novas tags à lista existente.
+1. Clique em **Enviar** do **Salvar e fechar** lista suspensa.
+As propriedades dos metadados são atualizadas para os mapas DITA selecionados em massa na coleção de mapas.
+
+>[!NOTE]
+> 
+>Para o **Estado do documento** , é possível selecionar apenas os estados do documento permitidos em comum para todos os mapas DITA selecionados. Para saber mais, consulte [**Estado do documento**](./web-editor-document-states.md).
+
+As propriedades de metadados estão sincronizadas com as propriedades do arquivo. Depois de atualizá-los, você pode visualizá-los na **Propriedades do arquivo** no Editor da Web.
+
 
 
 ## Excluir uma coleção de mapas ou um mapa DITA da coleção de mapas
@@ -102,7 +131,7 @@ Para configurar e gerar a saída usando uma Coleção de mapas, execute as segui
 - Para excluir uma coleção de mapas, selecione uma coleção na página Coleção de Mapas e clique em **Excluir**.
 - Para excluir um mapa DITA de uma coleção de mapas, abra a Coleção de mapas no modo Editar, selecione o arquivo de mapa DITA e clique em **Remover da coleção**.
 
-  Isso também removerá quaisquer predefinições ou localidades associadas ao mapa DITA da Coleção de mapas.
+Isso também removerá quaisquer predefinições ou localidades associadas ao mapa DITA da Coleção de mapas.
 
 
 ## Cancelar uma tarefa de geração de saída de uma coleção de mapas

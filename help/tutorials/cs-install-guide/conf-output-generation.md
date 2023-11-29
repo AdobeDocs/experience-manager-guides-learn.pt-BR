@@ -2,9 +2,9 @@
 title: Definir configurações de geração de saída
 description: Saiba como definir configurações de geração de saída
 exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '5340'
+source-wordcount: '5496'
 ht-degree: 1%
 
 ---
@@ -140,6 +140,23 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 | PID | Chave de propriedade | Valor da propriedade |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Booleano \(true/false\). Caso queira gerar a saída usando o título da página, defina essa propriedade como true. Por padrão, está definido para usar o nome do arquivo.<br> **Valor padrão**: falso |
+
+### Configure o URL da saída do site AEM para usar o título do documento
+
+Você pode usar os títulos dos documentos no URL da saída do site AEM. Se o nome do arquivo não existir ou contiver todos os caracteres especiais, você poderá configurar o sistema para substituir os caracteres especiais por um separador no URL da saída do site AEM. Você também pode configurá-lo para substituí-los pelo nome do primeiro tópico filho.
+
+
+Para configurar os nomes de página, execute as seguintes etapas:
+
+1. Use as instruções fornecidas em [Substituições de configuração](download-install-additional-config-override.md#) para criar o arquivo de configuração.
+1. No arquivo de configuração, forneça os seguintes detalhes (propriedade) para configurar os nomes de página para os tópicos.
+
+| PID | Chave de propriedade | Valor da propriedade |
+|---|------------|--------------|
+| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | Booleano (`true/false`). **Valor padrão**: `false` |
+
+Por exemplo, se a variável *@navtitle* in `<topichead>` tem todos os caracteres especiais e você define o `aemsite.pagetitle` para true, em seguida, por padrão, usa um separador. Se você definir a variável `nodename.systemDefinedPageName` como true, mostra o nome do primeiro tópico filho.
+
 
 ### Configurar regras de limpeza de nome de arquivo para criar tópicos e publicar a saída do site AEM {#id2164D0KD0XA}
 
