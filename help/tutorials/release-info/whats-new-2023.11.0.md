@@ -1,9 +1,10 @@
 ---
 title: Notas de versão | Novidades nos guias do Adobe Experience Manager, versão de novembro de 2023
 description: Conheça os recursos novos e aprimorados da versão de novembro de 2023 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 6cc5299f8f4566e38c5a8c96e17fadd915f6e206
+exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
+source-git-commit: 57ff1a3b6ceb9debc8e29065fd37cab21adc1b96
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -43,6 +44,7 @@ Para obter mais detalhes, consulte [Configurações avançadas de PDF](../native
 ### Gerenciamento de recursos aprimorado para modelos de PDF nativos
 
 Os Guias de Experience Manager agora melhoraram o gerenciamento de recursos para modelos de PDF nativo. Agora é possível compartilhar e reutilizar recursos, como imagens, arquivos CSS e arquivos de fontes, em vários modelos de PDF nativos. Com essa melhoria, gerenciar os recursos de um grande conjunto de modelos é muito mais simples. Não é necessário criar recursos duplicados para cada modelo, e você pode mantê-los em uma pasta compartilhada e usá-los em todos os modelos de PDF nativo.
+Para obter mais detalhes, consulte [Modelo PDF](../native-pdf/pdf-template.md).
 
 ## Aprimoramentos no Editor da Web
 
@@ -64,6 +66,8 @@ Você pode definir atributos de condição em seus tópicos DITA. Em seguida, us
 
 ![Predefinições de condição na guia Gerenciar do editor da Web ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
+Para obter mais detalhes, consulte [Usar predefinições de condição](../user-guide/generate-output-use-condition-presets.md).
+
 ### Restaurar guias de arquivo ao atualizar o navegador
 
 O Experience Manager Guides restaura o estado das abas de arquivo abertas no Editor da Web quando você atualiza o navegador. Para obter mais detalhes, consulte **Atualizar o navegador ao editar os arquivos** seção em [Editar tópicos no Editor da Web](../user-guide/web-editor-edit-topics.md).
@@ -78,4 +82,3 @@ Para obter mais detalhes, consulte **Decodificar um elemento** seção do [outro
 O Experience Manager Guides agora também permite que você use atalhos de teclado para mover o cursor no Editor da Web. Você pode usar os atalhos de teclado para mover rapidamente uma palavra para a esquerda ou direita. Também é possível mover para o início ou o fim da linha com a ajuda de atalhos de teclado.
 Agora, você também pode usar atalhos de teclado para mover o cursor para o início do próximo elemento ou para o fim do elemento anterior.
 Saiba mais sobre o [atalhos de teclado no Editor da Web](../user-guide/web-editor-keyboard-shortcuts.md).
-
