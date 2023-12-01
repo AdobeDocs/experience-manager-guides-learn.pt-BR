@@ -2,9 +2,9 @@
 title: Fluxo de trabalho de pós-geração
 description: Uma visão geral do fluxo de trabalho de pós-geração com um exemplo
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
-source-git-commit: 3cfa0a58c5681668fbb3c97dcbe1e8f7e32335fc
+source-git-commit: b8fed051e235146cd797af2524a68d8d2d0f16c6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Por exemplo, você pode querer definir determinadas propriedades na saída do PD
 
 Crie um processo de workflow baseado em Java ou ECMA que execute a operação na saída gerada. Por exemplo, copiar alguns metadados da origem para o conteúdo gerado ou manipular os metadados da saída gerada.
 - Pegaremos um exemplo de criação desse processo usando o script ECMA (você pode consultar o pacote anexado)
-- Para o processo de workflow baseado em Java, consulte a seção &quot;*Personalizar fluxo de trabalho de geração de pós-saída*&quot; de [Guia de instalação e configuração](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
+- Para o processo de workflow baseado em Java, consulte a seção &quot;*Personalizar fluxo de trabalho de geração de pós-saída*&quot; de [Guia de instalação e configuração](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/custom-workflow/customize-workflows.html?lang=en#id17A6GI004Y4)
 
 
 ### Criar um modelo de fluxo de trabalho
