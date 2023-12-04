@@ -1,10 +1,10 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos no Adobe Experience Manager Guides, versão de dezembro de 2023
 description: Saiba mais sobre as correções de erros e como atualizar para a versão de dezembro de 2023 do Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9fcc8faec4631d710dbdfd7e4f8567069d0ba120
+source-git-commit: b4bbed1de8fc2d8ef81332445a5c96161be508d4
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 3%
+source-wordcount: '1319'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 Atualize sua configuração as a Cloud Service do Experience Manager Guides executando as seguintes etapas:
 
 1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
-2. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2023.12.0.15.
+2. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2023.12.0.16.
 3. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de dezembro de 2023 do as a Cloud Service Guias de Experience Manager.
 
 ## Etapas para ativar o acionador de um script por meio de um servlet
@@ -122,7 +122,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 | Versão do Experience Manager Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.12.0 | 3.3-uuid.5 | 3.3-uuid.5 | 2.3 | 2.3 |
+| 2023.12.0 | 3.3-uuid.5 | 3.3-uuid.5 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
