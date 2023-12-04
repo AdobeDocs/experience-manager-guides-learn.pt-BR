@@ -1,15 +1,15 @@
 ---
-title: Cursos de aprendizado com base em vídeos para [!DNL Adobe Experience Manager Guides]
+title: Tutoriais em vídeo para [!DNL Adobe Experience Manager Guides]
 description: Assista aos tutoriais em vídeo sobre [!DNL Adobe Experience Manager Guides], Complemento AEM XML, Plug-in AEM XML, AEM DoX e AEM Dox.
 exl-id: 4066431b-0838-45a6-b6b1-e366f210eb8d
-source-git-commit: b2c51539bbe49c6d5de601e319ceb5def99d9020
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 1%
 
 ---
 
-# Cursos de vídeo para [!DNL Adobe Experience Manager Guides] {#overview}
+# Tutoriais em vídeo para [!DNL Adobe Experience Manager Guides] {#overview}
 
 Confira este espaço para cursos com base em vídeo para [!DNL Adobe Experience Manager Guides].
 
@@ -21,12 +21,12 @@ Confira este espaço para cursos com base em vídeo para [!DNL Adobe Experience 
 
 * **[[!DNL AEM Guides] Criação do curso](course-3/overview.md)**
 
-   *Guia do usuário avançado para [!DNL AEM Guides] Editor*
+  *Guia do usuário avançado para [!DNL AEM Guides] Editor*
 
 * **[[!DNL AEM Guides] Introdução ao curso](course-1/overview.md)**
 
-   *Saiba como criar, organizar, criar e publicar conteúdo com o [!DNL Adobe Experience Manager Guides].*
+  *Saiba como criar, organizar, criar e publicar conteúdo com o [!DNL Adobe Experience Manager Guides].*
 
 * **[Geração de saída com [!DNL AEM Guides]](course-2/overview.md)**
 
-   *Saiba como gerar saída usando o [!DNL Adobe Experience Manager Guides]. Saiba mais sobre os vários recursos disponíveis para geração de saída - relatórios, linhas de base, condições, solução de problemas, publicação e ativação em massa.*
+  *Saiba como gerar saída usando o [!DNL Adobe Experience Manager Guides]. Saiba mais sobre os vários recursos disponíveis para geração de saída - relatórios, linhas de base, condições, solução de problemas, publicação e ativação em massa.*

@@ -2,16 +2,16 @@
 title: Visão geral da introdução ao [!DNL AEM Guides] curso
 description: Introdução ao [!DNL Adobe Experience Manager Guides]
 exl-id: 6c53602f-4971-407e-9fd0-23c3a77e0118
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 5%
+source-wordcount: '70'
+ht-degree: 0%
 
 ---
 
-# Visão geral do curso
+# Visão geral da introdução
 
-Neste curso, você aprenderá a fazer o seguinte:
+Neste conjunto de tutoriais, você aprenderá a fazer o seguinte:
 
 - [Entender a interface](understanding-the-aem-user-interface.md)
 - [Criar e estruturar conteúdo com a visualização de repositório e o Editor de XML](creating-and-structuring-content.md)
