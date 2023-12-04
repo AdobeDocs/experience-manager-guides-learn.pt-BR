@@ -1,13 +1,12 @@
 ---
 title: Verificar a instalação dos Guias do AEM
 description: Saiba como verificar a instalação dos Guias do AEM
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 5%
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
-
 
 # Verificar a instalação dos Guias do AEM {#id213BD030FBE}
 
@@ -15,7 +14,7 @@ Depois de instalar os Guias do AEM, é necessário verificar se a instalação f
 
 1. Acesse o Developer Console do seu Cloud Service.
 
-   Para obter detalhes sobre como acessar o Console do desenvolvedor, consulte [Acesso ao Developer Console](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=pt-BR) na documentação do AEM.
+   Para obter detalhes sobre como acessar o Console do desenvolvedor, consulte [Acesso ao Developer Console](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html) na documentação do AEM.
 
 1. Acesse a lista de pacotes OSGi no AEM.
 
@@ -27,4 +26,3 @@ Depois de instalar os Guias do AEM, é necessário verificar se a instalação f
 
 
 **Tópico pai:**[ Baixar e instalar](download-install.md)
-

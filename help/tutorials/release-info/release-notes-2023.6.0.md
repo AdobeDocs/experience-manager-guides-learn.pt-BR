@@ -1,11 +1,10 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos nos Guias da Adobe Experience Manager, versão de junho de 2023
 description: Saiba mais sobre as correções de erros e como atualizar para a versão de junho de 2023 do Adobe Experience Manager Guides as a Cloud Service
-exl-id: ea0ff27a-9c3a-49d7-b94a-d1b9d9e85dcf
-source-git-commit: 4359d857f3662ae29a55420c0fafc4a244258389
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 3%
+source-wordcount: '1170'
+ht-degree: 0%
 
 ---
 
@@ -19,9 +18,9 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 
 Atualize sua configuração as a Cloud Service dos Guias AEM atuais executando as seguintes etapas:
 
-1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline Cloud Services correspondente ao ambiente que você deseja atualizar.
-2. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Services para 2023.6.297.
-3. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de junho de 2023 do AEM Guides as a Cloud Service.
+1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
+2. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2023.6.297.
+3. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de junho de 2023 do AEM Guides as a Cloud Service.
 
 ## Etapas para ativar o acionador de um script por meio de um servlet
 
@@ -111,7 +110,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 | Versão do AEM Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.06.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023.06.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -141,8 +140,8 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 ### Publicação
 
 - A publicação no site AEM falha ao ler arquivos temporários do pod que podem ter sido atualizados ou reiniciados. (12113)
-- PDF nativo | A publicação de conteúdo que tem uma classe de saída com colchetes() resulta em um congelamento da publicação. (11936)
-- Saída JSON | Mapear metadados com o valor de propriedade como `"value in spaces and double quotes"` leva a um erro de publicação. (11933)
+- PDF nativo | A publicação de conteúdo que tem uma classe de saída com colchetes() resulta em um congelamento da publicação. (1936)
+- Saída JSON | Mapear metadados com o valor de propriedade como `"value in spaces and double quotes"` leva a um erro de publicação. (1933)
 - Editor da Web | O caminho de saída e o modelo não podem ser selecionados na Predefinição de AEM. (11530)
 - PDF nativo | Os atributos personalizados não são propagados para o mecanismo de HTML ou PDF temporário. (DXML-12005)
 - PDF nativo | Java OutOfMemoryError ocorre ao publicar conteúdo grande. (11789)

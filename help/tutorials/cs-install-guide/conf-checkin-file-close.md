@@ -1,13 +1,12 @@
 ---
 title: Configurar prompt para fazer check-in de um arquivo ao fechar
 description: Saiba como configurar o prompt para fazer check-in de um arquivo ao fechar
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 1%
 
 ---
-
 
 # Configurar prompt para fazer check-in de um arquivo ao fechar {#id222HC040PE8}
 
@@ -24,4 +23,3 @@ Quando essa configuração estiver ativada, a variável **Desbloquear o arquivo*
 Para obter mais detalhes, consulte *Cenários de fechamento e salvamento de arquivos* no guia as a Cloud Service Usar guias do Adobe Experience Manager.
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

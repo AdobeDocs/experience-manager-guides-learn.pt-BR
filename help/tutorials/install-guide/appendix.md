@@ -1,9 +1,9 @@
 ---
 title: Apêndice
 description: Saiba como preparar arquivos do InDesign para conversão
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2861'
+source-wordcount: '2851'
 ht-degree: 0%
 
 ---
@@ -209,43 +209,43 @@ Os atributos usados na variável `wrap` são explicados a seguir:
 - `@wrapper`: o nome do elemento de encapsulamento.
 - `@context`: fornece uma maneira de refinar ainda mais como um determinado elemento é encapsulado. O exemplo a seguir mostra uma maneira de mapear uma série de `li` elementos em uma lista ordenada `ol` ou uma lista não ordenada `ul` de acordo com a `@context` value \(o contexto é definido na variável `paraRule` element\):
 
-   ```XML
-   <wrap elements="li+" context="number" wrapper="ol">
-      <attributeRules createID="true"/>
-   </wrap>
-   <wrap elements="li+" context="bullet" wrapper="ul">
-      <attributeRules createID="true"/>
-   </wrap>
-   ```
+  ```XML
+  <wrap elements="li+" context="number" wrapper="ol">
+     <attributeRules createID="true"/>
+  </wrap>
+  <wrap elements="li+" context="bullet" wrapper="ul">
+     <attributeRules createID="true"/>
+  </wrap>
+  ```
 
 
 O exemplo a seguir mostra como criar um `fig` elemento de a `title` e uma `image` elemento:
 
 - `@elements`: os elementos listados e separados por vírgula serão encapsulados no elemento chamado no `@wrapper` atributo. Devido à prática comum de incluir títulos de figura abaixo da imagem, o título será o `title` imediatamente após o `image`.
 
-   A seguinte regra de quebra de linha:
+  A seguinte regra de quebra de linha:
 
-   ```XML
-   <wrap elements="title, image" context="FigTitle" wrapper="fig">
-      <attributeRules createID="true"/>
-   </wrap>
-   ```
+  ```XML
+  <wrap elements="title, image" context="FigTitle" wrapper="fig">
+     <attributeRules createID="true"/>
+  </wrap>
+  ```
 
-   Converte o seguinte XML intermediário:
+  Converte o seguinte XML intermediário:
 
-   ```XML
-   <image href="Links/myImage.png" scale="59">
-      <title>IDML2DITA workflow</title>
-   ```
+  ```XML
+  <image href="Links/myImage.png" scale="59">
+     <title>IDML2DITA workflow</title>
+  ```
 
-   Na seguinte estrutura de figura DITA válida:
+  Na seguinte estrutura de figura DITA válida:
 
-   ```XML
-   <fig id="id397504">
-      <title>IDML2DITA workflow</title>
-      <image href="Links/myImage.png" scale="59">
-   </fig>
-   ```
+  ```XML
+  <fig id="id397504">
+     <title>IDML2DITA workflow</title>
+     <image href="Links/myImage.png" scale="59">
+  </fig>
+  ```
 
 - `@wrapper`: o nome do elemento de encapsulamento.
 - `@context`: fornece uma maneira de refinar ainda mais como um determinado elemento é encapsulado \(o contexto é definido na variável `paraRule` element\).
@@ -254,33 +254,33 @@ O exemplo a seguir mostra como mover um `title` em um `table`:
 
 - `@elements`: A variável `title` elemento situado imediatamente antes ou imediatamente depois de um `table` será encapsulado no elemento chamado no `@wrapper` atributo. Um predicado de estilo XPath pode identificar a posição do elemento de título como `[before]` ou `[after]`.
 
-   Exemplo: a seguinte regra de quebra:
+  Exemplo: a seguinte regra de quebra:
 
-   ```XML
-   <wrap elements="title[before]" context="TableTitle" wrapper="table">
-      <attributeRules createID="true"/>
-   </wrap>
-   ```
+  ```XML
+  <wrap elements="title[before]" context="TableTitle" wrapper="table">
+     <attributeRules createID="true"/>
+  </wrap>
+  ```
 
-   Converte o seguinte XML intermediário:
+  Converte o seguinte XML intermediário:
 
-   ```XML
-   <title>IDML2DITA workflow</title>
-   <table id="id289742" outputclass="BasicTable">
-      <tgroup cols="2">
-         <colspec colname="0" colwidth="0.7*">
-            <colspec colname="1" colwidth="0.3*">
-   ```
+  ```XML
+  <title>IDML2DITA workflow</title>
+  <table id="id289742" outputclass="BasicTable">
+     <tgroup cols="2">
+        <colspec colname="0" colwidth="0.7*">
+           <colspec colname="1" colwidth="0.3*">
+  ```
 
-   Nesta estrutura de figura DITA válida:
+  Nesta estrutura de figura DITA válida:
 
-   ```XML
-   <table id="id289742" outputclass="BasicTable">
-      <title>IDML2DITA workflow</title>
-      <tgroup cols="2">
-         <colspec colname="0" colwidth="0.7*">
-            <colspec colname="1" colwidth="0.3*">
-   ```
+  ```XML
+  <table id="id289742" outputclass="BasicTable">
+     <title>IDML2DITA workflow</title>
+     <tgroup cols="2">
+        <colspec colname="0" colwidth="0.7*">
+           <colspec colname="1" colwidth="0.3*">
+  ```
 
 - `@wrapper`: o nome do elemento de encapsulamento.
 
@@ -475,4 +475,3 @@ Você também pode criar um agente de log separado para essa execução de scrip
 - Defina-o como `DEBUG`
 
 O arquivo de log criado registrará todas as informações relacionadas à execução do script e será útil caso o tempo limite da sessão do navegador seja excedido durante o acionamento do script no navegador.
-

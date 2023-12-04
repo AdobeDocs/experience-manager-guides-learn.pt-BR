@@ -1,10 +1,10 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 4.3.1 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros e como atualizar para as versões 4.3.1 do Adobe Experience Manager Guides
-source-git-commit: eb22fe5d4872b0e5c6594869193799fd9e64d95d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 5%
+source-wordcount: '1306'
+ht-degree: 1%
 
 ---
 
@@ -61,8 +61,8 @@ Para obter mais detalhes, consulte *Requisitos técnicos* no guia Instalar e con
 
 | Versão | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.3.1 (Não UUID) | 2.3-regular-5 | 2.3-regular-5 | 1.6 | 1.6 |
-| 4.3.1 (UUID) | 3.2-uuid-5 | 3.2-uuid-5 | 2.3 | 2.3 |
+| 4.3.1 (Não UUID) | 2.3-regular-5 | 2.3-regular-5 | 1,6 | 1,6 |
+| 4.3.1 (UUID) | 3.2-uuid-5 | 3.2-uuid-5 | 2,3 | 2,3 |
 |  |  |   |
 
 
@@ -115,9 +115,9 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - A publicação incremental não funciona se um mapa DITA tiver várias ditavalrefs. (12117)
 - Site AEM | Ao criar um mapa com keydef apontando para um tópico como uma variável e adicionar processing-role=resource-only, serão criadas algumas páginas inesperadas. (12099)
 - Se qualquer ativo do DAM do AEM for usado em qualquer saída diferente do site AEM, os metadados &quot;jcr:createdBy&quot; não refletirão o nome do editor nem o nome do usuário que modificou o mapa ou tópico DITA por último. (12090)
-- AEM Sites | O mapa DITA com cabeçalho de tópico no navtitle (com caracteres não compatíveis) resulta em URLs de página inválidos. (11978)
-- PDF nativo | Problemas ocorrem no suporte a topichead / topicmeta / navtitle no Frontmatter e Backmatter. (11969)
-- PDF nativo | Gerar PDF para documentos grandes é um processo demorado. (11955)
+- AEM Sites | O mapa DITA com cabeçalho de tópico no navtitle (com caracteres não compatíveis) resulta em URLs de página inválidos. (1978)
+- PDF nativo | Problemas ocorrem no suporte a topichead / topicmeta / navtitle no Frontmatter e Backmatter. (1969)
+- PDF nativo | Gerar PDF para documentos grandes é um processo demorado. (1955)
 - PDF nativo | Renomear uma predefinição gera uma NullPointerException ao gerar uma saída de PDF. (11889)
 - A variável `<conref>` o conteúdo não é exibido na saída do PDF. (11131)
 - Um espaço extra é adicionado dentro do `<div>` elementos sobre como alternar entre a visualização Autor e Fonte no editor de layout de página. (10750)
@@ -128,7 +128,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 - O Histórico de versões não é exibido mesmo se a variável `dc:format` A propriedade não está presente para um ativo. (10463)
 - A referência de conteúdo é quebrada ao copiar e colar arquivos DITA quando a ID do tópico não é a mesma que a GUID. (12614)
-- Nas linhas de base dinâmicas, a lista de rótulos não é retirada das referências diretas da cópia de trabalho de um mapa DITA. (11917)
+- Nas linhas de base dinâmicas, a lista de rótulos não é retirada das referências diretas da cópia de trabalho de um mapa DITA. (1917)
 - A Linha de Base mostra o número incorreto de arquivos no Painel do Mapa ao usar a funcionalidade Procurar todos os tópicos. (13265)
 - No Editor da Web, a linha de base mostra o título da versão anterior em vez da versão selecionada do arquivo DITA. (13444)
 

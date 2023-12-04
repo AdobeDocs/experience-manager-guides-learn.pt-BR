@@ -1,13 +1,12 @@
 ---
 title: Fazer upload de conteúdo DITA existente
 description: Saiba como fazer upload de conteúdo DITA existente
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
-
 
 # Fazer upload de conteúdo DITA existente {#id176FF000JUI}
 
@@ -79,4 +78,3 @@ Especifique os seguintes parâmetros para adicionar informações de metadados:
 
 
 **Tópico pai:**[ Migrar conteúdo existente](migrate-content.md)
-

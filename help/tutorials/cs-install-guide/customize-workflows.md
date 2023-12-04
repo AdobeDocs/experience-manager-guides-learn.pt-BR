@@ -1,13 +1,12 @@
 ---
 title: Configurar e personalizar workflows
 description: Saiba como configurar e personalizar workflows
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1362'
 ht-degree: 1%
 
 ---
-
 
 # Configurar e personalizar workflows {#id181AI0OJ0RO}
 
@@ -15,7 +14,7 @@ Os workflows permitem automatizar as atividades do Adobe Experience Manager \(AE
 
 Para obter mais informações sobre workflows no AEM, consulte:
 
-- [Administração de instâncias do fluxo de trabalho](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)
+- [Administração de instâncias de fluxo de trabalho](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)
 
 - Aplicar e participar de fluxos de trabalho: [Trabalhar com fluxos de trabalho de projeto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
 
@@ -153,4 +152,3 @@ generatedPath;
 ```
 
 Depois de criar o script, chame o script personalizado no fluxo de trabalho. Em seguida, dependendo das suas necessidades, você poderá chamar os outros processos de workflow. Depois de criar o fluxo de trabalho personalizado, chame o *Finalizar pós-geração* como a última etapa do processo de fluxo de trabalho. A variável *Finalizar pós-geração* garante que o status da tarefa de geração de saída seja atualizado para *Concluído* após a conclusão do processo de geração de saída. Depois de criar um fluxo de trabalho personalizado de geração pós-saída, você pode configurá-lo com qualquer uma das predefinições de geração de saída. Selecione o fluxo de trabalho necessário na *Executar fluxo de trabalho de pós-geração* da predefinição necessária. Quando você executa uma tarefa de geração de saída usando a predefinição de saída configurada, o status da tarefa \(na guia Saída\) muda para *Pós-processamento*.
-

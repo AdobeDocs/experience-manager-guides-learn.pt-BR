@@ -2,10 +2,9 @@
 title: Configurar o DITA-OT personalizado no [!DNL AEM Guides]
 description: Saiba como configurar o DITA-OT personalizado no [!DNL Adobe Experience Manager Guides]
 role: Admin
-exl-id: f479c2cf-5b8b-4517-be97-81303468007a
-source-git-commit: 6ae539eff23b1fd5f1d74878b03cf6dd5b20a57d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -22,9 +21,8 @@ Em um alto nível, as etapas são:
 + Faça alterações no DITA-OT como [adicionar novo plug-in](https://www.dita-ot.org/dev/topics/plugins-installing.html)ou personalizar plug-ins existentes (consulte o exemplo na seção links relacionados abaixo)
 + Carregar `DITA-OT.zip` recebido para `/apps/<project-folder>/dita_resources` (criar uma pasta de projeto personalizada é uma abordagem recomendada)
 + Adicionar perfil DITA por meio de **[!UICONTROL Ferramentas]** > **[!UICONTROL Guias]** > **[!UICONTROL Perfis DITA]** (use o caminho DITA-OT onde o DITA-OT personalizado é carregado; consulte a captura de tela abaixo)
-   ![Perfis DITA](assets/dita-profile.png)
+  ![Perfis DITA](assets/dita-profile.png)
 
 >[!MORELIKETHIS]
 >
 >+ [Personalização de amostras de plug-in DITA-OT](https://www.dita-ot.org/dev/topics/pdf-customization.html)
-

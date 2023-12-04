@@ -1,10 +1,9 @@
 ---
 title: Relatórios nos Guias do AEM
 description: Saiba quais todos os relatórios estão disponíveis no AEM para ajudar os usuários a melhorar a qualidade do conteúdo.
-exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -59,8 +58,7 @@ Nesta sessão, você aprendeu sobre o seguinte:
 >
 > Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
 > - No local: 4.2 ou posterior
-> - Cloud Services: 2302 ou posterior
-
+> - Cloud Service: 2302 ou posterior
 
 
 ## Próxima sessão com especialistas

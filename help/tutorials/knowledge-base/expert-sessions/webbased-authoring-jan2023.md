@@ -1,10 +1,9 @@
 ---
 title: Criação de conteúdo baseado na Web
 description: Saiba como criar conteúdo estruturado usando o editor da Web.
-exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
@@ -48,8 +47,7 @@ Nesta sessão, você aprenderá sobre o seguinte:
 >
 > Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
 > - No local 4.1.3 ou posterior
-> - Cloud Services 2211 e posterior
-
+> - Cloud Service 2211 e posterior
 
 ## Entre em contato
 

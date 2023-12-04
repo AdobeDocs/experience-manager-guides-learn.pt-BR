@@ -1,13 +1,12 @@
 ---
 title: Traduzir conteúdo nas guias do AEM
 description: Saiba como traduzir conteúdo
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 12%
+source-wordcount: '707'
+ht-degree: 9%
 
 ---
-
 
 # Traduzir conteúdo {#id181GB0400UI}
 
@@ -22,7 +21,7 @@ A tradução de conteúdo envolve as seguintes etapas:
 
 1. Conecte o AEM com seu [provedor de serviços de tradução](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) e criar [configurações da estrutura de integração de tradução](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Associar as páginas do seu idioma principais à [serviço de tradução e configurações da estrutura](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Associe as páginas do seu idioma principal com a [serviço de tradução e configurações da estrutura](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
 1. Identificar o tipo de [conteúdo a ser traduzido](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
@@ -82,6 +81,7 @@ Com base no fluxo de trabalho de tradução usado na configuração, a opção d
    - Se você estiver usando tradução humana, *Desativar* o **Fluxo de trabalho de tradução baseado em componentes** opção.
 
    - Se você estiver usando a tradução automática, *Ativar* o **Fluxo de trabalho de tradução baseado em componentes** opção.
+
    >[!NOTE]
    >
    > Se estiver usando o conector de tradução, verifique se você configurou o conector conforme descrito na seção *[Configuração da estrutura de integração de tradução](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* tópico na documentação do AEM.
@@ -116,5 +116,3 @@ Por padrão, a opção pós-processamento de arquivos temporários está desativ
    - Se você quiser executar a operação de pós-processamento nos arquivos temporários, *Ativar* o **Pós-processamento de cópias de idioma** opção.
 
 1. Clique em **Salvar**.
-
-

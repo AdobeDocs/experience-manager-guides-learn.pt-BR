@@ -1,13 +1,12 @@
 ---
 title: Configurar e personalizar workflows
 description: Saiba como configurar e personalizar workflows
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1781'
-ht-degree: 4%
+source-wordcount: '1744'
+ht-degree: 1%
 
 ---
-
 
 # Configurar e personalizar workflows {#id181AI0OJ0RO}
 
@@ -15,11 +14,11 @@ Os workflows permitem automatizar as atividades do Adobe Experience Manager \(AE
 
 Para obter mais informações sobre workflows no AEM, consulte:
 
-- [Administração de fluxos de trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Administração de workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Aplicar e participar de fluxos de trabalho: [Trabalhar com fluxos de trabalho](https://helpx.adobe.com/br/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Aplicar e participar de fluxos de trabalho: [Trabalhar com fluxos de trabalho](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Criação de modelos de workflow e extensão da funcionalidade do workflow: [Desenvolvimento e extensão de workflows](https://helpx.adobe.com/br/experience-manager/6-5/sites/developing/using/workflows.html).
+- Criação de modelos de workflow e extensão da funcionalidade do workflow: [Desenvolvimento e extensão de workflows](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
 - Melhorar o desempenho de workflows que usam recursos significativos do servidor: [Processamento de fluxo de trabalho simultâneo](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
@@ -28,7 +27,7 @@ As seções neste tópico guiarão você pelas várias personalizações que pod
 
 ## Personalizar fluxo de trabalho de revisão {#id176NE0C00HS}
 
-A equipe de criação de conteúdo de cada organização trabalha de maneira específica para atender às suas necessidades de negócios. Em algumas organizações há um editor dedicado, enquanto outras poderiam ter um sistema automatizado de revisão editorial em vigor. Por exemplo, em uma organização, um fluxo de trabalho típico de criação e publicação pode incluir tarefas como: sempre que um autor é concluído com a criação de conteúdo, ele vai automaticamente para os revisores e, quando a revisão é concluída, vai para o editor para gerar a saída final. No AEM, as atividades que você realiza em seu conteúdo e ativos podem ser combinadas no formato de um processo e mapeadas para um fluxo de trabalho de AEM. Para obter mais informações sobre fluxos de trabalho no AEM, consulte [Administração de workflows](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/workflows.html) na documentação do AEM.
+A equipe de criação de conteúdo de cada organização trabalha de maneira específica para atender às suas necessidades de negócios. Em algumas organizações há um editor dedicado, enquanto outras poderiam ter um sistema automatizado de revisão editorial em vigor. Por exemplo, em uma organização, um fluxo de trabalho típico de criação e publicação pode incluir tarefas como: sempre que um autor é concluído com a criação de conteúdo, ele vai automaticamente para os revisores e, quando a revisão é concluída, vai para o editor para gerar a saída final. No AEM, as atividades que você realiza em seu conteúdo e ativos podem ser combinadas no formato de um processo e mapeadas para um fluxo de trabalho de AEM. Para obter mais informações sobre fluxos de trabalho no AEM, consulte [Administração de workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) na documentação do AEM.
 
 O AEM Guides permite personalizar o fluxo de trabalho de revisão padrão. Você pode usar os quatro processos personalizados relacionados à revisão a seguir com outros fluxos de trabalho de criação ou publicação.
 
@@ -204,5 +203,4 @@ As seguintes propriedades controlam como o AEM Guides executa os fluxos de traba
 | Propriedade | Nome do pacote | Descrição |
 |--------|-----------|-----------|
 | Outrefs dinâmicos | `com.adobe.fmdita.postprocess.PostProcessObservation` | Para todos os arquivos nos quais o pós-processamento não foi executado, ele recupera as referências de saída analisando os arquivos de tópico. É recomendável manter essa opção desativada, pois há a possibilidade de sobrecarregar o sistema se o número de arquivos a serem processados for grande. |
-| Threads de pós-processamento | `com.adobe.fmdita.config.ConfigManager` | Define o número de threads de pós-processamento a serem usados para fluxo de trabalho de pós-processamento. <br>O valor padrão é 1. |
-
+| Threads pós-processamento | `com.adobe.fmdita.config.ConfigManager` | Define o número de threads de pós-processamento a serem usados para fluxo de trabalho de pós-processamento. <br>O valor padrão é 1. |

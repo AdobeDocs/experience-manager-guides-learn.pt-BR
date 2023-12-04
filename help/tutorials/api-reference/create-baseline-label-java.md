@@ -1,13 +1,12 @@
 ---
 title: APIs baseadas em Java para trabalhar com rótulos e linhas de base
 description: Saiba mais sobre as APIs baseadas em Java para trabalhar com linhas de base e rótulos
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
-
 
 # APIs baseadas em Java para trabalhar com rótulos e linhas de base {#id175UB30E05Z}
 
@@ -109,4 +108,3 @@ String label) throws GuidesApiException
 **Devoluções**: o mapa com *chave:valor* par de `path:deletedlabels` para todos os arquivos na linha de base.
 
 **Exceção**: Lançamentos ``RepositoryException`, `VersionException`, `Exception``.
-

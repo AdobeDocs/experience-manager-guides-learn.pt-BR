@@ -1,11 +1,10 @@
 ---
 title: Notas de versão | Guias do Adobe Experience Manager as a Cloud Service, versão de agosto de 2022
 description: Versão de agosto do Adobe Experience Manager Guides as a Cloud Service
-exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 2%
+source-wordcount: '1169'
+ht-degree: 0%
 
 ---
 
@@ -14,20 +13,20 @@ ht-degree: 2%
 ## Atualização para a versão de agosto
 
 Atualize seus Guias do Adobe Experience Manager atuais as a Cloud Service (mais tarde chamados de *Guias de AEM as a Cloud Service*), executando as seguintes etapas:
-1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline Cloud Services correspondente ao ambiente que você deseja atualizar.
-1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Services para 2022.8.167.
-1. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de agosto do AEM Guides as a Cloud Service.
+1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
+1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2022.8.167.
+1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de agosto do AEM Guides as a Cloud Service.
 
 ## Matriz de compatibilidade
 
 Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com os Guias do AEM as a Cloud Service na versão de agosto de 2022.
 
-### FrameMaker e FrameMaker Publishing Server
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | FMPS | FrameMaker |
 | --- | --- |
 | Não compatível | Atualização 4 e superior para 2020 |
-|  |  |
+| | |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -98,7 +97,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * PDF nativo | Um PDF em branco é gerado ao usar **Geração rápida** para vários arquivos quando um elemento vazio é selecionado. (9822)
 * PDF nativo | O apêndice é publicado como um capítulo na saída do PDF. (9829)
 * PDF nativo | Quando uma imagem de SVG é editada, ela não é mostrada atualizada no layout da página. (9069)
-* Um caractere de hífen regular é inserido quando um `Nonbreaking Hyphen` é inserido usando o **Inserir caractere especial** diálogo. (8919)
+* Um caractere de hífen regular é inserido quando um `Nonbreaking Hyphen` caractere é inserido usando o **Inserir caractere especial** diálogo. (8919)
 * O Editor de XML não mostra imagens atualizadas nos tópicos se elas tiverem sido editadas. (9500)
 * Ao publicar a saída por meio do Editor, as predefinições não podem ser excluídas do **Output** guia. (9100)
 * Os submapas de um mapa DITA não são verificados usando o **Selecionar tudo** no menu de reticências. (9814)
@@ -120,11 +119,11 @@ Use a solução alternativa fornecida para os seguintes problemas conhecidos:
 
 * A exibição de layout não está visível no Editor de mapa.
 
-   **Solução alternativa**: atualize o ui_config.json no Perfil da pasta.
+  **Solução alternativa**: atualize o ui_config.json no Perfil da pasta.
 
 * Symbols.json é substituído, portanto, o problema 8919 ocorre.
 
-   **Solução alternativa**: o symbol.json atualizado deve ser mesclado com o symbol.json substituído.
+  **Solução alternativa**: o symbol.json atualizado deve ser mesclado com o symbol.json substituído.
 
 ### Outros problemas conhecidos
 

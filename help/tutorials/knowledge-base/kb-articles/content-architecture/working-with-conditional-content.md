@@ -2,10 +2,9 @@
 title: Trabalhar com conteúdo condicional
 description: Saiba como criar condições e configurar a geração de conteúdo condicional no [!DNL AEM Guides]
 role: User
-exl-id: a86007e3-48d1-458b-84a7-b683e113e5b2
-source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---

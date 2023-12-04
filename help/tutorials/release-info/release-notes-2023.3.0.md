@@ -1,11 +1,10 @@
 ---
 title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de março de 2023
 description: Lançamento de março do Adobe Experience Manager Guides as a Cloud Service
-exl-id: c62a65fb-b52d-455d-b42c-f0b19b4d5f63
-source-git-commit: f419281cdecb570f9e5c7ce5cd4c831cae349e11
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 2%
+source-wordcount: '561'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +17,9 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 ## Atualização para a versão de março de 2023
 
 Atualize sua configuração as a Cloud Service dos Guias AEM atuais executando as seguintes etapas:
-1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline Cloud Services correspondente ao ambiente que você deseja atualizar.
-2. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Services para 2023.3.242.
-3. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de março de 2023 do AEM Guides as a Cloud Service.
+1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
+2. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2023.3.242.
+3. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de março de 2023 do AEM Guides as a Cloud Service.
 
 ## Etapas para indexar o conteúdo existente (somente se você estiver em uma versão anterior à versão de setembro do AEM Guides as a Cloud Service)
 
@@ -50,7 +49,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 | Versão do AEM Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.03.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023.03.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
 |  |  |  |  |
 
 ## Problemas corrigidos

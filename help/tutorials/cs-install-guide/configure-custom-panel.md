@@ -1,13 +1,12 @@
 ---
 title: Configurar um painel personalizado no painel esquerdo
 description: Saiba como configurar um painel personalizado no painel esquerdo
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
 
 ---
-
 
 # Configurar um painel personalizado no painel esquerdo {#id224JI200Y6F}
 
@@ -56,4 +55,3 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 ```
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

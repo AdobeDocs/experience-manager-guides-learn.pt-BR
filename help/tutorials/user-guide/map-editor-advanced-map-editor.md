@@ -1,10 +1,9 @@
 ---
 title: Trabalhar com o Editor de mapa avançado
 description: Saiba como trabalhar com o editor de mapa avançado em Guias do AEM. Conhecer os recursos do Editor de Mapa avançado. Edite tópicos por meio de um mapa DITA e use o modo de exibição de layout, de criação e de visualização.
-exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3707'
+source-wordcount: '3695'
 ht-degree: 0%
 
 ---
@@ -168,7 +167,7 @@ Para obter mais detalhes sobre como mesclar conteúdo de uma versão diferente d
 
 Verifique as versões e rótulos disponíveis no tópico ativo e reverta para qualquer versão do próprio editor.
 
-**Etiqueta da versão** - ![](images/version-label-icon.svg)
+**Rótulo da versão** - ![](images/version-label-icon.svg)
 
 Exibe a caixa de diálogo de gerenciamento de rótulo da versão. Selecione uma versão na lista suspensa. Escolha o rótulo que deseja aplicar à versão selecionada e clique em **Adicionar etiqueta** para adicioná-lo.
 

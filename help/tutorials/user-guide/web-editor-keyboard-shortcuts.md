@@ -1,11 +1,10 @@
 ---
 title: Atalhos de teclado no Editor da Web
 description: Descubra atalhos de teclado que economizam tempo no editor da Web do AEM Guides.
-exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 2%
+source-wordcount: '353'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +39,7 @@ Há muitas operações no Editor da Web que você pode executar usando os atalho
 | Mova o cursor para o final do elemento anterior. | ***Shift***+***Guia*** | ***Shift***+***Guia*** |
 | Diminua o recuo do item de lista para o nível anterior. | ***Shift***+***Guia*** | ***Shift***+***Guia*** |
 | Recuo automático de XML na exibição Código-fonte | ***Ctrl***+***Alt***+***L*** | ***Comando***+***Opção***+***L*** |
-| Dividir o elemento atual | ***Insira*** | ***Retornar*** |
+| Dividir o elemento atual | ***Enter*** | ***Retornar*** |
 | Copiar texto selecionado | ***Ctrl***+**C** | ***Comando***+**C** |
 | Colar | ***Ctrl***+**V** | ***Comando***+**V** |
 | Colar e corresponder formatação | ***Ctrl***+***Shift***+**V** | ***Comando***+***Shift***+**V** |

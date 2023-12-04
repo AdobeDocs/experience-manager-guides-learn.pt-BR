@@ -1,15 +1,12 @@
 ---
 title: Personalizar e configurar o recurso de publicação PDF nativo
 description: Saiba como personalizar e configurar os vários componentes do Recurso de PDF nativo.
-source-git-commit: 7bee42be8975ee25254e185edee67778ff3e1294
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
-
-
 
 # Publicação de PDF nativo
 
@@ -30,4 +27,3 @@ Para obter mais detalhes, veja o seguinte:
    * [Adicionar um marcador personalizado na saída do PDF](../native-pdf/add-custom-bookmark.md)
    * [Usar JavaScript para trabalhar com conteúdo ou estilo](../native-pdf/use-javascript-content-style.md)
    * [Usar estilos personalizados em notas de rodapé](../native-pdf/footnote-number-style.md)
-

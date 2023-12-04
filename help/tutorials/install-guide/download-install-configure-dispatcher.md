@@ -1,21 +1,20 @@
 ---
 title: Configurar o Dispatcher
 description: Saiba como configurar o Dispatcher
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 7%
+source-wordcount: '302'
+ht-degree: 3%
 
 ---
 
-
 # Configurar o Dispatcher {#id213BCM0M05U}
 
-Se você planeja usar um Dispatcher na instância do autor do AEM junto com Guias AEM, será necessário executar as seguintes configurações adicionais para concluir a configuração:
+Se você planeja usar um Dispatcher na instância do autor AEM junto com Guias do AEM, será necessário executar as seguintes configurações adicionais para concluir a configuração:
 
 >[!NOTE]
 >
-> O Dispatcher é a ferramenta de balanceamento de carga e/ou cache do Adobe Experience Manager. Para obter mais detalhes sobre o uso do Dispatcher, consulte [Visão geral do Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=pt-BR).
+> O Dispatcher é a ferramenta de balanceamento de carga e/ou cache do Adobe Experience Manager. Para obter mais detalhes sobre o uso do Dispatcher, consulte [Visão geral do Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
 
 ## Ativar AllowEncodedSlashes em URLs
 
@@ -79,4 +78,3 @@ Ao usar um Dispatcher com guias AEM, se a instância do Autor tiver um dispatche
 ```
 
 **Tópico pai:**[ Baixar e instalar](download-install.md)
-

@@ -1,13 +1,12 @@
 ---
 title: Configurar pesquisa para a interface do usuário do AEM Assets
 description: Saiba como configurar a pesquisa para a interface do usuário do AEM Assets
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 1%
 
 ---
-
 
 # Configurar pesquisa para a interface do usuário do AEM Assets {#id192SC800MY4}
 
@@ -262,5 +261,3 @@ Execute as seguintes etapas para excluir a pasta de tradução temporária da pe
    | Nome da propriedade | Tipo | Valor |
    |-------------|----|-----|
    | excludedPaths | String\[\] | Adicione os seguintes valores a essa propriedade: <br><ul><li>/var/dxml</li><li>/content/dam/projects/translation\_output</li></ul> |
-
-

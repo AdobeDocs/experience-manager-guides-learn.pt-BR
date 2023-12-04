@@ -3,14 +3,12 @@ title: Plug-in Oxygen para o Adobe Experience Manager Guides
 description: Saiba como usar o Oxygen Plugin para Adobe Experience Manager Guides para criar e gerenciar seu conteúdo.
 hide: true
 hidefromtoc: true
-exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 23c1dfb405643bd9f5906807dddc4fff3f2e8535
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '6120'
+source-wordcount: '6101'
 ht-degree: 0%
 
 ---
-
 
 # Plug-in Oxygen para o Adobe Experience Manager Guides {#id1645H6010Q5}
 
@@ -43,7 +41,7 @@ Depois de ter o instalador, instale-o no computador local onde o Oxygen XML Auth
 
 >[!IMPORTANT]
 >
->Se você tiver uma versão mais antiga do plug-in instalada em seu sistema, desinstale-a antes de iniciar o processo de instalação. Consulte a **Desinstalando pacotes** na seção [Como trabalhar com pacotes](https://helpx.adobe.com/br/experience-manager/6-4/sites/administering/using/package-manager.html) artigo para obter instruções de desinstalação.
+>Se você tiver uma versão mais antiga do plug-in instalada em seu sistema, desinstale-a antes de iniciar o processo de instalação. Consulte a **Desinstalando pacotes** na seção [Como trabalhar com pacotes](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) artigo para obter instruções de desinstalação.
 
 Execute as seguintes etapas no sistema em que o Oxygen XML Author está instalado:
 
@@ -77,7 +75,7 @@ Execute as seguintes etapas no sistema em que o Oxygen XML Author está instalad
 
 >[!IMPORTANT]
 >
->Se você tiver uma versão mais antiga do plug-in instalada em seu sistema, desinstale-a antes de iniciar o processo de instalação. Consulte a **Desinstalando pacotes** na seção [Como trabalhar com pacotes](https://helpx.adobe.com/br/experience-manager/6-4/sites/administering/using/package-manager.html) instruções de desinstalação do artigo.
+>Se você tiver uma versão mais antiga do plug-in instalada em seu sistema, desinstale-a antes de iniciar o processo de instalação. Consulte a **Desinstalando pacotes** na seção [Como trabalhar com pacotes](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) instruções de desinstalação do artigo.
 
 Execute as seguintes etapas no sistema em que o Oxygen XML Author está instalado:
 
@@ -749,5 +747,3 @@ Solução: execute as seguintes etapas para configurar os registradores para o X
 
 
 Com as etapas anteriores, os logs serão ativados e você poderá usá-los para depurar os problemas.
-
-

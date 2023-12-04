@@ -1,13 +1,12 @@
 ---
 title: Administração e segurança do usuário
 description: Saiba como a Administração de usuários e a segurança funcionam
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 12%
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
-
 
 # Administração e segurança do usuário {#id181AED00G5Z}
 
@@ -17,7 +16,7 @@ Os seguintes tópicos na documentação do AEM ajudarão você a entender a admi
 
 - [Usuários, grupos e permissões do AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
-- [Administração e segurança do usuário](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=pt-BR)
+- [Administração e segurança do usuário](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)
 
 
 ## Grupos de usuários criados pelos Guias do AEM {#id181TF0K0MHT}
@@ -82,11 +81,11 @@ A lista a seguir contém algumas recomendações e pontos relacionados a grupos 
 
 - Por padrão, *Editores* recebem acesso e permissões nas seguintes pastas no DAM:
 
-   - `/content/fmdita` –\> Ler e gravar
+   - `/content/fmdita` -\> Leitura e gravação
 
-   - `/content/dam/fmdita-outputs` –\> Ler e gravar
+   - `/content/dam/fmdita-outputs` -\> Leitura e gravação
 
-   - `/content/output/sites` –\> Ler e gravar
+   - `/content/output/sites` -\> Leitura e gravação
 
   Você deve conceder permissões explícitas de leitura e gravação ao editor se estiver usando qualquer outro local, exceto os locais de publicação padrão mencionados acima.
 
@@ -101,4 +100,3 @@ A lista a seguir contém algumas recomendações e pontos relacionados a grupos 
 - Para conceder ao usuário direitos para alterar um estado de documento, adicione o usuário na seção transição de estado do perfil de estado do documento.
 
 [1](#fnsrc_1) Se *Autores* e *Editores* são convidados para uma revisão.[2](#fnsrc_2) Dependendo dos direitos concedidos ao usuário no perfil de estado do documento.
-

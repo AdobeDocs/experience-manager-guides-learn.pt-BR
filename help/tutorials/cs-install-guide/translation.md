@@ -1,13 +1,12 @@
 ---
 title: Traduzir conteúdo
 description: Saiba como traduzir conteúdo
-source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 15%
+source-wordcount: '651'
+ht-degree: 11%
 
 ---
-
 
 # Traduzir conteúdo {#id181GB0400UI}
 
@@ -82,4 +81,3 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 | PID | Chave de propriedade | Valor da propriedade |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleano: <br> - Se você não quiser executar a operação de pós-processamento nos arquivos temporários, *Desativar* \( false\) o **Pós-processamento de cópias de idioma** opção.<br> - Se você quiser executar a operação de pós-processamento nos arquivos temporários, *Ativar* \( true\) o **Pós-processamento de cópias de idioma** opção.<br> **Valor padrão**: falso |
-

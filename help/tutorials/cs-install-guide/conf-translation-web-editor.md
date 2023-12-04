@@ -1,13 +1,12 @@
 ---
 title: Configurar o recurso de tradução no editor da Web
 description: Saiba como configurar o recurso de tradução no Editor da Web
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # Configurar o recurso de tradução no editor da Web {#id21BONI0J0YR}
 
@@ -46,4 +45,3 @@ Para ocultar a variável **Gerenciar** no Editor da Web, execute as seguintes et
 Observe que **Gerenciar** O filtro não está mais disponível.
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

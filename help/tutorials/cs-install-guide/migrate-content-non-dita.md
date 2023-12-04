@@ -1,13 +1,12 @@
 ---
 title: Migrar conteúdo não DITA
 description: Saiba como migrar conteúdo não DITA
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2936'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
-
 
 # Migrar conteúdo não DITA {#id181AH0R02HT}
 
@@ -272,9 +271,9 @@ Para converter o documento XHTML existente em um tópico DITA, execute as seguin
 
 Usar o `<config> </config>` bloco, você pode definir um ou vários blocos de configurações para conversão. O fluxo de trabalho de conversão é executado e a saída final no formato de um tópico DITA é salva no local especificado no `outputDir` elemento.
 
-## Migrar documentos não estruturados do FrameMaker {#id1949B050VUI}
+## Migrar documentos de FrameMaker não estruturados {#id1949B050VUI}
 
-Guias de AEM permitem converter seu FrameMaker \(`.fm` e `.book`\) documentos em documentos DITA. A primeira etapa é criar mapeamentos de estilo usando o FrameMaker e salvar essas configurações em um arquivo .sts. Em seguida, se estiver usando DITA personalizado, você poderá mapear seus elementos personalizados com os formatos de FrameMaker de origem no `ditaElems.xml` arquivo. Por exemplo, se você criou um elemento personalizado chamado `impnote` para lidar com todas as notas importantes, é possível definir esse elemento personalizado na `ditaElems.xml` arquivo. Depois que esse elemento personalizado é definido, os Guias do AEM não geram erros ao converter um documento do FrameMaker que contém `impnote` elemento.
+Guias de AEM permitem converter seu FrameMaker não estruturado existente \(`.fm` e `.book`\) documentos em documentos DITA. A primeira etapa é criar mapeamentos de estilo usando o FrameMaker e salvar essas configurações em um arquivo .sts. Em seguida, se estiver usando DITA personalizado, você poderá mapear seus elementos personalizados com os formatos de FrameMaker de origem no `ditaElems.xml` arquivo. Por exemplo, se você criou um elemento personalizado chamado `impnote` para lidar com todas as notas importantes, é possível definir esse elemento personalizado na `ditaElems.xml` arquivo. Depois que esse elemento personalizado é definido, os Guias do AEM não geram erros ao converter um documento do FrameMaker que contém `impnote` elemento.
 
 Além disso, se você quiser especificar alguns atributos adicionais com seu elemento DITA personalizado ou válido, defina-os no arquivo style2attrMap.xml. Por exemplo, você pode especificar a variável `type` atributo com o valor de `important` a transmitir com a `impnote` elemento. Essas informações adicionais podem ser especificadas no arquivo style2attrMap.xml.
 
@@ -377,4 +376,3 @@ Para converter os documentos estruturados existentes no formato DITA, execute as
 Usar o `<config> </config>` bloco, você pode definir um ou vários blocos de configurações para conversão. O fluxo de trabalho de conversão é executado e a saída final no formato de um tópico DITA é salva no local especificado no `outputDir` elemento.
 
 **Tópico pai:**[ Migrar conteúdo existente](migrate-content.md)
-

@@ -1,10 +1,10 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos nos Guias da Adobe Experience Manager, versão de setembro de 2023
 description: Saiba mais sobre as correções de erros e como atualizar para a versão de setembro de 2023 do Adobe Experience Manager Guides as a Cloud Service
-source-git-commit: 3f79dfbc747b3d2efc05608d05df6ba45e53d877
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 3%
+source-wordcount: '1486'
+ht-degree: 0%
 
 ---
 
@@ -112,7 +112,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 | Versão do AEM Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.09.0 | 3.1-uuid 17 | 3.1-uuid 17 | 2.3 | 2.3 |
+| 2023.09.0 | 3.1-uuid 17 | 3.1-uuid 17 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -151,7 +151,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 - O campo &quot;title&quot; nas propriedades de metadados do mapa DITA é substituído por `<title>` elemento para o mapa. (10702)
 - A referência de conteúdo é quebrada ao copiar e colar arquivos DITA quando a ID do tópico não é a mesma que a GUID. (12614)
-- Nas linhas de base dinâmicas, a lista de rótulos não é retirada das referências diretas da cópia de trabalho de um mapa DITA. (11917)
+- Nas linhas de base dinâmicas, a lista de rótulos não é retirada das referências diretas da cópia de trabalho de um mapa DITA. (1917)
 
 ### Publicação
 
@@ -164,9 +164,9 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - A publicação incremental não funciona se um mapa DITA tiver várias ditavalrefs. (12117)
 - Site AEM | Ao criar um mapa com keydef apontando para um tópico como uma variável e adicionar processing-role=resource-only, serão criadas algumas páginas inesperadas. (12099)
 - Se qualquer ativo do DAM do AEM for usado em qualquer saída diferente do site AEM, os metadados &quot;jcr:createdBy&quot; não refletirão o nome do editor nem o nome do usuário que modificou o mapa ou tópico DITA por último. (12090)
-- AEM Sites | O mapa DITA com cabeçalho de tópico no navtitle (com caracteres não compatíveis) resulta em URLs de página inválidos. (11978)
-- PDF nativo | Problemas ocorrem no suporte a topichead / topicmeta / navtitle no Frontmatter e Backmatter. (11969)
-- PDF nativo | Gerar PDF para documentos grandes é um processo demorado. (11955)
+- AEM Sites | O mapa DITA com cabeçalho de tópico no navtitle (com caracteres não compatíveis) resulta em URLs de página inválidos. (1978)
+- PDF nativo | Problemas ocorrem no suporte a topichead / topicmeta / navtitle no Frontmatter e Backmatter. (1969)
+- PDF nativo | Gerar PDF para documentos grandes é um processo demorado. (1955)
 - PDF nativo | Renomear uma predefinição gera uma NullPointerException ao gerar uma saída de PDF. (11889)
 - A variável `<conref>` o conteúdo não é exibido na saída do PDF. (11131)
 - Um espaço extra é adicionado dentro do `<div>` elementos sobre como alternar entre a visualização Autor e Fonte no editor de layout de página. (10750)
@@ -176,7 +176,3 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 - O processo para exportar uma linha de base renomeada para uma tradução falha. (12993)
 - O título do arquivo traduzido é exibido no lugar do título do arquivo de origem. (11630)
-
-
-
-

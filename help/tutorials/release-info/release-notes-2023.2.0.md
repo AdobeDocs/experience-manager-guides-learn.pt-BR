@@ -1,11 +1,10 @@
 ---
 title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de fevereiro de 2023
 description: Lançamento do Adobe Experience Manager Guides as a Cloud Service em fevereiro
-exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
-source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 4%
+source-wordcount: '870'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +17,9 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 ## Atualização para a versão de fevereiro de 2023
 
 Atualize sua configuração as a Cloud Service dos Guias AEM atuais executando as seguintes etapas:
-1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline Cloud Services correspondente ao ambiente que você deseja atualizar.
-2. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Services para 2023.2.235.
-3. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de fevereiro de 2023 do AEM Guides as a Cloud Service.
+1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
+2. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2023.2.235.
+3. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de fevereiro de 2023 do AEM Guides as a Cloud Service.
 
 ## Etapas para indexar o conteúdo existente (somente se você estiver em uma versão anterior à versão de setembro do AEM Guides as a Cloud Service)
 
@@ -30,8 +29,7 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados || Exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação de GET com id de trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Por exemplo: http://&lt;
-_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+(Por exemplo: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
@@ -39,12 +37,12 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 
 Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com os Guias do AEM as a Cloud Service na versão de fevereiro de 2023.
 
-### FrameMaker e FrameMaker Publishing Server
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versão do AEM Guides as a Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
 | 2023.02.0 | Não compatível | 2022 ou superior |
-|  |  |  |
+| | | |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -52,7 +50,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 | Versão do AEM Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.02.0 | 2.8-uuid-8 | 2.8-uuid-8 | 2.3 | 2.3 |
+| 2023.02.0 | 2.8-uuid-8 | 2.8-uuid-8 | 2,3 | 2,3 |
 |  |  |  |  |
 
 ## Problemas corrigidos
@@ -89,7 +87,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 ### Publicação
 
 * A regeneração de tópico não está funcionando para alguns cenários. (10635)
-* O Publishlistener não exibe os dados solicitados em logs de informações e também contém alguns logs de lixo eletrônico.( 10567)
+* O Publishlistener não exibe os dados solicitados em logs de informações e também contém alguns logs de lixo eletrônico.(10567)
 * PDF nativo | Ao criar uma predefinição de saída com a opção &quot;Adicionar ao perfil de pasta&quot;, a geração de PDF falha com uma exceção de ponteiro nulo. (10950)
 * PDF nativo | Problemas ao girar o cabeçalho da tabela. (10555)
 * PDF nativo | Aninhado `<indexterm>` não estão aninhados na exportação de PDF nativa. (10521)

@@ -1,13 +1,12 @@
 ---
 title: Configurar um conector de fonte de dados
 description: Saiba como configurar um conector de fonte de dados
-source-git-commit: fc142d8a6e907fac1321dfd5c2cb9615d523709d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 1%
+source-wordcount: '454'
+ht-degree: 0%
 
 ---
-
 
 # Configurar um conector de fonte de dados
 
@@ -281,4 +280,3 @@ Por exemplo,  `/content/dam/jira.json`
 Você pode registrar a configuração usando a API REST. Para obter mais detalhes, consulte *API REST para registrar um conector de fonte de dados* na Referência de API dos Guias do Adobe Experience Manager.
 
 Após configurar a fonte de dados, o conector é listado no painel Fontes de dados do Editor da Web. Em seguida, você pode se conectar à fonte de dados e inserir um trecho de conteúdo em seus tópicos. Para obter mais detalhes, consulte [Inserir um trecho de conteúdo da sua fonte de dados](../user-guide/web-editor-content-snippet.md).
-

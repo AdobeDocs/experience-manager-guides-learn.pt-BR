@@ -1,10 +1,9 @@
 ---
 title: Adicionar novo botão acionável personalizado na barra de ferramentas do editor da Web
 description: Saiba como adicionar um novo botão personalizado na barra de ferramentas do editor da Web e chamar javascript para personalizá-lo.
-exl-id: 118c4545-9eda-4e1e-a224-843767e49b5b
-source-git-commit: ed3adf0cf8006c76461de34c6a2a4ba38d8b3406
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -64,7 +63,7 @@ Use os perfis de pasta para verificar a *ui_config.json* na guia &quot;Configura
 
 
 - Depois de salvar o perfil de pasta, crie um &quot;cq:ClientLibraryFolder&quot; em um diretório de projeto (pode estar em */apps*) e adicione propriedades conforme mostrado na captura de tela abaixo:
-   ![Configurações da biblioteca do cliente para o editor da Web](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
+  ![Configurações da biblioteca do cliente para o editor da Web](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
 This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented.

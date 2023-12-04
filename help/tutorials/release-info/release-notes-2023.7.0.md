@@ -1,10 +1,10 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos nos Guias da Adobe Experience Manager, versão de julho de 2023
 description: Saiba mais sobre as correções de erros e como atualizar para a versão de julho de 2023 do Adobe Experience Manager Guides as a Cloud Service
-source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 2%
+source-wordcount: '926'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ Para obter mais informações sobre os novos recursos e aprimoramentos, consulte
 
 Atualize sua configuração as a Cloud Service dos Guias AEM atuais executando as seguintes etapas:
 
-1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline Cloud Services correspondente ao ambiente que você deseja atualizar.
-2. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Services para 2023.7.0.314.
-3. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de julho de 2023 do AEM Guides as a Cloud Service.
+1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
+2. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2023.7.0.314.
+3. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de julho de 2023 do AEM Guides as a Cloud Service.
 
 ## Etapas para ativar o acionador de um script por meio de um servlet
 
@@ -100,7 +100,7 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 
 Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com os Guias do AEM as a Cloud Service na versão de julho de 2023.
 
-### FrameMaker e FrameMaker Publishing Server
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versão do AEM Guides as a Cloud | FMPS | FrameMaker |
 | --- | --- | --- |
@@ -112,7 +112,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 | Versão do AEM Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.07.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023.07.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -125,13 +125,11 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - Os atributos em linha/Exibição não aparecem na exibição de layout do Editor da Web. (12498)
 - Carregar arquivos no plug-in Oxygen para o AEM Guides não está funcionando no Cloud Services, se você tiver! no nome do arquivo. (12207)
 - A publicação de mapas DITA é muito lenta com o modelo editável. (12075)
-- A configuração da interface do usuário do perfil global não corresponde ao Perfil da pasta. (11970)
-- As referências de conteúdo são quebradas quando os arquivos DITA são copiados e colados. (11959)
+- A configuração da interface do usuário do perfil global não corresponde ao Perfil da pasta. (1970)
+- As referências de conteúdo são quebradas quando os arquivos DITA são copiados e colados. (1959)
 - Não é possível editar o fragmento de conteúdo na exibição de coluna com Guias do AEM instalados. (7342)
 - O conteúdo é perdido quando uma refex não encapsulada está sob tags de um subelemento. (12532)
 
 ### Publicação
 
 - O fluxo de trabalho de aprovação não funciona quando o docstate é alterado para &quot;estado final&quot; nas propriedades File do painel direito. (11026)
-
-

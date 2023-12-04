@@ -1,13 +1,12 @@
 ---
 title: Atualizar guias do AEM
 description: Saiba como atualizar guias de AEM
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # Atualizar guias do AEM {#id213BD050YPH}
 
@@ -29,4 +28,3 @@ ht-degree: 0%
 Após concluir o processo de atualização, todos os usuários devem limpar o cache do navegador antes de usar a versão atualizada dos Guias do AEM.
 
 **Tópico pai:**[ Baixar e instalar](download-install.md)
-

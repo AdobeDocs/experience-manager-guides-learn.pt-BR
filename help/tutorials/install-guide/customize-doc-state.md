@@ -1,13 +1,12 @@
 ---
 title: Configurar estados dos documentos
 description: Saiba como Configurar estados dos documentos
-source-git-commit: cf1b9812cb6bb00319eb8fe23162d3830c82b1b1
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
 
 ---
-
 
 # Configurar estados dos documentos {#id181GB0400UI}
 
@@ -45,12 +44,13 @@ Para criar estados de documento usando o Perfil de pasta, execute as seguintes e
    - Especifique o caminho no qual deseja aplicar o novo perfil.
    - Especificar os estados do documento no campo **Estados permitidos** em **Estados**. Os estados padrão do documento são Rascunho, Editar, Em revisão, Aprovado e Concluído.-
 
-      Clique em **Adicionar** botão para adicionar um estado de documento.
+     Clique em **Adicionar** botão para adicionar um estado de documento.
 
       - Clique no ícone Excluir para excluir um estado de documento.
-      >[!NOTE]
-      >
-      > Não exclua um estado de documento se os documentos ainda estiverem nesse estado. Se você excluir um estado de documento, não poderá alterar o estado desses documentos, a menos que pertença à *administrador* grupo de usuários.
+
+     >[!NOTE]
+     >
+     > Não exclua um estado de documento se os documentos ainda estiverem nesse estado. Se você excluir um estado de documento, não poderá alterar o estado desses documentos, a menos que pertença à *administrador* grupo de usuários.
 
    - Especificar o estado inicial do documento no campo **Estado inicial**.
    - Especificar o estado final do documento no campo **Estado final**.
@@ -61,11 +61,10 @@ Para criar estados de documento usando o Perfil de pasta, execute as seguintes e
       - Clique em **Adicionar** botão para adicionar uma transição de estado.
 
       - Clique no ícone Excluir para excluir uma transição de estado.
-      >[!NOTE]
-      >
-      > Não exclua uma transição de estado se os documentos ainda estiverem em `From` estado. Se você excluir uma transição de estado, não poderá alterar o estado desses documentos, a menos que pertença à *administrador* grupo de usuários.
 
-
+     >[!NOTE]
+     >
+     > Não exclua uma transição de estado se os documentos ainda estiverem em `From` estado. Se você excluir uma transição de estado, não poderá alterar o estado desses documentos, a menos que pertença à *administrador* grupo de usuários.
 
 1. Clique em **Concluído**.
 
@@ -138,9 +137,9 @@ Execute as seguintes etapas para automatizar a alteração do estado do document
    - Marque a caixa de seleção Avanço do manipulador.
    - Insira o nome do estado do documento no campo **Argumentos** texto.
 
-      >[!NOTE]
-      >
-      > Certifique-se de inserir o estado correto do documento na caixa de texto Argumento. Se você inserir um nome incorreto, o documento será definido para o estado de documento incorreto.
+     >[!NOTE]
+     >
+     > Certifique-se de inserir o estado correto do documento na caixa de texto Argumento. Se você inserir um nome incorreto, o documento será definido para o estado de documento incorreto.
 
 1. Clique em **Salvar** para salvar o workflow.
 
@@ -168,5 +167,3 @@ O Guia AEM fornece fluxo de trabalho para aprovação de documentos, que ajuda a
       "approvalWorkflow":  true 
    }
    ```
-
-

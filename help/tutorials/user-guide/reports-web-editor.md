@@ -1,10 +1,9 @@
 ---
 title: Relatório de mapa DITA do Editor da Web
 description: Gerar relatórios de mapa DITA do editor da Web em Guias AEM. Saiba como gerar um CSV para relatórios de lista de tópicos, multimídia, metadados e links quebrados.
-exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2366'
 ht-degree: 0%
 
 ---

@@ -1,8 +1,7 @@
 ---
 title: Relatório de histórico de versão de arquivos revertidos
 description: Visualize relatórios de histórico de versão de arquivos revertidos nos Guias AEM. Saiba como acessar logs de versão de reversão na interface do usuário do Assets, na pré-visualização de tópicos e na seleção de ferramentas do AEM.
-exl-id: fa90b373-742a-4102-b00f-07e4113fef98
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

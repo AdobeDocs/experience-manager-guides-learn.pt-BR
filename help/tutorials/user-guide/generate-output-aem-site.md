@@ -1,10 +1,9 @@
 ---
 title: Site AEM
 description: Criar e configurar a predefinição do site AEM nos Guias AEM. Use o suporte do site AEM para gerar saída baseada em artigo, tópicos de vinculação de saída, conref de publicação e pesquisar uma string no conteúdo.
-exl-id: 8523ec55-d7f3-439d-96e8-163c7632f73c
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2570'
 ht-degree: 0%
 
 ---

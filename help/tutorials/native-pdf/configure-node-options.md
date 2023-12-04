@@ -1,13 +1,12 @@
 ---
 title: PDF nativo | Configurar processo de nó para publicação de PDF nativo
 description: Saiba como configurar o processo de nó para publicação de PDF nativo
-source-git-commit: 45974b88a5b1bbbd2d83ea5cc18e0def2f15c51f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 1%
 
 ---
-
 
 # Configurar processo de nó para publicação de PDF nativo
 
@@ -18,4 +17,3 @@ Use as instruções fornecidas em [Substituições de configuração](../cs-inst
 | PID | Chave de propriedade | Valor da propriedade |
 |---|---|---|
 | `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | Valor da string para definir qualquer padrão `NODE_OPTIONS`.<BR> Valor padrão: &quot;&quot; |
-

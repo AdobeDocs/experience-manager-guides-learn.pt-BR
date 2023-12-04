@@ -1,10 +1,9 @@
 ---
 title: Conhecer os recursos do Editor da Web
 description: Descubra os recursos do editor da Web em Guias do AEM. Conhecer a interface do editor da Web, incluindo a barra de ferramentas principal, a barra de ferramentas secundária, o painel esquerdo, a área de edição de conteúdo e o painel direito.
-exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '17231'
+source-wordcount: '17222'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ As subseções a seguir abordam em detalhes as várias seções do Editor da Web
 
 A barra de ferramentas principal está na parte superior da interface do Editor da Web e fornece recursos no nível do arquivo e vários modos de criação disponíveis no Editor da Web. Os recursos disponíveis na barra de ferramentas superior são explicados da seguinte maneira:
 
-**Salvar Tudo** - ![](images/SaveFloppy_icon.svg)
+**Salvar tudo** - ![](images/SaveFloppy_icon.svg)
 
 Salva as alterações feitas em todos os tópicos abertos. Se você tiver vários tópicos abertos no Editor da Web, clique em **Salvar tudo** ou usando o **Ctrl**+**S** as teclas de atalho salvam todos os documentos com um único clique. Não é necessário salvar cada documento individualmente.
 
@@ -205,7 +204,7 @@ Isso impede que os usuários salvem qualquer arquivo que quebre uma regra defini
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
 
-**Preferências de usuário** - ![](images/user_preference_editor_icon.svg)
+**Preferências do usuário** - ![](images/user_preference_editor_icon.svg)
 
 As Preferências do usuário estão disponíveis para todos os autores. Usando as preferências, um autor pode definir as seguintes configurações:
 

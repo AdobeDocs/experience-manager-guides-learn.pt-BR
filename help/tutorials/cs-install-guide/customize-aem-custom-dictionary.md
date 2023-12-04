@@ -1,13 +1,12 @@
 ---
 title: Personalizar dicionário padrão do AEM
 description: Saiba como personalizar o dicionário padrão do AEM
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 1%
 
 ---
-
 
 # Personalizar dicionário padrão do AEM {#id209SD8000WU}
 
@@ -33,4 +32,3 @@ Execute as seguintes etapas para criar sua lista de palavras personalizadas, que
 Os autores precisariam reiniciar a sessão do Editor da Web para atualizar a lista de palavras personalizadas no dicionário AEM.
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

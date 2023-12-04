@@ -1,8 +1,7 @@
 ---
 title: Excluir uma coleção de mapas de ativação em massa
 description: Saiba como excluir a coleção de mapas de ativação em massa nos Guias do AEM.
-exl-id: f857d60b-bde2-4d71-9243-f71d7ee2f0e9
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%

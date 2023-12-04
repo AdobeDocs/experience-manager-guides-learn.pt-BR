@@ -1,13 +1,12 @@
 ---
 title: Configurar modelo de mapa DITA personalizado
 description: Saiba como configurar um modelo de mapa DITA personalizado
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
 
 ---
-
 
 # Configurar modelo de mapa DITA personalizado {#id1774F04F05Z}
 
@@ -53,4 +52,3 @@ Na próxima vez que você criar um novo mapa, seu modelo será exibido na págin
 > Consulte *os Modelos personalizados* no guia de Práticas recomendadas para obter as práticas recomendadas sobre o uso de modelos de mapa personalizados.
 
 **Tópico pai:**[ Configurar tópico e modelos de mapa](conf-template-tags.md)
-

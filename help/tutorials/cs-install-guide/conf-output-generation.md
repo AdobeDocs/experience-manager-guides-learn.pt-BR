@@ -1,11 +1,10 @@
 ---
 title: Definir configurações de geração de saída
 description: Saiba como definir configurações de geração de saída
-exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '5496'
-ht-degree: 1%
+source-wordcount: '5470'
+ht-degree: 0%
 
 ---
 
@@ -244,7 +243,7 @@ Por padrão, você pode pesquisar por uma string nos títulos somente na saída 
 
 Para habilitar a pesquisa, você deve configurar o nivelamento da estrutura do nó do site AEM.
 
-ATENÇÃO:
+CUIDADO:
 
 Você pode pesquisar até 1 MB de conteúdo nivelado. Por exemplo, na captura de tela anterior, você pode pesquisar se o conteúdo em &lt;p> é &lt;= 1Mb.
 
@@ -305,7 +304,7 @@ Para adicionar os metadados necessários no sistema, execute as seguintes etapas
 
 1. Clique no link **Esquemas de metadados** bloco.
 
-   A página Formulários de esquema de metadados é exibida.
+   A página Forms do Esquema de Metadados é exibida.
 
 1. Selecione o **padrão** formulário da lista.
 

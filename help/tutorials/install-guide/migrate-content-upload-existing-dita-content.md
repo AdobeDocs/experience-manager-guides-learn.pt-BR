@@ -1,13 +1,12 @@
 ---
 title: Fazer upload de conteúdo DITA existente
 description: Saiba como fazer upload de conteúdo DITA existente
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
-
 
 # Fazer upload de conteúdo DITA existente {#id176FF000JUI}
 
@@ -40,11 +39,11 @@ Execute as seguintes etapas para usar o WinSCP para fazer upload de arquivos:
 
 ## Usar FrameMaker
 
-O Adobe FrameMaker vem com um poderoso conector AEM que permite carregar facilmente seu DITA existente e outros documentos do FrameMaker \(.book e .fm\) no AEM. Você pode usar várias funcionalidades de upload de arquivos, como fazer upload de um único arquivo, fazer upload de uma pasta completa com ou sem dependências \(como referências de conteúdo, referências cruzadas e elementos gráficos\).
+O Adobe FrameMaker vem com um poderoso conector AEM que permite carregar facilmente seu DITA existente e outros documentos do FrameMaker AEM \(.book e .fm\) no. Você pode usar várias funcionalidades de upload de arquivos, como fazer upload de um único arquivo, fazer upload de uma pasta completa com ou sem dependências \(como referências de conteúdo, referências cruzadas e elementos gráficos\).
 
-Execute as seguintes etapas para usar o conector AEM do FrameMaker para fazer upload do conteúdo:
+Execute as seguintes etapas para usar o Conector AEM do FrameMaker para fazer upload de conteúdo:
 
-1. Iniciar FrameMaker.
+1. FrameMaker de inicialização.
 
 1. Abra o **Gerenciador de conexões** diálogo.
 
@@ -175,4 +174,3 @@ Especifique os seguintes parâmetros para adicionar informações de metadados:
 
 
 **Tópico pai:**[ Migrar conteúdo existente](migrate-content.md)
-

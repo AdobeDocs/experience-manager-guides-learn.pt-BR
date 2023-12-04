@@ -1,13 +1,12 @@
 ---
 title: Administração e segurança do usuário
 description: Saiba como a administração de usuários e a segurança funcionam
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 11%
+source-wordcount: '718'
+ht-degree: 10%
 
 ---
-
 
 # Administração e segurança do usuário {#id181AED00G5Z}
 
@@ -87,13 +86,13 @@ A lista a seguir contém algumas recomendações e pontos relacionados a grupos 
 
 - Por padrão, *Editores* recebem acesso e permissões nas seguintes pastas no DAM:
 
-   - ``/var/dxml``–\> Ler e gravar
+   - ``/var/dxml``-\> Leitura e gravação
 
-   - `/content/dam/fmdita-outputs` –\> Ler e gravar
+   - `/content/dam/fmdita-outputs` -\> Leitura e gravação
 
-   - `/content/output/sites` –\> Ler e gravar
+   - `/content/output/sites` -\> Leitura e gravação
 
-   Você deve conceder permissões explícitas de leitura e gravação ao editor se estiver usando qualquer outro local, exceto os locais de publicação padrão mencionados acima.
+  Você deve conceder permissões explícitas de leitura e gravação ao editor se estiver usando qualquer outro local, exceto os locais de publicação padrão mencionados acima.
 
 - Todos os usuários em *Autores*, *Revisores*, e *Editores* Os grupos têm acesso de leitura a todo o conteúdo no DAM.
 
@@ -106,4 +105,3 @@ A lista a seguir contém algumas recomendações e pontos relacionados a grupos 
 - Para conceder ao usuário direitos para alterar um estado de documento, adicione o usuário na seção transição de estado do perfil de estado do documento.
 
 [1](#fnsrc_1) Se *Autores* e *Editores* são convidados para uma revisão.[2](#fnsrc_2) Dependendo dos direitos concedidos ao usuário no perfil de estado do documento.
-

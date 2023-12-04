@@ -1,11 +1,10 @@
 ---
 title: Notas de versão do [!DNL AEM Guides], versão de janeiro de 2022
 description: Versão de janeiro de [!DNL Adobe Experience Manager Guides] as a Cloud Service
-exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2429'
-ht-degree: 3%
+source-wordcount: '2441'
+ht-degree: 0%
 
 ---
 
@@ -14,27 +13,27 @@ ht-degree: 3%
 ## Atualização para a versão de janeiro
 
 Atualize seu atual [!DNL Adobe Experience Manager Guides] as a Cloud Service (mais tarde referido como [!DNL AEM Guides] as a Cloud Service) executando as seguintes etapas:
-1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline Cloud Services correspondente ao ambiente que você deseja atualizar.
-1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Services para 2022.1.78.
-1. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de janeiro do [!DNL AEM Guides] as a Cloud Service.
+1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
+1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2022.1.78.
+1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de janeiro do [!DNL AEM Guides] as a Cloud Service.
 
 ## Matriz de compatibilidade
 
 Esta seção lista a matriz de compatibilidade dos aplicativos de software suportados pela [!DNL AEM Guides] Versão as a Cloud Service de janeiro de 2022.
 
-### FrameMaker e FrameMaker Publishing Server
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | FMPS | FrameMaker |
 | --- | --- |
 | Não compatível | Atualização 4 e superior para 2020 |
-|  |  |
+| | |
 
 
 ### Conector de oxigênio
 
 | [!DNL AEM Guides] Versão na nuvem | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2022.1.0 | 2.4.0 | 2.4.0 | 2.2 | 2.2 |
+| 2022.1.0 | 2.4.0 | 2.4.0 | 2,2 | 2,2 |
 |  |  |  |  |  |
 
 
@@ -80,10 +79,10 @@ Há várias melhorias e novos recursos introduzidos no Editor da Web:
 
 ### Autor com FrameMaker
 
-Agora você pode criar e publicar seus documentos no FrameMaker. O FrameMaker vem com um conector pronto para uso para Adobe Experience Manager. No FrameMaker, você obtém uma interface fácil de usar que permite manter versões de seus documentos em um ambiente distribuído e colaborativo.
+Agora você pode criar e publicar seus documentos no FrameMaker. O FrameMaker é fornecido com um conector pronto para uso para o Adobe Experience Manager. No FrameMaker, você obtém uma interface fácil de usar que permite manter versões de seus documentos em um ambiente distribuído e colaborativo.
 
 Depois de criar o conteúdo, o FrameMaker permite publicar seus documentos em diferentes formatos: PDF, HTML5, EPUB e DITA. Você também pode executar as várias operações de gerenciamento de arquivos, como check-out, check-out com dependentes, check-in, atualização e assim por diante.
-Para criar com o FrameMaker no [!DNL AEM Guides] Uso as a Cloud Service do FrameMaker versão 2020.4 e superior.
+Para criar com FrameMaker no [!DNL AEM Guides] FrameMaker de uso as a Cloud Service versão 2020.4 e superior.
 
 ### Novo painel de tradução
 
@@ -163,7 +162,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Os arquivos DITAVAL não são exibidos quando o autor adiciona ditavalref em um mapa. (7594)
 * Há espaço inesperado em cada espaço em branco `<entry>` elemento quando o atributo outputclass é adicionado a `<tgroup>` elemento. (7532)
 * O botão Origem não funciona para tópicos abertos pelo painel do mapa. (7465)
-* Pretty print insere linhas e espaços em branco que podem ser vistos quando o arquivo é aberto no FrameMaker ou no Oxygen. (7408)
+* O modelo Pretty print insere linhas e espaços em branco que podem ser vistos quando o arquivo é aberto no FrameMaker ou no Oxygen. (7408)
 * Mapas com href=&quot;/&quot; em qualquer um dos tópicos não são publicados em sites AEM. (7405)
 * Problemas de desempenho encontrados no editor quando o mapa raiz tem um grande número de keydefs. (7400)
 * O estado do documento de um mapa com modelo personalizado não está sendo herdado do perfil de estados correspondente. (7359)
@@ -249,16 +248,16 @@ O Adobe identificou os seguintes problemas conhecidos do [!DNL AEM Guides] Vers�
 Use a solução alternativa fornecida para os seguintes problemas conhecidos:
 
 * A autenticação da Web não está funcionando para o conector Oxygen no Mac.
-   **Solução alternativa**: Use o conector Oxygen no Windows por enquanto.
+  **Solução alternativa**: Use o conector Oxygen no Windows por enquanto.
 
 * No navegador Firefox, os comentários de revisão não podem ser importados sem abrir a exibição lado a lado.
-   **Solução alternativa**: Use o navegador Chrome por enquanto.
+  **Solução alternativa**: Use o navegador Chrome por enquanto.
 
 * As referências são interrompidas ao mover as imagens ou os arquivos multimídia que têm espaço(s) nos nomes dos arquivos.
-   **Solução alternativa**: Renomeie o arquivo e remova os espaços do nome do arquivo antes de movê-los.
+  **Solução alternativa**: Renomeie o arquivo e remova os espaços do nome do arquivo antes de movê-los.
 
 * O painel de mapa não carrega intermitentemente na versão mais recente do navegador Chrome.
-   **Solução alternativa**: Atualize a página do painel do mapa.
+  **Solução alternativa**: Atualize a página do painel do mapa.
 
 ### Outros problemas conhecidos
 

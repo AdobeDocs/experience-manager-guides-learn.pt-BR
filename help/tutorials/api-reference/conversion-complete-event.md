@@ -1,13 +1,12 @@
 ---
 title: Manipulador de eventos do processo de conversão
 description: Saiba mais sobre o manipulador de eventos do processo de conversão
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # Manipulador de eventos do processo de conversão {#id175UB30E05Z}
 
@@ -25,4 +24,3 @@ com/adobe/fmdita/conversion/complete
 
 **Parâmetros**:\
 |Nome|Tipo|Descrição| |—|—|—| |`status`|String|O status de retorno da operação executada. As opções possíveis são: - SUCESSO: o processo de conversão foi concluído com êxito. <br> - CONCLUÍDO COM ERROS: o processo de conversão foi concluído, mas com alguns erros. <br>- FALHA: o processo de conversão falhou devido a algum erro fatal.| |`filePath`|String|Caminho absoluto do arquivo de origem \(a ser convertido\) no repositório AEM.| |`outputPath`|String|Caminho absoluto do local de destino onde os arquivos DITA convertidos serão salvos.| |`logPath`|String|Caminho absoluto do nó onde o log de conversão será salvo.|
-

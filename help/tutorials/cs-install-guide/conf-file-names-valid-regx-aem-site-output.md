@@ -1,13 +1,12 @@
 ---
 title: Configurar nomes de arquivo válidos para saída do site AEM
 description: Saiba como Configurar nomes de arquivo válidos para saída de site do AEM
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 1%
 
 ---
-
 
 # Configurar nomes de arquivo válidos para saída do site AEM {#id214GK0X0KXA}
 
@@ -20,4 +19,3 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Adicione caracteres que você deseja substituir por um sublinhado nos nomes de arquivo de saída do site AEM. <br> **Valor padrão**: ``'<\>\`@$`` |
 
 **Tópico pai:**[ Configurar nomes de arquivo](conf-file-names.md)
-

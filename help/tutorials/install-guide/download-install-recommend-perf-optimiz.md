@@ -1,13 +1,12 @@
 ---
 title: Recommendations para otimização de desempenho
 description: Conheça a Recommendations para otimizar o desempenho
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
-
 
 # Recommendations para otimização de desempenho {#id213BD0JG0XA}
 
@@ -116,7 +115,7 @@ Um aumento do número de **Limitar páginas do site AEM na pilha** A propriedade
 **Qual é a mudança?**
 Essa alteração é necessária se você estiver fazendo upload em massa de conteúdo DITA.
 
-Defina o **Threads de pós-processamento** propriedade em `com.adobe.fmdita.config.ConfigManager` para `1`.
+Defina o **Threads pós-processamento** propriedade em `com.adobe.fmdita.config.ConfigManager` para `1`.
 
 **Quando configurar?**
 Isso pode ser feito em tempo de execução.
@@ -125,4 +124,3 @@ Isso pode ser feito em tempo de execução.
 Essa alteração reduz o tempo de pós-processamento no upload em massa de arquivos DITA.
 
 **Tópico pai:**[ Baixar e instalar](download-install.md)
-

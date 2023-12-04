@@ -1,13 +1,12 @@
 ---
 title: Abrir tópico DITA ou mapear arquivos na mesma guia
 description: Saiba como Abrir um tópico DITA ou mapear arquivos na mesma guia
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
 
 ---
-
 
 # Abrir tópico DITA ou mapear arquivos na mesma guia {#id223HH0301J3}
 
@@ -33,4 +32,3 @@ Essa configuração afeta os seguintes locais de onde você pode acessar o tópi
 
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

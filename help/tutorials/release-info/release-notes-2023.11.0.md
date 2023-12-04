@@ -1,11 +1,10 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos nos Guias da Adobe Experience Manager, versão de novembro de 2023
 description: Saiba mais sobre as correções de erros e como atualizar para a versão de novembro de 2023 do Adobe Experience Manager Guides as a Cloud Service
-exl-id: 80839890-075f-4187-a167-444c73215496
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 3%
+source-wordcount: '1673'
+ht-degree: 0%
 
 ---
 
@@ -123,7 +122,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 | Versão do Experience Manager Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.11.0 | 3.2-uuid 5 | 3.2-uuid 5 | 2.3 | 2.3 |
+| 2023.11.0 | 3.2-uuid 5 | 3.2-uuid 5 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -145,7 +144,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - Erro de aplicativo ao tentar salvar arquivos DITA antes que o pós-processamento seja concluído. (13571)
 - Se o título de um tópico contiver uma barra `/`, a guia no editor mostra apenas as letras que vêm após ela. (13455)
 - A visualização da imagem não desaparece após ser exibida no Editor. (13454)
-- O pop-up Inserir palavra-chave não é exibido ao usar chaves definidas pelo mapa raiz em outros tópicos. (12950)
+- O pop-up Inserir palavra-chave não é exibido ao usar chaves definidas pelo mapa raiz em outros tópicos. 12950)
 - Os ícones de fechamento não ficam visíveis quando gráficos muito altos são visualizados no painel Histórico de versões. (12867)
 - Não é possível modificar o fuso horário de **Versão criada em** para as Linhas de Base. (12711)
 - A variável **Histórico da versão** O painel na interface do usuário do Assets mostra um carimbo de data e hora incorreto para o **Atual** campo. (12624)

@@ -1,10 +1,9 @@
 ---
 title: Outros recursos no Editor da Web
 description: Explore outros recursos do editor da Web em Guias do AEM. Saiba como usar esses recursos para melhorar a criação nos Guias do AEM.
-exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2248'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---

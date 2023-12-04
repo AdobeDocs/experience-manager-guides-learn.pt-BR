@@ -1,7 +1,7 @@
 ---
 title: Configurar título para os ícones de check-in e check-out
 description: Saiba como configurar o título para ícones de check-in e check-out
-source-git-commit: bb4b875864b31197437a944ded5862bbf937bc29
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -29,4 +29,3 @@ O AEM Guides permite configurar o título para os ícones Check-in e Check-out n
    ```
 
 1. Salve o arquivo e faça upload dele.
-

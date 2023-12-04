@@ -1,13 +1,12 @@
 ---
 title: Gerenciamento de versão
 description: Saiba como o Gerenciamento de versão funciona
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
-
 
 # Gerenciamento de versão {#id181GB000XY4}
 
@@ -176,11 +175,11 @@ Para definir quem pode excluir um arquivo que contenha referências ou seja refe
 
    - allow\_unsafe\_delete\_for\_all: dê permissão a todos os usuários para excluir arquivos. Nesse caso, se o arquivo\(s\) contiver referências ou for referenciado por outros arquivos, você também poderá excluí-lo à força\(s\). Antes de excluir o arquivo, você verá um prompt com as referências. Você pode cancelar a operação de exclusão, remover as referências e finalmente excluir o arquivo\(s\). Ou você pode forçar a exclusão do arquivo\(s\) sem remover as referências.
 
-      ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group: um administrador ou usuário pertencente à *delete-assets* grupo tem permissão para excluir arquivos. Se qualquer outro usuário tentar excluir arquivos com qualquer referência, não será permitido excluir esses arquivos até que todas as referências sejam removidas. A captura de tela a seguir é exibida quando um usuário sem permissões tenta excluir arquivos.
 
-      ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
 
    - block\_unsafe\_delete\_for\_all: proibir todos os usuários \(incluindo Administradores\) de excluir arquivos até que as referências para e do arquivo\(s\) sejam removidas.
 
@@ -214,9 +213,9 @@ Execute as seguintes etapas para expurgar as versões mais antigas:
 - **Reter Versões Criadas Dentro Do Período \(Em Dias\)**: insira a idade máxima de uma versão em dias. As versões anteriores ao número de dias especificado são qualificadas para expurgação caso outras condições de expurgação sejam atendidas. Por exemplo, se informarmos 100, todas as versões criadas antes de 100 dias serão qualificadas para expurgação caso outras condições de expurgação sejam atendidas.
 - **Caminho**: selecione o caminho do arquivo ou pasta cujos arquivos você deseja limpar.
 
-   >[!NOTE]
-   >
-   > Você só pode limpar arquivos DITA.
+  >[!NOTE]
+  >
+  > Você só pode limpar arquivos DITA.
 
 1. Clique em **Visualizar relatório de limpeza**.
 
@@ -239,4 +238,3 @@ Execute as seguintes etapas para expurgar as versões mais antigas:
 >[!NOTE]
 >
 > O relatório é baixado no seguinte local: /var/dxml/versionpurge
-

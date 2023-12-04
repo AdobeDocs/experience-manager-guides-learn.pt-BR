@@ -1,10 +1,10 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 4.3.0 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros e como atualizar para as versões 4.3.0 do Adobe Experience Manager Guides
-source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 5%
+source-wordcount: '1086'
+ht-degree: 1%
 
 ---
 
@@ -61,8 +61,8 @@ Para obter mais detalhes, consulte *Requisitos técnicos* no guia Instalar e con
 
 | Versão | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.3.0 (Não UUID) | 2.3-regular-5 | 2.3-regular-5 | 1.6 | 1.6 |
-| 4.3.0 (UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2.3 | 2.3 |
+| 4.3.0 (Não UUID) | 2.3-regular-5 | 2.3-regular-5 | 1,6 | 1,6 |
+| 4.3.0 (UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2,3 | 2,3 |
 |  |  |   |
 
 ## Problemas corrigidos
@@ -81,8 +81,8 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 - Os resultados da pesquisa são desativados no painel Localizar e substituir após abrir um arquivo pesquisado. (12142)
 - A tecla numérica &quot;8&quot; no teclado lateral não está funcionando no editor de Guias AEM. (12106)
 - Os atributos em linha/Exibição não aparecem na exibição de layout do Editor da Web. (12498)
-- A configuração da interface do usuário do perfil global não corresponde ao Perfil da pasta. (11970)
-- As referências de conteúdo são quebradas quando os arquivos DITA são copiados e colados. (11959)
+- A configuração da interface do usuário do perfil global não corresponde ao Perfil da pasta. (1970)
+- As referências de conteúdo são quebradas quando os arquivos DITA são copiados e colados. (1959)
 - Não é possível editar o fragmento de conteúdo na exibição de coluna com Guias do AEM instalados. (7342)
 - O conteúdo é perdido quando uma refex não encapsulada está sob tags de um subelemento. (12532)
 - O fluxo de trabalho de aprovação não funciona quando o docstate é alterado para &quot;estado final&quot; nas propriedades File do painel direito. (11026)

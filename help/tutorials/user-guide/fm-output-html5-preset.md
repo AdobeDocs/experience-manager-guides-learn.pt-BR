@@ -1,8 +1,7 @@
 ---
 title: HTML 5
 description: Gerar e configurar saída de HTML5 para documentos do FrameMaker nos Guias do AEM.
-exl-id: 9ac39237-c6b3-47d9-8d54-67150002c050
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 5%

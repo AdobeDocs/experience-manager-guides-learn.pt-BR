@@ -1,10 +1,9 @@
 ---
 title: Gerenciar arquivos e pastas
 description: Saiba como gerenciar arquivos e pastas em Guias AEM. Copie e cole, arraste e solte, exclua, mova arquivos e pastas em massa e pesquise conteúdo DITA.
-exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3108'
 ht-degree: 0%
 
 ---
@@ -135,7 +134,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    >[!TIP]
    >
-   > Selecione <img src="images/info-icon.svg" width="25">   próximo a qualquer campo para exibir mais detalhes sobre ele.
+   > Selecionar <img src="images/info-icon.svg" width="25">   próximo a qualquer campo para exibir mais detalhes sobre ele.
 
 
    - **Adicionar sufixo a pastas duplicadas**: caso esteja movendo pastas com o mesmo nome, você deve selecionar essa opção. Por exemplo, na captura de tela anterior, a variável **Caminho de origem** contém o nome das pastas a serem movidas. A pasta chamada topic existe em dois locais diferentes — test-A e test-B. Ao selecionar essa opção, as pastas serão movidas com êxito. A primeira pasta movida será chamada de topic, enquanto a segunda pasta será chamada topic0. A operação de movimentação adiciona um sufixo em séries sequenciais \(0, 1, 2 e assim por diante\) às pastas com o mesmo nome.
@@ -176,7 +175,7 @@ Para mover arquivos em massa, execute as seguintes etapas:
 
    >[!TIP]
    >
-   > Selecione <img src="images/info-icon.svg" width="25">   próximo a qualquer campo para exibir mais detalhes sobre ele.
+   > Selecionar <img src="images/info-icon.svg" width="25">   próximo a qualquer campo para exibir mais detalhes sobre ele.
 
    - **Tamanho do lote**: especifique o número de arquivos a serem movidos em um único lote. Os valores padrão são 50 arquivos.
    - **Intervalo de suspensão**: especifique o tempo em segundos que o processo aguardará antes de iniciar o próximo lote. Durante esse intervalo de suspensão, o sistema corrige as referências de e para os arquivos movidos. O intervalo de suspensão padrão é de 60 segundos.

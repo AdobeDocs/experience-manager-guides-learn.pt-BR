@@ -1,11 +1,10 @@
 ---
 title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de outubro de 2022
 description: Versão de outubro do Adobe Experience Manager Guides as a Cloud Service
-exl-id: 38638080-625c-49c3-9e54-56cc23831546
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 4%
+source-wordcount: '491'
+ht-degree: 1%
 
 ---
 
@@ -14,20 +13,20 @@ ht-degree: 4%
 ## Atualize para a versão de outubro
 
 Atualize seus Guias do Adobe Experience Manager atuais as a Cloud Service (mais tarde chamados de *Guias de AEM as a Cloud Service*), executando as seguintes etapas:
-1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline Cloud Services correspondente ao ambiente que você deseja atualizar.
-1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Services para 2022.10.183.
-1. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de outubro do AEM Guides as a Cloud Service.
+1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
+1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2022.10.183.
+1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de outubro do AEM Guides as a Cloud Service.
 
 ## Matriz de compatibilidade
 
 Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com os Guias do AEM as a Cloud Service na versão de outubro de 2022.
 
-### FrameMaker e FrameMaker Publishing Server
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | FMPS | FrameMaker |
 | --- | --- |
 | Não compatível | Atualização 4 e superior para 2020 |
-|  |  |
+| | |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -35,7 +34,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 | Versão do AEM Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2022.10.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
+| 2022.10.0 | 2.7.13 | 2.7.13 | 2,3 | 2,3 |
 |  |  |  |  |
 
 

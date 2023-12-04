@@ -1,14 +1,12 @@
 ---
 title: Configurar um conector de fonte de dados usando ferramentas
 description: Saiba como configurar um conector de fonte de dados usando as ferramentas.
-source-git-commit: bcb8204197162cdff2a8a8002c03e4d98b442883
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
-
-
 
 # Configurar um conector de fonte de dados na interface do usuário
 

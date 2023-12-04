@@ -1,11 +1,10 @@
 ---
 title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de novembro de 2022
 description: Versão de novembro do Adobe Experience Manager Guides as a Cloud Service
-exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 2%
+source-wordcount: '1384'
+ht-degree: 0%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 2%
 ## Atualização para a versão de novembro
 
 Atualize seus Guias do Adobe Experience Manager atuais as a Cloud Service (mais tarde chamados de *Guias de AEM as a Cloud Service*), executando as seguintes etapas:
-1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline Cloud Services correspondente ao ambiente que você deseja atualizar.
-1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Services para 2022.11.198.
-1. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de novembro do AEM Guides as a Cloud Service.
+1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
+1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2022.11.198.
+1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de novembro do AEM Guides as a Cloud Service.
 
 ## Etapas para indexar o conteúdo existente (somente se você estiver em uma versão anterior à versão de setembro do AEM Guides as a Cloud Service)
 
@@ -26,8 +25,7 @@ Execute as seguintes etapas para indexar o conteúdo existente e usar o novo tex
 (Opcional: é possível passar caminhos específicos dos mapas para indexá-los; por padrão, todos os mapas serão indexados || Exemplo: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * A API retornará um jobId. Para verificar o status do trabalho, você pode enviar uma solicitação de GET com id de trabalho para o mesmo ponto de extremidade - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Por exemplo: http://&lt;
-_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+(Por exemplo: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * Quando o trabalho for concluído, a solicitação do GET acima responderá com sucesso e mencionará se algum mapa falhou. Os mapas indexados com êxito podem ser confirmados nos logs do servidor.
 
@@ -35,12 +33,12 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 
 Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com os Guias do AEM as a Cloud Service na versão de novembro de 2022.
 
-### FrameMaker e FrameMaker Publishing Server
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | FMPS | FrameMaker |
 | --- | --- |
 | Não compatível | Atualização 4 e superior para 2020 |
-|  |  |
+| | |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -48,7 +46,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 | Versão do AEM Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2022.11.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
+| 2022.11.0 | 2.7.13 | 2.7.13 | 2,3 | 2,3 |
 |  |  |  |  |
 
 

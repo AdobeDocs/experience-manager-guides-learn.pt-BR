@@ -1,11 +1,10 @@
 ---
 title: Tutorials para guias de Experience Manager
 description: Encontre vídeos tutoriais para o Experience Manager Guides (antigo XML Documentation para Adobe Experience Manager). Saiba mais sobre o suporte ao DITA nativo e a criação estruturada no Experience Manager.
-exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: 7fa60a962a94ad5011359398cc668f8080859a8c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 2%
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
@@ -25,16 +24,16 @@ Com [!DNL AEM Guides] As empresas podem oferecer experiências perfeitas e perso
 
 * **[[!DNL AEM Guides] Introdução ao curso](../courses/course-1/overview.md)**
 
-   _Saiba como criar, organizar, criar e publicar conteúdo com o [!DNL Adobe Experience Manager Guides]._
+  _Saiba como criar, organizar, criar e publicar conteúdo com o [!DNL Adobe Experience Manager Guides]._
 
 
 * **[[!DNL AEM Guides] Criação no Editor da Web integrado](../courses/course-3/overview.md)**
 
-   _Saiba como criar conteúdo usando o Editor da Web nativo no  [!DNL Adobe Experience Manager Guides]. Obter compreensão completa das preferências do usuário, configurações do editor, configuração, barras de ferramentas e muito mais._
+  _Saiba como criar conteúdo usando o Editor da Web nativo no  [!DNL Adobe Experience Manager Guides]. Obter compreensão completa das preferências do usuário, configurações do editor, configuração, barras de ferramentas e muito mais._
 
 * **[Geração de saída com [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
-   _Saiba como gerar saída usando o [!DNL Adobe Experience Manager Guides]. Saiba mais sobre os vários recursos disponíveis para geração de saída - relatórios, linhas de base, condições, solução de problemas, publicação e ativação em massa._
+  _Saiba como gerar saída usando o [!DNL Adobe Experience Manager Guides]. Saiba mais sobre os vários recursos disponíveis para geração de saída - relatórios, linhas de base, condições, solução de problemas, publicação e ativação em massa._
 
 
 <!--

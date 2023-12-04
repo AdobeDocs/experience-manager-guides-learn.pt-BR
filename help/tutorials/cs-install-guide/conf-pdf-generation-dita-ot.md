@@ -1,13 +1,12 @@
 ---
 title: Configurar a geração de PDF de um único tópico
 description: Saiba como configurar a geração de PDF de um único tópico
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
-
 
 # Configurar a geração de PDF de um único tópico {#id22ADC70M0XA}
 
@@ -57,4 +56,3 @@ Para ativar a geração de PDF antiga por meio do DITA-OT a partir do modo de vi
 Depois de executar as etapas fornecidas acima, se você escolher o mesmo perfil de pasta em Preferências do usuário no Editor da Web, verá a opção para geração de PDF no modo de visualização de um tópico.
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

@@ -1,13 +1,12 @@
 ---
 title: Configurar o prompt para salvar como uma nova versão ao fechar
 description: Saiba como Configurar o prompt para salvar como uma nova versão ao fechar
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # Configurar o prompt para salvar como uma nova versão ao fechar {#id222HBI00XXA}
 
@@ -35,4 +34,3 @@ Quando essa opção é selecionada, a variável **Salvar como uma nova versão**
 Para obter mais detalhes, consulte *Cenários de fechamento e salvamento de arquivos* no guia as a Cloud Service Usar guias do Adobe Experience Manager.
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

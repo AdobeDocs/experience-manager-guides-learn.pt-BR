@@ -1,13 +1,12 @@
 ---
 title: Configurar estados dos documentos
 description: Saiba como Configurar estados dos documentos
-source-git-commit: e3b2fc8c96ce535bb91e7bce935720aa389a917a
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%
 
 ---
-
 
 # Configurar estados dos documentos {#id181GB0400UI}
 
@@ -178,4 +177,3 @@ O Guia AEM fornece fluxo de trabalho para aprovação de documentos, que ajuda a
    ```
 
 1. Salve o arquivo e faça upload dele.
-

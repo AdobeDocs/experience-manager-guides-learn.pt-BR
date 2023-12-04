@@ -1,13 +1,12 @@
 ---
 title: Desinstalar guias do AEM
 description: Saiba como desinstalar guias do AEM
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # Desinstalar guias do AEM {#id21BHG0C0SXA}
 
@@ -47,4 +46,3 @@ Para limpar os arquivos residuais após a desinstalação, execute as seguintes 
 1. Limpe o cache do navegador.
 
 **Tópico pai:**[ Baixar e instalar](download-install.md)
-

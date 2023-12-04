@@ -1,11 +1,10 @@
 ---
 title: Notas de versão | Adobe Experience Manager Guides as a Cloud Service, versão de maio de 2022
 description: Lançamento de maio do Adobe Experience Manager Guides as a Cloud Service
-exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1874'
-ht-degree: 4%
+source-wordcount: '1887'
+ht-degree: 0%
 
 ---
 
@@ -14,20 +13,20 @@ ht-degree: 4%
 ## Atualização para a versão de maio
 
 Atualize seus Guias do Adobe Experience Manager atuais as a Cloud Service (mais tarde chamados de *Guias de AEM as a Cloud Service*), executando as seguintes etapas:
-1. Confira o código Git do Cloud Services e alterne para a ramificação configurada no pipeline Cloud Services correspondente ao ambiente que você deseja atualizar.
-1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Services para 2022.5.144.
-1. Confirme as alterações e execute o pipeline do Cloud Services para atualizar para a versão de maio do AEM Guides as a Cloud Service.
+1. Confira o código Git do Cloud Service e alterne para a ramificação configurada no pipeline Cloud Service correspondente ao ambiente que você deseja atualizar.
+1. Atualizar `<dox.version>` propriedade no `/dox/dox.installer/pom.xml` arquivo do seu código Git Cloud Service para 2022.5.144.
+1. Confirme as alterações e execute o pipeline do Cloud Service para atualizar para a versão de maio do AEM Guides as a Cloud Service.
 
 ## Matriz de compatibilidade
 
 Esta seção lista a matriz de compatibilidade dos aplicativos de software compatíveis com os Guias do AEM as a Cloud Service na versão de maio de 2022.
 
-### FrameMaker e FrameMaker Publishing Server
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | FMPS | FrameMaker |
 | --- | --- |
 | Não compatível | Atualização 4 e superior para 2020 |
-|  |  |
+| | |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -72,8 +71,7 @@ O modelo de mapa personalizado pode ajudá-lo a replicar com facilidade os model
 ### Processo de tradução aprimorado
 
 * **Capacidade de criar um projeto de tradução de escopo**
-Se precisar criar somente o escopo para um projeto a ser traduzido, é possível selecionar 
-**Criar um novo projeto de tradução de escopo**. Isso não enviará as cópias para tradução e o status original da tradução dos arquivos será mantido.
+Se precisar criar somente o escopo para um projeto a ser traduzido, é possível selecionar **Criar um novo projeto de tradução de escopo**. Isso não enviará as cópias para tradução e o status original da tradução dos arquivos será mantido.
 
 ![projeto de tradução de escopo](assets/scoping-translation-project.png)
 

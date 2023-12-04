@@ -1,10 +1,9 @@
 ---
 title: Traduzir documentos do Editor da Web
 description: Traduza o conteúdo para vários idiomas no editor da Web. Saiba como criar um projeto de tradução, adicionar regras, exibir versões e descartar arquivos fora de sincronia nos Guias do AEM.
-exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1907'
 ht-degree: 0%
 
 ---
@@ -109,7 +108,7 @@ O Guia AEM permite que os administradores configurem as regras de tradução. O 
 
 Os arquivos SRX devem ser nomeados como `<language-code>.srx`. Por exemplo, en-US ou ar-AE.
 
->[Observação]
+>[Nota]
 >O título não diferencia maiúsculas de minúsculas, portanto, você pode ter &quot;en-US&quot;, &quot;en-us&quot; ou &quot;EN-us&quot;. Além disso, os guias de AEM podem resolver &#39;-&#39; (hífen) ou &#39;_&#39; (sublinhado). Então, você pode ter &quot;en-US&quot; ou &quot;en_US&quot;.
 
 Além disso, você pode colocar esses arquivos dentro de qualquer pasta na raiz de ativos AEM `./content/dam`.

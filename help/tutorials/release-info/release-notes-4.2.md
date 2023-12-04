@@ -1,11 +1,10 @@
 ---
 title: Notas de versão | Versão do Adobe Experience Manager Guides 4.2
 description: Saiba mais sobre as correções de erros e como atualizar para as versões 4.2 do Adobe Experience Manager Guides
-exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: b7a6cb6086e94e2c0cbed8e35ca8d194a4fa36d4
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 6%
+source-wordcount: '1391'
+ht-degree: 1%
 
 ---
 
@@ -42,13 +41,13 @@ Versão 6.5 Service Pack 15, 14, 13 ou 12
 
 Para obter mais detalhes, consulte *Requisitos técnicos* no guia Instalar e configurar o Adobe Experience Manager Guides.
 
-### FrameMaker e FrameMaker Publishing Server
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versão | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
 | --- | --- | --- | --- | --- |
 | 4.2 (Não UUID) | 2022 ou superior | 2020.2 ou superior* | 2022 ou superior | 2020.3 ou superior |
 | 4.2 (UUID) | 2022 ou superior | 2020.2 ou superior* | 2022 ou superior | 2020.4 ou superior |
-|  |  |  |  |
+| | | | |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -56,9 +55,9 @@ Para obter mais detalhes, consulte *Requisitos técnicos* no guia Instalar e con
 
 | Versão | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.2 (Não UUID) | 2.1-regular-4 | 2.1-regular-4 | 1.6 | 1.6 |
-| 4.2 (UUID) | 2.8-uuid-8 | 2.8-uuid-8 | 2.3 | 2.3 |
-|  |  |  |
+| 4.2 (Não UUID) | 2.1-regular-4 | 2.1-regular-4 | 1,6 | 1,6 |
+| 4.2 (UUID) | 2.8-uuid-8 | 2.8-uuid-8 | 2,3 | 2,3 |
+|  |  |   |
 
 ## Problemas corrigidos
 
@@ -76,7 +75,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Acertar o espaço traseiro no final de um item de lista remove a lista inteira. (10540)
 * A tela é exibida em branco no Chrome v106 ao arrastar e soltar qualquer elemento da interface do usuário ( por exemplo, no painel Condições ). (10524)
 * O botão Recuo automático está ausente na barra de ferramentas no **Origem** exibição. (10448)
-* O primeiro caractere de um item de lista é perdido às vezes quando a lista está sendo criada no editor.( 10447)
+* O primeiro caractere de um item de lista é perdido às vezes quando a lista está sendo criada no editor.(10447)
 * **Desfazer** ou **Refazer** O não está funcionando corretamente em alguns arquivos. (10373)
 * Os metadados personalizados não são mantidos na ação de copiar e colar. (10367)
 * Ocorre um erro ao fazer uma cópia (ctrl+c) e colar (ctrl+v) de conteúdo. (10304)
@@ -117,16 +116,16 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * A regeneração de tópico não está funcionando para alguns cenários. (10635)
 * A publicação de PDF falha ao gerar a saída para uma predefinição duplicada (de uma predefinição existente). (10584)
 * O botão Visualizar log não funciona caso a geração de PDF falhe para uma predefinição. (10576)
-* O Publishlistener não exibe os dados solicitados em logs de informações e também contém alguns logs de lixo eletrônico.( 10567)
+* O Publishlistener não exibe os dados solicitados em logs de informações e também contém alguns logs de lixo eletrônico.(10567)
 * PDF nativo | Falha na geração de PDF com uma exceção de Null Pointer. (10950)
 * PDF nativo | conkeyref não está sendo resolvido na saída gerada. (10564)
-* PDF nativo | Problemas ocorrem com os metadados de um mapa que precisa ser referido na saída do PDF.( 10556)
+* PDF nativo | Problemas ocorrem com os metadados de um mapa que precisa ser referido na saída do PDF.(10556)
 * PDF nativo | Problemas ao girar o cabeçalho da tabela. (10555)
 * PDF nativo | Ocorrem problemas ao remover tópicos com função de processamento=&#39;resource-only&#39;. (10554)
 * PDF nativo | Teclas vazias são exibidas na saída do PDF. (10553)
 * PDF nativo | Aninhado `<indexterm>` não estão aninhados na exportação de PDF nativa. (10521)
 * PDF nativo | O PDF nativo usa o estilo em linha em vez do nome da classe para as tags geradas. (10498)
-* PDF nativo | Tópicos aninhados nos apêndices são todos transformados em h1 no HTML temporário.( 10454)
+* PDF nativo | Tópicos aninhados nos apêndices são todos transformados em h1 no HTML temporário.(10454)
 * PDF nativo | Não é possível ocultar tópicos do assunto principal do sumário. (10355)
 * PDF nativo | Atributo de quadro de tabela não propagado para o HTML temporário (como classe). (10353)
 * PDF nativo | Arquivos de HTML temporários adicionam as classes colsep e rowsep a <td> e <th> mesmo que o valor seja 0 no DITA de origem. (10352)

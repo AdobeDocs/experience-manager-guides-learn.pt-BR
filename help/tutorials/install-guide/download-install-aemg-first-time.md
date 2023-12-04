@@ -1,13 +1,12 @@
 ---
 title: Baixe e instale os Guias do AEM pela primeira vez
 description: Saiba como baixar e instalar guias do AEM pela primeira vez
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 2%
+source-wordcount: '232'
+ht-degree: 0%
 
 ---
-
 
 # Baixe e instale os Guias do AEM pela primeira vez {#id213BCL00KEV}
 
@@ -25,7 +24,7 @@ Execute as seguintes etapas para baixar e instalar guias de AEM pela primeira ve
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   O Gerenciador de pacotes gerencia os pacotes na sua instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de pacotes, consulte [Como trabalhar com pacotes](https://helpx.adobe.com/br/experience-manager/6-5/sites/administering/using/package-manager.html) na documentação do AEM.
+   O Gerenciador de pacotes gerencia os pacotes na sua instalação local do AEM. Para obter mais informações sobre como trabalhar com o Gerenciador de pacotes, consulte [Como trabalhar com pacotes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) na documentação do AEM.
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -49,4 +48,3 @@ Execute as seguintes etapas para baixar e instalar guias de AEM pela primeira ve
 > Execute o procedimento de instalação em todas as instâncias de servidores AEM em sua configuração.
 
 **Tópico pai:**[ Baixar e instalar](download-install.md)
-

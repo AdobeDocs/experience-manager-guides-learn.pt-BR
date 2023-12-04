@@ -1,9 +1,9 @@
 ---
 title: Configuração de conteúdo e modelo
 description: Saiba o que deve ser feito com toda a consideração para configurar o conteúdo e os modelos nos Guias do AEM.
-source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -58,8 +58,7 @@ Nesta sessão, você aprendeu sobre o seguinte:
 >
 > Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
 > - No local: 4.2 ou posterior
-> - Cloud Services: 2303 ou posterior
-
+> - Cloud Service: 2303 ou posterior
 
 
 ## Próxima sessão com especialistas

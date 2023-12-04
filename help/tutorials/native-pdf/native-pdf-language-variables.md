@@ -1,13 +1,12 @@
 ---
 title: PDF nativo | Suporte para variáveis de idioma
 description: Usar variáveis de linguagem nos modelos de saída e saída de PDF
-source-git-commit: 6de4b4666d804c678674faa6fe1a54ef9b9dbbe0
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
-
 
 # Suporte para variáveis de idioma
 
@@ -233,6 +232,3 @@ Usando estilos CSS, você também pode formatar os prefixos. Por exemplo, é pos
 color: red;
 } 
 ```
-
-
-

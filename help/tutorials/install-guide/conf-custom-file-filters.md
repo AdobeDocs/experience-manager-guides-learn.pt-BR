@@ -1,13 +1,12 @@
 ---
 title: Configurar filtros para a caixa de diálogo de procura de arquivos
 description: Saiba como Configurar filtros para a caixa de diálogo de procura de arquivos
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
 
 ---
-
 
 # Configurar filtros para a caixa de diálogo de procura de arquivos {#id20CIL7009GN}
 
@@ -65,5 +64,3 @@ Execute as seguintes etapas para adicionar as opções de filtragem de arquivo p
    Quando você inicia a caixa de diálogo de navegação de arquivos, as opções de filtro configuradas no arquivo ui\_config.json são exibidas.
 
    ![](assets/file-browse-custom-filters.png){width="300" align="left"}
-
-

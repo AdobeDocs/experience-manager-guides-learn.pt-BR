@@ -1,10 +1,9 @@
 ---
 title: Configurar perfis globais ou de nível de pasta
 description: Saiba como Configurar perfis globais ou de nível de pasta
-exl-id: 3370e22c-b996-4261-b250-8b8f8667c2a0
-source-git-commit: 192d807d0020193f39e8340fb6c0b6a50c6489f8
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3891'
+source-wordcount: '3896'
 ht-degree: 0%
 
 ---
@@ -262,7 +261,7 @@ Execute as seguintes etapas para adicionar o tópico ou mapear modelos em um per
 1. Na página do perfil, clique no link **Criação de modelo** guia.
 1. Clique em **Editar**.
 
-   Você tem a opção de adicionar Tópico e Modelos de mapa pesquisando do local padrão ou procurando por ele.
+   Você tem as opções para adicionar Tópico e Modelos de mapa pesquisando do local padrão ou procurando por ele.
 
    >[!NOTE]
    >

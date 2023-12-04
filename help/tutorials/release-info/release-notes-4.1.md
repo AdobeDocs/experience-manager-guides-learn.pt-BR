@@ -1,11 +1,10 @@
 ---
 title: Notas de versão | Versão do Adobe Experience Manager Guides 4.1
 description: Versão mais recente dos Guias do Adobe Experience Manager
-exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3532'
-ht-degree: 3%
+source-wordcount: '3644'
+ht-degree: 1%
 
 ---
 
@@ -40,13 +39,13 @@ Versão 6.5 Service Pack 13, 12, 11 ou 10
 Para obter mais detalhes, consulte a seção Technical requirements no guia Install and configure Adobe Experience Manager Guides.
 
 
-### FrameMaker e FrameMaker Publishing Server
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versão | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1.3 (Não UUID) | 2020.2 ou superior* | 2019 | 2020.3 ou superior | 2019.8 (atualização mais recente) |
 | 4.1.3 (UUID) | 2020.2 ou superior* | Não compatível | 2020.4 ou superior | Não compatível |
-|  |  |  |  |
+| | | | |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -54,9 +53,9 @@ Para obter mais detalhes, consulte a seção Technical requirements no guia Inst
 
 | Versão | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1.3 (Não UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1.3 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
-|  |  |  |
+| 4.1.3 (Não UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
+| 4.1.3 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
+|  |  |   |
 
 
 ## Problemas corrigidos
@@ -83,13 +82,13 @@ Versão 6.5 Service Pack 13, 12, 11 ou 10
 Para obter mais detalhes, consulte a seção Technical requirements no guia Install and configure Adobe Experience Manager Guides.
 
 
-### FrameMaker e FrameMaker Publishing Server
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versão | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1.2 (Não UUID) | 2020.2 ou superior* | 2019 | 2020.3 ou superior | 2019.8 (atualização mais recente) |
 | 4.1.2 (UUID) | 2020.2 ou superior* | Não compatível | 2020.4 ou superior | Não compatível |
-|  |  |  |  |
+| | | | |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -97,9 +96,9 @@ Para obter mais detalhes, consulte a seção Technical requirements no guia Inst
 
 | Versão | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1.2 (Não UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1.2 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
-|  |  |  |
+| 4.1.2 (Não UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
+| 4.1.2 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
+|  |  |   |
 
 
 ## Problemas corrigidos
@@ -117,7 +116,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 * A linha de base exportada durante a tradução não carrega na guia Linha de base do editor.
 
-   **Solução alternativa**: use a guia Linha de base do painel de mapa DITA.
+  **Solução alternativa**: use a guia Linha de base do painel de mapa DITA.
 
 ## 4.1 | Notas de versão
 
@@ -140,13 +139,13 @@ Para obter mais detalhes, consulte a seção Technical requirements no guia Inst
 
 
 
-### FrameMaker e FrameMaker Publishing Server
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versão | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1 (Não UUID) | 2020.2 ou superior* | 2019 | 2020.3 ou superior | 2019.8 (atualização mais recente) |
 | 4.1 (UUID) | 2020.2 ou superior* | Não compatível | 2020.4 ou superior | Não compatível |
-|  |  |  |  |
+| | | | |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -154,8 +153,8 @@ Para obter mais detalhes, consulte a seção Technical requirements no guia Inst
 
 | Versão | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1 (Não UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
+| 4.1 (Não UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
+| 4.1 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
 |  |  |  |
 
 
@@ -248,8 +247,7 @@ Para obter mais detalhes, consulte *Cenários de fechamento e salvamento de arqu
 ![inserir palavra-chave](assets/insert-keyword.png)
 
 * **Suporte para documentos do Markdown**
-O Markdown é uma linguagem de marcação simples que pode ajudar você a adicionar elementos de formatação a documentos de texto simples. O Editor da Web permite usar documentos do Markdown (.md) junto com seus documentos DITA. Você pode criar e visualizar facilmente um documento do Markdown no Editor da Web e também adicioná-lo ao arquivo de mapa por meio do editor de mapa DITA.  Para obter mais detalhes, consulte 
-*Criação de documentos do Markdown no editor da Web* seção em Uso do guia Adobe Experience Manager Guides.
+O Markdown é uma linguagem de marcação simples que pode ajudar você a adicionar elementos de formatação a documentos de texto simples. O Editor da Web permite usar documentos do Markdown (.md) junto com seus documentos DITA. Você pode criar e visualizar facilmente um documento do Markdown no Editor da Web e também adicioná-lo ao arquivo de mapa por meio do editor de mapa DITA.  Para obter mais detalhes, consulte *Criação de documentos do Markdown no editor da Web* seção em Uso do guia Adobe Experience Manager Guides.
 
 ![suporte para markdown](assets/create-markdown-dita-topic.png)
 
@@ -283,8 +281,7 @@ Observação: A guia Linha de Base no painel de mapa fica oculta por padrão. O 
 ### Processo de tradução aprimorado
 
 * **Capacidade de criar um projeto de tradução de escopo**
-Se precisar criar somente o escopo para um projeto a ser traduzido, é possível selecionar 
-**Criar um novo projeto de tradução de escopo**. Isso não enviará as cópias para tradução e o status original da tradução dos arquivos será mantido.
+Se precisar criar somente o escopo para um projeto a ser traduzido, é possível selecionar **Criar um novo projeto de tradução de escopo**. Isso não enviará as cópias para tradução e o status original da tradução dos arquivos será mantido.
 
 ![projeto de tradução de escopo](assets/scoping-translation-project.png)
 
@@ -320,7 +317,7 @@ Quando você seleciona baixar o mapa DITA, a solicitação é enfileirada e voc�
 
 ### Recurso obsoleto
 
-Os Guias de AEM não oferecem mais suporte à geração de formato de saída DITA para documentos do FrameMaker. Essa opção DITA também foi removida das Predefinições de saída do painel Mapa.
+Os Guias do AEM não suportam mais a geração de formato de saída DITA para documentos do FrameMaker. Essa opção DITA também foi removida das Predefinições de saída do painel Mapa.
 
 ## Problemas corrigidos
 
@@ -370,7 +367,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 * Os ativos DITA recém-criados sempre passam por check-out por outro usuário. (9387)
 * O erro sempre é registrado na criação de novo conteúdo. (9388)
 * A terceira tela no processo de criação da tarefa de revisão não mostra a lista de glossários. (4558)
-* Referências UUID incorretas atribuídas ao carregar vários arquivos do FrameMaker/Oxygen Connector. (8269)
+* Referências UUID incorretas atribuídas ao carregar vários arquivos do Conector FrameMaker/Oxygen. (8269)
 * A notificação por email não é enviada quando uma tarefa de revisão é reatribuída na Caixa de entrada. (8376)
 * O segundo usuário administrador não pode ser adicionado como o primeiro usuário administrador a uma pasta. (8430)
 * **Aplicar rótulos** na guia Linha de base não exibe rótulos na lista suspensa. (8455)

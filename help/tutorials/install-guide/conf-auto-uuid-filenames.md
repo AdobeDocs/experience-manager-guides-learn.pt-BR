@@ -1,13 +1,12 @@
 ---
 title: Configurar nomes de arquivo automáticos com base no UUID
 description: Saiba como Configurar nomes de arquivo automáticos com base na UUID
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
 
 ---
-
 
 # Configurar nomes de arquivo automáticos com base no UUID {#id205QG070D5Z}
 
@@ -35,4 +34,3 @@ Execute as seguintes etapas para atribuir automaticamente o nome de arquivo base
 > Por padrão, essa opção está desativada. Quando essa opção estiver ativada, os autores não verão a opção para especificar o nome do arquivo ao criar um novo tópico ou arquivo de mapa. Um novo tópico ou arquivo de mapa pode ser criado na interface do usuário do Assets e no Editor da Web.
 
 **Tópico pai:**[ Configurar nomes de arquivo](conf-file-names.md)
-

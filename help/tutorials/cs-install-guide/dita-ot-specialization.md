@@ -1,13 +1,12 @@
 ---
 title: Usar a especialização personalizada do DITA-OT e do DITA
 description: Saiba como usar a especialização personalizada do DITA-OT e do DITA
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 0%
 
 ---
-
 
 # Usar a especialização personalizada do DITA-OT e do DITA {#id181GAJ0005Z}
 
@@ -49,7 +48,7 @@ Execute as seguintes etapas para fazer upload do plug-in DITA-OT personalizado n
 
    >[!NOTE]
    >
-   > É recomendável não substituir o pacote DITA-OT padrão. Você deve fazer upload do pacote DITA-OT personalizado que contém o plug-in /var/dxml/dita\_resources/dita-ot. Também é possível fazer isso usando o pipeline do Cloud Manager. Consulte [Implantação no AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=pt-BR) na documentação do AEM para obter mais detalhes.
+   > É recomendável não substituir o pacote DITA-OT padrão. Você deve fazer upload do pacote DITA-OT personalizado que contém o plug-in /var/dxml/dita\_resources/dita-ot. Também é possível fazer isso usando o pipeline do Cloud Manager. Consulte [Implantação no AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html) na documentação do AEM para obter mais detalhes.
 
 1. Você pode optar por editar o Perfil padrão, criar um novo perfil ou duplicar configurações do Perfil padrão para criar um novo perfil.
 
@@ -76,7 +75,7 @@ Execute as seguintes etapas para fazer upload do plug-in DITA-OT personalizado n
    | Variáveis de ambiente DITA-OT | *\(Opcional\)* Especifique as variáveis de ambiente a serem transmitidas para o processo DITA-OT. Por padrão, os Guias do AEM adicionam quatro variáveis - `ANT_OPTS`, `ANT_HOME`, `PATH`, e `CLASSPATH`. <br> Você pode reutilizar qualquer uma das variáveis ou propriedades existentes do ambiente do sistema para criar novas variáveis de ambiente. Por exemplo, se você tiver `JAVA_HOME` definida no sistema e que você deseje definir uma nova variável de ambiente chamada `JAVA_BIN` que é criado usando `JAVA_HOME`. Em seguida, adicione a definição de `JAVA_BIN` como:`JAVA_BIN= ${JAVA_HOME}/bin` <br> **Nota:** Você também pode usar as propriedades do sistema Java para construir variáveis de ambiente. Por exemplo, se o script de inicialização AEM definir uma propriedade do sistema Java `java.io.tmpdir` em um diretório temporário, você pode usar essa propriedade para definir uma nova variável como: `${java.io.tmpdir}/fmdita/dita_ot`. <br> **Importante:** Para reutilizar qualquer variável ou propriedade do sistema existente, ela deve estar entre `${}`. |
    | Substituir saída DITA-OT | Escolha se a saída DITA-OT deve ser substituída. Mantenha essa opção selecionada. |
    | Caminho do CEP DITA-OT do AEM | Especifique o caminho completo onde o arquivo DITA-OT.zip personalizado é armazenado no repositório AEM. |
-   | Caminho do plug-in DITA-OT | Caminho do plug-in personalizado Esse plug-in é integrado automaticamente ao pacote DITA-OT principal. |
+   | Caminho do plug-in DITA-OT | Caminho do plugin personalizado. Esse plug-in é integrado automaticamente ao pacote DITA-OT principal. |
    | Catálogos integrados | \(*Opcional*\) Caminho dos arquivos DTD e XSD catalog.xml personalizados no repositório AEM. Isso deve ser fornecido somente quando os catálogos estiverem ausentes no pacote DITA-OT. Esses catálogos são integrados automaticamente ao DITA-OT principal como um plug-in. |
    | Adicionar catálogo de ID do sistema | \(*Opcional*\) Selecione essa opção somente se houver entradas de ID pública ausentes no catálogo ou se os arquivos DITA usarem somente as IDs do sistema relativas ao caminho do servidor de onde foram carregados. |
    | Caminho temporário DITA-OT | Um local temporário onde os arquivos DITA são copiados para processamento. Antes de o DITA-OT processar os arquivos, eles são copiados neste local temporário. Por padrão, o local de armazenamento temporário é: <br> `<*AEM-Install*>/crx-quickstart/profiles/ditamaps` <br> **Importante:** Você não deve alterar o caminho padrão. |
@@ -141,5 +140,3 @@ Execute as seguintes etapas para criar um novo perfil e configurá-lo para usar 
    Para obter mais informações sobre outras propriedades na página Perfis, consulte a tabela de propriedades em [Etapa 6](#id17A9F0D075Z) do [Usar plug-ins personalizados do DITA-OT](#id181NH1020L7) seção.
 
 1. Clique em **Concluído** para salvar o perfil.
-
-

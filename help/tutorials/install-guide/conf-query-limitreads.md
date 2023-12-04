@@ -1,13 +1,12 @@
 ---
 title: Configurar o número de LimitReads para uma consulta
 description: Saiba como Configurar o número de LimitReads para uma consulta
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
 
 ---
-
 
 # Configurar o número de LimitReads para uma consulta {#id231RC0HL0ID}
 
@@ -31,4 +30,3 @@ Para aumentar o número de nós que uma consulta pode ler de cada vez, execute a
 Quando você aumenta esse valor de atributo, ele ajuda a gerar o relatório para mapas DITA maiores.
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

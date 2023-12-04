@@ -1,13 +1,12 @@
 ---
 title: Gerenciar tags para arquivos DITA nos Guias AEM
 description: Breve artigo para informar sobre o gerenciamento de cq:tags em guias AEM
-source-git-commit: 06f7adfd4fbbc3b51c6d6c08689697c20c8ce8fe
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
-
 
 # Como adicionar, remover e gerenciar tags no conteúdo DITA
 
@@ -60,4 +59,3 @@ Também é possível remover tags existentes que são comuns em arquivos selecio
 
 
 **Entre em contato com o respectivo CSM para tirar qualquer dúvida**
-

@@ -1,10 +1,9 @@
 ---
 title: Gerenciar conteúdo usando linhas de base
 description: Saiba como usar linhas de base para gerenciar seu conteúdo de maneira eficaz.
-exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '183'
 ht-degree: 1%
 
 ---
@@ -48,8 +47,7 @@ Nesta sessão, você aprenderá sobre o seguinte:
 >
 >Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
 > - No local 4.1 e posterior
-> - Cloud Services 2211 e posterior
-
+> - Cloud Service 2211 e posterior
 
 ## Entre em contato
 

@@ -1,13 +1,12 @@
 ---
 title: Definir o Editor de mapa avançado como padrão
 description: Saiba como definir o Editor de mapa avançado como padrão
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
 
 ---
-
 
 # Definir o Editor de mapa avançado como padrão {#id181AI0003PN}
 
@@ -26,4 +25,3 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 > Por padrão, quando um autor cria um arquivo de mapa e opta por abri-lo para edição, o Editor de mapa básico é iniciado. Quando a opção Editar é selecionada para um arquivo de mapa na interface do usuário do Assets, ela também é aberta no Editor de mapa básico.
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

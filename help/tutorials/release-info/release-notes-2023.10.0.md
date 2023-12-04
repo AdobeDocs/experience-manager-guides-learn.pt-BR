@@ -1,11 +1,10 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos nos Guias da Adobe Experience Manager, versão de outubro de 2023
 description: Saiba mais sobre as correções de erros e como atualizar para a versão de outubro de 2023 do Adobe Experience Manager Guides as a Cloud Service
-exl-id: fb1b74d7-25f2-4a20-9248-44dfdabf553d
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 2%
+source-wordcount: '1045'
+ht-degree: 1%
 
 ---
 
@@ -113,7 +112,7 @@ Esta seção lista a matriz de compatibilidade dos aplicativos de software compa
 
 | Versão do AEM Guides as a Cloud | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.10.0 | 3.2-uuid 5 | 3.2-uuid 5 | 2.3 | 2.3 |
+| 2023.10.0 | 3.2-uuid 5 | 3.2-uuid 5 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -165,4 +164,3 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 O Adobe identificou o seguinte problema conhecido para a versão de outubro de 2023.
 
 - Falha na republicação do fragmento de conteúdo.
-

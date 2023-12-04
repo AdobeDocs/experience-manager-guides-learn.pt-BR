@@ -1,13 +1,12 @@
 ---
 title: Apêndice
 description: Saiba como preparar documentos do InDesign para migração
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2866'
+source-wordcount: '2852'
 ht-degree: 0%
 
 ---
-
 
 # Apêndice {#id195AD0L60Y4}
 
@@ -341,7 +340,7 @@ O exemplo a seguir mostra como mover um `title` em um `table`:
 
 A variável `paragraphStyleRule` Os elementos do são descritos abaixo:
 
-** `paraRule` element**
+** `paraRule` elemento**
 
 A variável `paraRule` elemento é obrigatório. Especifica as regras de mapeamento para todos os Estilos de parágrafo. Em um documento de InDesign, todo o texto está contido na subestrutura de Estilos de parágrafo. Mesmo parágrafos sem nenhum estilo são nomeados `\[No paragraph style\]`. Os colchetes indicam um nome de estilo de InDesign incorporado.
 
@@ -485,5 +484,3 @@ Os atributos usados na variável `elementRule` são explicados a seguir:
 - `@context`: este atributo é usado para se vincular a uma regra de wrap específica quando mais de uma opção de wrap está disponível. Exemplo: a variável `li` o elemento pode ser encapsulado em um `ol`, ou um `ul` elemento.
 
 - `@commentOut`: esse atributo permite o encapsulamento do elemento de destino em comentários XML para que as informações não sejam perdidas, mas possam ser manipuladas manualmente pelo usuário. Isso é útil se o conteúdo original não puder ser forçado a se adequar às regras de estrutura DITA.
-
-

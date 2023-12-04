@@ -1,13 +1,12 @@
 ---
 title: Definir o Editor de mapa avançado como padrão
 description: Saiba como definir o Editor de mapa avançado como padrão
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
 
 ---
-
 
 # Definir o Editor de mapa avançado como padrão {#id181AI0003PN}
 
@@ -30,5 +29,3 @@ Execute as seguintes etapas para tornar o Editor de mapa avançado como o editor
 1. Selecione o **Ocultar Editor de mapa básico** opção.
 
    Com essa opção selecionada, os usuários não verão o link Editor de mapa básico em nenhum lugar na interface do usuário. Por padrão, os arquivos de mapa serão abertos no Editor de mapa avançado.
-
-

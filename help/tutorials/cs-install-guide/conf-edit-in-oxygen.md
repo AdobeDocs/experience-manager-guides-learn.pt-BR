@@ -1,13 +1,12 @@
 ---
 title: Configurar a opção para editar no Oxygen
 description: Saiba como configurar a opção para editar no plug-in do conector Oxygen.
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
 
 ---
-
 
 # Configurar a opção para editar no Oxygen
 
@@ -26,4 +25,3 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 > Essa configuração é desativada por padrão e a opção não está disponível no Editor da Web.
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

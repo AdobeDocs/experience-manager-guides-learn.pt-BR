@@ -1,11 +1,10 @@
 ---
 title: Notas de versão | Instruções de atualização e problemas corrigidos na versão 4.2.1 do Adobe Experience Manager Guides
 description: Saiba mais sobre as correções de erros e como atualizar para as versões 4.2.1 do Adobe Experience Manager Guides
-exl-id: 19b23164-4a07-4748-a8c4-1760bfdb2ca6
-source-git-commit: 6d7b17709e7a17c30b544a7f3f3707328431aac0
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 5%
+source-wordcount: '876'
+ht-degree: 1%
 
 ---
 
@@ -44,13 +43,13 @@ Versão 6.5 Service Pack 15, 14, 13 ou 12
 
 Para obter mais detalhes, consulte *Requisitos técnicos* no guia Instalar e configurar o Adobe Experience Manager Guides.
 
-### FrameMaker e FrameMaker Publishing Server
+### FRAMEMAKER e FRAMEMAKER PUBLISHING SERVER
 
 | Versão | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
 | --- | --- | --- | --- | --- |
 | 4.2.1 (Não UUID) | 2022 ou superior | 2020.2 ou superior* | 2022 ou superior | 2020.3 ou superior |
 | 4.2.1 (UUID) | 2022 ou superior | 2020.2 ou superior* | 2022 ou superior | 2020.4 ou superior |
-|  |  |  |  |
+| | | | |
 
 *A linha de base e as condições criadas no AEM são compatíveis com as versões do FMPS a partir de 2020.2.
 
@@ -58,9 +57,9 @@ Para obter mais detalhes, consulte *Requisitos técnicos* no guia Instalar e con
 
 | Versão | Janelas do conector Oxygen | Conector Oxygen Mac | Editar no Oxygen Windows | Editar no Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.2.1 (Não UUID) | 2.2-regular-3 | 2.2-regular-3 | 1.6 | 1.6 |
-| 4.2.1 (UUID) | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
-|  |  |  |
+| 4.2.1 (Não UUID) | 2.2-regular-3 | 2.2-regular-3 | 1,6 | 1,6 |
+| 4.2.1 (UUID) | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
+|  |  |   |
 
 ## Problemas corrigidos
 
@@ -69,7 +68,7 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 ### Criação  
 
 * Navtitle é removido do conteúdo ao alternar da exibição de layout para a exibição de autor ou fonte. (12174)
-* O botão Fechar no Editor da Web não leva à página Navegação por AEM. (11948)
+* O botão Fechar no Editor da Web não leva à página Navegação por AEM. (1948)
 * Às vezes, ocorre um erro no aplicativo ao clicar em um mapa DITA. (11842)
 * Ocorre um problema ao mover (arrastar e soltar) no lugar de um item de lista existente com o Controle de alterações ativado. (11570)
 * Ocorre um problema ao mover (arrastar e soltar) como um novo item de lista com a opção Controlar alterações ativada. (11569)
@@ -93,8 +92,8 @@ Os bugs corrigidos em várias áreas estão listados abaixo:
 
 ### Publicação
 
-* PDF nativo | A publicação de conteúdo que tem uma classe de saída com colchetes() resulta em um congelamento da publicação. (11936)
-* Saída JSON | Mapear metadados com o valor de propriedade como `"value in spaces and double quotes"` leva a um erro de publicação. (11933)
+* PDF nativo | A publicação de conteúdo que tem uma classe de saída com colchetes() resulta em um congelamento da publicação. (1936)
+* Saída JSON | Mapear metadados com o valor de propriedade como `"value in spaces and double quotes"` leva a um erro de publicação. (1933)
 * Problema ocorre na pesquisa do site AEM (não funciona além de 2-3 nós de nível). (11352)
 * Editor da Web | O caminho de saída e o modelo não podem ser selecionados na Predefinição de AEM. (11530)
 * Ao atualizar da versão 4.1.x para a 4.2, o mecanismo de PDF nativo não funciona e lança NullPointerException mesmo para o sistema operacional suportado.(11526)

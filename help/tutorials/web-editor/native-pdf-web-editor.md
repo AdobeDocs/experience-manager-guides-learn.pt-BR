@@ -1,10 +1,9 @@
 ---
 title: PDF nativo | Geração de saída de PDF
 description: Saiba como usar a publicação de PDF nativo, criar e gerar uma predefinição de saída de PDF, baixar arquivos temporários após gerar a saída de PDF AEM nativo e usar variáveis de idioma nos Guias do.
-exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 1305c960df98553edbd1fb65c8f6e8da7c232087
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3327'
+source-wordcount: '3259'
 ht-degree: 0%
 
 ---

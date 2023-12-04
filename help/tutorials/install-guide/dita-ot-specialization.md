@@ -1,13 +1,12 @@
 ---
 title: Usar a especialização personalizada do DITA-OT e do DITA
 description: Saiba como usar a especialização personalizada do DITA-OT e do DITA
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2093'
 ht-degree: 0%
 
 ---
-
 
 # Usar a especialização personalizada do DITA-OT e do DITA {#id181GAJ0005Z}
 
@@ -62,7 +61,6 @@ Execute as seguintes etapas para fazer upload do plug-in DITA-OT personalizado n
    - Execute o integrador \(para instalar o plug-in personalizado\) em um sistema operacional Mac/Linux para evitar problemas com separadores de arquivos - como os sistemas operacionais Windows e Linux têm separadores de arquivos diferentes, o plug-in integrado no sistema operacional Mac/Linux é compatível com a configuração do Windows e do Linux.
    - Certifique-se de que o `DITA-OT.ZIP` O arquivo contém uma pasta chamada &quot;DITA-OT&quot; que tem todos os plug-ins e arquivos relevantes.
    - Verifique se `DITA-OT.ZIP` o arquivo criado é do tipo mime: &quot;nt:file&quot; \(corresponde ao tipo primário de arquivo ZIP quando carregado para AEM\). Use uma ferramenta WebDAV ou implantação de código para fazer upload desse arquivo ZIP para o caminho desejado no AEM. \(Não use o gerenciador de pacotes AEM para implantar este arquivo ZIP, pois este ZIP não é um pacote de conteúdo AEM, mas apenas um arquivo morto.\)
-
    >[!NOTE]
    >
    > É recomendável não substituir o pacote DITA-OT padrão. Você deve carregar seu pacote DITA-OT personalizado contendo seu plug-in em algum outro local na `apps` pasta.
@@ -113,7 +111,7 @@ Execute as seguintes etapas para criar um novo perfil e configurá-lo para usar 
    | Variáveis de ambiente DITA-OT | *\(Opcional\)* Especifique as variáveis de ambiente a serem transmitidas para o processo DITA-OT. Por padrão, o AEM Guides adiciona quatro variáveis - `ANT_OPTS`, `ANT_HOME`, `PATH`, e `CLASSPATH`. <br> Você pode reutilizar qualquer uma das variáveis ou propriedades existentes do ambiente do sistema para criar novas variáveis de ambiente. Por exemplo, se você tiver `JAVA_HOME` definida no sistema e que você deseje definir uma nova variável de ambiente chamada `JAVA_BIN` que é criado usando `JAVA_HOME`. Em seguida, adicione a definição de `JAVA_BIN` como:<br> `JAVA_BIN= ${JAVA_HOME}/bin` <br> **Nota** Você também pode usar as propriedades do sistema Java para construir variáveis de ambiente. Por exemplo, se o script de inicialização AEM definir uma propriedade do sistema Java `java.io.tmpdir` em um diretório temporário, você pode usar essa propriedade para definir uma nova variável como: `${java.io.tmpdir}/fmdita/dita_ot`. <br> **Importante** Para reutilizar qualquer variável ou propriedade do sistema existente, ela deve estar entre `${}`. |
    | Substituir saída DITA-OT | *\(Opcional\)* Se essa opção estiver selecionada, você poderá especificar o pacote DITA-OT disponível no sistema local para gerar saída usando o DITA-OT. Essa configuração é definida na ativação do ConfigManager. <br> Se quiser especificar o caminho de um pacote DITA-OT armazenado no servidor AEM, desmarque essa opção. |
    | Caminho do zip do AEM DITA-OT/ caminho do diretório local do DITA-OT | Dependendo da sua seleção na Saída do DITA-OT de Substituição, especifique o caminho completo onde o arquivo DITA-OT.zip personalizado é armazenado. Esse pode ser o caminho no repositório AEM ou sistema local. |
-   | Caminho do plug-in DITA-OT | Caminho do plug-in personalizado Esse plug-in é integrado automaticamente ao pacote DITA-OT principal. |
+   | Caminho do plug-in DITA-OT | Caminho do plugin personalizado. Esse plug-in é integrado automaticamente ao pacote DITA-OT principal. |
    | Catálogos integrados | \(*Opcional*\) Caminho dos arquivos DTD e XSD catalog.xml personalizados no repositório AEM. Isso deve ser fornecido somente quando os catálogos estiverem ausentes no pacote DITA-OT. Esses catálogos são integrados automaticamente ao DITA-OT principal como um plug-in. |
    | Adicionar catálogo de ID do sistema | \(*Opcional*\) Selecione essa opção somente se houver entradas de ID pública ausentes no catálogo ou se os arquivos DITA usarem somente as IDs do sistema relativas ao caminho do servidor de onde foram carregados. |
    | Caminho temporário DITA-OT | *\(Opcional\)* Especifique um local temporário onde os arquivos DITA são copiados para processamento. Antes de o DITA-OT processar os arquivos, eles são copiados neste local temporário. Por padrão, o local de armazenamento temporário é: <br> **Nota** Você pode definir esse caminho usando qualquer variável ou propriedade do sistema existente. Consulte a descrição do [Variáveis de ambiente DITA-OT](#id181NH0YN0AX) para obter mais informações. |
@@ -191,4 +189,3 @@ Execute as seguintes etapas para criar um novo perfil e configurá-lo para usar 
 >[!NOTE]
 >
 > É possível exportar o perfil DITA personalizado como um pacote e carregá-lo em outras instâncias do AEM Guides para economizar tempo. Para obter mais informações, consulte [Apêndice.md](appendix.md).
-

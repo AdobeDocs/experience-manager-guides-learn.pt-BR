@@ -1,13 +1,12 @@
 ---
 title: REST APIs para gerenciamento de saída
 description: Saiba mais sobre as REST APIs para gerenciamento de saída
-source-git-commit: 4dcd90422f02f3b45aa74137fe58609962b09b49
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
-
 
 # REST APIs para gerenciamento de saída {#id175UB30E05Z}
 
@@ -134,4 +133,3 @@ Um método POST que exclui uma predefinição de saída.
 **Parâmetros**: |Nome|Tipo|Obrigatório|Descrição| |—|—|—|—| |`:operation`|String|Sim|Nome da operação que está sendo chamada. O valor desse parâmetro é `deleteoutput`.<br> **Nota:** O valor não diferencia maiúsculas de minúsculas.| |`sourcePath`|String|Sim|Caminho absoluto do arquivo de mapa DITA.| |`outputName`|String|Sim|Nome da predefinição de saída a ser excluída.|
 
 **Valores de resposta**: retorna uma resposta HTTP 200 \(Successful\).
-

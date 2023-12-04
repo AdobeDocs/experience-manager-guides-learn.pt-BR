@@ -1,13 +1,12 @@
 ---
 title: Personalizar barra de ferramentas
 description: Saiba como personalizar a barra de ferramentas
-source-git-commit: ef2e99db8c298d34af5777baa48886a55ac32590
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
 
 ---
-
 
 # Personalizar barra de ferramentas {#id172FB00L0V6}
 
@@ -48,20 +47,20 @@ Execute as seguintes etapas para adicionar um recurso à barra de ferramentas do
 
    - **itens:** Especifique a definição de todos os grupos na barra de ferramentas. Cada grupo pode conter um ou vários ícones da barra de ferramentas. Para definir ícones em um grupo de barras de ferramentas, é necessário definir novamente a variável `type` atributo dentro do `items`e defina seu valor como `buttonGroup`. Especifique um ou mais nomes de classe no `extraclass` propriedade. Especifique o nome do recurso no campo `label` propriedade. O trecho a seguir do `ui_config.json` arquivo mostra a definição do bloco da barra de ferramentas principal, seguida pelo `buttonGroup` definição:
 
-      ```json
-      "toolbar": {    
-        "type": "blockGroup",    
-        "extraclass": 
-        "toolbar operations",    
-          "items": [      
-            {        
-              "type": "buttonGroup",        
-              "extraclass": "left-controls",        
-              "label": "Left Controls",        
-              "items": [
-      ```
+     ```json
+     "toolbar": {    
+       "type": "blockGroup",    
+       "extraclass": 
+       "toolbar operations",    
+         "items": [      
+           {        
+             "type": "buttonGroup",        
+             "extraclass": "left-controls",        
+             "label": "Left Controls",        
+             "items": [
+     ```
 
-      No prazo de `items` é necessário especificar a definição de um ou mais ícones da barra de ferramentas.
+     No prazo de `items` é necessário especificar a definição de um ou mais ícones da barra de ferramentas.
 É necessário definir as seguintes propriedades para adicionar um ícone da barra de ferramentas:
 
    - **tipo:** Especificar `button` como o `type` valor. Esse valor indica que você está adicionando um botão da barra de ferramentas.
@@ -74,9 +73,9 @@ Execute as seguintes etapas para adicionar um recurso à barra de ferramentas do
 
    - **ao clicar:** Especifique o nome do comando definido para o recurso no arquivo JavaScript. Se o comando exigir parâmetros de entrada, especifique o nome do comando como:
 
-      ```JavaScript
-      "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
-      ```
+     ```JavaScript
+     "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+     ```
 
    - **mostrar ou ocultar:** Se você estiver definindo a variável `show` e especifique os modos nos quais o ícone é exibido. Os valores possíveis são - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(exibir em todos os modos\), ou `false` \(ocultar em todos os modos\).
 
@@ -234,4 +233,3 @@ A variável `ui_config.json` O arquivo tem três seções:
 
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

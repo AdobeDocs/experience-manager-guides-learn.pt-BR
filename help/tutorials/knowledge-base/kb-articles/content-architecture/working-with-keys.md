@@ -2,10 +2,9 @@
 title: Trabalhar com chaves
 description: Como criar chaves para serem usadas no conteúdo da organização
 role: Admin
-exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
-source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -56,8 +55,8 @@ Aqui você definiu duas definições, conforme mostrado acima, fornecendo uma [!
 
 + Edite o tópico e adicione o valor da chave usando o [!UICONTROL keyref].
 + Como mostrado na captura de tela, uma pequena janela aparecerá de onde as palavras-chave podem ser escolhidas. Isso será exibido quando você adicionar o elemento &quot;palavra-chave&quot;.
-   ![Inserir elemento](assets/insert_element.png)
-   ![Ref Chave](assets/key_ref.png)
+  ![Inserir elemento](assets/insert_element.png)
+  ![Ref Chave](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

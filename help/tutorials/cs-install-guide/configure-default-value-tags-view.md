@@ -1,13 +1,12 @@
 ---
 title: Configurar valor padrão para a exibição de tags
 description: Saiba como Configurar o valor padrão para a exibição de tags
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
 
 ---
-
 
 # Configurar valor padrão para a exibição de tags {#id223GN0M0NDC}
 
@@ -35,4 +34,3 @@ O AEM Guides permite configurar o estado padrão para a Exibição de tags no Ed
 > A preferência do usuário no Editor da Web para ativar/desativar a Visualização de tags tem precedência sobre esse valor padrão. Portanto, se um usuário ativar a Exibição de tags no Editor da Web, ela permanecerá ativada mesmo nas sessões.
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

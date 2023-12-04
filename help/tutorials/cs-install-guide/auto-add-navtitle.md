@@ -1,17 +1,16 @@
 ---
 title: Incluir atributo @navtitle por padrão
 description: Saiba como incluir o atributo @navtitle por padrão
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
 
 ---
 
-
 # Incluir atributo @navtitle por padrão {#id2115BC0J0XA}
 
-É possível adicionar diferentes tipos de arquivos de referência em um mapa, por exemplo, tópico, referência, tarefa, mapas \(sub\) e assim por diante. A maioria desses arquivos suporta o `@navtitle` atributo. No entanto, poucos autores o usam de forma consistente. Se quiser impor o uso do `@navtitle` em todos os arquivos referenciados em um mapa, é possível fazer isso com uma configuração simples.
+É possível adicionar diferentes tipos de arquivos de referência em um mapa, por exemplo, tópico, referência, tarefa, mapas \(sub\) e assim por diante. A maioria desses arquivos oferece suporte ao `@navtitle` atributo. No entanto, poucos autores o usam de forma consistente. Se quiser impor o uso do `@navtitle` em todos os arquivos referenciados em um mapa, é possível fazer isso com uma configuração simples.
 
 Uma vez habilitado, cada arquivo de referência adicionado em um mapa receberá automaticamente a `@navtitle` atributo adicionado às suas propriedades. A variável `@navtitle` também obterá o valor do `title` elemento do conteúdo referenciado.
 
@@ -52,4 +51,3 @@ Para incluir `@navtitle` atributo por padrão nas propriedades dos arquivos de r
 Com essa configuração, cada arquivo de referência adicionado a um mapa conterá a variável `@navtitle` atributo por padrão.
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

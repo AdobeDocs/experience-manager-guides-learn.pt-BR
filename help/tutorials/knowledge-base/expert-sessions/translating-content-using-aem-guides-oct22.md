@@ -1,11 +1,10 @@
 ---
 title: Traduzir conteúdo
 description: Saiba como traduzir o conteúdo para vários idiomas.
-exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 3%
+source-wordcount: '166'
+ht-degree: 4%
 
 ---
 
@@ -48,8 +47,7 @@ Nesta sessão, você aprenderá sobre o seguinte:
 >
 > Os recursos mostrados nesta sessão estão disponíveis nas seguintes versões dos Guias do AEM:
 > - No local 4.1 ou posterior
-> - Cloud Services 2207 ou posterior
-
+> - Cloud Service 2207 ou posterior
 
 ## Entre em contato
 

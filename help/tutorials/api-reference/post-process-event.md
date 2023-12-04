@@ -1,13 +1,12 @@
 ---
 title: Manipulador de eventos de pós-processamento
 description: Saiba mais sobre o manipulador de eventos de pós-processamento
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '198'
 ht-degree: 1%
 
 ---
-
 
 # Manipulador de eventos de pós-processamento {#id175UB30E05Z}
 
@@ -17,7 +16,7 @@ O Guia AEM expõe o evento com/adobe/fmdita/postprocess/complete usado para exec
 >
 > Esse evento não é acionado para a operação de exclusão no AEM 6.1.
 
-- Upload
+- Carregar
 - Criação
 - Modificação
 - Exclusão
@@ -33,4 +32,3 @@ com/adobe/fmdita/postprocess/complete
 ```
 
 **Parâmetros**: |Nome|Tipo|Descrição| |—|—|—| |`path`|Cadeia de caracteres|O caminho do arquivo que acionou esse evento. Normalmente, esse é o arquivo no qual uma operação foi executada.| |`status`|String|O status de retorno da operação executada. As opções possíveis são: - <br>- ÊXITO: a operação de pós-processamento foi concluída com êxito. <br>- CONCLUÍDO COM ERROS: a operação de pós-processamento foi concluída, mas com alguns erros. <br>- FALHA: a operação de pós-processamento falhou devido a algum erro fatal.| |`message`|String|Caso o status seja COMPLETED WITH ERRORS ou FAILED, esse parâmetro contém os detalhes sobre o erro ou o motivo da falha.| |`operation`|Cadeia de caracteres|A operação de pós-processamento executada no arquivo. As opções possíveis são:<br>- Adição <br>- Atualização <br>- Exclusão|
-

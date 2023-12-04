@@ -1,10 +1,9 @@
 ---
 title: Publicação PDF nativa - Aprendizagem por exemplos (parte 1)
 description: Com o mecanismo de publicação PDF nativo, é possível controlar o layout de conteúdo do documento enquanto manipula as seções desejadas, conforme necessário, usando CSS, HTML e JavaScript de fácil atualização.
-exl-id: e6fcb2cb-4dfe-4aa7-8c84-f11759898c41
-source-git-commit: 63c2103c18b2a6da450247b1ee6b676a00d5a510
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---

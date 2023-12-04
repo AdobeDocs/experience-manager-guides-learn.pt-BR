@@ -1,10 +1,9 @@
 ---
 title: Gerar saída para um mapa DITA a partir do console de mapas
 description: Gere saída para um mapa DITA a partir do console de mapas nos Guias AEM. Saiba mais sobre a geração de saída incremental e como visualizar o status, cancelar e excluir uma tarefa de saída.
-exl-id: 98afbdd2-56d7-44b0-ad2a-25e9143c88f3
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---

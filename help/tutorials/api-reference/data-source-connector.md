@@ -1,13 +1,12 @@
 ---
 title: API REST para registrar um conector de fonte de dados
 description: Saiba mais sobre a REST API para registrar um conector de fonte de dados
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
-
 
 # API REST para registrar um conector de fonte de dados {#id236LG0Y0CXA}
 
@@ -24,4 +23,3 @@ Um método GET que registra um conector de origem de dados.
 
 **Exemplo**:\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`
-

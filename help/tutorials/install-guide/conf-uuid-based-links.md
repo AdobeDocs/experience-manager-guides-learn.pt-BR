@@ -1,13 +1,12 @@
 ---
 title: Configurar a exibição de links baseados em UUID
 description: Saiba como Configurar a exibição de links baseados em UUID
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
 
 ---
-
 
 # Configurar a exibição de links baseados em UUID {#id2035G20M0QN}
 
@@ -33,4 +32,3 @@ Execute as seguintes etapas para mostrar o caminho relativo ou a UUID do conteú
 
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

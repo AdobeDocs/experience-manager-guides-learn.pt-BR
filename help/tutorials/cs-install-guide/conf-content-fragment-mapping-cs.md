@@ -1,13 +1,12 @@
 ---
 title: Configure o mapeamento baseado em JSON entre um tópico e um modelo de fragmento de conteúdo.
 description: Saiba como configurar o mapeamento baseado em JSON entre um tópico e um modelo de fragmento de conteúdo.
-source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Criar um mapeamento entre um tópico e um fragmento de conteúdo
 
@@ -39,7 +38,7 @@ Os Guias de AEM fornecem o recurso para criar um mapeamento baseado em JSON entr
       `"outputType": string`
 1. Salve o arquivo e faça upload dele.
 
-Arquivo de amostra:
+Arquivo de exemplo:
 
 ```
 [

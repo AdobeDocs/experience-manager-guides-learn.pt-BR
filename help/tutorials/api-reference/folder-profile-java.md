@@ -1,13 +1,12 @@
 ---
 title: API baseada em Java para trabalhar com perfis de pastas
 description: Saiba mais sobre a API baseada em Java para trabalhar com perfis de pasta
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
-
 
 # API baseada em Java para trabalhar com perfis de pastas {#id175UB30E05Z}
 
@@ -62,4 +61,3 @@ Session session) throws GuidesApiException
 - Se a API for chamada por meio de uma sessão de usuário não autorizada, como o usuário que não é um administrador para o perfil de pasta determinado.
 
 [1](#fnsrc_1) A variável `attributeNames`, `values`, e `labels` no mesmo índice em uma lista de matriz deve corresponder à mesma entrada.
-

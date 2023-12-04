@@ -1,13 +1,12 @@
 ---
 title: Configurar modelo de tópico DITA personalizado
 description: Saiba como configurar um modelo de tópico DITA personalizado
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 2%
 
 ---
-
 
 # Configurar modelo de tópico DITA personalizado {#id16A7G0O02TD}
 
@@ -62,4 +61,3 @@ Use as instruções fornecidas em [Substituições de configuração](download-i
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Especifique um local para armazenar modelos personalizados.<br> Se o local especificado existir no DAM, todos os modelos de mapa e tópico padrão serão copiados para essa pasta. Se o local não existir, a pasta será criada com todos os modelos de mapa e tópico padrão. |
 
 **Tópico pai:**[ Configurar tópico e modelos de mapa](conf-template-tags.md)
-

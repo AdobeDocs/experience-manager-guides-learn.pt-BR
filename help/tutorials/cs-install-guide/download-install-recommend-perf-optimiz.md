@@ -1,13 +1,12 @@
 ---
 title: Recommendations para otimização de desempenho
 description: Conheça o Recommendations para otimização de desempenho
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 0%
 
 ---
-
 
 # Recommendations para otimização de desempenho {#id213BD0JG0XA}
 
@@ -23,4 +22,3 @@ Para otimização de desempenho, considere os seguintes pontos:
 
 
 **Tópico pai:**[ Baixar e instalar](download-install.md)
-

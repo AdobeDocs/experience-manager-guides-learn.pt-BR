@@ -1,10 +1,9 @@
 ---
 title: Recurso de publicação de PDF nativo | Trabalhar com os estilos de conteúdo comuns
 description: Saiba como criar folhas de estilos de uso e criar estilos para o seu conteúdo.
-exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
-source-git-commit: 2fde719ced7d94af382a13e31af1c04591c8a258
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3525'
 ht-degree: 0%
 
 ---
@@ -44,7 +43,7 @@ Os estilos de cabeçalho encapsulam todos os estilos de base para os cabeçalhos
 
 ### Criar cabeçalhos personalizados no nível do capítulo {#create-chapter-level-heading}
 
-Em um livro (ou um mapa), você trabalha com Capítulos. Os estilos de cabeçalho base são projetados de forma que sejam aplicados em seus cabeçalhos de nível de capítulo sem nenhuma personalização. No entanto, se você quiser criar cabeçalhos especializados para seu conteúdo, será necessário criar esses cabeçalhos. Por exemplo, o padrão `h1.chapter` o cabeçalho é aplicado ao título do capítulo. Se quiser que o título do capítulo apareça em um estilo diferente, é necessário personalizar o `h1.chapter` estilo. Da mesma forma, você pode criar estilos personalizados para subcabeçalhos no capítulo. Por exemplo, se você deseja criar um estilo personalizado para todos os 2<sup>nd</sup> e 3<sup>rd</sup> cabeçalho de nível no capítulo, será necessário criar um novo estilo como `h2.chatper` e `h3.chatper`.
+Em um livro (ou um mapa), você trabalha com Capítulos. Os estilos de cabeçalho básicos são projetados de forma a serem aplicados em seus cabeçalhos de nível de capítulo sem nenhuma personalização. No entanto, se você quiser criar cabeçalhos especializados para seu conteúdo, será necessário criar esses cabeçalhos. Por exemplo, o padrão `h1.chapter` o cabeçalho é aplicado ao título do capítulo. Se quiser que o título do capítulo apareça em um estilo diferente, é necessário personalizar o `h1.chapter` estilo. Da mesma forma, você pode criar estilos personalizados para subcabeçalhos no capítulo. Por exemplo, se você deseja criar um estilo personalizado para todos os 2<sup>nd</sup> e 3<sup>rd</sup> cabeçalho de nível no capítulo, será necessário criar um novo estilo como `h2.chatper` e `h3.chatper`.
 
 Como o recurso Publicação PDF nativa contém as definições de estilo base para os estilos mais comuns, mesmo que você exclua acidentalmente um estilo, o estilo padrão é aplicado no conteúdo. Por exemplo, se não houver uma definição de estilo para o estilo h2 na folha de estilos, o recurso Publicação de PDF nativo aplicará algum estilo base no conteúdo h2.
 
@@ -90,40 +89,55 @@ As propriedades do estilo h1 são mostradas no painel Propriedades junto com sua
    Os estilos que podem ser aplicados na lista de numeração automática são mostrados abaixo da propriedade Numeração automática.
 
 1. Defina as seguintes propriedades:
-   * **Estilo**: selecione em uma grande variedade de estilos de numeração genéricos ou específicos de localidades. Você pode escolher estilos como Árabe-Índico, Devanágari, Georgiano, Decimal, Alfa Inferior e muito mais. Para o exemplo atual, selecione `upper-alpha`.
+   * **Estilo**: selecione em uma grande variedade de estilos de numeração genéricos ou específicos de localidades. Você pode escolher estilos como indo-arábico, devanágari, georgiano, decimal, Alpha inferior e muito mais. Para o exemplo atual, selecione `upper-alpha`.
 
    * **Formato**: o formato padrão é definido como `<x>`, em que o `x` é substituído pelo Estilo de numeração selecionado na propriedade Style. Por exemplo, se você selecionou `decimal` (1) estilo, depois o valor de `x` incrementos automáticos para cada instância do `h1` estilo e vai como 2, 3 e assim por diante. Também é possível adicionar texto personalizado no campo para formatar o estilo do cabeçalho. Por exemplo, se você quiser que todos os cabeçalhos h1 tenham um prefixo de `Chapter`, é necessário definir esse campo como `Chapter <x>`.
 
    * **Inserir caractere**: Se quiser adicionar um caractere especial no Formato, clique no botão Inserir caractere (<img src="./assets/insert-chars.png" width="25">) ícone. Selecione o caractere desejado que deseja adicionar no formato de estilo e clique em Inserir. Há diferentes tipos de caracteres especiais que você pode escolher na lista suspensa Selecionar categoria. Para o nosso exemplo, selecione a opção Aspas angulares à direita na categoria Pontuação.
 
-      <img src="./assets/insert-special-chars.png" width="400">
+     <img src="./assets/insert-special-chars.png" width="400">
 
 
    * **Iniciar numeração de**: se quiser que a numeração comece a partir de um número específico, forneça esse valor. Para o nosso exemplo, mantenha o valor padrão de 1.
 
    * **Recuar**: Se quiser recuar o cabeçalho, será necessário definir o valor de Recuo. Para o nosso exemplo, defina-o como 0 px.
 
-      >[!NOTE]
-      >
-      >É possível inserir o valor em px (pixels), pt (pontos), rem, em, % (porcentagem) ou em unidades (polegadas).
+     >[!NOTE]
+     >
+     >É possível inserir o valor em px (pixels), pt (pontos), rem, em, % (porcentagem) ou em unidades (polegadas).
 
    * **Largura do prefixo**: esta é a área ocupada pelo formato de numeração automática. Ele é automaticamente definido para um tamanho que possa acomodar facilmente o formato de estilo selecionado. Se quiser aumentar o tamanho, você poderá substituir o valor padrão.
 
-      Ao definir esse valor manualmente, tente alterar as outras propriedades que terão impacto na largura. Por exemplo, altere o tamanho da fonte, o formato com prefixo (Capítulo) ou um sufixo (:), defina o valor máximo na variável *Iniciar numeração de* e as várias propriedades de fonte para obter o tamanho ideal.
+     Ao definir esse valor manualmente, tente alterar as outras propriedades que terão impacto na largura. Por exemplo, altere o tamanho da fonte, o formato com prefixo (Capítulo) ou um sufixo (:), defina o valor máximo na variável *Iniciar numeração de* e as várias propriedades de fonte para obter o tamanho ideal.
 
-      Para o nosso exemplo, mantenha o valor padrão.
+     Para o nosso exemplo, mantenha o valor padrão.
 
    * **Espaçamento**: especifique o espaçamento horizontal e vertical. Para o nosso exemplo, mantenha os valores padrão.
 
-      Com as personalizações acima, o estilo é personalizado conforme mostrado abaixo:
+     Com as personalizações acima, o estilo é personalizado conforme mostrado abaixo:
 
-      <img src="./assets/h1-style-custmization.png" width="500">
+     <img src="./assets/h1-style-custmization.png" width="500">
 
    * **Aplicar formatação a**: as propriedades na categoria Autonumeração ajudarão você a definir o estilo de numeração. Para aplicar mais personalizações ao estilo de numeração ou ao conteúdo do formato de cabeçalho, você pode escolher Numeração ou Parágrafo nesse campo. Se você escolher &#39;Numeração&#39;, quaisquer alterações feitas em &#39;Fonte&#39;, &#39;Borda&#39;, &#39;Layout&#39; e outras categorias serão aplicadas somente ao estilo de numeração no cabeçalho. No entanto, se você escolher &#39;Parágrafo&#39;, as alterações serão aplicadas ao conteúdo do cabeçalho, não ao estilo de numeração.
 
    Use as configurações a seguir para gerar uma saída mostrada na seguinte captura de tela:
 
-   |**Estilo do título**|**Propriedade**|**Valor**|**Comentários adicionais**| | :- | :- | :- | :- | |h1|Style|Decimal|Essas propriedades estão na categoria Autonumeração | Formato`Capter <x>:`|| Largura do prefixo 160 px Fonte > Alinhamento de texto|Esquerda|Verifique se &#39;Aplicar formatação a&#39; está definido como &#39;Numeração&#39; |h2|Style|Decimal|Essas propriedades estão na categoria Autonumeração | Formato`Section <x>:`|| Largura do prefixo 125 px Fonte > Alinhamento de texto|Esquerda|Verifique se &#39;Aplicar formatação a&#39; está definido como &#39;Numeração&#39; |h3|Style|Decimal|Essas propriedades estão na categoria Autonumeração | Inserir nível|2|| Formato`Section <2>.<x>:`|| Largura do prefixo 125 px Fonte > Alinhamento de texto|Esquerda|Verifique se &#39;Aplicar formatação a&#39; está definido como &#39;Numeração&#39; ||
+   | **Estilo do título** | **Propriedade** | **Valor** | **Comentários adicionais** |
+   | :- | :- | :- | :- |
+   | h1 | Estilo | Decimal | Essas propriedades estão na categoria Autonumeração |
+   |  | Formato | `Capter <x>:` |  |
+   |  | Largura do prefixo | 160px |  |
+   |  | Fonte > Alinhamento de texto | Esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
+   | h2 | Estilo | Decimal | Essas propriedades estão na categoria Autonumeração |
+   |  | Formato | `Section <x>:` |  |
+   |  | Largura do prefixo | 125 px |  |
+   |  | Fonte > Alinhamento de texto | Esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
+   | h3 | Estilo | Decimal | Essas propriedades estão na categoria Autonumeração |
+   |  | Inserir Nível | 2 |  |
+   |  | Formato | `Section <2>.<x>:` |  |
+   |  | Largura do prefixo | 125 px |  |
+   |  | Fonte > Alinhamento de texto | Esquerda | Certifique-se de que &#39;Aplicar formatação a&#39; esteja definido como &#39;Numeração&#39; |
+   |  |
 
    <img src="./assets/auto-number-output.png" width="500">
 
@@ -140,6 +154,7 @@ No exemplo a seguir, criaremos um estilo de capitular:
 1. Abra a folha de estilos necessária para edição.
 
    >[!NOTE]
+   >
    Consulte [Personalizar um estilo predefinido ou novo](components-pdf-template.md#customize-style) seção para abrir uma folha de estilos para personalização ou edição.
 
 1. No **Estilos** , expanda a **Estilos de parágrafo**.
@@ -175,6 +190,7 @@ No exemplo a seguir, criaremos um estilo de caractere em linha:
 1. Abra a folha de estilos necessária para edição.
 
    >[!NOTE]
+   >
    Consulte [Personalizar um estilo predefinido ou novo](components-pdf-template.md#customize-style) seção para abrir uma folha de estilos para personalização ou edição.
 
 1. No **Estilos** , expanda a **Estilos de caractere**.
@@ -193,8 +209,9 @@ No exemplo a seguir, criaremos um estilo de caractere em linha:
 
    * **Fonte**: todas as propriedades relacionadas à fonte podem ser personalizadas nesta seção. Por padrão, há algumas fontes agrupadas com o produto. Você pode escolher a fonte desejada para o estilo de caractere. Para o nosso exemplo, defina a Família da fonte como *Serif,* e selecione *Negrito* e *Itálico* na propriedade Estilo da fonte. Você também pode personalizar outras propriedades de fonte, como Espessura da fonte (como negrito, mais claro), Decoração do texto (como sublinhado, linha sobreposta), Tamanho da fonte, Cor da fonte, Alinhamento do texto e muito mais.
 
-      >[!NOTE]
-      Também é possível adicionar fontes ao modelo, que são armazenadas na seção Resources do modelo. Para obter mais detalhes sobre como adicionar fontes e trabalhar com Recursos, consulte [Trabalhar com recursos](components-pdf-template.md#work-with-resources).
+     >[!NOTE]
+     >
+     Também é possível adicionar fontes ao modelo, que são armazenadas na seção Resources do modelo. Para obter mais detalhes sobre como adicionar fontes e trabalhar com Recursos, consulte [Trabalhar com recursos](components-pdf-template.md#work-with-resources).
 
    * **Layout**: você pode definir as propriedades relacionadas ao layout, como Altura e Largura, Margem, Preenchimento, Alinhamento e muito mais.
 
@@ -217,6 +234,7 @@ No exemplo a seguir, vamos personalizar o estilo de lista numerada ou ordenada:
 1. Abra a folha de estilos necessária para edição.
 
    >[!NOTE]
+   >
    Consulte [Personalizar um estilo predefinido ou novo](components-pdf-template.md#customize-style) seção para abrir uma folha de estilos para personalização ou edição.
 
 1. No **Estilos** , expanda a **Estilos de lista**.
@@ -247,25 +265,25 @@ No exemplo a seguir, vamos personalizar o estilo de lista numerada ou ordenada:
 
    * **Inserir Nível**: Você pode incluir o número de qualquer um dos níveis anteriores no formato de número. Por exemplo, se você quiser incluir o formato de número do 5º nível no formato de número do 6º nível, escolha 5 na lista suspensa Inserir nível. Observe que a lista suspensa Inserir nível mostra apenas os números dos níveis anteriores e não o nível seguinte. Por exemplo, enquanto você estiver no Nível 3, a lista Inserir Nível mostrará apenas os níveis 1 e 2.
 
-      <img src="./assets/list-insert-level.png" width="400">
+     <img src="./assets/list-insert-level.png" width="400">
 
-      Você também pode alterar o Formato de número para apresentar os valores da lista conforme necessário. Por exemplo, quando estiver usando um estilo de numeração aninhado para o nível 3, você poderá formatá-lo como &quot;`<2>.<x>))`&quot;. Isso mostrará o número de lista 2, seguido por um ponto, seguido pelo número de lista 3 e depois dois colchetes, como `2.3))`.
+     Você também pode alterar o Formato de número para apresentar os valores da lista conforme necessário. Por exemplo, quando estiver usando um estilo de numeração aninhado para o nível 3, você poderá formatá-lo como &quot;`<2>.<x>))`&quot;. Isso mostrará o número de lista 2, seguido por um ponto, seguido pelo número de lista 3 e depois dois colchetes, como `2.3))`.
 
    * **Recuar**: Se quiser recuar a lista, será necessário definir o valor de Recuo. Quaisquer alterações no recuo podem ser revisadas no painel Visualização e ajustadas.
 
-      >[!NOTE]
-      É possível inserir o valor em px (pixels), pt (pontos), rem, em, % (porcentagem) ou em unidades (polegadas).
+     >[!NOTE]
+     >
+     É possível inserir o valor em px (pixels), pt (pontos), rem, em, % (porcentagem) ou em unidades (polegadas).
 
    * **Largura do prefixo**: esta é a área ocupada pelo Formato de número. Ele é automaticamente definido para um tamanho que possa acomodar facilmente o formato selecionado. Se quiser aumentar o tamanho, você poderá substituir o valor padrão.
 
-      Ao definir esse valor manualmente, tente alterar as outras propriedades que terão impacto na largura. Por exemplo, altere o tamanho da fonte, o formato com prefixo ou um sufixo e as várias propriedades da fonte para obter o tamanho ideal.
+     Ao definir esse valor manualmente, tente alterar as outras propriedades que terão impacto na largura. Por exemplo, altere o tamanho da fonte, o formato com prefixo ou um sufixo e as várias propriedades da fonte para obter o tamanho ideal.
 
    * **Espaçamento**: especifique o espaçamento horizontal entre o formato do número da lista e o conteúdo. O espaçamento vertical controla o intervalo entre os dois itens da lista.
 
-      A captura de tela a seguir mostra a lista ordenada personalizada para cada nível:
+     A captura de tela a seguir mostra a lista ordenada personalizada para cada nível:
 
-      <img src="./assets/list-number-format-final.png" width="500">
-
+     <img src="./assets/list-number-format-final.png" width="500">
 
 ## Trabalhar com estilo de tabela {#table-styles}
 
@@ -276,6 +294,7 @@ No exemplo a seguir, vemos como criar um estilo de tabela e as várias opções 
 1. Abra a folha de estilos necessária para edição.
 
    >[!NOTE]
+   >
    Consulte [Personalizar um estilo predefinido ou novo](components-pdf-template.md#customize-style) seção para abrir uma folha de estilos para personalização ou edição.
 
 1. No **Estilos** clique com o botão direito do mouse na **Estilo de tabela** e escolha **Novo estilo**.
@@ -290,21 +309,23 @@ No exemplo a seguir, vemos como criar um estilo de tabela e as várias opções 
 
    * **Aplicar formatação a**: é possível optar por aplicar a formatação de estilo à tabela inteira, às linhas ou colunas ímpares/pares ou à primeira/última linha ou coluna.
 
-      >[!NOTE]
-      As seguintes configurações estão disponíveis no **Geral** seção quando **Aplicar formatação a** está definida como **Tabela inteira**.
+     >[!NOTE]
+     >
+     As seguintes configurações estão disponíveis no **Geral** seção quando **Aplicar formatação a** está definida como **Tabela inteira**.
 
    * **Quebra de texto**: selecione como quebrar texto em torno da tabela. Isso é útil quando a tabela está dentro de outro elemento de nível de bloco e a tabela deve ser renderizada juntamente com outro conteúdo no elemento de bloco. As opções de quebra automática são *left* ou *direita* alinhado, ou *nenhum*.
 
    * **Recolher Borda**: selecione a aparência da borda da tabela. Se você selecionar recolher, apenas uma única linha de borda será desenhada entre as células da tabela. No entanto, para estilos separados, a borda é visível ao redor de cada célula com preenchimento adicional.
 
-      <img src="./assets/table-style-collapse-separate.png" width="500">
+     <img src="./assets/table-style-collapse-separate.png" width="500">
 
    * **Espaçamento de Borda**: essa configuração só estará disponível quando o Recolhimento de borda estiver definido como Separado. Com essa configuração, você pode especificar o espaçamento vertical e horizontal entre as bordas da célula.
 
-      <img src="./assets/table-border-spacing.png" width="500">
+     <img src="./assets/table-border-spacing.png" width="500">
 
-      >[!NOTE]
-      As seguintes configurações estão disponíveis no **Célula** seção quando **Aplicar formatação a** está definida como **Tabela inteira**.
+     >[!NOTE]
+     >
+     As seguintes configurações estão disponíveis no **Célula** seção quando **Aplicar formatação a** está definida como **Tabela inteira**.
 
    * **Preenchimento**: especifique o preenchimento entre as células da tabela. Você pode especificar diferentes valores de preenchimento para os lados superior, inferior, esquerdo e direito.
 
@@ -329,6 +350,7 @@ No exemplo a seguir, criaremos um novo título de janela (`wintitle`) estilo:
 1. Abra a folha de estilos necessária para edição.
 
    >[!NOTE]
+   >
    Consulte [Personalizar um estilo predefinido ou novo](components-pdf-template.md#customize-style) seção para abrir uma folha de estilos para personalização ou edição.
 
 1. No **Estilos** listar, expandir **Outros estilos**.

@@ -1,13 +1,12 @@
 ---
 title: Configurar o salvamento automático de arquivos no Editor da Web
 description: Saiba como configurar o salvamento automático de arquivos no Editor da Web
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 1%
 
 ---
-
 
 # Configurar o salvamento automático de arquivos no Editor da Web {#id199CC0J0M5Z}
 
@@ -33,4 +32,3 @@ O recurso de salvamento automático não está habilitado por padrão e você pr
 
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-

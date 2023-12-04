@@ -1,13 +1,12 @@
 ---
 title: Configurar filtros para a caixa de diálogo de procura de arquivos
 description: Saiba como Configurar filtros para a caixa de diálogo de procura de arquivos
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
 
 ---
-
 
 # Configurar filtros para a caixa de diálogo de procura de arquivos {#id20CIL7009GN}
 
@@ -63,4 +62,3 @@ Execute as seguintes etapas para adicionar as opções de filtragem de arquivo p
 
 
 **Tópico pai:**[ Personalizar editor da Web](conf-web-editor.md)
-
