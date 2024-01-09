@@ -2,14 +2,14 @@
 title: Tutoriais em vídeo para [!DNL Adobe Experience Manager Guides]
 description: Assista aos tutoriais em vídeo sobre [!DNL Adobe Experience Manager Guides], Complemento AEM XML, Plug-in AEM XML, AEM DoX e AEM Dox.
 exl-id: 4066431b-0838-45a6-b6b1-e366f210eb8d
-source-git-commit: 28aa657e4ab0bb1297469ea60f4b4f87ad07c961
+source-git-commit: 0c2a131c2e8125590e4b624d7fe16ebd1fbbce16
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 4%
+source-wordcount: '113'
+ht-degree: 5%
 
 ---
 
-# Vídeos do AEM Guides
+# Tutorials do AEM Guides
 
 Confira este espaço para cursos com base em vídeo para [!DNL Adobe Experience Manager Guides].
 
