@@ -5,7 +5,7 @@ exl-id: ea94824a-884b-447f-9562-e6c629b8133b
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ A publicação condicional permite que uma fonte de conteúdo seja gravada para 
 
 Você pode baixar arquivos de amostra para o exercício aqui.
 
-[Download de exercício](assets/exercises/publishing-with-conditions.zip)
+[Download-Exercício](assets/exercises/publishing-with-conditions.zip)
 
 ## Marcar conteúdo com atributos condicionais
 
@@ -27,11 +27,11 @@ Você pode baixar arquivos de amostra para o exercício aqui.
 
 1. Insira o texto a ser tornado condicional. Por exemplo, um ou mais parágrafos, uma tabela inteira, uma figura ou outro conteúdo.
 
-   ![Informações de apresentação](images/presenting-info.png)
+   ![Informações de Apresentação](images/presenting-info.png)
 
 1. Selecione o conteúdo específico ao qual atribuir um atributo condicional. Por exemplo, um único parágrafo dentro da origem.
 
-   ![Template-Choice](images/template-choice.png)
+   ![Opção-Modelo](images/template-choice.png)
 
 1. No painel direito, verifique se as Propriedades são exibidas.
 
@@ -39,33 +39,33 @@ Você pode baixar arquivos de amostra para o exercício aqui.
 
 1. Atribua um valor ao atributo. As atualizações de exibição de conteúdo para mostrar marcação condicional foram aplicadas.
 
-   ![Especificar-modelo](images/specify-template.png)
+   ![Especificar-Modelo](images/specify-template.png)
 
 ## Visualização de conteúdo condicional
 
 1. Clique em **Visualizar**.
 
-1. Em **Filtros**, selecione ou desmarque as condições a serem exibidas ou ocultadas.
+1. Em **Filtros**, marque ou desmarque as condições para mostrar ou ocultar.
 
-1. Marcar ou desmarcar **Realçar texto de condições**.
+1. Marque ou desmarque **Texto de condições de destaque**.
 
-   ![Pré-visualização-conteúdo-condicional](images/preview-conditional-content.png)
+   ![Visualização-Conteúdo-Condicional](images/preview-conditional-content.png)
 
 ## Criação de uma predefinição de condição
 
 Uma predefinição de condição é uma coleção de propriedades que definem o que deve ser incluído ou excluído, ou de outra forma marcado, durante a geração da saída.
 
-1. No Painel do Mapa, selecione o **Predefinições de condição** guia.
+1. No Painel do Mapa, selecione a guia **Predefinições de Condição**.
 
 1. Clique em **Criar**.
 
-1. Selecionar **Adicionar** (ou **Adicionar tudo**).
+1. Selecione **Adicionar** (ou **Adicionar tudo**).
 
 1. Nomeie a condição.
 
 1. Selecione um atributo, rótulo e combinação de ação.
 
-   ![Criar-Condição-Predefinição](images/create-condition-preset.png)
+   ![Criar-Predefinição-Condição](images/create-condition-preset.png)
 
 1. Repita conforme necessário.
 
@@ -77,15 +77,15 @@ Depois que as condições forem aplicadas ao conteúdo, ele poderá ser gerado c
 
 ## Geração de saída condicional usando uma predefinição de condição
 
-1. Selecione o **Predefinições de saída** guia.
+1. Selecione a guia **Predefinições de saída**.
 
 1. Selecione uma predefinição de saída.
 
 1. Clique em **Editar**.
 
-1. Em **Aplicar condição usando** selecione uma Predefinição de condição.
+1. Em **Aplicar condição usando**, selecione uma predefinição de condição.
 
-   ![Generate-Conditional-Output](images/generate-conditional-output.png)
+   ![Gerar-Saída-Condicional](images/generate-conditional-output.png)
 
 1. Clique em **Concluído**.
 
@@ -95,7 +95,7 @@ Depois que as condições forem aplicadas ao conteúdo, ele poderá ser gerado c
 
 O arquivo DITAval pode ser usado para publicar conteúdo condicional. Isso requer que um arquivo seja criado ou carregado e depois referenciado na publicação.
 
-1. Selecione o **Predefinições de saída** guia.
+1. Selecione a guia **Predefinições de saída**.
 
 1. Selecione uma predefinição de saída.
 

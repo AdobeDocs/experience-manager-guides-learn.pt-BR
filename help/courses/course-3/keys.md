@@ -1,6 +1,6 @@
 ---
 title: Chaves
-description: As teclas permitem incluir informações variáveis no ao trabalhar com DITA em guias AEM
+description: As chaves permitem incluir informações variáveis ao trabalhar com DITA no AEM Guides
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Diferentes conjuntos de materiais podem conter informações semelhantes que precisam ser personalizadas em locais selecionados. As teclas permitem incluir informações variáveis no ao trabalhar com DITA.
 
-Os arquivos de exemplo que você pode optar por usar para esta lição são fornecidos no arquivo [keys.zip](assets/keys.zip).
+Os arquivos de exemplo que você pode optar por usar nesta lição são fornecidos no arquivo [keys.zip](assets/keys.zip).
 
 >[!VIDEO](https://video.tv.adobe.com/v/342756?quality=12&learn=on)
 
@@ -29,17 +29,17 @@ Os arquivos de exemplo que você pode optar por usar para esta lição são forn
 
    ![Selecionar CEP](images/lesson-9/select-zip.png)
 
-   d. Clique em [!UICONTROL **Extrair arquivo**] na barra de ferramentas superior.
+   d. Clique em [!UICONTROL **Extrair Arquivo**] na barra de ferramentas superior.
 
    ![Barra de ferramentas](images/lesson-9/extract-archive.png)
 
    e. Na caixa de diálogo, escolha o local específico para os arquivos a serem extraídos, como uma pasta chamada Chaves.
 
-   f. Clique em [!UICONTROL **Próxima**].
+   f. Clique em [!UICONTROL **Avançar**].
 
    g. Ignore quaisquer conflitos, pois eles não existirão em conteúdo que nunca foi carregado antes.
 
-   h. Selecionar [!UICONTROL **Extract**] na parte superior direita da tela.
+   h. Selecione [!UICONTROL **Extrair**] na parte superior direita da tela.
 
 1. Quando a extração for concluída, clique em [!UICONTROL **Ir para a pasta de destino**].
 
@@ -55,21 +55,21 @@ Para usar Chaves corretamente, as Preferências do usuário devem fazer referên
 
    b. Configure as Preferências do Usuário.
 
-   c. Clique no link [!UICONTROL **Preferências do usuário**] ícone na barra de ferramentas superior.
+   c. Clique no ícone [!UICONTROL **Preferências do Usuário**] na barra de ferramentas superior.
 
-   ![Barra de ferramentas superior](images/lesson-9/author-view.png)
+   ![Barra de Ferramentas Superior](images/lesson-9/author-view.png)
 
-   d. Clique no ícone de chave para especificar uma **Mapa raiz** que será usado para resolver Chaves.
+   d. Clique no ícone de chave para especificar um **Mapa de Raiz** que será usado para resolver Chaves.
 
-   e. Marque as caixas de seleção para os Ativos desejados.
+   e. Marque as caixas de seleção para qualquer Assets desejada.
 
-   ![Lista suspensa de ativos](images/lesson-9/select-assets.png)
+   ![Lista Suspensa do Assets](images/lesson-9/select-assets.png)
 
    f. Clique em [!UICONTROL **Selecionar**].
 
-   g) **Salvar** as Preferências do usuário.
+   g. **Salvar** as Preferências do Usuário.
 
-1. Navegue até a **Exibição de mapa**.
+1. Navegue até a **Exibição do mapa**.
 
 1. Abra o mapa especificado.
 
@@ -81,13 +81,13 @@ As Chaves são resolvidas.
 
 1. Selecione uma chave.
 
-   ![Lista suspensa Chave](images/lesson-9/hybrid-key.png)
+   ![Lista Suspensa de Chaves](images/lesson-9/hybrid-key.png)
 
 1. Insira um novo keydef.
 
    a. Clique em um local válido no mapa.
 
-   b. Selecione o **Keydef** ícone na barra de ferramentas superior.
+   b. Selecione o ícone **Keydef** na barra de ferramentas superior.
 
    ![Barra de ferramentas Keydef](images/lesson-9/key-icon.png)
 
@@ -97,7 +97,7 @@ As Chaves são resolvidas.
 
 1. Adicione topicmeta dentro do keydef.
 
-   a. Clique no botão [!UICONTROL **Inserir elemento**] ícone na barra de ferramentas superior.
+   a. Clique no ícone [!UICONTROL **Inserir elemento**] na barra de ferramentas superior.
 
    ![Barra de ferramentas Keydef](images/lesson-9/add-icon.png)
 
@@ -105,7 +105,7 @@ As Chaves são resolvidas.
 
 1. Adicione palavras-chave no topicmeta.
 
-   a. Clique no botão [!UICONTROL **Inserir elemento**] ícone na barra de ferramentas superior.
+   a. Clique no ícone [!UICONTROL **Inserir elemento**] na barra de ferramentas superior.
 
    ![Barra de ferramentas Keydef](images/lesson-9/add-icon.png)
 
@@ -113,11 +113,11 @@ As Chaves são resolvidas.
 
 1. Adicione uma palavra-chave no topicmeta.
 
-   a. Clique no botão [!UICONTROL **Inserir elemento**] ícone na barra de ferramentas superior.
+   a. Clique no ícone [!UICONTROL **Inserir elemento**] na barra de ferramentas superior.
 
    ![Barra de ferramentas Keydef](images/lesson-9/add-icon.png)
 
-   b. No **Inserir elemento** , pesquise e selecione &quot;palavra-chave&quot;
+   b. Na caixa de diálogo **Inserir elemento**, pesquise e selecione &quot;palavra-chave&quot;
 
 1. Digite o valor de keydef na palavra-chave.
 
@@ -138,7 +138,7 @@ Você também pode remover chaves ou definições de palavras-chave existentes d
 
 1. Clique em [!UICONTROL **Criar**].
 
-1. No painel esquerdo, selecione **Trechos**.
+1. No painel esquerdo, selecione **trechos**.
 
 1. Arraste e solte o trecho recém-criado do painel Trechos no mapa.
 

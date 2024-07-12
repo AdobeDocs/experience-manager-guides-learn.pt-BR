@@ -1,11 +1,11 @@
 ---
 title: Reutilização de conteúdo
-description: Uso recorrente de recursos em guias AEM
+description: Uso recorrente de recursos no AEM Guides
 exl-id: 453c5a09-0bcf-4760-87fc-df3ea4a3a30a
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 2%
+source-wordcount: '357'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,11 @@ Um dos principais recursos do DITA é a capacidade de reutilizar conteúdo. Ele 
 
 Quando uma alteração é feita em um tópico de origem reutilizável, as informações são atualizadas em todos os lugares em que o conteúdo é usado.
 
-1. Navegue até a **Repositório**.
+1. Navegue até o **Repositório**.
 
-1. Clique em **menu contextual** ao lado da pasta reutilizar.
+1. Clique no **menu contextual** ao lado da pasta reutilizar.
 
-1. Escolher **Criar > Tópico Dita**.
+1. Escolha **Criar > Tópico Dita**.
 
 1. Preencha os campos na caixa de diálogo Criar novo tópico. Por exemplo:
 
@@ -41,11 +41,11 @@ Há vários métodos para adicionar elementos reutilizáveis. Aqui, o primeiro f
 
 1. Clique no tópico em um local válido.
 
-1. Selecione o **Inserir conteúdo reutilizável** ícone na barra de ferramentas superior.
+1. Selecione o ícone **Inserir Conteúdo Reutilizável** na barra de ferramentas superior.
 
    ![Confirmação](images/lesson-8/insert-reuse-icon.png)
 
-1. Na caixa de diálogo Reutilizar conteúdo, clique na guia [!UICONTROL **Pasta**] ícone.
+1. Na caixa de diálogo Reutilizar conteúdo, clique no ícone [!UICONTROL **Pasta**].
 
 1. Navegue até a pasta desejada.
 
@@ -64,9 +64,9 @@ O elemento reutilizável foi inserido no tópico.
 
 ### Fluxo de trabalho 2
 
-1. Navegue até **Conteúdos reutilizáveis** no painel esquerdo.
+1. Navegue até **Conteúdo Reutilizável** no painel esquerdo.
 
-1. Clique em [!UICONTROL **Adicionar**] no painel Conteúdo reutilizável.
+1. Clique no ícone [!UICONTROL **Adicionar**] no painel Conteúdo Reutilizável.
 
    ![Confirmação](images/lesson-8/reuse-contents-icon.png)
 
@@ -76,7 +76,7 @@ O elemento reutilizável foi inserido no tópico.
 
 1. Clique em [!UICONTROL **Adicionar**].
 
-1. No painel Conteúdo reutilizável, expanda **Visão geral do elemento**.
+1. No painel Conteúdo Reutilizável, expanda **Visão Geral de Elementos**.
 
 1. Arraste e solte um elemento no tópico em um local válido.
 
@@ -90,7 +90,7 @@ O dlentry que você acabou de criar é um elemento reutilizável. Portanto, requ
 
 1. No painel Propriedades de conteúdo, clique na lista suspensa em Atributo.
 
-1. Selecionar **ID**.
+1. Selecione **ID**.
 
 1. Digite um nome lógico para o Valor.
 

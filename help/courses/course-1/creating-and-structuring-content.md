@@ -1,11 +1,11 @@
 ---
-title: Criação de conteúdo no [!DNL AEM Guides]
-description: Criação de conteúdo no [!DNL Adobe Experience Manager Guides]
+title: Criando conteúdo em  [!DNL AEM Guides]
+description: Criando conteúdo em  [!DNL Adobe Experience Manager Guides]
 exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
 source-git-commit: 6959927315c7afc62a7423e835a36895c76fdc6d
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -17,13 +17,13 @@ Depois de se familiarizar com a interface do usuário, você pode começar a cri
 
 ## Criação de uma pasta
 
-1. Selecione o **Repositório** ícone para exibir suas pastas e arquivos.
+1. Selecione o ícone **Repositório** para exibir suas pastas e arquivos.
 
    ![Ícone de repositório](images/common/repository-icon.png)
 
-1. Selecione o **+** ícone e **Pasta**.
+1. Selecione o ícone **+** e **Pasta**.
 
-   ![+ ícone](images/lesson-3/+-icon.png)
+   Ícone ![+](images/lesson-3/+-icon.png)
 
 1. Atribua um título à pasta.
 1. Selecione **Criar**.
@@ -39,10 +39,10 @@ Agora podemos criar uma pasta dentro da sua nova pasta para conter imagens ou ou
 
    O menu Opções é exibido.
 
-1. Selecionar **Criar \> pasta**.
-   ![Criação de uma subpasta](images/lesson-3/create-subfolder-with-markings.png)
+1. Selecione **Criar \> Pasta**.
+   ![Criando uma subpasta](images/lesson-3/create-subfolder-with-markings.png)
 
-1. Atribua um título à subpasta (por exemplo, &quot;imagens&quot;) e selecione **Criar**.
+1. Dê um título à subpasta (por exemplo, &quot;imagens&quot;) e selecione **Criar**.
 
 ## Criação e preenchimento de um novo conceito
 
@@ -52,17 +52,17 @@ Agora podemos criar uma pasta dentro da sua nova pasta para conter imagens ou ou
 
    O menu Opções é exibido.
 
-1. Selecionar **Criar \> Tópico**.
+1. Selecione **Criar \> Tópico**.
 
-   ![Criação de um novo tópico](images/lesson-3/create-topic-with-markings.png)
+   ![Criando um novo tópico](images/lesson-3/create-topic-with-markings.png)
 
    A caixa de diálogo Criar novo tópico será exibida.
 
-1. No menu suspenso Modelo da caixa de diálogo, selecione **Conceito**.
+1. No menu suspenso Modelo na caixa de diálogo, selecione **Conceito**.
 
-   ![Lista suspensa Modelo](images/lesson-3/dropdown-with-markings.png)
+   ![Lista suspensa de modelos](images/lesson-3/dropdown-with-markings.png)
 
-1. Dê um título ao conceito e selecione **Criar**.
+1. Dê um título ao seu conceito e selecione **Criar**.
 
    O novo conceito é exibido no editor, preenchido com seu título.
 
@@ -76,13 +76,13 @@ Você pode salvar seu trabalho a qualquer momento com Salvar ou Salvar como nova
 
 ### Salvando seu trabalho sem controle de versão
 
-1. Selecione o **Salvar** ícone.
+1. Selecione o ícone **Salvar**.
 
    ![Ícone Salvar](images/common/save.png)
 
 ### Salvar como uma nova versão
 
-1. Selecione o **Salvar como nova versão** no lado direito do ícone Salvar.
+1. Selecione o ícone **Salvar como nova versão** à direita do ícone Salvar.
 
    ![Ícone Salvar como nova versão](images/common/save-as-new-version.png)
 

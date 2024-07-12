@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # ARQUIVOS MOVIDOS
 
-Os arquivos na seção &quot;tutoriais&quot; agora estão na `experience-manager-guides.en` repositório:
+Os arquivos na seção &quot;tutoriais&quot; agora estão no repositório `experience-manager-guides.en`:
 
 <https://git.corp.adobe.com/AdobeDocs/experience-manager-guides.en>
 

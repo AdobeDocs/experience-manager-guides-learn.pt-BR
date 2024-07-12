@@ -1,10 +1,10 @@
 ---
 title: Perfis de pasta
-description: Criação e uso de perfis de pasta para guias do AEM
+description: Criação e uso de perfis de pasta para o AEM Guides
 exl-id: 5a0daa68-51ae-42d0-8320-6e8bdb1fe545
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 O AEM fornece acesso rápido às ferramentas de configuração. Com a personalização dos Perfis de pasta, diferentes departamentos ou produtos podem ter modelos exclusivos, ambientes de criação, perfis de atributo condicional, trechos ou até mesmo configurações do Editor da Web.
 
-Os arquivos de exemplo que você pode optar por usar para esta lição são fornecidos no arquivo [folderprofiles.zip](assets/folderprofiles.zip).
+Os arquivos de exemplo que você pode optar por usar nesta lição são fornecidos no arquivo [folderprofiles.zip](assets/folderprofiles.zip).
 
 >[!VIDEO](https://video.tv.adobe.com/v/342758?quality=12&learn=on)
 
@@ -21,35 +21,35 @@ Os arquivos de exemplo que você pode optar por usar para esta lição são forn
 
 As configurações são gerenciadas por meio do ícone Perfis de pasta.
 
-1. Na tela Navegação, clique na guia [!UICONTROL **Ferramentas**] ícone.
+1. Na tela Navegação, clique no ícone [!UICONTROL **Ferramentas**].
 
    ![Ícone de Ferramentas](images/reuse/tools-icon.png)
 
-1. Selecionar **Guias** no painel esquerdo.
+1. Selecione **Guias** no painel esquerdo.
 
-1. Clique em [!UICONTROL **Perfis de pasta**] bloco.
+1. Clique no bloco [!UICONTROL **Perfis de pasta**].
 
    ![Perfis de pasta](images/reuse/folder-profiles-tile.png)
 
-1. Selecione o perfil desejado. Por exemplo, escolha **Perfil global**, que é o perfil padrão.
+1. Selecione o perfil desejado. Por exemplo, escolha **Perfil Global**, que é o perfil padrão.
 
-   ![Perfil global](images/lesson-3/global-profile-tile.png)
+   ![Perfil Global](images/lesson-3/global-profile-tile.png)
 
 ## Editar atributos condicionais no perfil global
 
 Depois de acessar o Perfil global, você pode editar sua configuração. As configurações de Perfil global são aplicadas a todos os usuários, a menos que especificado de outra forma.
 
-1. No Perfil global, selecione a variável **Atributos condicionais** guia.
+1. No Perfil Global, selecione a guia **Atributos Condicionais**.
 
 1. Clique em [!UICONTROL **Editar**] no canto superior esquerdo da tela.
 
-   ![Atributos condicionais](images/lesson-3/edit-conditional-attributes.png)
+   ![Atributos Condicionais](images/lesson-3/edit-conditional-attributes.png)
 
 1. Clique em [!UICONTROL **Adicionar**].
 
-1. Preencha o **Nome**, **Valor**, e **Rótulo** para a nova condição.
+1. Preencha os campos **Nome**, **Valor** e **Rótulo** para a nova condição.
 
-   ![nova condição](images/lesson-3/new-condition.png)
+   ![Nova Condição](images/lesson-3/new-condition.png)
 
 1. Clique em [!UICONTROL **Salvar**] no canto superior esquerdo da tela.
 A nova condição agora está disponível para todos os usuários. Você pode selecioná-la no painel Propriedades de conteúdo e aplicá-la ao conteúdo conforme necessário.
@@ -58,13 +58,13 @@ A nova condição agora está disponível para todos os usuários. Você pode se
 
 Além do Perfil global padrão, você pode criar seus próprios perfis personalizados.
 
-1. Na tela Navegação, clique na guia [!UICONTROL **Ferramentas**] ícone.
+1. Na tela Navegação, clique no ícone [!UICONTROL **Ferramentas**].
 
    ![Ícone de Ferramentas](images/reuse/tools-icon.png)
 
-1. Selecionar **Guias** no painel esquerdo.
+1. Selecione **Guias** no painel esquerdo.
 
-1. Clique em [!UICONTROL **Perfis de pasta**] bloco.
+1. Clique no bloco [!UICONTROL **Perfis de pasta**].
 
    ![Perfis de pasta](images/reuse/folder-profiles-tile.png)
 
@@ -78,7 +78,7 @@ Além do Perfil global padrão, você pode criar seus próprios perfis personali
 
    c. Clique em [!UICONTROL **Criar**].
 
-   ![Criar perfil de pasta](images/lesson-3/create-folder-profile.png)
+   ![Criar Perfil de Pasta](images/lesson-3/create-folder-profile.png)
 
 Um bloco com o novo nome de perfil é exibido na página Perfis de pasta.
 
@@ -88,9 +88,9 @@ Os usuários administrativos têm o direito de atualizar os Atributos condiciona
 
 1. Clique no bloco para abrir o Perfil de pasta desejado.
 
-   ![Editar perfil da pasta](images/lesson-3/edit-folder-profile.png)
+   ![Editar Perfil de Pasta](images/lesson-3/edit-folder-profile.png)
 
-1. Selecione o **Geral** guia.
+1. Selecione a guia **Geral**.
 
 1. Clique em [!UICONTROL **Editar**] na parte superior esquerda da tela.
 
@@ -102,7 +102,7 @@ Os usuários administrativos têm o direito de atualizar os Atributos condiciona
 
    ![Adicionar administrador](images/lesson-3/add-admin.png)
 
-1. Clique em [!UICONTROL **Salvar**] no canto superior direito da tela quando todos os usuários tiverem sido adicionados.
+1. Clique em [!UICONTROL **Salvar**] no canto superior direito da tela quando todos os usuários forem adicionados.
 
 Os usuários administrativos agora estão atribuídos a este perfil.
 
@@ -110,7 +110,7 @@ Os usuários administrativos agora estão atribuídos a este perfil.
 
 Depois de acessar o Perfil global, você pode editar sua configuração. As configurações de Perfil global são aplicadas a todos os usuários, a menos que especificado de outra forma.
 
-1. No Perfil de pasta desejado, selecione a **Atributos condicionais** guia.
+1. Dentro do Perfil de Pasta desejado, selecione a guia **Atributos Condicionais**.
 
 1. Clique em [!UICONTROL **Editar**] no canto superior esquerdo da tela.
 
@@ -118,11 +118,11 @@ Depois de acessar o Perfil global, você pode editar sua configuração. As conf
 
 1. Clique em [!UICONTROL **Adicionar**].
 
-1. Preencha o **Nome**, **Valor**, e **Rótulo** para a nova condição.
+1. Preencha os campos **Nome**, **Valor** e **Rótulo** para a nova condição.
 
-   Clicar no [!UICONTROL **Plus**] permite que você adicione outros pares de valor e rótulo para o atributo nomeado.
+   Clicar no sinal de [!UICONTROL **Mais**] permite adicionar outros pares de Valor e Rótulo ao atributo nomeado.
 
-   ![Adicionar condições](images/lesson-3/add-conditions.png)
+   ![Adicionar Condições](images/lesson-3/add-conditions.png)
 
 1. Clique em [!UICONTROL **Salvar**] no canto superior esquerdo da tela.
 
@@ -130,7 +130,7 @@ Os novos Atributos condicionais foram adicionados a esse perfil.
 
 ## Escolha um modelo e um mapa na guia Modelos de Criação
 
-O Guias do AEM vem com modelos e mapas de criação prontos para uso. É possível restringi-los a autores específicos. Por padrão, os modelos são armazenados no local Assets em uma pasta de modelos DITA.
+O AEM Guides vem com modelos e mapas de criação prontos para uso. É possível restringi-los a autores específicos. Por padrão, os modelos são armazenados no local do Assets em uma pasta de modelos DITA.
 
 1. Dentro do Perfil de Pasta desejado, selecione a guia Criação de Modelos.
 
@@ -138,15 +138,15 @@ O Guias do AEM vem com modelos e mapas de criação prontos para uso. É possív
 
 1. Adicionar um modelo de mapa.
 
-   a. A partir do **Mapear Modelos** selecione uma opção nos mapas disponíveis.
+   a. Na lista suspensa **Modelos de Mapa**, selecione uma opção nos mapas disponíveis.
 
    b. Clique em [!UICONTROL **Adicionar**].
 
-   ![Mapear Modelos](images/lesson-3/map-templates.png)
+   ![Modelos de mapa](images/lesson-3/map-templates.png)
 
 1. Adicione um Modelo de Tópico.
 
-   a. A partir do **Modelos de Tópico** selecione uma opção nos templates disponíveis.
+   a. Na lista suspensa **Modelos de Tópico**, selecione uma opção nos modelos disponíveis.
 
    ![Modelos de Tópico](images/lesson-3/topic-templates.png)
 
@@ -162,7 +162,7 @@ Os novos Modelos de criação foram adicionados a este perfil.
 
 Você pode configurar cada predefinição de saída com base no Perfil de pasta. As Predefinições de saída que não são necessárias devem ser removidas.
 
-1. No Perfil de pasta desejado, selecione a **Predefinições de saída** guia.
+1. Dentro do Perfil de Pasta desejado, selecione a guia **Predefinições de Saída**.
 
 1. No painel esquerdo, marque as caixas de seleção de todas as predefinições não necessárias.
 
@@ -178,15 +178,15 @@ Agora, as únicas Predefinições de saída exibidas são aquelas que serão usa
 
 ## Fazer upload de um trecho da guia Configuração do editor XML
 
-1. No Perfil de pasta desejado, selecione a **Configuração do editor XML** guia.
+1. Dentro do Perfil de Pasta desejado, selecione a guia **Configuração do Editor XML**.
 
-1. Em Trechos do editor XML, clique em [!UICONTROL **Carregar**].
+1. Em Trechos do Editor XML, clique em [!UICONTROL **Carregar**].
 
    ![Carregar trecho](images/lesson-3/upload-snippet.png)
 
 1. Navegue até um trecho criado anteriormente.
 
-1. Clique em [!UICONTROL **Abertura**].
+1. Clique em [!UICONTROL **Abrir**].
 
 1. Clique em [!UICONTROL **Salvar**] na parte superior esquerda da tela.
 
@@ -196,17 +196,17 @@ Você modificou com sucesso a Configuração do editor para incluir trechos.
 
 No Editor, você pode ver os resultados das modificações feitas nos Perfis de pasta.
 
-1. Navegue até **Visualização do repositório**.
+1. Navegue até **Exibição do Repositório**.
 
 1. Clique na pasta do conteúdo com o qual deseja trabalhar.
 
-1. Clique em [!UICONTROL **Preferências do usuário**] ícone na barra de ferramentas superior.
+1. Clique no ícone [!UICONTROL **Preferências do Usuário**] na barra de ferramentas superior.
 
-   ![Preferências de usuário](images/lesson-3/hr-user-prefs.png)
+   ![Preferências do usuário](images/lesson-3/hr-user-prefs.png)
 
 1. Na caixa de diálogo Preferências do usuário, selecione o Perfil de pasta desejado na lista suspensa.
 
-   ![Selecionar preferências do usuário](images/lesson-3/select-user-pref.png)
+   ![Selecionar Preferências do Usuário](images/lesson-3/select-user-pref.png)
 
 1. Clique em [!UICONTROL **Salvar**].
 

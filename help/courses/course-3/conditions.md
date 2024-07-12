@@ -5,7 +5,7 @@ exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -19,15 +19,15 @@ Os arquivos de exemplo que você pode optar por usar para esta lição são forn
 
 ## Atribuir condições a um Perfil de Pasta
 
-1. Selecione o **Perfis de pasta** bloco.
+1. Selecione o bloco **Perfis de Pasta**.
 
-1. Clique em [!UICONTROL **Atributos condicionais**].
+1. Clique em [!UICONTROL **Atributos Condicionais**].
 
 1. Clique em [!UICONTROL **Editar**] no canto superior esquerdo do perfil.
 
 1. Clique em [!UICONTROL **Adicionar**].
 
-   ![Condições em perfis de pasta](images/lesson-13/add-name.png)
+   ![Condições em Perfis de Pasta](images/lesson-13/add-name.png)
 
 1. Preencha os campos obrigatórios.
 
@@ -47,13 +47,13 @@ Os arquivos de exemplo que você pode optar por usar para esta lição são forn
 
 Se nenhum Perfil de pasta personalizado tiver sido atribuído a um conceito, você poderá atribuir atributos a elementos específicos, como parágrafos.
 
-1. No **Visualização do repositório**, clique no elemento com o qual deseja trabalhar para selecioná-lo.
+1. Na **Exibição do Repositório**, clique no elemento com o qual deseja trabalhar para selecioná-lo.
 
-1. No **Propriedades de conteúdo** clique no botão [!UICONTROL **Atributo**] lista suspensa.
+1. No painel **Propriedades do conteúdo**, clique na lista suspensa [!UICONTROL **Atributo**].
 
 1. Escolha o atributo que deseja atribuir.
 
-1. Adicionar um **Valor**.
+1. Adicione um **Valor**.
 
 O par de atributo e valor agora é atribuído ao elemento selecionado.
 
@@ -61,15 +61,15 @@ O par de atributo e valor agora é atribuído ao elemento selecionado.
 
 O painel Condições permite a atribuição controlada de pares de Atributo e Valor.
 
-1. Modifique o **Preferências do usuário**.
+1. Modifique as **Preferências do Usuário**.
 
    a. Clique no ícone Preferências do Usuário.
 
    ![Ícone de Preferências do Usuário](images/lesson-13/user-prefs-icon.png)
 
-   b. Preencha os campos obrigatórios na **Preferências do usuário** diálogo. Por exemplo:
+   b. Preencha os campos obrigatórios na caixa de diálogo **Preferências do Usuário**. Por exemplo:
 
-   ![Preferências de usuário](images/lesson-13/user-preferences.png)
+   ![Preferências do usuário](images/lesson-13/user-preferences.png)
 
    c. Clique em [!UICONTROL **Salvar**].
 
@@ -81,35 +81,35 @@ O painel Condições permite a atribuição controlada de pares de Atributo e Va
 
 Os mapas do Esquema do assunto são uma forma especializada de ditamap e são referenciados por um mapa. Esquemas de assunto são usados para definir taxonomias. Eles fornecem controle sobre os valores disponíveis.
 
-1. Navegue até a **Visualização do repositório**.
+1. Navegue até **Exibição do Repositório**.
 
-1. Selecione um mapa que faça referência ao ditamap do Esquema do assunto. Este exemplo usa o mapa chamado _Design e layout_.
+1. Selecione um mapa que faça referência ao ditamap do Esquema do assunto. Este exemplo usa o mapa chamado _Design e Layout_.
 
-   ![Preferências de usuário](images/lesson-13/subject-scheme-map.png)
+   ![Preferências do usuário](images/lesson-13/subject-scheme-map.png)
 
 1. Configure as Preferências do Usuário.
 
-   a. Clique no botão [!UICONTROL **Preferências do usuário**] ícone.
+   a. Clique no ícone [!UICONTROL **Preferências do Usuário**].
 
-   ![Preferências de usuário](images/lesson-13/user-prefs-icon-2.png)
+   ![Preferências do usuário](images/lesson-13/user-prefs-icon-2.png)
 
-   b. Preencha os campos no **Preferências do usuário** diálogo.
+   b. Preencha os campos na caixa de diálogo **Preferências do Usuário**.
 
    c. Clique no símbolo de pasta ao lado do campo Caminho base para escolher o caminho para o arquivo desejado.
 
    d. Clique em [!UICONTROL **Selecionar**].
 
-   e. Clique no símbolo de chave ao lado da **Mapa raiz** para inserir um caminho.
+   e. Clique no símbolo de chave ao lado do campo **Mapa raiz** para inserir um caminho.
 
    >[!IMPORTANT]
    >
    >Importante: o Mapa de raiz selecionado deve ser o mapa que contém o Esquema de assunto.
 
-   ![Preferências de usuário](images/lesson-13/user-preferences-2.png)
+   ![Preferências do usuário](images/lesson-13/user-preferences-2.png)
 
    f. Restrinja os ativos exibidos selecionando as pastas que deseja usar.
 
-   g. Clique [!UICONTROL **Selecionar**].
+   g. Clique em [!UICONTROL **Selecionar**].
 
    h. Clique em [!UICONTROL **Salvar**].
 
@@ -119,6 +119,6 @@ O esquema de assunto foi atribuído.
 
 1. Navegue até **Configurações do editor**.
 
-1. Selecione o **Condições** guia.
+1. Selecione a guia **Condições**.
 
-1. Marque a caixa **Mostrar esquema do assunto no painel Condições**
+1. Marque a caixa **Mostrar esquema de assunto no painel Condições**

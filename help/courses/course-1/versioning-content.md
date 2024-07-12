@@ -1,10 +1,10 @@
 ---
-title: Controle de versão do conteúdo em [!DNL AEM Guides]
-description: Controle de versão do conteúdo em [!DNL Adobe Experience Manager Guides]
+title: Controle de versão do conteúdo em  [!DNL AEM Guides]
+description: Controle de versão do conteúdo em  [!DNL Adobe Experience Manager Guides]
 exl-id: 766af002-d17b-4d27-b4d1-baaacc4579ca
 source-git-commit: 97254946f5ee732fe3b93ff60dd9ef51a379b9f4
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Depois de ter várias versões do seu conteúdo, talvez você queira explorar as
 
 1. Selecione o ícone Histórico de versão na barra de ferramentas.
 
-   ![Ícone Histórico da versão](images/lesson-7/version-history.png)
+   ![Ícone de Histórico de Versões](images/lesson-7/version-history.png)
 
    A caixa de diálogo Histórico de versão é exibida.
 
@@ -55,12 +55,12 @@ Depois de ter várias versões do seu conteúdo, talvez você queira explorar as
 Se necessário, é possível selecionar uma versão e revertê-la de volta. Isso permite que você descarte a versão atual e volte a trabalhar com uma versão anterior.
 
 1. Na caixa de diálogo Histórico de versões, selecione a versão para a qual deseja reverter na lista suspensa.
-1. Selecionar **Reverter para a versão selecionada**.
+1. Selecione **Reverter para a versão selecionada**.
 
 A caixa de diálogo Reverter versão é exibida.
 
 1. Adicione um comentário descritivo sobre o motivo da reversão para uma versão anterior.
-1. Selecionar **Confirmar o**.
+1. Selecione **Confirmar**.
 
    Seu tópico foi revertido para a versão específica.
 
@@ -68,13 +68,13 @@ A caixa de diálogo Reverter versão é exibida.
 
 Você também pode visualizar as diferenças de versão na Visualização usando os filtros Rastreamento e Mostrar comparação no painel direito.
 
-1. Selecionar **Visualizar** na barra de menu superior.
+1. Selecione **Visualizar** na barra de menu superior.
 
    ![Botão Visualizar](images/common/select-preview.png)
 
    Seu tópico é aberto na Pré-visualização.
 
-1. Na lista suspensa Rastreamento no painel direito, selecione **Mostrar Marcação**.
+1. Na lista suspensa Rastreamento no painel direito, selecione **Mostrar marcação**.
 1. Na lista suspensa Mostrar comparação, selecione a versão com a qual deseja comparar.
 
    As alterações são exibidas como conteúdo formatado.

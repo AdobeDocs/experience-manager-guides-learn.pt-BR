@@ -1,6 +1,6 @@
 ---
 title: Criando e Publicando com Linhas de Base
-description: Criação e publicação com linhas de base no [!DNL Adobe Experience Manager Guides]
+description: Criando e Publicando com Linhas de Base em [!DNL Adobe Experience Manager Guides]
 exl-id: 3c229c30-f2e0-4fb0-b60c-7bae60ef1a5b
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -19,14 +19,14 @@ Usar uma linha de base permite criar uma versão dos tópicos do mapa e do conte
 
 Você pode acessar suas linhas de base no Painel do mapa.
 
-1. Exibição de Repositório, selecione o ícone de Reticências no mapa para abrir o menu Opções e **Abra o Painel do Mapa.**
+1. Exibição do Repositório, selecione o ícone de Reticências no mapa para abrir o menu Opções e **Abrir Painel do Mapa.**
 
    ![reticências-mapa-painel.png](images/ellipsis-map-dashboard.png)
 O Painel do mapa é aberto em outra guia.
 
-1. Selecionar **Linhas de Base**.
+1. Selecione **Linhas de Base**.
 
-   ![baseline-tab.png](images/baseline-tab.png)
+   ![tab.png](images/baseline-tab.png) de linha de base
 
 A guia Linhas de Base é exibida.
 
@@ -45,7 +45,7 @@ A guia Linhas de Base é exibida.
 
    >[!NOTE]
    >
-   >OBSERVAÇÃO: o *Usar versão mais recente se o rótulo não estiver presente* é marcada por padrão. Se essa opção não estiver selecionada e houver tópicos ou arquivos de mídia sem o rótulo escolhido no mapa, o processo de criação da linha de base falhará.
+   >OBSERVAÇÃO: a caixa de seleção *Usar versão mais recente se o rótulo não estiver presente* está marcada por padrão. Se essa opção não estiver selecionada e houver tópicos ou arquivos de mídia sem o rótulo escolhido no mapa, o processo de criação da linha de base falhará.
 
 1. Insira o rótulo que deseja usar.
 
@@ -55,9 +55,9 @@ Sua linha de base foi criada. Uma tabela de todos os tópicos e suas informaçõ
 
 ### Utilização do recurso Procurar todos os tópicos
 
-O recurso Navegar por todos os tópicos permite exibir as informações do tópico, incluindo a versão e o rótulo, bem como especificar a versão usada. Você pode acessá-lo selecionando **Procurar todos os tópicos** ao criar ou editar sua linha de base.
+O recurso Navegar por todos os tópicos permite exibir as informações do tópico, incluindo a versão e o rótulo, bem como especificar a versão usada. Você pode acessá-lo selecionando **Procurar Todos os Tópicos** ao criar ou editar sua linha de base.
 
-![browse-all-topics.png](images/browse-all-topics.png)
+![procurar-todos-os-tópicos.png](images/browse-all-topics.png)
 
 ## Criando uma linha de base com base em data e hora
 
@@ -87,7 +87,7 @@ Você pode atribuir um novo rótulo em massa a todo o conteúdo do mapa.
 
 1. Selecione a linha de base à qual você deseja adicionar rótulos.
 
-1. Selecionar **Adicionar rótulos**.
+1. Selecione **Adicionar rótulos**.
 
    ![add-labels.png](images/add-labels.png)
 
@@ -115,11 +115,11 @@ O rótulo foi adicionado a todos os tópicos.
 
    ![baseline.png](images/baseline.png)
 
-1. Selecionar **Concluído**.
+1. Selecione **Concluído**.
 
-   ![done.png](images/done.png)
+   ![concluído.png](images/done.png)
 
-1. Selecionar **Gerar**.
+1. Selecione **Gerar**.
 
    ![generate.png](images/generate.png)
 
@@ -136,13 +136,13 @@ O rótulo foi adicionado a todos os tópicos.
 
 1. Na guia Linhas de Base, selecione a linha de base que deseja remover.
 
-1. Selecionar **Remover**.
+1. Selecione **Remover**.
 
    ![remove-baseline.png](images/remove-baseline.png)
 
    A caixa de diálogo Remover Linha de Base será exibida.
 
-1. Selecionar **Remover**.
+1. Selecione **Remover**.
 
 A linha de base é removida.
 
@@ -150,7 +150,7 @@ A linha de base é removida.
 
 1. Na guia Linhas de Base, selecione a linha de base que deseja duplicar.
 
-1. Selecionar **Duplicar**.
+1. Selecione **Duplicar**.
 
    ![duplicate.png](images/duplicate.png)
 
@@ -169,15 +169,15 @@ Você pode especificar diretamente a versão de um tópico usada em uma linha de
 
    ![edit-aem.png](images/edit-aem.png)
 
-1. Selecionar **Procurar todos os tópicos**.
+1. Selecione **Procurar Todos os Tópicos**.
 
-   ![browse-all-topics.png](images/browse-all-topics.png)
+   ![procurar-todos-os-tópicos.png](images/browse-all-topics.png)
 
    Uma tabela de tópicos e suas informações associadas é exibida.
 
 1. Para os tópicos que você deseja modificar, selecione a versão desejada na lista suspensa na coluna Versão.
 
-   ![version-dropdown.png](images/version-dropdown.png)
+   ![versão-dropdown.png](images/version-dropdown.png)
 
 1. Selecione **Salvar**.
 
@@ -202,6 +202,6 @@ Nesse caso, estamos criando uma predefinição de saída com base em uma linha d
 
    ![baseline.png](images/baseline.png)
 
-1. Selecionar **Concluído**.
+1. Selecione **Concluído**.
 
 Sua nova predefinição de saída foi criada e é exibida na página de predefinições de saída.

@@ -1,6 +1,6 @@
 ---
 title: Mapas e marcadores
-description: Criação e edição de mapas e marcadores em Guias AEM
+description: Criação e edição de mapas e bookmaps no AEM Guides
 exl-id: 9c717e4b-017b-4f2b-b93e-f2c0e7525c55
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # Mapas e Livros
 
-O Editor de mapa do Adobe Experience Manager Guides permite criar e editar arquivos de mapa. Com o Editor de mapas, você pode editar dois tipos de arquivos: mapa DITA e mapa. Para nossos propósitos, considere que esses conceitos são amplamente intercambiáveis.
+O Editor de mapas do Adobe Experience Manager Guides permite criar e editar arquivos de mapa. Com o Editor de mapas, você pode editar dois tipos de arquivos: mapa DITA e mapa. Para nossos propósitos, considere que esses conceitos são amplamente intercambiáveis.
 O Editor de Mapas vem em dois modos: o Editor de Mapas Básico e o Editor de Mapas Avançado.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342766?quality=12&learn=on)
@@ -26,30 +26,30 @@ Execute as seguintes etapas para criar um arquivo de mapa.
 
 1. Clique em [!UICONTROL **Criar > Mapa DITA**].
 
-1. Na página Blueprint, selecione o tipo de modelo de mapa que deseja usar e clique em [!UICONTROL **Próxima**].
+1. Na página Blueprint, selecione o tipo de modelo de mapa que deseja usar e clique em [!UICONTROL **Próximo**].
 
-1. Na página Propriedades, insira um **Título** e **Nome** para o mapa.
+1. Na página Propriedades, digite um **Título** e um **Nome** para o mapa.
 
 1. Clique em [!UICONTROL **Criar**].
 
 ## Abrir um mapa com o Editor de mapa avançado
 
-1. No **Interface do usuário do Assets**, selecione o mapa a ser editado.
+1. Na **interface do Assets**, selecione o mapa a ser editado.
 
 1. Clique em [!UICONTROL **Editar tópicos**].
 
-   ![Editar interface do usuário do tópico](images/lesson-14/edit-topics.png)
+   ![Editar Interface do Usuário do Tópico](images/lesson-14/edit-topics.png)
 
 Ou
 
 1. Passe o mouse sobre o ícone do mapa.
 
-1. Selecionar **Editar tópicos** do **Ação** menu.
+1. Selecione **Editar tópicos** no menu **Ação**.
 
 
 ## Adição de conteúdo a um mapa ou bookmap
 
-1. Navegue até a **Visualização do repositório**.
+1. Navegue até **Exibição do Repositório**.
 
 1. Arraste e solte o conteúdo da Exibição do repositório em locais válidos no mapa ou mapa.
 
@@ -57,21 +57,21 @@ Ou
 
 1. Clique em um local válido dentro do mapa ou mapa.
 
-1. Clique no link apropriado [!UICONTROL **Ícone da barra de ferramentas**] para adicionar capítulos, tópicos ou topicrefs.
+1. Clique no [!UICONTROL **Ícone da barra de ferramentas**] apropriado para adicionar capítulos, tópicos ou referências de tópicos.
 
-   ![Ícones da barra de ferramentas](images/lesson-14/toolbar-icons.png)
+   ![Ícones da Barra de Ferramentas](images/lesson-14/toolbar-icons.png)
 
-1. Escolha um ou mais ativos que deseja adicionar.
+1. Escolha um ou mais Assets que deseja adicionar.
 
 1. Clique em [!UICONTROL **Selecionar**].
 
 ### Promover ou rebaixar elementos em um mapa
 
-Uso **Setas da barra de ferramentas** para promover ou rebaixar capítulos e tópicos em um mapa ou mapa.
+Use as **Setas da Barra de Ferramentas** para promover ou rebaixar capítulos e referências de tópicos em um mapa ou mapa.
 
 1. Selecione um elemento no mapa.
 
-1. Clique em [!UICONTROL **Seta para a esquerda**] para promover uma referência de tópico a um capítulo, ou a [!UICONTROL **Seta para a direita**] para rebaixar um capítulo para um topicref.
+1. Clique na [!UICONTROL **Seta para a Esquerda**] para promover topicref a um capítulo ou na [!UICONTROL **Seta para a Direita**] para rebaixar um capítulo para topicref.
 
    ![Ícones de seta](images/lesson-14/toolbar-arrows.png)
 
@@ -83,11 +83,11 @@ Ou
 
 ## Adição de metadados a um mapa
 
-1. No **Barra de ferramentas do mapa**, insira um grupo de tópicos.
+1. Na **Barra de Ferramentas do Mapa**, insira um grupo de tópicos.
 
    ![Adicionar atributo](images/lesson-14/add-topicgroup.png)
 
-1. Clique em [!UICONTROL **Ícone de adição**] para inserir elementos.
+1. Clique no [!UICONTROL **ícone de adição**] para inserir elementos.
 
 1. Escolha os elementos a serem inseridos.
 
@@ -101,7 +101,7 @@ Um reltable pode ser adicionado depois que um mapa é estruturado.
 
 1. Clique no mapa onde deseja inserir o relacionável.
 
-1. Use o **Ícone da barra de ferramentas** para adicionar o relacionável ao mapa.
+1. Use o **Ícone da Barra de Ferramentas** para adicionar o relacionado ao mapa.
 
    ![Ícone Relacionável](images/lesson-14/reltable-icon.png)
 
@@ -109,7 +109,7 @@ Um reltable pode ser adicionado depois que um mapa é estruturado.
 
 1. Clique em [!UICONTROL **Inserir**].
 
-1. Arraste e solte os tópicos necessários da **Repositório** no reltable.
+1. Arraste e solte os tópicos necessários do **Repositório** no relacionável.
 
 1. Copie e cole os elementos necessários do mapa no relacionável usando atalhos de teclado padrão.
 
@@ -117,6 +117,6 @@ Um reltable pode ser adicionado depois que um mapa é estruturado.
 
 1. Realce um topicref ou uma coleção aninhada de topicref no mapa.
 
-1. Em Outros atributos, no painel Propriedades do conteúdo, escolha uma **Atributo** e seus **Valor.**
+1. Em Outros Atributos, no painel Propriedades do Conteúdo, escolha um **Atributo** e seu **Valor.**
 
    ![Adicionar atributos](images/lesson-14/add-attribute.png)

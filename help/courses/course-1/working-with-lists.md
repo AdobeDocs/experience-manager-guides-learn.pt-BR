@@ -1,6 +1,6 @@
 ---
-title: Trabalhar com listas em [!DNL AEM Guides]
-description: Trabalhar com listas em [!DNL Adobe Experience Manager Guides]
+title: Trabalhando com listas em  [!DNL AEM Guides]
+description: Trabalhando com listas em  [!DNL Adobe Experience Manager Guides]
 exl-id: 2fde90f1-cb78-4953-ae2e-1fdc3c7798a7
 source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
 workflow-type: tm+mt
@@ -21,7 +21,7 @@ Uma lista com marcadores ou não ordenada deve ser usada quando os componentes d
 
 ### Inserção de uma lista com marcadores
 
-1. Selecione o **Inserir lista com marcadores** ícone na barra de ferramentas.
+1. Selecione o ícone **Inserir Lista com Marcadores** na barra de ferramentas.
 
    ![Ícone Inserir Lista com Marcadores](images/lesson-6/insert-bulleted-list.png)
 
@@ -37,7 +37,7 @@ Uma lista numerada deve ser usada quando os componentes da lista precisam ser or
 
 ### Inserção de uma lista ordenada
 
-1. Selecione o **Inserir Lista Numerada** ícone na barra de ferramentas.
+1. Selecione o ícone **Inserir Lista Numerada** na barra de ferramentas.
 
    ![Ícone Inserir Lista Numerada](images/lesson-6/insert-numbered-list.png)
 
@@ -51,7 +51,7 @@ Uma lista numerada deve ser usada quando os componentes da lista precisam ser or
 
 Agora que adicionou mais conteúdo ao conceito, você pode salvar seu trabalho como uma nova versão e registrar as alterações.
 
-1. Selecione o **Salvar como nova versão** ícone.
+1. Selecione o ícone **Salvar como nova versão**.
 
    ![Ícone Salvar como nova versão](images/common/save-as-new-version.png)
 

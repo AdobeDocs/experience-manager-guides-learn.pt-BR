@@ -1,21 +1,21 @@
 ---
 title: Conclusão da série de treinamento
-description: Visão geral e recapitulação do treinamento dos guias do AEM
+description: Visão geral e recapitulação do treinamento AEM Guides
 exl-id: 29fe5e78-8787-4f09-a969-60f68e376976
 source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 6%
+ht-degree: 2%
 
 ---
 
-# Análise
+# Revisar
 
 >[!VIDEO](https://video.tv.adobe.com/v/342771?quality=12&learn=on)
 
 Neste curso, você aprendeu sobre:
 
-- [Preferências e configurações do usuário](./user-settings-preferences-toolbars.md)
+- [Preferências e Configurações do Usuário](./user-settings-preferences-toolbars.md)
 
 - [Perfis de pasta](folder-profiles.md)
 
@@ -23,9 +23,9 @@ Neste curso, você aprendeu sobre:
 
 - [Painéis](panels.md)
 
-- [Modo de Estrutura de Tópicos](outline-view.md)
+- [Modo de Exibição de Estrutura de Tópicos](outline-view.md)
 
-- [Referências cruzadas e links](cross-references-and-links.md)
+- [Referências Cruzadas e Links](cross-references-and-links.md)
 
 - [Reutilização de conteúdo](content-reuse.md)
 
@@ -33,12 +33,12 @@ Neste curso, você aprendeu sobre:
 
 - [Glossário](glossary.md)
 
-- [Verificação ortográfica e Localizar e substituir](spell-check.md)
+- [Verificação ortográfica e Localizar e Substituir](spell-check.md)
 
-- [Controlar alterações](track-changes.md)
+- [Controlar Alterações](track-changes.md)
 
 - [Condições](conditions.md)
 
-- [Mapas e marcadores](maps-and-bookmaps.md)
+- [Mapas e Marcadores](maps-and-bookmaps.md)
 
-- [Fluxos de trabalho de criação de conteúdo simples](simple-content-creation-workflows.md)
+- [Fluxos de Trabalho de Criação de Conteúdo Simples](simple-content-creation-workflows.md)

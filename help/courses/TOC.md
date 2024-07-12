@@ -12,7 +12,7 @@ ht-degree: 16%
 
 # Tutorials para [!DNL Adobe Experience Manager Guides] {#videos}
 
-+ [[!DNL AEM Guides] Vídeos](overview.md)
++ [Vídeos do [!DNL AEM Guides]](overview.md)
 + Introdução ao [!DNL AEM Guides] {#getting-started}
    + [Visão geral da introdução](./course-1/overview.md)
    + [Compreender a interface do AEM](./course-1/understanding-the-aem-user-interface.md)
@@ -22,7 +22,7 @@ ht-degree: 16%
    + [Trabalhar com listas](./course-1/working-with-lists.md)
    + [Conteúdo da versão](./course-1/versioning-content.md)
    + [Criar um mapa](./course-1/creating-a-map.md)
-   + [Publicar saída padrão](./course-1/publishing-default-output.md)
+   + [Saída padrão do Publish](./course-1/publishing-default-output.md)
    + [Recapitulação](./course-1/recap.md)
 + Geração de saída com [!DNL AEM Guides] {#output-generation}
    + [Visão geral da geração de saída](./course-2/overview.md)

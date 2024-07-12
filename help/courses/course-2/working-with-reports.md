@@ -1,10 +1,10 @@
 ---
 title: Trabalho com relatórios
-description: Trabalho com relatórios no [!DNL Adobe Experience Manager Guides]
+description: Trabalhando com Relatórios em [!DNL Adobe Experience Manager Guides]
 exl-id: 755506a6-c416-4a8c-8359-8db7e63a90a4
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,17 @@ Você pode baixar arquivos de amostra para o exercício aqui.
 
 [Download de exercício](assets/exercises/working-with-reports.zip)
 
-## Fazendo upload de ativos
+## Upload do Assets
 
 1. Na Exibição de repositório, selecione o ícone de Reticências na pasta principal para abrir o menu Opções.
 
    ![reticências-9.png](images/ellipses-9.png)
 
-1. Selecionar **[!UICONTROL Fazer upload de ativos]**.
+1. Selecione **[!UICONTROL Carregar Assets]**.
 
    ![upload-assets.png](images/upload-assets.png)
 
-1. Selecione os arquivos que deseja carregar na pasta e selecione **Carregar**.
+1. Selecione os arquivos que você deseja carregar na pasta e selecione **Carregar**.
 
 Os arquivos DITA são abertos e você deve analisá-los quanto a problemas com conteúdo ausente, conrefs ou referências cruzadas.
 
@@ -41,13 +41,13 @@ Os arquivos DITA são abertos e você deve analisá-los quanto a problemas com c
 
    ![reticências-9.png](images/ellipses-9.png)
 
-1. Selecionar **Criar > Mapear**.
+1. Selecione **Criar > Mapear**.
 
    ![create-map.png](images/create-map.png)
 
    A caixa de diálogo Criar novo mapa é exibida.
 
-1. No campo Modelo, selecione **Bookmap** (ou **Mapa** com base no tipo de conteúdo que você está criando) no menu suspenso e dê um título ao mapa.
+1. No campo Modelo, selecione **Bookmap** (ou **Mapa** com base no tipo de conteúdo que você está criando) no menu suspenso e atribua um título ao seu mapa.
 
 1. Selecione **Criar**.
 
@@ -73,13 +73,13 @@ O indicador de linha mostrará onde o tópico será colocado.
 
    ![salvar como nova versão.png](images/save-as-new-version.png)
 
-1. No *Comentários da nova versão* insira um comentário descritivo.
+1. No campo *Comentários da nova Versão*, insira um comentário descritivo.
 
 1. Selecione **Salvar**.
 
 ## Gerar uma saída do site AEM
 
-1. No Repositório, selecione o ícone de Reticências no mapa para abrir o menu Opções e, em seguida, **Abra o Painel do Mapa.**
+1. No Repositório, selecione o ícone de Reticências no mapa para abrir o menu Opções e **Abrir Painel de Mapa.**
 
    ![open-map-dashboard.png](images/open-map-dashboard.png)
 
@@ -88,7 +88,7 @@ O indicador de linha mostrará onde o tópico será colocado.
 
    ![aem-site-checkbox](images/aem-site-checkbox.png)
 
-1. Selecionar **Gerar**.
+1. Selecione **Gerar**.
 
 1. Navegue até a página Saídas para visualizar o status das saídas geradas.
 Se houver erros, a guia Saídas pode exibir um círculo laranja na coluna Configuração de geração, em vez de verde, indicando que a geração foi concluída.
@@ -104,19 +104,19 @@ Idealmente, você sempre deve verificar os Relatórios em busca de um mapa após
 
 ![reports.png](images/reports.png)
 
-A coluna Missing Elements indica o número de imagens ausentes e conrefs quebrados. É possível selecionar a variável **Lápis** ícone para abrir o tópico no editor.
+A coluna Missing Elements indica o número de imagens ausentes e conrefs quebrados. Você pode selecionar o ícone **Lápis** para abrir o tópico no editor.
 
 ## Resolução de imagens ausentes
 
 Se as imagens estiverem ausentes em seus arquivos, uma causa comum pode ser o conteúdo ter sido carregado, mas as imagens não. Em caso afirmativo, resolva os problemas de imagem ausente fazendo upload de imagens em uma pasta específica que corresponda ao caminho e aos nomes de arquivo esperados pelos arquivos.
 
-1. Entrada *Visualização do repositório*, selecione o ícone de Reticências na pasta de imagens para abrir o menu Opções.
+1. Em *Exibição do Repositório*, selecione o ícone de Reticências na pasta de imagens para abrir o menu Opções.
 
-   ![image-ellipsis.png](images/image-ellipsis.png)
+   ![reticências-imagem.png](images/image-ellipsis.png)
 
-1. Selecionar **[!UICONTROL Fazer upload de ativos]** e selecione as imagens ausentes.
+1. Selecione **[!UICONTROL Carregar Assets]** e selecione as imagens ausentes.
 
-1. Selecionar **Carregar**.
+1. Selecione **Carregar**.
 
 As imagens ausentes foram carregadas. Agora, uma saída de site AEM recém-gerada exibirá essas imagens, e a guia Relatórios não exibirá mais erros de imagem ausentes.
 
@@ -124,15 +124,15 @@ As imagens ausentes foram carregadas. Agora, uma saída de site AEM recém-gerad
 
 Se o conteúdo referenciado em outro lugar (um conref) for vinculado a para um arquivo em outra pasta (por exemplo, um chamado &quot;reutilizar&quot;). e o conteúdo não for carregado, um erro deverá ser resolvido. Por exemplo, você deve criar uma subpasta chamada &quot;reutilizar&quot; e fazer upload do arquivo ausente para &quot;reutilizar&quot;.
 
-### Fazer upload de um ativo com o [!UICONTROL Assets] IU
+### Carregando um ativo com a interface de usuário do [!UICONTROL Assets]
 
-Além do [!UICONTROL Fazer upload de ativos] você pode fazer upload de ativos arrastando e soltando na interface do usuário de Ativos.
+Além da opção [!UICONTROL Carregar Assets], você pode carregar ativos arrastando e soltando na interface do usuário do Assets.
 
 1. Na Exibição de repositório, selecione o ícone de Reticências na pasta reutilizar para abrir o menu Opções.
 
    ![reuse-ellipsis.png](images/reuse-ellipsis.png)
 
-1. Selecionar **Exibir na interface do usuário do Assets**.
+1. Selecione **Exibir na Interface do Usuário do Assets**.
 
    ![assets_ui.png](images/assets_ui.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Vinculação a sites no [!DNL AEM Guides]
-description: Vinculação a sites no [!DNL Adobe Experience Manager Guides]
+title: Vinculando a sites em [!DNL AEM Guides]
+description: Vinculando a sites em [!DNL Adobe Experience Manager Guides]
 exl-id: 6b89f52e-ac15-4604-8bac-ab0bb5b5a978
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -21,15 +21,15 @@ Os links da Web direcionam os leitores para sites para obter mais informações,
 1. Adicione uma sequência de texto ao conceito e destaque-a, ou destaque o texto existente preferido.
 
    O texto destacado é onde o link será inserido.
-1. Selecione o **Inserir Referência Cruzada** na barra de ferramentas.
+1. Selecione o botão **Inserir Referência Cruzada** na barra de ferramentas.
 
    ![Ícone Inserir Referência Cruzada](images/lesson-5/insert-crossref-icon.png)
 
    A caixa de diálogo Referência é exibida.
 
 
-1. Selecionar **Link da Web** no menu esquerdo.
-1. Cole o URL desejado e clique em **Selecionar**.
+1. Selecione **Link da Web** no menu esquerdo.
+1. Cole a URL desejada e clique em **Selecionar**.
 
    O link está funcional e abrirá uma página da Web em uma nova guia do navegador quando clicado.
 
@@ -37,7 +37,7 @@ Os links da Web direcionam os leitores para sites para obter mais informações,
 
 O botão Visualizar permite visualizar um tópico. Aqui, você pode testar seus links e visualizá-los como seu público-alvo faria.
 
-1. Selecionar **Visualizar** na barra de menu preta superior.
+1. Selecione **Visualizar** na barra de menu preta superior.
 
    ![Botão Visualizar](images/common/select-preview.png)
 
@@ -45,7 +45,7 @@ O botão Visualizar permite visualizar um tópico. Aqui, você pode testar seus 
 
 1. Selecione seu link.
 O destino do link é aberto em outra guia.
-1. Retornar à visualização de Autor selecionando **Autor** na barra de menu preta superior.
+1. Retorne ao modo de exibição Autor, selecionando **Autor** na barra de menus preta superior.
 
    ![Botão Autor](images/lesson-5/author-map.png)
 
@@ -54,7 +54,7 @@ O destino do link é aberto em outra guia.
 
 Agora que adicionou mais conteúdo ao conceito, você pode salvar seu trabalho como uma nova versão e registrar as alterações.
 
-1. Selecione o **Salvar como nova versão** ícone.
+1. Selecione o ícone **Salvar como nova versão**.
 
    ![Ícone Salvar como nova versão](images/common/save-as-new-version.png)
 

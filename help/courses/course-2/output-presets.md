@@ -5,7 +5,7 @@ exl-id: b0c64737-48a0-4337-8a7f-35d1deb03366
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ Uma Predefinição de saída é uma coleção de propriedades de publicação qu
 
 Uma predefinição de saída é mostrada quando um mapa no Editor XML é aberto no painel de mapa. As predefinições podem incluir informações sobre um tipo de saída específico, o caminho de destino, instruções sobre como gerenciar páginas de saída existentes e outras configurações que podem ser aplicadas a um mapa para gerar saída.
 
-![Access-Output-Presets](images/access-output-presets.png)
+![Predefinições-Acesso-Saída](images/access-output-presets.png)
 
 ## Criação de uma predefinição de saída
 
@@ -43,7 +43,7 @@ As predefinições de saída são predefinidas, mas podem ser personalizadas con
 
 1. Abra o Painel do Mapa.
 
-1. Selecione o **Predefinições de saída** guia.
+1. Selecione a guia **Predefinições de saída**.
 
 1. Selecione uma predefinição de saída.
 
@@ -51,6 +51,6 @@ As predefinições de saída são predefinidas, mas podem ser personalizadas con
 
 1. Modifique as configurações conforme necessário.
 
-   ![Edit-Output-Preset](images/edit-output-preset.png)
+   ![Editar-Predefinição-De-Saída](images/edit-output-preset.png)
 
 1. Clique em **Concluído**.
