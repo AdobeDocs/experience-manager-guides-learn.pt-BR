@@ -2,9 +2,9 @@
 title: Configuração do editor AEM Guides
 description: Configuração do editor para o AEM Guides
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 988c288fc03e509a3a55e87b1e1ecd8fd07d1c92
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,13 @@ Você sempre pode baixar a configuração padrão da interface do usuário no si
 
 Agora você pode abrir e modificar o conteúdo em um editor de texto. O Guia de Instalação e Configuração do _AEM Guides_ contém exemplos de como remover, personalizar ou adicionar funções à configuração da interface do usuário.
 
-## Fazer upload da configuração da interface do editor XML modificada
+## Fazer upload da configuração do editor XML modificada
 
 Depois de personalizar a configuração da interface, você pode carregá-la. Observe que um arquivo de configuração de exemplo _ui-config-restrict-editor.json_ é fornecido com o conjunto de tópicos de suporte para esta lição.
 
 1. No Perfil de Pasta, clique na guia [!UICONTROL **Configuração do Editor XML**].
 
-1. Na configuração da interface do Editor de XML, clique em [!UICONTROL **Carregar**].
+1. Na configuração do Editor XML, clique em [!UICONTROL **Carregar**].
 
    ![Upload](images/lesson-4/upload.png)
 
