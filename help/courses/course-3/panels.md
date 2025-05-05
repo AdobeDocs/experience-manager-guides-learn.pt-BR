@@ -222,7 +222,7 @@ Propriedades do arquivo mostra informações adicionais sobre todo o tópico abe
 
 1. Abra um tópico no Editor.
 
-1. Clique no ícone [!UICONTROL  **Propriedades do arquivo**] no painel direito.
+1. Clique no ícone [!UICONTROL &#x200B; **Propriedades do arquivo**] no painel direito.
 
    ![Ícone de Propriedades do Arquivo](images/lesson-5/file-properties-icon.png)
 

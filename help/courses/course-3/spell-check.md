@@ -67,7 +67,7 @@ O administrador pode alterar as configurações para que o dicionário AEM recon
 
    ![Criação do novo arquivo de dicionário](images/lesson-11/new-dictionary-file.png)
 
-   c. Nomeie o arquivo _**user_dictionary.txt**_.
+   c. Nomeie o arquivo _&#x200B;**user_dictionary.txt**&#x200B;_.
 
    ![Texto do dicionário do usuário](images/lesson-11/user-dictionary.png)
 
