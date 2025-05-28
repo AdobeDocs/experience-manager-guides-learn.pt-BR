@@ -1,9 +1,10 @@
 ---
 title: Configuração do editor AEM Guides
 description: Personalização de configurações JSON e conversão de configurações da interface do usuário para o novo Editor do AEM Guides.
-source-git-commit: ec6f5685d690e53e5c6eb29d6b61436833f62c68
+exl-id: bb047962-0e2e-4b3a-90c1-052a2a449628
+source-git-commit: efdb02d955e223783fc1904eda8d41942c1c9ccf
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,9 @@ ht-degree: 0%
 
 Ao migrar da interface antiga para a nova interface do AEM Guides, as atualizações do **ui_config** devem ser convertidas em configurações de interface mais flexíveis e modulares. Esta estrutura ajuda a adotar as alterações facilmente na **barra_de_ferramentas_do_editor** e em [outras barras de ferramentas](/help/courses/course-3/conver-ui-config.md#editing-json-for-different-screens). O processo também suporta a modificação de outras visualizações e widgets no aplicativo.
 
+>[!NOTE]
+>
+>As personalizações aplicadas a botões específicos podem enfrentar problemas durante a transição para a estrutura de extensão. Se isso ocorrer, você poderá levantar um tíquete de suporte em relação a esta página para obter suporte imediato e resolução.
 
 ## Edição de JSON para telas diferentes
 
@@ -38,24 +42,34 @@ Arquivos JSON podem ser adicionados à seção Configuração da interface do ed
 
 Cada JSON segue uma estrutura consistente:
 
-1. **id**: especifica o widget em que o componente está sendo personalizado.
-1. **targetEditor**: define quando exibir ou ocultar um botão usando as propriedades de editor e de modo:
+1. `id`: Especifica o widget em que o componente está sendo personalizado.
+1. `targetEditor`: define quando exibir ou ocultar um botão usando as propriedades de modo e editor:
 
-   Atualmente temos estes **editores** e **modos** em nosso sistema.
+   As seguintes opções são suportadas em `targetEditor`:
 
-   **editor**: ditamap, bookmap, subjectScheme, xml, css, translation, preset, pdf_preset
+   - `mode`
+   - `displayMode`
+   - `editor`
+   - `documentType`
+   - `documentSubType`
+   - `flag`
 
-   **modo**: autor, origem, visualização, sumário, divisão
+   Para obter detalhes, consulte [Noções básicas sobre as propriedades do targetEditor](#understanding-targeteditor-properties)
 
-   (Observação: o modo de sumário se aplica à exibição de layout.)
+   >[!NOTE]
+   >
+   > A versão 2506 do Experience Manager Guides apresenta novas propriedades: `displayMode`, `documentType`, `documentSubType` e `flag`. Essas propriedades são compatíveis somente a partir da versão 2506. Da mesma forma, a alteração de `toc` para `layout` na propriedade mode também se aplica a partir desta versão.
+   >
+   > Um novo campo, `documentType`, agora está disponível junto com o campo `editor` existente.  Ambos os campos são compatíveis e podem ser usados conforme necessário. No entanto, é recomendado usar `documentType` para garantir a consistência entre implementações, especialmente ao trabalhar com a propriedade `documentSubType`. O campo `editor` permanece válido para oferecer suporte à compatibilidade com versões anteriores e integrações existentes.
 
-1. **target**: especifica onde o novo componente será adicionado. Isso usa pares de valores chave ou índices para identificação exclusiva. Os estados de exibição incluem:
 
-   * **anexar**: adicionar no final.
+1. `target`: especifica onde o novo componente será adicionado. Isso usa pares de valores chave ou índices para identificação exclusiva. Os estados de exibição incluem:
 
-   * **anexar**: adicionar no início.
+   - **anexar**: adicionar no final.
 
-   * **substituir**: substitui um componente existente.
+   - **anexar**: adicionar no início.
+
+   - **substituir**: substitui um componente existente.
 
 Exemplo de estrutura JSON:
 
@@ -87,6 +101,140 @@ Exemplo de estrutura JSON:
 ```
 
 <br>
+
+## Compreendendo as propriedades de `targetEditor`
+
+Abaixo está um detalhamento de cada propriedade, sua finalidade e valores compatíveis.
+
+### `mode`
+
+Define o modo operacional do editor.
+
+**Valores com suporte**: `author`, `source`, `preview`, `layout` (anteriormente `toc`), `split`
+
+### `displayMode` *(opcional)*
+
+Controla a visibilidade ou a interatividade dos componentes da interface do usuário. O valor padrão é definido como `show`, se não for especificado.
+
+**Valores com suporte**: `show`, `hide`, `enabled`, `disabled`
+
+Exemplo:
+
+```
+ {
+        "icon": "textBulleted",
+        "title": "Custom Insert Bulleted",
+        "on-click": "$$AUTHOR_INSERT_REMOVE_BULLETED_LIST",
+        "key": "$$AUTHOR_INSERT_REMOVE_BULLETED_LIST",
+        "targetEditor": {
+          "documentType": [
+            "ditamap"
+          ],
+          "mode": [
+            "author"
+          ],
+          "displayMode": "hide"
+        }
+      },
+```
+
+### `editor`
+
+Especifica o tipo de documento primário no editor.
+
+**Valores com suporte**: `ditamap`, `bookmap`, `subjectScheme`, `xml`, `css`, `translation`, `preset`, `pdf_preset`
+
+### `documentType`
+
+Indica o tipo de documento principal.
+
+**Valores com suporte**: `dita`, `ditamap`, `bookmap`, `subjectScheme`, `css`, `preset`, `ditaval`, `reports`, `baseline`, `translation`, `html`, `markdown`, `conditionPresets`
+
+> Valores adicionais podem ser suportados para casos de uso específicos.
+
+Exemplo:
+
+```
+ {
+        "icon": "textNumbered",
+        "title": "Custom Numbered List",
+        "on-click": "$$AUTHOR_INSERT_REMOVE_NUMBERED_LIST",
+        "key": "$$AUTHOR_INSERT_REMOVE_NUMBERED_LIST",
+        "targetEditor": {
+          "documentType": [
+            "dita",
+            "ditamap"
+          ],
+          "mode": [
+            "author",
+            "source"
+          ]
+
+        }
+      },
+```
+
+### `documentSubType`
+
+Classifica ainda mais o documento com base em `documentType`.
+
+- **Para`preset`**: `pdf`, `html5`, `aemsite`, `nativePDF`, `json`, `custom`, `kb`
+- **Para`dita`**: `topic`, `reference`, `concept`, `glossary`, `task`, `troubleshooting`
+
+> Valores adicionais podem ser suportados para casos de uso específicos.
+
+Exemplo:
+
+```
+ {
+        "icon": "rename",
+        "title": "Custom Rename",
+        "on-click": "$$PUBLISH_PRESETS_RENAME",
+        "label": "Custom Rename",
+        "key": "$$PUBLISH_PRESETS_RENAME",
+        "targetEditor": {
+          "documentType": [
+            "preset"
+          ],
+          "documentSubType": [
+            "nativePDF",
+            "aemsite",
+            "json"
+          ]
+
+        }
+      },
+```
+
+### `flag`
+
+Indicadores booleanos para o estado ou os recursos do documento.
+
+**Valores com suporte**: `isOutputGenerated`, `isTemporaryFileDownloadable`, `isPDFDownloadable`, `isLocked`, `isUnlocked`, `isDocumentOpen`
+
+Além disso, você também pode criar um sinalizador personalizado dentro de `extensionMap` que é usado como um sinalizador em `targetEditor`. Aqui, `extensionMap` é uma variável global usada para adicionar chaves personalizadas ou valores observáveis.
+
+Exemplo:
+
+```
+ {
+        "icon": "filePDF",
+        "title": "Custom Export pdf",
+        "on-click": "$$DOWNLOAD_TOPIC_PDF",
+        "key": "$$DOWNLOAD_TOPIC_PDF",
+        "targetEditor": {
+          "documentType": [
+            "markdown"
+          ],
+          "mode": [
+            "preview"
+          ],
+          "flag": ["isPDFDownloadable"]
+
+        }
+      },
+```
+
 
 ## Exemplos
 
@@ -188,6 +336,75 @@ Substituindo o botão **Multimídia** da barra de ferramentas pelo botão de ins
 ![Botão do Youtube](images/reuse/youtube-button.png)
 
 <br>
+
+### Adição de um botão no modo de visualização
+
+De acordo com o design, a visibilidade do botão é gerenciada separadamente para modos bloqueados e desbloqueados (somente leitura) para manter uma experiência do usuário clara e controlada. Por padrão, qualquer botão recém-adicionado fica oculto quando a interface está no modo somente leitura.
+Para tornar um botão visível no modo **somente leitura**, você deve especificar um destino que o coloque dentro de uma subseção da barra de ferramentas que permaneça acessível mesmo quando a interface estiver bloqueada.
+Por exemplo, ao especificar o destino como **Baixar como PDF**, você pode garantir que o botão apareça na mesma seção que um botão visível existente, tornando-o acessível no modo desbloqueado.
+
+```json
+"target": {
+  "key": "label",
+  "value": "Download as PDF",
+  "viewState": "prepend"
+}
+```
+
+Adicionando um botão **Exportar como PDF** no modo **Visualização**, que estará visível no modo de bloqueio e desbloqueio.
+
+```json
+{
+  "id": "editor_toolbar",
+  "view": {
+    "items": [
+      {
+        "icon": "filePDF",
+        "title": "Export as PDF",
+        "on-click": "$$DOWNLOAD_TOPIC_PDF",
+        "key": "$$DOWNLOAD_TOPIC_PDF",
+        "targetEditor": {
+          "editor": [
+            "ditamap",
+            "xml"
+          ],
+          "mode": [
+            "preview"
+          ]
+        },
+        "target": {
+          "key": "label",
+          "value": "Download as PDF",
+          "viewState": "prepend"
+        }
+      },
+      {
+        "icon": "filePDF",
+        "title": "Export as PDF",
+        "on-click": "$$DOWNLOAD_TOPIC_PDF",
+        "key": "$$DOWNLOAD_TOPIC_PDF",
+        "targetEditor": {
+          "editor": [
+            "ditamap",
+            "xml"
+          ],
+          "mode": [
+            "preview"
+          ]
+        }
+      }
+    ]
+  }
+}
+```
+
+O trecho a seguir mostra o botão **Exportar como PDF** com o cenário de bloqueio.
+
+![Exportar como PDF](images/reuse/lock.png)
+
+Além disso, o botão **Exportar como PDF** com o cenário de desbloqueio pode ser visto no trecho abaixo.
+
+![Exportar como PDF](images/reuse/unlock.png)
 
 ## Como fazer upload de JSONs personalizados
 
