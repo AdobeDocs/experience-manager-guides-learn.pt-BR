@@ -2,9 +2,9 @@
 title: Configuração do editor AEM Guides
 description: Personalização de configurações JSON e conversão de configurações da interface do usuário para o novo Editor do AEM Guides.
 exl-id: bb047962-0e2e-4b3a-90c1-052a2a449628
-source-git-commit: efdb02d955e223783fc1904eda8d41942c1c9ccf
+source-git-commit: 1ed48d543161be88becad9c0cd58014323aeda47
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -405,6 +405,94 @@ O trecho a seguir mostra o botão **Exportar como PDF** com o cenário de bloque
 Além disso, o botão **Exportar como PDF** com o cenário de desbloqueio pode ser visto no trecho abaixo.
 
 ![Exportar como PDF](images/reuse/unlock.png)
+
+### Personalizar as opções que aparecem na lista suspensa Menu da barra de ferramentas do Editor
+
+Você pode anexar, ocultar, substituir e adicionar opções personalizadas na lista suspensa Menu usando os exemplos a seguir.
+
+#### Anexando
+
+Anexar uma opção ao menu suspenso Aqui nós acrescentamos o **botão de menu personalizado** nas opções de Menu
+
+```json
+{
+        "icon": "specialCharacter",
+        "title": "Custom menu button",
+        "on-click": "$$AUTHOR_INSERT_SYMBOL",
+        "targetEditor": {
+          "editor": [
+            "ditamap"
+          ],
+          "mode": [
+            "author"
+          ]
+        },
+        "target": {
+          "key": "label",
+          "value": "Version label",
+          "viewState": "append"
+        }
+      }
+```
+
+#### Substituindo
+
+Substituição de uma opção exibida na lista suspensa Menu. Aqui estamos substituindo **Criar tarefa de revisão** por **Botão de menu personalizado 3**.
+
+```json
+{
+        "icon": "specialCharacter",
+        "title": "Custom menu button 3",
+        "on-click": "$$AUTHOR_INSERT_SYMBOL",
+        "target": {
+          "key": "label",
+          "value": "Create review task",
+          "viewState": "replace"
+        }
+
+      }
+```
+
+#### Ocultar
+
+Ocultar uma opção que aparece na lista suspensa Menu. Aqui estamos ocultando a opção **Localizar e substituir** do Menu.
+
+```json
+{
+        "hide": true,
+        "target": {
+          "key": "label",
+          "value": "Find and replace",
+          "viewState": "replace"
+        }
+      }
+```
+
+#### Adição de opção personalizada no submenu
+
+Adicionar uma opção no submenu dentro da lista suspensa Menu.
+
+```json
+{
+        "icon": "viewAllTags",
+        "title": "Toggle Tags View Goziamasu",
+        "key": "AUTHOR_TOGGLE_TAG_VIEW",
+        "target": {
+          "key": "label",
+          "value": "Track changes",
+          "viewState": "replace"
+        },
+        "targetEditor": {
+          "documentType": [
+            "dita"
+          ],
+          "mode": [
+            "author"
+          ]
+        }
+
+      }
+```
 
 ## Como fazer upload de JSONs personalizados
 
