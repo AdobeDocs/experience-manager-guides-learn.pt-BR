@@ -1,5 +1,5 @@
 ---
-title: Visão geral da introdução ao curso  [!DNL AEM Guides]
+title: 'Visão geral da introdução ao curso  [!DNL AEM Guides] '
 description: Introdução ao  [!DNL Adobe Experience Manager Guides]
 exl-id: 6c53602f-4971-407e-9fd0-23c3a77e0118
 source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
@@ -20,4 +20,4 @@ Neste conjunto de tutoriais, você aprenderá a fazer o seguinte:
 - [Trabalhar com listas com marcadores e numeradas](working-with-lists.md)
 - [Versão do seu conteúdo](versioning-content.md)
 - [Criar e organizar um mapa](creating-a-map.md)
-- [Publish um mapa como um site AEM e PDF](publishing-default-output.md)
+- [Publicar um mapa como um site do AEM e do PDF](publishing-default-output.md)

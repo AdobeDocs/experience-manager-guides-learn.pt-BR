@@ -5,7 +5,7 @@ breadcrumb-title: Tutorials do AEM Guides
 source-git-commit: 2f11a068afaa2941e437ee8b0a735a8c7e69784c
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 16%
+ht-degree: 22%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 16%
    + [Criar um mapa](./course-1/creating-a-map.md)
    + [Publicar saída padrão](./course-1/publishing-default-output.md)
    + [Recapitulação](./course-1/recap.md)
-+ Geração de saída com [!DNL AEM Guides] {#output-generation}
++ Geração de saída com o [!DNL AEM Guides] {#output-generation}
    + [Visão geral da geração de saída](./course-2/overview.md)
    + [Noções básicas sobre o painel de mapa](./course-2/introduction-to-the-map-dashboard.md)
    + [Trabalho com relatórios](./course-2/working-with-reports.md)
@@ -34,8 +34,8 @@ ht-degree: 16%
    + [Solução de problemas de erros de publicação](./course-2/troubleshooting-publishing-errors.md)
    + [Publicação em massa](./course-2/bulk-publishing.md)
    + [Recapitulação](./course-2/recap.md)
-+ Criação usando o [!DNL AEM Guides] Editor {#advanced-user-guide}
-   + [Visão geral de criação](./course-3/overview.md)
++ Criação usando o Editor [!DNL AEM Guides] {#advanced-user-guide}
+   + [Visão geral da criação](./course-3/overview.md)
    + [Preferências do usuário, configurações do editor e barras de ferramentas do editor](./course-3/user-settings-preferences-toolbars.md)
    + [Perfis de pasta](./course-3/folder-profiles.md)
    + [Converter configuração da interface do usuário](./course-3/conver-ui-config.md)
