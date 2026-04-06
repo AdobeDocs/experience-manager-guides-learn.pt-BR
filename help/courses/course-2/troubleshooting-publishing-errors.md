@@ -2,9 +2,9 @@
 title: Solução de problemas de erros de publicação
 description: Solucionando Erros de Publicação em  [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 4e0a32263d6363e367685213fe3e524cd0f6965e
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -71,36 +71,28 @@ Dependendo do tipo de erro, a resolução pode ser simples ou complexa. Ela pode
 
 * Referência de caminho de arquivo com nome incorreto
 
-      Os autores podem atualizar a referência de caminho no documento de origem.
-     
-  
+  Os autores podem atualizar a referência do caminho no documento de origem.
+
 * Pasta nomeada incorretamente
 
-      Os autores podem atualizar o nome da pasta ou mover arquivos conforme necessário.
-     
-  
+  Os autores podem atualizar o nome da pasta ou mover arquivos conforme necessário.
+
 * Gráfico ou arquivo ausente
 
-      Os autores podem carregar um gráfico/arquivo ausente, renomear um gráfico/arquivo ou mover um gráfico/arquivo
-     
-  
+  Os autores podem fazer upload de um gráfico/arquivo ausente, renomear um gráfico/arquivo ou mover um gráfico/arquivo
+
 * Referência de conteúdo configurada incorretamente
 
-      Os autores podem corrigir o local do conteúdo referenciado ou alterar o caminho para a referência de conteúdo.
-     
-  
+  Os autores podem corrigir o local do conteúdo referenciado ou alterar o caminho para a referência de conteúdo.
+
 * Referência cruzada corrompida
 
-      Os autores podem corrigir o local para o qual a referência cruzada aponta ou alterar o nome ou as propriedades do arquivo de destino
-     
-  
+  Os autores podem corrigir o local para o qual a referência cruzada aponta ou alterar o nome ou as propriedades do arquivo de destino
+
 * Erros nos valores de um atributo (por exemplo, uma string em vez de um número)
 
-      Os autores podem atualizar o atributo para um valor correto ou os administradores podem atualizar o sistema para dar suporte a novos valores.
-     
-  
+  Os autores podem atualizar o atributo para um valor correto ou os administradores podem atualizar o sistema para suportar novos valores.
+
 * Configuração incorreta de componentes usados por [!DNL AEM Guides]
 
-      Os administradores podem atualizar a instalação do sistema, seus componentes ou permissões.
-     
-  
+  Os administradores podem atualizar a instalação do sistema, seus componentes ou permissões.
