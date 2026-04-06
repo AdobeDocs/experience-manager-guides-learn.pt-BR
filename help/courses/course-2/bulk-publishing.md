@@ -2,16 +2,16 @@
 title: Publicação em massa
 description: Publicação em Massa em  [!DNL Adobe Experience Manager Guides]
 exl-id: b277e846-ef71-47ec-a66c-ac9d392d53e0
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 4e0a32263d6363e367685213fe3e524cd0f6965e
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 3%
+source-wordcount: '372'
+ht-degree: 4%
 
 ---
 
 # Publicação em massa
 
-Ao publicar, geralmente é necessário mais de um tipo de documentação. Usando Coleções de mapas, você pode controlar o número e os tipos de saída que serão montados e gerados, e iniciar a publicação em massa. O Painel do Publish permite exibir trabalhos de publicação ativos. O Painel do Publish em massa fornece uma maneira de ativar coleções em massa.
+Ao publicar, geralmente é necessário mais de um tipo de documentação. Usando Coleções de mapas, você pode controlar o número e os tipos de saída que serão montados e gerados, e iniciar a publicação em massa. O Painel de publicação permite exibir trabalhos de publicação ativos. O Painel de publicação em massa fornece uma maneira de ativar coleções em massa.
 
 >[!VIDEO](https://video.tv.adobe.com/v/338985?quality=12&learn=on)
 
@@ -61,25 +61,24 @@ Usando Coleções de Mapas, você pode controlar os tipos de saída que serão g
 
 1. Revise o resultado.
 
-## Exibição de trabalhos de publicação ativos no Painel do Publish
+## Exibição de trabalhos de publicação ativos no Painel de publicação
 
-O Painel do Publish permite exibir arquivos
+O Painel de publicação permite exibir arquivos
 trabalhos de publicação. Ela mostra uma lista dinâmica de mapas e seus status atuais. É possível rastrear, gerenciar ou cancelar a publicação de workflows.
 
 1. Na exibição Navegação, clique no ícone **Ferramentas**.
 
 1. Clique em **[!DNL Guides]**.
 
-1. Selecione o bloco **Painel do Publish**.
+1. Selecione o bloco **Publicar painel**.
 
-       Se o painel estiver em branco, não há trabalhos de publicação em execução.
-       
-   
+   Se o painel estiver em branco, significa que não há trabalhos de publicação em execução.
+
 1. Filtre o painel conforme necessário para exibir todos os trabalhos de publicação.
 
-### Trabalhar com o painel de Publish em massa
+### Trabalhar com o painel de publicação em massa
 
-O Painel de Publish em massa permite trabalhar com Coleções de ativação em massa e controlar vários tipos de saída.
+O Painel de publicação em massa permite que você trabalhe com Coleções de ativação em massa e controle vários tipos de saída.
 
 ### Criação de uma coleção de ativação em massa
 
@@ -87,7 +86,7 @@ O Painel de Publish em massa permite trabalhar com Coleções de ativação em m
 
 1. Clique em **[!DNL Guides]**.
 
-1. Selecione o bloco **Painel do Publish em massa**.
+1. Selecione o bloco **Painel de publicação em massa**.
 
 1. Digite um Título de coleção.
 
@@ -105,9 +104,9 @@ O Painel de Publish em massa permite trabalhar com Coleções de ativação em m
 1. Clique em **Concluído**.
 1. Feche a coleção de mapas quando terminar.
 
-### Quick Publish uma coleção de ativação em massa
+### Publicar rapidamente uma coleção de ativação em massa
 
 1. Selecione um bloco Coleção de Ativação em Massa.
 1. Clique em **Abrir**.
 1. Selecione um ou mais mapas.
-1. Clique em **Quick Publish**.
+1. Clique em **Publicação rápida**.
