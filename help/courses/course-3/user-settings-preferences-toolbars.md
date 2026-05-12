@@ -2,9 +2,14 @@
 title: Preferências do usuário, configurações do editor e barras de ferramentas do editor
 description: Alteração das preferências do usuário e das configurações do editor no AEM Guides
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/OA2xVO7uyM-70UZKo4oq37HvbpXkTWKmCmQjGkppF7o
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: 1171
 ht-degree: 1%
 
 ---
@@ -221,7 +226,7 @@ A guia Condição permite configurar várias propriedades.
 
 ## Criar um perfil de publicação nas Configurações do editor
 
-Os perfis do Publish podem ser usados para publicar a base de conhecimento. Por exemplo, o Salesforce usa um aplicativo configurado com uma chave do consumidor e segredo do consumidor. Essas informações podem ser usadas para criar um perfil de publicação do Salesforce.
+Perfis de publicação podem ser usados para publicar a base de dados de conhecimento. Por exemplo, o Salesforce usa um aplicativo configurado com uma chave do consumidor e um segredo do consumidor. Essas informações podem ser usadas para criar um perfil de publicação do Salesforce.
 
 1. Clique no ícone [!UICONTROL **Configurações do editor**] na barra de ferramentas superior.
 

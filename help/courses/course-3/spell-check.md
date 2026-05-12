@@ -2,9 +2,12 @@
 title: Verificação ortográfica e localizar/substituir
 description: Utilização da verificação ortográfica e localizar/substituir no AEM Guides
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/cSdhulSc30KrwsGh1ldB2yn-8eSLccHBpyD-0S1x1M0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: 443
 ht-degree: 0%
 
 ---
@@ -39,7 +42,7 @@ Talvez você queira usar uma ferramenta de verificação ortográfica diferente 
 
    - **Verificação ortográfica do navegador** — a configuração padrão em que a verificação ortográfica usa o dicionário interno do navegador.
 
-   - **Verificação ortográfica do AEM** — use essa opção para criar uma lista de palavras personalizada usando o dicionário personalizado AEM.
+   - **Verificação ortográfica do AEM** — use essa opção para criar uma lista de palavras personalizada usando o dicionário personalizado do AEM.
 
 1. Escolha a **Verificação ortográfica do AEM**.
 
@@ -47,31 +50,31 @@ Talvez você queira usar uma ferramenta de verificação ortográfica diferente 
 
 Configurar um dicionário personalizado
 
-O administrador pode alterar as configurações para que o dicionário AEM reconheça palavras personalizadas, como nomes de empresas.
+O administrador pode alterar as configurações para que o dicionário do AEM reconheça palavras personalizadas, como nomes de empresas.
 
 1. Navegue até o painel **Ferramentas**.
 
-1. Faça logon em **CRXDE Lite**.
+1. Faça logon no **CRXDE Lite**.
 
-   ![Ícone de CRXDE Lite da IU do AEM](images/lesson-11/crxde-lite.png)
+   ![Ícone CRXDE Lite da Interface do AEM](images/lesson-11/crxde-lite.png)
 
 1. Navegue até o nó **_/apps/fmdita/config_**.
 
-   ![Nó de configuração de CRXDE Lite](images/lesson-11/config-node.png)
+   ![Nó de configuração do CRXDE Lite](images/lesson-11/config-node.png)
 
 1. Crie um novo arquivo.
 
-   a. Clique com o botão direito do mouse na pasta de configuração.
+   a) Clique com o botão direito do mouse na pasta de configuração.
 
-   b. Escolha **Criar > Criar arquivo**.
+   b) Escolha **Criar > Criar arquivo**.
 
    ![Criação do novo arquivo de dicionário](images/lesson-11/new-dictionary-file.png)
 
-   c. Nomeie o arquivo _&#x200B;**user_dictionary.txt**&#x200B;_.
+   c) Nomeie o arquivo _**user_dictionary.txt**_.
 
    ![Texto do dicionário do usuário](images/lesson-11/user-dictionary.png)
 
-   d. Clique em [!UICONTROL **OK**].
+   d) Clique em [!UICONTROL **OK**].
 
 1. Abra o arquivo.
 
@@ -81,7 +84,7 @@ O administrador pode alterar as configurações para que o dicionário AEM recon
 
 1. Feche o arquivo.
 
-Os autores podem precisar reiniciar a sessão do Editor da Web para obter a lista de palavras personalizada atualizada no dicionário AEM.
+Os autores podem precisar reiniciar a sessão do Editor da Web para obter a lista de palavras personalizada atualizada no Dicionário do AEM.
 
 ## Localizar e substituir em um único arquivo
 

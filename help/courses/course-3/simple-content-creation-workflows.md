@@ -2,16 +2,19 @@
 title: Fluxos de trabalho simples de criação de conteúdo
 description: Criação de conteúdo no AEM Guides
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/fLMRJWYDwHU-0ZbbUQ2kFZ1ZUM4vIwHccPV3q-pkn0I
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: 720
 ht-degree: 1%
 
 ---
 
 # Fluxos de trabalho de criação de conteúdo simples
 
-O Editor do AEM Guides tem vários atalhos que simplificam o fluxo de trabalho de criação de conteúdo. Esses atalhos permitem que os usuários adicionem e modifiquem imagens rapidamente, trabalhem com vários tópicos de uma só vez, corrijam erros, baixem PDF de tópicos e trabalhem com versões e rótulos.
+O Editor do AEM Guides tem vários atalhos que simplificam o fluxo de trabalho de criação de conteúdo. Esses atalhos permitem que os usuários adicionem e modifiquem imagens rapidamente, trabalhem com vários tópicos de uma só vez, corrijam erros, baixem PDFs de tópicos e trabalhem com versões e rótulos.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342770?quality=12&learn=on)
 
@@ -73,19 +76,19 @@ A exibição dividida é útil ao comparar tópicos, copiar e colar entre tópic
 
 O erro foi corrigido no texto do tópico.
 
-## Baixar um PDF de tópico
+## Baixar um tópico do PDF
 
-Os usuários podem querer baixar um PDF do tópico atual para marcar ou compartilhar com outros.
+Os usuários podem baixar uma PDF do tópico atual para marcar ou compartilhar com outros.
 
 1. Clique em [!UICONTROL **Visualizar**] na parte superior direita da tela.
 
-1. Clique no [!UICONTROL **ícone de PDF**] acima do tópico. Uma caixa de diálogo é exibida.
+1. Clique no [!UICONTROL **ícone do PDF**] acima do tópico. Uma caixa de diálogo é exibida.
 
-   ![Exportação de PDF](images/lesson-15/pdf-export.png)
+   ![Exportação PDF](images/lesson-15/pdf-export.png)
 
-1. Preencha as informações para o **Nome da Transformação** ou os **Argumentos de Linha de Comando DITA-OT**, se necessário. Observe que um PDF ainda será gerado se todos os campos forem deixados em branco.
+1. Preencha as informações para o **Nome da Transformação** ou os **Argumentos de Linha de Comando DITA-OT**, se necessário. Observe que uma PDF ainda será gerada se todos os campos forem deixados em branco.
 
-1. Clique em [!UICONTROL **Baixar**]. O PDF é gerado.
+1. Clique em [!UICONTROL **Baixar**]. O PDF gera.
 
 1. Use os ícones disponíveis para configurar, baixar ou compartilhar o tópico do PDF.
 
@@ -125,9 +128,9 @@ Tentar rastrear o estado de um tópico com base somente no Número da versão po
 
 1. No Perfil de pasta, configure o Editor de XML.
 
-   a. Selecione Editar na parte superior esquerda da tela.
+   a) Selecione Editar na parte superior esquerda da tela.
 
-   b. Em Rótulos de versão do conteúdo XML, adicione um novo tópico ou use um existente.
+   b) Em Rótulos de versão do conteúdo XML, adicione um novo tópico ou use um existente.
 
    ![Rótulos de Versão de Conteúdo](images/lesson-15/version-labels.png)
 

@@ -2,9 +2,13 @@
 title: Trabalho com relatórios
 description: Trabalhando com Relatórios em [!DNL Adobe Experience Manager Guides]
 exl-id: 755506a6-c416-4a8c-8359-8db7e63a90a4
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/k4uvmKzypx6Z29GkMbzV01G62BQp4A3aNDuQYjJDhUI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: 710
 ht-degree: 0%
 
 ---
@@ -77,14 +81,14 @@ O indicador de linha mostrará onde o tópico será colocado.
 
 1. Selecione **Salvar**.
 
-## Gerar uma saída do site AEM
+## Gerar uma saída do site do AEM
 
 1. No Repositório, selecione o ícone de Reticências no mapa para abrir o menu Opções e **Abrir Painel de Mapa.**
 
    ![open-map-dashboard.png](images/open-map-dashboard.png)
 
    O Painel do mapa é aberto em outra guia.
-1. Na guia Predefinições de saída, selecione **Site AEM**.
+1. Na guia Predefinições de saída, selecione **Site do AEM**.
 
    ![aem-site-checkbox](images/aem-site-checkbox.png)
 
@@ -118,7 +122,7 @@ Se as imagens estiverem ausentes em seus arquivos, uma causa comum pode ser o co
 
 1. Selecione **Carregar**.
 
-As imagens ausentes foram carregadas. Agora, uma saída de site AEM recém-gerada exibirá essas imagens, e a guia Relatórios não exibirá mais erros de imagem ausentes.
+As imagens ausentes foram carregadas. Agora, uma saída de site do AEM recém-gerada exibirá essas imagens, e a guia Relatórios não exibirá mais erros de imagem ausentes.
 
 ## Resolvendo conrefs com falha
 
@@ -139,4 +143,4 @@ Além da opção [!UICONTROL Carregar Assets], você pode carregar ativos arrast
 1. Arraste e solte o arquivo na pasta.
 O arquivo é carregado e o erro conref é resolvido.
 
-Todos os erros foram resolvidos. A página Relatórios indicará que não há mais erros e a geração de um site AEM resultará em uma saída completa sem componentes ausentes.
+Todos os erros foram resolvidos. A página Relatórios indicará que não há mais erros e a geração de um site do AEM resultará em uma saída completa sem componentes ausentes.
