@@ -2,9 +2,17 @@
 title: Referências cruzadas e links
 description: Criação de referências cruzadas e links no AEM Guides
 exl-id: bee7d50f-cbdd-4ac8-b15b-101febc4ae80
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/K55H51fnM7bsR68-HQWbNHrSxHgQBPkM-jnGG-OFIbw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: 362
 ht-degree: 0%
 
 ---
@@ -26,13 +34,13 @@ Os arquivos de exemplo que você pode optar por usar para esta lição são forn
 
 1. Atribua uma ID ao elemento que será referenciado.
 
-   a. Clique dentro do elemento.
+   a) Clique dentro do elemento.
 
-   b. No painel Propriedades de conteúdo, escolha **ID** na lista suspensa Atributo.
+   b) No painel Propriedades de conteúdo, escolha **ID** na lista suspensa Atributo.
 
-   c. Digite um nome lógico no campo Valor.
+   c) Digite um nome lógico no campo Value.
 
-   d. Visualize o elemento e seu valor em **Modo de Exibição de Estrutura de Tópicos**, se desejado.
+   d) Exiba o elemento e seu valor na **Exibição da Estrutura de Tópicos**, se desejado.
 
 1. **Salve** o tópico para garantir que o Repositório tenha a ID atualizada.
 

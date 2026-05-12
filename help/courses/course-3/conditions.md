@@ -1,11 +1,17 @@
 ---
 title: Condições
-description: Trabalhar com condições em Guids AEM
+description: Trabalhar com condições em AEM Guids
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/RmYnleEQKJitdoHoBKuBDRR1LdFcqmMm4lEDqF3E-vY
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 1%
+source-wordcount: 498
+ht-degree: 2%
 
 ---
 
@@ -63,15 +69,15 @@ O painel Condições permite a atribuição controlada de pares de Atributo e Va
 
 1. Modifique as **Preferências do Usuário**.
 
-   a. Clique no ícone Preferências do Usuário.
+   a) Clique no ícone Preferências do usuário.
 
    ![Ícone de Preferências do Usuário](images/lesson-13/user-prefs-icon.png)
 
-   b. Preencha os campos obrigatórios na caixa de diálogo **Preferências do Usuário**. Por exemplo:
+   b) Preencha os campos obrigatórios na caixa de diálogo **Preferências do Usuário**. Por exemplo:
 
    ![Preferências do usuário](images/lesson-13/user-preferences.png)
 
-   c. Clique em [!UICONTROL **Salvar**].
+   c) Clique em [!UICONTROL **Salvar**].
 
 1. No painel Condições, expanda os menus suspensos para Público-alvo e Plataforma. Observe que as condições disponíveis são específicas do Perfil da pasta.
 
@@ -89,15 +95,15 @@ Os mapas do Esquema do assunto são uma forma especializada de ditamap e são re
 
 1. Configure as Preferências do Usuário.
 
-   a. Clique no ícone [!UICONTROL **Preferências do Usuário**].
+   a) Clique no ícone [!UICONTROL **Preferências do Usuário**].
 
    ![Preferências do usuário](images/lesson-13/user-prefs-icon-2.png)
 
-   b. Preencha os campos na caixa de diálogo **Preferências do Usuário**.
+   b) Preencha os campos na caixa de diálogo **Preferências do Usuário**.
 
-   c. Clique no símbolo de pasta ao lado do campo Caminho base para escolher o caminho para o arquivo desejado.
+   c) Clique no símbolo de pasta ao lado do campo Caminho base para escolher o caminho para o arquivo desejado.
 
-   d. Clique em [!UICONTROL **Selecionar**].
+   d) Clique em [!UICONTROL **Selecionar**].
 
    e. Clique no símbolo de chave ao lado do campo **Mapa raiz** para inserir um caminho.
 
@@ -107,11 +113,11 @@ Os mapas do Esquema do assunto são uma forma especializada de ditamap e são re
 
    ![Preferências do usuário](images/lesson-13/user-preferences-2.png)
 
-   f. Restrinja os ativos exibidos selecionando as pastas que deseja usar.
+   f) Restrinja os ativos exibidos selecionando a(s) pasta(s) que deseja usar.
 
-   g. Clique em [!UICONTROL **Selecionar**].
+   g) Clique em [!UICONTROL **Selecionar**].
 
-   h. Clique em [!UICONTROL **Salvar**].
+   h) Clique em [!UICONTROL **Salvar**].
 
 O esquema de assunto foi atribuído.
 

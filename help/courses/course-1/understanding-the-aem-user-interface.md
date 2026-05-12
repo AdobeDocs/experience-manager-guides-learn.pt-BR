@@ -1,15 +1,21 @@
 ---
-title: Compreendendo a interface de usuário do AEM em [!DNL AEM Guides]
-description: Compreendendo a interface de usuário do AEM em [!DNL Adobe Experience Manager Guides]
+title: Compreendendo a interface de usuário do AEM em  [!DNL AEM Guides]
+description: Compreendendo a interface de usuário do AEM em  [!DNL Adobe Experience Manager Guides]
 exl-id: 955a05ed-92d3-480e-9c6b-a0ff362cc464
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/k69iwbiqIEyFjgOMiBC2gMm1QWqxddSTC1xoRQmJmKQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: 361
 ht-degree: 2%
 
 ---
 
-# Compreender a interface do usuário do AEM
+# Noções básicas sobre a interface do usuário do AEM
 
 Saiba mais sobre como gerenciar ativos, arquivos e pastas no Editor de XML para Experience Manager.
 
@@ -18,7 +24,7 @@ Saiba mais sobre como gerenciar ativos, arquivos e pastas no Editor de XML para 
 ## Acessando o Editor de XML
 
 1. Na tela de logon, digite seu nome de usuário e senha e selecione **[!UICONTROL Entrar]**.
-1. Selecione **[!UICONTROL Editor XML]** na página de Navegação do AEM.
+1. Selecione **[!UICONTROL Editor XML]** na página Navegação do AEM.
 
 ## Visualizações do Editor de XML
 
