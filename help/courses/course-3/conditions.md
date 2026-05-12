@@ -3,8 +3,11 @@ title: Condições
 description: Trabalhar com condições em AEM Guids
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
 TQID: https://experienceleague.adobe.com/RmYnleEQKJitdoHoBKuBDRR1LdFcqmMm4lEDqF3E-vY
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
 source-wordcount: 498
@@ -44,7 +47,7 @@ Os arquivos de exemplo que você pode optar por usar para esta lição são forn
 
 >[!NOTE]
 >
-OBSERVAÇÃO: configurar um Perfil global pode ser uma maneira antecipada e eficiente de controlar o uso de atributos e valores para seguir um guia de estilo consistente.
+>OBSERVAÇÃO: configurar um Perfil global pode ser uma maneira antecipada e eficiente de controlar o uso de atributos e valores para seguir um guia de estilo consistente.
 
 ## Designar atributos a elementos
 
@@ -106,7 +109,7 @@ Os mapas do Esquema do assunto são uma forma especializada de ditamap e são re
 
    >[!IMPORTANT]
    >
-   Importante: o Mapa de raiz selecionado deve ser o mapa que contém o Esquema de assunto.
+   >Importante: o Mapa de raiz selecionado deve ser o mapa que contém o Esquema de assunto.
 
    ![Preferências do usuário](images/lesson-13/user-preferences-2.png)
 
